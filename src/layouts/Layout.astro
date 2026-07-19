@@ -1,0 +1,35 @@
+---
+import { theme } from "../data/site.config";
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+}
+
+const { title = "Ayman Elsawah — Network" } = Astro.props;
+
+const rootVars = `:root {
+  --bg: ${theme.backgroundColor};
+  --glow: ${theme.innerGlowColor};
+  --ring: ${theme.defaultRingColor};
+  --text: ${theme.textColor};
+  --secondary-text: ${theme.secondaryTextColor};
+  --line: ${theme.lineColor};
+  --center-ring: ${theme.centerRingColor};
+  --cta-bg: ${theme.ctaBackgroundColor};
+  --cta-text: ${theme.ctaTextColor};
+}`;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <Fragment set:html={`<style>${rootVars}</style>`} />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

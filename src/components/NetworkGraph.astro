@@ -1,0 +1,194 @@
+---
+import { nodes, theme } from "../data/site.config";
+import CenterNode from "./CenterNode.astro";
+
+// Layout constants (px), tuned for a spacious desktop layout.
+const STAGE_SIZE = 820;
+const RADIUS = 320;
+const CENTER = STAGE_SIZE / 2;
+const START_ANGLE_DEG = -90; // first node straight up
+const count = nodes.length;
+
+const positioned = nodes.map((node, i) => {
+  const angle = START_ANGLE_DEG + (360 / count) * i;
+  const rad = (angle * Math.PI) / 180;
+  const x = CENTER + RADIUS * Math.cos(rad);
+  const y = CENTER + RADIUS * Math.sin(rad);
+  const size = node.size ?? theme.defaultNodeSize;
+  const ring = node.ringColor ?? theme.defaultRingColor;
+  return { node, x, y, size, ring };
+});
+---
+
+<div class="graph-stage" style={`--stage-size: ${STAGE_SIZE}px;`}>
+  <svg
+    class="lines"
+    width={STAGE_SIZE}
+    height={STAGE_SIZE}
+    viewBox={`0 0 ${STAGE_SIZE} ${STAGE_SIZE}`}
+  >
+    {positioned.map(({ node, x, y, ring }) => (
+      <line
+        data-line-for={node.id}
+        x1={CENTER}
+        y1={CENTER}
+        x2={x}
+        y2={y}
+        stroke={theme.lineColor}
+        stroke-width="1"
+        stroke-dasharray="3 4"
+        style={`--ring: ${ring};`}
+      />
+    ))}
+  </svg>
+
+  <div class="center-wrap" style={`left: ${CENTER}px; top: ${CENTER}px;`}>
+    <CenterNode />
+  </div>
+
+  {positioned.map(({ node, x, y, size, ring }) => (
+    <a
+      class="node"
+      data-node-id={node.id}
+      href={node.href}
+      target="_blank"
+      rel="noopener noreferrer"
+      data-tooltip={node.tooltip}
+      style={`left: ${x}px; top: ${y}px; width: ${size}px; height: ${size}px; --ring: ${ring};`}
+    >
+      <span class="node-main">
+        {node.mainText.split("\n").map((line) => <span>{line}</span>)}
+      </span>
+      <span class="node-secondary" style={`color: ${ring};`}>{node.secondaryText}</span>
+    </a>
+  ))}
+</div>
+
+<script>
+  const root = document.querySelector<HTMLElement>(".graph-stage");
+  if (root) {
+    const nodeEls = root.querySelectorAll<HTMLElement>(".node[data-node-id]");
+    nodeEls.forEach((el) => {
+      const id = el.dataset.nodeId;
+      const line = root.querySelector<SVGLineElement>(`line[data-line-for="${id}"]`);
+      if (!line) return;
+      el.addEventListener("mouseenter", () => line.classList.add("line-active"));
+      el.addEventListener("mouseleave", () => line.classList.remove("line-active"));
+      el.addEventListener("focus", () => line.classList.add("line-active"));
+      el.addEventListener("blur", () => line.classList.remove("line-active"));
+    });
+  }
+</script>
+
+<style define:vars={{ ring: theme.defaultRingColor }}>
+  .graph-stage {
+    position: relative;
+    width: var(--stage-size);
+    height: var(--stage-size);
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .lines {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .lines line {
+    transition:
+      stroke 0.25s ease,
+      stroke-width 0.25s ease,
+      opacity 0.25s ease;
+  }
+
+  .lines line.line-active {
+    stroke: var(--ring);
+    stroke-width: 1.75;
+    opacity: 1;
+  }
+
+  .center-wrap {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+
+  .node {
+    position: absolute;
+    transform: translate(-50%, -50%) scale(1);
+    z-index: 1;
+    border-radius: 50%;
+    border: 1.5px solid var(--ring);
+    background: var(--bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    text-align: center;
+    padding: 0.4rem;
+    transition:
+      transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+      box-shadow 0.3s ease,
+      border-color 0.3s ease;
+  }
+
+  .node:hover,
+  .node:focus-visible {
+    transform: translate(-50%, -50%) scale(1.16);
+    box-shadow: 0 0 30px -2px var(--ring);
+    border-width: 2px;
+    z-index: 4;
+  }
+
+  .node-main {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.15;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .node-secondary {
+    font-size: 0.55rem;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+  }
+
+  /* CSS-only tooltip */
+  .node::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%) translateY(4px) scale(0.96);
+    background: #16181b;
+    color: var(--text);
+    border: 1px solid #2a2d31;
+    padding: 0.35rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.68rem;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition:
+      opacity 0.2s ease,
+      transform 0.2s ease;
+    z-index: 5;
+  }
+
+  .node:hover::after,
+  .node:focus-visible::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0) scale(1);
+  }
+
+  @media (max-width: 700px) {
+    .graph-stage {
+      display: none;
+    }
+  }
+</style>
