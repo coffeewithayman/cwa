@@ -60,7 +60,7 @@ export const theme: ThemeConfig = {
   backgroundColor: "#0a0a0a",
   innerGlowColor: "#1a5c3f",
   defaultRingColor: "#3a8f6f",
-  defaultNodeSize: 120,
+  defaultNodeSize: 160,
   textColor: "#f2f2f2",
   secondaryTextColor: "#8a8a8a",
   lineColor: "#3a3a3a",
@@ -72,88 +72,101 @@ export const theme: ThemeConfig = {
 
 export const centerNode: CenterNodeConfig = {
   name: "Ayman\nElsawah",
-  title: "Fractional CISO",
-  cta: {
-    label: "Book a call",
-    href: "https://cal.com/aymanelsawah",
-  },
+  title: "Head of Security & CISO | Educator",
+  extraText: "Helping people build and understand security.",
+  // cta: {
+  //   label: "Book a call",
+  //   href: "https://cal.com/aymanelsawah",
+  // },
 };
 
 // Add or remove entries here to add/remove nodes — the circular layout
 // recalculates automatically based on how many nodes are in this array.
 export const nodes: NodeConfig[] = [
-  {
-    id: "cloud-security-labs",
-    mainText: "Cloud Security\nLabs",
-    secondaryText: "ADVISORY",
-    tooltip: "Fractional CISO & cloud security advisory work",
-    href: "https://cloudsecuritylabs.io",
-    ringColor: "#3ddc84",
-  },
+  // {
+  //   id: "cloud-security-labs",
+  //   mainText: "Cloud Security\nLabs",
+  //   secondaryText: "ADVISORY",
+  //   tooltip: "Fractional CISO & cloud security advisory work",
+  //   href: "https://cloudsecuritylabs.io",
+  //   ringColor: "#3ddc84",
+  // },
   {
     id: "security-cafe",
     mainText: "The Security\nCafe",
     secondaryText: "NEWSLETTER",
-    tooltip: "Weekly newsletter on security careers and practice",
+    tooltip: "Substack newsletter on security leadership,  careers, and industry insights",
     href: "https://securitycafe.io",
     ringColor: "#4a9eff",
   },
   {
     id: "breaking-in",
-    mainText: "Breaking IN",
+    mainText: "Breaking IN: A Practical Guide to Breaking Into Infosec",
     secondaryText: "BOOK",
-    tooltip: "Book on breaking into the security industry",
-    href: "https://breakinginbook.com",
+    tooltip: "My personal guide to breaking into the information security field",
+    href: "https://breakingintoinfosec.com/",
     ringColor: "#d4a72c",
   },
   {
     id: "getting-into-infosec",
     mainText: "Getting Into Infosec",
     secondaryText: "PODCAST",
-    tooltip: "Podcast interviewing security professionals",
+    tooltip: "Podcast interviewing security professionals as there is no one path into infosec",
     href: "https://gettingintoinfosec.com",
     ringColor: "#e8622c",
   },
+  // {
+  //   id: "zero-trust-101",
+  //   mainText: "Zero Trust 101",
+  //   secondaryText: "COURSE",
+  //   tooltip: "Online course covering zero trust fundamentals",
+  //   href: "https://zerotrust101.com",
+  //   ringColor: "#9b59d0",
+  // },
   {
-    id: "zero-trust-101",
-    mainText: "Zero Trust 101",
-    secondaryText: "COURSE",
-    tooltip: "Online course covering zero trust fundamentals",
-    href: "https://zerotrust101.com",
-    ringColor: "#9b59d0",
-  },
-  {
-    id: "talks-press",
-    mainText: "Talks & Press",
+    id: "Enterprise-Security-Weekly",
+    mainText: "Eneterprise Security Weekly Co-Host",
     secondaryText: "SPEAKING",
-    tooltip: "Conference talks, interviews, and press coverage",
-    href: "https://cloudsecuritylabs.io/talks",
+    tooltip: "Co-Host with Host Adrian Sanabria on the Enterprise Security Weekly Podcast",
+    href: "https://youtu.be/o-Edp9puMEo?si=71SjUt1akYGDx4vH&t=2340",
     ringColor: "#3ddc84",
   },
   {
-    id: "security-cafe-circle",
-    mainText: "Security Cafe Circle",
-    secondaryText: "COMMUNITY",
-    tooltip: "Community for security professionals",
-    href: "https://securitycafe.io/circle",
-    ringColor: "#4a9eff",
+    id: "fractional-ciso-course",
+    mainText: "Fractional CISO\nCourse",
+    secondaryText: "COURSE",
+    tooltip: "Course on becoming a fractional/virtual CISO",
+    href: "https://securitycafe.thinkific.com/courses/vciso-fractional-ciso-course",
+    ringColor: "#9b59d0",
   },
+  // {
+  //   id: "security-cafe-circle",
+  //   mainText: "Security Cafe Circle",
+  //   secondaryText: "COMMUNITY",
+  //   tooltip: "Community for security professionals",
+  //   href: "https://securitycafe.io/chat ",
+  //   ringColor: "#4a9eff",
+  // },
 ];
 
 export const chrome = {
-  headerLabel: "AYMAN.NETWORK",
+  headerLabel: "Ayman Elsawah (@coffeewithayman)",
   aboutTitle: "ABOUT THIS NETWORK",
   // Markdown supported: **bold**, _italic_, [links](https://...), multiple paragraphs.
-  aboutTextMarkdown: `Everything I make connects back to one idea: helping people build and understand security. 17 years in, still adding nodes — advisory work, writing, a podcast, a course, a community.`,
+  aboutTextMarkdown: `Everything I make connects back to one idea: helping people and companies build and understand security. 
+  
+  Many years in, still adding nodes.`,
   elsewhereTitle: "ELSEWHERE",
-  // Markdown supported: write a bullet list of links, one per line.
-  elsewhereLinksMarkdown: `
-- [Twitter / X](https://twitter.com/)
-- [LinkedIn](https://linkedin.com/)
-- [YouTube](https://youtube.com/)
-- [Instagram](https://instagram.com/)
-- [RSS feed](/rss.xml)
-`,
+  // One entry per link. `icon` picks the matching glyph rendered in
+  // ElsewhereList.astro (see the `icons` map there for the supported keys).
+  elsewhereLinks: [
+    { label: "Twitter / X", href: "https://twitter.com/coffeewithayman", icon: "x" },
+    { label: "LinkedIn", href: "https://linkedin.com/in/infosecleader", icon: "linkedin" },
+    { label: "YouTube", href: "https://youtube.com/@coffeewithayman", icon: "youtube" },
+    { label: "Instagram", href: "https://instagram.com/coffeewithayman", icon: "instagram" },
+    { label: "GitHub", href: "https://github.com/coffeewithayman", icon: "github" },
+    { label: "RSS feed", href: "https://securitycafe.io/feed", icon: "rss" },
+  ] satisfies { label: string; href: string; icon: string }[],
   footerText: `© ${new Date().getFullYear()} Ayman Elsawah`,
-  footerRight: "rendered as force graph · static preview",
+  // footerRight: "rendered as force graph · static preview",
 };

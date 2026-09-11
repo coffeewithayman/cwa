@@ -21,7 +21,7 @@ npm run preview   # preview the production build
 
 ## Everything you'll want to edit lives in one file
 
-**`src/data/site.config.ts`**
+**[`src/data/site.config.ts`](src/data/site.config.ts)**
 
 This is the only file you need to touch for day-to-day changes: colors, the
 center node, the satellite nodes, and the header/about/elsewhere/footer text.
@@ -66,21 +66,22 @@ Edit the `centerNode` object: `name`, `title`, optional `extraText`, and an
 optional `cta` (`{ label, href }`) — the only link allowed on the center
 node, matching the "Book a call" button in the design.
 
-### Editing the "About" box and "Elsewhere" links (Markdown!)
+### Editing the "About" box and "Elsewhere" links
 
-Both live in `chrome` and are written as **Markdown**, rendered on the page
-via [`marked`](https://www.npmjs.com/package/marked):
+Both live in `chrome`:
 
-- `chrome.aboutTextMarkdown` — free-form markdown (paragraphs, `**bold**`,
-  `_italic_`, `[links](https://...)`).
-- `chrome.elsewhereLinksMarkdown` — a markdown bullet list of links, one per
-  line, e.g.:
+- `chrome.aboutTextMarkdown` — free-form **Markdown** (paragraphs,
+  `**bold**`, `_italic_`, `[links](https://...)`), rendered via
+  [`marked`](https://www.npmjs.com/package/marked).
+- `chrome.elsewhereLinks` — an array of `{ label, href, icon }` entries, e.g.:
 
-  ```md
-  - [Twitter / X](https://twitter.com/)
-  - [LinkedIn](https://linkedin.com/)
+  ```ts
+  { label: "GitHub", href: "https://github.com/you", icon: "github" },
   ```
 
+  `icon` picks the glyph rendered next to the label — see the `icons` map in
+  [`ElsewhereList.astro`](src/components/ElsewhereList.astro) for the
+  supported keys (`x`, `linkedin`, `youtube`, `instagram`, `github`, `rss`).
   Every link automatically gets the small "↗" arrow — you don't need to add
   it yourself.
 
@@ -93,26 +94,20 @@ in `nodes`.
 
 ## Project structure
 
-```
-src/
-├── data/
-│   └── site.config.ts     # <- edit this for content/color/node changes
-├── layouts/
-│   └── Layout.astro        # HTML shell, injects theme as CSS variables
-├── components/
-│   ├── NetworkGraph.astro  # desktop graph: circular layout, SVG lines, hover effects
-│   ├── CenterNode.astro
-│   ├── MobileLinkList.astro # stacked-list fallback under 700px width
-│   ├── AboutBox.astro      # renders aboutTextMarkdown
-│   └── ElsewhereList.astro # renders elsewhereLinksMarkdown
-└── pages/
-    └── index.astro          # assembles the page
-```
+- [`src/data/site.config.ts`](src/data/site.config.ts) — edit this for content/color/node changes
+- [`src/layouts/Layout.astro`](src/layouts/Layout.astro) — HTML shell, injects theme as CSS variables
+- `src/components/`
+  - [`NetworkGraph.astro`](src/components/NetworkGraph.astro) — desktop graph: circular layout, SVG lines, hover effects
+  - [`CenterNode.astro`](src/components/CenterNode.astro)
+  - [`MobileLinkList.astro`](src/components/MobileLinkList.astro) — stacked-list fallback under 700px width
+  - [`AboutBox.astro`](src/components/AboutBox.astro) — renders aboutTextMarkdown
+  - [`ElsewhereList.astro`](src/components/ElsewhereList.astro) — renders elsewhereLinks with icons
+- [`src/pages/index.astro`](src/pages/index.astro) — assembles the page
 
 You generally shouldn't need to touch anything outside of
-`src/data/site.config.ts` unless you're changing layout/behavior itself
+[`src/data/site.config.ts`](src/data/site.config.ts) unless you're changing layout/behavior itself
 (e.g. graph size, animation, breakpoints) — those live in
-`NetworkGraph.astro` and `pages/index.astro`.
+[`NetworkGraph.astro`](src/components/NetworkGraph.astro) and [`pages/index.astro`](src/pages/index.astro).
 
 ## Behavior notes
 
