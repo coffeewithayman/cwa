@@ -9,6 +9,11 @@ const CENTER = STAGE_SIZE / 2;
 const START_ANGLE_DEG = -90; // first node straight up
 const count = nodes.length;
 
+// Sub-bubble fan-out layout (for expandable nodes with `children`).
+const SUB_RADIUS = RADIUS + 210;
+const SUB_NODE_SIZE = 108;
+const SUB_ARC_SPREAD_DEG = 46;
+
 const positioned = nodes.map((node, i) => {
   const angle = START_ANGLE_DEG + (360 / count) * i;
   const rad = (angle * Math.PI) / 180;
@@ -16,7 +21,21 @@ const positioned = nodes.map((node, i) => {
   const y = CENTER + RADIUS * Math.sin(rad);
   const size = node.size ?? theme.defaultNodeSize;
   const ring = node.ringColor ?? theme.defaultRingColor;
-  return { node, x, y, size, ring };
+
+  const childList = node.children ?? [];
+  const children = childList.map((child, j) => {
+    const spreadStart = angle - SUB_ARC_SPREAD_DEG / 2;
+    const childAngle =
+      childList.length === 1
+        ? angle
+        : spreadStart + (SUB_ARC_SPREAD_DEG / (childList.length - 1)) * j;
+    const childRad = (childAngle * Math.PI) / 180;
+    const cx = CENTER + SUB_RADIUS * Math.cos(childRad);
+    const cy = CENTER + SUB_RADIUS * Math.sin(childRad);
+    return { child, x: cx, y: cy, ring: child.ringColor ?? ring };
+  });
+
+  return { node, x, y, size, ring, children };
 });
 ---
 
@@ -40,28 +59,88 @@ const positioned = nodes.map((node, i) => {
         style={`--ring: ${ring};`}
       />
     ))}
+    {positioned.flatMap(({ node, x: px, y: py, children }) =>
+      children.map(({ child, x, y, ring }) => (
+        <line
+          class="sub-line"
+          data-line-for={child.id}
+          data-parent-line={node.id}
+          x1={px}
+          y1={py}
+          x2={x}
+          y2={y}
+          stroke={theme.lineColor}
+          stroke-width="1"
+          stroke-dasharray="3 4"
+          style={`--ring: ${ring};`}
+        />
+      ))
+    )}
   </svg>
 
   <div class="center-wrap" style={`left: ${CENTER}px; top: ${CENTER}px;`}>
     <CenterNode />
   </div>
 
-  {positioned.map(({ node, x, y, size, ring }) => (
-    <a
-      class="node"
-      data-node-id={node.id}
-      href={node.href}
-      target="_blank"
-      rel="noopener noreferrer"
-      data-tooltip={node.tooltip}
-      style={`left: ${x}px; top: ${y}px; width: ${size}px; height: ${size}px; --ring: ${ring};`}
-    >
-      <span class="node-main">
-        {node.mainText.split("\n").map((line) => <span>{line}</span>)}
-      </span>
-      <span class="node-secondary" style={`color: ${ring};`}>{node.secondaryText}</span>
-    </a>
-  ))}
+  {positioned.map(({ node, x, y, size, ring, children }) => {
+    const style = `left: ${x}px; top: ${y}px; width: ${size}px; height: ${size}px; --ring: ${ring};`;
+    if (children.length > 0) {
+      return (
+        <button
+          type="button"
+          class="node node-parent"
+          data-node-id={node.id}
+          data-tooltip={node.tooltip}
+          aria-expanded="false"
+          style={style}
+        >
+          <span class="node-main">
+            {node.mainText.split("\n").map((line) => <span>{line}</span>)}
+          </span>
+          <span class="node-secondary" style={`color: ${ring};`}>{node.secondaryText}</span>
+          <span class="node-expand-icon" aria-hidden="true">+</span>
+        </button>
+      );
+    }
+    return (
+      <a
+        class="node"
+        data-node-id={node.id}
+        href={node.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        data-tooltip={node.tooltip}
+        style={style}
+      >
+        <span class="node-main">
+          {node.mainText.split("\n").map((line) => <span>{line}</span>)}
+        </span>
+        <span class="node-secondary" style={`color: ${ring};`}>{node.secondaryText}</span>
+      </a>
+    );
+  })}
+
+  {positioned.flatMap(({ node, children }) =>
+    children.map(({ child, x, y, ring }) => (
+      <a
+        class="node node-sub"
+        data-node-id={child.id}
+        data-parent={node.id}
+        href={child.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        data-tooltip={child.tooltip}
+        tabindex="-1"
+        aria-hidden="true"
+        style={`left: ${x}px; top: ${y}px; width: ${SUB_NODE_SIZE}px; height: ${SUB_NODE_SIZE}px; --ring: ${ring};`}
+      >
+        <span class="node-main">
+          {child.mainText.split("\n").map((line) => <span>{line}</span>)}
+        </span>
+        <span class="node-secondary" style={`color: ${ring};`}>{child.secondaryText}</span>
+      </a>
+    ))
+  )}
 </div>
 
 <script>
@@ -76,6 +155,61 @@ const positioned = nodes.map((node, i) => {
       el.addEventListener("mouseleave", () => line.classList.remove("line-active"));
       el.addEventListener("focus", () => line.classList.add("line-active"));
       el.addEventListener("blur", () => line.classList.remove("line-active"));
+    });
+
+    let openGroupId: string | null = null;
+
+    function setGroupOpen(id: string, open: boolean) {
+      const button = root!.querySelector<HTMLButtonElement>(
+        `button.node-parent[data-node-id="${id}"]`
+      );
+      button?.setAttribute("aria-expanded", String(open));
+      button?.classList.toggle("is-open", open);
+      root!.querySelectorAll<HTMLElement>(`.node-sub[data-parent="${id}"]`).forEach((el) => {
+        el.classList.toggle("group-open", open);
+        el.tabIndex = open ? 0 : -1;
+        el.setAttribute("aria-hidden", String(!open));
+      });
+      root!.querySelectorAll<SVGLineElement>(`.sub-line[data-parent-line="${id}"]`).forEach((el) => {
+        el.classList.toggle("group-open", open);
+      });
+    }
+
+    function closeOpenGroup() {
+      if (openGroupId) {
+        setGroupOpen(openGroupId, false);
+        openGroupId = null;
+      }
+    }
+
+    root.querySelectorAll<HTMLButtonElement>("button.node-parent[data-node-id]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const id = button.dataset.nodeId!;
+        if (openGroupId === id) {
+          closeOpenGroup();
+        } else {
+          closeOpenGroup();
+          setGroupOpen(id, true);
+          openGroupId = id;
+        }
+      });
+    });
+
+    document.addEventListener("click", (e) => {
+      if (!openGroupId) return;
+      const target = e.target as HTMLElement;
+      const withinOpenGroup =
+        target.closest(`button.node-parent[data-node-id="${openGroupId}"]`) ||
+        target.closest(`.node-sub[data-parent="${openGroupId}"]`);
+      if (!withinOpenGroup) closeOpenGroup();
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && openGroupId) {
+        const id = openGroupId;
+        closeOpenGroup();
+        root!.querySelector<HTMLButtonElement>(`button.node-parent[data-node-id="${id}"]`)?.focus();
+      }
     });
   }
 </script>
@@ -184,6 +318,80 @@ const positioned = nodes.map((node, i) => {
   .node:focus-visible::after {
     opacity: 1;
     transform: translateX(-50%) translateY(0) scale(1);
+  }
+
+  button.node {
+    appearance: none;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .node-expand-icon {
+    position: absolute;
+    top: 0.3rem;
+    right: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--secondary-text);
+    transition: transform 0.25s ease;
+  }
+
+  .node-parent.is-open {
+    transform: translate(-50%, -50%) scale(1.1);
+    box-shadow: 0 0 24px -4px var(--ring);
+    border-width: 2px;
+    z-index: 3;
+  }
+
+  .node-parent.is-open .node-expand-icon {
+    transform: rotate(45deg);
+  }
+
+  .node-sub {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.5);
+    pointer-events: none;
+    z-index: 1;
+    transition:
+      transform 0.32s cubic-bezier(0.34, 1.56, 0.64, 1),
+      opacity 0.22s ease;
+  }
+
+  .node-sub.group-open {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    pointer-events: auto;
+  }
+
+  .node-sub.group-open:hover,
+  .node-sub.group-open:focus-visible {
+    transform: translate(-50%, -50%) scale(1.16);
+  }
+
+  .node-sub .node-main {
+    font-size: 0.62rem;
+  }
+
+  .node-sub .node-secondary {
+    font-size: 0.48rem;
+  }
+
+  .lines line.sub-line {
+    opacity: 0;
+    transition:
+      opacity 0.22s ease,
+      stroke 0.25s ease,
+      stroke-width 0.25s ease;
+  }
+
+  .lines line.sub-line.group-open {
+    opacity: 0.7;
+  }
+
+  .lines line.sub-line.group-open.line-active {
+    stroke: var(--ring);
+    stroke-width: 1.75;
+    opacity: 1;
   }
 
   @media (max-width: 700px) {

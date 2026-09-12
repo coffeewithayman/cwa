@@ -43,6 +43,33 @@ recalculates automatically — you never need to set x/y positions.
 },
 ```
 
+### Nesting sub-bubbles under a node
+
+Give a node a `children` array (of `SubNodeConfig` entries — same shape,
+minus `size`/nesting) and it becomes an **expandable** bubble instead of a
+direct link: on desktop it renders as a button that fans its children out
+into smaller sub-bubbles (with connector lines) when clicked; on mobile it
+renders as a `<details>/<summary>` accordion. See the `misc-projects` entry
+in `site.config.ts` for a working example.
+
+```ts
+{
+  id: "misc-projects",
+  mainText: "Misc\nProjects",
+  secondaryText: "GITHUB",
+  tooltip: "Click to expand",
+  href: "#",                       // unused — clicking expands instead of navigating
+  ringColor: "#8a8a8a",
+  children: [
+    { id: "child-1", mainText: "Thing One", secondaryText: "GITHUB", tooltip: "...", href: "https://..." },
+    // ...
+  ],
+},
+```
+
+Sub-bubbles can't have their own `children` — nesting only goes one level
+deep.
+
 ### Changing colors
 
 Edit the `theme` object. Every color used on the site comes from here:
@@ -116,6 +143,10 @@ You generally shouldn't need to touch anything outside of
 - Clicking a satellite node opens its `href` in a new tab. Hovering scales
   the node up, glows its ring, brightens its connector line, and shows the
   tooltip.
+- A node with `children` doesn't link out — clicking it toggles a fan-out
+  of smaller sub-bubbles (with their own connector lines back to the
+  parent). Only one expanded group at a time; clicking elsewhere or
+  pressing Escape closes it. On mobile this is a native accordion instead.
 - Below 700px width, the graph is replaced by `MobileLinkList.astro` — a
   stacked list with the same nodes/links, since a force graph doesn't work
   well on small screens.

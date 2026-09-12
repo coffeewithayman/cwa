@@ -20,6 +20,41 @@ const extraLine = centerNode.extraText?.replace(/\n/g, " ");
   <ul>
     {nodes.map((node) => {
       const ring = node.ringColor ?? theme.defaultRingColor;
+      if (node.children && node.children.length > 0) {
+        return (
+          <li class="has-children">
+            <details>
+              <summary style={`--ring: ${ring};`}>
+                <span class="dot"></span>
+                <span class="text">
+                  <span class="main">{node.mainText.replace(/\n/g, " ")}</span>
+                  <span class="secondary">{node.secondaryText}</span>
+                </span>
+                <span class="chevron" aria-hidden="true">⌄</span>
+              </summary>
+              <p class="tooltip">{node.tooltip}</p>
+              <ul class="sub-list">
+                {node.children.map((child) => {
+                  const childRing = child.ringColor ?? ring;
+                  return (
+                    <li>
+                      <a href={child.href} target="_blank" rel="noopener noreferrer" style={`--ring: ${childRing};`}>
+                        <span class="dot"></span>
+                        <span class="text">
+                          <span class="main">{child.mainText.replace(/\n/g, " ")}</span>
+                          <span class="secondary">{child.secondaryText}</span>
+                        </span>
+                        <span class="arrow">↗</span>
+                      </a>
+                      <p class="tooltip">{child.tooltip}</p>
+                    </li>
+                  );
+                })}
+              </ul>
+            </details>
+          </li>
+        );
+      }
       return (
         <li>
           <a href={node.href} target="_blank" rel="noopener noreferrer" style={`--ring: ${ring};`}>
@@ -145,5 +180,53 @@ const extraLine = centerNode.extraText?.replace(/\n/g, " ");
     font-size: 0.68rem;
     color: var(--secondary-text);
     overflow-wrap: break-word;
+  }
+
+  summary {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0.75rem 0.9rem;
+    border: 1px solid #232527;
+    border-radius: 10px;
+    background: #111214;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .chevron {
+    color: var(--secondary-text);
+    font-size: 0.8rem;
+    transition: transform 0.2s ease;
+  }
+
+  details[open] > summary .chevron {
+    transform: rotate(180deg);
+  }
+
+  details[open] > summary {
+    border-color: var(--ring);
+  }
+
+  .sub-list {
+    list-style: none;
+    margin: 0.5rem 0 0;
+    padding: 0 0 0 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-left: 1.5px solid #232527;
+  }
+
+  .sub-list li a {
+    padding: 0.6rem 0.75rem;
+  }
+
+  .sub-list .main {
+    font-size: 0.78rem;
   }
 </style>

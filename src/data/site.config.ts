@@ -11,11 +11,29 @@ export interface NodeConfig {
   secondaryText: string;
   /** Shown on hover. */
   tooltip: string;
-  /** Where the node links to. Opens in a new tab. */
+  /** Where the node links to. Opens in a new tab. Ignored (use "#") when `children` is set — the node expands instead of navigating. */
   href: string;
   /** Diameter in px. Falls back to theme.defaultNodeSize if omitted. */
   size?: number;
   /** Ring/text accent color for this node. Falls back to theme.defaultRingColor if omitted. */
+  ringColor?: string;
+  /**
+   * Optional sub-bubbles. When set (non-empty), this node renders as an
+   * expandable button on desktop (fans out into these sub-bubbles on click)
+   * and as a <details>/<summary> accordion on mobile, instead of linking out
+   * directly.
+   */
+  children?: SubNodeConfig[];
+}
+
+export interface SubNodeConfig {
+  /** Unique id across ALL nodes and sub-nodes site-wide. */
+  id: string;
+  mainText: string;
+  secondaryText: string;
+  tooltip: string;
+  href: string;
+  /** Falls back to the PARENT node's ring color (not theme.defaultRingColor) if omitted. */
   ringColor?: string;
 }
 
@@ -139,6 +157,37 @@ export const nodes: NodeConfig[] = [
     href: "https://securitycafe.thinkific.com/courses/vciso-fractional-ciso-course",
     ringColor: "#9b59d0",
   },
+  {
+    id: "misc-projects",
+    mainText: "Misc\nProjects",
+    secondaryText: "GITHUB",
+    tooltip: "A few smaller side projects and experiments — click to expand",
+    href: "#", // unused — this node expands via `children` instead of navigating
+    ringColor: "#8a8a8a",
+    children: [
+      {
+        id: "sleuthr",
+        mainText: "Sleuthr",
+        secondaryText: "GITHUB",
+        tooltip: "Domain-wide audit tool that finds Google Drive files publicly shared across your Google Workspace, with automated lockdown options",
+        href: "https://github.com/coffeewithayman/sleuthr",
+      },
+      {
+        id: "pong",
+        mainText: "Pong",
+        secondaryText: "GITHUB",
+        tooltip: "Real-time multiplayer Pong with a queue system, persistent leaderboard, and spectator mode — playable in the browser",
+        href: "https://github.com/coffeewithayman/pong",
+      },
+      {
+        id: "visualizer",
+        mainText: "Visualizer",
+        secondaryText: "GITHUB",
+        tooltip: "Real-time audio visualizer that turns microphone input into colorful, customizable frequency bars",
+        href: "https://github.com/coffeewithayman/visualizer",
+      },
+    ],
+  },
   // {
   //   id: "security-cafe-circle",
   //   mainText: "Security Cafe Circle",
@@ -151,7 +200,7 @@ export const nodes: NodeConfig[] = [
 
 export const chrome = {
   headerLabel: "Ayman Elsawah (@coffeewithayman)",
-  aboutTitle: "ABOUT THIS NETWORK",
+  aboutTitle: "About Ayman",
   // Markdown supported: **bold**, _italic_, [links](https://...), multiple paragraphs.
   aboutTextMarkdown: `Everything I make connects back to one idea: helping people and companies build and understand security. 
   
