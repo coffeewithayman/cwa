@@ -37,9 +37,37 @@ const positioned = nodes.map((node, i) => {
 
   return { node, x, y, size, ring, children };
 });
+
+// The sub-bubble fan-out can extend past the nominal STAGE_SIZE canvas
+// (e.g. a left-side node's children fanning further left). Compute the
+// true bounding box of everything that can ever be visible — including
+// collapsed-but-expandable sub-bubbles — so the mobile scale-to-fit script
+// can size/position against reality instead of clipping that overflow.
+const centerHalf = theme.centerNodeSize / 2;
+const bounds = { minX: CENTER - centerHalf, maxX: CENTER + centerHalf, minY: CENTER - centerHalf, maxY: CENTER + centerHalf };
+for (const { x, y, size, children } of positioned) {
+  const half = size / 2;
+  bounds.minX = Math.min(bounds.minX, x - half);
+  bounds.maxX = Math.max(bounds.maxX, x + half);
+  bounds.minY = Math.min(bounds.minY, y - half);
+  bounds.maxY = Math.max(bounds.maxY, y + half);
+  for (const { x: cx, y: cy } of children) {
+    const subHalf = SUB_NODE_SIZE / 2;
+    bounds.minX = Math.min(bounds.minX, cx - subHalf);
+    bounds.maxX = Math.max(bounds.maxX, cx + subHalf);
+    bounds.minY = Math.min(bounds.minY, cy - subHalf);
+    bounds.maxY = Math.max(bounds.maxY, cy + subHalf);
+  }
+}
+const contentWidth = bounds.maxX - bounds.minX;
+const contentHeight = bounds.maxY - bounds.minY;
 ---
 
-<div class="graph-stage" style={`--stage-size: ${STAGE_SIZE}px;`}>
+<div class="graph-viewport">
+<div
+  class="graph-stage"
+  style={`--stage-size: ${STAGE_SIZE}px; --content-min-x: ${bounds.minX}px; --content-min-y: ${bounds.minY}px; --content-width: ${contentWidth}px; --content-height: ${contentHeight}px;`}
+>
   <svg
     class="lines"
     width={STAGE_SIZE}
@@ -92,6 +120,7 @@ const positioned = nodes.map((node, i) => {
           data-node-id={node.id}
           data-tooltip={node.tooltip}
           aria-expanded="false"
+          aria-label={`${node.mainText.replace(/\n/g, " ")} — ${node.tooltip}`}
           style={style}
         >
           <span class="node-main">
@@ -110,6 +139,7 @@ const positioned = nodes.map((node, i) => {
         target="_blank"
         rel="noopener noreferrer"
         data-tooltip={node.tooltip}
+        aria-label={`${node.mainText.replace(/\n/g, " ")} — ${node.tooltip}`}
         style={style}
       >
         <span class="node-main">
@@ -130,6 +160,7 @@ const positioned = nodes.map((node, i) => {
         target="_blank"
         rel="noopener noreferrer"
         data-tooltip={child.tooltip}
+        aria-label={`${child.mainText.replace(/\n/g, " ")} — ${child.tooltip}`}
         tabindex="-1"
         aria-hidden="true"
         style={`left: ${x}px; top: ${y}px; width: ${SUB_NODE_SIZE}px; height: ${SUB_NODE_SIZE}px; --ring: ${ring};`}
@@ -141,6 +172,7 @@ const positioned = nodes.map((node, i) => {
       </a>
     ))
   )}
+</div>
 </div>
 
 <script>
@@ -211,16 +243,55 @@ const positioned = nodes.map((node, i) => {
         root!.querySelector<HTMLButtonElement>(`button.node-parent[data-node-id="${id}"]`)?.focus();
       }
     });
+
+    const viewport = document.querySelector<HTMLElement>(".graph-viewport");
+    if (viewport) {
+      const mql = window.matchMedia("(max-width: 700px)");
+
+      function updateScale() {
+        const stageStyle = getComputedStyle(root!);
+        const contentWidth = parseFloat(stageStyle.getPropertyValue("--content-width")) || 820;
+        const contentHeight = parseFloat(stageStyle.getPropertyValue("--content-height")) || 820;
+        const availableWidth = viewport!.parentElement!.clientWidth;
+        const scale = Math.min(1, availableWidth / contentWidth);
+        root!.style.setProperty("--graph-scale", String(scale));
+        viewport!.style.height = `${contentHeight * scale}px`;
+      }
+
+      function resetScale() {
+        root!.style.removeProperty("--graph-scale");
+        viewport!.style.removeProperty("height");
+      }
+
+      const resizeObserver = new ResizeObserver(() => {
+        if (mql.matches) updateScale();
+      });
+      resizeObserver.observe(viewport.parentElement!);
+
+      mql.addEventListener("change", (e) => {
+        if (e.matches) updateScale();
+        else resetScale();
+      });
+
+      if (mql.matches) updateScale();
+    }
   }
 </script>
 
 <style define:vars={{ ring: theme.defaultRingColor }}>
+  .graph-viewport {
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
   .graph-stage {
     position: relative;
     width: var(--stage-size);
     height: var(--stage-size);
     max-width: 100%;
     margin: 0 auto;
+    --graph-scale: 1;
   }
 
   .lines {
@@ -395,8 +466,33 @@ const positioned = nodes.map((node, i) => {
   }
 
   @media (max-width: 700px) {
+    .graph-viewport {
+      width: 100%;
+      overflow: hidden;
+    }
+
     .graph-stage {
-      display: none;
+      transform: scale(var(--graph-scale))
+        translate(calc(-1 * var(--content-min-x)), calc(-1 * var(--content-min-y)));
+      transform-origin: top left;
+      /* Fallback before the sizing script runs (or if JS is disabled). */
+      --graph-scale: 0.7;
+    }
+
+    .node-main {
+      font-size: 0.92rem;
+    }
+
+    .node-secondary {
+      font-size: 0.7rem;
+    }
+
+    .node-sub .node-main {
+      font-size: 0.8rem;
+    }
+
+    .node-sub .node-secondary {
+      font-size: 0.62rem;
     }
   }
 </style>
