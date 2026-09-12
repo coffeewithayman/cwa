@@ -1,7 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import NetworkGraph from "../components/NetworkGraph.astro";
-import MobileLinkList from "../components/MobileLinkList.astro";
 import AboutBox from "../components/AboutBox.astro";
 import ElsewhereList from "../components/ElsewhereList.astro";
 import { chrome, nodes } from "../data/site.config";
@@ -16,7 +15,6 @@ import { chrome, nodes } from "../data/site.config";
 
     <section class="graph-section">
       <NetworkGraph />
-      <MobileLinkList />
     </section>
 
     <footer class="panels">
@@ -70,10 +68,6 @@ import { chrome, nodes } from "../data/site.config";
     padding: 1rem 0;
   }
 
-  .graph-section > :global(.mobile-list) {
-    width: 100%;
-  }
-
   .panels {
     display: flex;
     justify-content: space-between;
@@ -101,6 +95,10 @@ import { chrome, nodes } from "../data/site.config";
   @media (max-width: 700px) {
     .panels {
       flex-direction: column;
+    }
+
+    .graph-section {
+      justify-content: flex-start;
     }
   }
 </style>
