@@ -1,8 +1,8 @@
 # ayman.network — network graph site
 
 A single-page Astro site: a center node surrounded by satellite link nodes,
-rendered as an interactive graph — scaled and horizontally scrollable on
-narrow/mobile screens, full-size on desktop.
+rendered as an interactive graph — scaled down to fit narrow/mobile screens,
+full-size on desktop.
 
 ## Running locally
 
@@ -126,7 +126,7 @@ in `nodes`.
 - [`src/data/site.config.ts`](src/data/site.config.ts) — edit this for content/color/node changes
 - [`src/layouts/Layout.astro`](src/layouts/Layout.astro) — HTML shell, injects theme as CSS variables
 - `src/components/`
-  - [`NetworkGraph.astro`](src/components/NetworkGraph.astro) — circular layout, SVG lines, hover effects; also handles the responsive/scrollable scaling used under 700px width
+  - [`NetworkGraph.astro`](src/components/NetworkGraph.astro) — circular layout, SVG lines, hover effects; also handles the responsive scale-to-fit used under 700px width
   - [`CenterNode.astro`](src/components/CenterNode.astro)
   - [`AboutBox.astro`](src/components/AboutBox.astro) — renders aboutTextMarkdown
   - [`ElsewhereList.astro`](src/components/ElsewhereList.astro) — renders elsewhereLinks with icons
@@ -144,15 +144,15 @@ You generally shouldn't need to touch anything outside of
 - Clicking a satellite node opens its `href` in a new tab. Hovering scales
   the node up, glows its ring, brightens its connector line, and shows the
   tooltip.
-- A node with `children` doesn't link out — clicking it toggles a fan-out
-  of smaller sub-bubbles (with their own connector lines back to the
-  parent). Only one expanded group at a time; clicking elsewhere or
-  pressing Escape closes it. On mobile this is a native accordion instead.
-- Below 700px width, the same graph is scaled down to fit (with a minimum
-  scale floor so text and tap targets stay usable) and the container becomes
-  horizontally scrollable/pannable if it still doesn't fully fit at that
-  floor. Node labels use larger font sizes on mobile to stay legible after
-  scaling.
+- A node with `children` doesn't link out — clicking/tapping it toggles a
+  fan-out of smaller sub-bubbles (with their own connector lines back to the
+  parent), on both desktop and mobile. Only one expanded group at a time;
+  clicking elsewhere or pressing Escape closes it.
+- Below 700px width, the same graph is scaled down to fit the screen width
+  exactly — no minimum scale, no horizontal scrolling. Node labels use larger
+  font sizes on mobile to help legibility, but on very narrow phones
+  (~320-390px) text and circles still end up noticeably smaller than on
+  desktop, since nothing stops the scale-down from going that low.
 - The hover tooltip (`data-tooltip`) is a desktop-only nice-to-have — it's
   not reachable by touch, so it isn't shown on mobile. Tapping a node still
   navigates or expands it as normal; each node also has an `aria-label`
