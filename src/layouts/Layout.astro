@@ -4,9 +4,10 @@ import "../styles/global.css";
 
 interface Props {
   title?: string;
+  description?: string;
 }
 
-const { title = "Ayman Elsawah — Network" } = Astro.props;
+const { title = "Ayman Elsawah — Network", description } = Astro.props;
 
 const rootVars = `:root {
   --bg: ${theme.backgroundColor};
@@ -29,6 +30,8 @@ const rootVars = `:root {
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate icon" href="/favicon.ico" />
     <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <slot name="head" />
     <Fragment set:html={`<style>${rootVars}</style>`} />
   </head>
   <body>

@@ -1,0 +1,391 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import { formatLabel, humanDuration } from "../../lib/talks";
+
+const talks = (await getCollection("talks"))
+  .map((t) => t.data)
+  .sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
+
+const uniq = (xs: (string | null | undefined)[]) =>
+  [...new Set(xs.filter((x): x is string => !!x))].sort((a, b) => a.localeCompare(b));
+
+const categories = uniq(talks.map((t) => t.category));
+const formats = uniq(talks.map((t) => t.format));
+const events = uniq(talks.map((t) => t.event));
+const platforms = uniq(talks.map((t) => t.platform));
+const years = uniq(talks.map((t) => t.date?.slice(0, 4))).reverse();
+const topics = uniq(talks.flatMap((t) => t.topics));
+---
+
+<Layout
+  title="Talks & Videos — Ayman Elsawah"
+  description="Every talk, interview, panel and podcast appearance by Ayman Elsawah, searchable by topic, with full transcripts."
+>
+  <main>
+    <header class="top">
+      <a href="/" class="back">← Ayman Elsawah</a>
+      <span class="count" data-count>{talks.length} {talks.length === 1 ? "recording" : "recordings"}</span>
+    </header>
+
+    <h1>Talks &amp; Videos</h1>
+    <p class="lede">
+      Presentations, interviews, panels and podcast appearances — filter by category or topic,
+      sort any column, and open a talk for its full transcript.
+    </p>
+
+    {talks.length === 0 ? (
+      <p class="empty">Nothing published yet — check back soon.</p>
+    ) : (
+      <>
+        <form class="filters" data-filters onsubmit="return false">
+          <input type="search" name="q" placeholder="Search titles, events, topics…" aria-label="Search" />
+          <select name="category" aria-label="Category">
+            <option value="">All categories</option>
+            {categories.map((c) => <option value={c}>{c}</option>)}
+          </select>
+          <select name="format" aria-label="Format">
+            <option value="">All formats</option>
+            {formats.map((f) => <option value={f}>{formatLabel(f)}</option>)}
+          </select>
+          <select name="event" aria-label="Event or show">
+            <option value="">All events &amp; shows</option>
+            {events.map((e) => <option value={e}>{e}</option>)}
+          </select>
+          <select name="year" aria-label="Year">
+            <option value="">All years</option>
+            {years.map((y) => <option value={y}>{y}</option>)}
+          </select>
+          {platforms.length > 1 && (
+            <select name="platform" aria-label="Platform">
+              <option value="">All platforms</option>
+              {platforms.map((p) => <option value={p}>{p}</option>)}
+            </select>
+          )}
+          <button type="button" class="reset" data-reset>Clear</button>
+        </form>
+
+        {topics.length > 0 && (
+          <div class="topics" role="group" aria-label="Topics">
+            {topics.map((t) => (
+              <button type="button" class="chip" data-topic={t} aria-pressed="false">{t}</button>
+            ))}
+          </div>
+        )}
+
+        <p class="status" data-status aria-live="polite"></p>
+
+        <table class="talks" data-table>
+          <thead>
+            <tr>
+              <th data-sort="date" aria-sort="descending"><button type="button">Date</button></th>
+              <th data-sort="title"><button type="button">Title</button></th>
+              <th data-sort="format"><button type="button">Format</button></th>
+              <th data-sort="event"><button type="button">Event / show</button></th>
+              <th data-sort="category"><button type="button">Category</button></th>
+              <th>Topics</th>
+              <th data-sort="duration"><button type="button">Length</button></th>
+              <th>Source</th>
+            </tr>
+          </thead>
+          <tbody>
+            {talks.map((t) => (
+              <tr
+                data-date={t.date ?? ""}
+                data-title={t.title.toLowerCase()}
+                data-format={t.format ?? ""}
+                data-event={t.event ?? ""}
+                data-category={t.category ?? ""}
+                data-platform={t.platform}
+                data-year={t.date?.slice(0, 4) ?? ""}
+                data-duration={t.duration ?? 0}
+                data-topics={t.topics.join("|")}
+                data-search={[t.title, t.event, t.category, t.summary, ...t.topics].filter(Boolean).join(" ").toLowerCase()}
+              >
+                <td class="date" data-label="Date">{t.date ?? "—"}</td>
+                <td class="title" data-label="Title">
+                  {t.hasTranscript ? <a href={`/talks/${t.slug}/`}>{t.title}</a> : t.title}
+                  {t.summary && <span class="summary">{t.summary}</span>}
+                </td>
+                <td class="nowrap" data-label="Format">{formatLabel(t.format)}</td>
+                <td data-label="Event">{t.event ?? "—"}</td>
+                <td data-label="Category">{t.category ?? "—"}</td>
+                <td data-label="Topics">
+                  <span class="tags">{t.topics.map((topic) => <span class="tag">{topic}</span>)}</span>
+                </td>
+                <td class="num" data-label="Length">{humanDuration(t.duration)}</td>
+                <td data-label="Source">
+                  {t.url ? (
+                    <a class="source" href={t.url} target="_blank" rel="noopener noreferrer">{t.platform} ↗</a>
+                  ) : (
+                    <span class="muted">{t.platform}</span>
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </>
+    )}
+  </main>
+</Layout>
+
+<script>
+  import "../../scripts/talks-table";
+</script>
+
+<style>
+  main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1.25rem 2.5rem 3rem;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.65rem;
+    letter-spacing: 0.05em;
+    color: var(--secondary-text);
+    margin-bottom: 2rem;
+  }
+
+  .back:hover {
+    color: var(--text);
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 0 0 0.5rem;
+  }
+
+  .lede {
+    color: var(--secondary-text);
+    max-width: 60ch;
+    line-height: 1.5;
+    margin: 0 0 2rem;
+  }
+
+  .empty {
+    color: var(--secondary-text);
+  }
+
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .filters input,
+  .filters select,
+  .filters button {
+    background: #141618;
+    color: var(--text);
+    border: 1px solid #2a2d30;
+    border-radius: 6px;
+    padding: 0.5rem 0.65rem;
+    font: inherit;
+    font-size: 0.85rem;
+  }
+
+  .filters input {
+    flex: 1 1 16rem;
+    min-width: 0;
+  }
+
+  .filters input:focus,
+  .filters select:focus,
+  .filters button:focus-visible,
+  .chip:focus-visible,
+  th button:focus-visible {
+    outline: 2px solid var(--center-ring);
+    outline-offset: 1px;
+  }
+
+  .reset {
+    cursor: pointer;
+    color: var(--secondary-text);
+  }
+
+  .topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .chip {
+    background: transparent;
+    color: var(--secondary-text);
+    border: 1px solid #2a2d30;
+    border-radius: 999px;
+    padding: 0.25rem 0.7rem;
+    font-size: 0.75rem;
+    cursor: pointer;
+  }
+
+  .chip[aria-pressed="true"] {
+    background: var(--center-ring);
+    border-color: var(--center-ring);
+    color: var(--bg);
+  }
+
+  .status {
+    font-size: 0.75rem;
+    color: var(--secondary-text);
+    min-height: 1em;
+    margin: 0 0 0.5rem;
+  }
+
+  .talks {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+  }
+
+  th {
+    text-align: left;
+    font-weight: 500;
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--secondary-text);
+    border-bottom: 1px solid #2a2d30;
+    padding: 0.5rem 0.6rem;
+    white-space: nowrap;
+  }
+
+  th button {
+    all: unset;
+    cursor: pointer;
+  }
+
+  th[aria-sort="ascending"] button::after {
+    content: " ↑";
+    color: var(--center-ring);
+  }
+
+  th[aria-sort="descending"] button::after {
+    content: " ↓";
+    color: var(--center-ring);
+  }
+
+  td {
+    padding: 0.7rem 0.6rem;
+    border-bottom: 1px solid #1c1e20;
+    vertical-align: top;
+  }
+
+  tbody tr:hover {
+    background: #111315;
+  }
+
+  .nowrap {
+    white-space: nowrap;
+  }
+
+  .date,
+  .num {
+    white-space: nowrap;
+    color: var(--secondary-text);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .title a {
+    color: var(--text);
+    border-bottom: 1px solid var(--line);
+  }
+
+  .title a:hover {
+    border-color: var(--center-ring);
+  }
+
+  .summary {
+    display: block;
+    color: var(--secondary-text);
+    font-size: 0.78rem;
+    margin-top: 0.25rem;
+    line-height: 1.4;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+
+  .tag {
+    font-size: 0.7rem;
+    color: var(--secondary-text);
+    border: 1px solid #2a2d30;
+    border-radius: 999px;
+    padding: 0.05rem 0.45rem;
+    white-space: nowrap;
+  }
+
+  .source {
+    color: var(--center-ring);
+    white-space: nowrap;
+  }
+
+  .muted {
+    color: var(--secondary-text);
+  }
+
+  @media (max-width: 700px) {
+    main {
+      padding: 1rem 1rem 2rem;
+    }
+
+    thead {
+      display: none;
+    }
+
+    .talks,
+    .talks tbody,
+    .talks tr,
+    .talks td {
+      display: block;
+      width: 100%;
+    }
+
+    .talks tr {
+      border: 1px solid #2a2d30;
+      border-radius: 8px;
+      padding: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .talks td {
+      border: none;
+      padding: 0.2rem 0;
+      display: flex;
+      gap: 0.75rem;
+    }
+
+    .talks td::before {
+      content: attr(data-label);
+      flex: 0 0 5.5rem;
+      color: var(--secondary-text);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding-top: 0.15rem;
+    }
+
+    .talks td.title {
+      display: block;
+      font-size: 1rem;
+      padding-bottom: 0.4rem;
+    }
+
+    .talks td.title::before {
+      display: none;
+    }
+
+    .filters select {
+      flex: 1 1 45%;
+    }
+  }
+</style>

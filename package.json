@@ -9,7 +9,14 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "ingest": "uv run --project ingest cwa-ingest run",
+    "watch": "uv run --project ingest cwa-ingest watch",
+    "enroll": "uv run --project ingest cwa-ingest enroll",
+    "notes": "uv run --project ingest cwa-ingest notes",
+    "talks:compile": "uv run --project ingest cwa-ingest compile",
+    "watch:install": "mkdir -p ~/.config/systemd/user && cp ingest/systemd/cwa-ingest.service ~/.config/systemd/user/ && systemctl --user daemon-reload && systemctl --user enable --now cwa-ingest && loginctl enable-linger $USER",
+    "test:ingest": "uv run --project ingest pytest ingest/tests -q"
   },
   "dependencies": {
     "astro": "^7.1.1",

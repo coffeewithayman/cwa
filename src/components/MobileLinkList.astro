@@ -38,7 +38,7 @@ const extraLine = centerNode.extraText?.replace(/\n/g, " ");
                   const childRing = child.ringColor ?? ring;
                   return (
                     <li>
-                      <a href={child.href} target="_blank" rel="noopener noreferrer" style={`--ring: ${childRing};`}>
+                      <a href={child.href} target={child.href.startsWith("/") ? undefined : "_blank"} rel={child.href.startsWith("/") ? undefined : "noopener noreferrer"} style={`--ring: ${childRing};`}>
                         <span class="dot"></span>
                         <span class="text">
                           <span class="main">{child.mainText.replace(/\n/g, " ")}</span>
@@ -57,7 +57,7 @@ const extraLine = centerNode.extraText?.replace(/\n/g, " ");
       }
       return (
         <li>
-          <a href={node.href} target="_blank" rel="noopener noreferrer" style={`--ring: ${ring};`}>
+          <a href={node.href} target={node.href.startsWith("/") ? undefined : "_blank"} rel={node.href.startsWith("/") ? undefined : "noopener noreferrer"} style={`--ring: ${ring};`}>
             <span class="dot"></span>
             <span class="text">
               <span class="main">{node.mainText.replace(/\n/g, " ")}</span>

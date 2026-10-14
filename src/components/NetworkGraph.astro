@@ -107,8 +107,8 @@ const positioned = nodes.map((node, i) => {
         class="node"
         data-node-id={node.id}
         href={node.href}
-        target="_blank"
-        rel="noopener noreferrer"
+        target={node.href.startsWith("/") ? undefined : "_blank"}
+        rel={node.href.startsWith("/") ? undefined : "noopener noreferrer"}
         data-tooltip={node.tooltip}
         style={style}
       >
@@ -127,8 +127,8 @@ const positioned = nodes.map((node, i) => {
         data-node-id={child.id}
         data-parent={node.id}
         href={child.href}
-        target="_blank"
-        rel="noopener noreferrer"
+        target={child.href.startsWith("/") ? undefined : "_blank"}
+        rel={child.href.startsWith("/") ? undefined : "noopener noreferrer"}
         data-tooltip={child.tooltip}
         tabindex="-1"
         aria-hidden="true"
