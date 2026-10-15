@@ -15,7 +15,7 @@
     "enroll": "uv run --project ingest cwa-ingest enroll",
     "notes": "uv run --project ingest cwa-ingest notes",
     "talks:compile": "uv run --project ingest cwa-ingest compile",
-    "watch:install": "mkdir -p ~/.config/systemd/user && cp ingest/systemd/cwa-ingest.service ~/.config/systemd/user/ && systemctl --user daemon-reload && systemctl --user enable --now cwa-ingest && loginctl enable-linger $USER",
+    "watch:install": "mkdir -p ~/.config/systemd/user && sed \"s|^WorkingDirectory=.*|WorkingDirectory=$PWD|\" ingest/systemd/cwa-ingest.service > ~/.config/systemd/user/cwa-ingest.service && systemctl --user daemon-reload && systemctl --user enable --now cwa-ingest; loginctl enable-linger $USER 2>/dev/null || true",
     "test:ingest": "uv run --project ingest pytest ingest/tests -q"
   },
   "dependencies": {

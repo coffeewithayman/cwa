@@ -14,7 +14,7 @@ from pathlib import Path
 from . import config
 
 DEVICE = config.DEVICE
-COMPUTE = "float16" if DEVICE == "cuda" else "int8"
+COMPUTE = config.COMPUTE_TYPE
 
 
 @lru_cache(maxsize=4)
@@ -39,7 +39,10 @@ def _diarizer():
         raise RuntimeError(
             "HF_TOKEN missing: add it to ingest/.env and accept the model terms at "
             f"https://huggingface.co/{config.DIARIZATION_MODEL}")
-    return DiarizationPipeline(model_name=config.DIARIZATION_MODEL, token=token, device=DEVICE)
+    pipe = DiarizationPipeline(model_name=config.DIARIZATION_MODEL, token=token, device=DEVICE)
+    pipe.model.segmentation_batch_size = config.DIARIZATION_BATCH
+    pipe.model.embedding_batch_size = config.DIARIZATION_BATCH
+    return pipe
 
 
 class GPUBusy(RuntimeError):
@@ -54,6 +57,35 @@ def ensure_gpu() -> None:
     free, total = torch.cuda.mem_get_info()
     if free / 2**30 < config.GPU_MIN_FREE_GB:
         raise GPUBusy(f"only {free / 2**30:.1f} of {total / 2**30:.0f} GB VRAM free")
+
+
+def release() -> None:
+    """Unload every model and hand the VRAM back (low-VRAM profile, between stages)."""
+    _asr.cache_clear()
+    _aligner.cache_clear()
+    _diarizer.cache_clear()
+    gc.collect()
+    if DEVICE == "cuda":
+        import torch
+        torch.cuda.empty_cache()
+
+
+def _align(segments: list[dict], model, meta, audio) -> dict:
+    """Word-align in slices so VRAM stays flat however long the recording is.
+
+    Segments are aligned independently, so slicing doesn't change the result.
+    """
+    import torch
+    import whisperx
+    out: dict = {"segments": [], "word_segments": []}
+    step = config.ALIGN_SLICE
+    for i in range(0, len(segments), step):
+        part = whisperx.align(segments[i:i + step], model, meta, audio, DEVICE, return_char_alignments=False)
+        out["segments"] += part["segments"]
+        out["word_segments"] += part.get("word_segments", [])
+        if DEVICE == "cuda":
+            torch.cuda.empty_cache()
+    return out
 
 
 def vocab_prompt(terms: list[str]) -> tuple[str, str]:
@@ -71,9 +103,13 @@ def transcribe(workdir: Path, terms: list[str]) -> dict:
     audio = whisperx.load_audio(str(workdir / "audio.wav"))
     prompt, hotwords = vocab_prompt(terms)
     result = _asr(prompt, hotwords).transcribe(audio, batch_size=config.WHISPER_BATCH_SIZE, language="en")
+    if config.LOW_VRAM:
+        release()
 
     model, meta = _aligner()
-    result = whisperx.align(result["segments"], model, meta, audio, DEVICE, return_char_alignments=False)
+    result = _align(result["segments"], model, meta, audio)
+    if config.LOW_VRAM:
+        release()
 
     diarize_df = _diarizer()(audio)
     result = whisperx.assign_word_speakers(diarize_df, result)
@@ -82,5 +118,6 @@ def transcribe(workdir: Path, terms: list[str]) -> dict:
         for r in diarize_df.itertuples()
     ]
     (workdir / "whisper.json").write_text(json.dumps(result, indent=1))
-    gc.collect()
+    if config.LOW_VRAM:
+        release()
     return result

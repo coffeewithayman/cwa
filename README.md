@@ -206,7 +206,11 @@ works through them, striking each through when done.
 
 Setup: `cd ingest && uv sync`, then `hf auth login` with an account that has
 accepted the terms of `pyannote/speaker-diarization-community-1`. The pipeline
-needs ~10 GB free VRAM and waits (⏸) when another process is using the GPU.
+needs ~9 GB free VRAM and waits (⏸) when another process is using the GPU.
+On a 6 GB card (e.g. RTX 3050, including under WSL2) put `CWA_PROFILE=low-vram`
+in `ingest/.env`: int8 weights, batch 1 and models unloaded between stages cut
+the peak to ~3.6 GB for roughly 2x the time. Under WSL, `npm run watch:install`
+needs systemd enabled (`[boot] systemd=true` in `/etc/wsl.conf`, then `wsl --shutdown`).
 
 ---
 

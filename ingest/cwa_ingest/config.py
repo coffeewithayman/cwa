@@ -28,16 +28,39 @@ VOICEPRINT_DIR = INGEST_DIR / "voiceprint"
 SITE_DATA = REPO / "src" / "data" / "talks.json"
 SITE_TRANSCRIPTS = REPO / "src" / "content" / "transcripts"
 
+def _load_dotenv() -> None:
+    env = INGEST_DIR / ".env"
+    if not env.exists():
+        return
+    for line in env.read_text().splitlines():
+        line = line.strip()
+        if line and not line.startswith("#") and "=" in line:
+            key, value = line.split("=", 1)
+            os.environ.setdefault(key.strip(), value.strip().strip('"'))
+
+
+_load_dotenv()
+
 MEDIA_EXTS = {".mp4", ".mov", ".mkv", ".webm", ".m4a", ".mp3", ".wav", ".flac"}
 LIST_EXTS = {".txt", ".md"}
 STABLE_SECONDS = 30                        # a dropped file must stop growing this long
 
 # --- transcription (accuracy over speed) ------------------------------------
 DEVICE = os.environ.get("CWA_DEVICE", "cuda")          # "cpu" only for quick tests
+# CWA_PROFILE=low-vram is for 6 GB cards (e.g. RTX 3050): int8 weights, batch 1,
+# and each model is unloaded before the next stage runs. Measured peak on a
+# 99-minute episode: ~3.6 GB (default profile needs ~9 GB). Set it in ingest/.env.
+LOW_VRAM = os.environ.get("CWA_PROFILE") == "low-vram"
 WHISPER_MODEL = os.environ.get("CWA_WHISPER_MODEL", "large-v3")
-GPU_MIN_FREE_GB = 10       # large-v3 + aligner + diarizer + ECAPA peak at ~8 GB
+COMPUTE_TYPE = os.environ.get("CWA_COMPUTE") or (
+    "int8" if DEVICE == "cpu" else "int8_float16" if LOW_VRAM else "float16")
+GPU_MIN_FREE_GB = float(os.environ.get("CWA_MIN_FREE_GB") or (4.0 if LOW_VRAM else 8))
+# pyannote's shipped config uses batches of 32, which needs ~11 GB of VRAM for
+# no speed gain (measured: 4 is as fast and needs <1 GB). Results are identical.
+ALIGN_SLICE = int(os.environ.get("CWA_ALIGN_SLICE") or 50)   # segments aligned per call
+DIARIZATION_BATCH = int(os.environ.get("CWA_DIAR_BATCH") or 4)
 WHISPER_ASR_OPTIONS = {"beam_size": 5, "best_of": 5, "condition_on_previous_text": False}
-WHISPER_BATCH_SIZE = 8
+WHISPER_BATCH_SIZE = int(os.environ.get("CWA_BATCH") or (1 if LOW_VRAM else 8))
 DIARIZATION_MODEL = "pyannote/speaker-diarization-community-1"
 
 # --- speaker identification ---------------------------------------------------
@@ -55,18 +78,6 @@ RARE_ZIPF = 2.0            # wordfreq zipf below this (and not a vocab term) get
 COMMON_ZIPF = 4.5          # words more common than this are never flagged for low confidence
 
 
-def _load_dotenv() -> None:
-    env = INGEST_DIR / ".env"
-    if not env.exists():
-        return
-    for line in env.read_text().splitlines():
-        line = line.strip()
-        if line and not line.startswith("#") and "=" in line:
-            key, value = line.split("=", 1)
-            os.environ.setdefault(key.strip(), value.strip().strip('"'))
-
-
-_load_dotenv()
 
 
 def hf_token() -> str | None:
