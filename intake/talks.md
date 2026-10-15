@@ -88,7 +88,7 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - id: bsidessf-2015-federating-aws-cli-ayman-elsawah-paul-moreno <!-- managed -->
 - url: https://www.youtube.com/watch?v=iQ3ALCjxv4g
 - format: interview <!-- guessed from 2 voice(s); fix if wrong -->
-- date: 2023-12-02
+- date: 2015-04-20
 - event: Security BSides San Francisco
 - category:
 - topics: Cloud Security, Identity & Data Protection
@@ -535,5 +535,18 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - topics: Compliance & SOC 2, Startup Security
 - summary: Ayman discusses the limitations and issues with SOC 2, explaining that it is not prescriptive and can give a false sense of security. He advises delaying SOC 2 until necessary and instead focusing on practical security measures like the Minimum Viable Secure Product (MVSP). He emphasizes the importance of designing security controls thoughtfully and not relying solely on compliance frameworks.
 - status: ✅ ingested 2026-10-15 · 311 lines · speaker auto (voiceprint 0.86 + name mentioned) · 164 flagged <!-- managed -->
+
+### Notes
+
+## Getting AI Pilled Without Getting Breached
+- id: getting-ai-pilled-without-getting-breached <!-- managed -->
+- url: https://youtu.be/gNhybzC33ek
+- format: interview <!-- guessed from 2 voice(s); fix if wrong -->
+- date: 2026-10-15
+- event: Coffee With Ayman - Security Cafe
+- category:
+- topics:
+- summary: Ayman explains the importance of visibility into AI tool usage, segmenting users by risk profile, and implementing preventative controls such as limiting access to corporate-sanctioned tools. He emphasizes the need for education and collaboration with business teams to ensure secure AI adoption, while also highlighting the role of legal frameworks like BAA and ZDR in securing sensitive data.
+- status: ✅ ingested 2026-10-15 · 444 lines · speaker auto (voiceprint 0.86 + name mentioned) · 111 flagged <!-- managed -->
 
 ### Notes

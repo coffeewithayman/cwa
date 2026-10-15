@@ -1,0 +1,80 @@
+{
+  "id": "gNhybzC33ek",
+  "title": "Getting AI Pilled Without Getting Breached",
+  "description": "Your teams want AI connected to everything. How do you enable them without putting your data, credentials, and production systems at risk?\n\nI joined Nipun Gupta of Optimus Labs for a practical conversation about securing enterprise AI adoption\u2014from shadow AI and agent permissions to data retention, endpoint visibility, and healthcare.\n\nWe discuss:\n\u2022 Building guardrails that help employees use AI safely\n\u2022 Giving agents access to the data they need while limiting their permissions\n\u2022 Monitoring and controlling individual tool calls\n\u2022 Addressing shadow AI through education, tooling, and governance\n\u2022 Understanding zero data retention (ZDR) and provider trust\n\u2022 Evaluating healthcare use cases, BAA coverage, and third-party integrations\n\u2022 Starting with the security controls already available in your enterprise tools\n\nCHAPTERS\n00:00 Introductions\n03:39 What comes first: security or AI?\n05:58 Should AI agents access production databases?\n10:10 From visibility to agent governance\n14:59 DEF CON badges and community\n16:25 Shadow AI: people, tooling, or governance?\n18:40 Zero data retention and provider trust\n22:38 Discussing the Hugging Face incident\n26:53 Coding agents and unexpected data exposure\n31:29 Endpoint visibility and agent telemetry\n33:18 AI in healthcare: PHI, BAAs, and data residency\n37:32 Feature coverage and third-party integration risks\n41:01 Practical takeaways for security teams\n\nConnect with me:\nhttps://www.linkedin.com/in/infosecleader/\n\nCloud Security Labs:\nhttps://cloudsecuritylabs.io\n\nWhat\u2019s the hardest part of securing AI in your organization\u2014visibility, permissions, data protection, or employee adoption? Share your experience in the comments.\n\nSubscribe for more practical conversations about cybersecurity, AI security, and security leadership.\n\n#AISecurity #AgenticAI #Cybersecurity",
+  "upload_date": "20261015",
+  "duration": 2761,
+  "channel": "Coffee With Ayman - Security Cafe",
+  "uploader": "Coffee With Ayman - Security Cafe",
+  "channel_url": "https://www.youtube.com/channel/UCTRo1yMBKik6Re7D2lm1-3g",
+  "webpage_url": "https://www.youtube.com/watch?v=gNhybzC33ek",
+  "extractor_key": "Youtube",
+  "thumbnail": "https://i.ytimg.com/vi_webp/gNhybzC33ek/maxresdefault.webp",
+  "chapters": [
+    {
+      "start_time": 0,
+      "title": "Introductions",
+      "end_time": 219
+    },
+    {
+      "start_time": 219,
+      "title": "What comes first: security or AI?",
+      "end_time": 358
+    },
+    {
+      "start_time": 358,
+      "title": "Should AI agents access production databases?",
+      "end_time": 610
+    },
+    {
+      "start_time": 610,
+      "title": "From visibility to agent governance",
+      "end_time": 899
+    },
+    {
+      "start_time": 899,
+      "title": "DEF CON badges and community",
+      "end_time": 985
+    },
+    {
+      "start_time": 985,
+      "title": "Shadow AI: people, tooling, or governance?",
+      "end_time": 1120
+    },
+    {
+      "start_time": 1120,
+      "title": "Zero data retention and provider trust",
+      "end_time": 1358
+    },
+    {
+      "start_time": 1358,
+      "title": "Discussing the Hugging Face incident",
+      "end_time": 1613
+    },
+    {
+      "start_time": 1613,
+      "title": "Coding agents and unexpected data exposure",
+      "end_time": 1889
+    },
+    {
+      "start_time": 1889,
+      "title": "Endpoint visibility and agent telemetry",
+      "end_time": 1998
+    },
+    {
+      "start_time": 1998,
+      "title": "AI in healthcare: PHI, BAAs, and data residency",
+      "end_time": 2252
+    },
+    {
+      "start_time": 2252,
+      "title": "Feature coverage and third-party integration risks",
+      "end_time": 2461
+    },
+    {
+      "start_time": 2461,
+      "title": "Practical takeaways for security teams",
+      "end_time": 2761
+    }
+  ]
+}

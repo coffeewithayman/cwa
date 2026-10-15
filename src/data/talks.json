@@ -1,5 +1,20 @@
 [
  {
+  "slug": "getting-ai-pilled-without-getting-breached",
+  "title": "Getting AI Pilled Without Getting Breached",
+  "url": "https://youtu.be/gNhybzC33ek",
+  "platform": "YouTube",
+  "date": "2026-10-15",
+  "duration": 2761,
+  "format": "interview",
+  "event": "Coffee With Ayman - Security Cafe",
+  "category": null,
+  "topics": [],
+  "thumbnail": "https://i.ytimg.com/vi_webp/gNhybzC33ek/maxresdefault.webp",
+  "summary": "Ayman explains the importance of visibility into AI tool usage, segmenting users by risk profile, and implementing preventative controls such as limiting access to corporate-sanctioned tools. He emphasizes the need for education and collaboration with business teams to ensure secure AI adoption, while also highlighting the role of legal frameworks like BAA and ZDR in securing sensitive data.",
+  "hasTranscript": true
+ },
+ {
   "slug": "data-security-in-the-ai-era-don-t-let-ai-ruin-your",
   "title": "Data Security in the AI Era, Don't Let AI Ruin your Presentation, and the Weekly News - ESW #480",
   "url": "https://www.youtube.com/watch?v=6a2-W3WDGhg",
@@ -334,24 +349,6 @@
   "hasTranscript": true
  },
  {
-  "slug": "bsidessf-2015-federating-aws-cli-ayman-elsawah-paul-moreno",
-  "title": "BSidesSF 2015 - Federating AWS CLI (Ayman Elsawah, Paul Moreno)",
-  "url": "https://www.youtube.com/watch?v=iQ3ALCjxv4g",
-  "platform": "YouTube",
-  "date": "2023-12-02",
-  "duration": 1423,
-  "format": "interview",
-  "event": "Security BSides San Francisco",
-  "category": null,
-  "topics": [
-   "Cloud Security",
-   "Identity & Data Protection"
-  ],
-  "thumbnail": "https://i.ytimg.com/vi/iQ3ALCjxv4g/maxresdefault.jpg",
-  "summary": "Ayman explains the risks of storing AWS credentials in plain text and how federating AWS CLI through Shibboleth and STS can mitigate these risks by eliminating the need for developers to handle long-term keys. He details the implementation of Eris, a tool that automates the process of obtaining temporary credentials and reauthorizing them every hour, reducing the chance of credential exposure. Ayman also highlights challenges encountered with AWS STS, including poor documentation and unexpected behavior with session tokens and anonymous connections.",
-  "hasTranscript": true
- },
- {
   "slug": "let-s-simplify-cybersecurity-language-with-ayman-elsawah",
   "title": "Let’s Simplify Cybersecurity Language with Ayman Elsawah, Founder at Cloud Security Labs",
   "url": "https://www.youtube.com/watch?v=K8tMGW4dH68",
@@ -663,6 +660,24 @@
   ],
   "thumbnail": "https://i.ytimg.com/vi_webp/KJvPHZGtGdM/maxresdefault.webp",
   "summary": "Ayman discusses cloud security challenges, emphasizing the importance of least privilege access and proper configuration management to prevent data leaks and unauthorized access. He highlights the risks of misconfigured S3 buckets and insecure IAM credentials, using real-world examples like the Code Spaces breach. Ayman also talks about diversity in infosec, advocating for more inclusive programs and awareness of ongoing challenges faced by underrepresented groups. For aspiring infosec professionals, he encourages creativity, persistence, and hands-on learning, suggesting practical steps like using open-source tools and contributing to GitHub projects.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "bsidessf-2015-federating-aws-cli-ayman-elsawah-paul-moreno",
+  "title": "BSidesSF 2015 - Federating AWS CLI (Ayman Elsawah, Paul Moreno)",
+  "url": "https://www.youtube.com/watch?v=iQ3ALCjxv4g",
+  "platform": "YouTube",
+  "date": "2015-04-20",
+  "duration": 1423,
+  "format": "interview",
+  "event": "Security BSides San Francisco",
+  "category": null,
+  "topics": [
+   "Cloud Security",
+   "Identity & Data Protection"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/iQ3ALCjxv4g/maxresdefault.jpg",
+  "summary": "Ayman explains the risks of storing AWS credentials in plain text and how federating AWS CLI through Shibboleth and STS can mitigate these risks by eliminating the need for developers to handle long-term keys. He details the implementation of Eris, a tool that automates the process of obtaining temporary credentials and reauthorizing them every hour, reducing the chance of credential exposure. Ayman also highlights challenges encountered with AWS STS, including poor documentation and unexpected behavior with session tokens and anonymous connections.",
   "hasTranscript": true
  }
 ]
