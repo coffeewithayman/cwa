@@ -1,0 +1,1109 @@
+{
+ "slug": "the-state-of-cybersecurity-hiring-2026-content-plans-and-the",
+ "scope": "ayman",
+ "format": "cohost",
+ "turns": [
+  {
+   "start": 213.9,
+   "end": 225.7,
+   "lines": [
+    {
+     "t": 213.9,
+     "text": "We will put in if we find pay-per-view tickets that you can purchase to these fights, we will include it in the show notes."
+    },
+    {
+     "t": 221.1,
+     "text": "But yeah, love that you're getting active in your local community there, Jackie."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 225.9,
+   "end": 226.3,
+   "lines": [
+    {
+     "t": 225.9,
+     "text": "That's great."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 255.5,
+   "end": 277.9,
+   "lines": [
+    {
+     "t": 255.5,
+     "text": "And some people could definitely use some treatment for their winter skin around here."
+    },
+    {
+     "t": 259.7,
+     "text": "I was just checking to see how ashy I was today."
+    },
+    {
+     "t": 264.1,
+     "text": "The legs definitely much worse than the arms, but the arms get pretty dry as well."
+    },
+    {
+     "t": 271.2,
+     "text": "Also joining us, the connoisseur of cloud security, our single origin co-host and resident coffee sommelier, Ayman Elsawah."
+    },
+    {
+     "t": 277.1,
+     "text": "How are you doing, Ayman?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 278.6,
+   "end": 279.5,
+   "lines": [
+    {
+     "t": 278.6,
+     "text": "Good, Adrian."
+    },
+    {
+     "t": 279.0,
+     "text": "How are you doing?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 280.4,
+   "end": 283.4,
+   "lines": [
+    {
+     "t": 280.4,
+     "text": "Do you get ashy in cold weather?"
+    },
+    {
+     "t": 282.6,
+     "text": "You've got darker skin."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 283.4,
+   "end": 285.6,
+   "lines": [
+    {
+     "t": 283.4,
+     "text": "A little bit."
+    },
+    {
+     "t": 284.7,
+     "text": "Yeah."
+    },
+    {
+     "t": 285.3,
+     "text": "Yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 285.7,
+   "end": 296.6,
+   "lines": [
+    {
+     "t": 285.7,
+     "text": "I know."
+    },
+    {
+     "t": 287.5,
+     "text": "Everybody gets dark skin."
+    },
+    {
+     "t": 288.6,
+     "text": "It's just, you know, the darker or everybody gets dry skin."
+    },
+    {
+     "t": 292.9,
+     "text": "It's just the darker your skin and the more embarrassing and obvious it is, right?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 296.6,
+   "end": 303.0,
+   "lines": [
+    {
+     "t": 296.6,
+     "text": "Yeah."
+    },
+    {
+     "t": 296.8,
+     "text": "I need the lotion."
+    },
+    {
+     "t": 297.5,
+     "text": "And California is, you know, very dry."
+    },
+    {
+     "t": 299.9,
+     "text": "So, you know, it doesn't help."
+    },
+    {
+     "t": 302.2,
+     "text": "Not much humidity."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 303.5,
+   "end": 304.9,
+   "lines": [
+    {
+     "t": 303.5,
+     "text": "Yeah, I'm the color of ash."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 304.9,
+   "end": 307.1,
+   "lines": [
+    {
+     "t": 304.9,
+     "text": "Yeah, and you're part of California."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 873.3,
+   "end": 901.9,
+   "lines": [
+    {
+     "t": 873.3,
+     "text": "You know where has it really kind of transformed things for people i want to hear more of that because i'm just not seeing a whole lot of it and i'm sure it's happening out there and yeah maybe some guests we can have in the show we can talk about that not a cool demo right like how at scale like this is you know move the needle for a company in terms of you know revenue or productivity or efficiency or something like"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 903.9,
+   "end": 948.5,
+   "lines": [
+    {
+     "t": 903.9,
+     "text": "You know, one thing that we probably don't talk much about previously that I would like to hear more is how enterprise security teams are shaping up these days, right?"
+    },
+    {
+     "t": 914.3,
+     "text": "With a few things."
+    },
+    {
+     "t": 915.8,
+     "text": "One, the labor, excessive labor, like, you know, there's, well, one, smaller budgets, two, a lot more talent out there, and then three, the use of AI."
+    },
+    {
+     "t": 928.9,
+     "text": "But, you know, would like to make the AI part like a smaller portion, but..."
+    },
+    {
+     "t": 933.6,
+     "text": "How teams are shaping, whether it's a small startup or a large enterprise team."
+    },
+    {
+     "t": 937.7,
+     "text": "So I'd be curious, maybe we get more, a variety of security leaders on the show and see how their teams are doing or what their plans are for the year."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1429.1,
+   "end": 1457.6,
+   "lines": [
+    {
+     "t": 1429.1,
+     "text": "I know Jackie, you and Ayman were very excited to cover this."
+    },
+    {
+     "t": 1432.6,
+     "text": "Sean, I'm sure you have some experience here as well."
+    },
+    {
+     "t": 1435.5,
+     "text": "I'm mostly going to stay out of it because I haven't done any hiring and"
+    },
+    {
+     "t": 1441.2,
+     "text": "So I'm sure some things have changed, but I'm very interested to hear both about, yeah, like what do you want to cover it from the person trying to get hires perspective, the hiring managers perspective?"
+    },
+    {
+     "t": 1455.6,
+     "text": "We're going to cover it from both."
+    },
+    {
+     "t": 1457.1,
+     "text": "What's the idea here?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 1457.7,
+   "end": 1460.2,
+   "lines": [
+    {
+     "t": 1457.7,
+     "text": "I would do both."
+    },
+    {
+     "t": 1459.9,
+     "text": "Yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1460.7,
+   "end": 1460.9,
+   "lines": [
+    {
+     "t": 1460.7,
+     "text": "Yeah."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 1462.1,
+   "end": 1465.0,
+   "lines": [
+    {
+     "t": 1462.1,
+     "text": "Yeah, we can do both state of the job market, all that kind of stuff."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1466.6,
+   "end": 1471.5,
+   "lines": [
+    {
+     "t": 1466.6,
+     "text": "Yeah, why don't you, you prepared a little bit for this, Ayman, so why don't you kick us off?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 1472.7,
+   "end": 1606.6,
+   "lines": [
+    {
+     "t": 1472.7,
+     "text": "Yeah, well, you know, I mean, so some background."
+    },
+    {
+     "t": 1477.7,
+     "text": "I had a podcast previously called Getting Into Infosec, where I interviewed people and saw how their journey came in."
+    },
+    {
+     "t": 1485.5,
+     "text": "And the reason I mentioned this, because it's important, because there's no one way to get into security."
+    },
+    {
+     "t": 1491.9,
+     "text": "There's so many."
+    },
+    {
+     "t": 1492.7,
+     "text": "So I could interview a thousand different people and literally get a thousand different ways of how"
+    },
+    {
+     "t": 1497.6,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 1513.2,
+     "text": "Right now, let's moving up to now, you know, the job or last year, last year, the job market was pretty bad."
+    },
+    {
+     "t": 1518.2,
+     "text": "Past two years, it's been really bad, like super brutal."
+    },
+    {
+     "t": 1521.7,
+     "text": "We're talking about like CISOs getting laid off, CISOs taking more than 50% pay cuts, just the teams, you know, being reduced."
+    },
+    {
+     "t": 1531.0,
+     "text": "And that's,"
+    },
+    {
+     "t": 1532.3,
+     "text": "I think some combination is the lack of funding that's out there and also people getting paid a lot during the pandemic."
+    },
+    {
+     "t": 1541.4,
+     "text": "And now they're, you know, companies trying to save."
+    },
+    {
+     "t": 1543.9,
+     "text": "Now, I think the market is starting to warm up a little bit, at least here."
+    },
+    {
+     "t": 1549.7,
+     "text": "So in the Bay Area, there's a lot of AI companies, a lot of new companies coming up, and they're trying to sell enterprises and they need a head of security."
+    },
+    {
+     "t": 1556.2,
+     "text": "So both in New York and San Francisco, it's starting to warm up."
+    },
+    {
+     "t": 1562.3,
+     "text": "There are paying less."
+    },
+    {
+     "t": 1563.5,
+     "text": "So companies are paying less than they used to."
+    },
+    {
+     "t": 1566.4,
+     "text": "So that's something different for folks."
+    },
+    {
+     "t": 1568.6,
+     "text": "Unless you're in a niche space, expect to get paid a little less."
+    },
+    {
+     "t": 1575.2,
+     "text": "What else?"
+    },
+    {
+     "t": 1576.0,
+     "text": "Oh, and..."
+    },
+    {
+     "t": 1579.8,
+     "text": "People are expecting more."
+    },
+    {
+     "t": 1581.0,
+     "text": "So because the job market, it's still not super, super hot or super warm."
+    },
+    {
+     "t": 1586.6,
+     "text": "So they're going to expect you to do more, which is, you know, in the age of AI, you can do more now as well."
+    },
+    {
+     "t": 1595.5,
+     "text": "So they're going to expect you to know how to, you know, do more things and know how to use AI and the modern tools and things like that."
+    },
+    {
+     "t": 1603.6,
+     "text": "So I'll pause here, Jackie."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2140.0,
+   "end": 2140.5,
+   "lines": [
+    {
+     "t": 2140.0,
+     "text": "Good question."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2140.9,
+   "end": 2147.9,
+   "lines": [
+    {
+     "t": 2140.9,
+     "text": "Well, I mean, yeah, so that is a good question."
+    },
+    {
+     "t": 2145.5,
+     "text": "I probably don't have a good opinion to say on that one."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2310.9,
+   "end": 2320.2,
+   "lines": [
+    {
+     "t": 2310.9,
+     "text": "So it sounds to me like that should be just a common interview question, right?"
+    },
+    {
+     "t": 2314.3,
+     "text": "Like, how do you leverage AI to be more efficient, more effective?"
+    },
+    {
+     "t": 2319.8,
+     "text": "Is that..."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 2322.6,
+   "end": 2444.7,
+   "lines": [
+    {
+     "t": 2322.6,
+     "text": "So, yeah, I mean, I think you're right, but I think we're going down a rabbit hole, but we're not understanding how AI can help us with the job, like help you get a job."
+    },
+    {
+     "t": 2335.9,
+     "text": "What, like, it's like, I can't stress enough."
+    },
+    {
+     "t": 2339.7,
+     "text": "It's like such an amazing age right now."
+    },
+    {
+     "t": 2342.6,
+     "text": "Why?"
+    },
+    {
+     "t": 2343.1,
+     "text": "Because AI can help you do things that you could like took weeks for you to learn before you could do it now."
+    },
+    {
+     "t": 2350.7,
+     "text": "So like a lot of CISOs, not a lot, some CISOs are coding again, right?"
+    },
+    {
+     "t": 2356.7,
+     "text": "Like, you know, the technical CISO, there's a couple of tracks of CISOs."
+    },
+    {
+     "t": 2360.7,
+     "text": "But the ones that used to be technical, we like to code."
+    },
+    {
+     "t": 2363.6,
+     "text": "We like to tinker and make things."
+    },
+    {
+     "t": 2366.4,
+     "text": "Now you can create new things."
+    },
+    {
+     "t": 2370.0,
+     "text": "And so in some of the talks, every time I say, and back to what Jackie was saying, is like, do, right?"
+    },
+    {
+     "t": 2376.0,
+     "text": "So write a blog post."
+    },
+    {
+     "t": 2376.9,
+     "text": "But what are you going to write a blog post about?"
+    },
+    {
+     "t": 2378.7,
+     "text": "Well, learn something, right?"
+    },
+    {
+     "t": 2380.5,
+     "text": "And so what are you going to learn about?"
+    },
+    {
+     "t": 2381.6,
+     "text": "Well, come up with some project."
+    },
+    {
+     "t": 2383.0,
+     "text": "I mean, it could be a non-security thing."
+    },
+    {
+     "t": 2385.4,
+     "text": "You could take some sort of open source CMS, like Ghost or anything like that, and deploy it on Docker."
+    },
+    {
+     "t": 2391.6,
+     "text": "And even if you know nothing, you could just set up cloud code or something and say, hey, start me from basics and help me deploy this."
+    },
+    {
+     "t": 2399.3,
+     "text": "And now you'll learn Docker, you'll learn CICD or GitHub deployment, you know, forking and branching and all these kind of things that will make you a better security engineer, right?"
+    },
+    {
+     "t": 2412.6,
+     "text": "Because what we want is people with skills."
+    },
+    {
+     "t": 2415.2,
+     "text": "And what's hard is for people to get those skills."
+    },
+    {
+     "t": 2418.5,
+     "text": "And colleges are not teaching them those skills."
+    },
+    {
+     "t": 2421.0,
+     "text": "So how are you going to get those skills, right?"
+    },
+    {
+     "t": 2422.6,
+     "text": "It's kind of like that conundrum."
+    },
+    {
+     "t": 2424.5,
+     "text": "So go there and just do things."
+    },
+    {
+     "t": 2427.0,
+     "text": "It could be a simple JavaScript app or make a game or whatever it may be."
+    },
+    {
+     "t": 2430.4,
+     "text": "But AI can really help you with that."
+    },
+    {
+     "t": 2433.1,
+     "text": "I'm not talking about cut and pasting"
+    },
+    {
+     "t": 2436.1,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 4035.0,
+   "end": 4054.9,
+   "lines": [
+    {
+     "t": 4035.0,
+     "text": "And apparently they didn't get much of anywhere because they already had some good protocols in place."
+    },
+    {
+     "t": 4040.1,
+     "text": "Like I would love to know what that looked like, you know, how they managed to detect and stop it."
+    },
+    {
+     "t": 4047.6,
+     "text": "But yeah, they had a cellular modem on this thing and everything."
+    },
+    {
+     "t": 4051.4,
+     "text": "So, you know, they didn't have to be physically present if it was detected."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 4055.9,
+   "end": 4061.7,
+   "lines": [
+    {
+     "t": 4055.9,
+     "text": "Well, luckily the ferry wasn't in motion."
+    },
+    {
+     "t": 4059.5,
+     "text": "I think it was just about to depart, right?"
+    },
+    {
+     "t": 4061.6,
+     "text": "So..."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 4141.9,
+   "end": 4143.4,
+   "lines": [
+    {
+     "t": 4141.9,
+     "text": "I think that precluded all of those."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 4144.3,
+   "end": 4156.3,
+   "lines": [
+    {
+     "t": 4144.3,
+     "text": "I mean, the whole maritime industry is kind of like a little, you know, behind technology."
+    },
+    {
+     "t": 4148.4,
+     "text": "I mean, there's there's some there's some there was a documentary about like ships can just turn off their transponders and you just don't know where they are."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 4157.7,
+   "end": 4159.6,
+   "lines": [
+    {
+     "t": 4157.7,
+     "text": "It's like soaking airplanes."
+    },
+    {
+     "t": 4159.4,
+     "text": "Yeah."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 4160.7,
+   "end": 4160.9,
+   "lines": [
+    {
+     "t": 4160.7,
+     "text": "Yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 4529.3,
+   "end": 4557.5,
+   "lines": [
+    {
+     "t": 4529.3,
+     "text": "Was the best day to announce they couldn't wait one more day they ruined a whole lot of christmases and they dropped an easily exploitable vulnerability disclosure just before christmas which is perfect because you really guarantee to mess up christmas day if you drop it if you give the attackers just a little bit of a head start yeah"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 4558.4,
+   "end": 4562.8,
+   "lines": [
+    {
+     "t": 4558.4,
+     "text": "I mean they're always attacking around the holidays anyway so it's like just like a gift."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 4902.5,
+   "end": 4925.7,
+   "lines": [
+    {
+     "t": 4902.5,
+     "text": "Absolutely."
+    },
+    {
+     "t": 4903.3,
+     "text": "I mean, that is well agreed upon, right, for coordinated disclosure."
+    },
+    {
+     "t": 4908.9,
+     "text": "Like, you know, this isn't, you know, this is a security vendor."
+    },
+    {
+     "t": 4912.7,
+     "text": "This isn't somebody on full disclosure mailing list dropping something anonymously from a throwaway email account."
+    },
+    {
+     "t": 4920.4,
+     "text": "This is a vendor."
+    },
+    {
+     "t": 4921.8,
+     "text": "Yeah, they should, they should plan this better."
+    },
+    {
+     "t": 4924.9,
+     "text": "Shame."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 4927.9,
+   "end": 4931.5,
+   "lines": [
+    {
+     "t": 4927.9,
+     "text": "Was there a timeline of when they, did they contact MongoDB or anything or?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 4973.3,
+   "end": 4988.4,
+   "lines": [
+    {
+     "t": 4973.3,
+     "text": "No, nothing formal, but people have long memories."
+    },
+    {
+     "t": 4978.2,
+     "text": "Yeah."
+    },
+    {
+     "t": 4980.6,
+     "text": "When you make them have to work on a common holiday in their country."
+    },
+    {
+     "t": 4987.1,
+     "text": "Well, the original poster was a Joe."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 4988.5,
+   "end": 4993.6,
+   "lines": [
+    {
+     "t": 4988.5,
+     "text": "They'll remember."
+    },
+    {
+     "t": 4989.7,
+     "text": "The original poster was a Joe, right, from Elastic Security?"
+    },
+    {
+     "t": 4993.1,
+     "text": "Or am I reading it wrong?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 4993.7,
+   "end": 5001.7,
+   "lines": [
+    {
+     "t": 4993.7,
+     "text": "Yeah, so they disclosed the vulnerability, but it was a different vendor who wrote a blog post on exactly how to exploit it that then was used by attackers."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 5005.2,
+   "end": 5007.4,
+   "lines": [
+    {
+     "t": 5005.2,
+     "text": "So, a mess all around, it looks like."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5021.8,
+   "end": 5045.4,
+   "lines": [
+    {
+     "t": 5021.8,
+     "text": "You know, these things usually take weeks or months to coordinate everything, to make sure there's a patch, you know."
+    },
+    {
+     "t": 5030.7,
+     "text": "You know, my company's blog post, your company's, hey, there's an update, you're gonna have to install, like go out on the same day, like, like, there's a lot of coordination that usually happens with these kinds of things."
+    },
+    {
+     "t": 5043.4,
+     "text": "That sounds like maybe it didn't happen here."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 5046.7,
+   "end": 5060.5,
+   "lines": [
+    {
+     "t": 5046.7,
+     "text": "Yeah, yeah, first got published when I 1219."
+    },
+    {
+     "t": 5049.1,
+     "text": "And then Mongo,"
+    },
+    {
+     "t": 5054.9,
+     "text": "It seems like somebody knew about it in the Mongo world like December 15th."
+    },
+    {
+     "t": 5058.6,
+     "text": "Anyway, it's an interesting timeline."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5062.1,
+   "end": 5074.2,
+   "lines": [
+    {
+     "t": 5062.1,
+     "text": "All right, a few more items here."
+    },
+    {
+     "t": 5064.6,
+     "text": "Man, let's just jump to AI vending machines, should we?"
+    },
+    {
+     "t": 5069.6,
+     "text": "Yes."
+    },
+    {
+     "t": 5071.8,
+     "text": "Did you all get a chance to watch this?"
+    },
+    {
+     "t": 5073.8,
+     "text": "Yeah."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 5074.7,
+   "end": 5078.9,
+   "lines": [
+    {
+     "t": 5074.7,
+     "text": "Yeah, it was a fun watch."
+    },
+    {
+     "t": 5076.1,
+     "text": "Actually, it was like me in my night."
+    },
+    {
+     "t": 5077.7,
+     "text": "I was like, oh, I can sleep now."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5338.4,
+   "end": 5364.9,
+   "lines": [
+    {
+     "t": 5338.4,
+     "text": "Again, I think this is..."
+    },
+    {
+     "t": 5342.0,
+     "text": "One of the things making me think this year is going to be like when we see everything fall out, like the experiments either worked or they didn't."
+    },
+    {
+     "t": 5349.4,
+     "text": "But I think everybody's had enough time with AI now that, you know, it should be more clear after 2026, like where we can get value out of it and where it's just not able to do it without a babysitter."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 5366.4,
+   "end": 5379.1,
+   "lines": [
+    {
+     "t": 5366.4,
+     "text": "Yeah, I think people are starting to wake up to some of them to the hype, but then also really kind of figure out what the real use cases are going to be for AI."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5518.8,
+   "end": 5533.2,
+   "lines": [
+    {
+     "t": 5518.8,
+     "text": "The Louvre, right?"
+    },
+    {
+     "t": 5519.6,
+     "text": "Yeah."
+    },
+    {
+     "t": 5520.1,
+     "text": "Yeah, yeah."
+    },
+    {
+     "t": 5520.7,
+     "text": "So we have the..."
+    },
+    {
+     "t": 5521.6,
+     "text": "It wasn't too long ago."
+    },
+    {
+     "t": 5522.8,
+     "text": "Exactly."
+    },
+    {
+     "t": 5523.4,
+     "text": "So we have this situation where we have the electronic bits that people are after, but they're still after the physical bits as well."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 5534.5,
+   "end": 5553.7,
+   "lines": [
+    {
+     "t": 5534.5,
+     "text": "Mm-hmm."
+    },
+    {
+     "t": 5535.2,
+     "text": "I mean, you know, look at the, to be honest, I mean, look at the vault, right?"
+    },
+    {
+     "t": 5539.6,
+     "text": "Who puts concrete, I mean, like a brick around the vault."
+    },
+    {
+     "t": 5542.8,
+     "text": "You're supposed to have, what is it, like five, six feet of either steel and concrete around it, you know?"
+    },
+    {
+     "t": 5549.2,
+     "text": "So, I mean, it's like, and you put it next to a parking garage, they probably share the wall."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5554.6,
+   "end": 5566.3,
+   "lines": [
+    {
+     "t": 5554.6,
+     "text": "I mean, but you can see it in the photo."
+    },
+    {
+     "t": 5557.8,
+     "text": "You can see the two layers of wall and like that's maybe doable with a sledgehammer given a little bit more time."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 5566.4,
+   "end": 5568.5,
+   "lines": [
+    {
+     "t": 5566.4,
+     "text": "I know this is negligence on the bank's fault."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

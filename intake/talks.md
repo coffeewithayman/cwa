@@ -8,8 +8,9 @@ Every talk, interview and episode on coffeewithayman.com/talks.
   (links are skipped automatically, audio files dropped in `media/inbox/` are
   moved to `_failed/`).
 - **Not included:** Getting Into Infosec (Ayman's own podcast).
-- **Enterprise Security Weekly episodes don't go here** — they live in
-  [`esw.md`](esw.md) and will link to Ayman's segment of each episode.
+- **Don't add new Enterprise Security Weekly episodes here** — list them in
+  [`esw.md`](esw.md); they'll get a separate workflow that links to Ayman's
+  segment. The 7 episodes already processed stay here.
 - Recordings where Ayman doesn't actually speak are skipped automatically by
   the voiceprint check.
 
@@ -441,5 +442,96 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - category:
 - topics:
 - status: 👤 needs speaker review — see intake/speakers.md <!-- managed -->
+
+### Notes
+
+## Data Security in the AI Era, Don't Let AI Ruin your Presentation, and the Weekly News - ESW #480
+- id: data-security-in-the-ai-era-don-t-let-ai-ruin-your <!-- managed -->
+- url: https://www.youtube.com/watch?v=6a2-W3WDGhg
+- format: cohost
+- date: 2026-10-12
+- event: Security Weekly - A CRA Resource
+- category:
+- topics:
+- summary: Ayman discusses the importance of simplifying presentation slides, emphasizing readability and avoiding over-reliance on AI tools that can amplify poor content. He also highlights reducing exposure as a key data security strategy, suggesting limiting access to sensitive information and focusing on preventative measures. Additionally, he reflects on the risks of AI in software development, noting potential issues with supply chain security if AI-generated code becomes widespread.
+- status: ✅ ingested 2026-10-15 · 278 lines · speaker auto (voiceprint 0.86 + name mentioned) · 181 flagged <!-- managed -->
+
+### Notes
+
+## Cyber Resilience with Cohesity, When to use AI for Writing, and the News - Rob Sadowski - ESW #477
+- id: cyber-resilience-with-cohesity-when-to-use-ai-for-writing <!-- managed -->
+- url: https://www.youtube.com/watch?v=6sZm4oA-iaU
+- format: cohost
+- date: 2026-09-21
+- event: Security Weekly - A CRA Resource
+- category:
+- topics:
+- summary: Ayman discusses concerns about AI-generated content replacing human writing, noting the risk of people losing writing skills and the potential for AI to create a feedback loop of AI-generated content consumed by AI. He also highlights the misuse of AI in cyber attacks, such as stealing credentials and harvesting API keys from apps, emphasizing the importance of securing keys and improving security practices in startups.
+- status: ✅ ingested 2026-10-15 · 208 lines · speaker auto (voiceprint 0.89 + name mentioned) · 100 flagged <!-- managed -->
+
+### Notes
+
+## Can employees safely use AI agents? AI pentesting agent liabilities, and the news - ESW #473
+- id: can-employees-safely-use-ai-agents-ai-pentesting-agent <!-- managed -->
+- url: https://youtu.be/o-Edp9puMEo?si=71SjUt1akYGDx4vH
+- format: cohost
+- date: 2026-08-24
+- event: Security Weekly - A CRA Resource
+- category:
+- topics:
+- summary: Ayman discusses the use of AI in pentesting, emphasizing the need for human oversight and the value of custom harnesses to ensure accurate and novel testing. He also highlights the challenges of using AI for security, including the need for open source models and the potential for AI to both create and solve security issues. Additionally, he comments on the implications of AI in content creation and the importance of transparency in its use.
+- status: ✅ ingested 2026-10-15 · 199 lines · speaker auto (voiceprint 0.85 + name mentioned) · 174 flagged <!-- managed -->
+
+### Notes
+
+## Fixing pentesting, Meta is destroying its engineering org, the weekly news  - ESW #465
+- id: fixing-pentesting-meta-is-destroying-its-engineering-org-the <!-- managed -->
+- url: https://www.youtube.com/watch?v=DRg-qoTIvJE
+- format: cohost
+- date: 2026-06-29
+- event: Security Weekly - A CRA Resource
+- category:
+- topics:
+- summary: Ayman discusses how AI is changing the role of engineers, noting that while it can make tasks easier, it also increases the volume of work, such as code reviews. He highlights concerns about AI training methods, including the use of human feedback and the potential for poor quality outputs. Ayman also mentions security practices, such as using internal repositories for software packages to improve supply chain safety.
+- status: ✅ ingested 2026-10-15 · 233 lines · speaker auto (voiceprint 0.84 + name mentioned) · 172 flagged <!-- managed -->
+
+### Notes
+
+## The State of Cybersecurity Hiring, 2026 content plans, and the weekly news - ESW #441
+- id: the-state-of-cybersecurity-hiring-2026-content-plans-and-the <!-- managed -->
+- url: https://www.youtube.com/watch?v=cTkQz2DGJRg
+- format: cohost
+- date: 2026-01-12
+- event: Security Weekly - A CRA Resource
+- category:
+- topics:
+- summary: Ayman discusses the current state of cybersecurity hiring, noting that the job market has improved slightly but still requires candidates to demonstrate a broader range of skills, including the use of AI and modern tools. He suggests that aspiring professionals can gain valuable experience by working on personal projects, such as deploying open-source applications or learning DevOps practices, to build practical skills that are in demand.
+- status: ✅ ingested 2026-10-15 · 172 lines · speaker auto (voiceprint 0.85 + name mentioned) · 156 flagged <!-- managed -->
+
+### Notes
+
+## ESW at BlackHat and the weekly enterprise security news - ESW #419
+- id: esw-at-blackhat-and-the-weekly-enterprise-security-news-esw <!-- managed -->
+- url: https://www.youtube.com/watch?v=Dq8_NlDm-A0
+- format: cohost
+- date: 2025-08-11
+- event: Security Weekly - A CRA Resource
+- category:
+- topics:
+- summary: Ayman discusses the growing importance of identity in cybersecurity, highlights the rapid consolidation in the industry, and expresses cautious optimism about AI's potential in security. He emphasizes the need for better workforce development, including hiring based on aptitude and learning ability, and stresses the importance of ethical considerations in AI and security practices.
+- status: ✅ ingested 2026-10-15 · 384 lines · speaker auto (voiceprint 0.79 + name mentioned) · 68 flagged <!-- managed -->
+
+### Notes
+
+## The Cyber Canon, ditching the SOC 2, and the weekly enterprise news - Helen Patton - ESW #416
+- id: the-cyber-canon-ditching-the-soc-2-and-the-weekly-enterprise <!-- managed -->
+- url: https://www.youtube.com/watch?v=ddA0I3fGRHA
+- format: cohost
+- date: 2025-07-21
+- event: Security Weekly - A CRA Resource
+- category:
+- topics:
+- summary: Ayman discusses the limitations and issues with SOC 2, explaining that it is not prescriptive and can give a false sense of security. He advises delaying SOC 2 until necessary and instead focusing on practical security measures like the Minimum Viable Secure Product (MVSP). He emphasizes the importance of designing security controls thoughtfully and not relying solely on compliance frameworks.
+- status: ✅ ingested 2026-10-15 · 311 lines · speaker auto (voiceprint 0.86 + name mentioned) · 164 flagged <!-- managed -->
 
 ### Notes

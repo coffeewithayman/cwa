@@ -1,0 +1,1917 @@
+{
+ "slug": "the-cyber-canon-ditching-the-soc-2-and-the-weekly-enterprise",
+ "scope": "ayman",
+ "format": "cohost",
+ "turns": [
+  {
+   "start": 205.3,
+   "end": 233.6,
+   "lines": [
+    {
+     "t": 205.3,
+     "text": "Also joining us and speaking just now is the Dean of Data Science, the Knight of Neurodiversity, the Watcher of Data Center Waste, Jackie McGuire."
+    },
+    {
+     "t": 214.1,
+     "text": "Howdy."
+    },
+    {
+     "t": 217.5,
+     "text": "I got to get through these because we got a ton of co-hosts today."
+    },
+    {
+     "t": 220.2,
+     "text": "Also joining us- We showed up as a gang."
+    },
+    {
+     "t": 225.8,
+     "text": "Also joining us is the connoisseur of cloud security, our single origin co-host and resident coffee sommelier, Ayman Elsawah."
+    },
+    {
+     "t": 232.8,
+     "text": "How are you doing, Ayman?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 234.2,
+   "end": 234.9,
+   "lines": [
+    {
+     "t": 234.2,
+     "text": "Good, Adrian."
+    },
+    {
+     "t": 234.6,
+     "text": "How are you?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 237.4,
+   "end": 241.6,
+   "lines": [
+    {
+     "t": 237.4,
+     "text": "So I refilled the water in my espresso machine over here, but I did not bring any cups down."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 242.3,
+   "end": 244.9,
+   "lines": [
+    {
+     "t": 242.3,
+     "text": "Oh, just got to do it with your hand there."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1487.8,
+   "end": 1492.5,
+   "lines": [
+    {
+     "t": 1487.8,
+     "text": "It's just like, oh, sorry."
+    },
+    {
+     "t": 1491.4,
+     "text": "Go ahead, Ayman."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1492.8,
+   "end": 1529.3,
+   "lines": [
+    {
+     "t": 1492.8,
+     "text": "It's just like how things are lost."
+    },
+    {
+     "t": 1496.1,
+     "text": "There's always a degree of loss from in-person to remote, like video to like on the phone, right?"
+    },
+    {
+     "t": 1503.3,
+     "text": "With every degree of departure, something's lost, right?"
+    },
+    {
+     "t": 1507.5,
+     "text": "So the same thing with reading, like that's like kind of like firsthand knowledge, right?"
+    },
+    {
+     "t": 1512.1,
+     "text": "You read a book, you're going to just like all the little prepositions and all that kind of stuff that even a bold or italic, when the author uses that, it's emphasis."
+    },
+    {
+     "t": 1521.1,
+     "text": "That's lost if you take it and digest it to AI and say, give me a summary, give me, so"
+    },
+    {
+     "t": 1526.0,
+     "text": "So I think it's the same thing."
+    },
+    {
+     "t": 1528.0,
+     "text": "We're not going to be able to get away from that."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2497.6,
+   "end": 2513.1,
+   "lines": [
+    {
+     "t": 2497.6,
+     "text": "An interesting bit of context I want to inject in here is I learned that SOC 2 comes from a CPA-like compliance firm, and it's often CPAs who are coming out and doing some of these audits."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2514.6,
+   "end": 2521.1,
+   "lines": [
+    {
+     "t": 2514.6,
+     "text": "Yeah, it's run by the AICPA."
+    },
+    {
+     "t": 2519.9,
+     "text": "And it used to be, it used to be."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2533.8,
+   "end": 2535.8,
+   "lines": [
+    {
+     "t": 2533.8,
+     "text": "Sorry, continue, Ayman."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2535.8,
+   "end": 2714.4,
+   "lines": [
+    {
+     "t": 2535.8,
+     "text": "Yeah, so there's a few points to cover here."
+    },
+    {
+     "t": 2539.3,
+     "text": "I just finished the SOC 2 just not too long ago."
+    },
+    {
+     "t": 2545.1,
+     "text": "As a CISO, what I was worried about, I don't want a report to have any findings, right?"
+    },
+    {
+     "t": 2549.6,
+     "text": "So there's like three or four different levels of like..."
+    },
+    {
+     "t": 2554.2,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, AppSec, red team, threat modeling,"
+    },
+    {
+     "t": 2576.7,
+     "text": "Well, let me step back."
+    },
+    {
+     "t": 2577.9,
+     "text": "There's a couple of things."
+    },
+    {
+     "t": 2578.8,
+     "text": "Let's talk about the problems with SOC 2, right?"
+    },
+    {
+     "t": 2582.6,
+     "text": "The author talks about a lot of things that are on point, right?"
+    },
+    {
+     "t": 2586.1,
+     "text": "Auditor qualities out of all over the place, right?"
+    },
+    {
+     "t": 2590.0,
+     "text": "I mean, like literally you could pay..."
+    },
+    {
+     "t": 2593.6,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM,"
+    },
+    {
+     "t": 2616.6,
+     "text": "The other thing is it's up to you to design the controls the way you want."
+    },
+    {
+     "t": 2621.0,
+     "text": "So it's not prescriptive like PCI, like thou shall do this."
+    },
+    {
+     "t": 2626.0,
+     "text": "It's up to you to design the controls whatever way you want."
+    },
+    {
+     "t": 2628.8,
+     "text": "And there's five trust criteria for SOC 2."
+    },
+    {
+     "t": 2631.4,
+     "text": "You don't have to do all five, only just the security one, which is fascinating."
+    },
+    {
+     "t": 2637.5,
+     "text": "What really drives SOC 2 is sales, right?"
+    },
+    {
+     "t": 2640.1,
+     "text": "Like it's like 98, I mean, a lot of times that's what the fractional CISO business is just like, help us get through these questionnaires through SOC 2."
+    },
+    {
+     "t": 2647.8,
+     "text": "By the way, doing SOC 2 won't preclude you from doing questionnaires."
+    },
+    {
+     "t": 2651.3,
+     "text": "You're still going to have to do them depending on the security team on the other side, right?"
+    },
+    {
+     "t": 2657.5,
+     "text": "For example, when I have to do, as part of your SOC 2, you have to do a vendor review."
+    },
+    {
+     "t": 2662.3,
+     "text": "And so I go and pull the SOC 2 reports from Google and everybody else."
+    },
+    {
+     "t": 2665.8,
+     "text": "I read them."
+    },
+    {
+     "t": 2666.3,
+     "text": "I take a look and see if there's anything."
+    },
+    {
+     "t": 2669.0,
+     "text": "I scan them."
+    },
+    {
+     "t": 2669.8,
+     "text": "I see if there's anything glaring."
+    },
+    {
+     "t": 2672.0,
+     "text": "And if there are, I try to dig into them."
+    },
+    {
+     "t": 2676.4,
+     "text": "But the problem with it is that it gives you a false sense of security."
+    },
+    {
+     "t": 2681.2,
+     "text": "Oh, I'm SOC 2, so I'm secure."
+    },
+    {
+     "t": 2682.8,
+     "text": "No, no, it's not true at all, right?"
+    },
+    {
+     "t": 2686.4,
+     "text": "But the good side of it, it's kind of like the gateway drug towards security, right?"
+    },
+    {
+     "t": 2691.2,
+     "text": "It gets people to do some things, albeit, like, unfortunately, it's sales driven."
+    },
+    {
+     "t": 2697.9,
+     "text": "So, like, they just want to, like, check the box, right?"
+    },
+    {
+     "t": 2700.9,
+     "text": "They, you know, sales is not always interested in getting security done."
+    },
+    {
+     "t": 2704.6,
+     "text": "So, I think he says, like, it's a security crutch."
+    },
+    {
+     "t": 2708.7,
+     "text": "Sure."
+    },
+    {
+     "t": 2711.0,
+     "text": "So those are some of the things that we'll talk to."
+    },
+    {
+     "t": 2712.3,
+     "text": "It's like a good housekeeping label."
+    },
+    {
+     "t": 2714.0,
+     "text": "What's that?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2805.4,
+   "end": 2821.3,
+   "lines": [
+    {
+     "t": 2805.4,
+     "text": "It just feels like both sides agreed to lie to each other and they're fine with it."
+    },
+    {
+     "t": 2811.5,
+     "text": "Yeah, have you ever worked in Wall Street?"
+    },
+    {
+     "t": 2818.8,
+     "text": "I'm hating, I'm not liking that's the comparison."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2822.4,
+   "end": 2863.0,
+   "lines": [
+    {
+     "t": 2822.4,
+     "text": "Yeah, it's just a lot of, maybe a little bit of laziness, a little bit of complacency, a little bit of, I mean, like, when I'm running security and I'm going to use a third party,"
+    },
+    {
+     "t": 2835.9,
+     "text": "I don't care."
+    },
+    {
+     "t": 2836.4,
+     "text": "You give me SOC 2, ISO, you could give me all the badges and stuff in the world."
+    },
+    {
+     "t": 2839.9,
+     "text": "I don't care."
+    },
+    {
+     "t": 2840.6,
+     "text": "I'm going to get on a call with your engineering team and we're going to go through your stuff."
+    },
+    {
+     "t": 2845.1,
+     "text": "They're like, nobody's ever done that before."
+    },
+    {
+     "t": 2846.5,
+     "text": "I'm like, yeah, well, because people are not doing their job."
+    },
+    {
+     "t": 2849.1,
+     "text": "So like, you know, don't criticize me for like, but we're SOC 2."
+    },
+    {
+     "t": 2852.7,
+     "text": "I'm like, I don't care."
+    },
+    {
+     "t": 2853.7,
+     "text": "I don't care if you're SOC 2, ISO, SOC 3, 10."
+    },
+    {
+     "t": 2856.9,
+     "text": "I don't care."
+    },
+    {
+     "t": 2857.8,
+     "text": "Like, seriously."
+    },
+    {
+     "t": 2859.5,
+     "text": "So that's, I mean, that's the security team's job is to"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2864.0,
+   "end": 2879.0,
+   "lines": [
+    {
+     "t": 2864.0,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec,"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2884.1,
+   "end": 2969.3,
+   "lines": [
+    {
+     "t": 2884.1,
+     "text": "Here's exactly what I tell clients."
+    },
+    {
+     "t": 2885.6,
+     "text": "So clients come to you all the time, should we do SOC 2?"
+    },
+    {
+     "t": 2888.2,
+     "text": "I mean, I even sell some of the software that helps you get there, right?"
+    },
+    {
+     "t": 2891.7,
+     "text": "But you could do it on a spreadsheet if you're like a maniac, that's fine too, it's up to you."
+    },
+    {
+     "t": 2895.3,
+     "text": "But like, I mean, yeah."
+    },
+    {
+     "t": 2897.9,
+     "text": "But here's what I tell people, do SOC 2, wait until you have to do it, right?"
+    },
+    {
+     "t": 2903.5,
+     "text": "Because again, what's driving it is sales."
+    },
+    {
+     "t": 2908.3,
+     "text": "And in the meantime, here's a bunch of things to actually get you secure."
+    },
+    {
+     "t": 2912.7,
+     "text": "Like, I literally, I'm like, listen, what do you want?"
+    },
+    {
+     "t": 2915.7,
+     "text": "Do you want a compliance and sales or do you want to be secure?"
+    },
+    {
+     "t": 2919.0,
+     "text": "And they're not always mutually exclusive, right?"
+    },
+    {
+     "t": 2921.3,
+     "text": "I do paint it out."
+    },
+    {
+     "t": 2922.6,
+     "text": "But for a small company, it's a lot of work."
+    },
+    {
+     "t": 2928.0,
+     "text": "You know, you have these features you want to ship and then you have the SOC 2 distraction."
+    },
+    {
+     "t": 2932.5,
+     "text": "A lot of companies just, oh, let's just do SOC 2."
+    },
+    {
+     "t": 2934.7,
+     "text": "It's not like something you buy and turn it on."
+    },
+    {
+     "t": 2937.6,
+     "text": "You're going to have to do like some documentation, turn on a bunch of things."
+    },
+    {
+     "t": 2942.2,
+     "text": "So unless you have a deadline from a client and i walk them through it i'm like one of the negotiation tactics is like okay the way you know you have when you have to do SOC 2 is when a client refuses to sign until you have SOC 2. and when you get to that point you say okay can we promise that we'll be SOC 2 in six months or upon renewal right and then once that happens then go ahead and turn on the SOC 2 or go for the whole thing because whatever"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2995.2,
+   "end": 3016.6,
+   "lines": [
+    {
+     "t": 2995.2,
+     "text": "Yeah."
+    },
+    {
+     "t": 2995.6,
+     "text": "And the more of this we get done along the way before then, the less expensive it's going to be to get there, and the faster we're going to be able to close that deal."
+    },
+    {
+     "t": 3003.5,
+     "text": "And I think that's like, if you can tie what you're trying to do with security to the revenue you're trying to generate, that always gives you a little bit more traction."
+    },
+    {
+     "t": 3011.4,
+     "text": "So, you know, yes, don't do it till you have to, but as a security leader, use it to threaten people."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 7"
+  },
+  {
+   "start": 3017.8,
+   "end": 3067.6,
+   "lines": [
+    {
+     "t": 3017.8,
+     "text": "So we've tried that we've tried that and until there's an actual deadline like nobody cares about perspective money they'll just they'll just they'll just take their time right because i'm not the engineering manager i can't go and like turn on key management whatever it is that's the controls designed to do blob storage whatever it may be"
+    },
+    {
+     "t": 3041.9,
+     "text": "Yeah, like it were just various things."
+    },
+    {
+     "t": 3044.4,
+     "text": "You'd be surprised."
+    },
+    {
+     "t": 3045.1,
+     "text": "And then funny, what's really funny is between all the vendors, everybody has your own interpretation of what needs to be on."
+    },
+    {
+     "t": 3051.2,
+     "text": "And that's the worst part of it."
+    },
+    {
+     "t": 3052.8,
+     "text": "So like, that's where I kind of like come in and I'm like, you know what?"
+    },
+    {
+     "t": 3055.9,
+     "text": "We don't really need this."
+    },
+    {
+     "t": 3057.0,
+     "text": "We have this here."
+    },
+    {
+     "t": 3058.1,
+     "text": "So don't turn on this."
+    },
+    {
+     "t": 3059.6,
+     "text": "And that's where sometimes these things become a waste of time."
+    },
+    {
+     "t": 3062.5,
+     "text": "And you need an expert not to like sell myself here, but like, it's good to have someone."
+    },
+    {
+     "t": 3066.9,
+     "text": "No, I'm serious."
+    },
+    {
+     "t": 3067.4,
+     "text": "Like."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3067.9,
+   "end": 3068.6,
+   "lines": [
+    {
+     "t": 3067.9,
+     "text": "Need an Ayman."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 7"
+  },
+  {
+   "start": 3069.5,
+   "end": 3092.9,
+   "lines": [
+    {
+     "t": 3069.5,
+     "text": "Just don't wait."
+    },
+    {
+     "t": 3070.1,
+     "text": "I don't like, I hate, I hate seeing people waste time."
+    },
+    {
+     "t": 3072.8,
+     "text": "And, and you know what?"
+    },
+    {
+     "t": 3073.8,
+     "text": "If you want to be secure, go ahead and check out the MBSP."
+    },
+    {
+     "t": 3077.0,
+     "text": "If people had to do the MBSP,"
+    },
+    {
+     "t": 3080.1,
+     "text": "I'm all for that."
+    },
+    {
+     "t": 3080.9,
+     "text": "Do the MVSP, Minimum Viable Secure Product, and that'll get you way further than SOC 2."
+    },
+    {
+     "t": 3087.8,
+     "text": "Believe enough, you could have SOC 2, but not meet a lot of those criteria in there."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3093.6,
+   "end": 3095.5,
+   "lines": [
+    {
+     "t": 3093.6,
+     "text": "What is MVSP?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 3095.7,
+   "end": 3108.4,
+   "lines": [
+    {
+     "t": 3095.7,
+     "text": "MVSP.dev, so it's Minimum Viable Secure Product."
+    },
+    {
+     "t": 3100.0,
+     "text": "A bunch of, I think, FANG folks or whatnot got together and put together what they thought would be a secure product."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3109.6,
+   "end": 3112.0,
+   "lines": [
+    {
+     "t": 3109.6,
+     "text": "Oh, okay."
+    },
+    {
+     "t": 3110.5,
+     "text": "Very cool."
+    },
+    {
+     "t": 3111.1,
+     "text": "I was not aware of this."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 3112.6,
+   "end": 3116.1,
+   "lines": [
+    {
+     "t": 3112.6,
+     "text": "Yeah, it's lovely."
+    },
+    {
+     "t": 3113.5,
+     "text": "It's great."
+    },
+    {
+     "t": 3114.0,
+     "text": "I'm like, just go with it."
+    },
+    {
+     "t": 3115.0,
+     "text": "It has a checklist and everything."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3142.6,
+   "end": 3155.5,
+   "lines": [
+    {
+     "t": 3142.6,
+     "text": "Yeah, yeah."
+    },
+    {
+     "t": 3144.6,
+     "text": "And it seemed like a small thing, you know, it was something to do with access controls or something like shared logins or something like that."
+    },
+    {
+     "t": 3150.4,
+     "text": "And..."
+    },
+    {
+     "t": 3151.0,
+     "text": "Yeah, and it's one of those things that it's only as good as what you do with it."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 7"
+  },
+  {
+   "start": 3155.7,
+   "end": 3168.6,
+   "lines": [
+    {
+     "t": 3155.7,
+     "text": "At least it was there."
+    },
+    {
+     "t": 3157.1,
+     "text": "I mean, I had one company, I didn't work with them, but I had one company say, okay, can we just do all these things for SOC 2, pass the audit, and just turn it off later?"
+    },
+    {
+     "t": 3163.4,
+     "text": "I'm like, no, please don't do that."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3173.7,
+   "end": 3200.9,
+   "lines": [
+    {
+     "t": 3173.7,
+     "text": "That was created by CPAs and CPAs make their money checking boxes so like if it was created by somebody that actually had a vested interest in him and like what's pursuing companies to ask for them is a CPA too right because there's a CPA on the other side going oh well you know in order to issue this insurance or like to green light your financials or you know whatever it is you really need to be getting SOC 2s and it's just this circular"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 7"
+  },
+  {
+   "start": 3201.6,
+   "end": 3212.8,
+   "lines": [
+    {
+     "t": 3201.6,
+     "text": "Yeah."
+    },
+    {
+     "t": 3202.3,
+     "text": "Graphic cycle."
+    },
+    {
+     "t": 3203.9,
+     "text": "Didn't we talk about, I think we were talking about a different podcast, how like VCs or they're not invested to like actually solve security problems."
+    },
+    {
+     "t": 3212.4,
+     "text": "Yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3213.3,
+   "end": 3233.2,
+   "lines": [
+    {
+     "t": 3213.3,
+     "text": "No, absolutely."
+    },
+    {
+     "t": 3214.3,
+     "text": "It's to build a business that makes money."
+    },
+    {
+     "t": 3217.0,
+     "text": "If that also happens to solve some security problems, wonderful."
+    },
+    {
+     "t": 3221.1,
+     "text": "But it's not a requirement."
+    },
+    {
+     "t": 3224.4,
+     "text": "All right, that's all we have time for this segment here."
+    },
+    {
+     "t": 3227.4,
+     "text": "And yeah, so to summarize, hire Ayman, don't waste time and use mvsp.dev."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 3233.6,
+   "end": 3236.7,
+   "lines": [
+    {
+     "t": 3233.6,
+     "text": "Don't hire me."
+    },
+    {
+     "t": 3234.2,
+     "text": "Just do it."
+    },
+    {
+     "t": 3234.5,
+     "text": "Just secure your stuff, man."
+    },
+    {
+     "t": 3236.0,
+     "text": "Just secure your stuff."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3697.5,
+   "end": 3726.4,
+   "lines": [
+    {
+     "t": 3697.5,
+     "text": "So it is yeah I can't imagine being 60 and losing a job right you know like ageism is a is a thing you know like it can't be easy at 62 like I got three years to go who's gonna hire me right like you almost have to go independent are not gonna get jobs they're not so one is essentially retired the other I have a feeling I haven't spoken directly to her yet but gonna retire or start her own consulting company for the next three years or whatever the case may be"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 3728.0,
+   "end": 3791.0,
+   "lines": [
+    {
+     "t": 3728.0,
+     "text": "I mean, it really begs the question on the future of work."
+    },
+    {
+     "t": 3731.9,
+     "text": "And then also, like, for some people, they don't need to retire."
+    },
+    {
+     "t": 3736.9,
+     "text": "Like, I'm sorry, they shouldn't retire, right?"
+    },
+    {
+     "t": 3738.7,
+     "text": "Like, for some people, like, they'll just, it'll be a different kind of work in the future, right?"
+    },
+    {
+     "t": 3744.9,
+     "text": "And also now with things, I mean, basically what I'm trying to say is the time of going to a company, working 20, 30 years, getting a pension, that's gone."
+    },
+    {
+     "t": 3753.4,
+     "text": "That's been gone, right?"
+    },
+    {
+     "t": 3755.7,
+     "text": "My parents' generation is the last one."
+    },
+    {
+     "t": 3758.2,
+     "text": "They're sitting on a pension."
+    },
+    {
+     "t": 3759.8,
+     "text": "It's great."
+    },
+    {
+     "t": 3761.2,
+     "text": "But I always think, what is future going to be like for me?"
+    },
+    {
+     "t": 3766.0,
+     "text": "And this is more like a personal, what's just taking care of yourself."
+    },
+    {
+     "t": 3772.7,
+     "text": "And it's harder here in America versus, say, in other countries where there's more of an infrastructure."
+    },
+    {
+     "t": 3778.7,
+     "text": "The same thing with starting a business, right?"
+    },
+    {
+     "t": 3780.1,
+     "text": "When you start a business, you don't have to worry about health insurance and stuff because it's already taken care of."
+    },
+    {
+     "t": 3784.9,
+     "text": "Here, I mean, most people, just like you said, Katie, they keep the job because of the health insurance, right?"
+    },
+    {
+     "t": 3790.4,
+     "text": "I mean, like..."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3791.5,
+   "end": 3793.0,
+   "lines": [
+    {
+     "t": 3791.5,
+     "text": "Almost always comes back to that."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 3793.4,
+   "end": 3807.2,
+   "lines": [
+    {
+     "t": 3793.4,
+     "text": "Yeah."
+    },
+    {
+     "t": 3794.1,
+     "text": "So, you know, what I'm trying to say is we're going to have to diversify our incomes, right?"
+    },
+    {
+     "t": 3799.5,
+     "text": "Like figure out like side hustles, all this kind of stuff, like to basically survive in the future or live in a really low cost country."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3951.2,
+   "end": 3957.2,
+   "lines": [
+    {
+     "t": 3951.2,
+     "text": "I'm pretty sure most of us on this call have some opinions on what that means."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 6"
+  },
+  {
+   "start": 3957.5,
+   "end": 3960.8,
+   "lines": [
+    {
+     "t": 3957.5,
+     "text": "Why are some kids' foods can't be sold in Europe, but they're sold here?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 4191.7,
+   "end": 4199.4,
+   "lines": [
+    {
+     "t": 4191.7,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 7"
+  },
+  {
+   "start": 4210.3,
+   "end": 4213.0,
+   "lines": [
+    {
+     "t": 4210.3,
+     "text": "Well, you got a video."
+    },
+    {
+     "t": 4211.0,
+     "text": "You got Defcon Blackout."
+    },
+    {
+     "t": 4212.0,
+     "text": "That's another opportunity for you."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 4263.5,
+   "end": 4288.6,
+   "lines": [
+    {
+     "t": 4263.5,
+     "text": "And I think it is a liability."
+    },
+    {
+     "t": 4266.1,
+     "text": "And I think people need to recognize some of that stuff as a liability."
+    },
+    {
+     "t": 4269.8,
+     "text": "You know, there are a lot of kind of shady practices that go on."
+    },
+    {
+     "t": 4274.2,
+     "text": "And they're not just on the business side."
+    },
+    {
+     "t": 4276.4,
+     "text": "Like these people in their personal lives, you know, you learn just a little bit about their personal lives and you're like, oh, okay."
+    },
+    {
+     "t": 4283.2,
+     "text": "Like you're happy to cheat and lie to a customer and do it in your personal life as well."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 4289.3,
+   "end": 4293.7,
+   "lines": [
+    {
+     "t": 4289.3,
+     "text": "I don't think the audience knows what we're talking about."
+    },
+    {
+     "t": 4292.3,
+     "text": "Did we say what the story was?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 4575.7,
+   "end": 4578.8,
+   "lines": [
+    {
+     "t": 4575.7,
+     "text": "Yeah, well, it's just a badge on the website."
+    },
+    {
+     "t": 4577.6,
+     "text": "Like, we can't look at it."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 4578.9,
+   "end": 4581.7,
+   "lines": [
+    {
+     "t": 4578.9,
+     "text": "Can we get the SOC 2 report?"
+    },
+    {
+     "t": 4580.4,
+     "text": "Let's get the SOC 2 report."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 4581.9,
+   "end": 4582.9,
+   "lines": [
+    {
+     "t": 4581.9,
+     "text": "Oh, yeah."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 8"
+  },
+  {
+   "start": 4583.5,
+   "end": 4585.3,
+   "lines": [
+    {
+     "t": 4583.5,
+     "text": "If anybody out there has a SOC 2 report."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 4782.7,
+   "end": 4786.4,
+   "lines": [
+    {
+     "t": 4782.7,
+     "text": "Okay, sure."
+    },
+    {
+     "t": 4783.7,
+     "text": "Yeah."
+    },
+    {
+     "t": 4784.2,
+     "text": "Yeah."
+    },
+    {
+     "t": 4784.9,
+     "text": "Good to challenge me on that."
+    },
+    {
+     "t": 4786.2,
+     "text": "Sure."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 4786.8,
+   "end": 4792.4,
+   "lines": [
+    {
+     "t": 4786.8,
+     "text": "I'm curious what their partners, I mean, they list a lot of big name companies that are like, they're integrated with."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 4819.4,
+   "end": 4838.4,
+   "lines": [
+    {
+     "t": 4819.4,
+     "text": "So that was something that was kind of surprising is McDonald's didn't have any kind of vulnerability disclosure program, any easy way to report this."
+    },
+    {
+     "t": 4828.6,
+     "text": "So the researchers just had to randomly start emailing people and like hitting them up on LinkedIn, which is never good."
+    },
+    {
+     "t": 4835.8,
+     "text": "I'm curious."
+    },
+    {
+     "t": 4836.6,
+     "text": "So a lot of lessons learned here."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 4838.8,
+   "end": 4846.7,
+   "lines": [
+    {
+     "t": 4838.8,
+     "text": "No, you know how a company responds, I think shows a lot, you know, that we should, good point, give credit to that."
+    },
+    {
+     "t": 4846.0,
+     "text": "Yeah, I think so."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 4846.9,
+   "end": 4847.0,
+   "lines": [
+    {
+     "t": 4846.9,
+     "text": "Yeah."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 4847.2,
+   "end": 4871.6,
+   "lines": [
+    {
+     "t": 4847.2,
+     "text": "I am curious, though, like, you know, was all this like, actually, like humans that put this, these commits?"
+    },
+    {
+     "t": 4855.1,
+     "text": "Or, you know, was it AI?"
+    },
+    {
+     "t": 4856.5,
+     "text": "Because I'm curious, you know, like, depending on how that answer goes, like, is it better off doing one or the other?"
+    },
+    {
+     "t": 4864.6,
+     "text": "Like, so I mean, I've been doing a lot of vibe coding lately."
+    },
+    {
+     "t": 4866.8,
+     "text": "And this probably could have been prevented with like the right prompt and right AI."
+    },
+    {
+     "t": 4871.4,
+     "text": "But"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5092.4,
+   "end": 5122.3,
+   "lines": [
+    {
+     "t": 5092.4,
+     "text": "Speaking of amen, amen."
+    },
+    {
+     "t": 5097.9,
+     "text": "Wow, that was smooth."
+    },
+    {
+     "t": 5102.1,
+     "text": "Never heard that before."
+    },
+    {
+     "t": 5105.7,
+     "text": "What is going on with AI acquisitions here?"
+    },
+    {
+     "t": 5109.2,
+     "text": "Because this is like, I've only yesterday learned about the reverse acqui-hire."
+    },
+    {
+     "t": 5115.4,
+     "text": "And like, this is weird."
+    },
+    {
+     "t": 5119.2,
+     "text": "It tells us what's going on here with cognition and windsurf and"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 5123.1,
+   "end": 5148.7,
+   "lines": [
+    {
+     "t": 5123.1,
+     "text": "Yeah, you know, Jackie might know more about the technical, like, I still want to dig into the money part, like how that was possible."
+    },
+    {
+     "t": 5132.1,
+     "text": "You know, TLDR, like, all the employees of a company got screwed because the founders wanted to, you know, just left them behind."
+    },
+    {
+     "t": 5139.5,
+     "text": "But it was a lot of drama."
+    },
+    {
+     "t": 5144.2,
+     "text": "Yeah, Jackie, I think you have a better, you did, I think you went into a lot deeper than I did."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5244.2,
+   "end": 5269.0,
+   "lines": [
+    {
+     "t": 5244.2,
+     "text": "It doesn't have to, and that's the whole purpose I was reading about this."
+    },
+    {
+     "t": 5248.5,
+     "text": "The whole reason for just poaching the heads of the company and getting the license is they don't have to go through any of that because they're not acquiring the company."
+    },
+    {
+     "t": 5261.3,
+     "text": "They're just hiring some people."
+    },
+    {
+     "t": 5263.2,
+     "text": "Wow."
+    },
+    {
+     "t": 5265.2,
+     "text": "That's the whole reason for the reverse acqui-hire is to avoid any scrutiny."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 5271.3,
+   "end": 5273.8,
+   "lines": [
+    {
+     "t": 5271.3,
+     "text": "So does that mean regulations?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5297.1,
+   "end": 5297.9,
+   "lines": [
+    {
+     "t": 5297.1,
+     "text": "Yeah, yeah."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 7"
+  },
+  {
+   "start": 5298.8,
+   "end": 5316.2,
+   "lines": [
+    {
+     "t": 5298.8,
+     "text": "What I love is this spoof that, you know, these people did on X. I don't know if you posted that one, but these two founders did a spoof of the whole thing."
+    },
+    {
+     "t": 5307.1,
+     "text": "You know, it's all like, all this is over like an IDEs, open source IDEs that like people..."
+    },
+    {
+     "t": 5314.2,
+     "text": "Anybody could copy, so it's just fascinating."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5317.3,
+   "end": 5319.3,
+   "lines": [
+    {
+     "t": 5317.3,
+     "text": "Yeah, like a lot of it's open source anyway, right?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 5320.2,
+   "end": 5322.5,
+   "lines": [
+    {
+     "t": 5320.2,
+     "text": "Kind of screams like bubble, but I don't know."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5389.0,
+   "end": 5409.8,
+   "lines": [
+    {
+     "t": 5389.0,
+     "text": "Yeah."
+    },
+    {
+     "t": 5389.4,
+     "text": "Yeah."
+    },
+    {
+     "t": 5389.8,
+     "text": "Yeah."
+    },
+    {
+     "t": 5391.3,
+     "text": "Honestly, it just doesn't make a whole lot of sense."
+    },
+    {
+     "t": 5393.2,
+     "text": "Like we CISO many companies privately getting more money than they would have gotten by going public without all the handcuffs that you have by going public and all the scrutiny from shareholders and stuff like that."
+    },
+    {
+     "t": 5403.9,
+     "text": "So, yeah, I think the landscape's just it's you're not incentivized to go public anymore."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 5410.1,
+   "end": 5421.0,
+   "lines": [
+    {
+     "t": 5410.1,
+     "text": "But it begs the question that one article you mentioned maybe about a month or two ago that talks about like the VC and like kind of like this song and dance is not sustainable so."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5421.8,
+   "end": 5438.9,
+   "lines": [
+    {
+     "t": 5421.8,
+     "text": "Yeah somebody just sent me a interesting video today about collateralized debt obligations which is something that I worked with quite a bit when I worked in Wall Street but just kind of how these private equity companies are kind of buying up all these little companies and having them take on insane amounts of debt and like"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 7"
+  },
+  {
+   "start": 5439.5,
+   "end": 5443.6,
+   "lines": [
+    {
+     "t": 5439.5,
+     "text": "What's the collateral?"
+    },
+    {
+     "t": 5440.9,
+     "text": "2008, huh?"
+    },
+    {
+     "t": 5442.9,
+     "text": "It's the company."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5876.2,
+   "end": 5877.4,
+   "lines": [
+    {
+     "t": 5876.2,
+     "text": "Yeah, I'm curious about this."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 6"
+  },
+  {
+   "start": 5877.5,
+   "end": 5880.1,
+   "lines": [
+    {
+     "t": 5877.5,
+     "text": "Oh, is that apparent?"
+    },
+    {
+     "t": 5878.5,
+     "text": "I'm sorry."
+    },
+    {
+     "t": 5879.8,
+     "text": "It is."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5880.8,
+   "end": 5882.6,
+   "lines": [
+    {
+     "t": 5880.8,
+     "text": "Your eyebrows have subtitles."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 7"
+  },
+  {
+   "start": 5882.9,
+   "end": 5974.9,
+   "lines": [
+    {
+     "t": 5882.9,
+     "text": "Yeah, yeah, yeah."
+    },
+    {
+     "t": 5884.7,
+     "text": "I didn't mean counterpoint, but like, so there's two parts."
+    },
+    {
+     "t": 5887.1,
+     "text": "One, there's a funny anecdote I just thought of."
+    },
+    {
+     "t": 5891.0,
+     "text": "I remember George Jetson and he'd come home from work."
+    },
+    {
+     "t": 5893.2,
+     "text": "He's like, I had to press the button five times today."
+    },
+    {
+     "t": 5895.6,
+     "text": "Like, is that the future of work, right?"
+    },
+    {
+     "t": 5897.7,
+     "text": "So, but in all seriousness, to your point, Katie, it's moving things forward, like faster."
+    },
+    {
+     "t": 5903.9,
+     "text": "Like just, I just finally got into the vibe coding thing on Friday."
+    },
+    {
+     "t": 5908.0,
+     "text": "I lost sleep."
+    },
+    {
+     "t": 5909.9,
+     "text": "I, you know, it's like, it's like back to when I was scripting and coding before."
+    },
+    {
+     "t": 5914.7,
+     "text": "But like, I don't have to deal with the Python errors or like the environment."
+    },
+    {
+     "t": 5918.2,
+     "text": "Like it just does the troubleshooting for me."
+    },
+    {
+     "t": 5919.6,
+     "text": "It's just magic."
+    },
+    {
+     "t": 5921.1,
+     "text": "And here's where it actually helped my job just this week."
+    },
+    {
+     "t": 5925.7,
+     "text": "I'm trying to find all the Google file shares that are shared publicly, right?"
+    },
+    {
+     "t": 5931.2,
+     "text": "And Google's workspace admin sucks."
+    },
+    {
+     "t": 5933.6,
+     "text": "It's just really bad, slow."
+    },
+    {
+     "t": 5936.1,
+     "text": "So I found an open source project, forked it,"
+    },
+    {
+     "t": 5939.6,
+     "text": "I had Claude help me, you know, get up to speed to it."
+    },
+    {
+     "t": 5943.1,
+     "text": "I used it."
+    },
+    {
+     "t": 5944.1,
+     "text": "And I'm like, this could be better."
+    },
+    {
+     "t": 5946.4,
+     "text": "Started updating it."
+    },
+    {
+     "t": 5947.9,
+     "text": "Hey, Claude, do this, do this."
+    },
+    {
+     "t": 5949.2,
+     "text": "And now I have a beautiful thing that I can find everybody's shared files."
+    },
+    {
+     "t": 5955.0,
+     "text": "Give me links."
+    },
+    {
+     "t": 5956.8,
+     "text": "Pretty soon I'll have it send people emails."
+    },
+    {
+     "t": 5958.5,
+     "text": "Like, I just did that in like a few hours, right?"
+    },
+    {
+     "t": 5962.4,
+     "text": "I don't have to go buy a tool."
+    },
+    {
+     "t": 5964.8,
+     "text": "So the limit, I think the limit"
+    },
+    {
+     "t": 5967.3,
+     "text": "What a lot of people are saying is our limitation is going to be our imagination, right?"
+    },
+    {
+     "t": 5973.5,
+     "text": "That's just, that's going to be our limit."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 6042.6,
+   "end": 6062.1,
+   "lines": [
+    {
+     "t": 6042.6,
+     "text": "Nobody drives a standard anymore."
+    },
+    {
+     "t": 6044.6,
+     "text": "That doesn't mean that we would say that people who can't drive standards, like it just, it's one of those things that I'm like, do I think people who can't drive manuals or pansies?"
+    },
+    {
+     "t": 6053.2,
+     "text": "Yes, I absolutely do."
+    },
+    {
+     "t": 6054.7,
+     "text": "Do I think that's probably a really stupid and unrealistic opinion that I only take because I know how?"
+    },
+    {
+     "t": 6059.8,
+     "text": "Yes."
+    },
+    {
+     "t": 6060.3,
+     "text": "And I feel like that's how AI is getting."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 7"
+  },
+  {
+   "start": 6063.4,
+   "end": 6070.0,
+   "lines": [
+    {
+     "t": 6063.4,
+     "text": "I actually said that in my article, Jackie, so high five, virtual high five."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 6234.6,
+   "end": 6237.9,
+   "lines": [
+    {
+     "t": 6234.6,
+     "text": "As somebody who used to back up into things, we should use it."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 6"
+  },
+  {
+   "start": 6238.5,
+   "end": 6240.9,
+   "lines": [
+    {
+     "t": 6238.5,
+     "text": "So the thing you're probably not allowed to use."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 6396.8,
+   "end": 6413.7,
+   "lines": [
+    {
+     "t": 6396.8,
+     "text": "That's what enhanced means."
+    },
+    {
+     "t": 6398.0,
+     "text": "It just uses the in-car camera to show your face."
+    },
+    {
+     "t": 6402.3,
+     "text": "And Intune integration and Microsoft 365 Copilot."
+    },
+    {
+     "t": 6407.1,
+     "text": "Intune?"
+    },
+    {
+     "t": 6407.6,
+     "text": "So Intune inventories are now going to have people's personal cars in them."
+    },
+    {
+     "t": 6412.3,
+     "text": "I do not understand that."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 6413.7,
+   "end": 6414.7,
+   "lines": [
+    {
+     "t": 6413.7,
+     "text": "Are you going to MDM your car?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 6480.9,
+   "end": 6497.1,
+   "lines": [
+    {
+     "t": 6480.9,
+     "text": "The only thing I can think is that so douchey CEOs can take Teams meetings from their Mercedes and then their security teams can secure the corporate license of Teams that's on the, I don't know."
+    },
+    {
+     "t": 6496.8,
+     "text": "Yeah."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 7"
+  },
+  {
+   "start": 6498.4,
+   "end": 6503.2,
+   "lines": [
+    {
+     "t": 6498.4,
+     "text": "Or maybe to publish."
+    },
+    {
+     "t": 6499.5,
+     "text": "Oh, maybe it's just to provision the Mercedes car."
+    },
+    {
+     "t": 6503.1,
+     "text": "Yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 6504.8,
+   "end": 6506.6,
+   "lines": [
+    {
+     "t": 6504.8,
+     "text": "To provision the apps?"
+    },
+    {
+     "t": 6506.4,
+     "text": "Yeah."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 6506.6,
+   "end": 6507.9,
+   "lines": [
+    {
+     "t": 6506.6,
+     "text": "Maybe push the app to there."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

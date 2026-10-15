@@ -1,0 +1,1343 @@
+{
+ "slug": "cyber-resilience-with-cohesity-when-to-use-ai-for-writing",
+ "scope": "ayman",
+ "format": "cohost",
+ "turns": [
+  {
+   "start": 2202.1,
+   "end": 2210.8,
+   "lines": [
+    {
+     "t": 2202.1,
+     "text": "All right, last but not least, joining us is the connoisseur of cloud security, our single origin co-host and resident coffee sommelier, Ayman Elsawah."
+    },
+    {
+     "t": 2210.1,
+     "text": "How are you doing, Ayman?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2211.4,
+   "end": 2217.3,
+   "lines": [
+    {
+     "t": 2211.4,
+     "text": "I'm doing good."
+    },
+    {
+     "t": 2212.2,
+     "text": "I'm doing good."
+    },
+    {
+     "t": 2212.5,
+     "text": "I'm a little low on coffee, but I think I'm okay."
+    },
+    {
+     "t": 2216.3,
+     "text": "Yeah, I'm doing good."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2387.8,
+   "end": 2412.5,
+   "lines": [
+    {
+     "t": 2387.8,
+     "text": "You know why this bothers us so much you know she talks about like at one point it was like okay you know this is fine and at some point it's just full-on rage when you come across something you realize it's written in ai and you know it feels like somebody's just stolen your time from you right they're just wasting your time and so really good post i don't know if any of you got a chance to read through this"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2415.2,
+   "end": 2507.9,
+   "lines": [
+    {
+     "t": 2415.2,
+     "text": "Not entirely, but I, you know, but I definitely, it's, you know,"
+    },
+    {
+     "t": 2421.4,
+     "text": "The two things I would say on this."
+    },
+    {
+     "t": 2423.9,
+     "text": "So one is like, you know, personally, as a writer, when AI was coming out, like, and was really good at it, I almost like, had a hesitation on writing again."
+    },
+    {
+     "t": 2434.4,
+     "text": "I'm like, what's the point?"
+    },
+    {
+     "t": 2436.6,
+     "text": "You know, in a way, but thankfully, I've been able to overcome that."
+    },
+    {
+     "t": 2440.8,
+     "text": "And now I write, I mean, I've always written all my articles 100%."
+    },
+    {
+     "t": 2444.5,
+     "text": "And I feel good about writing something that's like, that I have written."
+    },
+    {
+     "t": 2449.2,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec,"
+    },
+    {
+     "t": 2463.3,
+     "text": "Yeah, and the other thing that's really interesting, I don't know, so Amazon has a writing culture, or did have a writing culture, and where they have this like the concept of a one pager or two or six pager, and I've heard people telling me that, and it made sense, like it's a good methodology in general, where you write something and then everybody reads it and then they discuss it."
+    },
+    {
+     "t": 2484.3,
+     "text": "But now people are just like, hey, can you make a one pager or a six pager on this?"
+    },
+    {
+     "t": 2488.2,
+     "text": "And like instant turnaround, and like, I know you didn't write this."
+    },
+    {
+     "t": 2492.3,
+     "text": "And so they're having so it's it's yeah anyway well and now you can't really have a conversation with them because they haven't read it themselves yeah you're right that's my favorite part is like i didn't know that was in there"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3186.8,
+   "end": 3211.4,
+   "lines": [
+    {
+     "t": 3186.8,
+     "text": "Got it."
+    },
+    {
+     "t": 3187.9,
+     "text": "And there's one, it's just like somebody gave it some drugs and it had some clarity and one sentence is clear and then it goes back to just pure mud after that."
+    },
+    {
+     "t": 3199.3,
+     "text": "I write way better than that on drugs, just for the record."
+    },
+    {
+     "t": 3208.8,
+     "text": "This is a different level, Jackie."
+    },
+    {
+     "t": 3210.4,
+     "text": "This is AI drugs."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 3213.3,
+   "end": 3239.2,
+   "lines": [
+    {
+     "t": 3213.3,
+     "text": "You know what's interesting is like, first of all, yeah, I mean, I get the offensive part, like it's offensive to see this, but there's a couple of like long-term effects here."
+    },
+    {
+     "t": 3222.4,
+     "text": "One is people are just going to forget how to write."
+    },
+    {
+     "t": 3225.8,
+     "text": "Just like our, you know, millennials or whatever Gen Z is or whatever it is, don't know how to speak, can't speak anymore, right?"
+    },
+    {
+     "t": 3234.1,
+     "text": "Yeah."
+    },
+    {
+     "t": 3234.8,
+     "text": "And then the second part is we're nearing a world where it's just going to be AI generated content being consumed by AI bots."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3264.3,
+   "end": 3266.2,
+   "lines": [
+    {
+     "t": 3264.3,
+     "text": "So yeah, that I'm concerned about."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 3266.2,
+   "end": 3286.2,
+   "lines": [
+    {
+     "t": 3266.2,
+     "text": "So like, at the end of the day, no one's reading, no one's writing, right?"
+    },
+    {
+     "t": 3269.8,
+     "text": "It's the AI."
+    },
+    {
+     "t": 3270.6,
+     "text": "And so the AI is going to, like, somebody's going to probably take this thing, feed it to their AI and tell me what matters."
+    },
+    {
+     "t": 3276.1,
+     "text": "So now we just have like this like kind of circular loop of AI bots talking to each other and the human somewhere is in there like, you know, I don't know where they are really."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3766.4,
+   "end": 3769.0,
+   "lines": [
+    {
+     "t": 3766.4,
+     "text": "Turns out there's more to do."
+    },
+    {
+     "t": 3768.0,
+     "text": "There's always more to do."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 3769.4,
+   "end": 3793.8,
+   "lines": [
+    {
+     "t": 3769.4,
+     "text": "Yeah."
+    },
+    {
+     "t": 3769.7,
+     "text": "Always."
+    },
+    {
+     "t": 3770.4,
+     "text": "Yeah."
+    },
+    {
+     "t": 3770.8,
+     "text": "It's a combination of the top two."
+    },
+    {
+     "t": 3772.9,
+     "text": "Same work, high expectations, more tasks, same hours."
+    },
+    {
+     "t": 3776.4,
+     "text": "Because, you know, like I said before, I get this question all the time."
+    },
+    {
+     "t": 3779.8,
+     "text": "How is security?"
+    },
+    {
+     "t": 3780.8,
+     "text": "How is AI change your job?"
+    },
+    {
+     "t": 3782.0,
+     "text": "I said two parts."
+    },
+    {
+     "t": 3783.3,
+     "text": "One, I could do more things now, which is cool."
+    },
+    {
+     "t": 3786.1,
+     "text": "But also on the other side, I'm getting more things inbound, and the surface area is expanded that I have more things to secure and review."
+    },
+    {
+     "t": 3793.7,
+     "text": "So"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3808.9,
+   "end": 3830.4,
+   "lines": [
+    {
+     "t": 3808.9,
+     "text": "I got some of that done because AI can build a website pretty easily."
+    },
+    {
+     "t": 3812.5,
+     "text": "I've already got all the data and everything."
+    },
+    {
+     "t": 3814.4,
+     "text": "I just need it to"
+    },
+    {
+     "t": 3816.7,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah,"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 3843.7,
+   "end": 3857.3,
+   "lines": [
+    {
+     "t": 3843.7,
+     "text": "The domain, I'm sure you guys are all domain hordes, right?"
+    },
+    {
+     "t": 3847.0,
+     "text": "You know, so, you know, I used to be that."
+    },
+    {
+     "t": 3850.2,
+     "text": "I used to have like all these domains."
+    },
+    {
+     "t": 3852.0,
+     "text": "Now, I've stopped."
+    },
+    {
+     "t": 3854.1,
+     "text": "I've now, you know, I'm recovering domain horde, but... You let them expire?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3857.8,
+   "end": 3858.9,
+   "lines": [
+    {
+     "t": 3857.8,
+     "text": "I let them expire, yes."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 3859.2,
+   "end": 3871.9,
+   "lines": [
+    {
+     "t": 3859.2,
+     "text": "It was hard, but I just let them do it."
+    },
+    {
+     "t": 3861.2,
+     "text": "But now, I can still scratch that itch because I have a project."
+    },
+    {
+     "t": 3866.4,
+     "text": "It's almost, it's like live."
+    },
+    {
+     "t": 3868.0,
+     "text": "And now I need the domain."
+    },
+    {
+     "t": 3869.0,
+     "text": "And I actually buy the, when I buy the domain, it's actually live."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3873.3,
+   "end": 3877.0,
+   "lines": [
+    {
+     "t": 3873.3,
+     "text": "Yeah, it's actually the last thing you do is buy the domain now."
+    },
+    {
+     "t": 3875.8,
+     "text": "Yeah, it's not the first thing."
+    },
+    {
+     "t": 3876.7,
+     "text": "That's awesome."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 3877.1,
+   "end": 3877.5,
+   "lines": [
+    {
+     "t": 3877.1,
+     "text": "Exactly."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3962.0,
+   "end": 3982.0,
+   "lines": [
+    {
+     "t": 3962.0,
+     "text": "So yeah, that's massive."
+    },
+    {
+     "t": 3963.6,
+     "text": "That's massive."
+    },
+    {
+     "t": 3964.2,
+     "text": "United States based quantum computing cryptographic key generation platform, which, okay, sure."
+    },
+    {
+     "t": 3971.8,
+     "text": "But $100 million grant."
+    },
+    {
+     "t": 3973.5,
+     "text": "That's just here you go."
+    },
+    {
+     "t": 3975.0,
+     "text": "We did."
+    },
+    {
+     "t": 3975.2,
+     "text": "We expect nothing in return."
+    },
+    {
+     "t": 3976.6,
+     "text": "No equity, no growth, no stake, no nothing."
+    },
+    {
+     "t": 3979.5,
+     "text": "Here's a little money."
+    },
+    {
+     "t": 3980.3,
+     "text": "Have fun."
+    },
+    {
+     "t": 3981.0,
+     "text": "That's wild to me."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 3982.9,
+   "end": 3986.9,
+   "lines": [
+    {
+     "t": 3982.9,
+     "text": "I mean, they must have hit something."
+    },
+    {
+     "t": 3984.8,
+     "text": "They must have."
+    },
+    {
+     "t": 3985.7,
+     "text": "It must be real, right?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 4266.9,
+   "end": 4293.2,
+   "lines": [
+    {
+     "t": 4266.9,
+     "text": "Without truly understanding exposure prioritization, which one's to do first when you have only a limited set of capability, time, resources, etc."
+    },
+    {
+     "t": 4275.8,
+     "text": "And without understanding attack path analysis, i.e."
+    },
+    {
+     "t": 4279.0,
+     "text": "Where within the attack chain can you mitigate the risk."
+    },
+    {
+     "t": 4285.1,
+     "text": "So I love the idea."
+    },
+    {
+     "t": 4286.9,
+     "text": "I just hope that the execution is as good as the vision is on this one."
+    },
+    {
+     "t": 4290.5,
+     "text": "And I mean, I jumped in front of you there."
+    },
+    {
+     "t": 4292.4,
+     "text": "What do you think?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 4296.3,
+   "end": 4324.1,
+   "lines": [
+    {
+     "t": 4296.3,
+     "text": "No, I think you're on point there."
+    },
+    {
+     "t": 4299.9,
+     "text": "I would have liked, I mean, it would be cool if we actually had in the vulnerability exposure part of Tenable where I could actually find vulns."
+    },
+    {
+     "t": 4307.9,
+     "text": "I mean, that's really where we could use some help."
+    },
+    {
+     "t": 4313.3,
+     "text": "But yeah, I mean, it's a start."
+    },
+    {
+     "t": 4315.7,
+     "text": "I think it's a start."
+    },
+    {
+     "t": 4316.5,
+     "text": "It's nice to give access to a broader audience."
+    },
+    {
+     "t": 4320.2,
+     "text": "So yeah, it's good, but I don't know."
+    },
+    {
+     "t": 4323.0,
+     "text": "Let's see how it works, really."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5044.7,
+   "end": 5069.6,
+   "lines": [
+    {
+     "t": 5044.7,
+     "text": "Is that what it was called, Astra?"
+    },
+    {
+     "t": 5047.2,
+     "text": "Yep."
+    },
+    {
+     "t": 5048.1,
+     "text": "That was also able to complete it."
+    },
+    {
+     "t": 5049.7,
+     "text": "So they ran those tests and added an addendum to this report like four or five days later."
+    },
+    {
+     "t": 5055.3,
+     "text": "So less than a week passed and they added another one on there."
+    },
+    {
+     "t": 5058.9,
+     "text": "And they say they expect pretty much all models to be able to pass this test with flying colors within six months."
+    },
+    {
+     "t": 5066.9,
+     "text": "You can get full marks."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 5070.9,
+   "end": 5082.0,
+   "lines": [
+    {
+     "t": 5070.9,
+     "text": "Yeah, I like how it's simple."
+    },
+    {
+     "t": 5075.3,
+     "text": "Can the model do the complete cyber kill chain?"
+    },
+    {
+     "t": 5080.2,
+     "text": "Do we have a text on that?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5082.0,
+   "end": 5086.0,
+   "lines": [
+    {
+     "t": 5082.0,
+     "text": "Tyler, you were shaking your head during that."
+    },
+    {
+     "t": 5084.6,
+     "text": "Yeah, go ahead and finish, finish, Ayman."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 5087.7,
+   "end": 5097.2,
+   "lines": [
+    {
+     "t": 5087.7,
+     "text": "Oh, no, I was just saying, do we have an index on..."
+    },
+    {
+     "t": 5091.9,
+     "text": "Anyway, I was just going to be..."
+    },
+    {
+     "t": 5093.3,
+     "text": "It's a bad joke."
+    },
+    {
+     "t": 5093.9,
+     "text": "I'm not going to..."
+    },
+    {
+     "t": 5094.6,
+     "text": "I'm not even going to go there."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5130.8,
+   "end": 5157.0,
+   "lines": [
+    {
+     "t": 5130.8,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 5138.2,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 5144.5,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 5150.6,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 5159.8,
+   "end": 5161.8,
+   "lines": [
+    {
+     "t": 5159.8,
+     "text": "That's a really good point."
+    },
+    {
+     "t": 5160.9,
+     "text": "That's a really good point."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5168.2,
+   "end": 5173.1,
+   "lines": [
+    {
+     "t": 5168.2,
+     "text": "Wait, wait, wait."
+    },
+    {
+     "t": 5168.6,
+     "text": "Defense contractors, Adrian."
+    },
+    {
+     "t": 5169.9,
+     "text": "Defense."
+    },
+    {
+     "t": 5170.9,
+     "text": "It's in the freaking title."
+    },
+    {
+     "t": 5172.2,
+     "text": "Defense something."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 5173.6,
+   "end": 5176.7,
+   "lines": [
+    {
+     "t": 5173.6,
+     "text": "You know defense doesn't mean defense."
+    },
+    {
+     "t": 5175.1,
+     "text": "It means offense, really."
+    },
+    {
+     "t": 5176.1,
+     "text": "It means war."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5176.8,
+   "end": 5179.1,
+   "lines": [
+    {
+     "t": 5176.8,
+     "text": "Clearly."
+    },
+    {
+     "t": 5177.1,
+     "text": "We know that now."
+    },
+    {
+     "t": 5178.4,
+     "text": "Department of War."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 5179.9,
+   "end": 5180.8,
+   "lines": [
+    {
+     "t": 5179.9,
+     "text": "Yeah, yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5209.1,
+   "end": 5212.8,
+   "lines": [
+    {
+     "t": 5209.1,
+     "text": "But it's not as easy as just put the energy in."
+    },
+    {
+     "t": 5211.7,
+     "text": "God forbid we try."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 5214.3,
+   "end": 5227.4,
+   "lines": [
+    {
+     "t": 5214.3,
+     "text": "Actually, they do have an article that says counter AI defeats AI adversaries."
+    },
+    {
+     "t": 5220.3,
+     "text": "So maybe it'd be nice if they linked to that, but maybe they are doing some research."
+    },
+    {
+     "t": 5226.9,
+     "text": "But yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5253.8,
+   "end": 5255.7,
+   "lines": [
+    {
+     "t": 5253.8,
+     "text": "I was just joking."
+    },
+    {
+     "t": 5254.5,
+     "text": "It'll take us at least three or four."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 5256.9,
+   "end": 5258.1,
+   "lines": [
+    {
+     "t": 5256.9,
+     "text": "I'm looking for the domain now."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5281.3,
+   "end": 5306.8,
+   "lines": [
+    {
+     "t": 5281.3,
+     "text": "Yeah, it just needs to be something silly, something fun."
+    },
+    {
+     "t": 5283.7,
+     "text": "Absolutely."
+    },
+    {
+     "t": 5284.3,
+     "text": "Absolutely."
+    },
+    {
+     "t": 5286.4,
+     "text": "All right, Ayman, let's move to one of your stories here."
+    },
+    {
+     "t": 5293.6,
+     "text": "So I put in an AI summary of the video that you shared, the MIT video."
+    },
+    {
+     "t": 5299.9,
+     "text": "But let's talk about what you published first, what you learned reading the latest Anthropic AI Misuse Report."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 5307.6,
+   "end": 5319.5,
+   "lines": [
+    {
+     "t": 5307.6,
+     "text": "Yeah, it was a fascinating read."
+    },
+    {
+     "t": 5312.2,
+     "text": "What, I guess, Anthropic Day, every once in a while they release a report on how AI, their AI is being misused."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5319.5,
+   "end": 5322.9,
+   "lines": [
+    {
+     "t": 5319.5,
+     "text": "This report is- Because they can't stop it, so they might as well report on it."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 5323.4,
+   "end": 5441.5,
+   "lines": [
+    {
+     "t": 5323.4,
+     "text": "Yeah, yeah, yeah, yeah."
+    },
+    {
+     "t": 5325.5,
+     "text": "And it's essentially seven reports in one."
+    },
+    {
+     "t": 5329.5,
+     "text": "Cyber operations, surveillance, influence, conventional weapons."
+    },
+    {
+     "t": 5333.2,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 5362.1,
+     "text": "At the end it's all red but showing all the different things the attacker was able to capture everything from rce to zero days all these different exploits to traversing the network etc so it's it's really fascinating and the key takeaway the key takeaways but you know one main takeaway which is you know we kind of been talking about this for a while is now they're uplifted right so the attacker if you have a smart person"
+    },
+    {
+     "t": 5391.6,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 5406.4,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah,"
+    },
+    {
+     "t": 5428.8,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5449.0,
+   "end": 5455.0,
+   "lines": [
+    {
+     "t": 5449.0,
+     "text": "But of course, like the thing I didn't think of was they'll just steal it."
+    },
+    {
+     "t": 5453.8,
+     "text": "Just use somebody else's account."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 5455.0,
+   "end": 5464.2,
+   "lines": [
+    {
+     "t": 5455.0,
+     "text": "Just steal somebody else's."
+    },
+    {
+     "t": 5455.9,
+     "text": "Of course."
+    },
+    {
+     "t": 5457.1,
+     "text": "Yeah, yeah."
+    },
+    {
+     "t": 5457.7,
+     "text": "So, you know, you would think like, oh, cost could be a detriment."
+    },
+    {
+     "t": 5463.1,
+     "text": "Nope."
+    },
+    {
+     "t": 5463.4,
+     "text": "And so..."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5465.1,
+   "end": 5468.0,
+   "lines": [
+    {
+     "t": 5465.1,
+     "text": "They're just using the Chipotle chatbot, right?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 5468.4,
+   "end": 5469.5,
+   "lines": [
+    {
+     "t": 5468.4,
+     "text": "Yeah, yeah, yeah, exactly."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5470.7,
+   "end": 5481.5,
+   "lines": [
+    {
+     "t": 5470.7,
+     "text": "Which never happened."
+    },
+    {
+     "t": 5471.8,
+     "text": "That was apparently a myth."
+    },
+    {
+     "t": 5473.9,
+     "text": "Somebody's..."
+    },
+    {
+     "t": 5475.4,
+     "text": "Vibe coded a screenshot of the app, by the way."
+    },
+    {
+     "t": 5477.7,
+     "text": "So I don't want to spread any myths, but it still is pretty funny."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 5482.8,
+   "end": 5510.0,
+   "lines": [
+    {
+     "t": 5482.8,
+     "text": "Yeah, and you know, again, compromised credentials are still the majority of entry points."
+    },
+    {
+     "t": 5489.7,
+     "text": "I highlighted a couple examples of people."
+    },
+    {
+     "t": 5493.6,
+     "text": "Like one person had a distributed credential harvesting pipeline across a fleet of 10 AWS EC2 workers, downloaded like less than 2 million APKs from all different app stores, right?"
+    },
+    {
+     "t": 5506.7,
+     "text": "Decompiled them, scanned for hardcoded secrets with TruffleHawk."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5510.2,
+   "end": 5510.4,
+   "lines": [
+    {
+     "t": 5510.2,
+     "text": "Wow."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 5510.9,
+   "end": 5523.2,
+   "lines": [
+    {
+     "t": 5510.9,
+     "text": "Yeah, yeah."
+    },
+    {
+     "t": 5511.8,
+     "text": "And then, you know, took those keys, verified the keys are working, routed it to a Telegram group, which of course, the AI bots are probably listening in."
+    },
+    {
+     "t": 5519.3,
+     "text": "It's just like, just mass, mass scale action here."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5523.4,
+   "end": 5531.7,
+   "lines": [
+    {
+     "t": 5523.4,
+     "text": "So that's a wild idea that you can just take all the apps out of the Google Play Store, and you will get working keys."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 5533.3,
+   "end": 5539.3,
+   "lines": [
+    {
+     "t": 5533.3,
+     "text": "Yeah, and they took it from other stores because there's a lot of third-party stores all over the world that are not really, you know, we got to be careful."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5539.4,
+   "end": 5545.1,
+   "lines": [
+    {
+     "t": 5539.4,
+     "text": "That didn't have to pass some kind of, I don't even know if Google scans for that."
+    },
+    {
+     "t": 5544.1,
+     "text": "They do."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 5546.1,
+   "end": 5547.8,
+   "lines": [
+    {
+     "t": 5546.1,
+     "text": "The third-party stores?"
+    },
+    {
+     "t": 5547.0,
+     "text": "Yeah, I don't know."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5547.9,
+   "end": 5550.0,
+   "lines": [
+    {
+     "t": 5547.9,
+     "text": "Yeah, the third parties probably don't."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 5550.6,
+   "end": 5553.9,
+   "lines": [
+    {
+     "t": 5550.6,
+     "text": "The third parties do not."
+    },
+    {
+     "t": 5551.6,
+     "text": "Google does."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5553.9,
+   "end": 5555.9,
+   "lines": [
+    {
+     "t": 5553.9,
+     "text": "Yeah."
+    },
+    {
+     "t": 5554.7,
+     "text": "F-Droid is one of the big ones."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 5558.4,
+   "end": 5628.5,
+   "lines": [
+    {
+     "t": 5558.4,
+     "text": "One was like you know the talk and so you go through the different cases and people are stealing you know masquerading hotel wi-fi that's pretty straightforward another way was a third party well let's see other ai shops offering ai usage but there's actually clawed usage in the background"
+    },
+    {
+     "t": 5581.8,
+     "text": "So they're offering Claude and someone would go sign up thinking they're signing up for Claude and they would actually route it to Claude but they would get Claude yeah just not legitimately yeah so not only do they get the API key but then also getting the data that people are submitting right it's it's pretty gnarly so yeah thank you software vendors for subsidizing cybercrime good job secure those keys"
+    },
+    {
+     "t": 5611.9,
+     "text": "Yeah, they also did talk about nascent."
+    },
+    {
+     "t": 5614.2,
+     "text": "What was the word they used?"
+    },
+    {
+     "t": 5615.3,
+     "text": "I gotta find the word."
+    },
+    {
+     "t": 5616.1,
+     "text": "But like, not nascent, but like, immature in a way, service providers."
+    },
+    {
+     "t": 5622.2,
+     "text": "So because there's so many more startups now, their security is very low."
+    },
+    {
+     "t": 5625.3,
+     "text": "Making all the mistakes."
+    },
+    {
+     "t": 5626.9,
+     "text": "Yeah, making all the mistakes."
+    },
+    {
+     "t": 5628.0,
+     "text": "Exactly."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 5804.7,
+   "end": 5832.6,
+   "lines": [
+    {
+     "t": 5804.7,
+     "text": "But don't let your kids have any credit card saved, much less your business corporate credit card."
+    },
+    {
+     "t": 5815.8,
+     "text": "Clear lesson, clear takeaway from there."
+    },
+    {
+     "t": 5818.7,
+     "text": "So with that, Tyler, Ayman, and also thank you to Jackie, who we lost at the airport at some point."
+    },
+    {
+     "t": 5827.7,
+     "text": "Airport Wi-Fi is just sometimes unreliable."
+    },
+    {
+     "t": 5830.5,
+     "text": "Thank you so much for joining me today."
+    },
+    {
+     "t": 5831.9,
+     "text": "This was a blast."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 5833.2,
+   "end": 5834.6,
+   "lines": [
+    {
+     "t": 5833.2,
+     "text": "Yeah, you got fun."
+    },
+    {
+     "t": 5834.1,
+     "text": "Thank you, guys."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

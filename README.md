@@ -164,9 +164,10 @@ the GPU by [`ingest/`](ingest/) (Python, managed with `uv`).
 **Videos only**: talks, panels, interviews, webinars, filmed podcast
 appearances and the @coffeewithayman channel. Audio-only podcasts are out
 (links are skipped automatically; audio files dropped into the inbox are moved
-to `media/inbox/_failed/`). Getting Into Infosec is deliberately not included. Enterprise Security Weekly
-episodes are listed separately in [`intake/esw.md`](intake/esw.md) — they'll
-link to Ayman's segment of each episode (workflow not built yet).
+to `media/inbox/_failed/`). Getting Into Infosec is deliberately not included. New Enterprise Security
+Weekly episodes are listed separately in [`intake/esw.md`](intake/esw.md) and
+not processed — they'll get a workflow that links to Ayman's segment of each
+episode (not built yet). The 7 already processed are published as-is.
 Recordings where the voiceprint finds no trace of Ayman are skipped.
 
 ### Adding talks
