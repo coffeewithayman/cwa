@@ -13,20 +13,23 @@ if (table) {
   );
   const isOpen = (row: HTMLTableRowElement) => row.querySelector(".toggle")?.getAttribute("aria-expanded") === "true";
   const chips = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-kind]"));
+  const topicChips = Array.from(document.querySelectorAll<HTMLButtonElement>("button[data-topic]"));
   const status = document.querySelector<HTMLElement>("[data-status]");
   const sortToggle = document.querySelector<HTMLButtonElement>("[data-sort-toggle]");
   const search = document.querySelector<HTMLInputElement>('input[name="q"]');
-  const selects = (["category", "topic", "event"] as const)
+  const selects = (["category"] as const)
     .map((name) => document.querySelector<HTMLSelectElement>(`select[name="${name}"]`))
     .filter((el): el is HTMLSelectElement => !!el);
 
   let kind = "";
+  let topic = "";
   let sortKey: SortKey = "date";
   let sortDir: 1 | -1 = -1;
 
   function readUrl() {
     const p = new URLSearchParams(location.search);
     kind = p.get("kind") ?? "";
+    topic = p.get("topic") ?? "";
     if (search) search.value = p.get("q") ?? "";
     for (const el of selects) el.value = p.get(el.name) ?? "";
     const sort = p.get("sort");
@@ -40,6 +43,7 @@ if (table) {
   function writeUrl() {
     const p = new URLSearchParams();
     if (kind) p.set("kind", kind);
+    if (topic) p.set("topic", topic);
     const q = search?.value.trim();
     if (q) p.set("q", q);
     for (const el of selects) if (el.value) p.set(el.name, el.value);
@@ -51,10 +55,8 @@ if (table) {
   function matches(row: HTMLTableRowElement): boolean {
     const d = row.dataset;
     if (kind && d.format !== kind) return false;
-    for (const el of selects) {
-      if (!el.value) continue;
-      if (el.name === "topic" ? !(d.topics ?? "").split("|").includes(el.value) : d[el.name] !== el.value) return false;
-    }
+    if (topic && !(d.topics ?? "").split("|").includes(topic)) return false;
+    for (const el of selects) if (el.value && d[el.name] !== el.value) return false;
     const terms = (search?.value ?? "").trim().toLowerCase().split(/\s+/).filter(Boolean);
     return terms.every((t) => (d.search ?? "").includes(t));
   }
@@ -79,6 +81,7 @@ if (table) {
     }
 
     for (const chip of chips) chip.setAttribute("aria-pressed", String((chip.dataset.kind ?? "") === kind));
+    for (const chip of topicChips) chip.setAttribute("aria-pressed", String((chip.dataset.topic ?? "") === topic));
     for (const th of table!.tHead!.querySelectorAll<HTMLElement>("th[data-sort]")) {
       th.setAttribute("aria-sort", th.dataset.sort === sortKey ? (sortDir === 1 ? "ascending" : "descending") : "none");
     }
@@ -104,6 +107,12 @@ if (table) {
   for (const chip of chips) {
     chip.addEventListener("click", () => {
       kind = chip.dataset.kind ?? "";
+      apply();
+    });
+  }
+  for (const chip of topicChips) {
+    chip.addEventListener("click", () => {
+      topic = chip.dataset.topic ?? "";
       apply();
     });
   }

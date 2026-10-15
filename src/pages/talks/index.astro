@@ -12,7 +12,10 @@ const uniq = (xs: (string | null | undefined)[]) =>
 
 const formats = uniq(talks.map((t) => t.format));
 const categories = uniq(talks.map((t) => t.category));
-const topics = uniq(talks.flatMap((t) => t.topics));
+// Topic chips, most-covered first.
+const topicCounts = new Map<string, number>();
+for (const topic of talks.flatMap((t) => t.topics)) topicCounts.set(topic, (topicCounts.get(topic) ?? 0) + 1);
+const topics = [...topicCounts.keys()].sort((a, b) => topicCounts.get(b)! - topicCounts.get(a)! || a.localeCompare(b));
 const events = uniq(talks.map((t) => t.event));
 const years = uniq(talks.map((t) => t.date?.slice(0, 4)));
 
@@ -84,24 +87,26 @@ function where(url: string | null, platform: string): string {
           </span>
         </div>
 
+        {topics.length > 0 && (
+          <div class="bar">
+            <span class="bar-label">Topic ▸</span>
+            <div class="chips" role="group" aria-label="Topic">
+              <button type="button" class="chip" data-topic="" aria-pressed="true">All</button>
+              {topics.map((t) => (
+                <button type="button" class="chip" data-topic={t} aria-pressed="false">
+                  {t} <span class="count">{topicCounts.get(t)}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
         <div class="refine">
           <input type="search" name="q" placeholder="search titles, events, topics…" aria-label="Search" />
           {categories.length > 0 && (
             <select name="category" aria-label="Category">
               <option value="">all categories</option>
               {categories.map((c) => <option value={c}>{c}</option>)}
-            </select>
-          )}
-          {topics.length > 0 && (
-            <select name="topic" aria-label="Topic">
-              <option value="">all topics</option>
-              {topics.map((t) => <option value={t}>{t}</option>)}
-            </select>
-          )}
-          {events.length > 1 && (
-            <select name="event" aria-label="Event or show">
-              <option value="">all events &amp; shows</option>
-              {events.map((e) => <option value={e}>{e}</option>)}
             </select>
           )}
           <span class="status" data-status aria-live="polite"></span>
@@ -304,6 +309,11 @@ function where(url: string | null, platform: string): string {
     background: var(--center-ring);
     border-color: var(--center-ring);
     color: var(--bg);
+  }
+
+  .count {
+    opacity: 0.6;
+    margin-left: 0.2rem;
   }
 
   .bar-meta {
