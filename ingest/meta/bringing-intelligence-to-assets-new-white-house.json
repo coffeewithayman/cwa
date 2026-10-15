@@ -1,0 +1,70 @@
+{
+  "id": "xKjbiRY7RSw",
+  "title": "Bringing intelligence to assets, new White House cybersecurity strategy, and the news - ESW #447",
+  "description": "Segment 1 - Interview with Tim Morris\r\n\r\nBringing intelligence to assets\r\n\r\nYou\u2019ve been through 6 CMDB projects in the last decade. None of them came close to the original goals, the CMDB was already out-of-date long before the project had any hopes of completing. Is building an asset inventory just too ambitious a project for most organizations, or is there a better way?\r\n\r\nTim Morris shares a different approach with us today. It might require some convincing and some courage, but it seems much more likely to succeed than any of your past CMDB efforts\u2026\r\n\r\nSegment Resources\r\n\r\n- Trusted automation: Building autonomous IT with confidence:\nhttps://www.scworld.com/resource/trusted-automation-building-autonomous-it-with-confidence\r\n\r\nThis segment is sponsored by Tanium. Visit https://securityweekly.com/tanium to learn more about them!\n\r\n\r\nSegment 2 - Topic: the new White House cybersecurity strategy\r\n\r\nIn this segment, we explore some early details about the White House's new, but yet unreleased cybersecurity strategy. It appears that drafts have been shared (or leaked) to the press, so there's plenty to discuss here:\nhttps://www.cybrsecmedia.com/white-house-readies-five-page-cybersecurity-strategy-built-on-offense-deterrence-and-deregulation/\nhttps://www.cybrsecmedia.com/white-house-readies-five-page-cybersecurity-strategy-built-on-offense-deterrence-and-deregulation/\n\r\n\r\nSegment 3 - News\r\n\r\nFinally, in the enterprise security news, \r\n\r\n1. Massive amounts of funding and acquisitions as we get close to RSA\r\n2. Open source registries need help\r\n3. Microsoft Copilot reads email marked as DO NOT READ\r\n4. Don\u2019t use an LLM to generate passwords\r\n5. is prompt injection a vulnerability\r\n6. defining risks\r\n7. AI changes the build versus buy equation\r\n8. the scammer\u2019s perspective\r\n\r\nAll that and more, on this episode of Enterprise Security Weekly.\n\nVisit https://www.securityweekly.com/esw for all the latest episodes!\r\n\nShow Notes: https://securityweekly.com/esw-447\n\n00:00:00 Episode Preview, Host Greetings, and Conference News\n00:05:37 Understanding Real-time Asset Visibility and CMDB Challenges\n00:18:45 Strategies for Continuous Asset Compliance and Tanium's Role\n00:33:57 Analyzing the New White House Cybersecurity Strategy and its Implications\n00:54:02 Important Messages from SentinelOne, Airbus Protect, and Meter\n00:56:15 Debunking AI Security Assumptions and LLM Password Generation Risks\n01:03:21 Latest Cybersecurity Funding Rounds and Industry Acquisitions\n01:11:30 The Challenges of Underfunded Open Source and Copilot Privacy Concerns\n01:23:13 AI-Friendly Web Standards and Quantifying Cybersecurity Risk\n01:33:06 AI's Impact on Security Tooling and the Scammer's Perspective\n01:42:17 Thank You and Next Week's Episode Preview",
+  "upload_date": "20260223",
+  "duration": 6174,
+  "channel": "Security Weekly - A CRA Resource",
+  "uploader": "Security Weekly - A CRA Resource",
+  "channel_url": "https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg",
+  "webpage_url": "https://www.youtube.com/watch?v=xKjbiRY7RSw",
+  "extractor_key": "Youtube",
+  "thumbnail": "https://i.ytimg.com/vi/xKjbiRY7RSw/maxresdefault.jpg",
+  "chapters": [
+    {
+      "start_time": 0,
+      "title": "Episode Preview, Host Greetings, and Conference News",
+      "end_time": 337
+    },
+    {
+      "start_time": 337,
+      "title": "Understanding Real-time Asset Visibility and CMDB Challenges",
+      "end_time": 1125
+    },
+    {
+      "start_time": 1125,
+      "title": "Strategies for Continuous Asset Compliance and Tanium's Role",
+      "end_time": 2037
+    },
+    {
+      "start_time": 2037,
+      "title": "Analyzing the New White House Cybersecurity Strategy and its Implications",
+      "end_time": 3242
+    },
+    {
+      "start_time": 3242,
+      "title": "Important Messages from SentinelOne, Airbus Protect, and Meter",
+      "end_time": 3375
+    },
+    {
+      "start_time": 3375,
+      "title": "Debunking AI Security Assumptions and LLM Password Generation Risks",
+      "end_time": 3801
+    },
+    {
+      "start_time": 3801,
+      "title": "Latest Cybersecurity Funding Rounds and Industry Acquisitions",
+      "end_time": 4290
+    },
+    {
+      "start_time": 4290,
+      "title": "The Challenges of Underfunded Open Source and Copilot Privacy Concerns",
+      "end_time": 4993
+    },
+    {
+      "start_time": 4993,
+      "title": "AI-Friendly Web Standards and Quantifying Cybersecurity Risk",
+      "end_time": 5586
+    },
+    {
+      "start_time": 5586,
+      "title": "AI's Impact on Security Tooling and the Scammer's Perspective",
+      "end_time": 6137
+    },
+    {
+      "start_time": 6137,
+      "title": "Thank You and Next Week's Episode Preview",
+      "end_time": 6174
+    }
+  ]
+}

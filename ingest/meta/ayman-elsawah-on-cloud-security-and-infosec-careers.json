@@ -1,0 +1,60 @@
+{
+  "id": "KJvPHZGtGdM",
+  "title": "Ayman Elsawah on Cloud Security and Infosec Careers",
+  "description": "A talk given at City College San Francisco on May 1, 2019",
+  "upload_date": "20190502",
+  "duration": 3049,
+  "channel": "Sam Bowne",
+  "uploader": "Sam Bowne",
+  "channel_url": "https://www.youtube.com/channel/UCC2OBhIt1sHE4odV05RYP1w",
+  "webpage_url": "https://www.youtube.com/watch?v=KJvPHZGtGdM",
+  "extractor_key": "Youtube",
+  "thumbnail": "https://i.ytimg.com/vi_webp/KJvPHZGtGdM/maxresdefault.webp",
+  "chapters": [
+    {
+      "start_time": 0,
+      "end_time": 322,
+      "title": "<Untitled Chapter 1>"
+    },
+    {
+      "start_time": 322,
+      "title": "Shared Security Model",
+      "end_time": 483
+    },
+    {
+      "start_time": 483,
+      "title": "Poor Access Control",
+      "end_time": 488
+    },
+    {
+      "start_time": 488,
+      "title": "Identity and Access Management",
+      "end_time": 910
+    },
+    {
+      "start_time": 910,
+      "title": "Kubernetes and Containerization",
+      "end_time": 1076
+    },
+    {
+      "start_time": 1076,
+      "title": "Diversity",
+      "end_time": 1250
+    },
+    {
+      "start_time": 1250,
+      "title": "Getting into Infosec",
+      "end_time": 1886
+    },
+    {
+      "start_time": 1886,
+      "title": "Success Comes out of Failure",
+      "end_time": 2422
+    },
+    {
+      "start_time": 2422,
+      "title": "Perfection Is the Twin of Procrastination",
+      "end_time": 3049
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "HieEWiTy2zQ",
+  "title": "How to Ace SOC2 in SaaS Scale Ups",
+  "description": "Watch \u2018SOC2 for SaaS Scaleups,\u2019 a comprehensive event tailored for Infosec leaders seeking to navigate the intricate landscape of achieving SOC2 compliance within rapidly expanding organizational structures. In an age of ever-evolving security challenges, this event equips you with the knowledge and strategies necessary to safeguard your SaaS scaleup while meeting industry standards. Our speaker, Ayman Elsawah (CISO, Security Leader) will shed light on the complexities and nuances of SOC2 compliance, helping you stay ahead in a dynamic digital world.\n\nTimestamps:\n0:00 - Intro\n03:47 --  SOC 2 -  Overview\n06:43 \u2014  SOC 2 - Maxims & Myths\n11:04  \u2014  Optimising SOC2 for SaaS\n24:07 \u2014 Summary\n24:24 \u2014 Q&A\n\nKey Takeaways:\nNavigating Organizational Complexity: Discover practical strategies and insights to effectively adapt your security practices to the increasingly complex organizational structures of SaaS scaleups. Learn how to align security goals with your business objectives, ensuring a cohesive approach to SOC2 compliance.\n\nBest Practices for SOC2 Compliance: Gain a deep understanding of the SOC2 framework and its key components. Learn best practices for policy creation, risk assessment, and ongoing monitoring to ensure your SaaS scaleup maintains compliance and builds trust with customers.\n\nEmerging Threats and Proactive Defense: Stay ahead of the curve by exploring the latest security threats facing SaaS scaleups and learn how to proactively defend your organization. Understand how to leverage SOC2 compliance as a foundation for a robust security posture that can adapt to the dynamic threat landscape.\n\n\nSocial Media Links:\nSTAY TUNED:\nSprinto \u25ba https://sprinto.com/\nTwitter \u25ba https://twitter.com/Sprintohq\nLinkedIn \u25ba https://www.linkedin.com/company/sprinto-com/mycompany/\nYouTube \u25ba  @sprintohq  \n\nIf you found this video helpful, please hit the like button and consider subscribing to our channel for more informative videos like this. Don't forget to share this video with your colleagues and friends who may find it useful.",
+  "upload_date": "20231106",
+  "duration": 1888,
+  "channel": "Sprinto",
+  "uploader": "Sprinto",
+  "channel_url": "https://www.youtube.com/channel/UCBZV-vtTqGAWN4T5XQ62syA",
+  "webpage_url": "https://www.youtube.com/watch?v=HieEWiTy2zQ",
+  "extractor_key": "Youtube",
+  "thumbnail": "https://i.ytimg.com/vi/HieEWiTy2zQ/maxresdefault.jpg",
+  "chapters": [
+    {
+      "start_time": 0,
+      "title": "Intro",
+      "end_time": 227
+    },
+    {
+      "start_time": 227,
+      "title": "SOC 2 - Overview",
+      "end_time": 403
+    },
+    {
+      "start_time": 403,
+      "title": "SOC 2 - Maxims & Myths",
+      "end_time": 664
+    },
+    {
+      "start_time": 664,
+      "title": "Optimising SOC2 for SaaS",
+      "end_time": 1447
+    },
+    {
+      "start_time": 1447,
+      "title": "Summary",
+      "end_time": 1464
+    },
+    {
+      "start_time": 1464,
+      "title": "Q&A",
+      "end_time": 1888
+    }
+  ]
+}

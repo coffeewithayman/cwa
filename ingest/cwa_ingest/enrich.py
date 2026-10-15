@@ -81,6 +81,20 @@ def ensure_model() -> None:
     _post("/api/pull", {"model": config.SUMMARY_MODEL, "stream": False}, timeout=3600)
 
 
+def unload_all() -> None:
+    """Evict every model Ollama has loaded (it doesn't always honour keep_alive)."""
+    try:
+        loaded = _get("/api/ps").get("models", [])
+    except (urllib.error.URLError, OSError):
+        return   # no server, nothing loaded
+    for m in loaded:
+        try:
+            _post("/api/generate", {"model": m["name"], "keep_alive": 0}, timeout=30)
+            log.info("unloaded %s from the GPU", m["name"])
+        except (urllib.error.URLError, OSError):
+            pass
+
+
 def _transcript_text(data: dict) -> str:
     lines = []
     for turn in data["turns"]:
@@ -100,9 +114,10 @@ def summarize(title: str, event: str, fmt: str, transcript: dict) -> str | None:
         "messages": [{"role": "system", "content": SYSTEM}, {"role": "user", "content": user}],
         "stream": False,
         "think": False,
-        "keep_alive": "2m",                      # free the VRAM soon after the last summary
+        "keep_alive": 0,                         # unload right away: the GPU is needed for the next transcription
         "options": {"temperature": 0.3, "num_ctx": config.SUMMARY_CONTEXT},
     }, timeout=900)
+    unload_all()
     out = " ".join(resp.get("message", {}).get("content", "").split())
     log.info("summary: %s, %d prompt tokens, %.0fs", config.SUMMARY_MODEL, resp.get("prompt_eval_count", 0), time.time() - t)
     return out or None

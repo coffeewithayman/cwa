@@ -1,0 +1,95 @@
+{
+  "id": "ddA0I3fGRHA",
+  "title": "The Cyber Canon, ditching the SOC 2, and the weekly enterprise news - Helen Patton - ESW #416",
+  "description": "Segment 1 - Interview with Helen Patton: Introducing the Cybersecurity Canon\r\n\r\nDid you know that there\u2019s a hall-of-fame for cybersecurity books? Over the past decade, the Cybersecurity Canon has published reviews on dozens of cybersecurity books and established a hall of fame. Hall of fame books are defined as titles that all cybersecurity professionals should read - a great short list for those new to the field and overwhelmed by choices.\r\n\r\nHelen Patton, co-founder and Chief of Staff for the Cybersecurity Canon joins us to tell us all about the Canon, how it came to be, and its transformation into a more visible and active organization. \r\n\r\nWe\u2019ll also discuss Helen\u2019s own book, \u201cNavigating the Cybersecurity Career Path\" (https://www.wiley.com/en-us/Navigating+the+Cybersecurity+Career+Path-p-9781119833420), and an upcoming second book she\u2019s working on as well!\r\n\r\nSegment Resources:\r\n\r\n- Helen's personal website: https://cisohelen.com\r\n- The Cybersecurity Canon website: https://cybercanon.org\r\n\r\nSegment 2 - Topic: Does the SOC 2 need to die?\r\n\r\nAJ Yawn thinks so. \r\n\r\nThe TL;DR is that he thinks industry-specific frameworks are more appropriate and effective.\r\n\r\nYou can check out some more of his thoughts on LinkedIn here: https://www.linkedin.com/pulse/15-things-i-hate-soc-2-rant-aj-yawn-oln4e or on the Alice in Supply Chains podcast: https://www.youtube.com/watch?v=BYcbBA4kaP4\r\n\r\n- Ayman recommends checking out https://mvsp.dev/ as a potential alternative (or as a complementary process to actually get secure)\r\n\r\nSegment 3 - This Week's Enterprise Security News\r\n\r\nAnd finally, in the enterprise security news, \r\n\r\n1. a bit of funding with a side of layoffs\r\n2. McDonald\u2019s applicants are not lovin\u2019 it\r\n3. a WILD story about a vulnerability in the US train system\r\n4. Meta still on the hook for $8B in privacy violations\r\n5. What is Agentic Misalignment?\r\n6. Using AI when coding is\u2026 slower?\r\n7. Auth Omnibus\r\n8. Pop some popcorn - AI acquisitions are getting crazy\r\n\r\nAll that and more, on this episode of Enterprise Security Weekly.\n\nVisit https://www.securityweekly.com/esw for all the latest episodes!\r\n\nShow Notes: https://securityweekly.com/esw-416",
+  "upload_date": "20250721",
+  "duration": 6568,
+  "channel": "Security Weekly - A CRA Resource",
+  "uploader": "Security Weekly - A CRA Resource",
+  "channel_url": "https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg",
+  "webpage_url": "https://www.youtube.com/watch?v=ddA0I3fGRHA",
+  "extractor_key": "Youtube",
+  "thumbnail": "https://i.ytimg.com/vi/ddA0I3fGRHA/maxresdefault.jpg",
+  "chapters": [
+    {
+      "start_time": 0,
+      "title": "Intro",
+      "end_time": 145
+    },
+    {
+      "start_time": 145,
+      "title": "Welcome",
+      "end_time": 393
+    },
+    {
+      "start_time": 393,
+      "title": "The Cyber Canon",
+      "end_time": 567
+    },
+    {
+      "start_time": 567,
+      "title": "Do not read",
+      "end_time": 740
+    },
+    {
+      "start_time": 740,
+      "title": "Multiple perspectives",
+      "end_time": 796
+    },
+    {
+      "start_time": 796,
+      "title": "Favourite books",
+      "end_time": 897
+    },
+    {
+      "start_time": 897,
+      "title": "Changing nature of publishing",
+      "end_time": 1727
+    },
+    {
+      "start_time": 1727,
+      "title": "Navigating the Cyber Security Path",
+      "end_time": 1841
+    },
+    {
+      "start_time": 1841,
+      "title": "Whats next",
+      "end_time": 1883
+    },
+    {
+      "start_time": 1883,
+      "title": "Call to action",
+      "end_time": 1919
+    },
+    {
+      "start_time": 1919,
+      "title": "Sponsor",
+      "end_time": 2136
+    },
+    {
+      "start_time": 2136,
+      "title": "SOC 2 is an attestation",
+      "end_time": 2521
+    },
+    {
+      "start_time": 2521,
+      "title": "Configuration best practices",
+      "end_time": 2869
+    },
+    {
+      "start_time": 2869,
+      "title": "Should you do SOC 2",
+      "end_time": 3109
+    },
+    {
+      "start_time": 3109,
+      "title": "Vendor SOC 2",
+      "end_time": 3289
+    },
+    {
+      "start_time": 3289,
+      "title": "Enterprise News",
+      "end_time": 6568
+    }
+  ]
+}

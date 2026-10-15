@@ -133,6 +133,9 @@ def decide(workdir: Path, transcript: dict, override: str | None, info: dict | N
         if voice_ok and context_ok:
             why = "name mentioned" if named else "own channel" if own else "solo recording"
             return SpeakerDecision(best, "auto", f"voiceprint {best_score:.2f} + {why}", scores, shares)
+        if best_score < config.VOICE_ABSENT and not named and not own:
+            return SpeakerDecision(None, "absent", f"no voice matches Ayman (best {best_score:.2f}) and he isn't named",
+                                   scores, shares)
         if best_score < config.VOICE_ACCEPT * 0.6 and not named:
             reason = f"no speaker sounds like Ayman (best {best_score:.2f}) and his name isn't mentioned"
         else:

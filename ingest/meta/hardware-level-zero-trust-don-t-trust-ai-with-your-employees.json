@@ -1,0 +1,90 @@
+{
+  "id": "tKa7EsJA8Xg",
+  "title": "Hardware-level zero trust, don't trust AI with your employees, and the news - ESW #446",
+  "description": "Segment 1: Interview with Mathias Katz\r\n\r\nWhat if you had enterprise-grade network security protections traveling with your users' laptops? What if it could be built into the laptop, but still stay safe even if the laptop OS and __firmware__ were entirely compromised?\r\n\r\nMathias and his company, Byos have built such a thing, and BOY do we have some questions for him.\r\n\r\nSegment 2: Interview with Wolfgang Goerlich\r\n\r\nAddressing the nuanced, nefarious threats of AI\r\n\r\nSure, we need to worry about AI prompt injection and AI data leakage, but what about the threats to our BRAINS? Seriously, as we start to have daily conversations with this technology, how are they going to shape how we think? What inherent biases in the training, fine tuning, guardrails, or lack of guardrails are going to affect our decisions or how we work?\r\n\r\nWolfgang is concerned about this, so he performed a human/AI experiment. With almost 1000 people partaking in the experiment, the results are sure to be intriguing.\r\n\r\nSegment 3: This week's enterprise security news\r\n\r\nFinally, in the enterprise security news, \r\n\r\n1. survey results on how folks are feeling about openclaw\r\n2. some hidden drama discovered in KEV updates\r\n3. some new KEV tools\r\n4. is AI replacing traditional code scanning tools?\r\n5. remote code execution in notepad\r\n6. no, not notepad++, NOTEPAD.EXE\r\n7. you know, the one that ships preinstalled on Windows\r\n8. the RSAC innovation sandbox finalists\r\n9. dealing with legacy vulnerabilities\r\n10. Don't accept OpenClaw Mac Minis from strangers!\r\n\r\nAll that and more, on this episode of Enterprise Security Weekly.\n\nVisit https://www.securityweekly.com/esw for all the latest episodes!\r\n\nShow Notes: https://securityweekly.com/esw-446\n\n00:00:00 Kicking Off Enterprise Security Weekly with Sponsors\n00:02:14 Meet the Hosts and Upcoming Event Announcements\n00:05:35 Mathias Katz on Hardware-Enforced Zero Trust Security\n00:12:05 Deep Dive into Byos's Unique Hardware Security Approach\n00:23:03 Overcoming Hardware Startup Hurdles and Centralized Control\n00:32:32 SentinelOne, Airbus Protect, and Meter Solutions\n00:35:10 Wolfgang Goerlich on AI's Impact on Human Thinking\n00:46:21 The Dangers of AI's Anthropomorphism and False Authority\n00:53:23 The Ethics of AI Monitoring and Monetization\n01:05:31 Wolfgang's Vision for a Human-AI Interface Playbook\n01:08:19 Adaptive Security and Sky High Security Solutions\n01:10:02 Surveying Open Claw and Latest Security Funding Trends\n01:16:36 Innovation Finalists and Evolving Browser Security Solutions\n01:29:15 Critical Notepad RCE and CISA's KEV List Updates\n01:41:12 Military Shoots Down Balloon, Episode Conclusion",
+  "upload_date": "20260216",
+  "duration": 6432,
+  "channel": "Security Weekly - A CRA Resource",
+  "uploader": "Security Weekly - A CRA Resource",
+  "channel_url": "https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg",
+  "webpage_url": "https://www.youtube.com/watch?v=tKa7EsJA8Xg",
+  "extractor_key": "Youtube",
+  "thumbnail": "https://i.ytimg.com/vi/tKa7EsJA8Xg/maxresdefault.jpg",
+  "chapters": [
+    {
+      "start_time": 0,
+      "title": "Kicking Off Enterprise Security Weekly with Sponsors",
+      "end_time": 134
+    },
+    {
+      "start_time": 134,
+      "title": "Meet the Hosts and Upcoming Event Announcements",
+      "end_time": 335
+    },
+    {
+      "start_time": 335,
+      "title": "Mathias Katz on Hardware-Enforced Zero Trust Security",
+      "end_time": 725
+    },
+    {
+      "start_time": 725,
+      "title": "Deep Dive into Byos's Unique Hardware Security Approach",
+      "end_time": 1383
+    },
+    {
+      "start_time": 1383,
+      "title": "Overcoming Hardware Startup Hurdles and Centralized Control",
+      "end_time": 1952
+    },
+    {
+      "start_time": 1952,
+      "title": "SentinelOne, Airbus Protect, and Meter Solutions",
+      "end_time": 2110
+    },
+    {
+      "start_time": 2110,
+      "title": "Wolfgang Goerlich on AI's Impact on Human Thinking",
+      "end_time": 2781
+    },
+    {
+      "start_time": 2781,
+      "title": "The Dangers of AI's Anthropomorphism and False Authority",
+      "end_time": 3203
+    },
+    {
+      "start_time": 3203,
+      "title": "The Ethics of AI Monitoring and Monetization",
+      "end_time": 3931
+    },
+    {
+      "start_time": 3931,
+      "title": "Wolfgang's Vision for a Human-AI Interface Playbook",
+      "end_time": 4099
+    },
+    {
+      "start_time": 4099,
+      "title": "Adaptive Security and Sky High Security Solutions",
+      "end_time": 4202
+    },
+    {
+      "start_time": 4202,
+      "title": "Surveying Open Claw and Latest Security Funding Trends",
+      "end_time": 4596
+    },
+    {
+      "start_time": 4596,
+      "title": "Innovation Finalists and Evolving Browser Security Solutions",
+      "end_time": 5355
+    },
+    {
+      "start_time": 5355,
+      "title": "Critical Notepad RCE and CISA's KEV List Updates",
+      "end_time": 6072
+    },
+    {
+      "start_time": 6072,
+      "title": "Military Shoots Down Balloon, Episode Conclusion",
+      "end_time": 6432
+    }
+  ]
+}

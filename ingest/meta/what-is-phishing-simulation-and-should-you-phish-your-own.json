@@ -1,0 +1,70 @@
+{
+  "id": "5NHwEtJlsmo",
+  "title": "What is Phishing Simulation and should you phish your own employees?",
+  "description": "Free security awareness training videos that are short and to the point",
+  "upload_date": "20210114",
+  "duration": 3735,
+  "channel": "Wizer - Security Awareness Training",
+  "uploader": "Wizer - Security Awareness Training",
+  "channel_url": "https://www.youtube.com/channel/UC_LhyQAkn-a1ZoWpeJWclnA",
+  "webpage_url": "https://www.youtube.com/watch?v=5NHwEtJlsmo",
+  "extractor_key": "Youtube",
+  "thumbnail": "https://i.ytimg.com/vi/5NHwEtJlsmo/maxresdefault.jpg",
+  "chapters": [
+    {
+      "start_time": 0,
+      "title": "Webinar introduction",
+      "end_time": 227
+    },
+    {
+      "start_time": 227,
+      "title": "To fish or not to fish",
+      "end_time": 481
+    },
+    {
+      "start_time": 481,
+      "title": "Unintended consequences",
+      "end_time": 665
+    },
+    {
+      "start_time": 665,
+      "title": "Business value and ethics",
+      "end_time": 984
+    },
+    {
+      "start_time": 984,
+      "title": "Why we run simulations",
+      "end_time": 1293
+    },
+    {
+      "start_time": 1293,
+      "title": "Metrics and methodology",
+      "end_time": 1640
+    },
+    {
+      "start_time": 1640,
+      "title": "Frequency and culture",
+      "end_time": 2136
+    },
+    {
+      "start_time": 2136,
+      "title": "Handling repeat offenders",
+      "end_time": 2681
+    },
+    {
+      "start_time": 2681,
+      "title": "Humanizing security",
+      "end_time": 3131
+    },
+    {
+      "start_time": 3131,
+      "title": "Training in schools",
+      "end_time": 3500
+    },
+    {
+      "start_time": 3500,
+      "title": "Concluding thoughts",
+      "end_time": 3735
+    }
+  ]
+}

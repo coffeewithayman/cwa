@@ -1,0 +1,85 @@
+{
+  "id": "FnO0T_1Fj-M",
+  "title": "Shadow AI Epidemic: Uncovering Agents on the Endpoint, British Library Breach, & News ... - ESW #475",
+  "description": "Interview - Amit Assaraf\r\n\r\nAs employees rapidly adopt local AI models, autonomous agents, and browser extensions to boost productivity, enterprise endpoints are quietly accumulating unchecked security risks. This episode explores how traditional EDR solutions miss non-binary software, leaving critical blind spots for prompt injection and data exfiltration. Discover how Cortex Agentic Endpoint Security (AES) uses LLM-based classifiers and an AI powered risk engine to surface shadow AI and protect the modern workspace without stalling innovation.\r\n\r\nThis segment is sponsored by Palo Alto Networks. Visit https://securityweekly.com/paloalto to learn more about them!\r\n\r\nTopic - The British Library Cyber-Attack\r\n\r\nFor this week\u2019s topic segment, we\u2019re discussing the British Library cyber-attack.\r\n\r\nIn October 2023, the British Library, one of the largest libraries in the world, was breached by the Rhysida ransomware group. The attack encrypted systems across the organization, led to over 500,000 files being leaked, and set off a recovery effort that consumed a significant portion of the Library\u2019s \u00a317.5 million cash reserves. With no clear end date, this is a story of what could happen when all of an organization\u2019s tech debt comes due at once.\r\n\r\nResources\r\n\r\n- https://www.defendersinitiative.com/p/breach-lessons-the-2023-british-library \r\n\r\nThe Weekly Enterprise News\r\n\r\nFinally, in the enterprise security news, \r\n\r\n1. We check the vibes\r\n2. the funding\r\n3. the acquisitions\r\n4. and the closures\r\n5. is the vulnpocalypse real, or not?\r\n6. TeamPCP finds out why being perpetually online isn\u2019t great if you\u2019re doing cybercrimes\r\n7. millions of IDs get leaked online\r\n8. What\u2019s the bigger story: Huggingface and NVIDIA or Microduck?\r\n9. Dyson enters a new product category. Try to guess what it is without cheating and looking it up before the end of the episode!\r\n\r\nAll that and more, on this episode of Enterprise Security Weekly.\n\nVisit https://www.securityweekly.com/esw for all the latest episodes!\r\n\nShow Notes: https://securityweekly.com/esw-475\n\n00:00:00 Enterprise Security Weekly: Episode 475 Kickoff\n00:05:16 Securing AI Agents and Non-Binary Software\n00:11:07 Innovative AI Security and the Koi Fish Story\n00:17:13 Layered Security and Employee Communication for AI\n00:26:51 Strengthening Palo Alto and AI's Endpoint Evolution\n00:36:40 Unpacking Tech Debt and Ransomware Recovery\n00:42:56 The True Cost and Learnings from the British Library\n00:51:51 Defenders Initiative and Enterprise Security News\n00:54:01 Are AI Agents a Security Unlock?\n00:59:34 Socure, Netspy, Proofpoint, ClickHouse Deals\n01:08:34 Minimus Shutdown and Exploited Vulnerabilities Debate\n01:23:14 Leaked AWS Keys and BGP Hijack Vulnerabilities\n01:33:08 Online Criminals, AI Jailbreaks, and Security Insights\n01:35:36 MicroDuck, Dyson Toothbrush, and Episode Farewell",
+  "upload_date": "20260907",
+  "duration": 6316,
+  "channel": "Security Weekly - A CRA Resource",
+  "uploader": "Security Weekly - A CRA Resource",
+  "channel_url": "https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg",
+  "webpage_url": "https://www.youtube.com/watch?v=FnO0T_1Fj-M",
+  "extractor_key": "Youtube",
+  "thumbnail": "https://i.ytimg.com/vi/FnO0T_1Fj-M/maxresdefault.jpg",
+  "chapters": [
+    {
+      "start_time": 0,
+      "title": "Enterprise Security Weekly: Episode 475 Kickoff",
+      "end_time": 316
+    },
+    {
+      "start_time": 316,
+      "title": "Securing AI Agents and Non-Binary Software",
+      "end_time": 667
+    },
+    {
+      "start_time": 667,
+      "title": "Innovative AI Security and the Koi Fish Story",
+      "end_time": 1033
+    },
+    {
+      "start_time": 1033,
+      "title": "Layered Security and Employee Communication for AI",
+      "end_time": 1611
+    },
+    {
+      "start_time": 1611,
+      "title": "Strengthening Palo Alto and AI's Endpoint Evolution",
+      "end_time": 2200
+    },
+    {
+      "start_time": 2200,
+      "title": "Unpacking Tech Debt and Ransomware Recovery",
+      "end_time": 2576
+    },
+    {
+      "start_time": 2576,
+      "title": "The True Cost and Learnings from the British Library",
+      "end_time": 3111
+    },
+    {
+      "start_time": 3111,
+      "title": "Defenders Initiative and Enterprise Security News",
+      "end_time": 3241
+    },
+    {
+      "start_time": 3241,
+      "title": "Are AI Agents a Security Unlock?",
+      "end_time": 3574
+    },
+    {
+      "start_time": 3574,
+      "title": "Socure, Netspy, Proofpoint, ClickHouse Deals",
+      "end_time": 4114
+    },
+    {
+      "start_time": 4114,
+      "title": "Minimus Shutdown and Exploited Vulnerabilities Debate",
+      "end_time": 4994
+    },
+    {
+      "start_time": 4994,
+      "title": "Leaked AWS Keys and BGP Hijack Vulnerabilities",
+      "end_time": 5588
+    },
+    {
+      "start_time": 5588,
+      "title": "Online Criminals, AI Jailbreaks, and Security Insights",
+      "end_time": 5736
+    },
+    {
+      "start_time": 5736,
+      "title": "MicroDuck, Dyson Toothbrush, and Episode Farewell",
+      "end_time": 6316
+    }
+  ]
+}

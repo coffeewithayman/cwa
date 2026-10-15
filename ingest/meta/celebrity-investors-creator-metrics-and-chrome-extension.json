@@ -1,0 +1,14 @@
+{
+  "id": "WynViAuMtFQ",
+  "title": "Celebrity investors, creator metrics, and Chrome extension compromise - ESW #389",
+  "description": "In this latest Enterprise Security Weekly episode, we explored some significant cybersecurity developments, starting with Veracode\u2019s acquisition of Phylum, a company specializing in detecting malicious code in open-source libraries. The acquisition sparked speculation that it might be more about Veracode staying relevant in a rapidly evolving market rather than a strategic growth move, especially given the rising influence of AI-driven code analysis tools. We also covered One Password's acquisition of a UK-based shadow IT detection firm, raising interesting questions about their expansion into access management. Notably, the deal involved celebrity investors like Matthew McConaughey and Ashton Kutcher, suggesting a trend where Hollywood influence intersects with cybersecurity branding.\r\n\r\nA major highlight was the Cyber Haven breach, where a compromised Chrome extension update led to stolen credentials. The attack was executed through a phishing campaign disguised as a Google policy violation warning. To their credit, Cyber Haven responded swiftly, pulling the extension within two hours and maintaining transparency throughout. This incident underscored broader concerns around the poor security of browser extensions, an issue that continues to be exploited due to lax marketplace oversight.\r\n\r\nWe also reflected on Corey Doctorow's concept of \"Enshittification,\" critiquing platforms that prioritize profit and engagement metrics over genuine user experiences. His decision to disable vanity metrics resonated, especially considering how often engagement numbers are inflated in corporate settings. The episode wrapped with a thoughtful discussion on how CISOs can say \"no\" more effectively, emphasizing \"yes, but\" strategies and the importance of consistency. We also debated the usability frustrations of \"magic links\" for authentication, arguing that simpler alternatives like passkeys or multi-factor codes could offer a better balance between security and convenience.\n\nVisit https://www.securityweekly.com/esw for all the latest episodes!\r\n\nShow Notes: https://securityweekly.com/esw-389",
+  "upload_date": "20250113",
+  "duration": 3266,
+  "channel": "Security Weekly - A CRA Resource",
+  "uploader": "Security Weekly - A CRA Resource",
+  "channel_url": "https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg",
+  "webpage_url": "https://www.youtube.com/watch?v=WynViAuMtFQ",
+  "extractor_key": "Youtube",
+  "thumbnail": "https://i.ytimg.com/vi/WynViAuMtFQ/maxresdefault.jpg",
+  "chapters": null
+}

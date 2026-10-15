@@ -1,0 +1,70 @@
+{
+  "id": "FDWowt7UOhU",
+  "title": "Safe AI at scale, what happens after initial access, and the weekly enterprise news  - ESW #463",
+  "description": "Interview with Shiva Pillay from Veeam\r\n\r\nSafe AI at Scale\r\n\r\nAI investment is exploding, yet nearly 90% of enterprise initiatives fail because the data powering AI cannot be trusted. That\u2019s the uncomfortable truth the industry is facing right now. Safe AI at scale requires more than just great models\u2014it demands trusted, governed, and recoverable data.\r\n\r\nThis segment is sponsored by Veeam. Visit https://securityweekly.com/veeam to learn more about them!\r\n\r\nSegment resources:\r\n\r\n-Veeam Launches New Data and AI Trust Maturity Model to Help Organizations Benchmark AI Readiness: https://www.veeam.com/company/press-release/veeam-launches-new-data-and-ai-trust-maturity-model-to-help-organizations-benchmark-ai-readiness.html\r\n\r\nTopic: Sure, we know how initial access works, but what about lateral movement?\r\n\r\nA special topic segment where we're joined by Albert Estevez Polo, field CTO for Zero Networks (a community guest, not a podcast sponsor). Zero Networks just released some very interesting data on what attackers are doing after they gain access to victim's environments and how they're doing it.\r\n\r\nSegment Resources:\r\n\r\n-Link to report page: https://zeronetworks.com/resource-center/reports/2026-lateral-movement-exposure-report?utm_medium=pr&utm_source=zero_networks&utm_campaign=lmer_and_blast_radius_tool_pr\r\n\r\nWeekly Enterprise Security News\r\n\r\nFinally, in the enterprise security news, \r\n\r\n1. Funding and acquisitions\r\n2. Good news, Mythos isn\u2019t dangerous anymore!\r\n3. An excellent breach analysis\r\n4. Cyber insurance rates are dropping, but there\u2019s a catch\r\n5. CISA updates vulnerability remediation guidance\r\n6. Zoom calls are worse than you think, and maybe not for the reasons you think\r\n7. Remember when it was illegal to rip DVDs?\r\n\r\nAll that and more, on this episode of Enterprise Security Weekly.\r\n\nVisit https://www.securityweekly.com/esw for all the latest episodes!\r\n\nShow Notes: https://securityweekly.com/esw-463\n\n00:00:00 Welcome to Enterprise Security Weekly and Episode Overview\n00:02:51 Veeam's Evolution and Security AIDSPM Acquisition for AI\n00:07:53 Ensuring Data Trust and Contextualization for AI Initiatives\n00:16:31 Addressing Shadow AI and Data Hygiene for Enterprise Security\n00:26:34 The Hard Truth: Courage and Collaboration for AI Security\n00:33:01 Zero Networks Report on Post-Initial Access Lateral Movement\n00:49:18 Weekly Enterprise Security News and NPM Security Updates\n00:53:01 Funding, Acquisitions, and the Pace of AI Governance Rules\n00:56:12 Anthropic's Mythos, Fable, and the AI Vulnerability Discussion\n01:07:05 Defending at Machine Speed: Patching, Remediation, and AI's Role\n01:21:54 AI Code Vulnerabilities, Cyber Insurance, and Digital Communication Bias",
+  "upload_date": "20260615",
+  "duration": 5477,
+  "channel": "Security Weekly - A CRA Resource",
+  "uploader": "Security Weekly - A CRA Resource",
+  "channel_url": "https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg",
+  "webpage_url": "https://www.youtube.com/watch?v=FDWowt7UOhU",
+  "extractor_key": "Youtube",
+  "thumbnail": "https://i.ytimg.com/vi/FDWowt7UOhU/maxresdefault.jpg",
+  "chapters": [
+    {
+      "start_time": 0,
+      "title": "Welcome to Enterprise Security Weekly and Episode Overview",
+      "end_time": 171
+    },
+    {
+      "start_time": 171,
+      "title": "Veeam's Evolution and Security AIDSPM Acquisition for AI",
+      "end_time": 473
+    },
+    {
+      "start_time": 473,
+      "title": "Ensuring Data Trust and Contextualization for AI Initiatives",
+      "end_time": 991
+    },
+    {
+      "start_time": 991,
+      "title": "Addressing Shadow AI and Data Hygiene for Enterprise Security",
+      "end_time": 1594
+    },
+    {
+      "start_time": 1594,
+      "title": "The Hard Truth: Courage and Collaboration for AI Security",
+      "end_time": 1981
+    },
+    {
+      "start_time": 1981,
+      "title": "Zero Networks Report on Post-Initial Access Lateral Movement",
+      "end_time": 2958
+    },
+    {
+      "start_time": 2958,
+      "title": "Weekly Enterprise Security News and NPM Security Updates",
+      "end_time": 3181
+    },
+    {
+      "start_time": 3181,
+      "title": "Funding, Acquisitions, and the Pace of AI Governance Rules",
+      "end_time": 3372
+    },
+    {
+      "start_time": 3372,
+      "title": "Anthropic's Mythos, Fable, and the AI Vulnerability Discussion",
+      "end_time": 4025
+    },
+    {
+      "start_time": 4025,
+      "title": "Defending at Machine Speed: Patching, Remediation, and AI's Role",
+      "end_time": 4914
+    },
+    {
+      "start_time": 4914,
+      "title": "AI Code Vulnerabilities, Cyber Insurance, and Digital Communication Bias",
+      "end_time": 5477
+    }
+  ]
+}

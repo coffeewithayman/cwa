@@ -1,0 +1,155 @@
+{
+  "id": "_Nxjfr2OqxQ",
+  "title": "Day 1 - 03 - Applying Pareto\u2019s Principle to Securing AWS with SCPS - Ayman Elsawah",
+  "description": "Pacific Hackers Security Conference\n\nwww.phack.org\nSilicon Valley, CA\nNovember 8th, 9th & 10th",
+  "upload_date": "20191214",
+  "duration": 1323,
+  "channel": "Pacific Hackers Association",
+  "uploader": "Pacific Hackers Association",
+  "channel_url": "https://www.youtube.com/channel/UCC5_1vblyeKX0yyGuK2cQBQ",
+  "webpage_url": "https://www.youtube.com/watch?v=_Nxjfr2OqxQ",
+  "extractor_key": "Youtube",
+  "thumbnail": "https://i.ytimg.com/vi_webp/_Nxjfr2OqxQ/maxresdefault.webp",
+  "chapters": [
+    {
+      "start_time": 0,
+      "title": "Intro",
+      "end_time": 121
+    },
+    {
+      "start_time": 121,
+      "title": "Survey",
+      "end_time": 186
+    },
+    {
+      "start_time": 186,
+      "title": "Security Issues",
+      "end_time": 237
+    },
+    {
+      "start_time": 237,
+      "title": "Power Clause",
+      "end_time": 284
+    },
+    {
+      "start_time": 284,
+      "title": "Free Bonus",
+      "end_time": 315
+    },
+    {
+      "start_time": 315,
+      "title": "I AM",
+      "end_time": 364
+    },
+    {
+      "start_time": 364,
+      "title": "Rogue Site",
+      "end_time": 405
+    },
+    {
+      "start_time": 405,
+      "title": "Why SCPS",
+      "end_time": 451
+    },
+    {
+      "start_time": 451,
+      "title": "Overview",
+      "end_time": 482
+    },
+    {
+      "start_time": 482,
+      "title": "Managing SCPS",
+      "end_time": 525
+    },
+    {
+      "start_time": 525,
+      "title": "SCPS Playbook",
+      "end_time": 565
+    },
+    {
+      "start_time": 565,
+      "title": "Dont apply SCPS to your master account",
+      "end_time": 600
+    },
+    {
+      "start_time": 600,
+      "title": "Migration",
+      "end_time": 626
+    },
+    {
+      "start_time": 626,
+      "title": "Billing History",
+      "end_time": 670
+    },
+    {
+      "start_time": 670,
+      "title": "Organization",
+      "end_time": 703
+    },
+    {
+      "start_time": 703,
+      "title": "Request",
+      "end_time": 740
+    },
+    {
+      "start_time": 740,
+      "title": "Enable",
+      "end_time": 782
+    },
+    {
+      "start_time": 782,
+      "title": "Create Cloud Trail",
+      "end_time": 828
+    },
+    {
+      "start_time": 828,
+      "title": "SCP",
+      "end_time": 870
+    },
+    {
+      "start_time": 870,
+      "title": "Root",
+      "end_time": 927
+    },
+    {
+      "start_time": 927,
+      "title": "Eliminate Regions",
+      "end_time": 989
+    },
+    {
+      "start_time": 989,
+      "title": "Denial of Service",
+      "end_time": 1055
+    },
+    {
+      "start_time": 1055,
+      "title": "T3 vs T2",
+      "end_time": 1121
+    },
+    {
+      "start_time": 1121,
+      "title": "Best practice",
+      "end_time": 1147
+    },
+    {
+      "start_time": 1147,
+      "title": "EC2 dashboard",
+      "end_time": 1182
+    },
+    {
+      "start_time": 1182,
+      "title": "No troubleshooter",
+      "end_time": 1261
+    },
+    {
+      "start_time": 1261,
+      "title": "Limiting Principles",
+      "end_time": 1281
+    },
+    {
+      "start_time": 1281,
+      "title": "SecureDocCloud",
+      "end_time": 1323
+    }
+  ]
+}

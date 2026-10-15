@@ -54,8 +54,13 @@ def ensure_gpu() -> None:
     if DEVICE != "cuda":
         return
     import torch
+    from .enrich import unload_all
+    unload_all()   # a summary model left resident by Ollama would starve Whisper
     free, total = torch.cuda.mem_get_info()
-    if free / 2**30 < config.GPU_MIN_FREE_GB:
+    # Models this process already holds count as ours, not as contention:
+    # once they're loaded only working memory is needed.
+    needed = config.GPU_WORKING_GB if _asr.cache_info().currsize else config.GPU_MIN_FREE_GB
+    if free / 2**30 < needed:
         raise GPUBusy(f"only {free / 2**30:.1f} of {total / 2**30:.0f} GB VRAM free")
 
 

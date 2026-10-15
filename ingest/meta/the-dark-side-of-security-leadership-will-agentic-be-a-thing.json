@@ -1,0 +1,80 @@
+{
+  "id": "iezO2Muq7VU",
+  "title": "The dark side of security leadership, will agentic be a thing, OWASP AI resources - ESW #394",
+  "description": "In this week's enterprise security news, we've got\r\n\r\n1. 5 acquisitions\r\n2. Tines gets funding\r\n3. new tools and DFIR reports to check out\r\n4. A legal precedent that could hurt AI companies\r\n5. AI garbage is in your code repos\r\n6. the dark side of security leadership\r\n7. HIPAA fines are broken\r\n8. Salt Typhoon is having a great time\r\n9. Don't use ChatGPT for legal advice!!!!!\r\n\r\nAll that and more, on this episode of Enterprise Security Weekly.\n\nVisit https://www.securityweekly.com/esw for all the latest episodes!\r\n\nShow Notes: https://securityweekly.com/esw-394",
+  "upload_date": "20250217",
+  "duration": 3072,
+  "channel": "Security Weekly - A CRA Resource",
+  "uploader": "Security Weekly - A CRA Resource",
+  "channel_url": "https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg",
+  "webpage_url": "https://www.youtube.com/watch?v=iezO2Muq7VU",
+  "extractor_key": "Youtube",
+  "thumbnail": "https://i.ytimg.com/vi/iezO2Muq7VU/maxresdefault.jpg",
+  "chapters": [
+    {
+      "start_time": 0,
+      "title": "Intro and sponsor messages",
+      "end_time": 84
+    },
+    {
+      "start_time": 84,
+      "title": "Automation and startup growth",
+      "end_time": 244
+    },
+    {
+      "start_time": 244,
+      "title": "Recent industry acquisitions",
+      "end_time": 391
+    },
+    {
+      "start_time": 391,
+      "title": "Trends in security tooling",
+      "end_time": 626
+    },
+    {
+      "start_time": 626,
+      "title": "SolarWinds and uncertainty",
+      "end_time": 696
+    },
+    {
+      "start_time": 696,
+      "title": "Founder-led business models",
+      "end_time": 875
+    },
+    {
+      "start_time": 875,
+      "title": "The risks of agentic AI",
+      "end_time": 1469
+    },
+    {
+      "start_time": 1469,
+      "title": "New tools and threat reports",
+      "end_time": 1542
+    },
+    {
+      "start_time": 1542,
+      "title": "Copyright and AI training",
+      "end_time": 1767
+    },
+    {
+      "start_time": 1767,
+      "title": "Coding and AI implications",
+      "end_time": 2075
+    },
+    {
+      "start_time": 2075,
+      "title": "AI security resources",
+      "end_time": 2146
+    },
+    {
+      "start_time": 2146,
+      "title": "Leadership and accountability",
+      "end_time": 2812
+    },
+    {
+      "start_time": 2812,
+      "title": "Personal stories and wrap-up",
+      "end_time": 3072
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "Xg6ylqF0-qc",
+  "title": "The enterprise security news, more secure by removing credentials, & RSAC interviews -... - ESW #410",
+  "description": "Segment 1 -  Enterprise Security News, Live at IDV\r\n\r\nThis week, in the enterprise security news,\r\n\r\n1. Acquisitions\r\n2. potential IPOs\r\n3. Terminator Salvation in real life\r\n4. First $1B one-employee business?\r\n5. Mikko puts in his notice\r\n6. Pitch Black in real life, and more!\r\n\r\n Segment 2 - Interview with Dr. Tina Srivastava\r\n\r\nThe #1 cause of data breaches is stolen credentials. What if we didn\u2019t store credentials anymore? We explore Badge\u2019s innovative approach\u2014which enables users to generate a private key on the fly instead of storing credentials\u2014to enhance security, solve key use cases such as shared devices, and deliver measurable ROI. Additionally, we'll uncover the unavoidable recovery flow challenges, where users must rely on a pre-enrolled recovery device or fallback passwords, and discuss what this means for enterprise security and cost savings. By shifting the paradigm toward ephemeral key generation, Badge eliminates stored credentials, optimizes enterprise cost savings, and future-proofs authentication.\r\n\r\nSegment Resources:\r\n\r\n- Mission-Driven Identity Innovation with Dr. Tina Srivastava: https://www.youtube.com/watch?v=DR8RAdm8EpM\r\n- Authenticate 2024 - Data Privacy & Accessibility with Tina Srivastava: https://www.youtube.com/watch?v=SvmDbus7NIQ\r\n- Lecture 2: Airplane Aerodynamics: https://www.youtube.com/watch?v=edLnZgF9mUg\r\n- CyberArk/Badge Joint Solution Brief: https://www.cyberark.com/resources/workforce-access/cyberark-badge-joint-solution-brief\r\n- Badge Integration With Cisco Duo Delivers Unique, Hardware-less MFA Experience: https://duo.com/blog/badge-integration-with-cisco-duo-delivers-hardwareless-mfa-experience\r\n- Passwordless Authentication without Secrets!: https://cpl.thalesgroup.com/blog/access-management/passwordless-authentication-without-secrets\r\n\r\nSegment 3 - Interviews from RSAC 2025\r\n\r\nExecutive Interview with Saviynt\r\n\r\nEvolving compliance needs, overflowing tech stacks, and the ever-increasing number of types of enterprise identities \u2014 not to mention the complications resulting from business use of AI \u2014 means traditional identity platforms can't keep up with the needs of today's enterprises. Organizations need something smarter: converged, cloud-native and future-ready identity security that scales with enterprises as they grow, addressing their cybersecurity challenges today and in the future. Join us in this episode as we break down the shortcomings of legacy IAM and uncover how an intelligent, identity-centric approach sets enterprises on the path to success.\r\n\r\nSegment Resources:\r\n\r\n- Learn more about The Saviynt Identity Cloud: https://saviynt.com/products/the-identity-cloud\r\n- Identity Cloud solution brief: https://44524559.fs1.hubspotusercontent-na1.net/hubfs/44524559/Solution%20Briefs/Solution%20Guide%20%7C%20Saviynt%20Identity%20Cloud.pdf\r\n\r\nThis segment is sponsored by Saviynt! To learn more or get a free demo, please visit https://securityweekly.com/saviyntrsac\r\n\r\nExecutive Interview with Ready1\r\n\r\nSemperis has launched Ready1, a first-of-its-kind enterprise resilience platform designed to bring structure, speed, and coordination to cyber crisis management. The release of Ready1 coincides with Semperis\u2019 new global study, The State of Enterprise Cyber Crisis Readiness, which highlights a dangerous gap between perceived readiness and real-world response capabilities. \r\n\r\nThis segment is sponsored by Ready1, powered by Semperis. Visit https://securityweekly.com/ready1rsac to learn more about them!\n\nVisit https://www.securityweekly.com/esw for all the latest episodes!\r\n\nShow Notes: https://securityweekly.com/esw-410",
+  "upload_date": "20250609",
+  "duration": 5881,
+  "channel": "Security Weekly - A CRA Resource",
+  "uploader": "Security Weekly - A CRA Resource",
+  "channel_url": "https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg",
+  "webpage_url": "https://www.youtube.com/watch?v=Xg6ylqF0-qc",
+  "extractor_key": "Youtube",
+  "thumbnail": "https://i.ytimg.com/vi/Xg6ylqF0-qc/maxresdefault.jpg",
+  "chapters": [
+    {
+      "start_time": 0,
+      "title": "Show introduction",
+      "end_time": 238
+    },
+    {
+      "start_time": 238,
+      "title": "Corporate finance and IPOs",
+      "end_time": 517
+    },
+    {
+      "start_time": 517,
+      "title": "Zscaler and Red Canary",
+      "end_time": 937
+    },
+    {
+      "start_time": 937,
+      "title": "Identity security updates",
+      "end_time": 1040
+    },
+    {
+      "start_time": 1040,
+      "title": "Operational security stories",
+      "end_time": 1307
+    },
+    {
+      "start_time": 1307,
+      "title": "Future tech and privacy",
+      "end_time": 1499
+    },
+    {
+      "start_time": 1499,
+      "title": "Identity without secrets",
+      "end_time": 1608
+    },
+    {
+      "start_time": 1608,
+      "title": "Interview with Dr. Tina Srivastava",
+      "end_time": 3433
+    },
+    {
+      "start_time": 3433,
+      "title": "Interview with Marty Momdjian",
+      "end_time": 4559
+    },
+    {
+      "start_time": 4559,
+      "title": "Interview with Amit Saha",
+      "end_time": 5881
+    }
+  ]
+}

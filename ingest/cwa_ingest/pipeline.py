@@ -160,7 +160,7 @@ def process(entry: md.Entry, *, force: bool = False) -> None:
         entry = next(e for e in md.parse_talks(config.TALKS_MD) if e.slug == slug)
 
     if decision["status"] == "absent":
-        status(slug, "⏭ skipped: Ayman isn't in this recording")
+        status(slug, f"⏭ skipped: {decision['reason']}")
         publish.compile_catalog(md.parse_talks(config.TALKS_MD))
         return
     if decision["status"] != "review" and s.startswith("👤"):
@@ -267,7 +267,8 @@ def run_once(*, only: str | None = None, force: bool = False, reclean: bool = Fa
         try:
             process(entry, force=force)
         except Exception as exc:  # noqa: BLE001 - one bad talk must not stop the queue
-            if type(exc).__name__ == "GPUBusy":
+            if type(exc).__name__ == "GPUBusy" or "out of memory" in str(exc).lower():
+                # After a CUDA OOM the context is unusable; stop and retry on the next pass.
                 status(entry.slug, f"⏸ waiting for GPU ({exc}); retries automatically")
                 break   # every other talk would hit the same wall; try again next pass
             log.error("%s failed:\n%s", entry.slug, traceback.format_exc())

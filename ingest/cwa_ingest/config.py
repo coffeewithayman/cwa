@@ -55,6 +55,7 @@ WHISPER_MODEL = os.environ.get("CWA_WHISPER_MODEL", "large-v3")
 COMPUTE_TYPE = os.environ.get("CWA_COMPUTE") or (
     "int8" if DEVICE == "cpu" else "int8_float16" if LOW_VRAM else "float16")
 GPU_MIN_FREE_GB = float(os.environ.get("CWA_MIN_FREE_GB") or (4.0 if LOW_VRAM else 8))
+GPU_WORKING_GB = 2.5 if LOW_VRAM else 4    # headroom needed once the models are loaded
 # pyannote's shipped config uses batches of 32, which needs ~11 GB of VRAM for
 # no speed gain (measured: 4 is as fast and needs <1 GB). Results are identical.
 ALIGN_SLICE = int(os.environ.get("CWA_ALIGN_SLICE") or 50)   # segments aligned per call
@@ -68,6 +69,7 @@ DIARIZATION_MODEL = "pyannote/speaker-diarization-community-1"
 # values; tune them on the first ~10 talks Ayman confirms by hand.
 VOICE_ACCEPT = 0.55
 VOICE_MARGIN = 0.15
+VOICE_ABSENT = 0.35        # nobody this far from the voiceprint (and no name/own channel) = Ayman isn't in it
 # Recordings from these YouTube channels are Ayman's own: strong "it's him" context.
 OWN_CHANNELS = ("@coffeewithayman",)
 SOLO_SHARE = 0.85          # one speaker holding this much talk time = solo talk
