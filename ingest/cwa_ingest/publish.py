@@ -130,7 +130,9 @@ def compile_catalog(entries: list[Entry]) -> int:
     for e in entries:
         status = e.get("status")
         info_path = config.META / f"{e.slug}.json"
-        if status.startswith("⏭") or not info_path.exists():
+        # Only talks that finished and were confirmed to feature Ayman go on the site;
+        # queued or unverified candidates (e.g. ESW episodes) stay off it.
+        if not status.startswith("✅") or not info_path.exists():
             continue
         items.append(catalog_item(e, json.loads(info_path.read_text())))
     items.sort(key=lambda x: x["date"] or "", reverse=True)
