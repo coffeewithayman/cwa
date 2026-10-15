@@ -28,6 +28,7 @@ class SpeakerDecision:
     reason: str
     scores: dict[str, float] = field(default_factory=dict)
     shares: dict[str, float] = field(default_factory=dict)
+    segments: list[int] | None = None      # montage only: Ayman's segment indices
 
 
 @lru_cache(maxsize=1)
@@ -149,6 +150,35 @@ def decide(workdir: Path, transcript: dict, override: str | None, info: dict | N
         return SpeakerDecision(dominant, "solo", f"solo recording ({shares[dominant]:.0%} one voice), no voiceprint yet",
                                shares=shares)
     return SpeakerDecision(None, "review", "no voiceprint enrolled yet and more than one voice", shares=shares)
+
+
+MONTAGE = "AYMAN"   # pseudo speaker label for snippets attributed one by one
+
+
+def montage_segments(workdir: Path, transcript: dict) -> tuple[list[int], dict[int, float]]:
+    """Montages cut many people together in seconds-long snippets, which
+    diarization can't separate. Score every snippet against the voiceprint
+    instead; returns (Ayman's segment indices, all scores)."""
+    audio = load_wav(workdir / "audio.wav")
+    vp = voiceprint()
+    if vp is None:
+        return [], {}
+    segs = transcript.get("segments", [])
+    scores = {}
+    for i, seg in enumerate(segs):
+        s, e = seg["start"], seg["end"]
+        pad = max(0.0, (1.5 - (e - s)) / 2)          # pad very short snippets to ~1.5 s
+        clip = audio[int(max(0.0, s - pad) * 16000):int((e + pad) * 16000)]
+        if len(clip) >= 8000:
+            scores[i] = round(float(embed(clip) @ vp), 3)
+    mine = [i for i, v in scores.items() if v >= config.MONTAGE_ACCEPT]
+    for i in sorted(mine):                         # extend to directly following lines, same voice
+        j = i + 1
+        while (j < len(segs) and scores.get(j, -1) >= config.MONTAGE_CONTINUE
+               and segs[j].get("speaker") == segs[i].get("speaker") and segs[j]["start"] - segs[j - 1]["end"] < 1.5):
+            mine.append(j)
+            j += 1
+    return sorted(set(mine)), scores
 
 
 def write_samples(workdir: Path, transcript: dict) -> dict[str, str]:

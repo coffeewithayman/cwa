@@ -62,3 +62,10 @@ def test_summary_prompt_marks_context():
         {"speaker": "Ayman", "citable": True, "lines": [{"t": 5, "text": "Use SSO."}, {"t": 7, "text": "Always."}]},
     ]}
     assert _transcript_text(data) == "[context] Host: What do you think?\nAyman: Use SSO. Always."
+
+
+def test_montage_keeps_only_ayman_snippets_without_context():
+    cleaned = _segs(("S0", "Someone else"), ("AYMAN", "Zero trust."), ("S1", "Other person"), ("AYMAN", "Audit access."))
+    data = publish.build_transcript(Entry("M", {"id": "m", "format": "montage"}), cleaned, "AYMAN", 0)
+    assert data["scope"] == "ayman"
+    assert [(t["speaker"], t["citable"]) for t in data["turns"]] == [("Ayman", True), ("Ayman", True)]

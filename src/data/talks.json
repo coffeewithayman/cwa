@@ -480,6 +480,36 @@
   "hasTranscript": true
  },
  {
+  "slug": "how-do-you-protect-data-on-endpoints-cybersecurity-on-the",
+  "title": "How Do You Protect Data on Endpoints | Cybersecurity on the Street | Interviews",
+  "url": "https://www.youtube.com/watch?v=q4syDUQxLJg",
+  "platform": "YouTube",
+  "date": "2020-04-29",
+  "duration": 83,
+  "format": "montage",
+  "event": "Absolute Security",
+  "category": null,
+  "topics": [],
+  "thumbnail": "https://i.ytimg.com/vi_webp/q4syDUQxLJg/maxresdefault.webp",
+  "summary": "Ayman points out that many companies are not effectively protecting their data on endpoints, leading to frequent breaches. He emphasizes the need for better endpoint security measures.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "how-do-you-protect-your-remote-employees-cybersecurity-on",
+  "title": "How do you protect your remote employees? | Cybersecurity on the Street | Interviews",
+  "url": "https://www.youtube.com/watch?v=zocUc7bzQAc",
+  "platform": "YouTube",
+  "date": "2020-03-27",
+  "duration": 48,
+  "format": "montage",
+  "event": "Absolute Security",
+  "category": null,
+  "topics": [],
+  "thumbnail": "https://i.ytimg.com/vi/zocUc7bzQAc/hq720_2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4Ac4FgALQBYoCDAgAEAEYSCBOKGUwDw==&rs=AOn4CLBDdc2xiJKh3OCqKhXM1_KqW9AS2A",
+  "summary": "Ayman emphasizes the importance of tracking data access by remote employees, advocating for the zero trust security model. He stresses the need to know who accessed data, when, and where, regardless of location.",
+  "hasTranscript": true
+ },
+ {
   "slug": "ayman-elsawah-using-paretos-principle-for-securing-aws-with",
   "title": "Ayman Elsawah - Using Paretos Principle for Securing AWS with SCPs - DEF CON 27 Cloud Village",
   "url": "https://www.youtube.com/watch?v=RiZxb98sGTk",

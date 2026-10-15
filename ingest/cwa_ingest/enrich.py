@@ -108,6 +108,9 @@ def summarize(title: str, event: str, fmt: str, transcript: dict) -> str | None:
     ensure_model()
     text = _transcript_text(transcript)
     user = f"Title: {title}\nShow/event: {event or 'unknown'}\nFormat: {fmt or 'unknown'}\n\nTranscript:\n{text}"
+    if fmt == "montage":
+        user += ("\n\nThis is a street-interview montage: Ayman appears only for a few seconds "
+                 "among other people. Write 1-2 short sentences about what he says, nothing more.")
     t = time.time()
     resp = _post("/api/chat", {
         "model": config.SUMMARY_MODEL,

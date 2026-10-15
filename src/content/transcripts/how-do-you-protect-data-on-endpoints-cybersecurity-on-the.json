@@ -1,0 +1,24 @@
+{
+ "slug": "how-do-you-protect-data-on-endpoints-cybersecurity-on-the",
+ "scope": "ayman",
+ "format": "montage",
+ "turns": [
+  {
+   "start": 16.9,
+   "end": 22.5,
+   "lines": [
+    {
+     "t": 16.9,
+     "text": "How are companies protecting their data on endpoints?"
+    },
+    {
+     "t": 19.5,
+     "text": "Well, they're not because we're having all these breaches."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

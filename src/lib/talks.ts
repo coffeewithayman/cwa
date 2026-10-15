@@ -5,6 +5,7 @@ export const FORMAT_LABELS: Record<string, string> = {
   "podcast-guest": "Podcast guest",
   panel: "Panel",
   cohost: "Co-host",
+  montage: "Montage",
 };
 
 export function formatLabel(format: string | null): string {

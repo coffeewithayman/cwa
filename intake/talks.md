@@ -424,24 +424,26 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 ## How Do You Protect Data on Endpoints | Cybersecurity on the Street | Interviews
 - id: how-do-you-protect-data-on-endpoints-cybersecurity-on-the <!-- managed -->
 - url: https://www.youtube.com/watch?v=q4syDUQxLJg
-- format: panel <!-- guessed from 7 voice(s); fix if wrong -->
+- format: montage  <!-- guessed from 7 voice(s); fix if wrong -->
 - date: 2020-04-29
 - event: Absolute Security
 - category:
 - topics:
-- status: 👤 needs speaker review — see intake/speakers.md <!-- managed -->
+- summary: Ayman points out that many companies are not effectively protecting their data on endpoints, leading to frequent breaches. He emphasizes the need for better endpoint security measures.
+- status: ✅ ingested 2026-10-15 · 2 lines · montage: 2 snippet(s) match the voiceprint · 4 flagged <!-- managed -->
 
 ### Notes
 
 ## How do you protect your remote employees? | Cybersecurity on the Street | Interviews
 - id: how-do-you-protect-your-remote-employees-cybersecurity-on <!-- managed -->
 - url: https://www.youtube.com/watch?v=zocUc7bzQAc
-- format: interview <!-- guessed from 2 voice(s); fix if wrong -->
+- format: montage  <!-- guessed from 2 voice(s); fix if wrong -->
 - date: 2020-03-27
 - event: Absolute Security
 - category:
 - topics:
-- status: 👤 needs speaker review — see intake/speakers.md <!-- managed -->
+- summary: Ayman emphasizes the importance of tracking data access by remote employees, advocating for the zero trust security model. He stresses the need to know who accessed data, when, and where, regardless of location.
+- status: ✅ ingested 2026-10-15 · 2 lines · montage: 2 snippet(s) match the voiceprint · 8 flagged <!-- managed -->
 
 ### Notes
 

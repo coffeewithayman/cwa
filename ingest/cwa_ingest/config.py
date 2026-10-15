@@ -71,7 +71,10 @@ DIARIZATION_MODEL = "pyannote/speaker-diarization-community-1"
 # values; tune them on the first ~10 talks Ayman confirms by hand.
 VOICE_ACCEPT = 0.55
 VOICE_MARGIN = 0.15
-VOICE_ABSENT = 0.35        # nobody this far from the voiceprint (and no name/own channel) = Ayman isn't in it
+VOICE_ABSENT = 0.35
+# format "montage" (street-interview compilations): each snippet is scored on its own
+MONTAGE_ACCEPT = 0.45      # a snippet this close to the voiceprint is Ayman
+MONTAGE_CONTINUE = 0.30    # ...or this close, if it directly continues his line in the same voice        # nobody this far from the voiceprint (and no name/own channel) = Ayman isn't in it
 # Recordings from these YouTube channels are Ayman's own: strong "it's him" context.
 OWN_CHANNELS = ("@coffeewithayman",)
 SOLO_SHARE = 0.85          # one speaker holding this much talk time = solo talk

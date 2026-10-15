@@ -1,0 +1,33 @@
+{
+ "slug": "how-do-you-protect-your-remote-employees-cybersecurity-on",
+ "scope": "ayman",
+ "format": "montage",
+ "turns": [
+  {
+   "start": 5.1,
+   "end": 10.3,
+   "lines": [
+    {
+     "t": 5.1,
+     "text": "I don't care if they're remote or they're in-house, I want to know who accessed that data when, okay, and where."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 22.2,
+   "end": 23.4,
+   "lines": [
+    {
+     "t": 22.2,
+     "text": "The zero trust models."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

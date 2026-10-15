@@ -145,11 +145,20 @@ def process(entry: md.Entry, *, force: bool = False) -> None:
 
     # 3. which speaker is Ayman
     override = entry.get("ayman_speaker") or None
-    fp_spk = _fp(fp_tx, override, speakers.voiceprint_version())
+    montage = entry.get("format") == "montage"
+    fp_spk = _fp(fp_tx, override, speakers.voiceprint_version(), montage)
     if not st.fresh("speakers", fp_spk, "speakers.json"):
         status(slug, "👂 identifying speakers")
         info = json.loads((st.dir / "info.json").read_text()) if (st.dir / "info.json").exists() else {}
-        decision = speakers.decide(st.dir, transcript, override, info)
+        if montage:
+            mine, seg_scores = speakers.montage_segments(st.dir, transcript)
+            decision = speakers.SpeakerDecision(
+                speakers.MONTAGE if mine else None, "montage" if mine else "review",
+                f"montage: {len(mine)} snippet(s) match the voiceprint" if mine else "montage: no snippet matches the voiceprint",
+                scores={str(k): v for k, v in seg_scores.items()})
+            decision.segments = mine
+        else:
+            decision = speakers.decide(st.dir, transcript, override, info)
         speakers.save_decision(st.dir, decision)
         if decision.status == "override" and decision.ayman:
             _learn_voice(st.dir, slug, decision.ayman)
@@ -187,6 +196,11 @@ def process(entry: md.Entry, *, force: bool = False) -> None:
         st.done("clean", fp_clean)
     cleaned = json.loads((st.dir / "clean.json").read_text())
 
+    if decision.get("segments") is not None and decision["ayman"] == speakers.MONTAGE:
+        mine = set(decision["segments"])
+        cleaned = {**cleaned, "segments": [{**s, "speaker": speakers.MONTAGE if s["i"] in mine else (s["speaker"] or "other")}
+                                           for s in cleaned["segments"]]}
+
     # 5. publish
     fp_pub = _fp(fp_spk, fp_clean, entry.get("format"), clip, decision["ayman"])
     out = config.SITE_TRANSCRIPTS / f"{slug}.json"
@@ -202,7 +216,7 @@ def process(entry: md.Entry, *, force: bool = False) -> None:
         return   # nothing changed; leave the status line alone
     turns = json.loads(out.read_text())["turns"]
     n_flags = len(cleaned["flags"])
-    how = {"auto": f"speaker auto ({decision['reason']})", "override": "speaker confirmed by Ayman",
+    how = {"montage": decision["reason"], "auto": f"speaker auto ({decision['reason']})", "override": "speaker confirmed by Ayman",
            "solo": "solo recording"}.get(decision["status"], decision["status"])
     status(slug, f"✅ ingested {md.today()} · {sum(len(t['lines']) for t in turns)} lines · {how} · {n_flags} flagged")
 

@@ -19,6 +19,8 @@ ONE_ON_ONE_FORMATS = {"interview", "podcast-guest"}
 
 def scope_for(fmt: str, n_speakers: int) -> str:
     """'all' keeps the whole recording; 'ayman' keeps only his turns (+ context)."""
+    if fmt == "montage":
+        return "ayman"
     if fmt in SOLO_FORMATS:
         return "all"
     if fmt in ONE_ON_ONE_FORMATS and n_speakers <= 2:
@@ -71,7 +73,8 @@ def build_transcript(entry: Entry, cleaned: dict, ayman: str | None, offset: flo
             out.append({**turn, "citable": is_ayman or fmt in SOLO_FORMATS, "context": False})
         elif is_ayman:
             prev = turns[i - 1] if i else None
-            if prev and prev["who"] != "ayman":
+            # a montage's other snippets are unrelated people, not a question to Ayman
+            if prev and prev["who"] != "ayman" and fmt != "montage":
                 keep = [l for l in prev["lines"] if l["t"] >= prev["end"] - config.CONTEXT_SECONDS] or prev["lines"][-1:]
                 out.append({**prev, "start": keep[0]["t"], "lines": keep, "citable": False, "context": True})
             out.append({**turn, "citable": True, "context": False})
