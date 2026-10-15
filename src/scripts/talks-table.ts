@@ -7,7 +7,11 @@ const table = document.querySelector<HTMLTableElement>("[data-table]");
 
 if (table) {
   const tbody = table.tBodies[0];
-  const rows = Array.from(tbody.rows);
+  const rows = Array.from(tbody.querySelectorAll<HTMLTableRowElement>("tr[data-row]"));
+  const more = new Map(
+    Array.from(tbody.querySelectorAll<HTMLTableRowElement>("tr[data-more]")).map((r) => [r.dataset.more!, r]),
+  );
+  const isOpen = (row: HTMLTableRowElement) => row.querySelector(".toggle")?.getAttribute("aria-expanded") === "true";
   const chips = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-kind]"));
   const status = document.querySelector<HTMLElement>("[data-status]");
   const sortToggle = document.querySelector<HTMLButtonElement>("[data-sort-toggle]");
@@ -62,12 +66,15 @@ if (table) {
       const cmp = sortKey === "duration" ? Number(av) - Number(bv) : av.localeCompare(bv);
       return cmp * sortDir || (b.dataset.date ?? "").localeCompare(a.dataset.date ?? "");
     });
-    tbody.append(...sorted);
+    // each talk's summary row travels with it
+    tbody.append(...sorted.flatMap((r) => [r, more.get(r.dataset.slug!)].filter((x): x is HTMLTableRowElement => !!x)));
 
     let n = 0;
     for (const row of sorted) {
       const ok = matches(row);
       row.hidden = !ok;
+      const detail = more.get(row.dataset.slug!);
+      if (detail) detail.hidden = !ok || !isOpen(row);
       if (ok) row.querySelector<HTMLElement>("[data-n]")!.textContent = String(++n).padStart(3, "0");
     }
 
@@ -81,6 +88,17 @@ if (table) {
     }
     if (status) status.textContent = n === rows.length ? "" : `showing ${n} of ${rows.length}`;
     writeUrl();
+  }
+
+  for (const row of rows) {
+    const button = row.querySelector<HTMLButtonElement>(".toggle");
+    const detail = more.get(row.dataset.slug!);
+    button?.addEventListener("click", () => {
+      const open = !isOpen(row);
+      button.setAttribute("aria-expanded", String(open));
+      row.classList.toggle("open", open);
+      if (detail) detail.hidden = !open;
+    });
   }
 
   for (const chip of chips) {

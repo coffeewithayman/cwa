@@ -74,6 +74,11 @@ SOLO_SHARE = 0.85          # one speaker holding this much talk time = solo talk
 MIN_SPEAKER_SHARE = 0.03   # ignore diarization crumbs below this share
 CONTEXT_SECONDS = 30       # question kept before each of Ayman's answers on panels
 
+# --- summaries (local model via Ollama; no API keys) ---------------------------
+OLLAMA_URL = os.environ.get("OLLAMA_HOST_URL", "http://localhost:11434")
+SUMMARY_MODEL = os.environ.get("CWA_SUMMARY_MODEL") or ("qwen3:4b" if LOW_VRAM else "qwen3:14b")
+SUMMARY_CONTEXT = int(os.environ.get("CWA_SUMMARY_CTX") or (16384 if LOW_VRAM else 32768))
+
 # --- cleanup ------------------------------------------------------------------
 LOW_CONFIDENCE = 0.5       # aligned word score below this gets flagged
 RARE_ZIPF = 2.0            # wordfreq zipf below this (and not a vocab term) gets flagged

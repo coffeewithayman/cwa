@@ -185,6 +185,16 @@ and checks the transcript names him. When unsure, the talk lands in
 [`intake/speakers.md`](intake/speakers.md) with a 10-second sample per voice:
 tick the right one and save. Confirmed voices are added to the voiceprint.
 
+### Summaries
+
+Clicking a title on `/talks` expands a 2–3 sentence summary. Summaries come
+from a local model through [Ollama](https://ollama.com) — no API keys
+anywhere: `qwen3:14b` by default, `qwen3:4b` with the low-VRAM profile
+(override with `CWA_SUMMARY_MODEL`). If Ollama isn't already running the
+pipeline starts it for the run and pulls the model on first use. The summary
+is written into the entry's `summary:` line in `talks.md`; edit it freely —
+it's only generated while that line is empty (clear it to regenerate).
+
 ### Vocabulary and notes
 
 [`intake/vocab.md`](intake/vocab.md) holds terms (spelling/casing, also fed to

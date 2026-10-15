@@ -89,3 +89,12 @@ def test_timestamps_and_voiceprint_clips(repo):
     assert (src, s, e, done) == ("https://youtu.be/x", 60.0, 180.0, False)
     md.mark_line(config.VOICEPRINT_MD, idx, "✅ enrolled")
     assert md.voiceprint_clips(config.VOICEPRINT_MD)[0][4] is True
+
+
+def test_summary_field_lands_before_status(repo):
+    md.append_entry(config.TALKS_MD, "Talk", {"format": "talk", "status": "✅"})
+    md.set_field(config.TALKS_MD, "talk", "summary", "Ayman explains SSO.")
+    lines = config.TALKS_MD.read_text().splitlines()
+    i = lines.index("- summary: Ayman explains SSO.")
+    assert lines[i + 1].startswith("- status:")
+    assert md.parse_talks(config.TALKS_MD)[0].get("summary") == "Ayman explains SSO."

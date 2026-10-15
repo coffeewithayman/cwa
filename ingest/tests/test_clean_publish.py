@@ -53,3 +53,12 @@ def test_guess_format():
     assert publish.guess_format({"A": 0.95, "B": 0.05}) == "talk"
     assert publish.guess_format({"A": 0.5, "B": 0.5}) == "interview"
     assert publish.guess_format({"A": 0.4, "B": 0.3, "C": 0.3}) == "panel"
+
+
+def test_summary_prompt_marks_context():
+    from cwa_ingest.enrich import _transcript_text
+    data = {"turns": [
+        {"speaker": "Host", "citable": False, "lines": [{"t": 0, "text": "What do you think?"}]},
+        {"speaker": "Ayman", "citable": True, "lines": [{"t": 5, "text": "Use SSO."}, {"t": 7, "text": "Always."}]},
+    ]}
+    assert _transcript_text(data) == "[context] Host: What do you think?\nAyman: Use SSO. Always."

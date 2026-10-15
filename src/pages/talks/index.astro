@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
-import { formatLabel, humanDuration } from "../../lib/talks";
+import { formatLabel, humanDuration, linkAt } from "../../lib/talks";
 
 const talks = (await getCollection("talks"))
   .map((t) => t.data)
@@ -54,8 +54,8 @@ function where(url: string | null, platform: string): string {
 
     <h1>Talks &amp; Videos</h1>
     <p class="lede">
-      Presentations, interviews, panels and podcast appearances. Open any title for the full transcript with
-      timestamps.
+      Presentations, interviews, panels and podcast appearances. Click a title for a short summary and the full
+      transcript.
     </p>
 
     {talks.length === 0 ? (
@@ -121,7 +121,10 @@ function where(url: string | null, platform: string): string {
           </thead>
           <tbody>
             {talks.map((t) => (
+              <>
               <tr
+                data-row
+                data-slug={t.slug}
                 data-date={t.date ?? ""}
                 data-title={t.title.toLowerCase()}
                 data-format={t.format ?? ""}
@@ -135,10 +138,12 @@ function where(url: string | null, platform: string): string {
                 <td class="mono muted nowrap">{t.date ?? "—"}</td>
                 <td class="kind mono nowrap">{formatLabel(t.format)}</td>
                 <td class="title">
-                  {t.hasTranscript ? <a href={`/talks/${t.slug}/`}>{t.title}</a> : t.title}
+                  <button type="button" class="toggle" aria-expanded="false" aria-controls={`more-${t.slug}`}>
+                    <span class="caret mono" aria-hidden="true">▸</span>{t.title}
+                  </button>
                 </td>
                 <td class="desc">
-                  {t.summary ?? t.event ?? ""}
+                  {t.event ?? ""}
                   {t.topics.length > 0 && (
                     <span class="tags">{t.topics.map((topic) => <span class="tag mono">{topic}</span>)}</span>
                   )}
@@ -152,6 +157,19 @@ function where(url: string | null, platform: string): string {
                 </td>
                 <td class="mono muted right nowrap">{humanDuration(t.duration)}</td>
               </tr>
+              <tr class="more" id={`more-${t.slug}`} data-more={t.slug} hidden>
+                <td colspan="3" class="more-pad"></td>
+                <td colspan="4">
+                  <p class="summary">{t.summary ?? "Summary coming soon."}</p>
+                  <p class="actions mono">
+                    {t.hasTranscript && <a href={`/talks/${t.slug}/`}>Read the transcript →</a>}
+                    {t.url && (
+                      <a href={linkAt(t.url, 0) ?? t.url} target="_blank" rel="noopener noreferrer">Watch on {t.platform} ↗</a>
+                    )}
+                  </p>
+                </td>
+              </tr>
+              </>
             ))}
           </tbody>
         </table>
@@ -417,12 +435,69 @@ function where(url: string | null, platform: string): string {
     min-width: 14rem;
   }
 
-  .title a {
-    color: var(--text);
+  .toggle {
+    all: unset;
+    cursor: pointer;
+    display: inline-flex;
+    gap: 0.45rem;
+    line-height: 1.35;
   }
 
-  .title a:hover {
+  .toggle:hover {
     color: var(--center-ring);
+  }
+
+  .toggle:focus-visible {
+    outline: 2px solid var(--center-ring);
+    outline-offset: 2px;
+  }
+
+  .caret {
+    color: var(--secondary-text);
+    font-size: 0.7rem;
+    padding-top: 0.15rem;
+    transition: transform 0.15s ease;
+  }
+
+  .toggle[aria-expanded="true"] .caret {
+    transform: rotate(90deg);
+    color: var(--center-ring);
+  }
+
+  tr.open > td {
+    border-bottom-color: transparent;
+  }
+
+  .more td {
+    padding-top: 0;
+    padding-bottom: 1.1rem;
+  }
+
+  .more:hover {
+    background: transparent;
+  }
+
+  .summary {
+    margin: 0 0 0.6rem;
+    max-width: 75ch;
+    line-height: 1.6;
+    color: #d6d6d6;
+  }
+
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin: 0;
+    font-size: 0.75rem;
+  }
+
+  .actions a {
+    color: var(--center-ring);
+  }
+
+  .actions a:hover {
+    text-decoration: underline;
   }
 
   .desc {
@@ -545,6 +620,14 @@ function where(url: string | null, platform: string): string {
 
     .talks td.right {
       text-align: left;
+    }
+
+    .more td.more-pad {
+      display: none;
+    }
+
+    .talks tr.more {
+      padding-top: 0;
     }
   }
 </style>

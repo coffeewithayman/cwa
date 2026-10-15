@@ -26,7 +26,7 @@ STRUCK_RE = re.compile(r"^\s*-\s+~~.*~~")
 # Field order for new entries; anything else goes before `status`.
 FIELD_ORDER = [
     "id", "url", "file", "format", "date", "event", "category", "topics",
-    "clip", "ayman_speaker", "status",
+    "clip", "ayman_speaker", "summary", "status",
 ]
 # Fields the pipeline owns outright (rewritten freely, tagged as managed).
 MANAGED_FIELDS = {"id", "status"}

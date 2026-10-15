@@ -15,7 +15,7 @@ import traceback
 from pathlib import Path
 
 from . import clean as clean_mod
-from . import config, fetch, publish, speakers
+from . import config, enrich, fetch, publish, speakers
 from . import intake_md as md
 
 log = logging.getLogger("cwa_ingest")
@@ -191,6 +191,10 @@ def process(entry: md.Entry, *, force: bool = False) -> None:
         data = publish.build_transcript(entry, cleaned, decision["ayman"], clip[0] if clip else 0.0)
         publish.write_transcript(slug, data)
         st.done("publish", fp_pub)
+    # 6. summary (local model) — only while the field is empty, so Ayman's edits stick
+    if not entry.get("summary"):
+        _summarize(entry, json.loads(out.read_text()))
+
     if st.data == before and s.startswith("✅"):
         return   # nothing changed; leave the status line alone
     turns = json.loads(out.read_text())["turns"]
@@ -198,6 +202,20 @@ def process(entry: md.Entry, *, force: bool = False) -> None:
     how = {"auto": f"speaker auto ({decision['reason']})", "override": "speaker confirmed by Ayman",
            "solo": "solo recording"}.get(decision["status"], decision["status"])
     status(slug, f"✅ ingested {md.today()} · {sum(len(t['lines']) for t in turns)} lines · {how} · {n_flags} flagged")
+
+
+def _summarize(entry: md.Entry, transcript: dict) -> None:
+    if config.LOW_VRAM:
+        from . import transcribe
+        transcribe.release()   # hand the 6 GB card to the summary model
+    try:
+        text = enrich.summarize(entry.title, entry.get("event"), entry.get("format"), transcript)
+    except Exception as exc:  # noqa: BLE001 - a summary is optional; never fail the talk over it
+        log.warning("%s: summary failed: %s", entry.slug, exc)
+        return
+    if text:
+        md.set_field(config.TALKS_MD, entry.slug, "summary", text)
+        log.info("%s: summary written", entry.slug)
 
 
 def _learn_voice(workdir: Path, slug: str, label: str) -> None:

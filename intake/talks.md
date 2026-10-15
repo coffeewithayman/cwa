@@ -26,6 +26,7 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - event: Security Weekly - A CRA Resource
 - category:
 - topics:
+- summary: Ayman discusses the use of AI in pentesting, emphasizing the importance of human oversight and the value of custom harnesses to ensure accurate and novel testing. He also highlights the potential of AI in both offensive and defensive security operations, while noting the challenges of keeping up with the volume of threats and the need for open-source models and tools.
 - status: ✅ ingested 2026-10-15 · 199 lines · speaker auto (voiceprint 0.85 + name mentioned) · 174 flagged <!-- managed -->
 
 ### Notes
