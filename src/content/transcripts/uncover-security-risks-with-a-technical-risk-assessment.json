@@ -1,0 +1,84 @@
+{
+ "slug": "uncover-security-risks-with-a-technical-risk-assessment",
+ "scope": "all",
+ "format": "talk",
+ "turns": [
+  {
+   "start": 0.1,
+   "end": 66.2,
+   "lines": [
+    {
+     "t": 0.1,
+     "text": "An assessment is very important."
+    },
+    {
+     "t": 1.5,
+     "text": "It helps understand the complete picture for your company."
+    },
+    {
+     "t": 6.8,
+     "text": "Our assessment is both technical and business focused."
+    },
+    {
+     "t": 10.4,
+     "text": "We cover your entire company and help find your unknown unknowns."
+    },
+    {
+     "t": 14.7,
+     "text": "You might be compliant, but are you really secure?"
+    },
+    {
+     "t": 17.2,
+     "text": "Many technical leaders face this question a lot is yes, I have all the compliance, but am I really secure?"
+    },
+    {
+     "t": 23.7,
+     "text": "Because"
+    },
+    {
+     "t": 25.3,
+     "text": "Depending on the compliance program, especially with, say, SOC 2, you can design it anywhere you wish."
+    },
+    {
+     "t": 30.1,
+     "text": "And so I like to be security focused."
+    },
+    {
+     "t": 32.9,
+     "text": "We do a complete assessment, come on site, and it's interview based."
+    },
+    {
+     "t": 38.0,
+     "text": "From there, you take the report and make a one-year roadmap."
+    },
+    {
+     "t": 42.0,
+     "text": "My assessments are particular to your organization and prioritized based on your company because a risk at one company may not be the same level of risk at another company."
+    },
+    {
+     "t": 53.5,
+     "text": "Not all risks are created equal."
+    },
+    {
+     "t": 56.0,
+     "text": "So it's very important to have a very specific risk assessment to your company and your organization and your environment."
+    },
+    {
+     "t": 62.4,
+     "text": "So go ahead and book some time below and we'll talk soon."
+    },
+    {
+     "t": 65.5,
+     "text": "Thanks."
+    },
+    {
+     "t": 65.9,
+     "text": "Bye-bye."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

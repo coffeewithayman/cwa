@@ -1,0 +1,14 @@
+[Unit]
+Description=coffeewithayman.com talks ingest watcher (media/inbox + intake/*.md)
+After=default.target
+
+[Service]
+Type=simple
+WorkingDirectory=/work/projects/cwa
+ExecStart=%h/.local/bin/uv run --project ingest cwa-ingest watch
+Restart=on-failure
+RestartSec=30
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=default.target

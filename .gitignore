@@ -22,3 +22,15 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# talks ingest
+media/
+ingest/.venv/
+ingest/.models/
+ingest/cache/
+ingest/voiceprint/
+ingest/.env
+__pycache__/
+
+# screenshots dropped into the repo for reference
+Screenshot*.png

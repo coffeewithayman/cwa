@@ -1,0 +1,1744 @@
+{
+ "slug": "how-to-hack-your-career-building-a-vciso-business-with-ayman",
+ "scope": "all",
+ "format": "podcast-guest",
+ "turns": [
+  {
+   "start": 0.2,
+   "end": 20.0,
+   "lines": [
+    {
+     "t": 0.2,
+     "text": "So if you are lucky enough to get just advisory clients, you have a bunch of clients, they're on retainer, times are good, they're able to pay your retainer, and they have you on standby, you could be working 10 hours a week."
+    },
+    {
+     "t": 12.2,
+     "text": "I don't know, right?"
+    },
+    {
+     "t": 12.9,
+     "text": "It really depends."
+    },
+    {
+     "t": 18.5,
+     "text": "Who says tech can't be human?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 39.6,
+   "end": 80.8,
+   "lines": [
+    {
+     "t": 39.6,
+     "text": "What is going on hacker valley fam welcome back to the show we are live that is right 100 live i'm joining you live today from austin texas our guest on this live stream is very special because they've agreed to share some very i would say personal detail about how they've reached a crossroad in their career how they've"
+    },
+    {
+     "t": 65.2,
+     "text": "Talk on information security covering CISO, vCISO, fractional CISO, zero trust, non-repudiation, infosec, AppSec, DevSecOps, SOC 2, ISO 27001, NIST, FedRAMP, GDPR, HIPAA, PCI DSS, MFA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP 2, ISO 27001, NIST, FedRAMP, GDPR, HIPAA, PCI DSS"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 85.8,
+   "end": 86.6,
+   "lines": [
+    {
+     "t": 85.8,
+     "text": "Yeah, same here."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 86.6,
+   "end": 119.8,
+   "lines": [
+    {
+     "t": 86.6,
+     "text": "Thanks, Ron."
+    },
+    {
+     "t": 87.1,
+     "text": "Thanks for having me."
+    },
+    {
+     "t": 88.1,
+     "text": "Yes, thank you for coming on."
+    },
+    {
+     "t": 90.2,
+     "text": "You know, I've gotten the chance to know you over the course of, I would say like the past maybe two years."
+    },
+    {
+     "t": 96.2,
+     "text": "Maybe the first time like I really felt like I was getting to know you as a person was when we saw each other last year at RSA at a 1011 Ventures party."
+    },
+    {
+     "t": 105.0,
+     "text": "We had a little bit more time to chat."
+    },
+    {
+     "t": 107.0,
+     "text": "Then that cyber creator con but you know a lot of our guests they're dying to get to know you they're dying to know more about you know becoming a vc so and the like so take a second to introduce yourself to the audience"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 120.9,
+   "end": 167.5,
+   "lines": [
+    {
+     "t": 120.9,
+     "text": "All right."
+    },
+    {
+     "t": 121.3,
+     "text": "Thanks, Ron."
+    },
+    {
+     "t": 121.7,
+     "text": "Thanks, Ron."
+    },
+    {
+     "t": 122.1,
+     "text": "Yeah, my name is Ayman Elsawah."
+    },
+    {
+     "t": 123.5,
+     "text": "I'm calling in from the SF Bay Area."
+    },
+    {
+     "t": 126.3,
+     "text": "And I've been a vCISO for almost five years now."
+    },
+    {
+     "t": 129.0,
+     "text": "I've worked with some big brand name companies, but also a lot of smaller ones and personally with founders."
+    },
+    {
+     "t": 135.1,
+     "text": "I also run a newsletter called Last Week as a vCISO where I share, you know, some of the sawdust, some of the inner experiences as a vCISO so that others can just benefit."
+    },
+    {
+     "t": 146.0,
+     "text": "And in the past, I've hosted a podcast called Getting Into Infosec and written a book called Breaking In where to help people get into the industry because we all know there is a shortage out there."
+    },
+    {
+     "t": 156.7,
+     "text": "We need some more folks."
+    },
+    {
+     "t": 158.4,
+     "text": "Overall, my mission is I just love sharing and helping people and organizations kind of level up their cybersecurity and their careers."
+    },
+    {
+     "t": 166.8,
+     "text": "So we're all better off."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 168.9,
+   "end": 185.5,
+   "lines": [
+    {
+     "t": 168.9,
+     "text": "Great."
+    },
+    {
+     "t": 169.8,
+     "text": "Let's jump into finding yourself at this crossroads of starting this fractional CISO, vCISO practice."
+    },
+    {
+     "t": 179.1,
+     "text": "What were you doing before you decided like, hey, I'm going to start exploring something new like vCISO?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 186.6,
+   "end": 265.9,
+   "lines": [
+    {
+     "t": 186.6,
+     "text": "Yeah, you know, I was always an enterprise security person."
+    },
+    {
+     "t": 192.7,
+     "text": "So I was working with large companies, enterprises, helping them with their security and, you know, transitioned to cloud security as well full time."
+    },
+    {
+     "t": 202.2,
+     "text": "But I was also helping startups on the side."
+    },
+    {
+     "t": 204.8,
+     "text": "People came to me and I always had this entrepreneurial trait, even since high school."
+    },
+    {
+     "t": 209.8,
+     "text": "So people came to me and said, oh, you know, there's a company that needs some help with their cybersecurity."
+    },
+    {
+     "t": 215.1,
+     "text": "Are you willing to help me?"
+    },
+    {
+     "t": 215.9,
+     "text": "Yeah, sure."
+    },
+    {
+     "t": 216.6,
+     "text": "So that's where it started, helping out companies."
+    },
+    {
+     "t": 220.6,
+     "text": "And I was doing that on the side, but, you know, working full time."
+    },
+    {
+     "t": 223.5,
+     "text": "And I realized that a lot of companies are making the same mistakes, you know, over and over."
+    },
+    {
+     "t": 230.0,
+     "text": "I'm encountering other companies and they're just rinse repeating the same mistakes."
+    },
+    {
+     "t": 234.6,
+     "text": "And then I also just in work life encountered some different like fractional roles, like fractional CTOs and fractional CFOs."
+    },
+    {
+     "t": 243.4,
+     "text": "I'm like, oh, that's interesting."
+    },
+    {
+     "t": 245.6,
+     "text": "So I'm like, the cybersecurity industry needs that."
+    },
+    {
+     "t": 248.3,
+     "text": "Like, what if I could clone myself and get out there?"
+    },
+    {
+     "t": 251.1,
+     "text": "Because we all know there's a shortage of cybersecurity folks."
+    },
+    {
+     "t": 254.3,
+     "text": "And, you know, it's hard to find someone, let alone a small company can't afford one for whatever reason."
+    },
+    {
+     "t": 259.9,
+     "text": "We're not going to blame them."
+    },
+    {
+     "t": 261.6,
+     "text": "And so, you know, I just came up with the idea and started going from there."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 267.4,
+   "end": 293.6,
+   "lines": [
+    {
+     "t": 267.4,
+     "text": "What was it like taking that leap you know with having working in the enterprise space it's lucrative like let's be honest you can make that's right 150 200 without really trying too hard for enterprise organizations so you kind of left this very lucrative opportunity maybe for a more lucrative one but what was the maybe the hang-ups for you for taking that initial leap and then what was also that motivating factor for you"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 295.0,
+   "end": 388.9,
+   "lines": [
+    {
+     "t": 295.0,
+     "text": "Yeah, I think in general, any sort of entrepreneurial endeavor requires a little bit of insanity."
+    },
+    {
+     "t": 301.2,
+     "text": "So, you know, you have to be insane to leave this cushy job and go do something."
+    },
+    {
+     "t": 306.6,
+     "text": "So again, you know, for me, I was trying to solve a big problem where like a lot of companies were doing cybersecurity wrong."
+    },
+    {
+     "t": 315.0,
+     "text": "And for me as a recovering perfectionist and just, you know, cybersecurity, you know, we have this altruistic part of us that we don't like seeing things done the wrong way."
+    },
+    {
+     "t": 325.2,
+     "text": "So that was the idea."
+    },
+    {
+     "t": 327.2,
+     "text": "And so, but to answer your question, you know, I actually had a false start."
+    },
+    {
+     "t": 330.7,
+     "text": "So I had a start."
+    },
+    {
+     "t": 331.7,
+     "text": "I tried to do this early in like 2016."
+    },
+    {
+     "t": 334.1,
+     "text": "I connected with someone, had this idea, and this is, nobody even heard of the term virtual CISO at the time."
+    },
+    {
+     "t": 341.6,
+     "text": "And, you know, tried to make a startup and all this kind of stuff, still working."
+    },
+    {
+     "t": 344.9,
+     "text": "That didn't work out."
+    },
+    {
+     "t": 346.6,
+     "text": "So, you know, I was a little, you know, taken aback by that or bruised by that."
+    },
+    {
+     "t": 351.7,
+     "text": "So I just kind of went back and then,"
+    },
+    {
+     "t": 353.8,
+     "text": "You know several years later people still approached me about this and you know it came at a crossroads where the job i was working out at the time was not working out it was a you know a disconnect"
+    },
+    {
+     "t": 370.8,
+     "text": "And so I put this out there and I said, hey, you know, there's a company that needed help."
+    },
+    {
+     "t": 376.4,
+     "text": "They were going public and they needed help with their security roadmap and getting ready for that."
+    },
+    {
+     "t": 383.1,
+     "text": "So, you know, I put it out there and, you know, it's been turtles all the way down from there."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 389.4,
+   "end": 411.0,
+   "lines": [
+    {
+     "t": 389.4,
+     "text": "Love that's that's the way to go I mean it sounds like there's some elements of hard work and kind of being confident and believing in yourself but also I would imagine a little bit of luck along the way as well I mean you got the industry has been booming you know especially during around that time 2016. what year was it that you started your business"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 412.4,
+   "end": 421.6,
+   "lines": [
+    {
+     "t": 412.4,
+     "text": "So I actually got into it at 2019."
+    },
+    {
+     "t": 414.3,
+     "text": "So I've been a full-time CISO, which is kind of full-time fractional CISO, which is kind of like, you know, play on words, since 2019."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 422.3,
+   "end": 433.5,
+   "lines": [
+    {
+     "t": 422.3,
+     "text": "And, you know, on that point, there's a lot of vCISOs out there on LinkedIn."
+    },
+    {
+     "t": 428.4,
+     "text": "I feel like everywhere I turn now, I see that vCISO title."
+    },
+    {
+     "t": 432.2,
+     "text": "And it makes me wonder, like..."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 434.4,
+   "end": 437.3,
+   "lines": [
+    {
+     "t": 434.4,
+     "text": "Are they a vCISO?"
+    },
+    {
+     "t": 435.8,
+     "text": "Are they a fractional CISO?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 437.7,
+   "end": 457.3,
+   "lines": [
+    {
+     "t": 437.7,
+     "text": "And my assumption is probably."
+    },
+    {
+     "t": 440.3,
+     "text": "I think that the beauty of something like this, this line of work, is you could have some vCISOs be very high level, and then maybe some other vCISOs are more like a security architect."
+    },
+    {
+     "t": 452.7,
+     "text": "So what are some of those buckets of the vCISO sphere?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 458.3,
+   "end": 585.2,
+   "lines": [
+    {
+     "t": 458.3,
+     "text": "Yeah, that's a really good question."
+    },
+    {
+     "t": 460.2,
+     "text": "In fact, I wrote an article this past weekend on this topic."
+    },
+    {
+     "t": 463.3,
+     "text": "It was the second article in the series on last week as a vCISO."
+    },
+    {
+     "t": 467.7,
+     "text": "So there was a, you know, the first one, I had a picture of MacGyver on there."
+    },
+    {
+     "t": 474.5,
+     "text": "And, you know, the second one was kind of just going digging into a little bit of vCISO."
+    },
+    {
+     "t": 480.3,
+     "text": "So vCISO, fractional CISO, what is a vCISO?"
+    },
+    {
+     "t": 483.7,
+     "text": "For me, you know, a vCISO at the end of the day is someone that's going to come in and help a security leadership with their security program."
+    },
+    {
+     "t": 492.6,
+     "text": "Now, the term has been abused."
+    },
+    {
+     "t": 496.0,
+     "text": "There's a lot of people that have some discontent with the term vCISO because it has been abused a little bit."
+    },
+    {
+     "t": 502.4,
+     "text": "A security analyst may call themselves a vCISO and they're actually just a security contractor."
+    },
+    {
+     "t": 507.6,
+     "text": "Now, I don't want to belittle the term vCISO or anyone that's going out and becoming a contractor."
+    },
+    {
+     "t": 514.5,
+     "text": "So I want to keep that, make that clear."
+    },
+    {
+     "t": 516.7,
+     "text": "However,"
+    },
+    {
+     "t": 519.2,
+     "text": "Because vCISO is a Swiss army knife, they function at all different levels."
+    },
+    {
+     "t": 524.1,
+     "text": "They can report to the board."
+    },
+    {
+     "t": 525.5,
+     "text": "They work with executive team and founders."
+    },
+    {
+     "t": 528.2,
+     "text": "They work with engineering management."
+    },
+    {
+     "t": 531.0,
+     "text": "They'll work with engineers and they'll work with analysts, right?"
+    },
+    {
+     "t": 536.1,
+     "text": "For the most part, they kind of hover between like engineering and executive team."
+    },
+    {
+     "t": 541.8,
+     "text": "Okay, for the most part, most vCISOs will not do a lot of hands on work."
+    },
+    {
+     "t": 549.8,
+     "text": "Some are technical and are willing to hop in and do some things."
+    },
+    {
+     "t": 554.0,
+     "text": "But for the most part, you know, a vCISO will function at like the higher level."
+    },
+    {
+     "t": 560.4,
+     "text": "But you know, the thing is,"
+    },
+    {
+     "t": 563.1,
+     "text": "Sometimes, and then, you know, there's also the fractional CISO term."
+    },
+    {
+     "t": 565.7,
+     "text": "So fractional CISO has a little higher of a term where, you know, you are a CISO, maybe you've been a CISO in the past, and you're trying to help a company with their board and their insurance or incident response, whatever it may be, planning."
+    },
+    {
+     "t": 581.4,
+     "text": "So there's a variety there."
+    },
+    {
+     "t": 582.5,
+     "text": "I'll stop there and ask any questions, but I can keep going."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 585.8,
+   "end": 609.6,
+   "lines": [
+    {
+     "t": 585.8,
+     "text": "I feel like there's a lot of questions in the vCISO space."
+    },
+    {
+     "t": 589.9,
+     "text": "How can someone who has never been in a CISO role be a vCISO?"
+    },
+    {
+     "t": 595.2,
+     "text": "I would imagine that maybe vCISO and CISO are very different roles."
+    },
+    {
+     "t": 599.7,
+     "text": "But from your perspective, for someone that hasn't been a CISO, how could someone be a vCISO on their journey of just career progression?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 610.2,
+   "end": 776.5,
+   "lines": [
+    {
+     "t": 610.2,
+     "text": "That's a really good question."
+    },
+    {
+     "t": 611.5,
+     "text": "So, for example, a deputy CISO, are they a CISO?"
+    },
+    {
+     "t": 615.7,
+     "text": "Right?"
+    },
+    {
+     "t": 616.8,
+     "text": "Some people say yes, some people say no."
+    },
+    {
+     "t": 618.5,
+     "text": "But in some places, a deputy CISO does all the work, almost all the work that a CISO does."
+    },
+    {
+     "t": 624.6,
+     "text": "But the CISO is kind of like that figurehead or that firewall, you know, between the board and whatnot."
+    },
+    {
+     "t": 631.3,
+     "text": "There's been engineers, GRC managers, whatnot that have worked on board decks with CISOs, right?"
+    },
+    {
+     "t": 636.8,
+     "text": "So they've done the legwork."
+    },
+    {
+     "t": 639.0,
+     "text": "So you may realize, you may not realize it, but you may have a lot of the experience that is required to become a vCISO."
+    },
+    {
+     "t": 646.9,
+     "text": "Because like I said, a vCISO is a Swiss army knife."
+    },
+    {
+     "t": 650.6,
+     "text": "So think about like there's all these things that have to be done."
+    },
+    {
+     "t": 654.4,
+     "text": "And then here's what the client needs."
+    },
+    {
+     "t": 656.8,
+     "text": "And so the client may need only SOC 2 and, you know, board deck and then sales enablement."
+    },
+    {
+     "t": 664.2,
+     "text": "OK, can you do that?"
+    },
+    {
+     "t": 665.9,
+     "text": "Right."
+    },
+    {
+     "t": 666.2,
+     "text": "So ask yourself, can you do that or can you grow into it?"
+    },
+    {
+     "t": 668.4,
+     "text": "OK, because it's not rocket science."
+    },
+    {
+     "t": 669.6,
+     "text": "Let's let's be let's be clear, you know, you know, being"
+    },
+    {
+     "t": 674.9,
+     "text": "You know, in tech, how many times, you know, even coders, developers, right?"
+    },
+    {
+     "t": 679.8,
+     "text": "How many times are we Googling and trying to learn things, right?"
+    },
+    {
+     "t": 683.3,
+     "text": "Yeah, so it's not rocket science."
+    },
+    {
+     "t": 685.5,
+     "text": "Now, I don't want to belittle the term."
+    },
+    {
+     "t": 686.9,
+     "text": "Now, being a CISO is very important, especially when it comes to an incident or things like that."
+    },
+    {
+     "t": 691.7,
+     "text": "But that goes back to the entrepreneurial part where you need to have some, a little bit of craziness, a little bit of confidence in yourself to get to that next part."
+    },
+    {
+     "t": 705.1,
+     "text": "Now, for example, you know, you know, I had worked on incidents in, in previously being the VCs."
+    },
+    {
+     "t": 711.8,
+     "text": "So I had the experience, but, and nothing gives you more experience than being on the job."
+    },
+    {
+     "t": 716.6,
+     "text": "Right."
+    },
+    {
+     "t": 717.3,
+     "text": "But I just happened to have in 2021, there was a lot of supply chain attacks, if you remember."
+    },
+    {
+     "t": 723.8,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware,"
+    },
+    {
+     "t": 741.1,
+     "text": "So I had different aspects of like audit experience, security management, whatnot, at least understanding."
+    },
+    {
+     "t": 747.8,
+     "text": "So not to say that a certification is the only thing that you need, but I think, I hope this is coming clear."
+    },
+    {
+     "t": 754.0,
+     "text": "You can grow into certain roles."
+    },
+    {
+     "t": 755.9,
+     "text": "And, but, you know, don't lie, right?"
+    },
+    {
+     "t": 759.6,
+     "text": "Don't lie."
+    },
+    {
+     "t": 760.0,
+     "text": "And then there's also opportunities where if you can't do the work, then just say you can't do the work."
+    },
+    {
+     "t": 764.6,
+     "text": "Like, don't BS."
+    },
+    {
+     "t": 766.0,
+     "text": "Don't BS and don't, you know, lead anyone on."
+    },
+    {
+     "t": 770.5,
+     "text": "But they, you know, you need to have some experience in some areas, but a vCISO doesn't have to have all the experience."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 777.0,
+   "end": 879.6,
+   "lines": [
+    {
+     "t": 777.0,
+     "text": "I would 100% agree with that."
+    },
+    {
+     "t": 778.7,
+     "text": "A lot of times when you ask someone, what does a CISO do?"
+    },
+    {
+     "t": 782.9,
+     "text": "You're going to get a wide variety of answers."
+    },
+    {
+     "t": 785.4,
+     "text": "Some CISOs will say that you have to be technical or have had to have a technical background to be a CISO."
+    },
+    {
+     "t": 790.3,
+     "text": "And then others will say you actually don't need a technical background."
+    },
+    {
+     "t": 793.5,
+     "text": "You need to understand the language of the business."
+    },
+    {
+     "t": 796.0,
+     "text": "And in fact, when I asked about five CISOs recently, I did a panel back in February."
+    },
+    {
+     "t": 803.3,
+     "text": "All have been CISOs for over five years."
+    },
+    {
+     "t": 805.0,
+     "text": "I asked them, what is the definition for a CISO?"
+    },
+    {
+     "t": 807.7,
+     "text": "And they said it's the person that has assumed the responsibility for security and risk."
+    },
+    {
+     "t": 812.9,
+     "text": "Outside of that, it's up to the organization to decide what are those most important pillars of experience or skill set."
+    },
+    {
+     "t": 821.4,
+     "text": "I need to jump in for a second and share some details about a special group that we've created for you, our listeners."
+    },
+    {
+     "t": 827.6,
+     "text": "We understand the importance of creativity in cybersecurity, and Hacker Valley has created a special Cyber Creators Mastermind."
+    },
+    {
+     "t": 836.1,
+     "text": "Each month, we meet and discuss how to break down technical concepts through stories,"
+    },
+    {
+     "t": 841.0,
+     "text": "The intricacies and opportunities of using audio and video to highlight what's important in cybersecurity."
+    },
+    {
+     "t": 847.5,
+     "text": "And we share how you can use content to highlight the hard work that you put into your craft."
+    },
+    {
+     "t": 852.7,
+     "text": "You can check out the mastermind by visiting hackervalley.com forward slash mastermind."
+    },
+    {
+     "t": 858.6,
+     "text": "We'd love to help unlock your creative potential and would love to see you there."
+    },
+    {
+     "t": 863.8,
+     "text": "So let's talk about figuring out if becoming a vCISO is a viable option for someone."
+    },
+    {
+     "t": 871.3,
+     "text": "What questions would you ask someone if this was like a mentorship session?"
+    },
+    {
+     "t": 874.9,
+     "text": "And, you know, I came to you and said, hey, Ayman, I want to be a vCISO."
+    },
+    {
+     "t": 878.7,
+     "text": "How do I get started?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 880.6,
+   "end": 1038.5,
+   "lines": [
+    {
+     "t": 880.6,
+     "text": "Yeah."
+    },
+    {
+     "t": 881.4,
+     "text": "Good question."
+    },
+    {
+     "t": 882.0,
+     "text": "So I just talked to someone about this recently."
+    },
+    {
+     "t": 884.8,
+     "text": "So if you were to come ask me that you wanted to be vCISO, here's a few things I would ask."
+    },
+    {
+     "t": 891.9,
+     "text": "One, what's motivating you to be a vCISO?"
+    },
+    {
+     "t": 895.3,
+     "text": "I've heard folks say, I'm not happy with my job."
+    },
+    {
+     "t": 898.5,
+     "text": "A lot of folks are laid off."
+    },
+    {
+     "t": 900.9,
+     "text": "So there's been CISOs that have been laid off."
+    },
+    {
+     "t": 903.6,
+     "text": "There are CISOs that have burned out."
+    },
+    {
+     "t": 906.0,
+     "text": "You know, I believe it's a kind of hypothesis I'm working on."
+    },
+    {
+     "t": 908.9,
+     "text": "Talk on information security covering CISO, vCISO, vCISO, vCISO, vCISO, vCISO, vCISO, vCISO, vCISO, vCISO,"
+    },
+    {
+     "t": 934.9,
+     "text": "We're all humans at the end of the day."
+    },
+    {
+     "t": 936.0,
+     "text": "We need to, you know, we may have kids, we may not have kids, people relying on us, mortgage, whatever it may be."
+    },
+    {
+     "t": 943.1,
+     "text": "So when you start a business, any business, whether it's a restaurant, consulting business, whatnot, there's a risk of failure, but also some time to ramp up."
+    },
+    {
+     "t": 952.2,
+     "text": "For me, I actually tried this early on."
+    },
+    {
+     "t": 956.4,
+     "text": "I tried this a couple of times, a few times where I was like, okay, let me go all in and get this working."
+    },
+    {
+     "t": 962.3,
+     "text": "But I wasn't on Twitter."
+    },
+    {
+     "t": 963.6,
+     "text": "I wasn't anywhere."
+    },
+    {
+     "t": 964.5,
+     "text": "I was like, you know, that security person that wanted to hide and not everybody know who you are."
+    },
+    {
+     "t": 969.4,
+     "text": "And so I had no brand equity out there at all."
+    },
+    {
+     "t": 973.4,
+     "text": "And so I was trying to build this up and I'm like, this is not working out."
+    },
+    {
+     "t": 978.0,
+     "text": "You know, I need to I need to make some income here."
+    },
+    {
+     "t": 981.1,
+     "text": "So, you know, that was a false start."
+    },
+    {
+     "t": 983.5,
+     "text": "And I learned a lot, you know, learn a lot."
+    },
+    {
+     "t": 985.3,
+     "text": "So that's, those are some things to work on."
+    },
+    {
+     "t": 987.3,
+     "text": "Like if you want it to be, if you're working a full-time job and you think, you see yourself as a vCISO in the future, then get started working now."
+    },
+    {
+     "t": 994.1,
+     "text": "Build up your brand, get out there, learn the intricacies."
+    },
+    {
+     "t": 999.4,
+     "text": "There's a lot of details and minutia."
+    },
+    {
+     "t": 1002.3,
+     "text": "In fact, I tell everyone this."
+    },
+    {
+     "t": 1006.5,
+     "text": "Whether you're a wedding photographer or a vCISO, business, like running a business, 80% of it is not that thing."
+    },
+    {
+     "t": 1016.0,
+     "text": "Right."
+    },
+    {
+     "t": 1016.4,
+     "text": "It's like the sales, accounting, bookkeeping, marketing, contracting, dah, dah, dah, dah, dah."
+    },
+    {
+     "t": 1022.0,
+     "text": "And then you have the, like the delivery."
+    },
+    {
+     "t": 1024.5,
+     "text": "So, you know, as you know, a lot of wedding photographer, they're into photography and they become a wedding photographer as a business."
+    },
+    {
+     "t": 1030.6,
+     "text": "And they just hate it because they have to do all these like different things."
+    },
+    {
+     "t": 1034.4,
+     "text": "Some love it, you know, they, they love the game."
+    },
+    {
+     "t": 1037.0,
+     "text": "So it's just something to keep in mind."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1039.7,
+   "end": 1109.8,
+   "lines": [
+    {
+     "t": 1039.7,
+     "text": "For sure."
+    },
+    {
+     "t": 1040.8,
+     "text": "You know, there's a lot of things I think that you don't really think about while you're thinking about starting a company."
+    },
+    {
+     "t": 1048.2,
+     "text": "You mentioned, what's your runway?"
+    },
+    {
+     "t": 1051.0,
+     "text": "That's a big question."
+    },
+    {
+     "t": 1052.2,
+     "text": "You know, a lot of times when people first think about going into business, especially if they have no experience, like I didn't before Hacker Valley, I thought that day one of my business, I'd have to worry about the opposite."
+    },
+    {
+     "t": 1063.7,
+     "text": "How much do I want to make because I'm going to be pulling in, you know, all these opportunities."
+    },
+    {
+     "t": 1069.5,
+     "text": "And I love what you said about personal capital, career capital, whatever you want to call it."
+    },
+    {
+     "t": 1075.4,
+     "text": "You know, these are, this is equity."
+    },
+    {
+     "t": 1077.2,
+     "text": "This is things that you can exchange by having a brand and a name for yourself is huge."
+    },
+    {
+     "t": 1083.2,
+     "text": "I'm sure that, you know,"
+    },
+    {
+     "t": 1084.3,
+     "text": "So starting in the blog was a big pillar that starting your podcast was like, let me not only have my business become more equitable, but my personal brand as well."
+    },
+    {
+     "t": 1095.0,
+     "text": "For someone that's getting started today that wants to expand their market cap on being a VC."
+    },
+    {
+     "t": 1103.2,
+     "text": "So because they're not they don't have their business yet, but they know they need to start talking about it."
+    },
+    {
+     "t": 1106.9,
+     "text": "How would you go about marketing yourself if you were to start over right now?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1111.1,
+   "end": 1290.9,
+   "lines": [
+    {
+     "t": 1111.1,
+     "text": "Yeah, perfect question."
+    },
+    {
+     "t": 1113.0,
+     "text": "LinkedIn."
+    },
+    {
+     "t": 1113.8,
+     "text": "So simple formula."
+    },
+    {
+     "t": 1115.5,
+     "text": "And it's the same if you're looking to get a job or you're in an existing career and you want to boost your brand equity."
+    },
+    {
+     "t": 1122.8,
+     "text": "Post on LinkedIn daily."
+    },
+    {
+     "t": 1124.7,
+     "text": "Okay."
+    },
+    {
+     "t": 1125.4,
+     "text": "It could be a listicle."
+    },
+    {
+     "t": 1128.4,
+     "text": "Just post some thoughts that are helpful out there."
+    },
+    {
+     "t": 1130.8,
+     "text": "And then comment, you know, three comments a day."
+    },
+    {
+     "t": 1132.9,
+     "text": "If people have like this, post one once a day and comment on three different other posts three times a day, for example."
+    },
+    {
+     "t": 1140.7,
+     "text": "Get yourself out there."
+    },
+    {
+     "t": 1141.4,
+     "text": "And then, so that's going to effectively grow."
+    },
+    {
+     "t": 1144.3,
+     "text": "And then start connecting with people, you know, start connecting people."
+    },
+    {
+     "t": 1147.4,
+     "text": "Don't, you know, be, don't necessarily be salesy and say, you know, don't DM them and ask them like for something right away."
+    },
+    {
+     "t": 1153.9,
+     "text": "Just"
+    },
+    {
+     "t": 1154.7,
+     "text": "Have them add them to your network."
+    },
+    {
+     "t": 1156.3,
+     "text": "So you want to, it's all, it's a whole network effect."
+    },
+    {
+     "t": 1159.1,
+     "text": "So, and that same applies to Twitter, whatever social media platform you're on."
+    },
+    {
+     "t": 1164.3,
+     "text": "Ad something that's valuable out there."
+    },
+    {
+     "t": 1166.7,
+     "text": "Be yourself because everyone has a large body of knowledge that's useful to someone else."
+    },
+    {
+     "t": 1172.9,
+     "text": "And something to remember is that you don't have to be a super expert."
+    },
+    {
+     "t": 1178.9,
+     "text": "You just have to be one day, one book, one lesson further ahead than someone else."
+    },
+    {
+     "t": 1184.8,
+     "text": "So there's always someone out there that could benefit from your experience."
+    },
+    {
+     "t": 1191.2,
+     "text": "Your information."
+    },
+    {
+     "t": 1192.8,
+     "text": "So that's that's something to understand."
+    },
+    {
+     "t": 1197.5,
+     "text": "Also to, you know, work on some areas that may be a gap for you."
+    },
+    {
+     "t": 1201.7,
+     "text": "So if you're not a social person, then go to more networking events and get yourself out there."
+    },
+    {
+     "t": 1208.1,
+     "text": "If you're not good at writing, then start writing."
+    },
+    {
+     "t": 1210.4,
+     "text": "And writing like, you know, writing the post is going to help you with that."
+    },
+    {
+     "t": 1214.4,
+     "text": "If you haven't presented before, then present."
+    },
+    {
+     "t": 1216.9,
+     "text": "So there's a whole, you know, there's a couple of courses out there."
+    },
+    {
+     "t": 1220.7,
+     "text": "I think one person out there, I'll send the link afterwards, has a course on just building your brand."
+    },
+    {
+     "t": 1227.0,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 1245.2,
+     "text": "Before when I first started on this journey, I want everyone to know Ayman and cloud security, right?"
+    },
+    {
+     "t": 1249.9,
+     "text": "Because I was a cloud security expert."
+    },
+    {
+     "t": 1252.0,
+     "text": "I was deep in AWS."
+    },
+    {
+     "t": 1253.8,
+     "text": "Nobody else was doing it."
+    },
+    {
+     "t": 1255.6,
+     "text": "So, you know, I was out there."
+    },
+    {
+     "t": 1257.3,
+     "text": "And then as I expanded into vCISO, now everyone is like Ayman and vCISO, or Ayman, vCISO, or fractional CISO for SaaS or startups."
+    },
+    {
+     "t": 1267.1,
+     "text": "Because, you know, there is some..."
+    },
+    {
+     "t": 1271.5,
+     "text": "Just with any CISO or any other person or any industry, you may have CISO experience, but not like startup experience."
+    },
+    {
+     "t": 1278.3,
+     "text": "So the more you can niche, the better, right?"
+    },
+    {
+     "t": 1281.4,
+     "text": "Are you a CISO for AI?"
+    },
+    {
+     "t": 1282.8,
+     "text": "Are you a CISO for telcos or whatever it may be?"
+    },
+    {
+     "t": 1286.3,
+     "text": "So the more you can niche, the better it is going to be from a sales, branding, whatever it may be."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1291.5,
+   "end": 1387.3,
+   "lines": [
+    {
+     "t": 1291.5,
+     "text": "Yeah, having a niche is everything."
+    },
+    {
+     "t": 1293.7,
+     "text": "There's a happy hour that I go to here in Austin for creatives."
+    },
+    {
+     "t": 1298.8,
+     "text": "It's mainly for animators, videographers, and whatnot."
+    },
+    {
+     "t": 1302.2,
+     "text": "And when I go, they say, oh, you have the perfect niche."
+    },
+    {
+     "t": 1305.4,
+     "text": "You know that you're in the video space, and you only cater towards cybersecurity."
+    },
+    {
+     "t": 1309.7,
+     "text": "Maybe I would take on technology general work, but only in the technical sphere."
+    },
+    {
+     "t": 1315.6,
+     "text": "If it's not in that sphere, it's also an easy no."
+    },
+    {
+     "t": 1318.8,
+     "text": "I think that one of the things that comes along with any job is knowing what you're about to be doing when you are doing that 20% of the delivery."
+    },
+    {
+     "t": 1328.2,
+     "text": "Maybe you're doing 80% of delivery, but still knowing that, hey, I'm delivering the thing that's going to suit my business the best."
+    },
+    {
+     "t": 1335.5,
+     "text": "And you mentioned a series of questions that you ask people."
+    },
+    {
+     "t": 1340.0,
+     "text": "I think a big one is, what is the mission and vision of your company?"
+    },
+    {
+     "t": 1343.1,
+     "text": "Like if you're starting a vCISO company, what is the mission and vision?"
+    },
+    {
+     "t": 1346.7,
+     "text": "And that will kind of be your guiding light."
+    },
+    {
+     "t": 1350.5,
+     "text": "I got to ask, because when you start any career field, whether you're going to be a W2 for someone or do your own thing, you're going to question, how much can I really make if all systems are a go?"
+    },
+    {
+     "t": 1362.6,
+     "text": "If I do the right branding and I do the right messaging, I have my products kind of created and well thought out, I got a contract ready, and I have a few people that might be interested in moving forward now."
+    },
+    {
+     "t": 1376.6,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1387.4,
+   "end": 1550.8,
+   "lines": [
+    {
+     "t": 1387.4,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 1399.0,
+     "text": "I know folks, you know, I mean, you could make as low as like, say, 200k, for example, depending on how well you're booked up to an average of like, say, three, I think getting anything past like, say, 500k is going to be really difficult unless you start becoming like an MSSP, right?"
+    },
+    {
+     "t": 1416.3,
+     "text": "Or anything past 300k, depending on the market."
+    },
+    {
+     "t": 1418.7,
+     "text": "Right now, it's a tough market, but it's going to recover eventually."
+    },
+    {
+     "t": 1422.8,
+     "text": "And again, it depends on your brand and the type of clients you're able to win and everything like that."
+    },
+    {
+     "t": 1427.2,
+     "text": "And who you have working with you and how much you can fill your pipeline."
+    },
+    {
+     "t": 1431.6,
+     "text": "But, you know,"
+    },
+    {
+     "t": 1436.2,
+     "text": "So back to the MSSP thing."
+    },
+    {
+     "t": 1439.2,
+     "text": "I know one person that offers some sort of cloud services or some security things, add-ons."
+    },
+    {
+     "t": 1446.0,
+     "text": "And so he has people working for him."
+    },
+    {
+     "t": 1448.8,
+     "text": "And it's a nice model."
+    },
+    {
+     "t": 1449.9,
+     "text": "And he's making in the upper limits."
+    },
+    {
+     "t": 1453.1,
+     "text": "Not seven figures, but upper limits."
+    },
+    {
+     "t": 1456.4,
+     "text": "But that's some work."
+    },
+    {
+     "t": 1460.1,
+     "text": "And that takes time to build."
+    },
+    {
+     "t": 1461.8,
+     "text": "But one thing I want to tell you, you know, one thing to understand is like, if you take $200K, let's take $200K because, you know, America is pretty big and I think $200K is a good salary for, you know, many folks out there."
+    },
+    {
+     "t": 1477.3,
+     "text": "Not in the Bay Area, but... Definitely not there."
+    },
+    {
+     "t": 1480.9,
+     "text": "No, no, no."
+    },
+    {
+     "t": 1483.0,
+     "text": "So say you take $200K as a full-time job."
+    },
+    {
+     "t": 1485.3,
+     "text": "When you take $200K as a business person, you're already saving"
+    },
+    {
+     "t": 1491.2,
+     "text": "10 to 15%."
+    },
+    {
+     "t": 1492.4,
+     "text": "And don't quote me this, check with your tax professional and your finance advisor."
+    },
+    {
+     "t": 1496.6,
+     "text": "But you're already saving a lot of money in taxes, right?"
+    },
+    {
+     "t": 1499.2,
+     "text": "Because you could expense certain things and you could spend money on the business."
+    },
+    {
+     "t": 1503.1,
+     "text": "So even though the gross income is the same, there's a lot of money that you'd be saving."
+    },
+    {
+     "t": 1508.0,
+     "text": "Now, there's a pitfall."
+    },
+    {
+     "t": 1509.4,
+     "text": "I mean, having a business in America, especially as a solopreneur, is quite difficult because if you have a family, you want to have health insurance and you got to get that on your own."
+    },
+    {
+     "t": 1518.4,
+     "text": "That is such a mess and don't get me started on that."
+    },
+    {
+     "t": 1520.9,
+     "text": "And I talk about that in the course because, again, this is about the person."
+    },
+    {
+     "t": 1525.8,
+     "text": "I don't want to give you everything that you need to know, but then neglect you as a human, right?"
+    },
+    {
+     "t": 1530.7,
+     "text": "Are you a single family household?"
+    },
+    {
+     "t": 1533.1,
+     "text": "Are you the breadwinner?"
+    },
+    {
+     "t": 1534.9,
+     "text": "Whatever it may be."
+    },
+    {
+     "t": 1536.7,
+     "text": "These things are important because you have to live, right?"
+    },
+    {
+     "t": 1540.6,
+     "text": "We need people to live and thrive and succeed."
+    },
+    {
+     "t": 1543.7,
+     "text": "So, you know, knowing these things because, you know, you get out there and then you're like, oh, health insurance."
+    },
+    {
+     "t": 1550.6,
+     "text": "Oops."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1553.1,
+   "end": 1605.0,
+   "lines": [
+    {
+     "t": 1553.1,
+     "text": "So anyway."
+    },
+    {
+     "t": 1554.6,
+     "text": "So what about the time that you have to commit?"
+    },
+    {
+     "t": 1558.5,
+     "text": "Because after you make sure that yes, this thing could support my family, I'm going to get my health insurance, I found a awesome company like Gusto or JustWorks, by the way, if you need health insurance, and you're a small company, Gusto and JustWorks are two great options."
+    },
+    {
+     "t": 1573.0,
+     "text": "But you know, you have those things squared away, you want to work, you want to put in that time."
+    },
+    {
+     "t": 1577.9,
+     "text": "If you're like, let's say like, you're, you're not like,"
+    },
+    {
+     "t": 1581.3,
+     "text": "Talk on information security covering CISO, vCISO, zero trust, non-repudiation, infosec, AppSec, DevSecOps, SOC 2, ISO 27001, NIST, FedRAMP, GDPR, HIPAA, PCI DSS, MFA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, CISSP, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, CISSP, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware, pentest"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1607.3,
+   "end": 1748.8,
+   "lines": [
+    {
+     "t": 1607.3,
+     "text": "You know, full inventory 30 to 40."
+    },
+    {
+     "t": 1609.1,
+     "text": "It really depends on how you structured it."
+    },
+    {
+     "t": 1611.3,
+     "text": "So, you know, anywhere at 20 to 40, 30 to 40."
+    },
+    {
+     "t": 1614.2,
+     "text": "By the way, JustWorks was a client."
+    },
+    {
+     "t": 1615.6,
+     "text": "So I'll plug JustWorks."
+    },
+    {
+     "t": 1618.3,
+     "text": "I love the people there."
+    },
+    {
+     "t": 1619.2,
+     "text": "Great company."
+    },
+    {
+     "t": 1620.4,
+     "text": "So,"
+    },
+    {
+     "t": 1622.5,
+     "text": "Yeah you know that's so it really depends on how you structure it so you know if you if you got stuck doing the hourly thing in the beginning which i don't recommend but it you know unfortunately some companies only understand hourly it really depends on how you structure you might not you might not be working that much so if you are lucky enough to get just advisory clients you have a bunch of clients they're on retainer times are good they're able to pay your retainer and they have you on standby"
+    },
+    {
+     "t": 1651.3,
+     "text": "You could be working 10 hours a week."
+    },
+    {
+     "t": 1652.5,
+     "text": "I don't know, right?"
+    },
+    {
+     "t": 1653.2,
+     "text": "It really depends."
+    },
+    {
+     "t": 1656.6,
+     "text": "But these days, you know, people want to have more work done, whatnot."
+    },
+    {
+     "t": 1660.6,
+     "text": "So, you know, you could have a couple tiers for your service."
+    },
+    {
+     "t": 1666.2,
+     "text": "You can have a small tier where you're not really doing stuff."
+    },
+    {
+     "t": 1669.2,
+     "text": "You can have a larger tier."
+    },
+    {
+     "t": 1670.6,
+     "text": "And with the larger tier, you may only want to take one or two clients at a time."
+    },
+    {
+     "t": 1675.2,
+     "text": "So that's another downside is like, you know, in good times, you may have a big pipeline and you'll have to turn away clients."
+    },
+    {
+     "t": 1681.5,
+     "text": "Okay, because you don't want to oversubscribe yourself."
+    },
+    {
+     "t": 1684.6,
+     "text": "A lot of folks will oversubscribe themselves."
+    },
+    {
+     "t": 1687.4,
+     "text": "And that's a that might be okay for you if you're okay with that."
+    },
+    {
+     "t": 1690.0,
+     "text": "But just acknowledge you might burn out."
+    },
+    {
+     "t": 1692.7,
+     "text": "You know, your brain, the context switching between like more than three or four clients is really difficult."
+    },
+    {
+     "t": 1700.2,
+     "text": "Even three or four clients so at one point i was working for another firm and i was you know i had they assigned me to like multiple clients and my brain was mush man mush like i was just on like all these different slacks and getting pinged and yeah you know like or working with the east coast client and i'm getting pinged 9 a.m 6 a.m over here i'm like oh i need to have my coffee please like"
+    },
+    {
+     "t": 1721.1,
+     "text": "So these are some of the intricacies to consider even when times are good, is it good for you?"
+    },
+    {
+     "t": 1727.3,
+     "text": "Is it good for you?"
+    },
+    {
+     "t": 1729.5,
+     "text": "And I think as an entrepreneur, it might be okay to take that risk, to oversubscribe yourself for a little bit, but it's not sustainable over the long term."
+    },
+    {
+     "t": 1739.1,
+     "text": "And so what you want to do is figure out how can I sustain this or design my service model that fits your lifestyle, right?"
+    },
+    {
+     "t": 1747.2,
+     "text": "And your expertise that you've built over time."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1749.3,
+   "end": 1772.6,
+   "lines": [
+    {
+     "t": 1749.3,
+     "text": "So i think that's the key i don't know if that answers your question but i think these are really important things to consider yeah what i'm hearing is that it varies and what i what i'm also picking up on is that 20 to 40 hours is on time this isn't like 20 to 40 hours where you're available but this is like where you're monitoring your slack on the phone with your customers is that would you say that's the case"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1773.8,
+   "end": 1869.2,
+   "lines": [
+    {
+     "t": 1773.8,
+     "text": "Yeah but here's the thing you have to spend time on sales and marketing too okay so that's the trick is sure you may be spending all this time on delivery but then what if the client's like oh i'm gonna cancel yep now you haven't done sales and marketing for a few months"
+    },
+    {
+     "t": 1793.2,
+     "text": "And now you're behind and so you got to get out there and go you know get out there so that's that's the trick is you know you have to do sales and marketing constantly figure out what business model it goes back to the beginning why are you becoming a vc so if this is just an in-between thing then you know my advice is going to be different go to a vc so shop and apply to them and"
+    },
+    {
+     "t": 1818.3,
+     "text": "You know, have them take care of all the business fundamentals."
+    },
+    {
+     "t": 1821.5,
+     "text": "If this is your life calling and you want to do this and you've done the CISO thing several times, you're good and you're not really dying or, you know, not really relying on income or you have a good runway."
+    },
+    {
+     "t": 1833.7,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 1854.9,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1876.6,
+   "end": 1904.7,
+   "lines": [
+    {
+     "t": 1876.6,
+     "text": "Yeah, Ayman."
+    },
+    {
+     "t": 1877.7,
+     "text": "Wow."
+    },
+    {
+     "t": 1878.2,
+     "text": "I got to say this has been awesome."
+    },
+    {
+     "t": 1880.1,
+     "text": "I hope that everyone that has been joining us on this stream has really enjoyed it."
+    },
+    {
+     "t": 1884.7,
+     "text": "For anyone that hasn't already connected with Ayman, be sure to connect with them."
+    },
+    {
+     "t": 1888.7,
+     "text": "You could find him on LinkedIn and also be sure to check out his courses, his Twitter as well, and really everywhere else that Ayman is."
+    },
+    {
+     "t": 1898.2,
+     "text": "So with that, Ayman wanted to thank you again and also say see everyone next time."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1905.6,
+   "end": 1907.0,
+   "lines": [
+    {
+     "t": 1905.6,
+     "text": "All right."
+    },
+    {
+     "t": 1906.0,
+     "text": "Thank you."
+    },
+    {
+     "t": 1906.6,
+     "text": "Take care."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

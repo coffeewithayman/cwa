@@ -1,0 +1,720 @@
+{
+ "slug": "bsides-sf-2025-vlog-interview-with-ayman-elsawah-meeting",
+ "scope": "all",
+ "format": "interview",
+ "turns": [
+  {
+   "start": 1.9,
+   "end": 10.9,
+   "lines": [
+    {
+     "t": 1.9,
+     "text": "Let's go to B-Sides SF."
+    },
+    {
+     "t": 6.4,
+     "text": "B-Sides is a cybersecurity conference and this is my first time attending."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 11.4,
+   "end": 12.6,
+   "lines": [
+    {
+     "t": 11.4,
+     "text": "I'm super excited."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 14.1,
+   "end": 42.3,
+   "lines": [
+    {
+     "t": 14.1,
+     "text": "It's always awesome to be surrounded by security professionals and like-minded people."
+    },
+    {
+     "t": 19.6,
+     "text": "I enjoy these gatherings and events a lot."
+    },
+    {
+     "t": 24.6,
+     "text": "The theme of the conference this year was dragons and the art was absolutely amazing."
+    },
+    {
+     "t": 32.3,
+     "text": "Hi everyone, I'm here at B-Size SF 2025 and I'm super excited because I have the chance to speak with an incredible cybersecurity leader, Ayman."
+    },
+    {
+     "t": 41.3,
+     "text": "Hi Ayman, how's it going?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 42.4,
+   "end": 43.9,
+   "lines": [
+    {
+     "t": 42.4,
+     "text": "Good, how are you?"
+    },
+    {
+     "t": 43.1,
+     "text": "Good, how are you?"
+    },
+    {
+     "t": 43.5,
+     "text": "How are you doing?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 44.2,
+   "end": 49.5,
+   "lines": [
+    {
+     "t": 44.2,
+     "text": "Good, good."
+    },
+    {
+     "t": 45.2,
+     "text": "So what are your impressions of B-Size this year?"
+    },
+    {
+     "t": 48.3,
+     "text": "Anything that stood out to you?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 50.1,
+   "end": 68.1,
+   "lines": [
+    {
+     "t": 50.1,
+     "text": "Well, like every year, I wish I could go to more of the talks, but I didn't get a chance."
+    },
+    {
+     "t": 54.3,
+     "text": "So I actually brought my kids yesterday."
+    },
+    {
+     "t": 56.1,
+     "text": "So I was just kind of showing them around and getting them some swag."
+    },
+    {
+     "t": 61.5,
+     "text": "And today, but you know, it's great."
+    },
+    {
+     "t": 63.5,
+     "text": "I love the theme and a lot of friends are giving talks."
+    },
+    {
+     "t": 66.4,
+     "text": "So I'm looking to catch up on their talks later."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 68.8,
+   "end": 75.7,
+   "lines": [
+    {
+     "t": 68.8,
+     "text": "That's awesome."
+    },
+    {
+     "t": 69.9,
+     "text": "So for first timers at conferences like B-Sides, are there any tips or tricks to make the most out of it?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 76.5,
+   "end": 100.1,
+   "lines": [
+    {
+     "t": 76.5,
+     "text": "You know, it's interesting."
+    },
+    {
+     "t": 78.2,
+     "text": "For the first time, there's so much to take in."
+    },
+    {
+     "t": 81.0,
+     "text": "Conferences like this, there's so much to take in."
+    },
+    {
+     "t": 82.9,
+     "text": "So I think do a little bit of everything is a good approach."
+    },
+    {
+     "t": 85.8,
+     "text": "A little bit of talks."
+    },
+    {
+     "t": 87.0,
+     "text": "A little bit of the villages."
+    },
+    {
+     "t": 88.4,
+     "text": "Talk to some of the vendors."
+    },
+    {
+     "t": 89.3,
+     "text": "See what's out there."
+    },
+    {
+     "t": 90.8,
+     "text": "Meet some random people."
+    },
+    {
+     "t": 91.9,
+     "text": "Talk to random people online, you know, while you're waiting for lunch or whatnot."
+    },
+    {
+     "t": 96.3,
+     "text": "I encourage all that kind of stuff."
+    },
+    {
+     "t": 97.5,
+     "text": "And that way, you'll have a wholesome experience at any conference."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 100.9,
+   "end": 105.8,
+   "lines": [
+    {
+     "t": 100.9,
+     "text": "So, like, network prior to the event online and then meet them at the event?"
+    },
+    {
+     "t": 105.7,
+     "text": "Or..."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 107.1,
+   "end": 138.2,
+   "lines": [
+    {
+     "t": 107.1,
+     "text": "No, mostly like, so say you go to an event."
+    },
+    {
+     "t": 109.3,
+     "text": "Say you don't know anybody there."
+    },
+    {
+     "t": 111.0,
+     "text": "You just go."
+    },
+    {
+     "t": 112.3,
+     "text": "I mean, of course it's nice if you have a friend with you, but that's not always the case."
+    },
+    {
+     "t": 116.1,
+     "text": "And so, attend a talk."
+    },
+    {
+     "t": 118.1,
+     "text": "Great."
+    },
+    {
+     "t": 118.8,
+     "text": "And then, go to the villages."
+    },
+    {
+     "t": 120.9,
+     "text": "There's all different kind of villages."
+    },
+    {
+     "t": 122.5,
+     "text": "Lock picking village, AI village, whatnot."
+    },
+    {
+     "t": 125.7,
+     "text": "And then, while you're in line,"
+    },
+    {
+     "t": 128.0,
+     "text": "Just randomly waiting for say lunch or whatever it is, talk to the person behind you or in front of you."
+    },
+    {
+     "t": 132.9,
+     "text": "Start up a conversation."
+    },
+    {
+     "t": 134.5,
+     "text": "And that kind of like real world networking, you might make a friend from that."
+    },
+    {
+     "t": 137.5,
+     "text": "That's what I'm trying to say."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 138.8,
+   "end": 147.5,
+   "lines": [
+    {
+     "t": 138.8,
+     "text": "Great advice."
+    },
+    {
+     "t": 139.7,
+     "text": "Thank you."
+    },
+    {
+     "t": 140.4,
+     "text": "So another question, as a leader in cybersecurity, what qualities do you look for usually when hiring or building a team?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 148.3,
+   "end": 185.4,
+   "lines": [
+    {
+     "t": 148.3,
+     "text": "That's a good question."
+    },
+    {
+     "t": 149.2,
+     "text": "I'm looking for someone that can, one, bring skills to the table, so brings existing skills to the table, but also has an ability to adapt, sorry, has an ability to adapt."
+    },
+    {
+     "t": 160.4,
+     "text": "So they need to learn a new environment, they need to adapt to what's going on, and not be just siloed in one, like say, their particular position."
+    },
+    {
+     "t": 168.2,
+     "text": "I work with a lot of startups, so I'm coming from that lens, and so I'm looking for someone that could, you know,"
+    },
+    {
+     "t": 174.6,
+     "text": "Not necessarily hitting the ground running is also good, but also someone that can adapt and wear multiple hats and learn quickly."
+    },
+    {
+     "t": 181.9,
+     "text": "I think if you could learn quickly and adapt, you'll be great in any field."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 186.6,
+   "end": 195.9,
+   "lines": [
+    {
+     "t": 186.6,
+     "text": "Awesome, awesome."
+    },
+    {
+     "t": 188.2,
+     "text": "So if someone is starting cybersecurity in 2025, what would you recommend that they would start learning first?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 197.0,
+   "end": 214.7,
+   "lines": [
+    {
+     "t": 197.0,
+     "text": "That's a really good question."
+    },
+    {
+     "t": 200.5,
+     "text": "I think you could, I mean, you just need to have, so generally, if you're going to start from 2025 now, I don't know where they're coming from."
+    },
+    {
+     "t": 208.6,
+     "text": "Are they already employed?"
+    },
+    {
+     "t": 211.1,
+     "text": "Are they students?"
+    },
+    {
+     "t": 212.3,
+     "text": "It's a big question."
+    },
+    {
+     "t": 213.7,
+     "text": "Do you have like an area maybe?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 215.0,
+   "end": 229.8,
+   "lines": [
+    {
+     "t": 215.0,
+     "text": "So if someone is a junior, like either breaking in or one to two years experience in the industry and they want to upskill and everything is changing with AI, so what would be your recommendation?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 230.8,
+   "end": 331.7,
+   "lines": [
+    {
+     "t": 230.8,
+     "text": "Yeah, so try to learn, you know, get a broad sense of the security field."
+    },
+    {
+     "t": 237.2,
+     "text": "So that's always just good."
+    },
+    {
+     "t": 238.8,
+     "text": "Some of the basics."
+    },
+    {
+     "t": 240.1,
+     "text": "Always stay on top of news, okay?"
+    },
+    {
+     "t": 242.2,
+     "text": "Learn how breaches happen because if you're going to, you know, most of the jobs are defenders."
+    },
+    {
+     "t": 247.0,
+     "text": "So if you're going to be a defender, you need to learn how a breach happened."
+    },
+    {
+     "t": 251.5,
+     "text": "You know, also keep your expectations realistic."
+    },
+    {
+     "t": 254.9,
+     "text": "So, you know, a lot of people are really attracted to the pentest part of the field."
+    },
+    {
+     "t": 259.8,
+     "text": "But unless you're doing pentesting already, which I encourage anyone to do, go hop on and do some bug bounty and things like that."
+    },
+    {
+     "t": 265.8,
+     "text": "But a lot of people are attracted to that and I encourage doing that."
+    },
+    {
+     "t": 268.7,
+     "text": "But there's so many areas, so many more areas to the field, as you know, than just pentesting."
+    },
+    {
+     "t": 275.5,
+     "text": "There's, you know, even just from like, say, SOC analyst,"
+    },
+    {
+     "t": 279.0,
+     "text": "Program managers, engineers, architects, building tools, things like that."
+    },
+    {
+     "t": 283.2,
+     "text": "Those are all really good skills."
+    },
+    {
+     "t": 286.5,
+     "text": "And then from there, I think you mentioned AI."
+    },
+    {
+     "t": 289.0,
+     "text": "It's really important to leverage AI to the best of your ability."
+    },
+    {
+     "t": 294.8,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 311.7,
+     "text": "You know don't do it for the money necessarily although the money is attractive but you should like this kind of you should like the job and like i said before there's so many areas to the field so keep trying different things in the field until you find something that you like maybe you're a builder maybe you're a breaker maybe you like both maybe you like social engineering maybe so there's so many different areas"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 332.9,
+   "end": 338.5,
+   "lines": [
+    {
+     "t": 332.9,
+     "text": "Awesome."
+    },
+    {
+     "t": 333.4,
+     "text": "So one last question, Ayman."
+    },
+    {
+     "t": 335.6,
+     "text": "How do you think AI will change cybersecurity?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 339.1,
+   "end": 477.6,
+   "lines": [
+    {
+     "t": 339.1,
+     "text": "Wow, this is an excellent question."
+    },
+    {
+     "t": 340.8,
+     "text": "And it's an important question."
+    },
+    {
+     "t": 343.0,
+     "text": "You have the folks that say it won't affect it."
+    },
+    {
+     "t": 344.8,
+     "text": "You have others that say it's going to totally change it."
+    },
+    {
+     "t": 348.5,
+     "text": "Listen, the reality is AI is here, like I said before."
+    },
+    {
+     "t": 351.6,
+     "text": "And a lot of companies are now adopting AI into their platforms, right?"
+    },
+    {
+     "t": 357.0,
+     "text": "And then new companies are coming up with AI right from the beginning."
+    },
+    {
+     "t": 360.5,
+     "text": "So AI is going to affect everyone, from the analysts all the way to the CISO."
+    },
+    {
+     "t": 364.8,
+     "text": "What I would say for those looking to get into the field, listen, AI, there's a lot of stuff in cybersecurity that's not glamorous, that's a lot of grunt work, that's boring, that's annoying, that stuff's going to get replaced right away."
+    },
+    {
+     "t": 377.1,
+     "text": "I think sooner than later."
+    },
+    {
+     "t": 378.4,
+     "text": "The analyst stuff, the compliance stuff, that's going to at least get augmented."
+    },
+    {
+     "t": 382.9,
+     "text": "Everything is going to begin, the first stage is going to be augmented, right?"
+    },
+    {
+     "t": 385.8,
+     "text": "Not necessarily fully replace teams, but start augmenting or maybe someone, say they have a budget and they have to decide, should they open a headcount for a SOC analyst or should they get a tool to see if it could do 80% of that SOC analyst's job?"
+    },
+    {
+     "t": 402.8,
+     "text": "What is that person going to do?"
+    },
+    {
+     "t": 404.5,
+     "text": "At the end of the day, it's a cost decision."
+    },
+    {
+     "t": 408.2,
+     "text": "Look at RSA last year or two."
+    },
+    {
+     "t": 410.9,
+     "text": "AI is all over the place."
+    },
+    {
+     "t": 412.7,
+     "text": "Whether it's actually being used or not, that's debatable."
+    },
+    {
+     "t": 417.3,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, IAM, OAuth, phishing, ransomware, pentest, OSCP, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, IAM, OAuth, phishing, ransomware, pentest, OSCP, red team, threat modeling,"
+    },
+    {
+     "t": 438.1,
+     "text": "You're still going to need humans because every environment is different and why not but i think for those looking to enter the field it's just more pressure on them to really increase their skills and know what they're talking about in fact i talk to students and they're like kind of like hooked on ai in computer science and they're you know using ai to leverage their classwork"
+    },
+    {
+     "t": 463.4,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 477.9,
+   "end": 482.2,
+   "lines": [
+    {
+     "t": 477.9,
+     "text": "Awesome."
+    },
+    {
+     "t": 478.3,
+     "text": "Great insights and advice."
+    },
+    {
+     "t": 479.5,
+     "text": "Thank you so much, Ayman, for your time."
+    },
+    {
+     "t": 481.5,
+     "text": "It was a pleasure."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 482.5,
+   "end": 484.0,
+   "lines": [
+    {
+     "t": 482.5,
+     "text": "All right."
+    },
+    {
+     "t": 482.8,
+     "text": "Thanks for having me."
+    },
+    {
+     "t": 483.7,
+     "text": "Of course."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 484.4,
+   "end": 544.9,
+   "lines": [
+    {
+     "t": 484.4,
+     "text": "Thank you."
+    },
+    {
+     "t": 485.5,
+     "text": "The conference had a lot of great villages."
+    },
+    {
+     "t": 488.4,
+     "text": "They had a career village where attendees could connect with employers and organizations to receive career advice."
+    },
+    {
+     "t": 494.8,
+     "text": "These conferences are great places to connect and network with folks in the industry."
+    },
+    {
+     "t": 500.4,
+     "text": "I had the chance to meet Jason Haddix."
+    },
+    {
+     "t": 502.9,
+     "text": "I recently took his course The Bug Hunter's Methodology and found it very beneficial."
+    },
+    {
+     "t": 508.3,
+     "text": "I also had the chance to meet Tanya Janka."
+    },
+    {
+     "t": 511.3,
+     "text": "Her book Alice and Bob Learn Application Security is definitely on my reading list."
+    },
+    {
+     "t": 517.4,
+     "text": "And it wouldn't be a security conference without swag."
+    },
+    {
+     "t": 521.0,
+     "text": "I picked up beautiful stickers, the badge design was stunning, and I got a comic book written by Vivek Ramachandran."
+    },
+    {
+     "t": 530.8,
+     "text": "Don't forget to like, subscribe, and share to see the latest content."
+    },
+    {
+     "t": 534.9,
+     "text": "I benefited a lot from the conference."
+    },
+    {
+     "t": 537.2,
+     "text": "I encourage you all to go to conferences, meet people, and network with them."
+    },
+    {
+     "t": 542.5,
+     "text": "Thanks for watching, and see you in the next video."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "W0jmdDJ7jZQ",
+  "title": "Crowdstrike Global IT Outage Explained! (Hint: Not a Cyber Incident!)",
+  "description": "Millions of computers went offline Friday 7/19/24 causing outages in 911 Call Centers, Airports and Traffic Control, Banks and ATMs, and much much more. In this video, I explain how this happened and why this incident had such a major impact.\n\n00:00 Introduction and Welcome\n00:16 Overview of the Global IT Meltdown\n01:32 Details of the CrowdStrike Outage\n02:48 Impact on Windows Machines\n05:28 Recovery Efforts and Challenges\n07:05 Future Implications and Lessons Learned\n10:05 Conclusion and Final Thoughts\n\nMy Personal Website: https://coffeewithayman.com/\nFollow on LinkedIN: https://linkedin.com/in/infosecleader/\nSubscribe to my newsletter: https://www.lastweekasavciso.com/\nX / Twitter: https://x.com/coffeewithayman\nInstagram: https://instagram.com/coffeewithayman",
+  "upload_date": "20240721",
+  "duration": 616,
+  "channel": "Coffee With Ayman - Security Cafe",
+  "uploader": "Coffee With Ayman - Security Cafe",
+  "channel_url": "https://www.youtube.com/channel/UCTRo1yMBKik6Re7D2lm1-3g",
+  "webpage_url": "https://www.youtube.com/watch?v=W0jmdDJ7jZQ",
+  "extractor_key": "Youtube",
+  "thumbnail": "https://i.ytimg.com/vi_webp/W0jmdDJ7jZQ/maxresdefault.webp",
+  "chapters": [
+    {
+      "start_time": 0,
+      "title": "Introduction and Welcome",
+      "end_time": 16
+    },
+    {
+      "start_time": 16,
+      "title": "Overview of the Global IT Meltdown",
+      "end_time": 92
+    },
+    {
+      "start_time": 92,
+      "title": "Details of the CrowdStrike Outage",
+      "end_time": 168
+    },
+    {
+      "start_time": 168,
+      "title": "Impact on Windows Machines",
+      "end_time": 328
+    },
+    {
+      "start_time": 328,
+      "title": "Recovery Efforts and Challenges",
+      "end_time": 425
+    },
+    {
+      "start_time": 425,
+      "title": "Future Implications and Lessons Learned",
+      "end_time": 605
+    },
+    {
+      "start_time": 605,
+      "title": "Conclusion and Final Thoughts",
+      "end_time": 616
+    }
+  ]
+}

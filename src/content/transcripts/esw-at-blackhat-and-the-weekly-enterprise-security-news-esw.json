@@ -1,0 +1,2605 @@
+{
+ "slug": "esw-at-blackhat-and-the-weekly-enterprise-security-news-esw",
+ "scope": "ayman",
+ "format": "cohost",
+ "turns": [
+  {
+   "start": 99.3,
+   "end": 118.5,
+   "lines": [
+    {
+     "t": 99.3,
+     "text": "Welcome to Enterprise Security Weekly."
+    },
+    {
+     "t": 101.3,
+     "text": "This is episode 419, and according to Adrian, happy National Sea Serpent Day."
+    },
+    {
+     "t": 107.0,
+     "text": "I'm your host, Jacqui McGuire, and I am joined by Ayman Elsawah."
+    },
+    {
+     "t": 110.8,
+     "text": "We are at Black Hat 2025, and we thought we would bring you a really special episode of ESW and share what we learned."
+    },
+    {
+     "t": 118.2,
+     "text": "Ayman."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 119.3,
+   "end": 119.8,
+   "lines": [
+    {
+     "t": 119.3,
+     "text": "Hey, Jacqui."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 120.1,
+   "end": 120.5,
+   "lines": [
+    {
+     "t": 120.1,
+     "text": "How are you?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 120.5,
+   "end": 121.4,
+   "lines": [
+    {
+     "t": 120.5,
+     "text": "Good."
+    },
+    {
+     "t": 121.0,
+     "text": "How are you?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 122.3,
+   "end": 128.9,
+   "lines": [
+    {
+     "t": 122.3,
+     "text": "I think I counted that I have done 27 or 28 interviews in the last three days."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 129.2,
+   "end": 129.8,
+   "lines": [
+    {
+     "t": 129.2,
+     "text": "That's wild."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 130.0,
+   "end": 137.8,
+   "lines": [
+    {
+     "t": 130.0,
+     "text": "Yeah."
+    },
+    {
+     "t": 131.3,
+     "text": "I'm great though because they all went well."
+    },
+    {
+     "t": 135.0,
+     "text": "There was a little situation where I cried on camera during"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 138.7,
+   "end": 139.0,
+   "lines": [
+    {
+     "t": 138.7,
+     "text": "No way."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 166.1,
+   "end": 189.1,
+   "lines": [
+    {
+     "t": 166.1,
+     "text": "So I will admit, I only spent a few minutes on the show floor while it was the business hall while it was being built."
+    },
+    {
+     "t": 180.3,
+     "text": "I have attended zero sessions."
+    },
+    {
+     "t": 182.2,
+     "text": "I've done a lot of hallway con."
+    },
+    {
+     "t": 184.5,
+     "text": "I didn't really get to do the full black hat experience this year because I was media."
+    },
+    {
+     "t": 188.8,
+     "text": "Did you?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 190.1,
+   "end": 204.8,
+   "lines": [
+    {
+     "t": 190.1,
+     "text": "No, unfortunately, I did not."
+    },
+    {
+     "t": 193.0,
+     "text": "I mean, I met my goals, so I did a lot of lobby con, hallway con."
+    },
+    {
+     "t": 196.6,
+     "text": "It was beautiful."
+    },
+    {
+     "t": 197.2,
+     "text": "I met a lot of people, even coming in here, wading through the onslaught of the exodus of people and their unfortunate Uber rides."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 205.3,
+   "end": 206.8,
+   "lines": [
+    {
+     "t": 205.3,
+     "text": "Oh, man, I feel bad for those people."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 206.8,
+   "end": 225.0,
+   "lines": [
+    {
+     "t": 206.8,
+     "text": "You should have seen the line of Ubers outside and the people waiting in the lobby with their bags, so..."
+    },
+    {
+     "t": 211.7,
+     "text": "But yeah, I got to see a lot of people, learned a lot of things."
+    },
+    {
+     "t": 214.8,
+     "text": "One of the things I like the most about coming here is hearing the back stories to things."
+    },
+    {
+     "t": 221.3,
+     "text": "You know, the off the record kind of stories."
+    },
+    {
+     "t": 223.9,
+     "text": "So yeah, that was really good."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 287.2,
+   "end": 302.5,
+   "lines": [
+    {
+     "t": 287.2,
+     "text": "The types of kind of descent into authoritarianism that we've seen."
+    },
+    {
+     "t": 291.4,
+     "text": "And I thought that was really interesting just because I think we forget that as a cybersecurity community, we actually have like, well, not only do we, a lot of us have our fingers on the buttons, but we have a big voice."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 303.6,
+   "end": 323.6,
+   "lines": [
+    {
+     "t": 303.6,
+     "text": "We do, but I think we're still fragmented."
+    },
+    {
+     "t": 305.2,
+     "text": "The security community has a whole different kind of background of folks."
+    },
+    {
+     "t": 314.2,
+     "text": "There's those with military backgrounds, not military, those who have come from private industry and public."
+    },
+    {
+     "t": 319.9,
+     "text": "So it's interesting, but it's nice to see some things come together."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 346.9,
+   "end": 371.1,
+   "lines": [
+    {
+     "t": 346.9,
+     "text": "So we have a long way to go, but I feel like we're..."
+    },
+    {
+     "t": 351.4,
+     "text": "We're more aligned than a lot of other industries are."
+    },
+    {
+     "t": 353.9,
+     "text": "So yeah, that was interesting."
+    },
+    {
+     "t": 356.9,
+     "text": "Identity seems to be one of the biggest things that people are talking about here."
+    },
+    {
+     "t": 360.9,
+     "text": "And I think Palo Alto picked up CyberArk last week, a massive valuation."
+    },
+    {
+     "t": 366.8,
+     "text": "So that was, and then we were just talking today, you said Sentinel-1 acquisition?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 371.4,
+   "end": 391.5,
+   "lines": [
+    {
+     "t": 371.4,
+     "text": "Picked up an AI security company."
+    },
+    {
+     "t": 373.1,
+     "text": "So, I mean, all these companies, anything with AI, good AI technology is getting picked up very fast."
+    },
+    {
+     "t": 379.8,
+     "text": "And so this is another AI, it's called Prompt Security."
+    },
+    {
+     "t": 383.5,
+     "text": "I need to take a look at what they do, but they claim to help your security operations."
+    },
+    {
+     "t": 388.4,
+     "text": "Am I a little jaded?"
+    },
+    {
+     "t": 391.0,
+     "text": "Does it come off?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 409.8,
+   "end": 434.7,
+   "lines": [
+    {
+     "t": 409.8,
+     "text": "And we're in this wave of really consolidation anyway, in that"
+    },
+    {
+     "t": 415.3,
+     "text": "We are seeing a lot of companies opt to be acquired instead of being you know I think if you're a sentinel one or a crowd strike or one of those companies you know if you're looking at build versus buy and you feel like you may be a little bit behind your competitors the only option you really have is to buy yeah and"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 436.5,
+   "end": 439.6,
+   "lines": [
+    {
+     "t": 436.5,
+     "text": "And listen to the hallway conversation."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 455.0,
+   "end": 480.0,
+   "lines": [
+    {
+     "t": 455.0,
+     "text": "And I hate to say that, but I talked to..."
+    },
+    {
+     "t": 458.1,
+     "text": "I talked to two of the different partners from Ballistic Ventures this week, Jake and Barmak, and they both were kind of saying the same thing."
+    },
+    {
+     "t": 464.4,
+     "text": "We're in this wave of consolidation, and that makes sense because all these different really unique security problems popped up."
+    },
+    {
+     "t": 470.4,
+     "text": "All these little vendors popped up to solve them, and now they're getting gobbled up."
+    },
+    {
+     "t": 474.5,
+     "text": "AI security is the same thing, but the weird thing in AI security is that it means 100 different things to 100 different people."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 480.4,
+   "end": 528.5,
+   "lines": [
+    {
+     "t": 480.4,
+     "text": "You know, I'm still, I'm kind of skeptical on AI security because there's a lot of things you can do on your own."
+    },
+    {
+     "t": 486.9,
+     "text": "And so things are just moving really quickly."
+    },
+    {
+     "t": 489.5,
+     "text": "I'm half skeptical."
+    },
+    {
+     "t": 490.4,
+     "text": "So basically until I see an existing tool being replaced by that AI company, then, like I talked to a few young folks at this really budding startup and I was talking to them and I'm like, hey, what about, you know, do you displace like Tynes, for example?"
+    },
+    {
+     "t": 508.2,
+     "text": "And they're like, yeah, actually we replaced Tynes in this one customer."
+    },
+    {
+     "t": 513.1,
+     "text": "I won't name the actual company, but like when they said that, I'm like, oh."
+    },
+    {
+     "t": 517.9,
+     "text": "Okay, now I'm listening."
+    },
+    {
+     "t": 520.2,
+     "text": "Now I'm interested because..."
+    },
+    {
+     "t": 524.9,
+     "text": "Listen, when you walk through the floor, how do you feel when you walk through the floor?"
+    },
+    {
+     "t": 527.9,
+     "text": "Let's be honest."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 565.4,
+   "end": 586.0,
+   "lines": [
+    {
+     "t": 565.4,
+     "text": "And so I've been really focused on asking people, you know, where are you actually seeing people make money?"
+    },
+    {
+     "t": 570.2,
+     "text": "Where are you actually seeing people add, you know, enterprise value, add revenue?"
+    },
+    {
+     "t": 574.2,
+     "text": "Because it seems like more an experiment in"
+    },
+    {
+     "t": 578.7,
+     "text": "I think there's so much of this like high level executives worried they're going to get outrun without really understanding what it takes to compete there."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 606.2,
+   "end": 625.0,
+   "lines": [
+    {
+     "t": 606.2,
+     "text": "You know, it's interesting."
+    },
+    {
+     "t": 606.9,
+     "text": "Someone said the other day, and this has kind of hit me hard, like all these conferences are now becoming AI conferences."
+    },
+    {
+     "t": 613.2,
+     "text": "Yeah."
+    },
+    {
+     "t": 614.5,
+     "text": "So it's kind of sad."
+    },
+    {
+     "t": 615.2,
+     "text": "Like, you know, even, I mean, any tech conference is not going to be an AI conference."
+    },
+    {
+     "t": 619.0,
+     "text": "And cybersecurity, like, can't get anywhere without AI."
+    },
+    {
+     "t": 621.5,
+     "text": "So I don't know."
+    },
+    {
+     "t": 623.5,
+     "text": "It's interesting."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 625.3,
+   "end": 652.8,
+   "lines": [
+    {
+     "t": 625.3,
+     "text": "Well, and I think one of two things will happen, right?"
+    },
+    {
+     "t": 627.6,
+     "text": "Either we'll go through this boom and bust, and we won't be able to deliver capacity, and AI will just spectacularly flame out, or it becomes..."
+    },
+    {
+     "t": 636.6,
+     "text": "The new, and somebody was saying like, MCP, like model context protocol is going to be the new HTTP."
+    },
+    {
+     "t": 642.5,
+     "text": "Like that's just, you know, it'll just become part of the stack."
+    },
+    {
+     "t": 645.7,
+     "text": "You know, I remember when wireless internet came out, right?"
+    },
+    {
+     "t": 648.7,
+     "text": "Like there's all these things that have just fundamentally transformed technology."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 652.8,
+   "end": 653.4,
+   "lines": [
+    {
+     "t": 652.8,
+     "text": "We are, yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 697.2,
+   "end": 707.9,
+   "lines": [
+    {
+     "t": 697.2,
+     "text": "I think where we're going with AI agents is like this thought that they can do these probabilistic things where, you know, if I think it's 98% likelihood, this is a DDoS attack, I can shut this down or like."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 708.3,
+   "end": 723.6,
+   "lines": [
+    {
+     "t": 708.3,
+     "text": "Yeah, that's still like, that's the, that's, that's going to be the hard part is like, we're, all this stuff is still probabilistic."
+    },
+    {
+     "t": 715.4,
+     "text": "And, when you're talking about production and when you're talking about like, you know, like can't be deleting databases and, and, you know, so,"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 724.0,
+   "end": 750.2,
+   "lines": [
+    {
+     "t": 724.0,
+     "text": "I think Adrian was talking last week about the chat GPT told or you were saying was that you were saying somebody told you just the your AI told you just drop a SQL database it was either you or Adrian we're talking about vibe coding yeah it was like oh yeah just go ahead and drop that table I was like no we probably don't want to do that actually right yeah and there's been instances where like you know production co vibe coding tools have done that but"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 750.7,
+   "end": 760.9,
+   "lines": [
+    {
+     "t": 750.7,
+     "text": "So the future is interesting, you know, how it's going to look like in the future when you ask AI to triage something."
+    },
+    {
+     "t": 759.0,
+     "text": "Yeah, it's..."
+    },
+    {
+     "t": 760.4,
+     "text": "I'm drawing a blank."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 761.1,
+   "end": 770.8,
+   "lines": [
+    {
+     "t": 761.1,
+     "text": "Yeah, I mean, we're full disillusionment and out of gas last day at Black Hat."
+    },
+    {
+     "t": 765.8,
+     "text": "So what are the non-AI things that you picked up this week that were interesting?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 771.7,
+   "end": 787.2,
+   "lines": [
+    {
+     "t": 771.7,
+     "text": "Oh man, the non-AI stuff."
+    },
+    {
+     "t": 773.6,
+     "text": "I had a whole list of stuff."
+    },
+    {
+     "t": 774.8,
+     "text": "Let's see."
+    },
+    {
+     "t": 775.9,
+     "text": "Again, just listening to different incidents, different CISOs and how they run their tabletops."
+    },
+    {
+     "t": 783.0,
+     "text": "So listen to a lot of good war stories from that perspective."
+    },
+    {
+     "t": 785.9,
+     "text": "Yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 787.8,
+   "end": 802.3,
+   "lines": [
+    {
+     "t": 787.8,
+     "text": "I had a, I think it was H.D."
+    },
+    {
+     "t": 790.6,
+     "text": "Moron from Run Zero and was kind of talking about runtime security and that was pretty interesting."
+    },
+    {
+     "t": 795.3,
+     "text": "And, you know, I think, unfortunately, almost all of our conversations end up dead ending into AI, right?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 802.3,
+   "end": 803.6,
+   "lines": [
+    {
+     "t": 802.3,
+     "text": "They do, they do."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 831.4,
+   "end": 859.7,
+   "lines": [
+    {
+     "t": 831.4,
+     "text": "The number of commits went way up, the number of pull requests went way down."
+    },
+    {
+     "t": 835.9,
+     "text": "And so they're making significantly fewer, they're merging significantly fewer, but they're merging these massive commits."
+    },
+    {
+     "t": 842.3,
+     "text": "And so it's resulting in more vulnerabilities, more, because vibe coding is great, but if you can write 10,000 lines of code in a couple days, when it used to take you weeks to do that,"
+    },
+    {
+     "t": 854.4,
+     "text": "The person who's merging that also has to review all of those lines of code."
+    },
+    {
+     "t": 858.2,
+     "text": "So until we can vibe merge."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 860.0,
+   "end": 905.5,
+   "lines": [
+    {
+     "t": 860.0,
+     "text": "Well, there is vibe review."
+    },
+    {
+     "t": 862.4,
+     "text": "So people are building vibe review agents."
+    },
+    {
+     "t": 866.2,
+     "text": "At the end, no, they're just having an agent."
+    },
+    {
+     "t": 868.7,
+     "text": "They're creating an AI agent."
+    },
+    {
+     "t": 869.8,
+     "text": "Because that's the thing about beauty about sub-agents now, which people have been doing even before cloud code introduced it."
+    },
+    {
+     "t": 876.0,
+     "text": "So i think the way to do vibe coding right is to have this good orchestration just like you would in any company and so you have a ui ux agent specific for that or a typescript agent or a react agent and then a back-end engineer and then a front-end engineer and all this kind of stuff"
+    },
+    {
+     "t": 894.0,
+     "text": "And then their orchestra, but again, it's still kind of like a bubble."
+    },
+    {
+     "t": 898.0,
+     "text": "Like you're just like, go and do this."
+    },
+    {
+     "t": 899.8,
+     "text": "And, but people are claiming it."
+    },
+    {
+     "t": 902.5,
+     "text": "I mean, listen, GPT-5 just came out yesterday, right?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 905.5,
+   "end": 911.1,
+   "lines": [
+    {
+     "t": 905.5,
+     "text": "This morning was the announcement."
+    },
+    {
+     "t": 907.0,
+     "text": "And I literally have not had a chance to look at it because I've been sitting here for hours."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 911.1,
+   "end": 918.4,
+   "lines": [
+    {
+     "t": 911.1,
+     "text": "But it seems to be very technical."
+    },
+    {
+     "t": 913.1,
+     "text": "People say it's very technical."
+    },
+    {
+     "t": 914.2,
+     "text": "It's very good performance."
+    },
+    {
+     "t": 916.0,
+     "text": "Opus 4.1 came out too."
+    },
+    {
+     "t": 917.4,
+     "text": "And that's interesting."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 920.1,
+   "end": 932.6,
+   "lines": [
+    {
+     "t": 920.1,
+     "text": "But at the end of the day, and one of the conversations I had today was at the end of the day, it's all Python, APIs, MCP, and it's just the way you secure it is really the way you secure any other infrastructure."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 932.7,
+   "end": 940.8,
+   "lines": [
+    {
+     "t": 932.7,
+     "text": "Exactly."
+    },
+    {
+     "t": 933.5,
+     "text": "Exactly."
+    },
+    {
+     "t": 933.9,
+     "text": "It's still code."
+    },
+    {
+     "t": 934.6,
+     "text": "Like again, it's like a junior engineer producing, you know, the code that a junior engineer, even senior engineers produce."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 941.4,
+   "end": 960.5,
+   "lines": [
+    {
+     "t": 941.4,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 956.2,
+     "text": "Maybe it's more like that burnout or, you know, just like overlooking like carelessness."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 960.5,
+   "end": 962.0,
+   "lines": [
+    {
+     "t": 960.5,
+     "text": "They just want to ship."
+    },
+    {
+     "t": 961.4,
+     "text": "Yeah."
+    },
+    {
+     "t": 961.7,
+     "text": "Yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 971.7,
+   "end": 1000.2,
+   "lines": [
+    {
+     "t": 971.7,
+     "text": "And there are certainly the companies that are like,"
+    },
+    {
+     "t": 974.3,
+     "text": "It's going to release the day that we have it set to release."
+    },
+    {
+     "t": 977.5,
+     "text": "And there are companies that are like, we would rather ship it correctly than ship it early."
+    },
+    {
+     "t": 982.1,
+     "text": "And so I'm hoping that because the potential for fallout, because of how quickly these things can take action is larger, we'll get to a place where it's like the ship it correctly, don't ship it on time."
+    },
+    {
+     "t": 995.2,
+     "text": "Because I've been at organizations that being on time was more important than being secure."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1000.5,
+   "end": 1018.0,
+   "lines": [
+    {
+     "t": 1000.5,
+     "text": "Yeah, yeah, I think some, there was a company that shipped something quickly and just like anything, but because it was AI, but a whole bunch of records were made public, you know?"
+    },
+    {
+     "t": 1011.7,
+     "text": "But, you know, I want to ask you, what do you think about the workforce?"
+    },
+    {
+     "t": 1014.4,
+     "text": "Have you heard any discussions?"
+    },
+    {
+     "t": 1015.7,
+     "text": "Have you had any like workforce discussions?"
+    },
+    {
+     "t": 1017.7,
+     "text": "Yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1033.6,
+   "end": 1060.4,
+   "lines": [
+    {
+     "t": 1033.6,
+     "text": "And I was like, just give me the pulse of this, right?"
+    },
+    {
+     "t": 1036.4,
+     "text": "So it says like sentiment and things like that."
+    },
+    {
+     "t": 1038.8,
+     "text": "Number one complaint was workforce."
+    },
+    {
+     "t": 1040.8,
+     "text": "Number two was I'm sick of doing security that's just check the box compliance, which was interesting, but yeah."
+    },
+    {
+     "t": 1045.9,
+     "text": "So I think there's, there's this recurring theme that we have a talent gap that like people are coming out of school or, you know, bootcamp or whatever it is."
+    },
+    {
+     "t": 1055.7,
+     "text": "And entry-level positions are still wanting five to 10 years of experience, which is insane, right?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1060.4,
+   "end": 1062.1,
+   "lines": [
+    {
+     "t": 1060.4,
+     "text": "Cause that's not entry level."
+    },
+    {
+     "t": 1061.5,
+     "text": "Yeah, that's crazy."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1062.2,
+   "end": 1077.4,
+   "lines": [
+    {
+     "t": 1062.2,
+     "text": "And so it's not as much, I'm hearing the job market's tough, but also one of the crazy things that I've heard is I have friends who are security engineers who are being moved into development roles in AI stacks."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1078.2,
+   "end": 1078.7,
+   "lines": [
+    {
+     "t": 1078.2,
+     "text": "Oh, interesting."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1100.8,
+   "end": 1126.0,
+   "lines": [
+    {
+     "t": 1100.8,
+     "text": "That's one of the things I think is really interesting is I actually thought it would go more the other way, that we would see people moving from security into AI, but we're seeing people moving from security into development."
+    },
+    {
+     "t": 1114.1,
+     "text": "And I've actually heard that from two or three different people, that they're now being asked to oversee more development to make sure that development's happening securely."
+    },
+    {
+     "t": 1124.2,
+     "text": "What about you?"
+    },
+    {
+     "t": 1124.5,
+     "text": "What are you hearing workforce-wise?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1126.3,
+   "end": 1224.1,
+   "lines": [
+    {
+     "t": 1126.3,
+     "text": "Well, I attended a really interesting talk at the Punk Rock Museum of all places on Monday."
+    },
+    {
+     "t": 1131.8,
+     "text": "That's awesome."
+    },
+    {
+     "t": 1132.7,
+     "text": "There was a couple of talks, a bunch of panels actually, and there was two that were really interesting."
+    },
+    {
+     "t": 1136.8,
+     "text": "One had Ken Huang on there who, in collaboration with OWASP, created something called the AIVSS."
+    },
+    {
+     "t": 1144.3,
+     "text": "Same as the CVSS scoring system."
+    },
+    {
+     "t": 1147.5,
+     "text": "So an AI vulnerability scoring system."
+    },
+    {
+     "t": 1150.1,
+     "text": "And it's very interesting."
+    },
+    {
+     "t": 1151.1,
+     "text": "So there's like the 10 different metrics that they came up with on how to score an AI model security or AI system security."
+    },
+    {
+     "t": 1161.0,
+     "text": "So that was really cool."
+    },
+    {
+     "t": 1161.9,
+     "text": "I want to start implementing that soon with like, you know, my environments and my clients."
+    },
+    {
+     "t": 1168.8,
+     "text": "And then the other talk was interesting."
+    },
+    {
+     "t": 1170.4,
+     "text": "I had Daniel Meisler, who is a well-known AI, has a big newsletter and everything like that."
+    },
+    {
+     "t": 1179.8,
+     "text": "And then Doug Wilson from Anthropic and a few others."
+    },
+    {
+     "t": 1183.5,
+     "text": "And we were talking about the future of, you know, what are security teams going to look like in the future?"
+    },
+    {
+     "t": 1190.9,
+     "text": "And then previously there were a couple of CISOs from other places too."
+    },
+    {
+     "t": 1193.5,
+     "text": "So there was just a jumbo, the whole bunch of discussions, some optimistic, some pessimistic."
+    },
+    {
+     "t": 1199.2,
+     "text": "It was really interesting."
+    },
+    {
+     "t": 1201.6,
+     "text": "I think what's interesting is we as humans bring or incorporating into AI like our own like values and stuff like that."
+    },
+    {
+     "t": 1209.8,
+     "text": "You know, so just like..."
+    },
+    {
+     "t": 1213.1,
+     "text": "How in software previously whoever coded the software is gonna like have their own biases in the software but the same thing with ai like you know how their future outlook anyway"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1360.3,
+   "end": 1380.1,
+   "lines": [
+    {
+     "t": 1360.3,
+     "text": "But is that the first thing that most AI developers are going to think of if they've never gone to bed hungry?"
+    },
+    {
+     "t": 1365.9,
+     "text": "Maybe not."
+    },
+    {
+     "t": 1367.2,
+     "text": "And so like that, that's to me why representation matters in technology is because to your point, we can't just hard code our view of the world into these things because we need these things to work for everybody."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1380.6,
+   "end": 1410.2,
+   "lines": [
+    {
+     "t": 1380.6,
+     "text": "Mm-hmm, yeah, yeah."
+    },
+    {
+     "t": 1383.5,
+     "text": "Even same thing with emotions."
+    },
+    {
+     "t": 1385.2,
+     "text": "The same example you just mentioned applies to emotions."
+    },
+    {
+     "t": 1388.5,
+     "text": "So in the book, How Emotions Are Made, which is a fabulous book, highly recommend it, the author talks about how, you know, we consider happiness either smiling and whatever, but like in other parts of the world,"
+    },
+    {
+     "t": 1402.6,
+     "text": "There's different micro expressions that may not translate the same way because of, you know, maybe stoic societies or whatever it may be."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1410.2,
+   "end": 1420.4,
+   "lines": [
+    {
+     "t": 1410.2,
+     "text": "Yeah, I've heard about that, how they think that Americans are crazy because they're always have these huge smiles on their faces."
+    },
+    {
+     "t": 1416.8,
+     "text": "There are other countries that find it really creepy how big Americans smile."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1420.4,
+   "end": 1421.2,
+   "lines": [
+    {
+     "t": 1420.4,
+     "text": "Oh, wow."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1421.2,
+   "end": 1427.3,
+   "lines": [
+    {
+     "t": 1421.2,
+     "text": "Because we're always like..."
+    },
+    {
+     "t": 1423.0,
+     "text": "You know, and like, I've heard that before that in like Eastern Europe, they find it really creepy."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1427.6,
+   "end": 1431.7,
+   "lines": [
+    {
+     "t": 1427.6,
+     "text": "Right."
+    },
+    {
+     "t": 1427.8,
+     "text": "So conversely, we think they're always mad, right?"
+    },
+    {
+     "t": 1431.0,
+     "text": "Or whatever may be."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1431.7,
+   "end": 1434.5,
+   "lines": [
+    {
+     "t": 1431.7,
+     "text": "Eastern Europeans are like the coldest humans that exist."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1434.5,
+   "end": 1443.4,
+   "lines": [
+    {
+     "t": 1434.5,
+     "text": "For example, you know, so that's, you know, that's a perception that's based on our, you know, our biases, for example."
+    },
+    {
+     "t": 1442.7,
+     "text": "So anyway."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1443.7,
+   "end": 1448.2,
+   "lines": [
+    {
+     "t": 1443.7,
+     "text": "So how do you avoid baking that into AI when you're building it?"
+    },
+    {
+     "t": 1446.6,
+     "text": "Like, what's the answer there, do you think?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1448.6,
+   "end": 1449.0,
+   "lines": [
+    {
+     "t": 1448.6,
+     "text": "I don't know."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1449.6,
+   "end": 1453.2,
+   "lines": [
+    {
+     "t": 1449.6,
+     "text": "Does it have AI build AI and make sure that AI has checked its own AI?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1453.3,
+   "end": 1477.8,
+   "lines": [
+    {
+     "t": 1453.3,
+     "text": "I think it's up to you and like as a consumer, like just, you know, maybe read the label, right?"
+    },
+    {
+     "t": 1457.6,
+     "text": "Where this is like made, you know, because if you ask a, you know, an American made AI question about something, and then you ask maybe a Chinese AI something, another question, you'll get different answers."
+    },
+    {
+     "t": 1470.7,
+     "text": "Why is that?"
+    },
+    {
+     "t": 1471.8,
+     "text": "Well, so Alexa, you asked Alexa certain answers."
+    },
+    {
+     "t": 1474.1,
+     "text": "It won't answer."
+    },
+    {
+     "t": 1476.3,
+     "text": "So, I mean, it's true."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1537.9,
+   "end": 1566.6,
+   "lines": [
+    {
+     "t": 1537.9,
+     "text": "And like, yes, there are those nuances in Chinese culture, but I think that because their culture itself, their language and their internet are all highly structured, they are so much more efficient to train because there aren't, they, yeah."
+    },
+    {
+     "t": 1553.6,
+     "text": "So I think like from a cultural standpoint, when Deep Sea came out, people didn't believe it because they were trying to look at it through Western eyes."
+    },
+    {
+     "t": 1560.8,
+     "text": "And I'm like, oh no, that makes total sense to me."
+    },
+    {
+     "t": 1563.3,
+     "text": "Like their training data couldn't be cleaner because they censor everything on their internet."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1567.2,
+   "end": 1576.5,
+   "lines": [
+    {
+     "t": 1567.2,
+     "text": "Yeah, and then another thing, like, you know, another way probably people are going to try to do is just jailbreak these models, right?"
+    },
+    {
+     "t": 1573.7,
+     "text": "Because a lot of the guardrails are in the system prompts."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1576.8,
+   "end": 1577.0,
+   "lines": [
+    {
+     "t": 1576.8,
+     "text": "Yeah."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1577.3,
+   "end": 1585.0,
+   "lines": [
+    {
+     "t": 1577.3,
+     "text": "So that could be another thing, you know, where people, you know, selling underground versions of different models or whatever in the future."
+    },
+    {
+     "t": 1584.8,
+     "text": "I mean..."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1608.7,
+   "end": 1638.7,
+   "lines": [
+    {
+     "t": 1608.7,
+     "text": "Identifying and biographic and preference information at the edge and just have google push me the algorithm then i can maintain my privacy they can still and that seemed like such a better way so if we can go to where i have my own model and my own mcp and you know it's interacting in a way that is maintains my privacy not training some other model i think that's fantastic that's interesting yeah i think daniel misler made his own mcp for all his all his work"
+    },
+    {
+     "t": 1638.3,
+     "text": "That's awesome."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1638.7,
+   "end": 1639.4,
+   "lines": [
+    {
+     "t": 1638.7,
+     "text": "That's pretty cool."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1639.6,
+   "end": 1648.5,
+   "lines": [
+    {
+     "t": 1639.6,
+     "text": "I built my own gems."
+    },
+    {
+     "t": 1641.0,
+     "text": "So I have a gem for me as a research analyst."
+    },
+    {
+     "t": 1645.2,
+     "text": "So I fed it with my predictions for 2024 and 2025."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1648.6,
+   "end": 1650.1,
+   "lines": [
+    {
+     "t": 1648.6,
+     "text": "A Ruby gem, I assume, right?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1650.4,
+   "end": 1651.5,
+   "lines": [
+    {
+     "t": 1650.4,
+     "text": "Gemini, Google gem."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1651.9,
+   "end": 1653.1,
+   "lines": [
+    {
+     "t": 1651.9,
+     "text": "Oh, a Google gem."
+    },
+    {
+     "t": 1652.7,
+     "text": "OK, sorry."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1840.7,
+   "end": 1866.4,
+   "lines": [
+    {
+     "t": 1840.7,
+     "text": "It's just a computer."
+    },
+    {
+     "t": 1842.1,
+     "text": "So I'm trying to get more comfortable with it."
+    },
+    {
+     "t": 1844.6,
+     "text": "And I feel like it's like..."
+    },
+    {
+     "t": 1846.2,
+     "text": "Young gen x old millennials like it's it's a big stretch for us because we've been raised with like polar opposite things it's the same thing like don't be don't be attention seeking don't be an influencer right so i think our conception of what original work is different and things like that so i'm trying to get better at this myself because i feel like i don't want to be left behind"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1866.7,
+   "end": 1898.0,
+   "lines": [
+    {
+     "t": 1866.7,
+     "text": "But that's okay."
+    },
+    {
+     "t": 1867.3,
+     "text": "Yeah, I mean, yeah, that's fair."
+    },
+    {
+     "t": 1868.7,
+     "text": "But there is like a line, you know, like, for example, you know, someone was bringing up the notion that like, CEOs were sending emails to employees and using chat GPT and people could see right through it."
+    },
+    {
+     "t": 1882.1,
+     "text": "Or like I don't know if you ever had someone personally like maybe you have a difficult conversation with someone and they text you this like oh yeah this comment like this is chat GPT I'm like and you just feel like disrespected it's like can you just like type something I mean like it's okay"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1907.8,
+   "end": 1937.4,
+   "lines": [
+    {
+     "t": 1907.8,
+     "text": "Well, I can always tell, I get it from customers too, right?"
+    },
+    {
+     "t": 1910.0,
+     "text": "Because we work with vendors, and they'll send us what we're supposed to talk about in an interview."
+    },
+    {
+     "t": 1914.0,
+     "text": "And as soon as it starts with, in a rapidly evolving threat landscape, I'm like, that's GPT."
+    },
+    {
+     "t": 1919.2,
+     "text": "Chat GPT only calls it a rapidly evolving threat landscape."
+    },
+    {
+     "t": 1922.6,
+     "text": "And I don't know why, but that's how it refers to it."
+    },
+    {
+     "t": 1925.2,
+     "text": "But yeah, there's all, one of my favorite ways people are showing their ass on LinkedIn right now is there's something broken in the way people are using AI to post."
+    },
+    {
+     "t": 1934.4,
+     "text": "So instead of my name, it'll say poster name in brackets."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1937.7,
+   "end": 1938.1,
+   "lines": [
+    {
+     "t": 1937.7,
+     "text": "Oh, really?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1938.1,
+   "end": 1948.6,
+   "lines": [
+    {
+     "t": 1938.1,
+     "text": "Like it was a variable that was supposed to get filled in by the AI tool."
+    },
+    {
+     "t": 1941.8,
+     "text": "That's hilarious."
+    },
+    {
+     "t": 1942.4,
+     "text": "I had somebody comment on one of my posts the other day and they were like, that's fascinating, poster name."
+    },
+    {
+     "t": 1947.1,
+     "text": "And there's just some BS."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1948.9,
+   "end": 1950.0,
+   "lines": [
+    {
+     "t": 1948.9,
+     "text": "Oh my God."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1967.6,
+   "end": 1996.3,
+   "lines": [
+    {
+     "t": 1967.6,
+     "text": "And it could not be more painful that when you see the two short paragraphs, a list of emoji bullet points, and then like, here's what I learned about MCP for getting divorced a third time."
+    },
+    {
+     "t": 1980.3,
+     "text": "The em dash, which is really annoying to people who are really into grammar."
+    },
+    {
+     "t": 1984.5,
+     "text": "But yeah, so two months ago, they posted something."
+    },
+    {
+     "t": 1989.0,
+     "text": "They tagged me in it and referenced an article I wrote, but completely mischaracterized what I had written in the article."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1996.5,
+   "end": 1996.9,
+   "lines": [
+    {
+     "t": 1996.5,
+     "text": "Oh, no."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1997.1,
+   "end": 2007.4,
+   "lines": [
+    {
+     "t": 1997.1,
+     "text": "And I was furious."
+    },
+    {
+     "t": 1999.1,
+     "text": "I'm like, if you're going to quote me and reference work I've done in AI, you better make damn sure that's, I was like, I was actually pretty upset about it."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2007.5,
+   "end": 2009.1,
+   "lines": [
+    {
+     "t": 2007.5,
+     "text": "Did you reach out or like?"
+    },
+    {
+     "t": 2008.6,
+     "text": "I did."
+    },
+    {
+     "t": 2008.9,
+     "text": "Yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2009.2,
+   "end": 2020.2,
+   "lines": [
+    {
+     "t": 2009.2,
+     "text": "I removed the tag from the post."
+    },
+    {
+     "t": 2010.9,
+     "text": "So you can do that."
+    },
+    {
+     "t": 2011.7,
+     "text": "I removed the tagging myself and I reached out and was like, Hey, just so you know, like you could, obviously I didn't read my article."
+    },
+    {
+     "t": 2017.7,
+     "text": "I was like, you should read the article."
+    },
+    {
+     "t": 2019.0,
+     "text": "Cause that's not what I said at all."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2020.4,
+   "end": 2021.1,
+   "lines": [
+    {
+     "t": 2020.4,
+     "text": "Did it get corrected?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2079.4,
+   "end": 2101.8,
+   "lines": [
+    {
+     "t": 2079.4,
+     "text": "So you this tells me you don't value my time because you think that my time is worth less because it took you a tenth of the time to write this article that it's going to take me to read it which is usually the polar opposite right yeah let's just be respectful of people and their time and their feelings and whether they need an actual human interaction we're going to have to relearn communication like"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2102.4,
+   "end": 2110.5,
+   "lines": [
+    {
+     "t": 2102.4,
+     "text": "Really, like, that's going to be a missing skill, just like driving stick shift in the future, like, or like now."
+    },
+    {
+     "t": 2109.4,
+     "text": "Just learning how to communicate."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2110.6,
+   "end": 2116.8,
+   "lines": [
+    {
+     "t": 2110.6,
+     "text": "It annoys me you can't even buy one anymore."
+    },
+    {
+     "t": 2113.7,
+     "text": "It's like, I always drove manuals, but in a lot of vehicles, it's not even enough."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2116.8,
+   "end": 2117.5,
+   "lines": [
+    {
+     "t": 2116.8,
+     "text": "I still have a manual."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2117.7,
+   "end": 2118.9,
+   "lines": [
+    {
+     "t": 2117.7,
+     "text": "Yeah, do you?"
+    },
+    {
+     "t": 2118.4,
+     "text": "Oh, yeah."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2118.9,
+   "end": 2121.9,
+   "lines": [
+    {
+     "t": 2118.9,
+     "text": "What do you drive?"
+    },
+    {
+     "t": 2120.3,
+     "text": "Right now, it's a mini convertible."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2122.4,
+   "end": 2126.4,
+   "lines": [
+    {
+     "t": 2122.4,
+     "text": "Oh, that's awesome."
+    },
+    {
+     "t": 2123.6,
+     "text": "I always think of the Italian job when I see those."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2126.4,
+   "end": 2137.2,
+   "lines": [
+    {
+     "t": 2126.4,
+     "text": "I was targeting a BMW because I wanted real-world drive."
+    },
+    {
+     "t": 2129.4,
+     "text": "So the three things I wanted was real-world drive, manual, and a convertible."
+    },
+    {
+     "t": 2133.6,
+     "text": "No, it's not a midlife crisis."
+    },
+    {
+     "t": 2134.8,
+     "text": "It's just the next version."
+    },
+    {
+     "t": 2136.0,
+     "text": "My last one was a GTI."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2137.5,
+   "end": 2147.7,
+   "lines": [
+    {
+     "t": 2137.5,
+     "text": "Yeah."
+    },
+    {
+     "t": 2138.2,
+     "text": "No, I had a little manual Pontiac Solstice for a while."
+    },
+    {
+     "t": 2141.5,
+     "text": "Those little like two-seater roadster convertibles they made."
+    },
+    {
+     "t": 2144.0,
+     "text": "And that thing was so much fun to rip up and down 280 and- Oh, really?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2147.7,
+   "end": 2150.4,
+   "lines": [
+    {
+     "t": 2147.7,
+     "text": "Yeah."
+    },
+    {
+     "t": 2147.9,
+     "text": "The Solstice?"
+    },
+    {
+     "t": 2148.6,
+     "text": "Oh, yeah."
+    },
+    {
+     "t": 2149.0,
+     "text": "Oh, wow."
+    },
+    {
+     "t": 2149.6,
+     "text": "Yeah."
+    },
+    {
+     "t": 2149.8,
+     "text": "Okay."
+    },
+    {
+     "t": 2150.2,
+     "text": "Okay."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2150.6,
+   "end": 2174.4,
+   "lines": [
+    {
+     "t": 2150.6,
+     "text": "I know."
+    },
+    {
+     "t": 2150.9,
+     "text": "This is like 2009."
+    },
+    {
+     "t": 2151.6,
+     "text": "Yeah, yeah, yeah."
+    },
+    {
+     "t": 2152.5,
+     "text": "The same thing."
+    },
+    {
+     "t": 2153.0,
+     "text": "I had just moved to California and I was like, I want a convertible."
+    },
+    {
+     "t": 2155.9,
+     "text": "Nice, nice."
+    },
+    {
+     "t": 2156.4,
+     "text": "It was awesome."
+    },
+    {
+     "t": 2157.6,
+     "text": "So I guess we're going to wrap up."
+    },
+    {
+     "t": 2159.8,
+     "text": "Yeah."
+    },
+    {
+     "t": 2160.8,
+     "text": "What are the main things you're taking back with you from Black Hat, other than maybe a cold and some t-shirts?"
+    },
+    {
+     "t": 2167.2,
+     "text": "Well, with Black Hat, I mean... What could we be doing to support the workforce issues that you've been hearing about?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2174.8,
+   "end": 2179.9,
+   "lines": [
+    {
+     "t": 2174.8,
+     "text": "Yeah, you know, that's a really good question."
+    },
+    {
+     "t": 2177.4,
+     "text": "And are you going to Defcon at all?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2179.9,
+   "end": 2181.8,
+   "lines": [
+    {
+     "t": 2179.9,
+     "text": "Yeah, I'll be here till Sunday."
+    },
+    {
+     "t": 2181.2,
+     "text": "I'm going to die."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2182.1,
+   "end": 2257.6,
+   "lines": [
+    {
+     "t": 2182.1,
+     "text": "Wow, I'm here till Sunday as well."
+    },
+    {
+     "t": 2183.6,
+     "text": "Yeah, so I'm trying to like titrate my energy the whole week."
+    },
+    {
+     "t": 2186.8,
+     "text": "So I'm actually doing author signing."
+    },
+    {
+     "t": 2189.5,
+     "text": "So I've been thinking about this a lot."
+    },
+    {
+     "t": 2190.8,
+     "text": "So one of the things about workforce is like,"
+    },
+    {
+     "t": 2196.4,
+     "text": "Like, how do we guide people to getting into the workforce, right?"
+    },
+    {
+     "t": 2202.8,
+     "text": "And some of the things I heard this past, we kind of reaffirmed some of my assumptions where, you know, if you're a junior engineer with vibe coding or AI in general, you're going to be like a mid-level or even senior engineer, right?"
+    },
+    {
+     "t": 2219.3,
+     "text": "If you're a senior engineer, you're going to have more output."
+    },
+    {
+     "t": 2223.1,
+     "text": "You just need to use AI to help enable your work."
+    },
+    {
+     "t": 2227.2,
+     "text": "What that's going to mean is that the bar is kind of getting higher now."
+    },
+    {
+     "t": 2232.0,
+     "text": "You have to be more technical to get in."
+    },
+    {
+     "t": 2236.9,
+     "text": "One of the big things, actually, I heard this like some random homeschooling thing, is that you're going to have to have a good ability to learn."
+    },
+    {
+     "t": 2247.4,
+     "text": "Because all this information is now readily available, you can learn it or have something teach it to you."
+    },
+    {
+     "t": 2254.0,
+     "text": "And so what's going to differentiate you is how fast you could learn and get up to speed."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2269.7,
+   "end": 2298.6,
+   "lines": [
+    {
+     "t": 2269.7,
+     "text": "If I have kids in middle school or high school and they're getting ready to go to college, they're freaking out because they're like, I have no idea what to say because everything's changing so fast."
+    },
+    {
+     "t": 2278.1,
+     "text": "And he said, two things will never change, the loving to learn and math."
+    },
+    {
+     "t": 2284.5,
+     "text": "Because at the end of the day, every single thing around you comes down to math in some way, shape or form."
+    },
+    {
+     "t": 2290.4,
+     "text": "And so that was his biggest thing is he was just like intellectual curiosity, learning for the sake of learning, for the sake of like just curiosity."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2298.6,
+   "end": 2299.3,
+   "lines": [
+    {
+     "t": 2298.6,
+     "text": "You hear that kids?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2396.0,
+   "end": 2426.0,
+   "lines": [
+    {
+     "t": 2396.0,
+     "text": "So I took all these skills and correlated them."
+    },
+    {
+     "t": 2397.9,
+     "text": "And I think we need to start hiring for aptitude and understanding that we have really, unfortunately, gate-kept security by acting like all these acronyms and things that we know are intellectual secret."
+    },
+    {
+     "t": 2412.7,
+     "text": "So let's start talking to kids about cybersecurity."
+    },
+    {
+     "t": 2419.2,
+     "text": "Let's start telling people like, hey, you already have the skills."
+    },
+    {
+     "t": 2422.9,
+     "text": "You just got to swap the data."
+    },
+    {
+     "t": 2424.4,
+     "text": "It's context swapping."
+    },
+    {
+     "t": 2425.5,
+     "text": "Very easy."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2426.0,
+   "end": 2428.2,
+   "lines": [
+    {
+     "t": 2426.0,
+     "text": "Yeah."
+    },
+    {
+     "t": 2426.9,
+     "text": "What are some of your takeaways?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2497.0,
+   "end": 2516.9,
+   "lines": [
+    {
+     "t": 2497.0,
+     "text": "Do you want your brain surgeon asking his nurse what her political affiliation is before she helps him with surgery?"
+    },
+    {
+     "t": 2503.7,
+     "text": "That's the level of fear that I think people have is that to be able to do the jobs we do, we have to stay non-political."
+    },
+    {
+     "t": 2512.1,
+     "text": "We have to focus on the mission."
+    },
+    {
+     "t": 2513.7,
+     "text": "Yeah, and so I think that- But we still need to be ethical."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2517.4,
+   "end": 2545.7,
+   "lines": [
+    {
+     "t": 2517.4,
+     "text": "Yeah, well- I think, I think, I think, because, you know, there's a lot of, I think we've-"
+    },
+    {
+     "t": 2524.2,
+     "text": "We were in a bubble."
+    },
+    {
+     "t": 2524.8,
+     "text": "Because we were in a bubble, we became so powerful and we were able to do so many things."
+    },
+    {
+     "t": 2530.4,
+     "text": "The lines of ethics, we felt we were beyond ethics."
+    },
+    {
+     "t": 2534.9,
+     "text": "And unfortunately, there's still a lot of ethical or non-ethical things done."
+    },
+    {
+     "t": 2544.2,
+     "text": "I'm a minority, I'm a minority."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2565.8,
+   "end": 2586.8,
+   "lines": [
+    {
+     "t": 2565.8,
+     "text": "And that is something like, yeah, I think that is a fundamental crisis that we need to confront in that why is it legal to traffic everything about a human except for their body when it's not legal to traffic all of that thing if it's in their body?"
+    },
+    {
+     "t": 2580.8,
+     "text": "And so that's,"
+    },
+    {
+     "t": 2582.6,
+     "text": "I don't like that."
+    },
+    {
+     "t": 2583.3,
+     "text": "I don't like, yeah."
+    },
+    {
+     "t": 2584.2,
+     "text": "To your point, yes."
+    },
+    {
+     "t": 2585.2,
+     "text": "And accountability matters."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2587.1,
+   "end": 2593.0,
+   "lines": [
+    {
+     "t": 2587.1,
+     "text": "Yeah, and you mentioned subjectivity."
+    },
+    {
+     "t": 2588.3,
+     "text": "I mean, there's, you know, we have to acknowledge that we are always subjective."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2593.5,
+   "end": 2593.7,
+   "lines": [
+    {
+     "t": 2593.5,
+     "text": "Yeah."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2594.0,
+   "end": 2599.8,
+   "lines": [
+    {
+     "t": 2594.0,
+     "text": "Like when, even in journalism, there's, it's, objectivity does not really exist, you know?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2600.0,
+   "end": 2600.9,
+   "lines": [
+    {
+     "t": 2600.0,
+     "text": "No, it's impossible."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2601.0,
+   "end": 2608.5,
+   "lines": [
+    {
+     "t": 2601.0,
+     "text": "I learned that, you know, from a journalism teacher."
+    },
+    {
+     "t": 2603.0,
+     "text": "So it's, someone said there's three sides to the truth."
+    },
+    {
+     "t": 2606.4,
+     "text": "Like one side, the other side, and then what actually happened."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2608.6,
+   "end": 2608.9,
+   "lines": [
+    {
+     "t": 2608.6,
+     "text": "Mm-hmm."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2609.9,
+   "end": 2628.9,
+   "lines": [
+    {
+     "t": 2609.9,
+     "text": "You know you look at a you look at a game and you know there's an offside call you know with the line they have the video and everything they're like looking and you're still like not sure yeah so yeah well and I think one of the funniest things that I've ever heard from somebody is they were like do you realize that if you didn't have a nose you wouldn't even know that scent existed"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2629.8,
+   "end": 2644.6,
+   "lines": [
+    {
+     "t": 2629.8,
+     "text": "You would have no way to understand that, because, and it's like, that is the nature of subjectivity of existence, is that everything you think you know and you think to be true is based on how you perceive it with your own eyes, you know, your five, six, seven, eight senses."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2644.6,
+   "end": 2645.8,
+   "lines": [
+    {
+     "t": 2644.6,
+     "text": "Which is limited in and of itself."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2646.0,
+   "end": 2667.3,
+   "lines": [
+    {
+     "t": 2646.0,
+     "text": "Yeah, so that's what I always try to keep in mind, is that my favorite quote is, never attribute to malice what can be explained by ignorance."
+    },
+    {
+     "t": 2654.7,
+     "text": "I'm pretty sure it's Mark Twain."
+    },
+    {
+     "t": 2657.1,
+     "text": "Yeah and I think so in most people it's not malice it's like we all experience the world differently and bring our different perspectives to it and we need to learn how to work together."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2667.8,
+   "end": 2684.8,
+   "lines": [
+    {
+     "t": 2667.8,
+     "text": "Yeah I'm looking forward to DEF CON I think I think in DEF CON I kind of feel a little bit more community there sometimes yeah you know this is a suit you know executive kind of sales guys at DEF CON yeah that's the biggest thing right it's like DEF CON is not about selling it's not about products it's not about and that's"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2685.8,
+   "end": 2692.1,
+   "lines": [
+    {
+     "t": 2685.8,
+     "text": "They got to pay the bills."
+    },
+    {
+     "t": 2686.6,
+     "text": "Look, there's a place for Black Hat."
+    },
+    {
+     "t": 2688.5,
+     "text": "There's a place for DEF CON."
+    },
+    {
+     "t": 2689.8,
+     "text": "And I'm glad they're two separate things."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2692.3,
+   "end": 2693.2,
+   "lines": [
+    {
+     "t": 2692.3,
+     "text": "That is my in this."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2693.7,
+   "end": 2717.4,
+   "lines": [
+    {
+     "t": 2693.7,
+     "text": "And when I had Steve on earlier, who's the general manager of Black Hat, he's like, Black Hat was born out of DEF CON."
+    },
+    {
+     "t": 2701.2,
+     "text": "Then we want to keep the partnership."
+    },
+    {
+     "t": 2702.5,
+     "text": "We want to keep what's great about both of them."
+    },
+    {
+     "t": 2704.5,
+     "text": "And I asked him what he hoped to be able to say in 2030."
+    },
+    {
+     "t": 2707.0,
+     "text": "And he's like, I hope we're still community driven."
+    },
+    {
+     "t": 2708.9,
+     "text": "I hope we're still a community of..."
+    },
+    {
+     "t": 2711.8,
+     "text": "Thank you everybody for joining us for episode 419 of Enterprise Security Weekly."
+    },
+    {
+     "t": 2715.7,
+     "text": "I'm Jackie McGuire."
+    },
+    {
+     "t": 2717.0,
+     "text": "I'm Ayman Elsawah."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2717.4,
+   "end": 2719.0,
+   "lines": [
+    {
+     "t": 2717.4,
+     "text": "And we will see you next week."
+    },
+    {
+     "t": 2718.8,
+     "text": "All right."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

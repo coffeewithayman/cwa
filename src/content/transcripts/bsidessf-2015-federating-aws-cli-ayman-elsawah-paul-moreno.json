@@ -1,0 +1,1379 @@
+{
+ "slug": "bsidessf-2015-federating-aws-cli-ayman-elsawah-paul-moreno",
+ "scope": "all",
+ "format": "interview",
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 34.5,
+   "lines": [
+    {
+     "t": 0.0,
+     "text": "I'm going to go ahead and just get a quick show of hands."
+    },
+    {
+     "t": 1.8,
+     "text": "How many people are actually an Amazon customer or have been in the past?"
+    },
+    {
+     "t": 5.7,
+     "text": "All right."
+    },
+    {
+     "t": 6.3,
+     "text": "So you guys have probably had a little bit of experience with IAM roles or IAM in general as well as CLI."
+    },
+    {
+     "t": 14.0,
+     "text": "And I know everybody's really thirsty."
+    },
+    {
+     "t": 15.5,
+     "text": "I heard the liquor cabinet was locked up with some crypto ransomware."
+    },
+    {
+     "t": 20.6,
+     "text": "So hopefully we're going to decrypt it after this."
+    },
+    {
+     "t": 21.9,
+     "text": "We can all have some beers."
+    },
+    {
+     "t": 24.9,
+     "text": "All right, introductions."
+    },
+    {
+     "t": 26.2,
+     "text": "My name is Paul Moreno, and I am the security engineering lead for Pinterest."
+    },
+    {
+     "t": 30.6,
+     "text": "I'm focused on federation of all the things, and I like unicorns and cats."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 36.4,
+   "end": 45.9,
+   "lines": [
+    {
+     "t": 36.4,
+     "text": "Hi, I'm Ayman Elsawah."
+    },
+    {
+     "t": 37.6,
+     "text": "I am a veteran consultant and architect, and I do a little bit of everything, so I'm not focused on being focused."
+    },
+    {
+     "t": 44.1,
+     "text": "And I like long walks on the beach."
+    },
+    {
+     "t": 45.7,
+     "text": "Thanks."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 50.1,
+   "end": 345.8,
+   "lines": [
+    {
+     "t": 50.1,
+     "text": "All right, so here's the agenda."
+    },
+    {
+     "t": 51.6,
+     "text": "We're going to go over why we're doing this, how we can fix this, how ARIS works, which ARIS is a solution that you guys will all see a live demo of, or sorry, a recorded demo of, problems encountered when we were building it, some potential future problems we imagine we'll see down the line, some pre-release improvements, some future improvements, as well as some time for Q&A."
+    },
+    {
+     "t": 78.8,
+     "text": "So why are we doing this?"
+    },
+    {
+     "t": 80.5,
+     "text": "So here's the problem."
+    },
+    {
+     "t": 81.9,
+     "text": "Many organizations have IAM accounts with poorly controlled credentials that have potentially destructive access to production."
+    },
+    {
+     "t": 87.8,
+     "text": "So that means you have a developer that's got some sloppy practice in hygiene with the way they handle key data and it ends up on the internet or out of their control, out of your control, and then it has damaging impact on your environment."
+    },
+    {
+     "t": 99.7,
+     "text": "So despite 2FA-enabled accounts, accessing the Amazon CLI still only requires an access ID and a secret key to utilize it."
+    },
+    {
+     "t": 110.5,
+     "text": "So a little bit more on why we're doing this."
+    },
+    {
+     "t": 113.6,
+     "text": "This product will reduce the plain text stored keys in repos and on the hardware."
+    },
+    {
+     "t": 118.7,
+     "text": "I consider everybody's laptop and every developer that we've got at Pinterest kind of a risk, especially considering it has sensitive key data such as this."
+    },
+    {
+     "t": 128.1,
+     "text": "This will allow federation and directory services."
+    },
+    {
+     "t": 131.0,
+     "text": "This automates the onboarding and termination, which is very important."
+    },
+    {
+     "t": 134.3,
+     "text": "Some IT departments have sloppy practices about terminating all the access."
+    },
+    {
+     "t": 139.1,
+     "text": "And this also enables the use of IAM roles for users and service accounts."
+    },
+    {
+     "t": 142.7,
+     "text": "I don't know if you've got a lot of familiarity with it, but roles are the way to go because you've got a larger policy size you can have, so you can add cool things like the ability to restrict what source IPs the Amazon command line can be accessed from."
+    },
+    {
+     "t": 156.3,
+     "text": "And this product will also allow the centralized use of existing 2FA, such as through your VPN, so that you don't have yet another OTP on your phone."
+    },
+    {
+     "t": 165.2,
+     "text": "I think I have 12 just for my current role."
+    },
+    {
+     "t": 170.4,
+     "text": "So here's some examples of the problem that we've seen."
+    },
+    {
+     "t": 173.9,
+     "text": "You can see there's a Security Week article here about attackers that were scraping GitHub as well as other locations for plain text access IDs and secret keys out in the wild."
+    },
+    {
+     "t": 183.9,
+     "text": "And they basically use them to stand up Bitcoin mining operations."
+    },
+    {
+     "t": 187.7,
+     "text": "And sadly I found there's a lot more open source solutions to actually scraping credentials than are to solve this problem."
+    },
+    {
+     "t": 197.0,
+     "text": "So another example, I'd say this was also pretty lucky."
+    },
+    {
+     "t": 201.1,
+     "text": "These people got popped with a $2,300, $2,400 bill because some hackers decided to use their account to launch a Bitcoin mining operation as well."
+    },
+    {
+     "t": 210.5,
+     "text": "It's lucky because it was only $2,400 approximately."
+    },
+    {
+     "t": 214.1,
+     "text": "The larger example would be these guys."
+    },
+    {
+     "t": 217.4,
+     "text": "So this is an actual quote by anonymous somewhere."
+    },
+    {
+     "t": 221.9,
+     "text": "So Codespaces, if you guys don't know, was DDoSed with some ransom and before they realized they actually had somebody that had unauthorized access to their Amazon account."
+    },
+    {
+     "t": 231.4,
+     "text": "What they did is they ultimately tore their infrastructure all the way down, wiped out all of their backups to the point where they were no longer able to do business."
+    },
+    {
+     "t": 239.7,
+     "text": "That's really sad for a company that's actually touted their ability to protect their customer data from catastrophic events such as this."
+    },
+    {
+     "t": 250.1,
+     "text": "So, how hard is it to find credentials out on the internet?"
+    },
+    {
+     "t": 254.7,
+     "text": "It's actually really fucking easy."
+    },
+    {
+     "t": 256.3,
+     "text": "It took me about 60 seconds on Pastebin, and I found just a whole set."
+    },
+    {
+     "t": 260.5,
+     "text": "I actually did have the full link here, but I felt it would be embarrassing to actually leave it up, so I decided to blur everything out."
+    },
+    {
+     "t": 266.7,
+     "text": "Another quick example, also found on Pastebin, someone that was also gratuitous enough to actually tell us what region they're running their Amazon instance into."
+    },
+    {
+     "t": 282.1,
+     "text": "Let's see here."
+    },
+    {
+     "t": 283.1,
+     "text": "So let's say I had the credentials."
+    },
+    {
+     "t": 284.5,
+     "text": "What could you do?"
+    },
+    {
+     "t": 286.6,
+     "text": "Well, the easy thing I would probably do is just go ahead and get a quick list of the Route 53 and see what hosted zones they have."
+    },
+    {
+     "t": 293.3,
+     "text": "As you can see, it would be pretty easy to get a quick list, and then all I'd have to do is run that one-liner there to delete their entire hosted zone."
+    },
+    {
+     "t": 300.7,
+     "text": "So that probably wouldn't completely eradicate them off the net, but it would cause a lot of complications for them for a set amount of time."
+    },
+    {
+     "t": 308.1,
+     "text": "So, or we could try to do something like this where I actually just want to go ahead and create my own user."
+    },
+    {
+     "t": 312.6,
+     "text": "We're just going to go ahead and create a pony and then add that user to the admins group."
+    },
+    {
+     "t": 317.4,
+     "text": "So after that, I can pretty much do whatever I want from the web console to be on the CLI."
+    },
+    {
+     "t": 325.2,
+     "text": "So, how can we fix this?"
+    },
+    {
+     "t": 328.9,
+     "text": "So, we had a couple goals in mind when we decided to start development of ARIS."
+    },
+    {
+     "t": 333.4,
+     "text": "We wanted to get the IAM keys out of the hands of the developers, and out of the users, and even some service accounts in some cases, and allow them to still do business as usual."
+    },
+    {
+     "t": 342.6,
+     "text": "Some pretty basic goals."
+    },
+    {
+     "t": 344.0,
+     "text": "From here, I'm going to hand it over to Ayman."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 347.9,
+   "end": 357.3,
+   "lines": [
+    {
+     "t": 347.9,
+     "text": "So, if only there was a credential service that would give us temporary credentials."
+    },
+    {
+     "t": 353.5,
+     "text": "Oh, wait."
+    },
+    {
+     "t": 355.0,
+     "text": "That's Amazon STS."
+    },
+    {
+     "t": 357.0,
+     "text": "But,"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 361.2,
+   "end": 373.9,
+   "lines": [
+    {
+     "t": 361.2,
+     "text": "So we need a middleman that can also talk SAML and LDAP that will do some glue in between there."
+    },
+    {
+     "t": 367.4,
+     "text": "We found Shibboleth, which is an identity provider out there that does SSO and such."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 375.7,
+   "end": 376.7,
+   "lines": [
+    {
+     "t": 375.7,
+     "text": "Cyrus, let's have two mics."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 378.4,
+   "end": 416.9,
+   "lines": [
+    {
+     "t": 378.4,
+     "text": "No second, Mike."
+    },
+    {
+     "t": 379.5,
+     "text": "So Shibboleth, it's an SSO, as I said."
+    },
+    {
+     "t": 382.8,
+     "text": "It allows for attribute-based exchange framework."
+    },
+    {
+     "t": 385.8,
+     "text": "It also does role-based, but I'm not going to get into detail."
+    },
+    {
+     "t": 389.1,
+     "text": "It can act as SAML middleware."
+    },
+    {
+     "t": 391.0,
+     "text": "It can also act as an authentication and authorization middleware, and has a SOAP and HTTP binder."
+    },
+    {
+     "t": 397.8,
+     "text": "There's tons of documentation out there on this, and we chose this because of that."
+    },
+    {
+     "t": 402.4,
+     "text": "Also, there's actually Amazon-specific documentation on how to federate it on the web console, but not actually anything about getting tokens."
+    },
+    {
+     "t": 410.0,
+     "text": "That became a pain in the ass."
+    },
+    {
+     "t": 413.9,
+     "text": "So I'm going to go ahead and forward this over to Ayman, and he's going to tell you a little bit more."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 419.1,
+   "end": 601.1,
+   "lines": [
+    {
+     "t": 419.1,
+     "text": "Okay, so now we have Shibboleth, STS, and out of that, Eris was born."
+    },
+    {
+     "t": 424.9,
+     "text": "So, putting it all together."
+    },
+    {
+     "t": 426.7,
+     "text": "So, coming into the project, first of all, we wanted to establish what are our knowns, unknowns, and what are some success factors."
+    },
+    {
+     "t": 432.4,
+     "text": "So, some of our knowns, we knew that"
+    },
+    {
+     "t": 436.8,
+     "text": "Shibboleth can talk both LDAP and SAML."
+    },
+    {
+     "t": 438.9,
+     "text": "Okay, great."
+    },
+    {
+     "t": 440.0,
+     "text": "STS also talked SAML."
+    },
+    {
+     "t": 442.1,
+     "text": "Okay, another good thing."
+    },
+    {
+     "t": 444.1,
+     "text": "Also, however, we did find out, unfortunately, that STS only supports one-hour temporary credential tokens."
+    },
+    {
+     "t": 450.8,
+     "text": "Okay, that's fine, but at least we know that ahead of time."
+    },
+    {
+     "t": 454.6,
+     "text": "We also know"
+    },
+    {
+     "t": 456.1,
+     "text": "That developers don't like change and are very, very whiny."
+    },
+    {
+     "t": 458.9,
+     "text": "Okay, so I think everybody here, most people here have experienced, if you're a developer, I'm sorry."
+    },
+    {
+     "t": 465.9,
+     "text": "Anyway, so some of the unknowns."
+    },
+    {
+     "t": 468.5,
+     "text": "What are we gonna do with these one-hour credentials?"
+    },
+    {
+     "t": 470.5,
+     "text": "How are we gonna make these work?"
+    },
+    {
+     "t": 472.4,
+     "text": "And we didn't know that STS was not really ready for prime time, so there was buggy, there were a lot of bugs, a lot of documentation issues."
+    },
+    {
+     "t": 482.9,
+     "text": "I got to know a lot of AWS support guys by name, so that was interesting."
+    },
+    {
+     "t": 488.6,
+     "text": "Things that were success factors coming in was that we wanted to make sure that business as usual happened for the devs, so no change for them as much as possible, and AWS support was really good."
+    },
+    {
+     "t": 501.7,
+     "text": "They were really helpful on this."
+    },
+    {
+     "t": 504.5,
+     "text": "So what's STS?"
+    },
+    {
+     "t": 505.8,
+     "text": "Well, STS is a credential service."
+    },
+    {
+     "t": 508.6,
+     "text": "You give it authentication, it gives you credentials."
+    },
+    {
+     "t": 511.4,
+     "text": "That's it."
+    },
+    {
+     "t": 513.5,
+     "text": "There's three items up there out of the, I think, five total."
+    },
+    {
+     "t": 517.3,
+     "text": "One takes SAML, the other one takes OAuth."
+    },
+    {
+     "t": 522.6,
+     "text": "But some of the limitations is that you can only have one role."
+    },
+    {
+     "t": 524.9,
+     "text": "So if you have users that have multiple roles, when they go sign in, they'll be asked to do multiple roles."
+    },
+    {
+     "t": 530.5,
+     "text": "And for our purposes where we wanted to automate it, that wasn't useful for us."
+    },
+    {
+     "t": 534.4,
+     "text": "So we had to limit users to only having one role."
+    },
+    {
+     "t": 538.1,
+     "text": "Also, the one hour credential thing was really a big limitation."
+    },
+    {
+     "t": 543.8,
+     "text": "So what do we do?"
+    },
+    {
+     "t": 544.8,
+     "text": "Well, first, Paul was thinking, let's get a POC together."
+    },
+    {
+     "t": 549.3,
+     "text": "So we brainstormed and said, okay, let's get a POC for the flow and actually figure out how to, if it's even possible, not necessarily automating it, not necessarily making it clean for the developers, but"
+    },
+    {
+     "t": 562.3,
+     "text": "Just making it work."
+    },
+    {
+     "t": 563.2,
+     "text": "So there was a lot of development, a lot of pre-work."
+    },
+    {
+     "t": 565.3,
+     "text": "Some of the ARNs had to be added as attributes in LDAP."
+    },
+    {
+     "t": 569.5,
+     "text": "We had to make sure that Shibleth could consume those, so making Shibleth work with LDAP, and making sure that AWS liked our SAML assertions."
+    },
+    {
+     "t": 578.0,
+     "text": "So a lot of trust policy, a lot of finicky details that STS was very particular about, rightly so, in making sure that it's accepting our assertions."
+    },
+    {
+     "t": 589.7,
+     "text": "So, and then at the end get temporary credentials."
+    },
+    {
+     "t": 592.8,
+     "text": "Then once a POC is established, okay, how do we make this nice and pretty and clean for the developers?"
+    },
+    {
+     "t": 599.2,
+     "text": "Thus, Eris was born."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 601.6,
+   "end": 602.8,
+   "lines": [
+    {
+     "t": 601.6,
+     "text": "So, what is Eris?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 604.9,
+   "end": 776.3,
+   "lines": [
+    {
+     "t": 604.9,
+     "text": "Eris is essentially a broker that works between Shibboleth, STS, and the user themselves."
+    },
+    {
+     "t": 612.2,
+     "text": "A broker's credentials."
+    },
+    {
+     "t": 613.5,
+     "text": "The user would come in, enter their credentials, and it goes out, does all the legwork, and at the end writes credentials for them to use for their normal day-to-day AWS CLI."
+    },
+    {
+     "t": 623.3,
+     "text": "What you get at the end is the federation of AWS CLI."
+    },
+    {
+     "t": 627.2,
+     "text": "You get reauthorization every hour."
+    },
+    {
+     "t": 629.0,
+     "text": "I'll talk more about that later."
+    },
+    {
+     "t": 630.8,
+     "text": "And the same work can be performed the same way they did it before, just a little pre-work ahead of time."
+    },
+    {
+     "t": 638.1,
+     "text": "But it is a slight change to how they do business, so you do still end up with a little bit less whiny devs, but skeptical nonetheless."
+    },
+    {
+     "t": 650.9,
+     "text": "In fact, actually, when we went to deploy a POC to try it out with some of our developers and admins, I got crickets."
+    },
+    {
+     "t": 658.5,
+     "text": "I had to get Paul to chase them and say, hey, listen, can somebody try this out?"
+    },
+    {
+     "t": 663.0,
+     "text": "So they didn't want to change the status quo."
+    },
+    {
+     "t": 667.4,
+     "text": "So how does it work?"
+    },
+    {
+     "t": 668.4,
+     "text": "Well, you have an interactive shell login."
+    },
+    {
+     "t": 671.7,
+     "text": "The user enters their username and password."
+    },
+    {
+     "t": 673.7,
+     "text": "Actually, they only have to enter their password because they'll take it from the shell."
+    },
+    {
+     "t": 676.9,
+     "text": "And Eris will go to Shibboleth's web login, enter the credentials, come back from Shibboleth with a SAML response."
+    },
+    {
+     "t": 685.3,
+     "text": "It will then take that SAML response and send it over to STS's service, send an assertion over there."
+    },
+    {
+     "t": 691.4,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware,"
+    },
+    {
+     "t": 716.2,
+     "text": "But wait a minute, what about these one hour credentials?"
+    },
+    {
+     "t": 718.0,
+     "text": "What happened to that?"
+    },
+    {
+     "t": 718.7,
+     "text": "How did you fix that?"
+    },
+    {
+     "t": 719.7,
+     "text": "Well, luckily we have Python's request library, which is really awesome."
+    },
+    {
+     "t": 724.2,
+     "text": "So, in requests, when you make a request, it will maintain the session cookie and all the session state information for you."
+    },
+    {
+     "t": 731.2,
+     "text": "So, perfect."
+    },
+    {
+     "t": 732.0,
+     "text": "So, before the temporary credentials would expire,"
+    },
+    {
+     "t": 735.5,
+     "text": "We actually make another web login request to Shibboleth."
+    },
+    {
+     "t": 738.8,
+     "text": "Shibboleth's like, oh, I know you already, I authenticated you already like an hour ago, so okay, fine."
+    },
+    {
+     "t": 743.6,
+     "text": "It gives you back the sound response."
+    },
+    {
+     "t": 744.6,
+     "text": "We do the whole thing all over again."
+    },
+    {
+     "t": 746.6,
+     "text": "And we just update the credentials wherever, either in an environment variable or locally."
+    },
+    {
+     "t": 753.6,
+     "text": "For the developer, and they don't have to do anything."
+    },
+    {
+     "t": 757.4,
+     "text": "So it'll do this all throughout the day."
+    },
+    {
+     "t": 759.5,
+     "text": "Now we set a 12-hour time limit because we do want to make sure we re-authenticate them at least once a day."
+    },
+    {
+     "t": 764.9,
+     "text": "So I think 12 hours is enough."
+    },
+    {
+     "t": 766.8,
+     "text": "Maybe in Silicon Valley, maybe it should be 15 or 18 hours, but I don't know."
+    },
+    {
+     "t": 774.9,
+     "text": "So I'll send this over to Paul now."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 777.5,
+   "end": 893.6,
+   "lines": [
+    {
+     "t": 777.5,
+     "text": "So I'm basically going to reiterate what he just said, but I've got a beautiful Brad Pitt as a widening developer."
+    },
+    {
+     "t": 783.8,
+     "text": "So the mechanics of this, again, you've got shibboleth and Amazon Web Services have to have a trust established."
+    },
+    {
+     "t": 791.5,
+     "text": "So there was a lot of legwork setting that up."
+    },
+    {
+     "t": 794.1,
+     "text": "There was some documentation."
+    },
+    {
+     "t": 795.5,
+     "text": "It just wasn't super clear."
+    },
+    {
+     "t": 797.4,
+     "text": "I gave some feedback on it."
+    },
+    {
+     "t": 799.2,
+     "text": "Again, this was also done on a Linux system."
+    },
+    {
+     "t": 801.8,
+     "text": "They have a lot of documentation on how to do it in a Windows environment, which proved to be a lot easier."
+    },
+    {
+     "t": 807.0,
+     "text": "But we went the hard route."
+    },
+    {
+     "t": 809.5,
+     "text": "Shiblet is configured to go and fetch some attributes based on the user and then do some magic to map it to a role."
+    },
+    {
+     "t": 816.3,
+     "text": "Shiblet ends up taking input from the user on behalf of Eris."
+    },
+    {
+     "t": 821.6,
+     "text": "Shiblet has that trust established with Amazon already."
+    },
+    {
+     "t": 825.0,
+     "text": "It generates a SAML assertion based on the attributes of the user and then it passes it back to Eris."
+    },
+    {
+     "t": 831.1,
+     "text": "Eris writes it to your operating system environment variables."
+    },
+    {
+     "t": 835.5,
+     "text": "And then it allows you to use the Amazon STS to perform CLI actions."
+    },
+    {
+     "t": 843.6,
+     "text": "Now, time for a demo."
+    },
+    {
+     "t": 850.9,
+     "text": "I did tell you I like cats and unicorns."
+    },
+    {
+     "t": 855.5,
+     "text": "So as you can see, I'm going to say hello B-sides."
+    },
+    {
+     "t": 858.9,
+     "text": "And then I'm going to launch into ARIS."
+    },
+    {
+     "t": 865.9,
+     "text": "Errors fetches my shell username, and then I enter my password in, which is just password, by the way."
+    },
+    {
+     "t": 873.3,
+     "text": "And then, as you see, magic happens."
+    },
+    {
+     "t": 875.7,
+     "text": "And as you see there, we've got an access key, secret key, and session token, and we're now able to run commands if we like."
+    },
+    {
+     "t": 881.9,
+     "text": "And I'm actually comfortable with having that up on the screen because those are invalid after an hour."
+    },
+    {
+     "t": 886.0,
+     "text": "So you can take a snapshot of that if you want."
+    },
+    {
+     "t": 888.3,
+     "text": "They won't work."
+    },
+    {
+     "t": 892.4,
+     "text": "All right."
+    },
+    {
+     "t": 893.1,
+     "text": "Back to Ayman."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 895.7,
+   "end": 1046.0,
+   "lines": [
+    {
+     "t": 895.7,
+     "text": "So some of the issues that we ran into with AWS, or at least the STS service."
+    },
+    {
+     "t": 901.6,
+     "text": "Documentation was one thing."
+    },
+    {
+     "t": 903.5,
+     "text": "Documentation was lacking."
+    },
+    {
+     "t": 906.0,
+     "text": "You could hardly find anything."
+    },
+    {
+     "t": 907.3,
+     "text": "In the other Assume calls that you can make, there was a lot of documentation for errors, examples, what you would get."
+    },
+    {
+     "t": 915.5,
+     "text": "But when you get an error with Assume Robo Sample, nobody had any clue until you reach a level three engineer at Amazon."
+    },
+    {
+     "t": 925.0,
+     "text": "Doctrination was really sparse."
+    },
+    {
+     "t": 926.8,
+     "text": "There was also undocumented, so items in Bodo that were just not documented at all."
+    },
+    {
+     "t": 932.8,
+     "text": "And also, when you do a temporary credential, you get three things instead of two."
+    },
+    {
+     "t": 936.5,
+     "text": "You get a session token as well, and there was no documentation where, what am I supposed to do with this session token?"
+    },
+    {
+     "t": 942.2,
+     "text": "So I got these temporary credentials, and I'm trying to use them, but I couldn't use them, and they're like, oh, you actually need that."
+    },
+    {
+     "t": 947.5,
+     "text": "I'm like, well, can you just update your documentation to say so?"
+    },
+    {
+     "t": 950.7,
+     "text": "So, you know, that would have been nice."
+    },
+    {
+     "t": 953.1,
+     "text": "But more importantly, and this was me for literally like a week or two, Bodo's library was hard-coded with something called anon equals false."
+    },
+    {
+     "t": 962.2,
+     "text": "So, anon is a parameter that basically it's an anonymous connection."
+    },
+    {
+     "t": 965.9,
+     "text": "So, if anon is false, that means you're coming in from inside the AWS infrastructure."
+    },
+    {
+     "t": 971.0,
+     "text": "If anon is true, that means you're coming in from externally."
+    },
+    {
+     "t": 974.1,
+     "text": "And so, assume role with SAML was not allowed to make calls externally, but I didn't know that."
+    },
+    {
+     "t": 980.8,
+     "text": "And so sometimes I would be at the office making a call and it would work, but then I get home and it doesn't work."
+    },
+    {
+     "t": 985.6,
+     "text": "I'm like, okay, what's going on?"
+    },
+    {
+     "t": 986.8,
+     "text": "So I hop on the VPN and it works magically."
+    },
+    {
+     "t": 988.8,
+     "text": "And so it was really intermittent and it was hard to figure out and I was trying to think, okay, maybe there's something wrong with my code."
+    },
+    {
+     "t": 995.5,
+     "text": "I spent ages just trying to change it."
+    },
+    {
+     "t": 998.5,
+     "text": "Then I realized, no, my code is fine."
+    },
+    {
+     "t": 1000.3,
+     "text": "It's them."
+    },
+    {
+     "t": 1001.3,
+     "text": "And so..."
+    },
+    {
+     "t": 1004.0,
+     "text": "We finally got to a level three engineer, level four, the guy actually who wrote the stuff, and he's like, oh, yeah, you're right."
+    },
+    {
+     "t": 1010.5,
+     "text": "We shouldn't be doing that."
+    },
+    {
+     "t": 1011.6,
+     "text": "And so he fixed it in like half a day."
+    },
+    {
+     "t": 1013.2,
+     "text": "So that was awesome."
+    },
+    {
+     "t": 1014.6,
+     "text": "Kudos to Amazon for fixing it quickly."
+    },
+    {
+     "t": 1017.1,
+     "text": "But the idea is that STS was not really ready for prime time."
+    },
+    {
+     "t": 1021.1,
+     "text": "There were also encoding issues with SAML where it was supposed to be A64 encoded, but it wasn't, and so I had to make changes to my code to just redo it, which is fine."
+    },
+    {
+     "t": 1033.7,
+     "text": "And just some general other bugs."
+    },
+    {
+     "t": 1035.0,
+     "text": "So you're welcome, everybody."
+    },
+    {
+     "t": 1038.0,
+     "text": "I did the legwork for making it available to all of you."
+    },
+    {
+     "t": 1040.6,
+     "text": "So you're welcome."
+    },
+    {
+     "t": 1043.5,
+     "text": "And that's it."
+    },
+    {
+     "t": 1044.9,
+     "text": "And we'll send it over to Paul."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1048.3,
+   "end": 1314.2,
+   "lines": [
+    {
+     "t": 1048.3,
+     "text": "All right."
+    },
+    {
+     "t": 1049.2,
+     "text": "So I'm going to talk a little bit about what we plan to do next with this."
+    },
+    {
+     "t": 1054.5,
+     "text": "There are some potential future problems that we've seen down the pipe and one that we've actually experienced."
+    },
+    {
+     "t": 1060.9,
+     "text": "I'm worried that maybe the Shibboleth URLs or if we use a different IDP that maybe those might change and that would totally screw up this ARIS and that would just stem from package updates or just general code updates, etc."
+    },
+    {
+     "t": 1074.8,
+     "text": "There could be some other STS related changes."
+    },
+    {
+     "t": 1077.8,
+     "text": "As you heard Ayman reiterate how much pain you need to go through with Amazon."
+    },
+    {
+     "t": 1082.8,
+     "text": "I also experience a lot of that on a day-to-day basis and I can tell you that they do a lot of things without telling anybody."
+    },
+    {
+     "t": 1088.1,
+     "text": "So that could be something that would happen that would impact the function of ARIS."
+    },
+    {
+     "t": 1093.4,
+     "text": "Changes in the XML response provided by Amazon, it's not very likely but could also happen."
+    },
+    {
+     "t": 1098.4,
+     "text": "Then something that did happen but I decided to leave it in the potential future problems because it could happen again."
+    },
+    {
+     "t": 1104.5,
+     "text": "Certificate trust configuration between IDP and Amazon."
+    },
+    {
+     "t": 1108.2,
+     "text": "Not a problem, right?"
+    },
+    {
+     "t": 1109.9,
+     "text": "Actually, part of the configuration process insists that your IDP go and fetch a publicly available XML file to do some validation on their end."
+    },
+    {
+     "t": 1119.5,
+     "text": "So, back last month, my IT department that has been using this product calls me up and is like, your shit is busted."
+    },
+    {
+     "t": 1126.9,
+     "text": "I'm like, okay, so I go look at my logs, start digging around, and then I see all signs point to this XML file."
+    },
+    {
+     "t": 1134.5,
+     "text": "And as you can see as I've highlighted, that actually expired that day."
+    },
+    {
+     "t": 1138.1,
+     "text": "Amazon was down for SAML-integrated products for six hours because of this."
+    },
+    {
+     "t": 1143.6,
+     "text": "There's a big fuck-up on their end, it's kind of basics if you ask me."
+    },
+    {
+     "t": 1148.4,
+     "text": "So what we want to do before we decide to open source Eris, we're going to go ahead and do some Mac and Ubuntu support."
+    },
+    {
+     "t": 1155.7,
+     "text": "It does work on both right now."
+    },
+    {
+     "t": 1157.4,
+     "text": "It needs a little bit more polish."
+    },
+    {
+     "t": 1159.0,
+     "text": "We want to daemonize it so that it doesn't have to be a user interactive all the time."
+    },
+    {
+     "t": 1164.0,
+     "text": "Improved logging and of course exception handling."
+    },
+    {
+     "t": 1168.7,
+     "text": "Some other feature improvements."
+    },
+    {
+     "t": 1169.9,
+     "text": "I've got an awesome guy in my IT department that's been willing to step up to the plate and help us build a Mac app, which would be very useful."
+    },
+    {
+     "t": 1176.5,
+     "text": "If we decide to open source it as a user, you would input your Amazon account, username, password, and then the IDP URL, and that should be it."
+    },
+    {
+     "t": 1185.6,
+     "text": "And then that would actually let this write to your OS environments, as well as maybe a potential local file if you absolutely need it for something like a browser extension."
+    },
+    {
+     "t": 1195.9,
+     "text": "OAuth, maybe."
+    },
+    {
+     "t": 1196.6,
+     "text": "I've actually talked to one of my coworkers about this."
+    },
+    {
+     "t": 1198.7,
+     "text": "I haven't really explored it too much."
+    },
+    {
+     "t": 1200.3,
+     "text": "It may or may not happen."
+    },
+    {
+     "t": 1201.9,
+     "text": "And then something other than usernames and passwords, because those are bad."
+    },
+    {
+     "t": 1205.5,
+     "text": "I think everything's moving towards a cert world, or if we can, we can move it to a cert or a key world where we don't have to deal with passwords anymore."
+    },
+    {
+     "t": 1214.4,
+     "text": "Open source date, ETA, is July this year."
+    },
+    {
+     "t": 1217.9,
+     "text": "Hold tight."
+    },
+    {
+     "t": 1218.5,
+     "text": "I hope to get it done."
+    },
+    {
+     "t": 1219.7,
+     "text": "We're going to make sure that we draw out all the bugs so that you guys don't see any of them."
+    },
+    {
+     "t": 1226.2,
+     "text": "And now I'd like to open up for Q&A if anybody's got any questions."
+    },
+    {
+     "t": 1229.7,
+     "text": "So for those of us that aren't familiar with Shimlet, is Shimlet assuming the authentication of the user in order to generate this credential?"
+    },
+    {
+     "t": 1242.5,
+     "text": "Correct, but it can be done for other..."
+    },
+    {
+     "t": 1244.8,
+     "text": "Sorry."
+    },
+    {
+     "t": 1245.5,
+     "text": "So the question was, Shibboleth is using, is like the crucial element to this working."
+    },
+    {
+     "t": 1250.2,
+     "text": "That's correct."
+    },
+    {
+     "t": 1250.9,
+     "text": "It's the IDP we chose to use for this."
+    },
+    {
+     "t": 1253.8,
+     "text": "I would imagine that you can do this for other things like an Okta or one login, the other, or ping identity."
+    },
+    {
+     "t": 1259.9,
+     "text": "The caveat there is all of those present an MFA or a two-factor login."
+    },
+    {
+     "t": 1266.1,
+     "text": "So we would have to modify the ARIS product to actually ingest that and then pass it over to them as an IDP."
+    },
+    {
+     "t": 1272.4,
+     "text": "So this product is using Shibboleth in a non-2FA mode behind a VPN and firewall."
+    },
+    {
+     "t": 1278.0,
+     "text": "So that would be something that we would have to add on top of that."
+    },
+    {
+     "t": 1280.5,
+     "text": "Again, I would rather rely on having other 2FA than adding another one to the mix."
+    },
+    {
+     "t": 1288.3,
+     "text": "But for now, yes, to answer your question, this is tied to Shibboleth."
+    },
+    {
+     "t": 1293.8,
+     "text": "Anybody?"
+    },
+    {
+     "t": 1298.4,
+     "text": "You know what?"
+    },
+    {
+     "t": 1299.0,
+     "text": "I've heard about this."
+    },
+    {
+     "t": 1300.0,
+     "text": "It's a good question."
+    },
+    {
+     "t": 1301.2,
+     "text": "Oh, sorry."
+    },
+    {
+     "t": 1301.8,
+     "text": "Yes, I played with Hologram."
+    },
+    {
+     "t": 1303.5,
+     "text": "So Hologram is actually something I heard at a DevOps meetup at my office, actually."
+    },
+    {
+     "t": 1309.8,
+     "text": "If you want to put me in touch, I'd actually love to talk to them."
+    },
+    {
+     "t": 1311.8,
+     "text": "I actually did mean to follow up with them."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1316.8,
+   "end": 1317.1,
+   "lines": [
+    {
+     "t": 1316.8,
+     "text": "Anybody?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1318.6,
+   "end": 1381.7,
+   "lines": [
+    {
+     "t": 1318.6,
+     "text": "All right."
+    },
+    {
+     "t": 1319.2,
+     "text": "Oh, one more."
+    },
+    {
+     "t": 1330.0,
+     "text": "So the question was if we had a service account that we needed an access ID and secret key, would we try to move it over to this?"
+    },
+    {
+     "t": 1338.0,
+     "text": "The answer is yes, I would like to, but of course this needs a lot of polish and we need to make sure that it's not going to become an availability impacting, you know, a cog in the wheel there."
+    },
+    {
+     "t": 1348.8,
+     "text": "But I would like to see it used for all of our service accounts."
+    },
+    {
+     "t": 1369.2,
+     "text": "It's a good question."
+    },
+    {
+     "t": 1370.2,
+     "text": "There's a little back story there too."
+    },
+    {
+     "t": 1371.8,
+     "text": "The question was why we decided to go with SAML to do this instead of any of the other options."
+    },
+    {
+     "t": 1377.6,
+     "text": "To be honest, I didn't really see there was a whole lot of other options."
+    },
+    {
+     "t": 1380.3,
+     "text": "Maybe Ayman can answer this one."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1385.6,
+   "end": 1416.3,
+   "lines": [
+    {
+     "t": 1385.6,
+     "text": "Because we're using our LDAP."
+    },
+    {
+     "t": 1387.5,
+     "text": "Our LDAP is a source of truth."
+    },
+    {
+     "t": 1388.9,
+     "text": "So that was the issue there."
+    },
+    {
+     "t": 1390.9,
+     "text": "So SAML was the most compatible at the time."
+    },
+    {
+     "t": 1394.2,
+     "text": "You can use OAuth if you want to."
+    },
+    {
+     "t": 1398.3,
+     "text": "But to get that to work with Shibboleth, I think it would take a lot more legwork."
+    },
+    {
+     "t": 1402.1,
+     "text": "Shibboleth kind of did SAML out of the box."
+    },
+    {
+     "t": 1405.1,
+     "text": "That was part of the decision."
+    },
+    {
+     "t": 1407.5,
+     "text": "Something to change."
+    },
+    {
+     "t": 1411.2,
+     "text": "Any more questions?"
+    },
+    {
+     "t": 1414.9,
+     "text": "Okay, well, thanks everybody."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

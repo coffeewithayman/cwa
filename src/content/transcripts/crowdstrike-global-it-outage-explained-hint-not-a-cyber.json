@@ -1,0 +1,560 @@
+{
+ "slug": "crowdstrike-global-it-outage-explained-hint-not-a-cyber",
+ "scope": "all",
+ "format": "talk",
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 615.8,
+   "lines": [
+    {
+     "t": 0.0,
+     "text": "Hello and welcome everyone."
+    },
+    {
+     "t": 1.9,
+     "text": "My name is Ayman Elsawah and I am here at the Security Cafe."
+    },
+    {
+     "t": 5.5,
+     "text": "I have my coffee."
+    },
+    {
+     "t": 7.9,
+     "text": "I take complex security topics and try to distill it down and make it easy for everyone to understand."
+    },
+    {
+     "t": 13.6,
+     "text": "And today we have a doozy."
+    },
+    {
+     "t": 16.4,
+     "text": "We are in the middle of a global IT meltdown and we're just recovering from it."
+    },
+    {
+     "t": 22.9,
+     "text": "A lot of you may have heard of the CrowdStrike outage or the Microsoft outage."
+    },
+    {
+     "t": 27.1,
+     "text": "I'm here to explain everything about it and dispel some myths from it."
+    },
+    {
+     "t": 30.4,
+     "text": "So let's get into it."
+    },
+    {
+     "t": 32.0,
+     "text": "As you may or may not know, you're maybe on vacation."
+    },
+    {
+     "t": 34.3,
+     "text": "Maybe you're somewhere on the beach and just unplugged."
+    },
+    {
+     "t": 36.2,
+     "text": "Good for you."
+    },
+    {
+     "t": 36.8,
+     "text": "If you are, that's awesome."
+    },
+    {
+     "t": 38.3,
+     "text": "But the rest of the world has experienced a giant meltdown."
+    },
+    {
+     "t": 42.2,
+     "text": "And what is this meltdown exactly?"
+    },
+    {
+     "t": 43.7,
+     "text": "We're talking about 911 calls, centers, airports, and flights being canceled."
+    },
+    {
+     "t": 48.4,
+     "text": "Banks and atms not working almost everything has been affected all across the board and there's even things we probably don't even know you may have seen even digital signs experiencing a blue screen of death this is all due to a bug in software that got rolled out on friday and i'm here to explain what's going on"
+    },
+    {
+     "t": 70.6,
+     "text": "Also, in case you don't know, IT people have been working around the clock to clean up this mess, to try to restore everything back together."
+    },
+    {
+     "t": 79.5,
+     "text": "And it's such a complicated restoration procedure."
+    },
+    {
+     "t": 82.2,
+     "text": "I'll also talk about that as well."
+    },
+    {
+     "t": 83.6,
+     "text": "So my heart goes out to the IT folks right now that are or have been or will be dealing with this in the future for time to come."
+    },
+    {
+     "t": 91.8,
+     "text": "Let's get into it."
+    },
+    {
+     "t": 92.9,
+     "text": "All right."
+    },
+    {
+     "t": 93.1,
+     "text": "So what happened exactly?"
+    },
+    {
+     "t": 94.3,
+     "text": "CrowdStrike, which is a anti-malware software, right?"
+    },
+    {
+     "t": 97.6,
+     "text": "Or anti..."
+    },
+    {
+     "t": 98.3,
+     "text": "Typically, we heard of antivirus, same thing."
+    },
+    {
+     "t": 100.8,
+     "text": "It's software that's designed to sit on a system to prevent cybersecurity issues from happening, to prevent people from hacking machines, right?"
+    },
+    {
+     "t": 111.1,
+     "text": "CrowdStrike is an anti-malware software."
+    },
+    {
+     "t": 113.4,
+     "text": "What happened was it made a software update."
+    },
+    {
+     "t": 115.8,
+     "text": "Now, why was the software update so bad?"
+    },
+    {
+     "t": 118.3,
+     "text": "Let's just step back a little bit."
+    },
+    {
+     "t": 119.9,
+     "text": "This software CrowdStrike runs with elevated privileges."
+    },
+    {
+     "t": 123.1,
+     "text": "It runs with as an admin."
+    },
+    {
+     "t": 124.7,
+     "text": "So it has root or system level permissions on devices."
+    },
+    {
+     "t": 129.8,
+     "text": "Why?"
+    },
+    {
+     "t": 130.5,
+     "text": "Because if it's trying to protect an attacker from doing malicious stuff at that level, it needs to also fight fire over fire and be at that level so that could prevent these kinds of things from happening and prevent attackers in their tracks."
+    },
+    {
+     "t": 144.8,
+     "text": "This software, and it's always updated, so this kind of software always has to be updated to detect the latest and greatest attacks that are happening out there."
+    },
+    {
+     "t": 154.4,
+     "text": "On Friday morning, an update went out, and the update was a bug."
+    },
+    {
+     "t": 158.5,
+     "text": "It went out incorrectly."
+    },
+    {
+     "t": 159.8,
+     "text": "There was an issue with it."
+    },
+    {
+     "t": 161.6,
+     "text": "And it crashed Windows."
+    },
+    {
+     "t": 163.4,
+     "text": "It did not affect Linux and Mac OS, but it did affect Windows."
+    },
+    {
+     "t": 168.6,
+     "text": "And in case you don't know, there are millions and millions of Windows machines out there running critical software that you don't know."
+    },
+    {
+     "t": 177.8,
+     "text": "We're talking about ATM machines, flight scheduling."
+    },
+    {
+     "t": 181.0,
+     "text": "Windows has been out there for a while, and we'll talk about that in a second."
+    },
+    {
+     "t": 184.1,
+     "text": "These Windows machines just completely died."
+    },
+    {
+     "t": 187.4,
+     "text": "They just completely went offline."
+    },
+    {
+     "t": 189.3,
+     "text": "And to recover them, it's a little bit of work."
+    },
+    {
+     "t": 191.9,
+     "text": "So let's make clear, this is not a cybersecurity incident, okay?"
+    },
+    {
+     "t": 196.6,
+     "text": "This is a software bug by a cybersecurity software company, okay?"
+    },
+    {
+     "t": 203.3,
+     "text": "So it's a bug that got rolled out."
+    },
+    {
+     "t": 204.8,
+     "text": "And bugs happen all the time."
+    },
+    {
+     "t": 207.0,
+     "text": "They usually don't have such a big impact, but they do sometimes have impact."
+    },
+    {
+     "t": 210.7,
+     "text": "It could be a software bug or a process bug or a variety of different bugs out there."
+    },
+    {
+     "t": 215.0,
+     "text": "Things happen."
+    },
+    {
+     "t": 216.1,
+     "text": "There's usually a process to identify and squash these bugs before they make an outfit to the world."
+    },
+    {
+     "t": 222.1,
+     "text": "Okay."
+    },
+    {
+     "t": 222.7,
+     "text": "It's called QA and."
+    },
+    {
+     "t": 237.9,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 259.7,
+     "text": "It's bananas out there."
+    },
+    {
+     "t": 261.0,
+     "text": "In any case, so why did this affect so many machines?"
+    },
+    {
+     "t": 263.4,
+     "text": "The fact of it, like I said before, is there are Windows computers everywhere."
+    },
+    {
+     "t": 267.1,
+     "text": "The Windows has been the business software to go to for the longest time."
+    },
+    {
+     "t": 272.5,
+     "text": "Now, there are Linux machines to do different things out there and maybe some Mac OS too."
+    },
+    {
+     "t": 276.9,
+     "text": "But it's just a fact of life."
+    },
+    {
+     "t": 278.3,
+     "text": "Windows is out there."
+    },
+    {
+     "t": 279.3,
+     "text": "There's some software that only works on Windows."
+    },
+    {
+     "t": 281.2,
+     "text": "Even legacy software."
+    },
+    {
+     "t": 282.3,
+     "text": "Sometimes you have legacy software that was only created on Windows."
+    },
+    {
+     "t": 285.0,
+     "text": "And they're sitting there in a data center somewhere doing some obscure thing."
+    },
+    {
+     "t": 289.3,
+     "text": "And then if that machine crashes or dies, we're talking about factories as well."
+    },
+    {
+     "t": 293.9,
+     "text": "Windows machines are everywhere."
+    },
+    {
+     "t": 295.2,
+     "text": "It's just a fact of life."
+    },
+    {
+     "t": 296.4,
+     "text": "And as machines get viruses."
+    },
+    {
+     "t": 298.3,
+     "text": "And so unless you disconnect it from the internet altogether and nobody touches it,"
+    },
+    {
+     "t": 303.2,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 319.8,
+     "text": "And as I said before, this software needs to run as root or system so that it can do its job."
+    },
+    {
+     "t": 328.0,
+     "text": "So what's the impact right now?"
+    },
+    {
+     "t": 329.1,
+     "text": "Consider this machine completely offline."
+    },
+    {
+     "t": 331.5,
+     "text": "So what happened when this update rolled out, it crashed Windows completely, like really bad."
+    },
+    {
+     "t": 338.3,
+     "text": "It didn't just give like a pop-up error."
+    },
+    {
+     "t": 340.2,
+     "text": "It just completely took the machine offline."
+    },
+    {
+     "t": 343.4,
+     "text": "And worse, this machine, if it's encrypted, which it should be as any company"
+    },
+    {
+     "t": 353.4,
+     "text": "If the machine is encrypted, to recover this encryption key, you have to go and pull it from somewhere."
+    },
+    {
+     "t": 359.6,
+     "text": "And a lot of IT folks are scrambling to pull these encryption keys."
+    },
+    {
+     "t": 363.2,
+     "text": "So in order to recover these machines, you have to go there and change this file, remove this file or change it or whatever it may be manually to this machine."
+    },
+    {
+     "t": 372.8,
+     "text": "So we're talking about either remotely or whatnot through a console changing this file so that this machine can't start because this is a driver level system update that happened."
+    },
+    {
+     "t": 382.8,
+     "text": "When Windows goes to call up and reads this file, it crashes and just can't go"
+    },
+    {
+     "t": 387.4,
+     "text": "It's crazy."
+    },
+    {
+     "t": 389.3,
+     "text": "People are working nonstop."
+    },
+    {
+     "t": 391.2,
+     "text": "I wonder what folks are doing for those who can't even access the BitLocker key that are out there."
+    },
+    {
+     "t": 397.4,
+     "text": "Hopefully these keys are available, but I'm going to guess that there are systems out there that folks are not able to find the BitLocker keys."
+    },
+    {
+     "t": 405.7,
+     "text": "And so what does that mean?"
+    },
+    {
+     "t": 406.4,
+     "text": "They have to redo the machine from scratch, complete disaster, and restore it from whatever backup they had."
+    },
+    {
+     "t": 412.4,
+     "text": "Hopefully they have backups."
+    },
+    {
+     "t": 414.2,
+     "text": "So did I say that this was a manual process?"
+    },
+    {
+     "t": 416.3,
+     "text": "It is excruciating for an IT person right now to be restoring this."
+    },
+    {
+     "t": 421.8,
+     "text": "And this is affecting millions of machines worldwide."
+    },
+    {
+     "t": 425.3,
+     "text": "So what's interesting is how are we going to react in the future, right?"
+    },
+    {
+     "t": 428.5,
+     "text": "How are we going to react?"
+    },
+    {
+     "t": 431.9,
+     "text": "And I find this really interesting."
+    },
+    {
+     "t": 433.6,
+     "text": "Are we going to trust things less now?"
+    },
+    {
+     "t": 435.6,
+     "text": "I think so."
+    },
+    {
+     "t": 436.6,
+     "text": "I think we're going to trust things a lot less."
+    },
+    {
+     "t": 439.1,
+     "text": "We're going to question some of the practices that we're doing."
+    },
+    {
+     "t": 442.1,
+     "text": "I know I remember a long time ago and some banks in high risk environments actually rigorous test"
+    },
+    {
+     "t": 450.8,
+     "text": "So it's standard practice that you don't automatically update systems that are in production."
+    },
+    {
+     "t": 455.4,
+     "text": "Antivirus signature updates are things that we're generally allowed for."
+    },
+    {
+     "t": 459.2,
+     "text": "So what's going to happen now?"
+    },
+    {
+     "t": 460.6,
+     "text": "Not only are systems, hopefully tech folks all over the world are going to make their systems a little more resilient."
+    },
+    {
+     "t": 466.9,
+     "text": "And so think about disaster recovery like a disaster can happen from anywhere, right?"
+    },
+    {
+     "t": 471.0,
+     "text": "Whether a data center dark or the system gets deleted by accident or something like this happens that impacts a machine from an unknown source."
+    },
+    {
+     "t": 480.8,
+     "text": "Hopefully systems will be designed more resilient."
+    },
+    {
+     "t": 483.4,
+     "text": "Another thing is obviously people are going to demand answers from CrowdStrike."
+    },
+    {
+     "t": 486.6,
+     "text": "So there's probably going to be a public hearing."
+    },
+    {
+     "t": 488.8,
+     "text": "They've been really good as far as communicating some things out there."
+    },
+    {
+     "t": 492.7,
+     "text": "There's been apologies and all that kind of stuff."
+    },
+    {
+     "t": 495.2,
+     "text": "So there's a lot of hate also, of course, which I don't think is healthy right now."
+    },
+    {
+     "t": 499.5,
+     "text": "That's something to be said."
+    },
+    {
+     "t": 501.4,
+     "text": "But what's interesting is this could lead to more insecurity because companies might not update or even install anti-malware software on their devices and machines anymore, right?"
+    },
+    {
+     "t": 511.9,
+     "text": "If it's a critical machine, they may take the risk that this machine could get hacked versus worrying about this machine being subject to an issue before."
+    },
+    {
+     "t": 522.0,
+     "text": "And by the way, this actually happened before with Linux a few months ago."
+    },
+    {
+     "t": 527.5,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 535.8,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 551.2,
+     "text": "If in case you haven't noticed, these things have been happening more and more, right?"
+    },
+    {
+     "t": 554.8,
+     "text": "Not necessarily software bugs, but the dealership software issue that happened several weeks ago where so many dealerships went offline because of a ransomware attack."
+    },
+    {
+     "t": 563.5,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 592.6,
+     "text": "Hold our companies a little more accountable."
+    },
+    {
+     "t": 594.9,
+     "text": "And three, just take into consideration that these are, these events are going to happen more and more."
+    },
+    {
+     "t": 602.2,
+     "text": "So leads back to point number one."
+    },
+    {
+     "t": 604.2,
+     "text": "Anyway, I hope I broke this out for you in a simple and easy to explain method."
+    },
+    {
+     "t": 608.7,
+     "text": "If you learned anything new today, please feel free to share this video and appreciate you."
+    },
+    {
+     "t": 614.0,
+     "text": "And we'll talk again next time."
+    },
+    {
+     "t": 615.2,
+     "text": "Thanks."
+    },
+    {
+     "t": 615.5,
+     "text": "Bye-bye."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

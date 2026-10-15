@@ -1,0 +1,1269 @@
+{
+ "slug": "what-you-need-to-know-about-restoring-from-a-backup",
+ "scope": "ayman",
+ "format": "panel",
+ "turns": [
+  {
+   "start": 63.1,
+   "end": 67.7,
+   "lines": [
+    {
+     "t": 63.1,
+     "text": "Caught me before the end of my sip."
+    },
+    {
+     "t": 64.3,
+     "text": "Thank you."
+    },
+    {
+     "t": 64.9,
+     "text": "Awesome."
+    },
+    {
+     "t": 65.6,
+     "text": "Awesome."
+    },
+    {
+     "t": 66.0,
+     "text": "Ayman, over to you."
+    },
+    {
+     "t": 66.7,
+     "text": "What's going on?"
+    },
+    {
+     "t": 67.4,
+     "text": "Welcome."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 68.5,
+   "end": 91.6,
+   "lines": [
+    {
+     "t": 68.5,
+     "text": "Hey, everyone."
+    },
+    {
+     "t": 69.3,
+     "text": "I am an also CEO of Cloud Security Labs."
+    },
+    {
+     "t": 72.0,
+     "text": "We do vCISO security advisory for high growth startups and happy to be here based out of California in the Bay Area."
+    },
+    {
+     "t": 80.8,
+     "text": "And we help companies with their security programs."
+    },
+    {
+     "t": 83.6,
+     "text": "And my background before that was also in enterprise with a specialized focus in cloud security, IAM and security operations."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 132.8,
+   "end": 162.3,
+   "lines": [
+    {
+     "t": 132.8,
+     "text": "What is a backup mean to a small business?"
+    },
+    {
+     "t": 137.7,
+     "text": "And this is a mid-sized business."
+    },
+    {
+     "t": 139.3,
+     "text": "So it's going to go through kind of this question of like, what do I back up?"
+    },
+    {
+     "t": 143.0,
+     "text": "When do I back it up?"
+    },
+    {
+     "t": 144.1,
+     "text": "Where do I back it up to?"
+    },
+    {
+     "t": 145.4,
+     "text": "And then"
+    },
+    {
+     "t": 146.3,
+     "text": "What do I do with the backups?"
+    },
+    {
+     "t": 147.6,
+     "text": "How do I protect the backups?"
+    },
+    {
+     "t": 149.2,
+     "text": "When should I restore them?"
+    },
+    {
+     "t": 150.3,
+     "text": "How should I test them?"
+    },
+    {
+     "t": 151.1,
+     "text": "We're going to kind of go through all of this, but let's go to Ayman."
+    },
+    {
+     "t": 153.7,
+     "text": "Let's go to you first."
+    },
+    {
+     "t": 154.8,
+     "text": "You know, starting with like, what are we backing up in an organization?"
+    },
+    {
+     "t": 158.7,
+     "text": "I'm a mid-sized client."
+    },
+    {
+     "t": 159.7,
+     "text": "Like, what should I be backing up?"
+    },
+    {
+     "t": 161.6,
+     "text": "What should I be looking at?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 163.8,
+   "end": 209.0,
+   "lines": [
+    {
+     "t": 163.8,
+     "text": "The way I like to tell folks, or the way I like to frame it is, if you lost data tomorrow, today, what would you cry over?"
+    },
+    {
+     "t": 173.5,
+     "text": "What would you, you know, lose sleep over?"
+    },
+    {
+     "t": 176.3,
+     "text": "Just start from there."
+    },
+    {
+     "t": 177.3,
+     "text": "You know, what are the type of data that if it was missing tomorrow, you would, you know, lose sleep, get fired over, I'm not sure, right, get sued."
+    },
+    {
+     "t": 185.3,
+     "text": "So start from there."
+    },
+    {
+     "t": 186.5,
+     "text": "It's pretty, pretty straightforward question."
+    },
+    {
+     "t": 190.8,
+     "text": "You know, there's some data that you can restore back and repopulate, but there's other data that's, you know, specialized and analytics and metadata that you've taken from your customers, around your customers."
+    },
+    {
+     "t": 202.3,
+     "text": "So without getting to specifics, that's really,"
+    },
+    {
+     "t": 206.4,
+     "text": "You know, just identify what you would lose sleep over."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 326.4,
+   "end": 350.2,
+   "lines": [
+    {
+     "t": 326.4,
+     "text": "So you bring up the operations component."
+    },
+    {
+     "t": 328.2,
+     "text": "Ayman, I want to go to you."
+    },
+    {
+     "t": 329.1,
+     "text": "You know, there's data, like data files, databases, information."
+    },
+    {
+     "t": 335.1,
+     "text": "And then there's configuration capabilities."
+    },
+    {
+     "t": 337.3,
+     "text": "How do you make all of the data accessible?"
+    },
+    {
+     "t": 340.5,
+     "text": "How do you make your systems run?"
+    },
+    {
+     "t": 342.6,
+     "text": "Is Active Directory, when you back it up, is that data or is that configuration?"
+    },
+    {
+     "t": 346.9,
+     "text": "How do you treat those two things?"
+    },
+    {
+     "t": 348.2,
+     "text": "Where do you look first?"
+    },
+    {
+     "t": 349.5,
+     "text": "Just your thoughts."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 352.2,
+   "end": 413.1,
+   "lines": [
+    {
+     "t": 352.2,
+     "text": "So if you're talking about system operations and critical infrastructure, I am very biased towards cloud and automation."
+    },
+    {
+     "t": 361.3,
+     "text": "So, for example, if you have, say your AWS configuration, if you had set it up all manually in the AWS console, well, it'd be easier to get it in Terraform, for example."
+    },
+    {
+     "t": 375.5,
+     "text": "So, you know, diving into the weeds here, but getting a Terraform, it's all in source code, hopefully using, you know, say a source code platform that's online, a SaaS platform that's backed up like GitHub, and that's all tracked and, you know, you have your configurations there."
+    },
+    {
+     "t": 391.7,
+     "text": "Active Directory, you know, hopefully you have multiple ADs or multiple, you know, domain controllers leveraging Azure AD to kind of, you know, sync, things like that."
+    },
+    {
+     "t": 403.1,
+     "text": "So, you know, I'm a big proponent of cloud."
+    },
+    {
+     "t": 406.9,
+     "text": "I've kind of, you know, I've had, I'm drinking the Kool-Aid."
+    },
+    {
+     "t": 410.4,
+     "text": "So, you know, that's going to be my approach."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 565.2,
+   "end": 591.0,
+   "lines": [
+    {
+     "t": 565.2,
+     "text": "Why?"
+    },
+    {
+     "t": 565.5,
+     "text": "Because they know that you're trying to use this as your get out of jail free card."
+    },
+    {
+     "t": 569.1,
+     "text": "So if they can cripple this,"
+    },
+    {
+     "t": 571.8,
+     "text": "This doesn't matter anymore."
+    },
+    {
+     "t": 572.9,
+     "text": "It's not as it's not as important."
+    },
+    {
+     "t": 574.8,
+     "text": "So just something that I've recently seen and have seen and actually heard quite a bit about from other folks and my peers that they are dealing with that configuration data is potentially just as important as the data itself."
+    },
+    {
+     "t": 590.0,
+     "text": "Yeah, please."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 593.1,
+   "end": 678.1,
+   "lines": [
+    {
+     "t": 593.1,
+     "text": "Yeah so along those lines I mean I think it's good to elucidate the different types of data backups and different levels that we can have and you know everybody here is familiar with this but other folks might not be so for example having high availability so you know taking that system and making it fully redundant right so you have that system and then there's another backup system and another tertiary backup system where you know it's so you can have either high availability so"
+    },
+    {
+     "t": 623.1,
+     "text": "Active for example or active well it's the new word but you know so basically dormant so the second site would be dormant and so that you can restore and you know again like if you know say remember you might be good to whiteboard right take a look at your configuration and say hey if this machine completely disappeared can we do what we need to do right so high availability"
+    },
+    {
+     "t": 654.6,
+     "text": "A disaster recovery right so if a disaster happens if this if it's an on-prem you know and it's stored at HQ if HQ gets hit by a storm I mean we all think we're all thinking ransomware but also weather and storms and floods happen right so if this equipment is destroyed what's gonna happen you know do we have a full complete backup of somewhere else so"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 793.4,
+   "end": 799.5,
+   "lines": [
+    {
+     "t": 793.4,
+     "text": "Got it."
+    },
+    {
+     "t": 795.4,
+     "text": "All right, so I'll take three."
+    },
+    {
+     "t": 796.4,
+     "text": "I like those."
+    },
+    {
+     "t": 797.7,
+     "text": "Ayman, what do you got?"
+    },
+    {
+     "t": 798.5,
+     "text": "You got a couple more?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 800.3,
+   "end": 900.2,
+   "lines": [
+    {
+     "t": 800.3,
+     "text": "Yeah, so I'm going to take it from the cloud perspective."
+    },
+    {
+     "t": 804.1,
+     "text": "There's a story of Codespaces that I like to teach my students about."
+    },
+    {
+     "t": 809.1,
+     "text": "A long time ago, this company, they provided secure code backup for their Git repos."
+    },
+    {
+     "t": 817.5,
+     "text": "And at the end of the day, an AWS key with admin or root privileges got compromised."
+    },
+    {
+     "t": 825.3,
+     "text": "And completely deleted everything in there so the lesson from there is you know just so to go back to the question you know if you're if you're in the cloud using you know configuration backup using infrastructure as code okay the cloud provider is taking care of some of the hardware items but they're not they're not protecting your software so if you have everything in one region"
+    },
+    {
+     "t": 851.6,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat"
+    },
+    {
+     "t": 881.4,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 891.8,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1229.7,
+   "end": 1239.5,
+   "lines": [
+    {
+     "t": 1229.7,
+     "text": "And then the two is that you should use at least two different types of media to store your copies."
+    },
+    {
+     "t": 1236.1,
+     "text": "So internal hard drive, external hard drive, cloud, tape,"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1242.1,
+   "end": 1259.3,
+   "lines": [
+    {
+     "t": 1242.1,
+     "text": "And then something to add to that, I'm sure as part of your plan is, you know, that data should be at least 50 miles apart, maybe even more 75 miles apart."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1300.8,
+   "end": 1301.9,
+   "lines": [
+    {
+     "t": 1300.8,
+     "text": "Awesome."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 1302.3,
+   "end": 1313.4,
+   "lines": [
+    {
+     "t": 1302.3,
+     "text": "So we have all of those in place."
+    },
+    {
+     "t": 1305.5,
+     "text": "Oh, go ahead, Ayman."
+    },
+    {
+     "t": 1306.1,
+     "text": "Go ahead."
+    },
+    {
+     "t": 1306.8,
+     "text": "And then if those backups, we haven't talked about encrypted backups, but if those backups are encrypted, don't lose the key."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1315.1,
+   "end": 1324.2,
+   "lines": [
+    {
+     "t": 1315.1,
+     "text": "Right."
+    },
+    {
+     "t": 1316.9,
+     "text": "To say that exact thing has happened to them."
+    },
+    {
+     "t": 1319.0,
+     "text": "Some other company set it up for them and they can't find the key."
+    },
+    {
+     "t": 1323.6,
+     "text": "So they're worthless."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1325.9,
+   "end": 1334.7,
+   "lines": [
+    {
+     "t": 1325.9,
+     "text": "Yeah, so."
+    },
+    {
+     "t": 1327.0,
+     "text": "When you go to test your backup, you'll know whether you can restore it or not when you go to decrypt it."
+    },
+    {
+     "t": 1333.9,
+     "text": "Don't lose the key."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1444.2,
+   "end": 1457.5,
+   "lines": [
+    {
+     "t": 1444.2,
+     "text": "When it does happen, we will do these things."
+    },
+    {
+     "t": 1447.7,
+     "text": "So how do we start thinking about building a recovery strategy?"
+    },
+    {
+     "t": 1450.8,
+     "text": "Where does it impact?"
+    },
+    {
+     "t": 1452.0,
+     "text": "Who does it impact?"
+    },
+    {
+     "t": 1452.8,
+     "text": "Who is involved?"
+    },
+    {
+     "t": 1454.2,
+     "text": "Ayman, let's go to you first."
+    },
+    {
+     "t": 1455.2,
+     "text": "What are your thoughts about building the recovery strategy?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 1458.4,
+   "end": 1542.4,
+   "lines": [
+    {
+     "t": 1458.4,
+     "text": "So one of the first things is recovery time objectives."
+    },
+    {
+     "t": 1463.0,
+     "text": "RTO, fancy word, but basically what it means is, and it's going to take collaboration with the business because you might have an idea as say the VP of engineering or the CTO or CIO,"
+    },
+    {
+     "t": 1473.3,
+     "text": "And the CEO might have a different idea."
+    },
+    {
+     "t": 1475.2,
+     "text": "So how long is it going to take to restore that data back to an operational part?"
+    },
+    {
+     "t": 1483.0,
+     "text": "So your business is back in operation."
+    },
+    {
+     "t": 1484.5,
+     "text": "So, you know, is it going to take three hours, five minutes, a day?"
+    },
+    {
+     "t": 1489.1,
+     "text": "You know, have you considered, you know, thawing it out and removing it from cold storage?"
+    },
+    {
+     "t": 1494.5,
+     "text": "And if say you have it in Amazon Glacier, right?"
+    },
+    {
+     "t": 1497.5,
+     "text": "How long is it going to take to restore it?"
+    },
+    {
+     "t": 1499.0,
+     "text": "Check out their, you know, SLAs."
+    },
+    {
+     "t": 1502.0,
+     "text": "So you really need to decide how long that's going to take."
+    },
+    {
+     "t": 1505.9,
+     "text": "Once you have that, then test it."
+    },
+    {
+     "t": 1509.7,
+     "text": "Find out, okay, I'm going to restore it."
+    },
+    {
+     "t": 1512.0,
+     "text": "And you're actually going through the procedures."
+    },
+    {
+     "t": 1514.3,
+     "text": "Oh, what was that command again?"
+    },
+    {
+     "t": 1516.0,
+     "text": "How do I restore this?"
+    },
+    {
+     "t": 1516.9,
+     "text": "Or how do I have that all documented, right?"
+    },
+    {
+     "t": 1519.2,
+     "text": "So make it easy for the engineers so they're not fumbling and you're in crisis mode and not even sure what the command is to restore properly."
+    },
+    {
+     "t": 1527.9,
+     "text": "And then you realize,"
+    },
+    {
+     "t": 1529.2,
+     "text": "That when you restored it, you know, you didn't restore a full, you didn't restore it properly because you were missing some attribute in the command or something like that."
+    },
+    {
+     "t": 1538.5,
+     "text": "So I'll start off from there and see if Kathy has anything else."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1915.9,
+   "end": 1940.8,
+   "lines": [
+    {
+     "t": 1915.9,
+     "text": "I love that."
+    },
+    {
+     "t": 1916.4,
+     "text": "I'll actually go to a question."
+    },
+    {
+     "t": 1917.4,
+     "text": "I missed this and I think it's really important."
+    },
+    {
+     "t": 1918.9,
+     "text": "So we're going to go back."
+    },
+    {
+     "t": 1919.6,
+     "text": "I warned our panelists that, you know,"
+    },
+    {
+     "t": 1922.4,
+     "text": "Our audience gives great questions, but there's sometimes a lag between what we're currently talking about and the questions as they come in."
+    },
+    {
+     "t": 1928.8,
+     "text": "Back to encryption."
+    },
+    {
+     "t": 1929.7,
+     "text": "I know I just erased it."
+    },
+    {
+     "t": 1932.3,
+     "text": "Does it always warrant encrypting our backups?"
+    },
+    {
+     "t": 1935.5,
+     "text": "Is it a hard and fast yes, always encrypt our backups?"
+    },
+    {
+     "t": 1938.7,
+     "text": "Or is there conditions for that?"
+    },
+    {
+     "t": 1940.0,
+     "text": "Ayman, what are your thoughts?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 1941.4,
+   "end": 2006.2,
+   "lines": [
+    {
+     "t": 1941.4,
+     "text": "Yeah, it's an interesting question."
+    },
+    {
+     "t": 1945.1,
+     "text": "If you have sensitive data on there, yes, I would say so."
+    },
+    {
+     "t": 1949.7,
+     "text": "If you're backing up social security numbers, date of births, any sort of restricted information, especially to tape where you're giving it to a third party and shipping it somewhere, because tapes get lost, media gets lost all the time."
+    },
+    {
+     "t": 1963.3,
+     "text": "So absolutely 100% encrypt."
+    },
+    {
+     "t": 1968.5,
+     "text": "When you're backing up to S3, technically it's encrypted on the back end."
+    },
+    {
+     "t": 1973.9,
+     "text": "So it depends."
+    },
+    {
+     "t": 1977.1,
+     "text": "Honestly, it depends on the type of data."
+    },
+    {
+     "t": 1980.5,
+     "text": "But in this day and age, 2022, encryption is kind of ubiquitous."
+    },
+    {
+     "t": 1986.1,
+     "text": "It's kind of expected of you as an organization, depending on the type of service that you do."
+    },
+    {
+     "t": 1992.2,
+     "text": "I mean, if it's pictures of kittens, then sure, don't encrypt it."
+    },
+    {
+     "t": 1995.6,
+     "text": "Okay, sure, that's fine."
+    },
+    {
+     "t": 1998.1,
+     "text": "But, you know, hey, you know, that might be some, you know, you might have to back up these images for thumbnails or something, you know."
+    },
+    {
+     "t": 2005.8,
+     "text": "Hey."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2006.5,
+   "end": 2027.7,
+   "lines": [
+    {
+     "t": 2006.5,
+     "text": "Actually, that's a great point."
+    },
+    {
+     "t": 2008.2,
+     "text": "Shutterstock would probably want to be encrypting all of their imagery because that would be their intellectual property or their data, right?"
+    },
+    {
+     "t": 2017.8,
+     "text": "What you encrypt is what's most meaningful to you as a business, right?"
+    },
+    {
+     "t": 2022.0,
+     "text": "So that's a good bet."
+    },
+    {
+     "t": 2023.7,
+     "text": "I would personally encrypt all my kitten backup pictures and pictures of my cat."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 2029.2,
+   "end": 2040.8,
+   "lines": [
+    {
+     "t": 2029.2,
+     "text": "Yeah, it's kind of expected."
+    },
+    {
+     "t": 2031.3,
+     "text": "It's kind of expected now."
+    },
+    {
+     "t": 2033.5,
+     "text": "I always err on the side of encrypting."
+    },
+    {
+     "t": 2035.9,
+     "text": "I guess, you know, it would have to be a certain exception on what not to encrypt."
+    },
+    {
+     "t": 2039.4,
+     "text": "But Kathy, you're going to say something?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2137.2,
+   "end": 2139.3,
+   "lines": [
+    {
+     "t": 2137.2,
+     "text": "Yeah, I have a story."
+    },
+    {
+     "t": 2138.4,
+     "text": "Go ahead."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 2140.2,
+   "end": 2246.5,
+   "lines": [
+    {
+     "t": 2140.2,
+     "text": "No, sorry."
+    },
+    {
+     "t": 2140.8,
+     "text": "I have a story."
+    },
+    {
+     "t": 2143.2,
+     "text": "Oh, sure, sure."
+    },
+    {
+     "t": 2144.1,
+     "text": "So, you know, there's a company, a blockchain company I worked with, that would generate data."
+    },
+    {
+     "t": 2150.5,
+     "text": "So if it's like, if it's generated data, where it's, you know, data that you can generate again, if it disappeared, you know, you know, then do it, do they need to encrypt it at rest?"
+    },
+    {
+     "t": 2162.7,
+     "text": "You know, it's something that, and it's, if the data was lost, it's kind of useless to whoever was, I mean, it really depends."
+    },
+    {
+     "t": 2170.2,
+     "text": "You know, if it's like really core to your IP, then encrypt it."
+    },
+    {
+     "t": 2175.1,
+     "text": "In fact, I was getting the question, you know, should I encrypt it in transit?"
+    },
+    {
+     "t": 2177.8,
+     "text": "I'm like, okay, that's actually probably more important than encrypting it at rest."
+    },
+    {
+     "t": 2184.7,
+     "text": "So, you know, your mileage may vary, I guess, depending."
+    },
+    {
+     "t": 2187.7,
+     "text": "And I think the newspaper test is great."
+    },
+    {
+     "t": 2189.8,
+     "text": "Like if you lost this data, you know, would your customers be really upset?"
+    },
+    {
+     "t": 2195.3,
+     "text": "Would your CEO be upset?"
+    },
+    {
+     "t": 2197.5,
+     "text": "On whether the data was lost or not."
+    },
+    {
+     "t": 2199.0,
+     "text": "And we're talking petabytes, petabytes of data, leveraging, you know, if S3 is already encrypting it, or you could use a KMS key and just, you know, encrypt it and there's no performance impact."
+    },
+    {
+     "t": 2212.5,
+     "text": "You know, so, you know, I still hear, I still hear these days, encrypting it is going to affect performance."
+    },
+    {
+     "t": 2220.6,
+     "text": "And I have to push back sometimes and say, okay, well, can you show me how, can we do a test?"
+    },
+    {
+     "t": 2227.1,
+     "text": "I think there's still a lot of perception within cybersecurity and within information security and information security practices that are still a holdover from the days before, right?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2392.8,
+   "end": 2408.6,
+   "lines": [
+    {
+     "t": 2392.8,
+     "text": "So leveraging cloud to basically be your second site for file level data or and or potentially server images."
+    },
+    {
+     "t": 2407.8,
+     "text": "Ayman, what are your thoughts?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 2410.6,
+   "end": 2498.7,
+   "lines": [
+    {
+     "t": 2410.6,
+     "text": "Yeah, there's a few ways."
+    },
+    {
+     "t": 2416.2,
+     "text": "So I mean, without any budget, you can"
+    },
+    {
+     "t": 2420.1,
+     "text": "Try to run checks to make sure you have the right data."
+    },
+    {
+     "t": 2422.4,
+     "text": "So taking that image backup that Kathy mentioned, running an integrity check."
+    },
+    {
+     "t": 2427.4,
+     "text": "So do a hash of your backup and do a hash of your live server, maybe the partition image."
+    },
+    {
+     "t": 2435.4,
+     "text": "And then all the way to asking for a budget."
+    },
+    {
+     "t": 2439.6,
+     "text": "So asking for that backup server or that HA server."
+    },
+    {
+     "t": 2444.1,
+     "text": "So go to your boss or your management and say, hey,"
+    },
+    {
+     "t": 2449.1,
+     "text": "This is how long it's going to take or to restore or whatnot."
+    },
+    {
+     "t": 2453.1,
+     "text": "And we need to make sure, you know, our servers are backed up."
+    },
+    {
+     "t": 2457.4,
+     "text": "Can we buy a low-end HA server or, you know, whatnot that can, you know, function as both high availability server and, you know, way to restore."
+    },
+    {
+     "t": 2471.5,
+     "text": "And show them you know here's the cost of not buying it right here's the amount of hours that we're gonna have to spend to just make sure that this backup works and whatnot but if you really absolutely can't have that yeah you know trying to use the available tools like running integrity checks restoring to the cloud as kathy mentioned doing spot checks you know of files so pick important files every once in a while and see if they're there and they match"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2558.8,
+   "end": 2578.5,
+   "lines": [
+    {
+     "t": 2558.8,
+     "text": "That's going to take up memory storage or CPU."
+    },
+    {
+     "t": 2562.3,
+     "text": "You're really just testing, will this work, right?"
+    },
+    {
+     "t": 2564.7,
+     "text": "So you can flash it, restore it into your local virtual image or platform, and then blow it away after you know that it works."
+    },
+    {
+     "t": 2573.6,
+     "text": "I mean, that's quick, easy, and hopefully cost effective."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 2578.7,
+   "end": 2588.1,
+   "lines": [
+    {
+     "t": 2578.7,
+     "text": "Snapshots, snapshots, and you can take snapshots, daily snapshots, and all this stuff."
+    },
+    {
+     "t": 2583.6,
+     "text": "Yeah, it's a really good point."
+    },
+    {
+     "t": 2587.0,
+     "text": "This is great."
+    },
+    {
+     "t": 2587.6,
+     "text": "I love this."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2730.9,
+   "end": 2733.5,
+   "lines": [
+    {
+     "t": 2730.9,
+     "text": "Right."
+    },
+    {
+     "t": 2731.6,
+     "text": "Thanks."
+    },
+    {
+     "t": 2732.6,
+     "text": "Ayman, what are your thoughts?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 2734.9,
+   "end": 2838.2,
+   "lines": [
+    {
+     "t": 2734.9,
+     "text": "Pay your bills."
+    },
+    {
+     "t": 2737.4,
+     "text": "So I've seen, so there's a lot of like third party, small like cloud backup solutions."
+    },
+    {
+     "t": 2744.3,
+     "text": "I'm not talking like AWS or the bigger ones, although those can be included."
+    },
+    {
+     "t": 2748.6,
+     "text": "But, you know, I won't name them, but say you're using one of those services, which are great."
+    },
+    {
+     "t": 2753.3,
+     "text": "They even do like full bare metal or SOAR."
+    },
+    {
+     "t": 2756.2,
+     "text": "And then your credit card expires and you realize that you haven't paid your bill and the account just disappeared."
+    },
+    {
+     "t": 2762.4,
+     "text": "That happens."
+    },
+    {
+     "t": 2763.4,
+     "text": "So yeah, pay your bills."
+    },
+    {
+     "t": 2766.5,
+     "text": "If you're backing up to maybe Synology and then that Synology is also backed up to S3, make sure your S3, your Amazon account is paid."
+    },
+    {
+     "t": 2777.3,
+     "text": "It's so funny that I've seen some of these, oh, they go to restore or I'll ask the IT folks, hey,"
+    },
+    {
+     "t": 2784.8,
+     "text": "Are you backing up?"
+    },
+    {
+     "t": 2785.5,
+     "text": "Like, oh, yeah, the so-and-so account expired."
+    },
+    {
+     "t": 2788.5,
+     "text": "I'm like, well, why didn't you tell me?"
+    },
+    {
+     "t": 2790.2,
+     "text": "What's going on?"
+    },
+    {
+     "t": 2790.9,
+     "text": "Like, I'll give you a new credit card."
+    },
+    {
+     "t": 2792.8,
+     "text": "What's going on?"
+    },
+    {
+     "t": 2793.4,
+     "text": "So, yeah, pay your bills."
+    },
+    {
+     "t": 2796.3,
+     "text": "The system configuration piece, so important."
+    },
+    {
+     "t": 2798.5,
+     "text": "Like, you know, I love bare metal backups."
+    },
+    {
+     "t": 2804.3,
+     "text": "If you are still using bare metal, have a bare metal, like, down to the file level, it's just so much easier to restore."
+    },
+    {
+     "t": 2810.3,
+     "text": "But then, you know, leverage virtual, you know, VDIs for that."
+    },
+    {
+     "t": 2815.5,
+     "text": "And then, you know, store your keys in a good place."
+    },
+    {
+     "t": 2819.3,
+     "text": "Like, 1Password's a great place to do it."
+    },
+    {
+     "t": 2822.1,
+     "text": "You know, create a vault with a few folks and store those keys in a special vault."
+    },
+    {
+     "t": 2829.2,
+     "text": "Please don't, like, you know, have it in a printout underneath, you know, in the CEO's drawer or something like that."
+    },
+    {
+     "t": 2834.4,
+     "text": "So, please have your keys somewhere."
+    },
+    {
+     "t": 2837.3,
+     "text": "It's important."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3076.2,
+   "end": 3079.0,
+   "lines": [
+    {
+     "t": 3076.2,
+     "text": "Excellent."
+    },
+    {
+     "t": 3076.6,
+     "text": "Ayman, how can folks reach out to you or find you?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 3079.0,
+   "end": 3091.7,
+   "lines": [
+    {
+     "t": 3079.0,
+     "text": "Yeah, I'm on LinkedIn."
+    },
+    {
+     "t": 3080.2,
+     "text": "I'm on LinkedIn."
+    },
+    {
+     "t": 3081.5,
+     "text": "You can find me there, Ayman Elsawah, or if you just do Ayman Security, I'll probably be the first one."
+    },
+    {
+     "t": 3087.1,
+     "text": "And if you have any questions, ayman at cloudsecuritylabs.io is my email."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3096.2,
+   "end": 3112.7,
+   "lines": [
+    {
+     "t": 3096.2,
+     "text": "I security.io."
+    },
+    {
+     "t": 3100.7,
+     "text": "We'll have all of this written down as well."
+    },
+    {
+     "t": 3103.3,
+     "text": "Brian Hoagley I'm Brian Hoagley with Side Channel."
+    },
+    {
+     "t": 3105.7,
+     "text": "You can follow me anywhere online if you follow hashtag CISOlife."
+    },
+    {
+     "t": 3111.5,
+     "text": "That's the easiest way to do it."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 3113.4,
+   "end": 3114.1,
+   "lines": [
+    {
+     "t": 3113.4,
+     "text": "I'll be over here."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

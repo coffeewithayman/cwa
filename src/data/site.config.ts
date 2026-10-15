@@ -158,6 +158,14 @@ export const nodes: NodeConfig[] = [
     ringColor: "#9b59d0",
   },
   {
+    id: "talks",
+    mainText: "Talks &\nVideos",
+    secondaryText: "ARCHIVE",
+    tooltip: "Every talk, panel, interview and podcast appearance — searchable, with transcripts",
+    href: "/talks/",
+    ringColor: "#e05a8a",
+  },
+  {
     id: "misc-projects",
     mainText: "Misc\nProjects",
     secondaryText: "GITHUB",

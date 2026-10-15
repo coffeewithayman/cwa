@@ -1,0 +1,75 @@
+{
+  "id": "ZK7PLiqXjdg",
+  "title": "What You Need To Know About Restoring From A Backup",
+  "description": "wizer-training.com",
+  "upload_date": "20220211",
+  "duration": 3176,
+  "channel": "Wizer - Security Awareness Training",
+  "uploader": "Wizer - Security Awareness Training",
+  "channel_url": "https://www.youtube.com/channel/UC_LhyQAkn-a1ZoWpeJWclnA",
+  "webpage_url": "https://www.youtube.com/watch?v=ZK7PLiqXjdg",
+  "extractor_key": "Youtube",
+  "thumbnail": "https://i.ytimg.com/vi/ZK7PLiqXjdg/maxresdefault.jpg",
+  "chapters": [
+    {
+      "start_time": 0,
+      "title": "Introduction",
+      "end_time": 210
+    },
+    {
+      "start_time": 210,
+      "title": "Critical Data",
+      "end_time": 414
+    },
+    {
+      "start_time": 414,
+      "title": "Configuration Data",
+      "end_time": 680
+    },
+    {
+      "start_time": 680,
+      "title": "Hot or Cold",
+      "end_time": 945
+    },
+    {
+      "start_time": 945,
+      "title": "Hardware Failure",
+      "end_time": 1012
+    },
+    {
+      "start_time": 1012,
+      "title": "Integrity",
+      "end_time": 1163
+    },
+    {
+      "start_time": 1163,
+      "title": "Governance",
+      "end_time": 1270
+    },
+    {
+      "start_time": 1270,
+      "title": "Storage",
+      "end_time": 1429
+    },
+    {
+      "start_time": 1429,
+      "title": "Recovery Strategy",
+      "end_time": 1669
+    },
+    {
+      "start_time": 1669,
+      "title": "Money",
+      "end_time": 1915
+    },
+    {
+      "start_time": 1915,
+      "title": "Encryption",
+      "end_time": 2143
+    },
+    {
+      "start_time": 2143,
+      "title": "Encryption in transit",
+      "end_time": 3176
+    }
+  ]
+}

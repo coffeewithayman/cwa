@@ -1,0 +1,2199 @@
+{
+ "slug": "ayman-elsawah-using-paretos-principle-for-securing-aws-with",
+ "scope": "all",
+ "format": "talk",
+ "turns": [
+  {
+   "start": 0.1,
+   "end": 809.9,
+   "lines": [
+    {
+     "t": 0.1,
+     "text": "Hey everyone, thanks for coming."
+    },
+    {
+     "t": 2.5,
+     "text": "Okay, so let's just get into it."
+    },
+    {
+     "t": 5.7,
+     "text": "Using Pareto's Principle for Securing Arrest with SCPs."
+    },
+    {
+     "t": 8.8,
+     "text": "So, let me turn on my remote, that would help."
+    },
+    {
+     "t": 12.8,
+     "text": "And let me put it over here."
+    },
+    {
+     "t": 14.6,
+     "text": "All right, cool."
+    },
+    {
+     "t": 15.6,
+     "text": "So a little about me."
+    },
+    {
+     "t": 17.2,
+     "text": "I like AWS."
+    },
+    {
+     "t": 17.9,
+     "text": "I've been doing security for a while, whatever, blah, blah, blah."
+    },
+    {
+     "t": 19.9,
+     "text": "I took some tests."
+    },
+    {
+     "t": 20.7,
+     "text": "That's not a big deal."
+    },
+    {
+     "t": 22.1,
+     "text": "I'm also really into coffee."
+    },
+    {
+     "t": 23.8,
+     "text": "This is my real coffee set at home."
+    },
+    {
+     "t": 26.2,
+     "text": "So if you want to talk about single origins and pour overs and recipes, I could talk ad nauseum about that."
+    },
+    {
+     "t": 33.4,
+     "text": "I also run a podcast called Getting Into Infosec, and it's designed to help folks get into security by interviewing folks that are out there and see how they got in, because everybody's path into security is different."
+    },
+    {
+     "t": 45.3,
+     "text": "And then I also wrote a book as well because, well, you know, it's just kind of helping solve the problem as well."
+    },
+    {
+     "t": 51.4,
+     "text": "So like if you sat down with me for like an hour over coffee, what would I tell you?"
+    },
+    {
+     "t": 55.7,
+     "text": "This is what I would tell you."
+    },
+    {
+     "t": 57.5,
+     "text": "And I like Hawaiian shirts."
+    },
+    {
+     "t": 58.6,
+     "text": "So on Fridays at work, you see me, I'll probably be wearing a Hawaiian shirt."
+    },
+    {
+     "t": 62.3,
+     "text": "So that's a little about me."
+    },
+    {
+     "t": 65.7,
+     "text": "Cool."
+    },
+    {
+     "t": 66.4,
+     "text": "So, I have no idea about you guys."
+    },
+    {
+     "t": 69.3,
+     "text": "This is the first time that the Cloud Village existed, so I just want to get to know everyone out there a little bit."
+    },
+    {
+     "t": 74.7,
+     "text": "How many folks out there manage AWS accounts, 10 or less?"
+    },
+    {
+     "t": 79.1,
+     "text": "10 or less AWS accounts?"
+    },
+    {
+     "t": 81.0,
+     "text": "Okay."
+    },
+    {
+     "t": 81.7,
+     "text": "How many manage 25 or more accounts?"
+    },
+    {
+     "t": 85.2,
+     "text": "All right."
+    },
+    {
+     "t": 85.8,
+     "text": "All right."
+    },
+    {
+     "t": 86.5,
+     "text": "And how many manage 75 or more accounts?"
+    },
+    {
+     "t": 89.8,
+     "text": "All right."
+    },
+    {
+     "t": 90.1,
+     "text": "Very cool."
+    },
+    {
+     "t": 90.7,
+     "text": "Very cool."
+    },
+    {
+     "t": 91.4,
+     "text": "Okay."
+    },
+    {
+     "t": 92.5,
+     "text": "And how many of you guys are using AWS organizations and SCPs?"
+    },
+    {
+     "t": 98.3,
+     "text": "Okay, cool, cool."
+    },
+    {
+     "t": 100.3,
+     "text": "So what's Pareto's principle, right?"
+    },
+    {
+     "t": 103.2,
+     "text": "The idea is that with just a little bit of work, you can accomplish a lot of work, okay, or a lot of results."
+    },
+    {
+     "t": 110.2,
+     "text": "So 20% of effort and you get 80% of the results."
+    },
+    {
+     "t": 115.2,
+     "text": "And that's where SCPs come in."
+    },
+    {
+     "t": 116.8,
+     "text": "They're just beautiful."
+    },
+    {
+     "t": 117.6,
+     "text": "So with only a little bit of effort,"
+    },
+    {
+     "t": 121.8,
+     "text": "Code right a few lines of configuration you can really apply a lot of security to a lot of your accounts but there's a lot of steps that are required before that and also we'll talk a little about cloud security issues for those that are you know not too familiar about AWS again just trying to level set here"
+    },
+    {
+     "t": 138.5,
+     "text": "So, what are some common issues, right?"
+    },
+    {
+     "t": 140.6,
+     "text": "IAM, having keys and source code, having really egregious permissions on boxes like for say, you know, EC2 star, IAM star, storage, leaky buckets, right?"
+    },
+    {
+     "t": 153.6,
+     "text": "We've heard too many stories, logging, right?"
+    },
+    {
+     "t": 156.2,
+     "text": "I mean, really, what AWS is, is you're giving the"
+    },
+    {
+     "t": 161.4,
+     "text": "So, like, infinite amount of resources globally, right, to an engineer, and this is what you have, but this is what you end up with, right?"
+    },
+    {
+     "t": 171.9,
+     "text": "It's just, it's, you know, AWS has a shared security model, we all know about it, but still, it makes it very easy for someone to just trip over themselves."
+    },
+    {
+     "t": 184.7,
+     "text": "And so, you know, we have leaky buckets."
+    },
+    {
+     "t": 186.8,
+     "text": "I think we all know or we may know about all these leaky buckets that are out there."
+    },
+    {
+     "t": 191.5,
+     "text": "Someone even created a GitHub page that lists all the S3 bucket leaks out there."
+    },
+    {
+     "t": 196.0,
+     "text": "Very convenient if you're trying to prove your case or just keep track."
+    },
+    {
+     "t": 200.4,
+     "text": "And there's just, you know, it goes on and on and on and on."
+    },
+    {
+     "t": 203.4,
+     "text": "And someone said that there is like 9 billion data records of S3 from S3 bucket leaks."
+    },
+    {
+     "t": 210.0,
+     "text": "Same thing, IAM is the new perimeter."
+    },
+    {
+     "t": 212.3,
+     "text": "So, you know, no longer is it network security, it's more IAM."
+    },
+    {
+     "t": 217.9,
+     "text": "Everybody might have heard of a Capital One breach recently."
+    },
+    {
+     "t": 221.9,
+     "text": "So, you know, a lot of things went wrong there, but, you know, we don't want permissions like EC2 star, IAM star."
+    },
+    {
+     "t": 228.7,
+     "text": "I have actually seen this out there."
+    },
+    {
+     "t": 232.4,
+     "text": "I have seen public machines that are running WAFs with EC2 star on them and I'm like having a heart attack."
+    },
+    {
+     "t": 241.7,
+     "text": "And, you know, in this case, you know, I was at a company once where someone emailed their IAM keys to someone else, and I'm not sure how the keys got compromised, but $40,000 later, a lot of EC2 instances were deployed, and it was not fun."
+    },
+    {
+     "t": 260.1,
+     "text": "AWS did reverse it, but still, we don't want to be in that situation."
+    },
+    {
+     "t": 266.1,
+     "text": "Yeah."
+    },
+    {
+     "t": 267.7,
+     "text": "Who here has heard of Codespaces?"
+    },
+    {
+     "t": 272.6,
+     "text": "All right."
+    },
+    {
+     "t": 273.1,
+     "text": "So, Codespaces was like a GitHub-like company that provided, as you can see, rock solid and secure affordable hosting."
+    },
+    {
+     "t": 282.8,
+     "text": "So, we all know it's secure because it says it's secure, right?"
+    },
+    {
+     "t": 286.0,
+     "text": "So, this was their website on June 14th, 2014."
+    },
+    {
+     "t": 294.4,
+     "text": "This was their website on June 18th, 2014."
+    },
+    {
+     "t": 299.1,
+     "text": "Their root keys got compromised and the attacker basically deleted all their backups, all their instances, everything."
+    },
+    {
+     "t": 307.1,
+     "text": "And they literally went out of business overnight."
+    },
+    {
+     "t": 309.6,
+     "text": "Okay?"
+    },
+    {
+     "t": 310.2,
+     "text": "So this is a target for us."
+    },
+    {
+     "t": 312.2,
+     "text": "For AWS folks, for cloud folks, this is our target."
+    },
+    {
+     "t": 315.1,
+     "text": "We need to know this."
+    },
+    {
+     "t": 316.6,
+     "text": "It's a part of our history."
+    },
+    {
+     "t": 318.1,
+     "text": "And so it's something that I recommend everyone go ahead and look up."
+    },
+    {
+     "t": 321.9,
+     "text": "I pulled this from archive.org and you can do that same as well."
+    },
+    {
+     "t": 327.5,
+     "text": "So, why AWS organizations and SCP?"
+    },
+    {
+     "t": 332.2,
+     "text": "Okay."
+    },
+    {
+     "t": 333.2,
+     "text": "So basically with a few lines of configuration or quote unquote code, we can enable a lot of change and a lot of protection in our accounts."
+    },
+    {
+     "t": 342.2,
+     "text": "But the reason I did this talk is because, so SCP has been around for a little bit and I'm still not seeing too many organizations taking advantage of it, at least to their full extent."
+    },
+    {
+     "t": 354.0,
+     "text": "I think people are a little afraid of SCP."
+    },
+    {
+     "t": 358.2,
+     "text": "But it's a really good way to guard your security and protect yourself if you have things even securely configured properly."
+    },
+    {
+     "t": 371.2,
+     "text": "So I'll talk a little about multi-account strategy."
+    },
+    {
+     "t": 373.1,
+     "text": "It's kind of a foundation to this."
+    },
+    {
+     "t": 375.7,
+     "text": "So if you are"
+    },
+    {
+     "t": 379.4,
+     "text": "Using multiple accounts, you want to take advantage of the multi-account strategy."
+    },
+    {
+     "t": 382.2,
+     "text": "You want to have a logging account for your logs to go to."
+    },
+    {
+     "t": 386.1,
+     "text": "You want to have a security account for your security ops and your tools to run from."
+    },
+    {
+     "t": 390.8,
+     "text": "You want to have networking where you can do your transit gateways and things like that."
+    },
+    {
+     "t": 395.5,
+     "text": "Shared services and on and on and on."
+    },
+    {
+     "t": 397.9,
+     "text": "So it's really important to take advantage of the multi-account strategy."
+    },
+    {
+     "t": 402.6,
+     "text": "AWS first started off, I don't think they realized how"
+    },
+    {
+     "t": 407.7,
+     "text": "How big this would explode."
+    },
+    {
+     "t": 409.6,
+     "text": "And so they've incorporated some multi-account stuff."
+    },
+    {
+     "t": 413.2,
+     "text": "I would look it up."
+    },
+    {
+     "t": 417.8,
+     "text": "It's part of the well-architected framework."
+    },
+    {
+     "t": 422.1,
+     "text": "I'm not going to talk anything negative right now."
+    },
+    {
+     "t": 425.3,
+     "text": "So, once you have this set up, okay, then you can take advantage, full advantage of AWS organizations."
+    },
+    {
+     "t": 431.5,
+     "text": "So, it kind of works on top of that."
+    },
+    {
+     "t": 434.1,
+     "text": "You have your master account."
+    },
+    {
+     "t": 436.2,
+     "text": "If anyone's familiar with any sort of directory, you have different OUs and you could have sub-OUs and you could apply policies at the OU level."
+    },
+    {
+     "t": 443.7,
+     "text": "So, this is really how security control policies work."
+    },
+    {
+     "t": 451.2,
+     "text": "Okay."
+    },
+    {
+     "t": 452.0,
+     "text": "And so, this is kind of a quick outline of what I'm going to talk about."
+    },
+    {
+     "t": 457.3,
+     "text": "You know, if you're coming in starting with AWS organizations and SCPs from scratch, okay?"
+    },
+    {
+     "t": 464.9,
+     "text": "So, we have the master account."
+    },
+    {
+     "t": 467.5,
+     "text": "Everything starts with the master account."
+    },
+    {
+     "t": 471.6,
+     "text": "How many, not to embarrass you, but how many here have master accounts with resources in them?"
+    },
+    {
+     "t": 479.2,
+     "text": "You don't have to raise your hand, it's okay."
+    },
+    {
+     "t": 484.2,
+     "text": "Having a master account with resources is bad."
+    },
+    {
+     "t": 487.1,
+     "text": "You don't want to do that."
+    },
+    {
+     "t": 489.1,
+     "text": "Why?"
+    },
+    {
+     "t": 489.6,
+     "text": "Because when you're going to apply a policy, you don't want to apply the policy at the master level."
+    },
+    {
+     "t": 494.1,
+     "text": "You want to apply it at a different OU level."
+    },
+    {
+     "t": 496.3,
+     "text": "And so you want a master account that's empty and has no resources."
+    },
+    {
+     "t": 499.7,
+     "text": "So that's really your biggest step in all this is getting, creating a master account, moving your consolidated billing to another, to that account."
+    },
+    {
+     "t": 509.9,
+     "text": "There's a few steps involved."
+    },
+    {
+     "t": 511.6,
+     "text": "One, call your rep."
+    },
+    {
+     "t": 514.4,
+     "text": "Create the account, create a S3 bucket for that account where your consolidated billing reports can go to, and then create a support account."
+    },
+    {
+     "t": 521.4,
+     "text": "And if you're on an enterprise level support plan, then definitely your rep will take care of most of this for you."
+    },
+    {
+     "t": 528.8,
+     "text": "In one organization, it took a month for us to get this done."
+    },
+    {
+     "t": 533.1,
+     "text": "We had to sign a new contract, had to go through legal, blah, blah, blah, blah, blah."
+    },
+    {
+     "t": 536.1,
+     "text": "I'm like, what is this?"
+    },
+    {
+     "t": 537.3,
+     "text": "Why is this?"
+    },
+    {
+     "t": 538.3,
+     "text": "And they had to sign it with ink."
+    },
+    {
+     "t": 539.7,
+     "text": "It wasn't DocuSign."
+    },
+    {
+     "t": 540.5,
+     "text": "I was like, really?"
+    },
+    {
+     "t": 542.0,
+     "text": "So it was quite interesting."
+    },
+    {
+     "t": 545.2,
+     "text": "But after you have the new AWS account, then you can create the org and link and unlink accounts, and it's pretty straightforward from that, from there."
+    },
+    {
+     "t": 555.0,
+     "text": "And here you are."
+    },
+    {
+     "t": 555.7,
+     "text": "So now once you have your master account, you create the organization, okay?"
+    },
+    {
+     "t": 561.0,
+     "text": "Organizations has two modes."
+    },
+    {
+     "t": 563.2,
+     "text": "There's billing mode and then the full access, the full features mode, which lets you take advantage of service control policies and everything I'm going to talk about today."
+    },
+    {
+     "t": 573.2,
+     "text": "So if you have an organization already and you have a master account with no resources, then go ahead and make sure your organizations is enabled for full features."
+    },
+    {
+     "t": 581.3,
+     "text": "It's just a really quick CLI command or you can go into console and do it there as well."
+    },
+    {
+     "t": 587.8,
+     "text": "You also might need to increase your limits on AWS organizations as well."
+    },
+    {
+     "t": 593.5,
+     "text": "So I have 10 here because that's what I was doing in my experimental account."
+    },
+    {
+     "t": 600.3,
+     "text": "But yeah, so you might want to look into that as well."
+    },
+    {
+     "t": 604.8,
+     "text": "Okay, so here I've created an organization."
+    },
+    {
+     "t": 608.3,
+     "text": "I'm logged in."
+    },
+    {
+     "t": 609.4,
+     "text": "I created a couple different OUs."
+    },
+    {
+     "t": 610.9,
+     "text": "It's like super easy."
+    },
+    {
+     "t": 612.9,
+     "text": "And hopefully everyone has a dev staging and prod environment."
+    },
+    {
+     "t": 618.8,
+     "text": "And hopefully not everyone is doing"
+    },
+    {
+     "t": 621.8,
+     "text": "So, this is the ideal way."
+    },
+    {
+     "t": 626.0,
+     "text": "So, I created a prod, staging, and dev account."
+    },
+    {
+     "t": 629.6,
+     "text": "I also created an other account because there's a few accounts that I just didn't know where they should go."
+    },
+    {
+     "t": 634.6,
+     "text": "So, you might have a subsidiary that you're, you know, they want to have their own deal with AWS and they don't want you messing with that."
+    },
+    {
+     "t": 643.7,
+     "text": "So, you know, other might be a good place to put it."
+    },
+    {
+     "t": 647.5,
+     "text": "And you can have sub-OUs."
+    },
+    {
+     "t": 648.8,
+     "text": "There's no need to create just three top-level OUs."
+    },
+    {
+     "t": 651.7,
+     "text": "You could have many different sub-OUs."
+    },
+    {
+     "t": 653.6,
+     "text": "It's really up to you how complicated you want it to go."
+    },
+    {
+     "t": 656.8,
+     "text": "The only one that really would be outside is your root account, your master account, and that would be in the root OU."
+    },
+    {
+     "t": 663.2,
+     "text": "Pretty straightforward."
+    },
+    {
+     "t": 665.5,
+     "text": "And then just go ahead and enable your service control policies."
+    },
+    {
+     "t": 668.4,
+     "text": "It's okay."
+    },
+    {
+     "t": 668.9,
+     "text": "Nothing's going to happen here."
+    },
+    {
+     "t": 670.0,
+     "text": "Just go ahead and enable it."
+    },
+    {
+     "t": 673.3,
+     "text": "All right."
+    },
+    {
+     "t": 674.4,
+     "text": "So, applying SCPs."
+    },
+    {
+     "t": 680.7,
+     "text": "Okay."
+    },
+    {
+     "t": 682.4,
+     "text": "Be really careful about SCPs."
+    },
+    {
+     "t": 685.8,
+     "text": "I did say it's okay to enable them."
+    },
+    {
+     "t": 687.3,
+     "text": "Yes."
+    },
+    {
+     "t": 688.0,
+     "text": "But when you're going to apply them, take the usual methods about applying into dev, applying into staging, and then prod."
+    },
+    {
+     "t": 695.4,
+     "text": "These things are really powerful."
+    },
+    {
+     "t": 697.4,
+     "text": "They're instantaneous."
+    },
+    {
+     "t": 699.2,
+     "text": "And when you apply it at the OU level, it takes effect for all your accounts under your OU."
+    },
+    {
+     "t": 703.5,
+     "text": "So, you know,"
+    },
+    {
+     "t": 705.3,
+     "text": "Take that into consideration."
+    },
+    {
+     "t": 707.5,
+     "text": "And please for, please don't deploy things on Friday."
+    },
+    {
+     "t": 710.6,
+     "text": "Just don't do it, okay?"
+    },
+    {
+     "t": 717.5,
+     "text": "Okay, so in AWS organizations, this is not SAP directly, but when you have your master account set up,"
+    },
+    {
+     "t": 723.7,
+     "text": "This is a really nice feature to take advantage of."
+    },
+    {
+     "t": 725.9,
+     "text": "Just create a CloudTrail, if you don't have one already, create a CloudTrail in your master account and it will automatically apply to all your, your whole organization."
+    },
+    {
+     "t": 734.7,
+     "text": "So you will only see this configuration when you're doing it from your master account."
+    },
+    {
+     "t": 740.4,
+     "text": "And so of course have that bucket in a separate account for logging, okay?"
+    },
+    {
+     "t": 744.8,
+     "text": "And the reason it's in a separate account for logging is for integrity purposes, limited access, you don't want everyone to have access to that logging account."
+    },
+    {
+     "t": 752.5,
+     "text": "And so go ahead and set this up and remember the name of your cloud trail."
+    },
+    {
+     "t": 757.6,
+     "text": "And I'll tell you why."
+    },
+    {
+     "t": 759.2,
+     "text": "In the next one here we have an SCP"
+    },
+    {
+     "t": 761.6,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 773.7,
+     "text": "What I'm referring to is the specific CloudTrail name that you specified."
+    },
+    {
+     "t": 779.2,
+     "text": "And the reason is that say you have other groups out there that maybe want to have their own CloudTrail or want to do whatever."
+    },
+    {
+     "t": 787.7,
+     "text": "And you can let them."
+    },
+    {
+     "t": 788.8,
+     "text": "They can create their own CloudTrails if they want."
+    },
+    {
+     "t": 790.3,
+     "text": "They can delete it."
+    },
+    {
+     "t": 790.9,
+     "text": "They can do whatever."
+    },
+    {
+     "t": 791.5,
+     "text": "But don't touch this CloudTrail."
+    },
+    {
+     "t": 793.0,
+     "text": "So with this SCP, it'll allow you to stop."
+    },
+    {
+     "t": 797.7,
+     "text": "And you can see here,"
+    },
+    {
+     "t": 799.3,
+     "text": "I'm logged in as root, as admin and I'm trying to disable it and it says you're not on the necessary permissions."
+    },
+    {
+     "t": 806.4,
+     "text": "So, it works."
+    },
+    {
+     "t": 807.1,
+     "text": "I have a question here."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 809.9,
+   "end": 810.0,
+   "lines": [
+    {
+     "t": 809.9,
+     "text": "Yes."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 810.3,
+   "end": 1287.6,
+   "lines": [
+    {
+     "t": 810.3,
+     "text": "So, earlier when you created that trail, you created it from master account for all the member accounts in one go?"
+    },
+    {
+     "t": 817.0,
+     "text": "That's right."
+    },
+    {
+     "t": 819.7,
+     "text": "Yeah, I'll be happy to take questions at the end."
+    },
+    {
+     "t": 823.9,
+     "text": "So, again, so, you know,"
+    },
+    {
+     "t": 829.3,
+     "text": "We're trying, so VPC flow logs, right?"
+    },
+    {
+     "t": 831.1,
+     "text": "You want to protect those possibly if you really rely on them from a security purpose."
+    },
+    {
+     "t": 836.3,
+     "text": "So, you know, this is a service control policy that will protect them and prevent someone from deleting them."
+    },
+    {
+     "t": 845.2,
+     "text": "And, you know, you could tune to your liking, right?"
+    },
+    {
+     "t": 846.8,
+     "text": "Do you want to specify a specific VPC flow log?"
+    },
+    {
+     "t": 850.4,
+     "text": "You could really play with it as much as you like."
+    },
+    {
+     "t": 855.3,
+     "text": "Okay."
+    },
+    {
+     "t": 858.1,
+     "text": "A lot of times you have resources only in US West and East, for example, or two or three regions."
+    },
+    {
+     "t": 864.9,
+     "text": "There's no reason to have all your regions enabled."
+    },
+    {
+     "t": 868.8,
+     "text": "And so this will kind of limit your attack surface on where regions would be set up."
+    },
+    {
+     "t": 874.6,
+     "text": "And your attack could come from outside or inside."
+    },
+    {
+     "t": 877.0,
+     "text": "I mean, a lot of times employees"
+    },
+    {
+     "t": 880.0,
+     "text": "I don't want to say a lot of times."
+    },
+    {
+     "t": 881.0,
+     "text": "Sometimes an employee could set up an instance in, I don't know, London or Asia with GPU instances and just do some crypto mining and no one would know about it until much later."
+    },
+    {
+     "t": 893.8,
+     "text": "You know, it really depends how good your monitoring is, how mature your environment is for looking at resources outside your environment."
+    },
+    {
+     "t": 901.2,
+     "text": "So, again, this is not rocket science, but this will limit your attack surface."
+    },
+    {
+     "t": 908.7,
+     "text": "So it's a really good way to just, hey, I don't think we'll ever have a need for US West 1 or anything outside of the US, whatever you can use, you know, you can just play with this to your liking."
+    },
+    {
+     "t": 923.5,
+     "text": "I did have, oh, so one note is I put like easy to describe for example."
+    },
+    {
+     "t": 927.3,
+     "text": "So if I want to have a tool or if there's a tool that's going to do easy to describe, then I could run it and it won't break that tool."
+    },
+    {
+     "t": 934.3,
+     "text": "So if you have monitoring tools, then you want to add a couple not actions here so that your tools won't break."
+    },
+    {
+     "t": 941.6,
+     "text": "Something to take into consideration."
+    },
+    {
+     "t": 944.8,
+     "text": "And so this is an example of trying to launch something from a region that is not on that list."
+    },
+    {
+     "t": 954.0,
+     "text": "The next thing is limiting the type of instances that are running in your environment."
+    },
+    {
+     "t": 957.8,
+     "text": "There's two ways to do it."
+    },
+    {
+     "t": 958.8,
+     "text": "You could do a deny or you could do a permit list."
+    },
+    {
+     "t": 961.5,
+     "text": "I'll show you both."
+    },
+    {
+     "t": 963.2,
+     "text": "In this case, I am denying these particular instance types, right?"
+    },
+    {
+     "t": 968.9,
+     "text": "Is there a need for your organization to use a P3 instance, right, with like four GPUs?"
+    },
+    {
+     "t": 973.7,
+     "text": "I don't know."
+    },
+    {
+     "t": 975.3,
+     "text": "Probably not."
+    },
+    {
+     "t": 976.2,
+     "text": "So in this case, we're limiting the type of instances so that either accidentally or maliciously, we don't launch instances that are going to cost us thousands and thousands of dollars."
+    },
+    {
+     "t": 990.5,
+     "text": "And I want to draw attention to the string-like condition here."
+    },
+    {
+     "t": 995.9,
+     "text": "It lets you use wildcard conditions, so it's pretty versatile."
+    },
+    {
+     "t": 1003.1,
+     "text": "Here's one of allowing it."
+    },
+    {
+     "t": 1004.3,
+     "text": "So, you know, I'm limiting to just general purpose instances."
+    },
+    {
+     "t": 1007.9,
+     "text": "So, here we have a bunch of instances listed."
+    },
+    {
+     "t": 1011.5,
+     "text": "We have A, T, M, and M5 and M4."
+    },
+    {
+     "t": 1015.6,
+     "text": "And so, okay, that's all instances we need, right?"
+    },
+    {
+     "t": 1018.2,
+     "text": "It depends on your organization."
+    },
+    {
+     "t": 1019.5,
+     "text": "You could actually add more to this."
+    },
+    {
+     "t": 1023.1,
+     "text": "You could limit it to particular AMIs if you want."
+    },
+    {
+     "t": 1025.2,
+     "text": "You could limit, you know, you could have, you can make this as"
+    },
+    {
+     "t": 1029.4,
+     "text": "Thank you."
+    },
+    {
+     "t": 1029.9,
+     "text": "Thank you."
+    },
+    {
+     "t": 1049.2,
+     "text": "Here's a good one."
+    },
+    {
+     "t": 1050.0,
+     "text": "Limiting root actions, right?"
+    },
+    {
+     "t": 1051.5,
+     "text": "You want to deny root actions across your accounts."
+    },
+    {
+     "t": 1055.8,
+     "text": "And so, this is a really good way to do so."
+    },
+    {
+     "t": 1058.6,
+     "text": "Using the principal ARN and literally as root, you can't do anything."
+    },
+    {
+     "t": 1065.0,
+     "text": "I'm logged in as root and I can't even do a describe on instances."
+    },
+    {
+     "t": 1068.3,
+     "text": "I can't launch anything."
+    },
+    {
+     "t": 1069.5,
+     "text": "I can't do a single thing."
+    },
+    {
+     "t": 1071.2,
+     "text": "So, it's really, really powerful."
+    },
+    {
+     "t": 1075.0,
+     "text": "This is one of my favorites."
+    },
+    {
+     "t": 1076.8,
+     "text": "So,"
+    },
+    {
+     "t": 1078.6,
+     "text": "If you have that founder that still has access to the root account, which happens a lot, right?"
+    },
+    {
+     "t": 1084.2,
+     "text": "The founder, because the email was created with their credit card and their email address."
+    },
+    {
+     "t": 1087.9,
+     "text": "So I would recommend you talk to them first before doing this."
+    },
+    {
+     "t": 1092.3,
+     "text": "That might be a good idea."
+    },
+    {
+     "t": 1094.3,
+     "text": "You do want to keep your job."
+    },
+    {
+     "t": 1098.6,
+     "text": "Here's another one."
+    },
+    {
+     "t": 1099.4,
+     "text": "You want to enable encryption."
+    },
+    {
+     "t": 1101.0,
+     "text": "So you don't want to allow any objects to be put into your S3 buckets unless they're meeting this criteria."
+    },
+    {
+     "t": 1108.4,
+     "text": "And in this case, the criteria is that it's encrypted with AES-256, for example."
+    },
+    {
+     "t": 1117.9,
+     "text": "Same thing with S3 public access."
+    },
+    {
+     "t": 1121.4,
+     "text": "Here's another one."
+    },
+    {
+     "t": 1124.2,
+     "text": "I'm still experimenting with this a little bit, but it seems to be working."
+    },
+    {
+     "t": 1132.1,
+     "text": "Okay, so troubleshooting."
+    },
+    {
+     "t": 1135.5,
+     "text": "There's a lot of troubleshooting that I went through in this."
+    },
+    {
+     "t": 1139.7,
+     "text": "I definitely recommend you take a deep reading of IAM and IAM syntax, especially when you're looking at the conditional operators and trying to put a list of things."
+    },
+    {
+     "t": 1151.1,
+     "text": "So it's quite tricky, especially in this condition map, trying to define it."
+    },
+    {
+     "t": 1156.6,
+     "text": "But, you know, it's all based on IAM, so it's pretty straightforward."
+    },
+    {
+     "t": 1164.8,
+     "text": "And, you know, just some little, like, things."
+    },
+    {
+     "t": 1166.8,
+     "text": "Even I was trying to do a little Easter egg as far as a version number and it turns out that, you know, AWS doesn't like that."
+    },
+    {
+     "t": 1175.5,
+     "text": "Does anyone know what that date is?"
+    },
+    {
+     "t": 1182.0,
+     "text": "Oh, right."
+    },
+    {
+     "t": 1183.0,
+     "text": "Yeah, the date, it's supposed to be, yes."
+    },
+    {
+     "t": 1184.5,
+     "text": "But that date right there, November 5th, 1955."
+    },
+    {
+     "t": 1187.1,
+     "text": "Does anybody know that date?"
+    },
+    {
+     "t": 1191.3,
+     "text": "Yes, back to the future."
+    },
+    {
+     "t": 1193.0,
+     "text": "Pretty good."
+    },
+    {
+     "t": 1193.8,
+     "text": "Yeah, I was watching at the time."
+    },
+    {
+     "t": 1195.6,
+     "text": "Actually, I have a few dates throughout the presentation, little Easter eggs from different things throughout movie history."
+    },
+    {
+     "t": 1206.5,
+     "text": "So yeah, and then same thing here."
+    },
+    {
+     "t": 1209.1,
+     "text": "If you want to deny a role, then you could specify the role."
+    },
+    {
+     "t": 1212.7,
+     "text": "But then if you want to specify an actual IAM user, you will need to use the condition string not like."
+    },
+    {
+     "t": 1220.7,
+     "text": "That was quite annoying as well."
+    },
+    {
+     "t": 1222.4,
+     "text": "So..."
+    },
+    {
+     "t": 1224.3,
+     "text": "That's something there."
+    },
+    {
+     "t": 1225.7,
+     "text": "This is a really cool website I found after doing a lot of this stuff anyway."
+    },
+    {
+     "t": 1230.2,
+     "text": "It's asecure.cloud."
+    },
+    {
+     "t": 1232.2,
+     "text": "The person that's created this is amazing and they have service control policies, security groups, a lot of different things that will let you even put confirmation templates together and just deploy."
+    },
+    {
+     "t": 1245.6,
+     "text": "Of course, you know, deploy cautiously to dev."
+    },
+    {
+     "t": 1249.5,
+     "text": "But it's a good library of a lot of different service control policies."
+    },
+    {
+     "t": 1253.8,
+     "text": "The ones I showed you are the ones that I created and kind of implemented."
+    },
+    {
+     "t": 1258.7,
+     "text": "But that person has a lot of ones like preventing people from deleting KMS keys, for example, right?"
+    },
+    {
+     "t": 1265.2,
+     "text": "That's a really good one."
+    },
+    {
+     "t": 1268.3,
+     "text": "So, I mean, imagine if someone deleted your KMS keys, you can no longer decrypt your information."
+    },
+    {
+     "t": 1273.5,
+     "text": "So, it's quite, quite precarious."
+    },
+    {
+     "t": 1277.5,
+     "text": "And that's about it."
+    },
+    {
+     "t": 1278.0,
+     "text": "This is my contact info."
+    },
+    {
+     "t": 1280.0,
+     "text": "I blog about stuff on AWS quite some time, you know, frequently."
+    },
+    {
+     "t": 1285.1,
+     "text": "And I'd like to open up for questions, if there's any questions."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1287.8,
+   "end": 1288.0,
+   "lines": [
+    {
+     "t": 1287.8,
+     "text": "Yes."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1288.7,
+   "end": 1298.5,
+   "lines": [
+    {
+     "t": 1288.7,
+     "text": "I thought the SCP about walking root out of the account was really clever."
+    },
+    {
+     "t": 1292.5,
+     "text": "But what do you do about the actions that can only be taken by the root account?"
+    },
+    {
+     "t": 1295.9,
+     "text": "Do you have to un-apply the SCP?"
+    },
+    {
+     "t": 1298.1,
+     "text": "That's right."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1298.8,
+   "end": 1315.4,
+   "lines": [
+    {
+     "t": 1298.8,
+     "text": "During a... Yeah."
+    },
+    {
+     "t": 1301.1,
+     "text": "Yeah."
+    },
+    {
+     "t": 1301.4,
+     "text": "Yeah."
+    },
+    {
+     "t": 1301.7,
+     "text": "That's exactly right."
+    },
+    {
+     "t": 1302.5,
+     "text": "You'd have..."
+    },
+    {
+     "t": 1303.2,
+     "text": "So you have to take that into consideration for things."
+    },
+    {
+     "t": 1306.2,
+     "text": "I mean, I think AWS is working solely to limit those root actions."
+    },
+    {
+     "t": 1311.1,
+     "text": "I'm kind of annoyed that there are still things that you need root for, but yeah, that's exactly right."
+    },
+    {
+     "t": 1315.3,
+     "text": "Yes."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1316.6,
+   "end": 1327.4,
+   "lines": [
+    {
+     "t": 1316.6,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware, pentest,"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1328.9,
+   "end": 1341.7,
+   "lines": [
+    {
+     "t": 1328.9,
+     "text": "So the question is, if I get it right, and the previous question was, do you have to, when you want to do things that require root action, are you going to have to remove the service control policy?"
+    },
+    {
+     "t": 1338.0,
+     "text": "So that was the previous question."
+    },
+    {
+     "t": 1339.3,
+     "text": "And this question is, what do you do about over-permissioning?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1341.9,
+   "end": 1353.2,
+   "lines": [
+    {
+     "t": 1341.9,
+     "text": "Yeah."
+    },
+    {
+     "t": 1342.2,
+     "text": "Like, how do you, like, there's a possibility that you see that you might over grant a permission to somebody."
+    },
+    {
+     "t": 1347.0,
+     "text": "So is there, like, two things that tells you over time that maybe this person is not using these permissions that you wrote?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1353.6,
+   "end": 1363.5,
+   "lines": [
+    {
+     "t": 1353.6,
+     "text": "Oh, yeah."
+    },
+    {
+     "t": 1353.9,
+     "text": "There are a few tools out there that would give you a list of permissions that are recently used by particular users and AWS has some out-of-the-box section as well."
+    },
+    {
+     "t": 1363.3,
+     "text": "Yes."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1364.7,
+   "end": 1374.2,
+   "lines": [
+    {
+     "t": 1364.7,
+     "text": "So you showed one of the slides here."
+    },
+    {
+     "t": 1367.2,
+     "text": "The master account is creating."
+    },
+    {
+     "t": 1371.3,
+     "text": "Yes."
+    },
+    {
+     "t": 1371.9,
+     "text": "Every sub-member account."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1374.8,
+   "end": 1375.2,
+   "lines": [
+    {
+     "t": 1374.8,
+     "text": "That's right."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1381.4,
+   "end": 1386.7,
+   "lines": [
+    {
+     "t": 1381.4,
+     "text": "It only applies to CloudTrail."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1388.0,
+   "end": 1421.0,
+   "lines": [
+    {
+     "t": 1388.0,
+     "text": "Only CloudTrail."
+    },
+    {
+     "t": 1388.6,
+     "text": "Only CloudTrail."
+    },
+    {
+     "t": 1389.1,
+     "text": "So that screen there was a typical CloudTrail creation screen, but you only, you have that extra dialog box for when it's being done from the master account."
+    },
+    {
+     "t": 1398.9,
+     "text": "And so all the settings that you have there are going to create a CloudTrail in each new account or each account and any new accounts."
+    },
+    {
+     "t": 1407.8,
+     "text": "That's right."
+    },
+    {
+     "t": 1410.2,
+     "text": "Well, depending on how you configure it."
+    },
+    {
+     "t": 1411.6,
+     "text": "So, if you configure for all regions, then yeah, that'll apply."
+    },
+    {
+     "t": 1414.1,
+     "text": "But it'll apply for the same bucket."
+    },
+    {
+     "t": 1416.0,
+     "text": "And the great part is for new accounts that are created later, which is like a lifesaver."
+    },
+    {
+     "t": 1420.8,
+     "text": "Yes."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1421.1,
+   "end": 1423.7,
+   "lines": [
+    {
+     "t": 1421.1,
+     "text": "That bucket doesn't have to be in the master account, right?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1425.1,
+   "end": 1427.3,
+   "lines": [
+    {
+     "t": 1425.1,
+     "text": "That's right."
+    },
+    {
+     "t": 1425.7,
+     "text": "That's right."
+    },
+    {
+     "t": 1427.0,
+     "text": "Yes."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1428.4,
+   "end": 1447.1,
+   "lines": [
+    {
+     "t": 1428.4,
+     "text": "One sort of observation."
+    },
+    {
+     "t": 1430.1,
+     "text": "When we went to organizations, we also had to work with our procurement team to prevent anyone with a P-card from being able to pay for an AWS physical account because we had a couple hundred of those scattered everywhere to pull them in."
+    },
+    {
+     "t": 1443.7,
+     "text": "So if you're going to go organizations, make friends with procurement."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1447.3,
+   "end": 1483.8,
+   "lines": [
+    {
+     "t": 1447.3,
+     "text": "Yes, yes, procurement is, there are a couple tools out there actually that I found that will help you find shadow IT accounts out there."
+    },
+    {
+     "t": 1456.6,
+     "text": "So they'll hook up into your Expensify and to your expensing tools and look at your credit card expenses and identify, oh, someone created an AWS account."
+    },
+    {
+     "t": 1466.4,
+     "text": "Oh, look at this."
+    },
+    {
+     "t": 1467.3,
+     "text": "And they'll identify this shadow IT stuff for you."
+    },
+    {
+     "t": 1470.2,
+     "text": "So I find that."
+    },
+    {
+     "t": 1471.0,
+     "text": "And it's really interesting because we ran into issues where any of us didn't have permission to do things with that account."
+    },
+    {
+     "t": 1477.6,
+     "text": "You probably ran into the same thing."
+    },
+    {
+     "t": 1479.3,
+     "text": "And so you had to get the account owner to give you permission to handle that account."
+    },
+    {
+     "t": 1483.6,
+     "text": "Yes."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1484.6,
+   "end": 1499.2,
+   "lines": [
+    {
+     "t": 1484.6,
+     "text": "In situations where most of your developers share the same permissions level, how do you stop them, or what mechanisms would you be able to use to stop them from just editing that and root permission when they decide, well, now I want to use this root function, so I'm going to go change it back to the wild card."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1500.5,
+   "end": 1525.3,
+   "lines": [
+    {
+     "t": 1500.5,
+     "text": "Oh yeah, don't give them that permission."
+    },
+    {
+     "t": 1502.1,
+     "text": "So that is only, you can only do that from the master account."
+    },
+    {
+     "t": 1509.0,
+     "text": "So in any case, you want to limit access to your master account to only a limited few people who can apply those SCPs."
+    },
+    {
+     "t": 1515.8,
+     "text": "So, it's an administrative thing."
+    },
+    {
+     "t": 1516.8,
+     "text": "So, you know, a limit, I mean, in general, a general rule of thumb is limit master account access to only a few admins."
+    },
+    {
+     "t": 1523.1,
+     "text": "Does that answer your question?"
+    },
+    {
+     "t": 1524.5,
+     "text": "Yeah, that answers my question."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1525.3,
+   "end": 1527.9,
+   "lines": [
+    {
+     "t": 1525.3,
+     "text": "I was thinking about the things..."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1528.0,
+   "end": 1535.3,
+   "lines": [
+    {
+     "t": 1528.0,
+     "text": "The question was, how do you limit access from people changing the flags on SCPs?"
+    },
+    {
+     "t": 1532.4,
+     "text": "And the idea would be to limit access."
+    },
+    {
+     "t": 1535.1,
+     "text": "Yes."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1535.9,
+   "end": 1541.0,
+   "lines": [
+    {
+     "t": 1535.9,
+     "text": "So, have you used the Security Hub to monitor the whole environment?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1542.1,
+   "end": 1574.8,
+   "lines": [
+    {
+     "t": 1542.1,
+     "text": "Say again?"
+    },
+    {
+     "t": 1545.5,
+     "text": "Oh, Security Hub."
+    },
+    {
+     "t": 1547.3,
+     "text": "Yeah."
+    },
+    {
+     "t": 1547.8,
+     "text": "I've played with it with GuardDuty."
+    },
+    {
+     "t": 1550.8,
+     "text": "I mean, I've used it, so it won't monitor everything, but in this, what I'm talking about, I guess, is more prevention, so kind of setting up guard rails to prevent things from happening."
+    },
+    {
+     "t": 1563.8,
+     "text": "So if you're noticing things, you could use SCPs to prevent things, but you want to get at the root cause of what's happening in your environment."
+    },
+    {
+     "t": 1573.7,
+     "text": "Okay."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1577.3,
+   "end": 1581.4,
+   "lines": [
+    {
+     "t": 1577.3,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling,"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1585.8,
+   "end": 1647.3,
+   "lines": [
+    {
+     "t": 1585.8,
+     "text": "So the question is, do you have, do you recommend any tools to manage privileged IAM accounts in AWS?"
+    },
+    {
+     "t": 1596.1,
+     "text": "There's a couple, I mean, there's a couple tools out of the box from AWS that will have you run permissions and show you what permissions IAM users are using out of the box."
+    },
+    {
+     "t": 1606.2,
+     "text": "And so you can do an audit of that."
+    },
+    {
+     "t": 1611.2,
+     "text": "I recommend, you know, just as a best practice, having different roles."
+    },
+    {
+     "t": 1614.4,
+     "text": "You know, you have a developer, maybe a super developer, a network admin, IAM admin, you know, very few super admins, right?"
+    },
+    {
+     "t": 1626.4,
+     "text": "And then try to use automation so that things are run and pushed through Terraform and GitHub so that there's an audit log and audit trail of what's done."
+    },
+    {
+     "t": 1635.9,
+     "text": "And so if you can see things done through a GitHub commit,"
+    },
+    {
+     "t": 1640.2,
+     "text": "And it's been approved, that PR has been approved, then you have some sort of audit trail and some permissions."
+    },
+    {
+     "t": 1644.7,
+     "text": "Does that answer your question?"
+    },
+    {
+     "t": 1645.5,
+     "text": "Kind of."
+    },
+    {
+     "t": 1646.9,
+     "text": "Kind of, right?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1648.3,
+   "end": 1648.5,
+   "lines": [
+    {
+     "t": 1648.3,
+     "text": "Yes."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1661.1,
+   "end": 1670.3,
+   "lines": [
+    {
+     "t": 1661.1,
+     "text": "That could be a thing."
+    },
+    {
+     "t": 1662.3,
+     "text": "That could be a thing."
+    },
+    {
+     "t": 1662.9,
+     "text": "I haven't used it, but I think that could be a great, that, I mean, the, I think the, you're unlimited in what you could do."
+    },
+    {
+     "t": 1670.2,
+     "text": "Yes?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1670.4,
+   "end": 1678.4,
+   "lines": [
+    {
+     "t": 1670.4,
+     "text": "I was just going to say, can you use SCPs to enforce tagging and like a tagging scheme that you want to use?"
+    },
+    {
+     "t": 1676.7,
+     "text": "Have you tried that at all?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1679.3,
+   "end": 1679.7,
+   "lines": [
+    {
+     "t": 1679.3,
+     "text": "I don't know."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1679.7,
+   "end": 1689.2,
+   "lines": [
+    {
+     "t": 1679.7,
+     "text": "Do you use specific tags on specific types of instances?"
+    },
+    {
+     "t": 1682.3,
+     "text": "Or just in general for accounts for how folks are, like, say, I want to always name something, like, always have an owner tag for..."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1689.4,
+   "end": 1693.6,
+   "lines": [
+    {
+     "t": 1689.4,
+     "text": "Right."
+    },
+    {
+     "t": 1691.4,
+     "text": "I can imagine you can."
+    },
+    {
+     "t": 1692.5,
+     "text": "I believe you can."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1695.0,
+   "end": 1698.4,
+   "lines": [
+    {
+     "t": 1695.0,
+     "text": "You must have an owner tag."
+    },
+    {
+     "t": 1696.2,
+     "text": "You must have a description tag."
+    },
+    {
+     "t": 1698.0,
+     "text": "Right."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1698.9,
+   "end": 1774.4,
+   "lines": [
+    {
+     "t": 1698.9,
+     "text": "Yeah."
+    },
+    {
+     "t": 1699.1,
+     "text": "Yeah."
+    },
+    {
+     "t": 1699.6,
+     "text": "So the question is, can you use ICPs to enforce tags?"
+    },
+    {
+     "t": 1702.4,
+     "text": "I believe you can."
+    },
+    {
+     "t": 1704.2,
+     "text": "So basically, what I would imagine is, you know, when you have an EC2 run, put a condition to require a tag, for example."
+    },
+    {
+     "t": 1713.3,
+     "text": "But I haven't created one, but yeah, I would imagine so."
+    },
+    {
+     "t": 1716.2,
+     "text": "Yes."
+    },
+    {
+     "t": 1716.5,
+     "text": "So going to his question, what product would you use for ordering?"
+    },
+    {
+     "t": 1725.5,
+     "text": "So, there's a few tools out there."
+    },
+    {
+     "t": 1729.5,
+     "text": "I guess ask me afterwards, I can answer."
+    },
+    {
+     "t": 1731.2,
+     "text": "There's a few out of the box from CloudTrail, I'm sorry, from AWS that will let you take a look at permissions."
+    },
+    {
+     "t": 1738.0,
+     "text": "Are you talking about permissions?"
+    },
+    {
+     "t": 1739.0,
+     "text": "Permissions question?"
+    },
+    {
+     "t": 1749.3,
+     "text": "So if I understand the question, what tools are there available to take a look at permissions and audit logs or just permissions?"
+    },
+    {
+     "t": 1755.8,
+     "text": "So with audit logs, I mean, so CloudTrail, you have now a lot of the IAM logs are going in CloudTrail."
+    },
+    {
+     "t": 1761.1,
+     "text": "You could use any sort of tool, Elks, Blanc, Sumo Logic."
+    },
+    {
+     "t": 1765.5,
+     "text": "There's a few, there's a bunch out there."
+    },
+    {
+     "t": 1770.6,
+     "text": "Yeah, I don't recommend specific vendors necessarily."
+    },
+    {
+     "t": 1773.6,
+     "text": "So, yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1775.1,
+   "end": 1787.7,
+   "lines": [
+    {
+     "t": 1775.1,
+     "text": "So, that brings like a question like, are there like tools which do like anomaly detection automatically which tells, okay, this something is wrong, somebody did something."
+    },
+    {
+     "t": 1784.6,
+     "text": "Like, it automatically tells you like that."
+    },
+    {
+     "t": 1786.3,
+     "text": "Are there tools existing or..."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1787.9,
+   "end": 1810.5,
+   "lines": [
+    {
+     "t": 1787.9,
+     "text": "There are."
+    },
+    {
+     "t": 1788.3,
+     "text": "So the question is, are there anomaly tools out there that look for anomalies?"
+    },
+    {
+     "t": 1792.8,
+     "text": "Well, there's GuardDuty out of the box for AWS."
+    },
+    {
+     "t": 1795.3,
+     "text": "I don't work for AWS, by the way."
+    },
+    {
+     "t": 1797.8,
+     "text": "There are other tools that will ingest your logs and look for anomalies."
+    },
+    {
+     "t": 1801.6,
+     "text": "A lot of times you have to write those out."
+    },
+    {
+     "t": 1804.5,
+     "text": "But yeah, I mean, Security Hub and GuardDuty and the whole ecosystem, that's AWS's recommendation?"
+    },
+    {
+     "t": 1810.3,
+     "text": "Yes."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1812.2,
+   "end": 1825.3,
+   "lines": [
+    {
+     "t": 1812.2,
+     "text": "Yeah, I'm going to be posting these slides."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1825.5,
+   "end": 1827.3,
+   "lines": [
+    {
+     "t": 1825.5,
+     "text": "So, yeah, these slides will be posted."
+    },
+    {
+     "t": 1827.0,
+     "text": "Yes."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1827.8,
+   "end": 1830.5,
+   "lines": [
+    {
+     "t": 1827.8,
+     "text": "Have you used AWS config?"
+    },
+    {
+     "t": 1829.5,
+     "text": "Do you have any thoughts around that?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1832.1,
+   "end": 1875.6,
+   "lines": [
+    {
+     "t": 1832.1,
+     "text": "I have, but I say it with a sigh."
+    },
+    {
+     "t": 1835.5,
+     "text": "So, it's..."
+    },
+    {
+     "t": 1841.3,
+     "text": "I don't know if I want to go on record."
+    },
+    {
+     "t": 1842.4,
+     "text": "But yeah, I've used AWS."
+    },
+    {
+     "t": 1845.4,
+     "text": "I've used AWS config."
+    },
+    {
+     "t": 1846.6,
+     "text": "The question is, have you used AWS config and what are your thoughts on that?"
+    },
+    {
+     "t": 1850.3,
+     "text": "I have thoughts on that."
+    },
+    {
+     "t": 1853.0,
+     "text": "I think, you know, it works for some organizations."
+    },
+    {
+     "t": 1858.0,
+     "text": "It's something good."
+    },
+    {
+     "t": 1859.0,
+     "text": "I think it's better than nothing."
+    },
+    {
+     "t": 1862.1,
+     "text": "But I think with the convergence of a lot of tools that are coming out there, there's a lot of overlap."
+    },
+    {
+     "t": 1867.4,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware,"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

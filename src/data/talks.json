@@ -1,0 +1,668 @@
+[
+ {
+  "slug": "data-security-in-the-ai-era-don-t-let-ai-ruin-your",
+  "title": "Data Security in the AI Era, Don't Let AI Ruin your Presentation, and the Weekly News - ESW #480",
+  "url": "https://www.youtube.com/watch?v=6a2-W3WDGhg",
+  "platform": "YouTube",
+  "date": "2026-10-12",
+  "duration": 6098,
+  "format": "cohost",
+  "event": "Enterprise Security Weekly w/Adrian Sanabria",
+  "category": null,
+  "topics": [
+   "AI Security",
+   "Identity & Data Protection"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/6a2-W3WDGhg/maxresdefault.jpg",
+  "summary": "Ayman discusses the importance of simplifying presentation slides, emphasizing readability and avoiding over-reliance on AI tools that can amplify poor content. He also highlights reducing exposure as a key data security strategy, suggesting limiting access to sensitive information and focusing on preventative measures. Additionally, he reflects on the risks of AI in software development, noting potential issues with supply chain security if AI-generated code becomes widespread.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "cyber-resilience-with-cohesity-when-to-use-ai-for-writing",
+  "title": "Cyber Resilience with Cohesity, When to use AI for Writing, and the News - Rob Sadowski - ESW #477",
+  "url": "https://www.youtube.com/watch?v=6sZm4oA-iaU",
+  "platform": "YouTube",
+  "date": "2026-09-21",
+  "duration": 5873,
+  "format": "cohost",
+  "event": "Enterprise Security Weekly w/Adrian Sanabria",
+  "category": null,
+  "topics": [
+   "AI Security",
+   "Identity & Data Protection"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/6sZm4oA-iaU/maxresdefault.jpg",
+  "summary": "Ayman discusses concerns about AI-generated content replacing human writing, noting the risk of people losing writing skills and the potential for AI to create a feedback loop of AI-generated content consumed by AI. He also highlights the misuse of AI in cyber attacks, such as stealing credentials and harvesting API keys from apps, emphasizing the importance of securing keys and improving security practices in startups.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "can-employees-safely-use-ai-agents-ai-pentesting-agent",
+  "title": "Can employees safely use AI agents? AI pentesting agent liabilities, and the news - ESW #473",
+  "url": "https://youtu.be/o-Edp9puMEo?si=71SjUt1akYGDx4vH",
+  "platform": "YouTube",
+  "date": "2026-08-24",
+  "duration": 5959,
+  "format": "cohost",
+  "event": "Enterprise Security Weekly w/Adrian Sanabria",
+  "category": null,
+  "topics": [
+   "AI Security"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/o-Edp9puMEo/maxresdefault.jpg",
+  "summary": "Ayman discusses the use of AI in pentesting, emphasizing the need for human oversight and the value of custom harnesses to ensure accurate and novel testing. He also highlights the challenges of using AI for security, including the need for open source models and the potential for AI to both create and solve security issues. Additionally, he comments on the implications of AI in content creation and the importance of transparency in its use.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "fixing-pentesting-meta-is-destroying-its-engineering-org-the",
+  "title": "Fixing pentesting, Meta is destroying its engineering org, the weekly news  - ESW #465",
+  "url": "https://www.youtube.com/watch?v=DRg-qoTIvJE",
+  "platform": "YouTube",
+  "date": "2026-06-29",
+  "duration": 6054,
+  "format": "cohost",
+  "event": "Enterprise Security Weekly w/Adrian Sanabria",
+  "category": null,
+  "topics": [
+   "AI Security"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/DRg-qoTIvJE/maxresdefault.jpg",
+  "summary": "Ayman discusses how AI is changing the role of engineers, noting that while it can make tasks easier, it also increases the volume of work, such as code reviews. He highlights concerns about AI training methods, including the use of human feedback and the potential for poor quality outputs. Ayman also mentions security practices, such as using internal repositories for software packages to improve supply chain safety.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "bsidessf-2026-google-drive-hunter-building-the-tool-google",
+  "title": "BSidesSF 2026 - Google Drive Hunter: Building the Tool Google Should’ve Built (Ayman Elsawah)",
+  "url": "https://www.youtube.com/watch?v=sOv8R4TTOPg",
+  "platform": "YouTube",
+  "date": "2026-05-12",
+  "duration": 1406,
+  "format": "talk",
+  "event": "Security BSides San Francisco",
+  "category": null,
+  "topics": [
+   "Identity & Data Protection"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/sOv8R4TTOPg/maxresdefault.jpg",
+  "summary": "Ayman explains the problem of publicly shared Google Drive files and how they can expose sensitive information. He discusses technical controls like restricting sharing via Google Groups and OU settings in Google Workspace, and introduces Sleuther, a tool he developed to audit and identify publicly shared files. He also shares a real-world example of discovering an unintended publicly shared file and the process of responsibly disclosing it to the owner.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "the-state-of-cybersecurity-hiring-2026-content-plans-and-the",
+  "title": "The State of Cybersecurity Hiring, 2026 content plans, and the weekly news - ESW #441",
+  "url": "https://www.youtube.com/watch?v=cTkQz2DGJRg",
+  "platform": "YouTube",
+  "date": "2026-01-12",
+  "duration": 5749,
+  "format": "cohost",
+  "event": "Enterprise Security Weekly w/Adrian Sanabria",
+  "category": null,
+  "topics": [
+   "Careers",
+   "AI Security"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/cTkQz2DGJRg/maxresdefault.jpg",
+  "summary": "Ayman discusses the current state of cybersecurity hiring, noting that the job market has improved slightly but still requires candidates to demonstrate a broader range of skills, including the use of AI and modern tools. He suggests that aspiring professionals can gain valuable experience by working on personal projects, such as deploying open-source applications or learning DevOps practices, to build practical skills that are in demand.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "esw-at-blackhat-and-the-weekly-enterprise-security-news-esw",
+  "title": "ESW at BlackHat and the weekly enterprise security news - ESW #419",
+  "url": "https://www.youtube.com/watch?v=Dq8_NlDm-A0",
+  "platform": "YouTube",
+  "date": "2025-08-11",
+  "duration": 2743,
+  "format": "cohost",
+  "event": "Enterprise Security Weekly w/Adrian Sanabria",
+  "category": null,
+  "topics": [
+   "AI Security",
+   "Identity & Data Protection",
+   "Careers"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/Dq8_NlDm-A0/maxresdefault.jpg",
+  "summary": "Ayman discusses the growing importance of identity in cybersecurity, highlights the rapid consolidation in the industry, and expresses cautious optimism about AI's potential in security. He emphasizes the need for better workforce development, including hiring based on aptitude and learning ability, and stresses the importance of ethical considerations in AI and security practices.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "defcon-trailer",
+  "title": "DEFCON Trailer",
+  "url": "https://www.youtube.com/watch?v=8wQ03qZpqjY",
+  "platform": "YouTube",
+  "date": "2025-08-03",
+  "duration": 37,
+  "format": "talk",
+  "event": "Coffee With Ayman - Security Cafe",
+  "category": null,
+  "topics": [
+   "Careers"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/8wQ03qZpqjY/maxresdefault.jpg",
+  "summary": "Ayman shares his excitement for DEFCON, highlighting the event's atmosphere of innovation and hacking. He mentions the variety of activities, including car hacking and IoT challenges, and the mix of participants from different backgrounds. He emphasizes the thrill of exchanging exploits and competing in skill-based challenges.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "the-cyber-canon-ditching-the-soc-2-and-the-weekly-enterprise",
+  "title": "The Cyber Canon, ditching the SOC 2, and the weekly enterprise news - Helen Patton - ESW #416",
+  "url": "https://www.youtube.com/watch?v=ddA0I3fGRHA",
+  "platform": "YouTube",
+  "date": "2025-07-21",
+  "duration": 6568,
+  "format": "cohost",
+  "event": "Enterprise Security Weekly w/Adrian Sanabria",
+  "category": null,
+  "topics": [
+   "Compliance & SOC 2",
+   "Startup Security"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/ddA0I3fGRHA/maxresdefault.jpg",
+  "summary": "Ayman discusses the limitations and issues with SOC 2, explaining that it is not prescriptive and can give a false sense of security. He advises delaying SOC 2 until necessary and instead focusing on practical security measures like the Minimum Viable Secure Product (MVSP). He emphasizes the importance of designing security controls thoughtfully and not relying solely on compliance frameworks.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "uncover-security-risks-with-a-technical-risk-assessment",
+  "title": "Uncover Security Risks With A Technical Risk Assessment",
+  "url": "https://www.youtube.com/watch?v=Swqww9iXcjo",
+  "platform": "YouTube",
+  "date": "2025-07-17",
+  "duration": 67,
+  "format": "talk",
+  "event": "Coffee With Ayman - Security Cafe",
+  "category": null,
+  "topics": [
+   "vCISO & Leadership",
+   "Compliance & SOC 2"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/Swqww9iXcjo/hqdefault.jpg",
+  "summary": "Ayman explains the importance of a technical risk assessment in identifying security risks that may not be covered by compliance programs like SOC 2. He emphasizes that assessments should be tailored to an organization's specific environment and prioritize risks based on the company's unique needs. He recommends conducting on-site interviews and creating a one-year roadmap to address identified risks.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "bsides-sf-2025-vlog-interview-with-ayman-elsawah-meeting",
+  "title": "BSides SF 2025 Vlog - Interview with Ayman ElSawah + Meeting Jason Haddix & Tanya Janca!",
+  "url": "https://www.youtube.com/watch?v=7x_VJLEIuQA",
+  "platform": "YouTube",
+  "date": "2025-05-07",
+  "duration": 548,
+  "format": "interview",
+  "event": "Three Headed Beast Security",
+  "category": null,
+  "topics": [
+   "Careers",
+   "AI Security"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/7x_VJLEIuQA/maxresdefault.jpg",
+  "summary": "Ayman advises first-time conference attendees to engage in a variety of activities, such as attending talks, visiting villages, and networking with people in line or during breaks. He emphasizes the importance of adaptability and a broad understanding of the security field for those starting in cybersecurity, and he highlights the impact of AI on the industry, noting that it will automate many routine tasks but also increase the need for skilled professionals who can work alongside AI tools.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "crowdstrike-global-it-outage-explained-hint-not-a-cyber",
+  "title": "Crowdstrike Global IT Outage Explained! (Hint: Not a Cyber Incident!)",
+  "url": "https://www.youtube.com/watch?v=W0jmdDJ7jZQ",
+  "platform": "YouTube",
+  "date": "2024-07-21",
+  "duration": 616,
+  "format": "talk",
+  "event": "Coffee With Ayman - Security Cafe",
+  "category": null,
+  "topics": [
+   "vCISO & Leadership"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi_webp/W0jmdDJ7jZQ/maxresdefault.webp",
+  "summary": "Ayman explains that the CrowdStrike outage was caused by a software bug in an anti-malware update that crashed Windows systems worldwide, leading to widespread disruptions in critical infrastructure. He emphasizes that this was not a cybersecurity incident but a flaw in the update process, and highlights the challenges of recovering affected systems, including the need to manually access encryption keys or restore from backups. Ayman advises organizations to make their systems more resilient and to reconsider automatic updates for critical production environments.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "balancing-life-and-the-addiction-to-productivity-w-ayman",
+  "title": "Balancing Life and the Addiction to Productivity w/ Ayman Elsawah",
+  "url": "https://www.youtube.com/watch?v=uQOCK0y_PD4",
+  "platform": "YouTube",
+  "date": "2024-07-12",
+  "duration": 284,
+  "format": "interview",
+  "event": "BlakeWilliamsHQ",
+  "category": null,
+  "topics": [
+   "Careers"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/uQOCK0y_PD4/maxresdefault.jpg",
+  "summary": "Ayman discusses the pressure of overworking and the need to find a sustainable work pace, especially for single parents. He emphasizes the importance of unplugging from the constant drive for productivity and suggests planning long-term goals to achieve balance. He also highlights the value of community and support structures in managing work-life balance.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "protecting-your-data-disabling-google-takeout-in-google",
+  "title": "Protecting Your Data: Disabling Google Takeout in Google Workspace",
+  "url": "https://www.youtube.com/watch?v=k42FP6Jz0Ao",
+  "platform": "YouTube",
+  "date": "2024-07-07",
+  "duration": 340,
+  "format": "talk",
+  "event": "Coffee With Ayman - Security Cafe",
+  "category": null,
+  "topics": [
+   "Identity & Data Protection"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/k42FP6Jz0Ao/maxresdefault.jpg",
+  "summary": "Ayman explains how to disable Google Takeout in Google Workspace to prevent users from downloading sensitive company data such as emails and Drive files. He demonstrates disabling the feature through the Google Admin Console and suggests creating exception groups for users who may need temporary access. Ayman also emphasizes the importance of reviewing and adjusting default settings to enhance overall security in Google Workspace.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "fractional-ciso-when-why-how-to-become-one-w-ayman-elsawah",
+  "title": "Fractional CISO - When, Why, & How to Become One w/ Ayman Elsawah  - Hyperdrive Minds Podcast 10",
+  "url": "https://www.youtube.com/watch?v=4r964FmeJ-4",
+  "platform": "YouTube",
+  "date": "2024-07-05",
+  "duration": 3518,
+  "format": "podcast-guest",
+  "event": "BlakeWilliamsHQ",
+  "category": null,
+  "topics": [
+   "vCISO & Leadership",
+   "Careers"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/4r964FmeJ-4/maxresdefault.jpg",
+  "summary": "Ayman explains the benefits and challenges of becoming a fractional CISO, emphasizing the importance of having experience managing a security program, understanding the mindset of a security professional, and identifying whether fractional work is a temporary or long-term career path. He also discusses the value of being present and approachable in security roles, the importance of building strong relationships for business development, and the need for security professionals to focus on creating a positive security culture within organizations.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "security-expert-just-wants-to-share-everything-he-knows",
+  "title": "Security Expert Just Wants To Share Everything He Knows",
+  "url": "https://www.youtube.com/watch?v=ghYwm8aRMAg",
+  "platform": "YouTube",
+  "date": "2024-07-04",
+  "duration": 154,
+  "format": "talk",
+  "event": "Coffee With Ayman - Security Cafe",
+  "category": null,
+  "topics": [
+   "vCISO & Leadership",
+   "Startup Security"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/ghYwm8aRMAg/hqdefault.jpg",
+  "summary": "Ayman explains his motivation for creating a book, podcast, and YouTube channel to make cybersecurity more accessible to beginners and startups. He discusses his work as a fractional CISO, helping small companies gain security expertise without hiring a full-time chief information security officer. He also mentions upcoming courses and a community to support people interested in learning about cybersecurity.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "how-to-hack-your-career-building-a-vciso-business-with-ayman",
+  "title": "How to Hack your Career  Building a vCISO Business with Ayman Elsawah",
+  "url": "https://www.youtube.com/watch?v=JKTdDMTtvqs",
+  "platform": "YouTube",
+  "date": "2024-04-23",
+  "duration": 1917,
+  "format": "podcast-guest",
+  "event": "Hacker Valley Media",
+  "category": null,
+  "topics": [
+   "vCISO & Leadership",
+   "Careers"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/JKTdDMTtvqs/maxresdefault.jpg",
+  "summary": "Ayman explains how to build a vCISO business by emphasizing the importance of niche specialization, personal branding, and consistent marketing efforts on platforms like LinkedIn. He advises aspiring vCISOs to assess their motivation, build expertise in specific areas such as SOC 2 or incident response, and structure their services to align with their lifestyle and long-term goals. He also highlights the need to balance client work with ongoing sales and marketing to ensure business sustainability.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "important-consideration-when-trying-to-be-a-vciso",
+  "title": "Important Consideration When Trying To Be a vCISO",
+  "url": "https://www.youtube.com/watch?v=v46vosJdxfk",
+  "platform": "YouTube",
+  "date": "2024-03-17",
+  "duration": 61,
+  "format": "talk",
+  "event": "Coffee With Ayman - Security Cafe",
+  "category": null,
+  "topics": [
+   "vCISO & Leadership"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/v46vosJdxfk/maxresdefault.jpg",
+  "summary": "Ayman explains the mindset shift required when transitioning from a full-time CISO to a fractional or virtual CISO, emphasizing the additional responsibilities such as accounting, scheduling, and client management. He discusses the different types of vCISOs, the challenges in the market, and the importance of customer success in running a vCISO business.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "the-problem-with-being-that-security-person",
+  "title": "The problem with being THAT security person...",
+  "url": "https://www.youtube.com/shorts/wPwsehUhFa8",
+  "platform": "YouTube",
+  "date": "2024-01-24",
+  "duration": 60,
+  "format": "talk",
+  "event": "Coffee With Ayman - Security Cafe",
+  "category": null,
+  "topics": [
+   "vCISO & Leadership"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/wPwsehUhFa8/hq720_2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYPiBhKGUwDw==&rs=AOn4CLC7IFTymfeM56queqqc7yw5JpTyhg",
+  "summary": "Ayman illustrates the challenges of being perceived as the \"security person\" by demonstrating a scenario where he asks someone to install a security agent, despite being seen as an outsider. He highlights the difficulty of gaining cooperation and trust in security efforts, and emphasizes the importance of clear communication and policy enforcement in ensuring compliance.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "bsidessf-2015-federating-aws-cli-ayman-elsawah-paul-moreno",
+  "title": "BSidesSF 2015 - Federating AWS CLI (Ayman Elsawah, Paul Moreno)",
+  "url": "https://www.youtube.com/watch?v=iQ3ALCjxv4g",
+  "platform": "YouTube",
+  "date": "2023-12-02",
+  "duration": 1423,
+  "format": "interview",
+  "event": "Security BSides San Francisco",
+  "category": null,
+  "topics": [
+   "Cloud Security",
+   "Identity & Data Protection"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/iQ3ALCjxv4g/maxresdefault.jpg",
+  "summary": "Ayman explains the risks of storing AWS credentials in plain text and how federating AWS CLI through Shibboleth and STS can mitigate these risks by eliminating the need for developers to handle long-term keys. He details the implementation of Eris, a tool that automates the process of obtaining temporary credentials and reauthorizing them every hour, reducing the chance of credential exposure. Ayman also highlights challenges encountered with AWS STS, including poor documentation and unexpected behavior with session tokens and anonymous connections.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "let-s-simplify-cybersecurity-language-with-ayman-elsawah",
+  "title": "Let’s Simplify Cybersecurity Language with Ayman Elsawah, Founder at Cloud Security Labs",
+  "url": "https://www.youtube.com/watch?v=K8tMGW4dH68",
+  "platform": "YouTube",
+  "date": "2023-11-28",
+  "duration": 3139,
+  "format": "podcast-guest",
+  "event": "Cyft",
+  "category": null,
+  "topics": [
+   "Startup Security",
+   "Identity & Data Protection"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/K8tMGW4dH68/maxresdefault.jpg",
+  "summary": "Ayman explains that cybersecurity can be simplified by focusing on practical steps like enabling device encryption, implementing strong access controls, and prioritizing security culture. He emphasizes that for startups, security should be tailored to their specific needs and stage of growth, with a focus on foundational measures such as proper onboarding and offboarding processes, and using built-in security features rather than overcomplicating with expensive tools. He also highlights the importance of distinguishing between compliance and true security, noting that compliance alone does not ensure protection against real-world threats.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "startup-security-simplified-prioritize-what-matters-for",
+  "title": "Startup Security Simplified: Prioritize What Matters for Growth",
+  "url": "https://www.youtube.com/shorts/1iZPeYAo_Nw",
+  "platform": "YouTube",
+  "date": "2023-11-27",
+  "duration": 36,
+  "format": "talk",
+  "event": "Coffee With Ayman - Security Cafe",
+  "category": null,
+  "topics": [
+   "Startup Security"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/1iZPeYAo_Nw/hq720_2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYTSBZKGUwDw==&rs=AOn4CLBqKV9KHlg6ELBelwwUqWKRmW5EIQ",
+  "summary": "Ayman explains that startups often struggle with knowing what security measures to prioritize. He advises focusing on protecting customer data and enabling business growth by identifying immediate security needs. He emphasizes creating a clear timeline for security actions, starting from day zero.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "soc2-vs-iso-for-startups-key-differences-explained",
+  "title": "SOC2 vs. ISO for Startups: Key Differences Explained | Cybersecurity Essentials",
+  "url": "https://www.youtube.com/shorts/npfKNYz-9Ks",
+  "platform": "YouTube",
+  "date": "2023-11-23",
+  "duration": 59,
+  "format": "talk",
+  "event": "Coffee With Ayman - Security Cafe",
+  "category": null,
+  "topics": [
+   "Compliance & SOC 2",
+   "Startup Security"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/npfKNYz-9Ks/hq720_2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBKKD8wDw==&rs=AOn4CLCGiL5XxlHjMDx9mEOc-kazLfy6CQ",
+  "summary": "Ayman explains that SOC 2 focuses on data security with five criteria, including availability, integrity, privacy, confidentiality, and security, and is primarily aimed at service providers, especially in the U.S. He notes that ISO is more policy-oriented, recognized internationally, and involves a longer three-year journey, but may be more suitable for companies with international customers. Ayman advises startups to choose based on their customers' requirements, highlighting that there is significant overlap between the two standards but they differ in scope and approach.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "mastering-security-logging-essential-tips-for-saas-b2b",
+  "title": "Mastering Security Logging: Essential Tips for SaaS & B2B Companies",
+  "url": "https://www.youtube.com/shorts/zQiu947XEWI",
+  "platform": "YouTube",
+  "date": "2023-11-22",
+  "duration": 58,
+  "format": "talk",
+  "event": "Coffee With Ayman - Security Cafe",
+  "category": null,
+  "topics": [
+   "Startup Security",
+   "Cloud Security"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/zQiu947XEWI/hq720_2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4Ac4FgAKACooCDAgAEAEYMSBAKH8wDw==&rs=AOn4CLCptnw1Sule60SBstrkMnJc_1AL5w",
+  "summary": "Ayman explains the importance of security logging for SaaS and B2B companies, emphasizing the need for situational awareness through logging user activities and system events. He recommends starting by enabling logging features such as AWS CloudTrail and sending logs to tools like Sumo, Splunk, or Datadog for analysis and searchability.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "ban-shared-credentials-elevate-your-company-s-security",
+  "title": "Ban Shared Credentials: Elevate Your Company's Security | Cybersecurity Tips",
+  "url": "https://www.youtube.com/shorts/4GVhdBbxc2E",
+  "platform": "YouTube",
+  "date": "2023-11-18",
+  "duration": 37,
+  "format": "talk",
+  "event": "Coffee With Ayman - Security Cafe",
+  "category": null,
+  "topics": [
+   "Identity & Data Protection",
+   "Startup Security"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/4GVhdBbxc2E/hq720_2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4Ac4FgAKACooCDAgAEAEYOyBOKH8wDw==&rs=AOn4CLDccrXm7ANNHBjKfMDGxCUviC0zQw",
+  "summary": "Ayman explains the importance of eliminating shared credentials in an organization to improve security and enable proper attribution during security events. He emphasizes that each person should have unique credentials and highlights the value of strengthening password requirements as a key step in enhancing authentication practices.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "is-your-startup-safe-quick-sso-authentication-tips-for-saas",
+  "title": "Is Your Startup Safe? Quick SSO & Authentication Tips for SaaS Security",
+  "url": "https://www.youtube.com/shorts/1094CjmaER0",
+  "platform": "YouTube",
+  "date": "2023-11-16",
+  "duration": 58,
+  "format": "talk",
+  "event": "Coffee With Ayman - Security Cafe",
+  "category": null,
+  "topics": [
+   "Identity & Data Protection",
+   "Startup Security"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/1094CjmaER0/hq720_2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4Ac4FgAKACooCDAgAEAEYaiBqKGowDw==&rs=AOn4CLAhJl3BPb3NfIx7dLSQQ7rNnCEebg",
+  "summary": "Ayman explains that startups should begin with authentication and logging to improve security. He recommends implementing SSO to centralize access control and ensure former employees lose access automatically. He also highlights the value of context-aware authentication, which can detect suspicious login activity based on location and timing.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "how-to-ace-soc2-in-saas-scale-ups",
+  "title": "How to Ace SOC2 in SaaS Scale Ups",
+  "url": "https://www.youtube.com/watch?v=HieEWiTy2zQ",
+  "platform": "YouTube",
+  "date": "2023-11-06",
+  "duration": 1888,
+  "format": "talk",
+  "event": "Sprinto",
+  "category": null,
+  "topics": [
+   "Compliance & SOC 2",
+   "Startup Security"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/HieEWiTy2zQ/maxresdefault.jpg",
+  "summary": "Ayman explains that SOC 2 is not a certification but a report on controls, emphasizing the importance of organizational maturity, especially in people operations and IT. He highlights the need for automation in onboarding, access reviews, and training, and advises SaaS companies to identify critical vendors and ensure proper incident notification channels. He also discusses the importance of single sign-on and multi-factor authentication in improving security and streamlining access management.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "how-internet-safety-experts-protect-their-kids-online-ep2",
+  "title": "How Internet Safety Experts Protect Their Kids Online | Ep2",
+  "url": "https://www.youtube.com/watch?v=QLAE3mUEnmY",
+  "platform": "YouTube",
+  "date": "2023-08-23",
+  "duration": 3445,
+  "format": "interview",
+  "event": "CyberFareedah",
+  "category": null,
+  "topics": [
+   "Identity & Data Protection"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/QLAE3mUEnmY/maxresdefault.jpg",
+  "summary": "Ayman explains the importance of using device-level parental controls, such as Google Family Link or Microsoft Family, rather than relying solely on router-based filters, which can be bypassed. He also discusses the risks of Internet-connected devices, such as smart toys and cameras, and advises parents to avoid sharing photos of their children online. Additionally, he recommends delaying smartphone use until children are mature enough and suggests engaging with kids through shared activities like gaming or watching shows to build trust and understanding.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "what-you-need-to-know-about-restoring-from-a-backup",
+  "title": "What You Need To Know About Restoring From A Backup",
+  "url": "https://www.youtube.com/watch?v=ZK7PLiqXjdg",
+  "platform": "YouTube",
+  "date": "2022-02-11",
+  "duration": 3176,
+  "format": "panel",
+  "event": "Wizer - Security Awareness Training",
+  "category": null,
+  "topics": [
+   "Identity & Data Protection",
+   "Cloud Security"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/ZK7PLiqXjdg/maxresdefault.jpg",
+  "summary": "Ayman explains that businesses should identify critical data by considering what would cause the most disruption if lost, and emphasizes backing up system configurations using infrastructure as code and cloud services. He recommends storing backups in multiple locations at least 50 miles apart, encrypting sensitive data, and testing backups regularly to ensure they can be restored effectively.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "how-to-become-a-cybersecurity-professional-ayman-elsawah",
+  "title": "How to become a Cybersecurity professional  | Ayman Elsawah",
+  "url": "https://www.youtube.com/watch?v=iDv0-AY7J84",
+  "platform": "YouTube",
+  "date": "2021-12-06",
+  "duration": 104,
+  "format": "talk",
+  "event": "Haythem Hammour",
+  "category": null,
+  "topics": [
+   "Careers"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/iDv0-AY7J84/maxresdefault.jpg",
+  "summary": "Ayman explains that becoming a cybersecurity professional can start from various backgrounds and that the field includes many roles beyond hacking or penetration testing. He suggests leveraging existing skills, such as those from web development or linguistics, and recommends using the NICE framework to explore different cybersecurity positions and find a good fit.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "what-is-phishing-simulation-and-should-you-phish-your-own",
+  "title": "What is Phishing Simulation and should you phish your own employees?",
+  "url": "https://www.youtube.com/watch?v=5NHwEtJlsmo",
+  "platform": "YouTube",
+  "date": "2021-01-14",
+  "duration": 3735,
+  "format": "panel",
+  "event": "Wizer - Security Awareness Training",
+  "category": null,
+  "topics": [
+   "vCISO & Leadership"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/5NHwEtJlsmo/maxresdefault.jpg",
+  "summary": "Ayman explains that phishing simulations should focus on education and preparedness rather than tricking employees, emphasizing the importance of empathy and emotional intelligence in designing these campaigns. He advises avoiding topics that could hurt employees' feelings, such as fake bonus emails, and recommends ensuring employees know how to report phishing attempts properly. Ayman also highlights the need to understand an organization's culture before implementing any security program and suggests using phishing campaigns sparingly, only after sufficient education has been provided.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "ayman-elsawah-why-we-break-things-the-neuroscience-of",
+  "title": "Ayman Elsawah - Why We Break Things... The Neuroscience of Hackers!",
+  "url": "https://www.youtube.com/watch?v=cTKkAfVoCSQ",
+  "platform": "YouTube",
+  "date": "2020-05-02",
+  "duration": 2927,
+  "format": "talk",
+  "event": "BSides Knoxville",
+  "category": null,
+  "topics": [
+   "Careers"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi_webp/cTKkAfVoCSQ/maxresdefault.webp",
+  "summary": "Ayman explains that hackers often possess three key traits: entrepreneurship, grit, and creativity, and explores the neuroscience behind these qualities. He discusses how the brain's angular cingulate cortex helps regulate emotions during failure, enabling perseverance, and how divergent thinking and latent inhibition contribute to creative problem-solving. Ayman also highlights the importance of fostering creativity through learning new subjects, observing others, and embracing unconventional thinking.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "how-do-you-protect-data-on-endpoints-cybersecurity-on-the",
+  "title": "How Do You Protect Data on Endpoints | Cybersecurity on the Street | Interviews",
+  "url": "https://www.youtube.com/watch?v=q4syDUQxLJg",
+  "platform": "YouTube",
+  "date": "2020-04-29",
+  "duration": 83,
+  "format": "montage",
+  "event": "Absolute Security",
+  "category": null,
+  "topics": [
+   "Identity & Data Protection"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi_webp/q4syDUQxLJg/maxresdefault.webp",
+  "summary": "Ayman points out that many companies are not effectively protecting their data on endpoints, leading to frequent breaches. He emphasizes the need for better endpoint security measures.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "how-do-you-protect-your-remote-employees-cybersecurity-on",
+  "title": "How do you protect your remote employees? | Cybersecurity on the Street | Interviews",
+  "url": "https://www.youtube.com/watch?v=zocUc7bzQAc",
+  "platform": "YouTube",
+  "date": "2020-03-27",
+  "duration": 48,
+  "format": "montage",
+  "event": "Absolute Security",
+  "category": null,
+  "topics": [
+   "Identity & Data Protection"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/zocUc7bzQAc/hq720_2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4Ac4FgALQBYoCDAgAEAEYSCBOKGUwDw==&rs=AOn4CLBDdc2xiJKh3OCqKhXM1_KqW9AS2A",
+  "summary": "Ayman emphasizes the importance of tracking data access by remote employees, advocating for the zero trust security model. He stresses the need to know who accessed data, when, and where, regardless of location.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "ayman-elsawah-using-paretos-principle-for-securing-aws-with",
+  "title": "Ayman Elsawah - Using Paretos Principle for Securing AWS with SCPs - DEF CON 27 Cloud Village",
+  "url": "https://www.youtube.com/watch?v=RiZxb98sGTk",
+  "platform": "YouTube",
+  "date": "2019-12-20",
+  "duration": 1888,
+  "format": "talk",
+  "event": "DEFCONConference",
+  "category": null,
+  "topics": [
+   "Cloud Security"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi_webp/RiZxb98sGTk/maxresdefault.webp",
+  "summary": "Ayman explains how to use Pareto's Principle to secure AWS environments by focusing on a few key service control policies (SCPs) that provide the most security benefit. He recommends implementing SCPs to limit instance types, restrict region usage, prevent deletion of critical resources like CloudTrail logs and VPC flow logs, and restrict root account actions. He also emphasizes the importance of a multi-account strategy, creating a dedicated master account, and using SCPs to enforce security policies across all accounts.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "day-1-03-applying-pareto-s-principle-to-securing-aws-with",
+  "title": "Day 1 - 03 - Applying Pareto’s Principle to Securing AWS with SCPS - Ayman Elsawah",
+  "url": "https://www.youtube.com/watch?v=_Nxjfr2OqxQ",
+  "platform": "YouTube",
+  "date": "2019-12-14",
+  "duration": 1323,
+  "format": "talk",
+  "event": "Pacific Hackers Association",
+  "category": null,
+  "topics": [
+   "Cloud Security"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi_webp/_Nxjfr2OqxQ/maxresdefault.webp",
+  "summary": "Ayman explains how to use Pareto’s Principle to secure AWS accounts by focusing on the most impactful security measures, such as implementing Service Control Policies (SCPs) at the organization level to enforce guardrails across multiple accounts. He highlights specific examples, including blocking the deletion of CloudTrail logs, restricting instance types, limiting regions, and preventing S3 public access, to reduce risk with minimal effort. He also emphasizes organizing AWS accounts into logical groups and using SCPs to control permissions and prevent misconfigurations.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "ayman-elsawah-using-quora-to-connect-with-your-audience",
+  "title": "Ayman Elsawah - Using Quora to Connect With Your Audience",
+  "url": "https://www.youtube.com/watch?v=YMc5nidZpnY",
+  "platform": "YouTube",
+  "date": "2019-06-11",
+  "duration": 1113,
+  "format": "podcast-guest",
+  "event": "Paul Brodie",
+  "category": null,
+  "topics": [
+   "Careers"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/YMc5nidZpnY/maxresdefault.jpg",
+  "summary": "Ayman explains that using Quora to answer questions in his field helps build connections with an audience, and he recommends writing detailed, helpful answers that reflect his expertise. He also mentions using targeted ad campaigns, participating in online forums, and giving informative answers without being overly salesy.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "ayman-elsawah-on-cloud-security-and-infosec-careers",
+  "title": "Ayman Elsawah on Cloud Security and Infosec Careers",
+  "url": "https://www.youtube.com/watch?v=KJvPHZGtGdM",
+  "platform": "YouTube",
+  "date": "2019-05-02",
+  "duration": 3049,
+  "format": "interview",
+  "event": "Sam Bowne",
+  "category": null,
+  "topics": [
+   "Cloud Security",
+   "Careers"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi_webp/KJvPHZGtGdM/maxresdefault.webp",
+  "summary": "Ayman discusses cloud security challenges, emphasizing the importance of least privilege access and proper configuration management to prevent data leaks and unauthorized access. He highlights the risks of misconfigured S3 buckets and insecure IAM credentials, using real-world examples like the Code Spaces breach. Ayman also talks about diversity in infosec, advocating for more inclusive programs and awareness of ongoing challenges faced by underrepresented groups. For aspiring infosec professionals, he encourages creativity, persistence, and hands-on learning, suggesting practical steps like using open-source tools and contributing to GitHub projects.",
+  "hasTranscript": true
+ }
+]

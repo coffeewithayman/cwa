@@ -1,0 +1,45 @@
+{
+  "id": "k42FP6Jz0Ao",
+  "title": "Protecting Your Data: Disabling Google Takeout in Google Workspace",
+  "description": "Protecting Your Data: Disabling Google Takeout in Google Workspace\n\nIn this episode of Security Cafe, host Ayman Elsawah discusses the often-overlooked Google Takeout feature in Google Workspace. He explains how employees can easily extract company data using Google Takeout, and provides a step-by-step guide on how to disable this feature to prevent data loss. The episode focuses on the importance of protecting drive and email data and offers insights into managing exceptions for essential uses.\n\n00:00 Introduction\n00:19 Understanding Google Takeout\n00:33 Risks of Google Takeout for Companies\n03:38 Preventing Data Loss with Google Admin Console\n04:22 Creating Exception Groups for Necessary Data Exports\n05:03 Final Thoughts and Encouragement\n\nEverything Ayman: https://coffeewithayman.com/",
+  "upload_date": "20240707",
+  "duration": 340,
+  "channel": "Coffee With Ayman - Security Cafe",
+  "uploader": "Coffee With Ayman - Security Cafe",
+  "channel_url": "https://www.youtube.com/channel/UCTRo1yMBKik6Re7D2lm1-3g",
+  "webpage_url": "https://www.youtube.com/watch?v=k42FP6Jz0Ao",
+  "extractor_key": "Youtube",
+  "thumbnail": "https://i.ytimg.com/vi/k42FP6Jz0Ao/maxresdefault.jpg",
+  "chapters": [
+    {
+      "start_time": 0,
+      "title": "Introduction",
+      "end_time": 19
+    },
+    {
+      "start_time": 19,
+      "title": "Understanding Google Takeout",
+      "end_time": 33
+    },
+    {
+      "start_time": 33,
+      "title": "Risks of Google Takeout for Companies",
+      "end_time": 218
+    },
+    {
+      "start_time": 218,
+      "title": "Preventing Data Loss with Google Admin Console",
+      "end_time": 262
+    },
+    {
+      "start_time": 262,
+      "title": "Creating Exception Groups for Necessary Data Exports",
+      "end_time": 303
+    },
+    {
+      "start_time": 303,
+      "title": "Final Thoughts and Encouragement",
+      "end_time": 340
+    }
+  ]
+}

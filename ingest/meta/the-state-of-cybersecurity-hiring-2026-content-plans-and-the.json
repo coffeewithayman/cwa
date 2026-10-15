@@ -1,0 +1,95 @@
+{
+  "id": "cTkQz2DGJRg",
+  "title": "The State of Cybersecurity Hiring, 2026 content plans, and the weekly news - ESW #441",
+  "description": "First Topic - Podcast Content Plans for 2026\r\n\r\nEvery year, I like to sit down and consider what the podcast should be focusing on. Not doing so ensures every single episode will be about AI and nobody wants that. Least of all, me. If I have one more all-AI episode, my head is going to explode.\r\n\r\nWith that said, most of what we talk about in this segment is AI (picard face palm.png). I think 2026 will be THE defining year for GenAI. Three years after the release of ChatGPT, I think we've hit peak GenAI hype and folks are ready for it to put up or shut up. We'll see winners grow and get acquired and losers pivot to something else. More than anything, I want to interview folks who have actually seen it work at scale, rather than just in a cool demo in a vendor sandbox.\r\n\r\nAlso on the agenda for this year:\r\n\r\n- The battle against infostealers and session hijacking: we didn't have a good answer in 2025. When is it coming? Will it include Macs, despite them not having a traditional TPM?\r\n- The state of trust in outsourcing and third party use (Cloud, MSSPs, SaaS, contractors): 2025 was not a good year for third parties. Lots of them got breached and caused their customers a lot of pain. Also, there's the state of balkanization between the US and... the rest of the entire world. Everyone outside the US seems to be trying to derisk their companies and systems from the Cloud Act right now.\r\n- Vulnerability management market disruption: there are half a dozen startups already plotting to disrupt the market, likely to come out of stealth in 2026\r\n- Future of the SOC: if it's not AI, what is it?\r\n- What else???\r\n\r\nWhat am I missing? What would you like to see us discuss? Please drop me a line and let me know: adrian.sanabria@cyberriskalliance.com\n\r\n\r\nTopic 2: The state of cybersecurity hiring\r\n\r\nThis topic has been in the works for a while! Ayman had a whole podcast: https://podcasts.apple.com/us/podcast/getting-into-infosec/id1437669665 and book: https://www.amazon.com/Breaking-Practical-Starting-Information-Security/dp/1794628827?sr=8-1 focused on all the paths people take to get into security. Jackie worked with WiSys on outlining pathways: https://www.wicys.org/wp-content/uploads/2025/10/WiCyS-Pathways-in-Cyber-PDF-9.24.25.pdf into a cybersecurity career.\r\n\r\nWhether you're already in cyber or looking for a way in, this segment crams a lot of great advice into just 15-20 minutes.\r\n\r\nSegment resources:\r\n\r\n- Ayman's personal guide: https://cloudsecuritylabs.notion.site/Getting-Started-In-Infosec-Cybersecurity-2e24378b590c806e95e6e3f733ef0680 for getting into security \r\n- https://www.wicys.org/wp-content/uploads/2025/10/WiCyS-Pathways-in-Cyber-PDF-9.24.25.pdf\r\n\r\nNews\r\n\r\nFinally, in the enterprise security news, \r\n\r\n1. Fundings and acquisitions still strong in 2026!\r\n2. Santa might be done delivering gifts, but not protecting Macs!\r\n3. ClickFix attacks\r\n4. Weaponized Raspberry Pis\r\n5. MongoDB incidents for Christmas\r\n6. Top 10 Cyber attacks of 2025\r\n7. US gets tough on nation state hackers?\r\n8. Brute force attacks on Banks\r\n9. An AI Vending Machine\r\n\r\nAll that and more, on this episode of Enterprise Security Weekly.\n\nVisit https://www.securityweekly.com/esw for all the latest episodes!\r\n\nShow Notes: https://securityweekly.com/esw-441\n\n00:00:00 Episode Introduction, Host Greetings, and Initial Sponsor Messages\n00:02:41 Details and Discount Code for RSA Conference 2026\n00:08:00 Discussing Podcast Focus: AI, Infostealers, Third-Party Trust, and SOC Future\n00:21:37 Supporting the Show: Sky High, Threat Locker, and Tanium\n00:23:35 Ayman's Insights on the Current Cybersecurity Job Market\n00:26:48 Jackie on Applying Skills and Building a Personal Brand\n00:34:55 Leveraging AI in Job Applications and Interview Processes\n00:44:27 Supporting the Show: Junto, Fortra, and Delinea Iris AI\n00:46:29 Latest Cybersecurity Funding Rounds and Major Acquisitions Analysis\n00:56:01 Santa EDR for Mac and Composite Detection Engineering\n01:00:07 Understanding Infostealers and ClickFix Social Engineering Attacks\n01:05:14 Raspberry Pi Used in Ferry Takeover Attempt\n01:10:53 Reviewing the Top 10 Cyberattacks of 2025\n01:15:14 MongoDB Incident and Controversial Christmas Eve Disclosure\n01:24:22 The AI Vending Machine Experiment and Salesforce's AI Pivot\n01:30:50 German Bank Vault Heist, Episode Conclusion, and Next Week's Preview",
+  "upload_date": "20260112",
+  "duration": 5749,
+  "channel": "Security Weekly - A CRA Resource",
+  "uploader": "Security Weekly - A CRA Resource",
+  "channel_url": "https://www.youtube.com/channel/UCg--XBjJ50a9tUhTKXVPiqg",
+  "webpage_url": "https://www.youtube.com/watch?v=cTkQz2DGJRg",
+  "extractor_key": "Youtube",
+  "thumbnail": "https://i.ytimg.com/vi/cTkQz2DGJRg/maxresdefault.jpg",
+  "chapters": [
+    {
+      "start_time": 0,
+      "title": "Episode Introduction, Host Greetings, and Initial Sponsor Messages",
+      "end_time": 161
+    },
+    {
+      "start_time": 161,
+      "title": "Details and Discount Code for RSA Conference 2026",
+      "end_time": 480
+    },
+    {
+      "start_time": 480,
+      "title": "Discussing Podcast Focus: AI, Infostealers, Third-Party Trust, and SOC Future",
+      "end_time": 1297
+    },
+    {
+      "start_time": 1297,
+      "title": "Supporting the Show: Sky High, Threat Locker, and Tanium",
+      "end_time": 1415
+    },
+    {
+      "start_time": 1415,
+      "title": "Ayman's Insights on the Current Cybersecurity Job Market",
+      "end_time": 1608
+    },
+    {
+      "start_time": 1608,
+      "title": "Jackie on Applying Skills and Building a Personal Brand",
+      "end_time": 2095
+    },
+    {
+      "start_time": 2095,
+      "title": "Leveraging AI in Job Applications and Interview Processes",
+      "end_time": 2667
+    },
+    {
+      "start_time": 2667,
+      "title": "Supporting the Show: Junto, Fortra, and Delinea Iris AI",
+      "end_time": 2789
+    },
+    {
+      "start_time": 2789,
+      "title": "Latest Cybersecurity Funding Rounds and Major Acquisitions Analysis",
+      "end_time": 3361
+    },
+    {
+      "start_time": 3361,
+      "title": "Santa EDR for Mac and Composite Detection Engineering",
+      "end_time": 3607
+    },
+    {
+      "start_time": 3607,
+      "title": "Understanding Infostealers and ClickFix Social Engineering Attacks",
+      "end_time": 3914
+    },
+    {
+      "start_time": 3914,
+      "title": "Raspberry Pi Used in Ferry Takeover Attempt",
+      "end_time": 4253
+    },
+    {
+      "start_time": 4253,
+      "title": "Reviewing the Top 10 Cyberattacks of 2025",
+      "end_time": 4514
+    },
+    {
+      "start_time": 4514,
+      "title": "MongoDB Incident and Controversial Christmas Eve Disclosure",
+      "end_time": 5062
+    },
+    {
+      "start_time": 5062,
+      "title": "The AI Vending Machine Experiment and Salesforce's AI Pivot",
+      "end_time": 5450
+    },
+    {
+      "start_time": 5450,
+      "title": "German Bank Vault Heist, Episode Conclusion, and Next Week's Preview",
+      "end_time": 5749
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "RiZxb98sGTk",
+  "title": "Ayman Elsawah - Using Paretos Principle for Securing AWS with SCPs - DEF CON 27 Cloud Village",
+  "description": "In this talk I am going to walk through how we can use pareto's principle to secure all our AWS accounts. What this means is with just 20% of effort, we can accomplish 80% security of our AWS accounts. We will be leveraging the power of AWS Organizations and IAM to accomplish our goals. This will be a technical talk and guide on how to secure your account.\n\nThis talk assumes you have secured your individual AWS accounts at the basic level by locking down your root accounts with 2FA, and etc.",
+  "upload_date": "20191220",
+  "duration": 1888,
+  "channel": "DEFCONConference",
+  "uploader": "DEFCONConference",
+  "channel_url": "https://www.youtube.com/channel/UC6Om9kAkl32dWlDSNlDS9Iw",
+  "webpage_url": "https://www.youtube.com/watch?v=RiZxb98sGTk",
+  "extractor_key": "Youtube",
+  "thumbnail": "https://i.ytimg.com/vi_webp/RiZxb98sGTk/maxresdefault.webp",
+  "chapters": [
+    {
+      "start_time": 0,
+      "end_time": 138,
+      "title": "<Untitled Chapter 1>"
+    },
+    {
+      "start_time": 138,
+      "title": "Common Issues",
+      "end_time": 371
+    },
+    {
+      "start_time": 371,
+      "title": "Multi Account Strategy",
+      "end_time": 673
+    },
+    {
+      "start_time": 673,
+      "title": "Applying Scps",
+      "end_time": 954
+    },
+    {
+      "start_time": 954,
+      "title": "Limiting the Type of Instances",
+      "end_time": 1049
+    },
+    {
+      "start_time": 1049,
+      "title": "Limiting Route Actions",
+      "end_time": 1132
+    },
+    {
+      "start_time": 1132,
+      "title": "Troubleshooting",
+      "end_time": 1339
+    },
+    {
+      "start_time": 1339,
+      "title": "What Do You Do about over Permissioning",
+      "end_time": 1888
+    }
+  ]
+}

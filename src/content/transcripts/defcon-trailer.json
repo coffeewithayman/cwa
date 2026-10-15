@@ -1,0 +1,56 @@
+{
+ "slug": "defcon-trailer",
+ "scope": "all",
+ "format": "talk",
+ "turns": [
+  {
+   "start": 0.1,
+   "end": 36.5,
+   "lines": [
+    {
+     "t": 0.1,
+     "text": "Twas the night before DEFCON, all through the scene."
+    },
+    {
+     "t": 3.3,
+     "text": "Hackers prepped gear, their laptops gleam."
+    },
+    {
+     "t": 6.4,
+     "text": "Badges and USBs ready for play."
+    },
+    {
+     "t": 9.4,
+     "text": "Dreaming of exploits, end zero day."
+    },
+    {
+     "t": 12.5,
+     "text": "Villages buzzed with locks and AI."
+    },
+    {
+     "t": 15.1,
+     "text": "Car hacking IoT, all tech to defy."
+    },
+    {
+     "t": 18.8,
+     "text": "Exploits exchanged, the air full of thrill, preparing for challenges, skill against skill."
+    },
+    {
+     "t": 24.9,
+     "text": "From new to old, white hats and black, and all in between, there's no turning back."
+    },
+    {
+     "t": 31.0,
+     "text": "So here's to the hackers, the bold and the bright."
+    },
+    {
+     "t": 33.8,
+     "text": "Happy DEF CON to all, and to all, a good night."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

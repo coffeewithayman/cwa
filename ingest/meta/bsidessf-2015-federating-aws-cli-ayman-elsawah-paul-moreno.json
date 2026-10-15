@@ -1,0 +1,14 @@
+{
+  "id": "iQ3ALCjxv4g",
+  "title": "BSidesSF 2015 - Federating AWS CLI (Ayman Elsawah, Paul Moreno)",
+  "description": "Federating AWS CLI\nAyman Elsawah, Paul Moreno\n\nFederating AWS IAM to directory services is a pain in the ass but it doesn't have to be. There are plenty of, expensive, solutions available that provide a web console to users but nothing yet that brings CLI tools to a developers linux system... until now.\n\nhttps://bsidessf2015.sched.com/event/2t9Z/federating-aws-cli",
+  "upload_date": "20231202",
+  "duration": 1423,
+  "channel": "Security BSides San Francisco",
+  "uploader": "Security BSides San Francisco",
+  "channel_url": "https://www.youtube.com/channel/UCWemrSP6Aba171jXReCz_Qg",
+  "webpage_url": "https://www.youtube.com/watch?v=iQ3ALCjxv4g",
+  "extractor_key": "Youtube",
+  "thumbnail": "https://i.ytimg.com/vi/iQ3ALCjxv4g/maxresdefault.jpg",
+  "chapters": null
+}

@@ -140,7 +140,7 @@ You generally shouldn't need to touch anything outside of
 
 - Satellite nodes are arranged evenly in a circle; the first node starts
   straight up (12 o'clock) and the rest follow clockwise.
-- Clicking a satellite node opens its `href` in a new tab. Hovering scales
+- Clicking a satellite node opens its `href` in a new tab (internal links like `/talks/` open in the same tab). Hovering scales
   the node up, glows its ring, brightens its connector line, and shows the
   tooltip.
 - A node with `children` doesn't link out — clicking it toggles a fan-out
@@ -150,6 +150,88 @@ You generally shouldn't need to touch anything outside of
 - Below 700px width, the graph is replaced by `MobileLinkList.astro` — a
   stacked list with the same nodes/links, since a force graph doesn't work
   well on small screens.
+
+## Talks & Videos (`/talks`)
+
+A searchable archive of every talk, panel, interview and podcast appearance,
+with transcripts. The website only reads generated files
+(`src/data/talks.json`, `src/content/transcripts/*.json`); everything is
+driven from plain Markdown in [`intake/`](intake/) and processed locally on
+the GPU by [`ingest/`](ingest/) (Python, managed with `uv`).
+
+### What goes in
+
+**Videos only**: talks, panels, interviews, webinars, filmed podcast
+appearances and the @coffeewithayman channel. Audio-only podcasts are out
+(links are skipped automatically; audio files dropped into the inbox are moved
+to `media/inbox/_failed/`). Getting Into Infosec is deliberately not included. New Enterprise Security
+Weekly episodes are listed separately in [`intake/esw.md`](intake/esw.md) and
+not processed — they'll get a workflow that links to Ayman's segment of each
+episode (not built yet). The 7 already processed are published as-is.
+Recordings where the voiceprint finds no trace of Ayman are skipped.
+
+### Adding talks
+
+- **A link:** paste it under `## Inbox` in [`intake/talks.md`](intake/talks.md) and save.
+- **A video:** drop it into `media/inbox/` (`.mp4 .mov .mkv .webm .m4v .avi`).
+  Optional: a same-named `.md` next to it with `# Title`, `- format:`, `- event:`, `- date:`,
+  `- topics:` lines and a `### Notes` section.
+- **A batch of links:** drop a `.txt` file of URLs into `media/inbox/`.
+
+With the watcher running these are picked up within seconds. Without it, run
+`npm run ingest`. Each entry in `talks.md` gets a status line
+(⏳ queued → ⬇️ → 🎧 → 👂 → ✅, or 👤 needs speaker review / ⏸ waiting for GPU / ⚠️ error).
+
+### What gets indexed
+
+`format` on each entry decides it: `talk`/`webinar` and one-on-one
+`interview`/`podcast-guest` keep the whole recording; `panel`/`cohost` keep only
+Ayman's parts, each with the question before it as context. If `format` is
+blank the pipeline guesses from the number of voices — fix it if wrong and the
+talk is re-published.
+
+Speaker identification compares each voice to Ayman's voiceprint (built from
+clips listed in [`intake/voiceprint.md`](intake/voiceprint.md), `npm run enroll`)
+and checks the transcript names him. When unsure, the talk lands in
+[`intake/speakers.md`](intake/speakers.md) with a 10-second sample per voice:
+tick the right one and save. Confirmed voices are added to the voiceprint.
+
+### Summaries
+
+Clicking a title on `/talks` expands a 2–3 sentence summary. Summaries come
+from a local model through [Ollama](https://ollama.com) — no API keys
+anywhere: `qwen3:14b` by default, `qwen3:4b` with the low-VRAM profile
+(override with `CWA_SUMMARY_MODEL`). If Ollama isn't already running the
+pipeline starts it for the run and pulls the model on first use. The summary
+is written into the entry's `summary:` line in `talks.md`; edit it freely —
+it's only generated while that line is empty (clear it to regenerate).
+
+### Vocabulary and notes
+
+[`intake/vocab.md`](intake/vocab.md) holds terms (spelling/casing, also fed to
+Whisper) and a heard→correct table. After editing, `npm run ingest -- --reclean`
+re-applies it without re-transcribing. Add bullets under any entry's
+`### Notes`; `npm run notes` lists open ones and `/process-notes` in Claude Code
+works through them, striking each through when done.
+
+### Commands
+
+| Command | What it does |
+|---|---|
+| `npm run ingest` | One pass: inbox, reviews, then every talk whose inputs changed (`-- --only <slug>`, `-- --force`, `-- --reclean`) |
+| `npm run watch` | Keep running and react to `media/inbox/` and `intake/*.md` |
+| `npm run watch:install` | Install the watcher as a systemd user service (starts at boot) |
+| `npm run enroll` | Build the voiceprint from `intake/voiceprint.md` |
+| `npm run notes` | List open notes |
+| `npm run test:ingest` | Pipeline unit tests |
+
+Setup: `cd ingest && uv sync`, then `hf auth login` with an account that has
+accepted the terms of `pyannote/speaker-diarization-community-1`. The pipeline
+needs ~9 GB free VRAM and waits (⏸) when another process is using the GPU.
+On a 6 GB card (e.g. RTX 3050, including under WSL2) put `CWA_PROFILE=low-vram`
+in `ingest/.env`: int8 weights, batch 1 and models unloaded between stages cut
+the peak to ~3.6 GB for roughly 2x the time. Under WSL, `npm run watch:install`
+needs systemd enabled (`[boot] systemd=true` in `/etc/wsl.conf`, then `wsl --shutdown`).
 
 ---
 

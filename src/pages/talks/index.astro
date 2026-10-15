@@ -1,0 +1,643 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import { formatLabel, humanDuration, linkAt } from "../../lib/talks";
+
+const talks = (await getCollection("talks"))
+  .map((t) => t.data)
+  .sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
+
+const uniq = (xs: (string | null | undefined)[]) =>
+  [...new Set(xs.filter((x): x is string => !!x))].sort((a, b) => a.localeCompare(b));
+
+const formats = uniq(talks.map((t) => t.format));
+const categories = uniq(talks.map((t) => t.category));
+// Topic chips, most-covered first.
+const topicCounts = new Map<string, number>();
+for (const topic of talks.flatMap((t) => t.topics)) topicCounts.set(topic, (topicCounts.get(topic) ?? 0) + 1);
+const topics = [...topicCounts.keys()].sort((a, b) => topicCounts.get(b)! - topicCounts.get(a)! || a.localeCompare(b));
+const events = uniq(talks.map((t) => t.event));
+const years = uniq(talks.map((t) => t.date?.slice(0, 4)));
+
+// Stats strip — all computed from the catalog, nothing typed in by hand.
+const hours = talks.reduce((sum, t) => sum + (t.duration ?? 0), 0) / 3600;
+const pad = (n: number) => String(n).padStart(3, "0");
+const stats = [
+  { value: pad(talks.length), label: "Recordings" },
+  { value: hours >= 10 ? `${Math.round(hours)}h` : `${hours.toFixed(1)}h`, label: "On record" },
+  { value: String(events.length), label: "Events & shows" },
+  { value: String(talks.filter((t) => t.hasTranscript).length), label: "Transcripts" },
+  {
+    value: years.length > 1 ? `${years[0]}–${years.at(-1)!.slice(2)}` : (years[0] ?? "—"),
+    label: years.length > 1 ? "Years" : "Year",
+  },
+];
+
+/** "youtube.com/watch?v=…" -> "youtube" ; "bsidessf.org/talks/x" -> "bsidessf.org" */
+function where(url: string | null, platform: string): string {
+  if (!url) return platform.toLowerCase();
+  try {
+    const host = new URL(url).hostname.replace(/^www\./, "");
+    return /youtu/.test(host) ? "youtube" : /vimeo/.test(host) ? "vimeo" : host;
+  } catch {
+    return platform.toLowerCase();
+  }
+}
+---
+
+<Layout
+  title="Talks & Videos — Ayman Elsawah"
+  description="Every talk, interview, panel and podcast appearance by Ayman Elsawah, searchable by topic, with full transcripts."
+>
+  <main>
+    <header class="top">
+      <a href="/" class="back">← Ayman Elsawah</a>
+      <span>talks &amp; videos</span>
+    </header>
+
+    <h1>Talks &amp; Videos</h1>
+    <p class="lede">
+      Presentations, interviews, panels and podcast appearances. Click a title for a short summary and the full
+      transcript.
+    </p>
+
+    {talks.length === 0 ? (
+      <p class="empty">Nothing published yet — check back soon.</p>
+    ) : (
+      <>
+        <section class="stats" aria-label="At a glance">
+          {stats.map((s) => (
+            <div class="stat">
+              <span class="stat-value">{s.value}</span>
+              <span class="stat-label">{s.label}</span>
+            </div>
+          ))}
+        </section>
+
+        <div class="bar" data-filters>
+          <span class="bar-label">Filter ▸</span>
+          <div class="chips" role="group" aria-label="Kind">
+            <button type="button" class="chip" data-kind="" aria-pressed="true">All</button>
+            {formats.map((f) => (
+              <button type="button" class="chip" data-kind={f} aria-pressed="false">{formatLabel(f)}</button>
+            ))}
+          </div>
+          <span class="bar-meta">
+            <button type="button" class="link" data-sort-toggle>sort: newest first</button>
+          </span>
+        </div>
+
+        {topics.length > 0 && (
+          <div class="bar">
+            <span class="bar-label">Topic ▸</span>
+            <div class="chips" role="group" aria-label="Topic">
+              <button type="button" class="chip" data-topic="" aria-pressed="true">All</button>
+              {topics.map((t) => (
+                <button type="button" class="chip" data-topic={t} aria-pressed="false">
+                  {t} <span class="count">{topicCounts.get(t)}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <div class="refine">
+          <input type="search" name="q" placeholder="search titles, events, topics…" aria-label="Search" />
+          {categories.length > 0 && (
+            <select name="category" aria-label="Category">
+              <option value="">all categories</option>
+              {categories.map((c) => <option value={c}>{c}</option>)}
+            </select>
+          )}
+          <span class="status" data-status aria-live="polite"></span>
+        </div>
+
+        <table class="talks" data-table>
+          <thead>
+            <tr>
+              <th class="n">#</th>
+              <th data-sort="date" aria-sort="descending"><button type="button">Date</button></th>
+              <th data-sort="format"><button type="button">Kind</button></th>
+              <th data-sort="title"><button type="button">Title</button></th>
+              <th class="desc-h">Description</th>
+              <th data-sort="event"><button type="button">Where</button></th>
+              <th data-sort="duration" class="right"><button type="button">Length</button></th>
+            </tr>
+          </thead>
+          <tbody>
+            {talks.map((t) => (
+              <>
+              <tr
+                data-row
+                data-slug={t.slug}
+                data-date={t.date ?? ""}
+                data-title={t.title.toLowerCase()}
+                data-format={t.format ?? ""}
+                data-event={t.event ?? ""}
+                data-category={t.category ?? ""}
+                data-duration={t.duration ?? 0}
+                data-topics={t.topics.join("|")}
+                data-search={[t.title, t.event, t.category, t.summary, ...t.topics].filter(Boolean).join(" ").toLowerCase()}
+              >
+                <td class="n mono" data-n></td>
+                <td class="mono muted nowrap">{t.date ?? "—"}</td>
+                <td class="kind mono nowrap">{formatLabel(t.format)}</td>
+                <td class="title">
+                  <button type="button" class="toggle" aria-expanded="false" aria-controls={`more-${t.slug}`}>
+                    <span class="caret mono" aria-hidden="true">▸</span>{t.title}
+                  </button>
+                </td>
+                <td class="desc">
+                  {t.event ?? ""}
+                  {t.topics.length > 0 && (
+                    <span class="tags">{t.topics.map((topic) => <span class="tag mono">{topic}</span>)}</span>
+                  )}
+                </td>
+                <td class="where mono nowrap">
+                  {t.url ? (
+                    <a href={t.url} target="_blank" rel="noopener noreferrer">↳ {where(t.url, t.platform)}</a>
+                  ) : (
+                    <span>↳ {where(null, t.platform)}</span>
+                  )}
+                </td>
+                <td class="mono muted right nowrap">{humanDuration(t.duration)}</td>
+              </tr>
+              <tr class="more" id={`more-${t.slug}`} data-more={t.slug} hidden>
+                <td colspan="3" class="more-pad"></td>
+                <td colspan="4">
+                  <p class="summary">{t.summary ?? "Summary coming soon."}</p>
+                  <p class="actions mono">
+                    {t.hasTranscript && <a href={`/talks/${t.slug}/`}>Read the transcript →</a>}
+                    {t.url && (
+                      <a href={linkAt(t.url, 0) ?? t.url} target="_blank" rel="noopener noreferrer">Watch on {t.platform} ↗</a>
+                    )}
+                  </p>
+                </td>
+              </tr>
+              </>
+            ))}
+          </tbody>
+        </table>
+      </>
+    )}
+  </main>
+</Layout>
+
+<script>
+  import "../../scripts/talks-table";
+</script>
+
+<style>
+  main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1.25rem 2.5rem 3rem;
+  }
+
+  .mono,
+  .top,
+  .bar,
+  .refine,
+  .stat-label,
+  th {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.65rem;
+    letter-spacing: 0.05em;
+    color: var(--secondary-text);
+    margin-bottom: 2rem;
+  }
+
+  .back:hover {
+    color: var(--text);
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 0 0 0.5rem;
+  }
+
+  .lede {
+    color: var(--secondary-text);
+    max-width: 60ch;
+    line-height: 1.5;
+    margin: 0 0 2rem;
+  }
+
+  .empty {
+    color: var(--secondary-text);
+  }
+
+  /* --- stats strip ------------------------------------------------------- */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 1.5rem;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 1.1rem 1rem 1rem;
+    border-left: 1px solid var(--line);
+  }
+
+  .stat:first-child {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .stat-value {
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--secondary-text);
+  }
+
+  /* --- filter bar -------------------------------------------------------- */
+  .bar {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    font-size: 0.7rem;
+    color: var(--secondary-text);
+    margin-bottom: 0.75rem;
+  }
+
+  .bar-label {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .chip {
+    font: inherit;
+    font-size: 0.7rem;
+    background: transparent;
+    color: var(--text);
+    border: 1px solid #2a2d30;
+    border-radius: 999px;
+    padding: 0.3rem 0.8rem;
+    cursor: pointer;
+  }
+
+  .chip:hover {
+    border-color: var(--secondary-text);
+  }
+
+  .chip[aria-pressed="true"] {
+    background: var(--center-ring);
+    border-color: var(--center-ring);
+    color: var(--bg);
+  }
+
+  .count {
+    opacity: 0.6;
+    margin-left: 0.2rem;
+  }
+
+  .bar-meta {
+    margin-left: auto;
+    display: flex;
+    gap: 0.4rem;
+  }
+
+  .link {
+    all: unset;
+    cursor: pointer;
+  }
+
+  .link:hover {
+    color: var(--text);
+  }
+
+  .refine {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .refine input,
+  .refine select {
+    font: inherit;
+    font-size: 0.75rem;
+    background: #141618;
+    color: var(--text);
+    border: 1px solid #2a2d30;
+    border-radius: 6px;
+    padding: 0.45rem 0.6rem;
+  }
+
+  .refine input {
+    flex: 0 1 20rem;
+    min-width: 0;
+  }
+
+  .chip:focus-visible,
+  .link:focus-visible,
+  .refine input:focus,
+  .refine select:focus,
+  th button:focus-visible {
+    outline: 2px solid var(--center-ring);
+    outline-offset: 1px;
+  }
+
+  .status {
+    font-size: 0.7rem;
+    color: var(--secondary-text);
+  }
+
+  /* --- table ------------------------------------------------------------- */
+  .talks {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+  }
+
+  th {
+    text-align: left;
+    font-weight: 400;
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--secondary-text);
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    padding: 0.6rem 0.75rem;
+    white-space: nowrap;
+  }
+
+  th button {
+    all: unset;
+    cursor: pointer;
+  }
+
+  th[aria-sort="ascending"] button::after {
+    content: " ↑";
+    color: var(--center-ring);
+  }
+
+  th[aria-sort="descending"] button::after {
+    content: " ↓";
+    color: var(--center-ring);
+  }
+
+  td {
+    padding: 0.7rem 0.75rem;
+    border-bottom: 1px solid #1c1e20;
+    vertical-align: top;
+  }
+
+  tbody tr:hover {
+    background: #111315;
+  }
+
+  .n {
+    width: 3rem;
+    color: var(--secondary-text);
+    font-size: 0.72rem;
+  }
+
+  .muted {
+    color: var(--secondary-text);
+    font-size: 0.75rem;
+  }
+
+  .nowrap {
+    white-space: nowrap;
+  }
+
+  .right {
+    text-align: right;
+  }
+
+  .kind {
+    color: var(--center-ring);
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .title {
+    font-weight: 600;
+    min-width: 14rem;
+  }
+
+  .toggle {
+    all: unset;
+    cursor: pointer;
+    display: inline-flex;
+    gap: 0.45rem;
+    line-height: 1.35;
+  }
+
+  .toggle:hover {
+    color: var(--center-ring);
+  }
+
+  .toggle:focus-visible {
+    outline: 2px solid var(--center-ring);
+    outline-offset: 2px;
+  }
+
+  .caret {
+    color: var(--secondary-text);
+    font-size: 0.7rem;
+    padding-top: 0.15rem;
+    transition: transform 0.15s ease;
+  }
+
+  .toggle[aria-expanded="true"] .caret {
+    transform: rotate(90deg);
+    color: var(--center-ring);
+  }
+
+  tr.open > td {
+    border-bottom-color: transparent;
+  }
+
+  .more td {
+    padding-top: 0;
+    padding-bottom: 1.1rem;
+  }
+
+  .more:hover {
+    background: transparent;
+  }
+
+  .summary {
+    margin: 0 0 0.6rem;
+    max-width: 75ch;
+    line-height: 1.6;
+    color: #d6d6d6;
+  }
+
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin: 0;
+    font-size: 0.75rem;
+  }
+
+  .actions a {
+    color: var(--center-ring);
+  }
+
+  .actions a:hover {
+    text-decoration: underline;
+  }
+
+  .desc {
+    color: #c9c9c9;
+    line-height: 1.45;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-top: 0.35rem;
+  }
+
+  .tag {
+    font-size: 0.62rem;
+    color: var(--secondary-text);
+    border: 1px solid #2a2d30;
+    border-radius: 999px;
+    padding: 0.05rem 0.45rem;
+  }
+
+  .where {
+    font-size: 0.75rem;
+    color: var(--secondary-text);
+  }
+
+  .where a:hover {
+    color: var(--center-ring);
+  }
+
+  @media (max-width: 1000px) {
+    .stats {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .stat:nth-child(4) {
+      border-left: none;
+      padding-left: 0;
+    }
+
+    .stat:nth-child(n + 4) {
+      border-top: 1px solid var(--line);
+    }
+  }
+
+  @media (max-width: 700px) {
+    main {
+      padding: 1rem 1rem 2rem;
+    }
+
+    .stats {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stat:nth-child(n) {
+      border-left: none;
+      padding-left: 0;
+      border-top: none;
+    }
+
+    .stat:nth-child(even) {
+      border-left: 1px solid var(--line);
+      padding-left: 1rem;
+    }
+
+    .stat:nth-child(n + 3) {
+      border-top: 1px solid var(--line);
+    }
+
+    .stat:last-child:nth-child(odd) {
+      grid-column: 1 / -1;
+      border-left: none;
+      padding-left: 0;
+    }
+
+    .stat-value {
+      font-size: 1.7rem;
+    }
+
+    .bar-meta {
+      margin-left: 0;
+      width: 100%;
+    }
+
+    .refine input,
+    .refine select {
+      flex: 1 1 100%;
+    }
+
+    thead {
+      display: none;
+    }
+
+    .talks,
+    .talks tbody,
+    .talks tr,
+    .talks td {
+      display: block;
+      width: 100%;
+    }
+
+    .talks tr {
+      position: relative;
+      border-bottom: 1px solid #1c1e20;
+      padding: 0.9rem 0;
+    }
+
+    .talks td {
+      border: none;
+      padding: 0.15rem 0;
+    }
+
+    .talks td.n {
+      position: absolute;
+      top: 0.95rem;
+      right: 0;
+      width: auto;
+    }
+
+    .talks td.right {
+      text-align: left;
+    }
+
+    .more td.more-pad {
+      display: none;
+    }
+
+    .talks tr.more {
+      padding-top: 0;
+    }
+  }
+</style>
