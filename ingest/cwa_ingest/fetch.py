@@ -3,12 +3,15 @@
 from __future__ import annotations
 
 import json
+import logging
 import re
 import subprocess
 from pathlib import Path
 
 import yt_dlp
 
+
+log = logging.getLogger("cwa_ingest")
 
 YOUTUBE_ID_RE = re.compile(r"(?:youtu\.be/|v=|/shorts/|/live/|/embed/)([\w-]{11})")
 
@@ -42,8 +45,19 @@ def _ffmpeg_to_wav(src: Path, dest: Path, clip: tuple[float, float] | None) -> N
     subprocess.run(cmd, check=True)
 
 
+# Be gentle with YouTube: a backlog of ~70 videos in a row triggers HTTP 429s.
+POLITE = {
+    "retries": 10,
+    "fragment_retries": 10,
+    "extractor_retries": 5,
+    "sleep_interval_requests": 1,
+    "sleep_interval": 5,
+    "max_sleep_interval": 15,
+}
+
+
 def fetch_url(url: str, workdir: Path, clip: tuple[float, float] | None) -> dict:
-    """Download best audio + English captions, convert to audio.wav. Returns info dict."""
+    """Download best audio, convert to audio.wav, then try for English captions. Returns info dict."""
     workdir.mkdir(parents=True, exist_ok=True)
     opts = {
         "quiet": True,
@@ -51,10 +65,7 @@ def fetch_url(url: str, workdir: Path, clip: tuple[float, float] | None) -> dict
         "noplaylist": True,
         "format": "bestaudio/best",
         "outtmpl": str(workdir / "source.%(ext)s"),
-        "writesubtitles": True,
-        "writeautomaticsub": True,
-        "subtitleslangs": ["en", "en-US", "en-orig"],
-        "subtitlesformat": "vtt",
+        **POLITE,
     }
     with yt_dlp.YoutubeDL(opts) as ydl:
         info = ydl.sanitize_info(ydl.extract_info(url, download=True))
@@ -62,7 +73,30 @@ def fetch_url(url: str, workdir: Path, clip: tuple[float, float] | None) -> dict
     _ffmpeg_to_wav(source, workdir / "audio.wav", clip)
     source.unlink()   # keep only the wav; the original is re-downloadable
     (workdir / "info.json").write_text(json.dumps(_slim(info), indent=2))
+    _fetch_captions(url, workdir)
     return info
+
+
+def _fetch_captions(url: str, workdir: Path) -> None:
+    """Captions are only a cross-check for Whisper, so failing to get them is fine."""
+    opts = {
+        "quiet": True,
+        "noprogress": True,
+        "noplaylist": True,
+        "skip_download": True,
+        "outtmpl": str(workdir / "source.%(ext)s"),
+        "writesubtitles": True,
+        "writeautomaticsub": True,
+        "subtitleslangs": ["en", "en-US", "en-orig"],
+        "subtitlesformat": "vtt",
+        **POLITE,
+    }
+    try:
+        with yt_dlp.YoutubeDL(opts) as ydl:
+            ydl.extract_info(url, download=True)
+    except Exception as exc:  # noqa: BLE001
+        log.warning("captions unavailable for %s (%s); continuing without the cross-check",
+                    url, str(exc).splitlines()[0][:120])
 
 
 def fetch_file(path: Path, workdir: Path, clip: tuple[float, float] | None) -> dict:
