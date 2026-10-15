@@ -53,6 +53,23 @@
   "hasTranscript": true
  },
  {
+  "slug": "getting-ai-pilled-without-getting-breached",
+  "title": "Getting AI Pilled Without Getting Breached",
+  "url": "https://youtu.be/gNhybzC33ek",
+  "platform": "YouTube",
+  "date": "2026-07-29",
+  "duration": 2761,
+  "format": "interview",
+  "event": "Coffee With Ayman - Security Cafe",
+  "category": null,
+  "topics": [
+   "AI Security"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi_webp/gNhybzC33ek/maxresdefault.webp",
+  "summary": "Ayman explains the importance of visibility into AI tool usage, segmenting users by risk profile, and implementing preventative controls such as limiting access to corporate-sanctioned tools. He emphasizes the need for education and collaboration with business teams to ensure secure AI adoption, while also highlighting the role of legal frameworks like BAA and ZDR in securing sensitive data.",
+  "hasTranscript": true
+ },
+ {
   "slug": "fixing-pentesting-meta-is-destroying-its-engineering-org-the",
   "title": "Fixing pentesting, Meta is destroying its engineering org, the weekly news  - ESW #465",
   "url": "https://www.youtube.com/watch?v=DRg-qoTIvJE",
@@ -74,7 +91,7 @@
   "title": "BSidesSF 2026 - Google Drive Hunter: Building the Tool Google Should’ve Built (Ayman Elsawah)",
   "url": "https://www.youtube.com/watch?v=sOv8R4TTOPg",
   "platform": "YouTube",
-  "date": "2026-05-12",
+  "date": "2026-03-22",
   "duration": 1406,
   "format": "talk",
   "event": "Security BSides San Francisco",
@@ -181,7 +198,7 @@
   "title": "BSides SF 2025 Vlog - Interview with Ayman ElSawah + Meeting Jason Haddix & Tanya Janca!",
   "url": "https://www.youtube.com/watch?v=7x_VJLEIuQA",
   "platform": "YouTube",
-  "date": "2025-05-07",
+  "date": "2025-04-26",
   "duration": 548,
   "format": "interview",
   "event": "Three Headed Beast Security",
@@ -331,24 +348,6 @@
   ],
   "thumbnail": "https://i.ytimg.com/vi/wPwsehUhFa8/hq720_2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYPiBhKGUwDw==&rs=AOn4CLC7IFTymfeM56queqqc7yw5JpTyhg",
   "summary": "Ayman illustrates the challenges of being perceived as the \"security person\" by demonstrating a scenario where he asks someone to install a security agent, despite being seen as an outsider. He highlights the difficulty of gaining cooperation and trust in security efforts, and emphasizes the importance of clear communication and policy enforcement in ensuring compliance.",
-  "hasTranscript": true
- },
- {
-  "slug": "bsidessf-2015-federating-aws-cli-ayman-elsawah-paul-moreno",
-  "title": "BSidesSF 2015 - Federating AWS CLI (Ayman Elsawah, Paul Moreno)",
-  "url": "https://www.youtube.com/watch?v=iQ3ALCjxv4g",
-  "platform": "YouTube",
-  "date": "2023-12-02",
-  "duration": 1423,
-  "format": "interview",
-  "event": "Security BSides San Francisco",
-  "category": null,
-  "topics": [
-   "Cloud Security",
-   "Identity & Data Protection"
-  ],
-  "thumbnail": "https://i.ytimg.com/vi/iQ3ALCjxv4g/maxresdefault.jpg",
-  "summary": "Ayman explains the risks of storing AWS credentials in plain text and how federating AWS CLI through Shibboleth and STS can mitigate these risks by eliminating the need for developers to handle long-term keys. He details the implementation of Eris, a tool that automates the process of obtaining temporary credentials and reauthorizing them every hour, reducing the chance of credential exposure. Ayman also highlights challenges encountered with AWS STS, including poor documentation and unexpected behavior with session tokens and anonymous connections.",
   "hasTranscript": true
  },
  {
@@ -550,7 +549,7 @@
   "title": "Ayman Elsawah - Why We Break Things... The Neuroscience of Hackers!",
   "url": "https://www.youtube.com/watch?v=cTKkAfVoCSQ",
   "platform": "YouTube",
-  "date": "2020-05-02",
+  "date": "2020-05-01",
   "duration": 2927,
   "format": "talk",
   "event": "BSides Knoxville",
@@ -597,28 +596,11 @@
   "hasTranscript": true
  },
  {
-  "slug": "ayman-elsawah-using-paretos-principle-for-securing-aws-with",
-  "title": "Ayman Elsawah - Using Paretos Principle for Securing AWS with SCPs - DEF CON 27 Cloud Village",
-  "url": "https://www.youtube.com/watch?v=RiZxb98sGTk",
-  "platform": "YouTube",
-  "date": "2019-12-20",
-  "duration": 1888,
-  "format": "talk",
-  "event": "DEFCONConference",
-  "category": null,
-  "topics": [
-   "Cloud Security"
-  ],
-  "thumbnail": "https://i.ytimg.com/vi_webp/RiZxb98sGTk/maxresdefault.webp",
-  "summary": "Ayman explains how to use Pareto's Principle to secure AWS environments by focusing on a few key service control policies (SCPs) that provide the most security benefit. He recommends implementing SCPs to limit instance types, restrict region usage, prevent deletion of critical resources like CloudTrail logs and VPC flow logs, and restrict root account actions. He also emphasizes the importance of a multi-account strategy, creating a dedicated master account, and using SCPs to enforce security policies across all accounts.",
-  "hasTranscript": true
- },
- {
   "slug": "day-1-03-applying-pareto-s-principle-to-securing-aws-with",
   "title": "Day 1 - 03 - Applying Pareto’s Principle to Securing AWS with SCPS - Ayman Elsawah",
   "url": "https://www.youtube.com/watch?v=_Nxjfr2OqxQ",
   "platform": "YouTube",
-  "date": "2019-12-14",
+  "date": "2019-11-08",
   "duration": 1323,
   "format": "talk",
   "event": "Pacific Hackers Association",
@@ -628,6 +610,23 @@
   ],
   "thumbnail": "https://i.ytimg.com/vi_webp/_Nxjfr2OqxQ/maxresdefault.webp",
   "summary": "Ayman explains how to use Pareto’s Principle to secure AWS accounts by focusing on the most impactful security measures, such as implementing Service Control Policies (SCPs) at the organization level to enforce guardrails across multiple accounts. He highlights specific examples, including blocking the deletion of CloudTrail logs, restricting instance types, limiting regions, and preventing S3 public access, to reduce risk with minimal effort. He also emphasizes organizing AWS accounts into logical groups and using SCPs to control permissions and prevent misconfigurations.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "ayman-elsawah-using-paretos-principle-for-securing-aws-with",
+  "title": "Ayman Elsawah - Using Paretos Principle for Securing AWS with SCPs - DEF CON 27 Cloud Village",
+  "url": "https://www.youtube.com/watch?v=RiZxb98sGTk",
+  "platform": "YouTube",
+  "date": "2019-08-09",
+  "duration": 1888,
+  "format": "talk",
+  "event": "DEFCONConference",
+  "category": null,
+  "topics": [
+   "Cloud Security"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi_webp/RiZxb98sGTk/maxresdefault.webp",
+  "summary": "Ayman explains how to use Pareto's Principle to secure AWS environments by focusing on a few key service control policies (SCPs) that provide the most security benefit. He recommends implementing SCPs to limit instance types, restrict region usage, prevent deletion of critical resources like CloudTrail logs and VPC flow logs, and restrict root account actions. He also emphasizes the importance of a multi-account strategy, creating a dedicated master account, and using SCPs to enforce security policies across all accounts.",
   "hasTranscript": true
  },
  {
@@ -652,7 +651,7 @@
   "title": "Ayman Elsawah on Cloud Security and Infosec Careers",
   "url": "https://www.youtube.com/watch?v=KJvPHZGtGdM",
   "platform": "YouTube",
-  "date": "2019-05-02",
+  "date": "2019-05-01",
   "duration": 3049,
   "format": "interview",
   "event": "Sam Bowne",
@@ -663,6 +662,24 @@
   ],
   "thumbnail": "https://i.ytimg.com/vi_webp/KJvPHZGtGdM/maxresdefault.webp",
   "summary": "Ayman discusses cloud security challenges, emphasizing the importance of least privilege access and proper configuration management to prevent data leaks and unauthorized access. He highlights the risks of misconfigured S3 buckets and insecure IAM credentials, using real-world examples like the Code Spaces breach. Ayman also talks about diversity in infosec, advocating for more inclusive programs and awareness of ongoing challenges faced by underrepresented groups. For aspiring infosec professionals, he encourages creativity, persistence, and hands-on learning, suggesting practical steps like using open-source tools and contributing to GitHub projects.",
+  "hasTranscript": true
+ },
+ {
+  "slug": "bsidessf-2015-federating-aws-cli-ayman-elsawah-paul-moreno",
+  "title": "BSidesSF 2015 - Federating AWS CLI (Ayman Elsawah, Paul Moreno)",
+  "url": "https://www.youtube.com/watch?v=iQ3ALCjxv4g",
+  "platform": "YouTube",
+  "date": "2015-04-20",
+  "duration": 1423,
+  "format": "interview",
+  "event": "Security BSides San Francisco",
+  "category": null,
+  "topics": [
+   "Cloud Security",
+   "Identity & Data Protection"
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/iQ3ALCjxv4g/maxresdefault.jpg",
+  "summary": "Ayman explains the risks of storing AWS credentials in plain text and how federating AWS CLI through Shibboleth and STS can mitigate these risks by eliminating the need for developers to handle long-term keys. He details the implementation of Eris, a tool that automates the process of obtaining temporary credentials and reauthorizing them every hour, reducing the chance of credential exposure. Ayman also highlights challenges encountered with AWS STS, including poor documentation and unexpected behavior with session tokens and anonymous connections.",
   "hasTranscript": true
  }
 ]

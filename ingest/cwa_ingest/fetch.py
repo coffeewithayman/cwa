@@ -118,7 +118,7 @@ def _duration(path: Path) -> float | None:
 
 
 def _slim(info: dict) -> dict:
-    keys = ["id", "title", "description", "upload_date", "duration", "channel", "uploader",
+    keys = ["id", "title", "description", "upload_date", "release_date", "duration", "channel", "uploader",
             "channel_url", "webpage_url", "extractor_key", "thumbnail", "chapters"]
     return {k: info.get(k) for k in keys}
 

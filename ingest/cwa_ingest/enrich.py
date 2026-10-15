@@ -124,3 +124,37 @@ def summarize(title: str, event: str, fmt: str, transcript: dict) -> str | None:
     out = " ".join(resp.get("message", {}).get("content", "").split())
     log.info("summary: %s, %d prompt tokens, %.0fs", config.SUMMARY_MODEL, resp.get("prompt_eval_count", 0), time.time() - t)
     return out or None
+
+
+TOPICS_SYSTEM = """You file a talk from Ayman Elsawah's public archive under the topics \
+used by the filters on his site. Pick the topic from the list that best describes what \
+the talk is mainly about. Most talks get exactly one; add a second (rarely a third) only \
+when a large part of the talk is about it too. Use only names from the list, exactly as \
+written. Talks Ayman already filed are given as examples of how he uses the topics."""
+
+
+def pick_topics(title: str, event: str, summary: str, choices: list[str],
+                examples: list[tuple[str, list[str]]] = ()) -> list[str]:
+    """1-3 topics from taxonomy.md; the JSON schema keeps the model to the list."""
+    ensure_server()
+    ensure_model()
+    filed = "\n".join(f"- {t} -> {', '.join(ts)}" for t, ts in examples)
+    user = (f"Topics: {', '.join(choices)}\n\n" + (f"Already filed:\n{filed}\n\n" if filed else "")
+            + f"Title: {title}\nShow/event: {event or 'unknown'}\nSummary: {summary or '(none)'}")
+    schema = {"type": "object", "required": ["topics"], "properties": {
+        "topics": {"type": "array", "minItems": 1, "maxItems": 3, "items": {"type": "string", "enum": choices}}}}
+    resp = _post("/api/chat", {
+        "model": config.SUMMARY_MODEL,
+        "messages": [{"role": "system", "content": TOPICS_SYSTEM}, {"role": "user", "content": user}],
+        "stream": False,
+        "think": False,
+        "keep_alive": 0,
+        "format": schema,
+        "options": {"temperature": 0},
+    }, timeout=300)
+    unload_all()
+    try:
+        picked = json.loads(resp.get("message", {}).get("content", "{}")).get("topics", [])
+    except json.JSONDecodeError:
+        picked = []
+    return list(dict.fromkeys(t for t in picked if t in choices))[:3]

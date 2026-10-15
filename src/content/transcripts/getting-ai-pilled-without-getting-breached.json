@@ -1,0 +1,2314 @@
+{
+ "slug": "getting-ai-pilled-without-getting-breached",
+ "scope": "all",
+ "format": "interview",
+ "turns": [
+  {
+   "start": 0.1,
+   "end": 25.4,
+   "lines": [
+    {
+     "t": 0.1,
+     "text": "Thanks, Ayman, for joining and welcome everyone to our first edition of Optimus Labs webinars and podcasts and event series."
+    },
+    {
+     "t": 11.0,
+     "text": "This time we have Ayman Elsawah, who is head of security at multiple AI tech startups."
+    },
+    {
+     "t": 18.0,
+     "text": "And we're going to be talking about how we can get AI build without getting breached."
+    },
+    {
+     "t": 24.3,
+     "text": "Ayman, welcome to the show."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 26.1,
+   "end": 30.7,
+   "lines": [
+    {
+     "t": 26.1,
+     "text": "Hey, Nipun."
+    },
+    {
+     "t": 26.8,
+     "text": "Thanks."
+    },
+    {
+     "t": 27.9,
+     "text": "Thanks for having me and got my cappuccino here, so I'm ready to go."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 31.6,
+   "end": 78.6,
+   "lines": [
+    {
+     "t": 31.6,
+     "text": "Awesome."
+    },
+    {
+     "t": 32.0,
+     "text": "Awesome."
+    },
+    {
+     "t": 32.3,
+     "text": "That's great to see."
+    },
+    {
+     "t": 33.7,
+     "text": "And morning, afternoon cappuccinos are the best."
+    },
+    {
+     "t": 37.3,
+     "text": "They get you in the zone."
+    },
+    {
+     "t": 40.5,
+     "text": "So look, we are all going through a major transformation in tech, in cybersecurity, trying to wrap our collective heads around how to secure,"
+    },
+    {
+     "t": 56.5,
+     "text": "Our AI products, tools, systems, whether we are using them as subscribers of different tools and models, or whether we build them on our own."
+    },
+    {
+     "t": 70.6,
+     "text": "So we'd love to get an introduction to yourself and your background, and then we can start to get deeper into some of these topics."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 79.6,
+   "end": 147.9,
+   "lines": [
+    {
+     "t": 79.6,
+     "text": "Yeah, yeah, thanks for having me."
+    },
+    {
+     "t": 81.0,
+     "text": "So Ayman Elsawah, I've been doing security for some time and for the past about, you know, six, seven years, I've been functioning as a head of security at various, various high growth fast startups."
+    },
+    {
+     "t": 92.4,
+     "text": "And the past few years, I've been doing security at AI, AI native startups and AI first startups."
+    },
+    {
+     "t": 99.3,
+     "text": "So it's been wonderful."
+    },
+    {
+     "t": 101.1,
+     "text": "It's been interesting."
+    },
+    {
+     "t": 103.1,
+     "text": "But even in the last six months or a year, been dealing with just"
+    },
+    {
+     "t": 108.2,
+     "text": "AI governance and just kind of how do we lock down and how do we improve or how do we allow people to do what they want to do with AI but do it securely right so we want them we want them to do those things but how do we get them to do things securely because these requests are they're new they've never been asked before"
+    },
+    {
+     "t": 129.7,
+     "text": "Where the finance person wants to connect to production to see, you know, what the margins are, right?"
+    },
+    {
+     "t": 136.2,
+     "text": "They want access to the database."
+    },
+    {
+     "t": 137.3,
+     "text": "They're like, yeah, Claude told me to do this."
+    },
+    {
+     "t": 139.7,
+     "text": "And we're like, okay, hold on a sec."
+    },
+    {
+     "t": 141.7,
+     "text": "Let's help you get there."
+    },
+    {
+     "t": 143.2,
+     "text": "So anyway, we'll get into it."
+    },
+    {
+     "t": 144.9,
+     "text": "But it's interesting time, basically, TLDR."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 148.6,
+   "end": 226.9,
+   "lines": [
+    {
+     "t": 148.6,
+     "text": "Yeah, and as the founder and CEO of Optimus Labs, a company building security solutions to address these challenges, what we hear about this topic from different customers is we can't stop our teams right now."
+    },
+    {
+     "t": 166.9,
+     "text": "We want to..."
+    },
+    {
+     "t": 168.8,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 193.7,
+     "text": "But beyond the developers, we see business users, whether it's the finance teams, as you mentioned, HR teams, executives who are not coding, but can produce code, obviously, thanks to the capabilities of these agentic tools."
+    },
+    {
+     "t": 211.6,
+     "text": "Also can do a lot of data wrangling to sensitive data that they're having access to."
+    },
+    {
+     "t": 219.7,
+     "text": "So I'm curious from your point of view, how does a company get started?"
+    },
+    {
+     "t": 225.2,
+     "text": "What comes first, security or AI?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 228.4,
+   "end": 337.1,
+   "lines": [
+    {
+     "t": 228.4,
+     "text": "Oh, that's a tough one."
+    },
+    {
+     "t": 230.8,
+     "text": "What comes first, security or AI?"
+    },
+    {
+     "t": 232.7,
+     "text": "Well, you know, I mean, security is important."
+    },
+    {
+     "t": 236.6,
+     "text": "I think so the challenge of our jobs, right?"
+    },
+    {
+     "t": 239.1,
+     "text": "Our jobs have always been the case where we want to help people do what they want to do, but help them do it securely, right?"
+    },
+    {
+     "t": 246.7,
+     "text": "And it's always been, my philosophy has always been, and the modern philosophy has always been, build guardrails and not gatekeeping, right?"
+    },
+    {
+     "t": 256.3,
+     "text": "You know, what you don't want to be is, and we've tried so long to be, to not be the business of no, right?"
+    },
+    {
+     "t": 265.4,
+     "text": "A lot of times people have, I don't want to use the term lightly, but a form of PTSD when they encounter security teams and say, you guys are always the ones blocking me from doing what I want to do."
+    },
+    {
+     "t": 277.5,
+     "text": "Historically, security teams have always been that."
+    },
+    {
+     "t": 279.2,
+     "text": "So anyway, to answer your question, it is possible there is a world where we could do both."
+    },
+    {
+     "t": 285.6,
+     "text": "But for example, from my perspective, from the practitioner perspective,"
+    },
+    {
+     "t": 289.0,
+     "text": "I can't fix what I don't know is happening, right?"
+    },
+    {
+     "t": 292.6,
+     "text": "So the number one thing I need to do is have visibility into what people are doing, what are the use cases, what do they want to do, right?"
+    },
+    {
+     "t": 301.5,
+     "text": "I think it's having a good, you know, some level of empathy."
+    },
+    {
+     "t": 303.9,
+     "text": "I mean, that's generally..."
+    },
+    {
+     "t": 306.1,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 336.0,
+     "text": "Oh, I appreciate that."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 337.5,
+   "end": 384.3,
+   "lines": [
+    {
+     "t": 337.5,
+     "text": "And I think a lot of times as security professionals, we have our own mandates."
+    },
+    {
+     "t": 343.6,
+     "text": "We have our own KPIs to make sure guardrails, security controls are implemented appropriately."
+    },
+    {
+     "t": 351.2,
+     "text": "And the purpose of their existence gets lost in these discussions."
+    },
+    {
+     "t": 358.7,
+     "text": "So let's say I am an employee in your team."
+    },
+    {
+     "t": 364.8,
+     "text": "Willing and excited to use ai and i want to manage our production databases using ai right what are some of the risks that you would educate me on when it comes to using this securely and how would you implement controls for something like this"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 385.2,
+   "end": 471.4,
+   "lines": [
+    {
+     "t": 385.2,
+     "text": "Yeah, that's a good one."
+    },
+    {
+     "t": 386.0,
+     "text": "So, you know, first, you know, kind of educate them on how we treat production, right?"
+    },
+    {
+     "t": 391.8,
+     "text": "You know, what the impact of accessing production, why, what are the cases of when we actually need to access production?"
+    },
+    {
+     "t": 399.6,
+     "text": "And tell them, hey, even engineers are not, you know, most engineers are not supposed to access production, but only like in an incident."
+    },
+    {
+     "t": 406.6,
+     "text": "Theoretically right and you know we're talking depends on the level of size of your startup right if you're like a you know a five or ten person startup everybody's doing everything in production there's no other so we're talking some sort of maturity of a company say hey listen i can get you that data okay but you don't have to actually access production i can create a replica database for you right"
+    },
+    {
+     "t": 428.6,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 436.5,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 446.9,
+     "text": "You know profit margins and all that kind of stuff i get it i'll get you that data but here's here's a better way of doing that like oh okay you know as long as it's reasonable they're even willing to wait some time while we set that up and get that to them right so again it's about training them understanding what they're trying to do and but then helping them get to what they're trying to do in a safe manner that's that's all it is really"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 472.1,
+   "end": 506.9,
+   "lines": [
+    {
+     "t": 472.1,
+     "text": "Yeah, that's a great alternative option, right?"
+    },
+    {
+     "t": 475.4,
+     "text": "So you don't have to directly impact any system that is critical for availability and customers."
+    },
+    {
+     "t": 482.1,
+     "text": "At the same time, you get the opportunity to use AI, get"
+    },
+    {
+     "t": 488.2,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, IAM, OAuth, phishing, ransomware, pentest, OSCP, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, IAM, OAuth, phishing, ransomware, pentest, OSCP, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, IAM, OAuth, phishing, ransomware, pentest, OSCP, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, IAM, OAuth, phishing, ransomware, pentest, OSCP, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, IAM, OAuth, phishing"
+    },
+    {
+     "t": 504.2,
+     "text": "There's several levels of abstraction that you can go."
+    },
+    {
+     "t": 506.3,
+     "text": "You could even"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 520.4,
+   "end": 592.5,
+   "lines": [
+    {
+     "t": 520.4,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 536.1,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 559.3,
+     "text": "So we want to start off from a preventative approach."
+    },
+    {
+     "t": 563.9,
+     "text": "But at the same time, which is kind of comes to what some of your tool provides is like, I need insight into what the agent is trying to do, right?"
+    },
+    {
+     "t": 572.7,
+     "text": "How do I know that the agent is not trying to take that data and like, pump it, you know, put it on the Google Sheets, that's public, right?"
+    },
+    {
+     "t": 581.1,
+     "text": "Or"
+    },
+    {
+     "t": 581.9,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 592.9,
+   "end": 640.0,
+   "lines": [
+    {
+     "t": 592.9,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 602.4,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 611.4,
+     "text": "So let's say you do have an appropriate level of visibility now, where you can see the entire inventory of AI tools in your environment, the attack surface, including MCP, the skills that they are privy to, in addition to the runtime activity, the tool calls they're making."
+    },
+    {
+     "t": 634.9,
+     "text": "What next?"
+    },
+    {
+     "t": 636.1,
+     "text": "How would you now, with that knowledge, govern and secure"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 642.3,
+   "end": 710.9,
+   "lines": [
+    {
+     "t": 642.3,
+     "text": "Well, we'd probably audit to what tool calls were safe, you know, comfortable running, giving complete permission, or asking or blocking, right?"
+    },
+    {
+     "t": 652.2,
+     "text": "So, you know, there's several, for each tool call, do we want to completely block it?"
+    },
+    {
+     "t": 658.4,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 685.5,
+     "text": "So we have the tool called mapping and permissions, and we have the user population, and we map what's okay and whatnot, and then also continually revisiting, right?"
+    },
+    {
+     "t": 695.4,
+     "text": "We want to bring our users in with it and say, hey, this takes a village, and if you find something that's not working for you, let us know, and we'll kind of attune it accordingly."
+    },
+    {
+     "t": 708.9,
+     "text": "I think that's a good starting approach."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 711.8,
+   "end": 761.7,
+   "lines": [
+    {
+     "t": 711.8,
+     "text": "It's a good one because you want to understand the use cases."
+    },
+    {
+     "t": 714.9,
+     "text": "You will never be able to understand them fully because they change based on the capabilities of these tools as well as the business needs arise."
+    },
+    {
+     "t": 724.0,
+     "text": "But totally a good starting point going from zero to one in AI security for any team right now."
+    },
+    {
+     "t": 733.8,
+     "text": "In this space, there's not a lot of historical knowledge that we can reuse when it comes to AI security because AI systems didn't exist three, four years back that were being used at this scale."
+    },
+    {
+     "t": 749.6,
+     "text": "What are some of the frameworks or solutions aligning with those frameworks that you've seen that are interesting for security teams to track and use to set up a program,"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 762.3,
+   "end": 840.9,
+   "lines": [
+    {
+     "t": 762.3,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat"
+    },
+    {
+     "t": 787.9,
+     "text": "And I think that's one of the best resources to follow for you to take in and how you manage your security, right?"
+    },
+    {
+     "t": 799.0,
+     "text": "So looking at how the Frontier Labs manages security, reading incidents, right?"
+    },
+    {
+     "t": 803.5,
+     "text": "And we have, you know, a few incidents that have happened just, you know, past couple weeks that we could talk about."
+    },
+    {
+     "t": 809.9,
+     "text": "And kind of really helping with your tool sets, applying what you traditionally know on how to manage security from an attacker or insider threat and applying that to agents."
+    },
+    {
+     "t": 821.8,
+     "text": "I think it's going to take a mindset shift also, just like knowing that"
+    },
+    {
+     "t": 827.2,
+     "text": "You have agents that are very powerful and that power is going to be a little harder to contain, right?"
+    },
+    {
+     "t": 838.7,
+     "text": "And working accordingly with that."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 841.6,
+   "end": 896.3,
+   "lines": [
+    {
+     "t": 841.6,
+     "text": "Yeah, absolutely."
+    },
+    {
+     "t": 842.7,
+     "text": "I don't think anybody has a perfect answer right now to these challenges."
+    },
+    {
+     "t": 847.2,
+     "text": "Every day, the capabilities change."
+    },
+    {
+     "t": 849.6,
+     "text": "So our security needs evolve accordingly as we get more and more used to these products in our ecosystem."
+    },
+    {
+     "t": 856.6,
+     "text": "I did want to give a shout out to ARM."
+    },
+    {
+     "t": 860.1,
+     "text": "This is a framework developed by"
+    },
+    {
+     "t": 864.0,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 869.6,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 876.5,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 884.0,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 890.3,
+     "text": "Can we take a little bit of a break and look at some audience questions as they have started to trickle in and then we'll get back."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 896.5,
+   "end": 897.4,
+   "lines": [
+    {
+     "t": 896.5,
+     "text": "Sure, sure."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 897.5,
+   "end": 910.9,
+   "lines": [
+    {
+     "t": 897.5,
+     "text": "Okay."
+    },
+    {
+     "t": 899.6,
+     "text": "Harsha Truvali asks a question about the DEF CON and black hat badges."
+    },
+    {
+     "t": 906.6,
+     "text": "Can you tell us a story about how you have so many?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 913.1,
+   "end": 955.0,
+   "lines": [
+    {
+     "t": 913.1,
+     "text": "Yeah, well, yeah, so it's good that they picked that up."
+    },
+    {
+     "t": 916.7,
+     "text": "You know, I often get asked if they're running badges or not."
+    },
+    {
+     "t": 919.5,
+     "text": "And these are the kind of the more selected badges that are like quite interesting."
+    },
+    {
+     "t": 924.5,
+     "text": "As you know, DEF CON has every other year is an electronic badge."
+    },
+    {
+     "t": 929.2,
+     "text": "And then the other year is a plain badge."
+    },
+    {
+     "t": 932.8,
+     "text": "I still didn't even put up last year's badge."
+    },
+    {
+     "t": 934.5,
+     "text": "It's still here on my desk."
+    },
+    {
+     "t": 936.7,
+     "text": "So that was from 33, and I'm looking forward to this year's badge."
+    },
+    {
+     "t": 941.0,
+     "text": "This one here is a Raspberry Pi piano, which is pretty cool."
+    },
+    {
+     "t": 946.4,
+     "text": "So yeah, good question."
+    },
+    {
+     "t": 948.7,
+     "text": "You know, security and coffee are my two things."
+    },
+    {
+     "t": 952.1,
+     "text": "So yeah, these are just some fun badges I've collected over the years."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 955.8,
+   "end": 959.0,
+   "lines": [
+    {
+     "t": 955.8,
+     "text": "Other than DEF CON Black Hat, is there any other conference included in there?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 959.3,
+   "end": 971.2,
+   "lines": [
+    {
+     "t": 959.3,
+     "text": "Yeah, there's Pacific Hackers, there's Hack the Bay, there's a couple, there's Cloud Village from here."
+    },
+    {
+     "t": 966.5,
+     "text": "This one is Bay Threat."
+    },
+    {
+     "t": 969.7,
+     "text": "I think that's where I met you, right?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 971.8,
+   "end": 996.4,
+   "lines": [
+    {
+     "t": 971.8,
+     "text": "That's right."
+    },
+    {
+     "t": 972.2,
+     "text": "Yeah, yeah."
+    },
+    {
+     "t": 973.9,
+     "text": "It's definitely a conference that's no longer around."
+    },
+    {
+     "t": 977.4,
+     "text": "Yeah."
+    },
+    {
+     "t": 978.4,
+     "text": "Bay Threat was one of the unique local security meetup conferences that we had in Bay Area."
+    },
+    {
+     "t": 983.9,
+     "text": "Yeah that's where we're at it's kind of one more question from stone barnett he's asking have you found shadow ai to be more of a people problem a tooling problem or a governance problem"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1000.7,
+   "end": 1089.0,
+   "lines": [
+    {
+     "t": 1000.7,
+     "text": "Shadow AI, listen, I try not to blame people too much, right?"
+    },
+    {
+     "t": 1006.5,
+     "text": "So if they don't know not to use it, then who's to blame, right?"
+    },
+    {
+     "t": 1009.8,
+     "text": "It's us, because we haven't informed them, right?"
+    },
+    {
+     "t": 1012.1,
+     "text": "So again, I try to take the educator approach."
+    },
+    {
+     "t": 1015.5,
+     "text": "You can't like ding people for using something if they don't know they're not supposed to use it."
+    },
+    {
+     "t": 1022.6,
+     "text": "I think it's, I mean, it's the same as shadow IT."
+    },
+    {
+     "t": 1025.5,
+     "text": "So it's a combination of governance."
+    },
+    {
+     "t": 1029.2,
+     "text": "You know, having some sort of way to prevent people from using non-enterprise AI is super key."
+    },
+    {
+     "t": 1038.7,
+     "text": "And I think that's one of the biggest challenges right now, right?"
+    },
+    {
+     "t": 1043.4,
+     "text": "But it's easy to solve, right?"
+    },
+    {
+     "t": 1045.3,
+     "text": "So for example,"
+    },
+    {
+     "t": 1047.2,
+     "text": "If you're, say you have an enterprise cloud subscription."
+    },
+    {
+     "t": 1051.4,
+     "text": "Well, how do you make sure that your users are not using their personal cloud subscription?"
+    },
+    {
+     "t": 1057.4,
+     "text": "It could be by accident."
+    },
+    {
+     "t": 1058.3,
+     "text": "That happens all the time."
+    },
+    {
+     "t": 1059.7,
+     "text": "Yeah, right."
+    },
+    {
+     "t": 1060.6,
+     "text": "Well, you could just push a registry if it's Windows or a P list to Mac via your MDM to prevent them from signing into other organizations."
+    },
+    {
+     "t": 1073.2,
+     "text": "So that's the technical control to fix it."
+    },
+    {
+     "t": 1075.5,
+     "text": "It's like super straightforward, right?"
+    },
+    {
+     "t": 1077.3,
+     "text": "I mean, if you don't have MDM, then we have another story we need to talk, right?"
+    },
+    {
+     "t": 1081.0,
+     "text": "So, but these are all things that are possible."
+    },
+    {
+     "t": 1084.6,
+     "text": "So again, it's probably a governance technical control, if I were to say."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1089.1,
+   "end": 1149.9,
+   "lines": [
+    {
+     "t": 1089.1,
+     "text": "Yeah."
+    },
+    {
+     "t": 1090.6,
+     "text": "So I agree."
+    },
+    {
+     "t": 1091.3,
+     "text": "I think we can't blame people."
+    },
+    {
+     "t": 1093.0,
+     "text": "We are all trying to go deep into AI as a society."
+    },
+    {
+     "t": 1097.7,
+     "text": "And especially at work, we are being asked to meet some AI rubrics."
+    },
+    {
+     "t": 1103.6,
+     "text": "That wasn't the case until last year."
+    },
+    {
+     "t": 1106.7,
+     "text": "And absolutely, this is definitely a tooling, partly a technology and governance challenge."
+    },
+    {
+     "t": 1116.2,
+     "text": "Let's get back at it."
+    },
+    {
+     "t": 1117.6,
+     "text": "I think one of the interesting challenges we start to kind of understand when it comes to enterprise acceptance and adoption of these tools is zero data retention or ZDR."
+    },
+    {
+     "t": 1132.7,
+     "text": "A lot of products do come with some legal guarantees around zero data retention."
+    },
+    {
+     "t": 1140.6,
+     "text": "But for our audience, what's a good way to understand this capability, control, guarantee?"
+    },
+    {
+     "t": 1148.2,
+     "text": "How do you characterize it?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1150.6,
+   "end": 1239.5,
+   "lines": [
+    {
+     "t": 1150.6,
+     "text": "Yeah, so let me explain."
+    },
+    {
+     "t": 1152.1,
+     "text": "So zero data retention is a philosophy, I guess you could say."
+    },
+    {
+     "t": 1156.4,
+     "text": "It's a control that you work with your AI providers to ensure that they do not retain any of the data that you submit to them and they do not train their models using that data."
+    },
+    {
+     "t": 1167.9,
+     "text": "Now, this is a really super important thing."
+    },
+    {
+     "t": 1171.3,
+     "text": "Having been with AI-first companies, that is the number one question we get from customers."
+    },
+    {
+     "t": 1178.3,
+     "text": "How do we know or what things you have in place to ensure that you are not training your models with our data, right?"
+    },
+    {
+     "t": 1187.4,
+     "text": "So at the end of the day, it's a contractual thing."
+    },
+    {
+     "t": 1191.7,
+     "text": "And you also have to make sure that the frontier provider has it enabled."
+    },
+    {
+     "t": 1197.6,
+     "text": "There have been cases, and I've heard of folks where they thought they had ZDR enabled, but it was not actually enabled."
+    },
+    {
+     "t": 1204.3,
+     "text": "And they're like, oops."
+    },
+    {
+     "t": 1205.8,
+     "text": "So you have to make sure your provider has ZDR enabled and it stays enabled."
+    },
+    {
+     "t": 1214.0,
+     "text": "But what that means is that there will come with limitations, right?"
+    },
+    {
+     "t": 1218.4,
+     "text": "So for example, Fable 5 does not have ZDR and will probably likely never have ZDR supported, right?"
+    },
+    {
+     "t": 1228.2,
+     "text": "And so that, because it takes..."
+    },
+    {
+     "t": 1232.1,
+     "text": "Well, I don't know why, you know, but it takes work for them to enable it."
+    },
+    {
+     "t": 1236.1,
+     "text": "And, you know, maybe they need the data for training."
+    },
+    {
+     "t": 1238.2,
+     "text": "I'm not going to talk."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1239.5,
+   "end": 1317.9,
+   "lines": [
+    {
+     "t": 1239.5,
+     "text": "I can just remind a little bit of why."
+    },
+    {
+     "t": 1242.3,
+     "text": "Oh, yeah."
+    },
+    {
+     "t": 1243.7,
+     "text": "I'd love to hear."
+    },
+    {
+     "t": 1244.6,
+     "text": "Yeah, just thinking a little bit about like the cyber capabilities and the signing forms and papers going around in the internet right now."
+    },
+    {
+     "t": 1253.6,
+     "text": "You know, this discussion of"
+    },
+    {
+     "t": 1254.9,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 1265.3,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 1273.6,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 1283.3,
+     "text": "What happens is if you're trying to be a cyber defender or part of the blue team, these guardrails get into play very quickly and you can't actually go deep."
+    },
+    {
+     "t": 1294.3,
+     "text": "So they have to continue to monitor the use of the guardrails and whether or not it's tuned effectively."
+    },
+    {
+     "t": 1300.3,
+     "text": "So they want that data."
+    },
+    {
+     "t": 1303.9,
+     "text": "As a product builder, I can totally see the justification of this, while it's difficult for enterprises to bring the unlock for that model's capabilities internally, especially if sensitive data is going to be involved."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1318.7,
+   "end": 1356.7,
+   "lines": [
+    {
+     "t": 1318.7,
+     "text": "Yeah, yeah, that's fair."
+    },
+    {
+     "t": 1320.1,
+     "text": "That's fair."
+    },
+    {
+     "t": 1321.2,
+     "text": "And also, just FYI, when you do have ZDR enabled, they do have a clause that says that they will still monitor for safety."
+    },
+    {
+     "t": 1330.9,
+     "text": "So if anything triggers the safety mechanism, they do have the right to look at that data within 30 days, something like that."
+    },
+    {
+     "t": 1339.0,
+     "text": "You have to check your contract."
+    },
+    {
+     "t": 1340.4,
+     "text": "So read the fine print on that."
+    },
+    {
+     "t": 1343.0,
+     "text": "So it doesn't give you carte blanche capability."
+    },
+    {
+     "t": 1346.4,
+     "text": "On what you mentioned, it was actually pretty interesting."
+    },
+    {
+     "t": 1348.4,
+     "text": "That's Hugging Face ran into, I don't know if you want to talk about the Hugging Face incident now, but they actually ran into that same issue where they, yeah, they tried to use Opus."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1356.9,
+   "end": 1357.9,
+   "lines": [
+    {
+     "t": 1356.9,
+     "text": "Yeah, let's do it."
+    },
+    {
+     "t": 1357.7,
+     "text": "Yeah."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1358.7,
+   "end": 1425.5,
+   "lines": [
+    {
+     "t": 1358.7,
+     "text": "Yeah."
+    },
+    {
+     "t": 1359.9,
+     "text": "So the Hugging Face incident, so Hugging Face published a blog post that went through the excruciating details of what happened."
+    },
+    {
+     "t": 1369.5,
+     "text": "And it's like reading a sci-fi novel."
+    },
+    {
+     "t": 1371.7,
+     "text": "It's fascinating."
+    },
+    {
+     "t": 1375.8,
+     "text": "But one side note is that they actually did try to use Opus as a way to help with the investigation."
+    },
+    {
+     "t": 1383.3,
+     "text": "And then Opus balked and flagged it."
+    },
+    {
+     "t": 1385.6,
+     "text": "And so they had to resort to an open source model to continue the investigation."
+    },
+    {
+     "t": 1391.3,
+     "text": "So that's fascinating in and of itself."
+    },
+    {
+     "t": 1393.3,
+     "text": "But reading the blog post of how the agent"
+    },
+    {
+     "t": 1398.2,
+     "text": "Got out and you know the agent was being tested against you know some cyber benchmarks and it cited oh you know what let me just change the benchmarks you know instead of actually trying to execute this and it's like it really made me think of the movie ex machina which was like you know fascinating i'm not gonna give it away but if you've ever seen the movie it's it's it's fast anyway what are your thoughts on the incident"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1426.5,
+   "end": 1523.5,
+   "lines": [
+    {
+     "t": 1426.5,
+     "text": "Yeah, no, I think it's definitely an unprecedented incident that deserved the kind of attention it's getting for sure, right?"
+    },
+    {
+     "t": 1434.7,
+     "text": "You know, Hugging Face is a unique company and a unique product where they host, for those who are uninitiated, Hugging Face is like GitHub for AI users."
+    },
+    {
+     "t": 1446.4,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 1472.5,
+     "text": "Like Exploit Gym or Cyber Gym, which tests and evaluates the capabilities of models."
+    },
+    {
+     "t": 1479.7,
+     "text": "And this is somehow the reason for why OpenAI, CyberSol 5,"
+    },
+    {
+     "t": 1488.9,
+     "text": "I don't exactly know the version number of their model, but the cyber focused latest model was able to escape the sandbox in a drive to solve that exploit Jim's cybersecurity challenges, which is such a fascinating thing for it to do and defeat all possible security controls that Hugging Face had in their infrastructure."
+    },
+    {
+     "t": 1513.7,
+     "text": "To get to a point where it invented and developed new zero days and try and attempt data breach at Hugging Face."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1524.3,
+   "end": 1582.1,
+   "lines": [
+    {
+     "t": 1524.3,
+     "text": "Yeah, it was fascinating."
+    },
+    {
+     "t": 1525.8,
+     "text": "I mean, the first way it got out was that it just exploited a zero day in a package that was just available."
+    },
+    {
+     "t": 1533.5,
+     "text": "But the way the agent functioned, it actually didn't have direct access to Hugging Face necessarily."
+    },
+    {
+     "t": 1540.8,
+     "text": "It updated, it sent data sets to a renderer."
+    },
+    {
+     "t": 1545.2,
+     "text": "So it sent a malicious data set as if so, it's just like if you're uploading something to GitHub."
+    },
+    {
+     "t": 1550.1,
+     "text": "It uploaded a data set to a renderer and knew the renderer was going to function."
+    },
+    {
+     "t": 1554.1,
+     "text": "It executed and then was able to send the data to a dead drop somewhere else, read what happened there, and then would redo the loop again."
+    },
+    {
+     "t": 1565.4,
+     "text": "So it just had the patience of a machine to just do this indirect exposure, execute something remotely without seeing the output, sent the output to a dead drop, reviewed it, and then tuned it accordingly and just kept going."
+    },
+    {
+     "t": 1581.3,
+     "text": "It was just fascinating."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1582.4,
+   "end": 1585.7,
+   "lines": [
+    {
+     "t": 1582.4,
+     "text": "This is like a long-running loop for an agent, essentially."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1585.9,
+   "end": 1587.9,
+   "lines": [
+    {
+     "t": 1585.9,
+     "text": "Yeah, it's like table stakes for the agent."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1587.9,
+   "end": 1607.1,
+   "lines": [
+    {
+     "t": 1587.9,
+     "text": "It's like, okay, don't worry, I'll do it."
+    },
+    {
+     "t": 1590.1,
+     "text": "For a human, this could take maybe hours or days to execute, right?"
+    },
+    {
+     "t": 1595.2,
+     "text": "To manually go through, you know, the data dump and we've both been pentesters, right?"
+    },
+    {
+     "t": 1601.4,
+     "text": "So doing this would definitely take us days effectively if we are to exploit this."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1607.2,
+   "end": 1611.9,
+   "lines": [
+    {
+     "t": 1607.2,
+     "text": "At least, at least, yeah."
+    },
+    {
+     "t": 1609.3,
+     "text": "They did it in hours, yeah."
+    },
+    {
+     "t": 1611.2,
+     "text": "Minutes, really."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1612.3,
+   "end": 1758.3,
+   "lines": [
+    {
+     "t": 1612.3,
+     "text": "Fascinating."
+    },
+    {
+     "t": 1613.4,
+     "text": "Getting back to ZDR for a second."
+    },
+    {
+     "t": 1616.6,
+     "text": "Sure."
+    },
+    {
+     "t": 1617.7,
+     "text": "Recently, as some of you may know, I discovered a potential data breach on my own machine."
+    },
+    {
+     "t": 1627.2,
+     "text": "This was due to the fact that I love testing out new AI tools and agents."
+    },
+    {
+     "t": 1633.9,
+     "text": "And I was very excited to test out Grok's new coding agent called Grok Build, CLI."
+    },
+    {
+     "t": 1641.0,
+     "text": "And I downloaded that tool probably like a month and a half back or something."
+    },
+    {
+     "t": 1645.7,
+     "text": "And the test machine that I have all this started to become full for some reason, disk space issues."
+    },
+    {
+     "t": 1656.5,
+     "text": "I realize, I don't understand why it's getting full."
+    },
+    {
+     "t": 1658.9,
+     "text": "I have not installed so many new things recently."
+    },
+    {
+     "t": 1662.1,
+     "text": "Turns out upon investigation that GrokBuild was silently creating an upload queue"
+    },
+    {
+     "t": 1669.0,
+     "text": "To take all of my git history repos and whatever else comes with it secrets ip everything and this is what was discovered by some other researcher in parallel and we realized this and we quickly developed an open source product called rock patrol"
+    },
+    {
+     "t": 1690.7,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, AppSec, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, AppSec, red team, threat modeling, Enterprise Security Weekly, Security Cafe,"
+    },
+    {
+     "t": 1708.0,
+     "text": "The real remedy here is to stop using Grok because the reaction from XAI or SpaceX now was that we will open source the product, right?"
+    },
+    {
+     "t": 1719.5,
+     "text": "Let the sunlight be the disinfectant, right?"
+    },
+    {
+     "t": 1723.6,
+     "text": "So somebody will hopefully patch it because they figured out they couldn't."
+    },
+    {
+     "t": 1727.3,
+     "text": "And a lot of their initial reaction was focused on ZDR."
+    },
+    {
+     "t": 1730.3,
+     "text": "Like, oh, for enterprises, if they're using Grok, we have ZDR enabled."
+    },
+    {
+     "t": 1735.0,
+     "text": "So don't worry."
+    },
+    {
+     "t": 1736.1,
+     "text": "We'll take all your data."
+    },
+    {
+     "t": 1738.0,
+     "text": "But rely on the CDR as a deterrent from a legal point of view, that we will not use it for training or we will not abuse the data that we have exfiltrated."
+    },
+    {
+     "t": 1751.0,
+     "text": "Is that a control that enterprises are going to feel secure with?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1759.0,
+   "end": 1845.5,
+   "lines": [
+    {
+     "t": 1759.0,
+     "text": "A control?"
+    },
+    {
+     "t": 1761.7,
+     "text": "I mean, honestly, I think this kind of comes down to trust, right?"
+    },
+    {
+     "t": 1766.1,
+     "text": "This really comes down to trust."
+    },
+    {
+     "t": 1768.2,
+     "text": "When I use something that's a black box, something that's a black box, right?"
+    },
+    {
+     "t": 1774.3,
+     "text": "A model, which for most of the cases, it's a black box, closed source."
+    },
+    {
+     "t": 1778.0,
+     "text": "Do I trust?"
+    },
+    {
+     "t": 1778.9,
+     "text": "It's kind of like even when you use a provider, when you use some software, do I trust this provider to do what they claim to do?"
+    },
+    {
+     "t": 1788.0,
+     "text": "Do I trust that they have done the security checks, that there isn't someone in there intentionally or unintentionally making the models do things that are like, you know, kind of shady, right?"
+    },
+    {
+     "t": 1801.0,
+     "text": "So that's fascinating, right?"
+    },
+    {
+     "t": 1806.0,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 1822.3,
+     "text": "How do I know that ZDR contract that you have in place is actually working?"
+    },
+    {
+     "t": 1827.8,
+     "text": "Many people, I mean, you really have no way to prove it."
+    },
+    {
+     "t": 1830.7,
+     "text": "I mean, there are some ways you could put a canary to try to, but you won't know that canary for years, right?"
+    },
+    {
+     "t": 1837.9,
+     "text": "So how do we know that ZDR"
+    },
+    {
+     "t": 1841.9,
+     "text": "How do we really know?"
+    },
+    {
+     "t": 1842.5,
+     "text": "It's a fascinating question."
+    },
+    {
+     "t": 1843.3,
+     "text": "I don't think anybody has a good answer to that today."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1858.6,
+   "end": 1890.8,
+   "lines": [
+    {
+     "t": 1858.6,
+     "text": "Probably this is a research project waiting to happen from threat intel companies or canary focused solutions shout out to those if they can build something like that to help us engage on this topic and build more trust in the ai ecosystem which is missing right i agree right like there's definitely the legal"
+    },
+    {
+     "t": 1880.8,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1890.9,
+   "end": 1931.8,
+   "lines": [
+    {
+     "t": 1890.9,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 1906.5,
+     "text": "If it's happening on your side of the fence, you are responsible for knowing everything that's going on."
+    },
+    {
+     "t": 1911.7,
+     "text": "You should know all the tool calls that's happening from an agent perspective."
+    },
+    {
+     "t": 1916.3,
+     "text": "You need to know everything that's going on."
+    },
+    {
+     "t": 1918.1,
+     "text": "Yes, you could get the OLTP, which for folks that don't know, OLTP is the telemetry logging that you could send from an agent."
+    },
+    {
+     "t": 1929.3,
+     "text": "OTEL logs?"
+    },
+    {
+     "t": 1930.0,
+     "text": "Anyway, you have to set up a collector."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1932.1,
+   "end": 1933.7,
+   "lines": [
+    {
+     "t": 1932.1,
+     "text": "Yes, open telemetry logs, right?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1934.0,
+   "end": 1960.0,
+   "lines": [
+    {
+     "t": 1934.0,
+     "text": "Yeah, so..."
+    },
+    {
+     "t": 1936.5,
+     "text": "Yes, you can do that."
+    },
+    {
+     "t": 1937.4,
+     "text": "But then you are technically relying on the provider to send you those logs, right?"
+    },
+    {
+     "t": 1941.4,
+     "text": "How do you have like information firsthand from on your endpoint, right?"
+    },
+    {
+     "t": 1947.3,
+     "text": "You know, CrowdStrike can give you a wealth of information on your endpoint, right?"
+    },
+    {
+     "t": 1952.2,
+     "text": "A tool like your right, whatever."
+    },
+    {
+     "t": 1953.9,
+     "text": "Anyway, so just having the idea is get that information."
+    },
+    {
+     "t": 1958.1,
+     "text": "If it's happening on your side, you should know what's going on."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1960.9,
+   "end": 1979.6,
+   "lines": [
+    {
+     "t": 1960.9,
+     "text": "So the control has to be driven by your implementation, whether it comes from a third party tool or something that you built."
+    },
+    {
+     "t": 1968.7,
+     "text": "You can't trust the AI provider to give you everything right away, right?"
+    },
+    {
+     "t": 1974.6,
+     "text": "That you need in order to understand whether or not sensitive data is leaving the building."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1981.2,
+   "end": 1998.8,
+   "lines": [
+    {
+     "t": 1981.2,
+     "text": "Yeah, I think it's too early."
+    },
+    {
+     "t": 1982.4,
+     "text": "I think we, you know, you just need to have, things are moving so fast."
+    },
+    {
+     "t": 1985.9,
+     "text": "I mean, you know, people are pushing code that they don't even read."
+    },
+    {
+     "t": 1991.5,
+     "text": "So, you know, so it's, the whole trust verify is like take it to another level now."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1999.5,
+   "end": 2038.7,
+   "lines": [
+    {
+     "t": 1999.5,
+     "text": "Yeah, yeah, absolutely."
+    },
+    {
+     "t": 2001.0,
+     "text": "You know, Ayman, some of your experience is also in healthcare industry, where"
+    },
+    {
+     "t": 2009.5,
+     "text": "AI is definitely becoming very instrumental."
+    },
+    {
+     "t": 2012.8,
+     "text": "We have talked to some companies ourselves."
+    },
+    {
+     "t": 2015.4,
+     "text": "In that case, since the value of PHI is a lot higher in the black market for attackers, how would you think about AI adoption in those environments and what sort of controls, legal covenants we have in place to enable this securely?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2039.4,
+   "end": 2134.2,
+   "lines": [
+    {
+     "t": 2039.4,
+     "text": "Yeah so actually it's funny somebody was just asking me today recently about how do they get their company like they haven't approached healthcare companies because it's just so hard you know how to be how do how do they get HIPAA compliant well to answer your question i mean you know whatever tool you're using if it's touching phi first of all let's step back if it doesn't need to touch phi then don't don't do it"
+    },
+    {
+     "t": 2064.7,
+     "text": "Let's just keep it simple, okay?"
+    },
+    {
+     "t": 2066.6,
+     "text": "If you don't need to have whatever tool it is, I don't care if it's a slideshow generator or whatever it is, or chat client, whatever, if it doesn't need to touch PHI, let's just don't do it, right?"
+    },
+    {
+     "t": 2078.4,
+     "text": "So the first step is to reduce your attack surface, right?"
+    },
+    {
+     "t": 2082.0,
+     "text": "Or reduce your threat surface, right?"
+    },
+    {
+     "t": 2087.3,
+     "text": "Thank you."
+    },
+    {
+     "t": 2088.1,
+     "text": "Right."
+    },
+    {
+     "t": 2088.3,
+     "text": "Because, you know, things can happen inadvertently."
+    },
+    {
+     "t": 2089.9,
+     "text": "I don't want to say necessarily attack surface, but, you know, mistakes do happen."
+    },
+    {
+     "t": 2093.5,
+     "text": "And we know most of incidents happen because of mistakes."
+    },
+    {
+     "t": 2096.2,
+     "text": "Right."
+    },
+    {
+     "t": 2097.3,
+     "text": "Although that might change in the future with AI."
+    },
+    {
+     "t": 2100.9,
+     "text": "So reduce your surface if you don't need to."
+    },
+    {
+     "t": 2104.6,
+     "text": "Send your PHI there, don't do it."
+    },
+    {
+     "t": 2106.2,
+     "text": "Now, if you do need to do it, right, then you have to meet certain guidelines to do it safely, right?"
+    },
+    {
+     "t": 2113.8,
+     "text": "That means all your tools have to support a BAA, right, a business associate agreement that, you know, puts them on the hook as well if something goes wrong."
+    },
+    {
+     "t": 2123.5,
+     "text": "Interesting enough, HIPAA, if data records or patient records leak, you're still responsible, right?"
+    },
+    {
+     "t": 2131.6,
+     "text": "Whether, you know, it happens inadvertently or not."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2135.3,
+   "end": 2147.9,
+   "lines": [
+    {
+     "t": 2135.3,
+     "text": "Now, I did it or a human did it."
+    },
+    {
+     "t": 2138.2,
+     "text": "It doesn't matter to the regulatory body."
+    },
+    {
+     "t": 2142.5,
+     "text": "Because it's ultimately your responsibility."
+    },
+    {
+     "t": 2144.7,
+     "text": "You're the custodian of personal health information."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2148.6,
+   "end": 2200.9,
+   "lines": [
+    {
+     "t": 2148.6,
+     "text": "Yeah, yeah, yeah, you're still you're still responsible."
+    },
+    {
+     "t": 2151.6,
+     "text": "Whereas in other frameworks, maybe like as long as you've done everything, you could get a pass, right?"
+    },
+    {
+     "t": 2158.8,
+     "text": "You know, anyway, so"
+    },
+    {
+     "t": 2161.9,
+     "text": "Make sure you have a baa right now also if your customers are not comfortable with training data right because this is sensitive data you probably want to have zdr enabled as well right and those i mean those are the two legal frameworks that will help you another thing also is many customers depending on your customer whether they're in healthcare or not they sometimes care what region"
+    },
+    {
+     "t": 2187.9,
+     "text": "So if you're in the US, they want to make sure that only US endpoints are being used."
+    },
+    {
+     "t": 2194.6,
+     "text": "If they're in Europe, then they might want to make sure only EU endpoints are being used for when you're doing AI."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2202.1,
+   "end": 2205.6,
+   "lines": [
+    {
+     "t": 2202.1,
+     "text": "Data residency is also part of this discussion."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2205.6,
+   "end": 2251.5,
+   "lines": [
+    {
+     "t": 2205.6,
+     "text": "Data residency is big."
+    },
+    {
+     "t": 2206.4,
+     "text": "And law firms, Fortune 500, 100 companies have gotten all those questions, right?"
+    },
+    {
+     "t": 2212.6,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware,"
+    },
+    {
+     "t": 2229.8,
+     "text": "Oh, and so, you know, also one question that comes up from with PHR or anything is, you know, are they training our data with, are you training the models with our data?"
+    },
+    {
+     "t": 2238.6,
+     "text": "And so if you have ZDR, that'll enable you to do that."
+    },
+    {
+     "t": 2241.7,
+     "text": "So making sure you have a BA, ZDR, those will cover you from a legal perspective and making sure that data only stays within that ecosystem."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2252.6,
+   "end": 2287.1,
+   "lines": [
+    {
+     "t": 2252.6,
+     "text": "You know, one of the things that you brought up during our discussions on this topic was that"
+    },
+    {
+     "t": 2257.8,
+     "text": "You know, the business associate agreement, although helps you cover a lot of the features from a legal point of view, from a HIPAA compliance point of view, it doesn't cover everything."
+    },
+    {
+     "t": 2273.2,
+     "text": "How do we understand this better as, you know, if there's any healthcare companies looking at this topic?"
+    },
+    {
+     "t": 2280.7,
+     "text": "How do we monitor, control, something like that?"
+    },
+    {
+     "t": 2284.7,
+     "text": "Yeah, if you're, so if you look, yeah, I mean, if you look at,"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2297.9,
+   "end": 2347.2,
+   "lines": [
+    {
+     "t": 2297.9,
+     "text": "The tools, say OpenAI and Cloud and Anthropic, they have a list of what's available to use that's covered under BAA and what's not covered."
+    },
+    {
+     "t": 2306.3,
+     "text": "And so that's going to be your main limitation, if that's what you're asking."
+    },
+    {
+     "t": 2310.6,
+     "text": "And so, yes, looking at see what specific tools cover under BAA and whatnot."
+    },
+    {
+     "t": 2316.6,
+     "text": "But like, say, if you use Cowork, for example, that's not covered because Cowork can do a lot of different things, right?"
+    },
+    {
+     "t": 2322.8,
+     "text": "Cowork is..."
+    },
+    {
+     "t": 2324.7,
+     "text": "In a way, as of this recording, it's not covered, right?"
+    },
+    {
+     "t": 2327.7,
+     "text": "That can change."
+    },
+    {
+     "t": 2328.3,
+     "text": "So I do have to put that in there."
+    },
+    {
+     "t": 2331.2,
+     "text": "But we do know, for example, that frontier model, like really, like Fable 5 and all that kind of stuff will not be covered with ZDR at any point in the future, right?"
+    },
+    {
+     "t": 2341.8,
+     "text": "So that's something to consider."
+    },
+    {
+     "t": 2344.3,
+     "text": "Does that answer your question or are you looking for something specific?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2347.7,
+   "end": 2369.2,
+   "lines": [
+    {
+     "t": 2347.7,
+     "text": "No, no, I think it does, right?"
+    },
+    {
+     "t": 2349.4,
+     "text": "It's not just about the entire tool, but also specific features within the tool."
+    },
+    {
+     "t": 2356.1,
+     "text": "Like, cloud comes together with cloud code, co-work, and chat as features."
+    },
+    {
+     "t": 2363.7,
+     "text": "But in this case, as you said, co-work is not covered with the VAA."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2369.8,
+   "end": 2430.1,
+   "lines": [
+    {
+     "t": 2369.8,
+     "text": "Yeah, and one thing I've run into before in other healthcare companies before, for example, say they're using a SaaS tool."
+    },
+    {
+     "t": 2377.2,
+     "text": "Let's go back to traditional SaaS, right?"
+    },
+    {
+     "t": 2378.8,
+     "text": "We've talked so much AI, but we forgot about SaaS."
+    },
+    {
+     "t": 2381.7,
+     "text": "Say they're using a SaaS tool, say for like help desk management or ticket management."
+    },
+    {
+     "t": 2387.8,
+     "text": "Sometimes those tools have a third-party marketplace where you add a plugin for some sort of functionality."
+    },
+    {
+     "t": 2394.0,
+     "text": "So even though that SaaS tool was covered with a BAA, those third-party providers were not."
+    },
+    {
+     "t": 2399.5,
+     "text": "And so we had to flag that those third-party providers that they were using are not covered in BAA and they have to stop using them."
+    },
+    {
+     "t": 2405.9,
+     "text": "They're like, what?"
+    },
+    {
+     "t": 2407.2,
+     "text": "So sometimes there's small shops, independent developers or whatnot that don't want to sign a BAA."
+    },
+    {
+     "t": 2413.4,
+     "text": "They don't want to have that obligation."
+    },
+    {
+     "t": 2415.7,
+     "text": "So those are some things to consider when you're, you know, the bigger container of what you're using may be covered, but like third party market, plugins and marketplace apps or whatever may not be covered."
+    },
+    {
+     "t": 2428.3,
+     "text": "And so that's something really to consider the scope."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2431.4,
+   "end": 2456.3,
+   "lines": [
+    {
+     "t": 2431.4,
+     "text": "That's a really good point that, you know, the supply chain ecosystem, if it's, you know, coming directly with the providers, BAA doesn't include the extensions, the plugins."
+    },
+    {
+     "t": 2444.0,
+     "text": "For that matter, in AI ecosystem, I'm sure MCPs and skills coming from third-party marketplaces are even bundled within the product."
+    },
+    {
+     "t": 2452.7,
+     "text": "It's unclear whether they are BAA covered or not."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2456.7,
+   "end": 2457.1,
+   "lines": [
+    {
+     "t": 2456.7,
+     "text": "That's right."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2457.6,
+   "end": 2477.8,
+   "lines": [
+    {
+     "t": 2457.6,
+     "text": "Yeah."
+    },
+    {
+     "t": 2458.4,
+     "text": "Okay."
+    },
+    {
+     "t": 2459.0,
+     "text": "I think we are close to the time, so I would love to shape out the key takeaways."
+    },
+    {
+     "t": 2467.1,
+     "text": "What would be the paved path?"
+    },
+    {
+     "t": 2469.7,
+     "text": "For builders and users of AI at a company who is trying to get AI built and how should security teams think about it?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2479.0,
+   "end": 2700.0,
+   "lines": [
+    {
+     "t": 2479.0,
+     "text": "Yeah, you know, at this point, my recommendation, I have like a multi-tier approach, right?"
+    },
+    {
+     "t": 2485.0,
+     "text": "One is get visibility into what's going on in your environment, right?"
+    },
+    {
+     "t": 2491.6,
+     "text": "Two, segment your users by risk profile."
+    },
+    {
+     "t": 2496.3,
+     "text": "So again, you know, the finance, sales, marketing, engineering, executives, right?"
+    },
+    {
+     "t": 2501.5,
+     "text": "Everyone has a different use case and different risk appetite."
+    },
+    {
+     "t": 2505.9,
+     "text": "And also, you know, just how much they want to use AI, right?"
+    },
+    {
+     "t": 2511.2,
+     "text": "Also, don't forget your power users."
+    },
+    {
+     "t": 2512.9,
+     "text": "The power users are going to be the smoke test for what's to come, right?"
+    },
+    {
+     "t": 2519.0,
+     "text": "There are some really good power users that are really taking good advantage of AI, doing some very skilled things."
+    },
+    {
+     "t": 2526.7,
+     "text": "And so those folks talk with them, ally with them, and that'll be an insight into the future for what other people might want to do, right?"
+    },
+    {
+     "t": 2536.5,
+     "text": "Get visibility have understanding what you're trying to do i always like to take a preventative approach so if anything you could prevent do that but in the case of ai where you want to try to balance like ai productivity and security you will need a way to get visibility into your ai agent tool calls and be able to prevent specific tool calls right so one visibility getting the logs right you want to get what's going on second"
+    },
+    {
+     "t": 2566.4,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 2586.7,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 2612.0,
+     "text": "That is taking a look at what is going on there."
+    },
+    {
+     "t": 2617.1,
+     "text": "Try to make sure to limit AI tools to only corporate sanctioned tools, for sure, right?"
+    },
+    {
+     "t": 2623.6,
+     "text": "So take the necessary steps from an MDM approach and web filtering approach."
+    },
+    {
+     "t": 2628.6,
+     "text": "Education, I think, is also a key that's often neglected."
+    },
+    {
+     "t": 2631.5,
+     "text": "We are here, everybody's trying to like, you know, go with a stick."
+    },
+    {
+     "t": 2635.4,
+     "text": "But like, if you educate people, people want to do the right thing."
+    },
+    {
+     "t": 2639.7,
+     "text": "They want to do the right thing."
+    },
+    {
+     "t": 2641.0,
+     "text": "They just need to know what's the direction they need to go to do that right thing."
+    },
+    {
+     "t": 2645.9,
+     "text": "And so just work with those teams."
+    },
+    {
+     "t": 2647.7,
+     "text": "And then always be vigilant and reading, staying up to speed."
+    },
+    {
+     "t": 2653.8,
+     "text": "We are at the time, basically we went through this during the cloud era."
+    },
+    {
+     "t": 2658.1,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah,"
+    },
+    {
+     "t": 2686.5,
+     "text": "You can't just do this in a box."
+    },
+    {
+     "t": 2688.8,
+     "text": "You need to be playing with the tools yourself as a security practitioner to know what people are trying to do."
+    },
+    {
+     "t": 2694.8,
+     "text": "Otherwise, you're just going to get lost."
+    },
+    {
+     "t": 2697.5,
+     "text": "So that's my approach in general."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2701.6,
+   "end": 2742.2,
+   "lines": [
+    {
+     "t": 2701.6,
+     "text": "That's really amazing, Ayman."
+    },
+    {
+     "t": 2702.8,
+     "text": "I think you summed it up well."
+    },
+    {
+     "t": 2705.0,
+     "text": "Start with the native governance and security controls, then dive deeper into the visibility starting from the endpoint."
+    },
+    {
+     "t": 2713.8,
+     "text": "And then understand use case by use case, segment your users, and finally, keep up to date with security."
+    },
+    {
+     "t": 2723.3,
+     "text": "Yeah, yeah, because you're gonna have to iterate."
+    },
+    {
+     "t": 2724.8,
+     "text": "Changing every day."
+    },
+    {
+     "t": 2726.2,
+     "text": "Yeah."
+    },
+    {
+     "t": 2727.1,
+     "text": "The stages of AI, for sure."
+    },
+    {
+     "t": 2729.9,
+     "text": "Okay."
+    },
+    {
+     "t": 2730.9,
+     "text": "Well, that's time for us."
+    },
+    {
+     "t": 2733.0,
+     "text": "Thanks again, Ayman, for your infinite wisdom here."
+    },
+    {
+     "t": 2737.3,
+     "text": "And looking forward to hopping on such a series again."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2742.7,
+   "end": 2759.4,
+   "lines": [
+    {
+     "t": 2742.7,
+     "text": "Yeah, yeah, yeah."
+    },
+    {
+     "t": 2743.2,
+     "text": "And thank you for open sourcing that tool."
+    },
+    {
+     "t": 2745.3,
+     "text": "I love it when companies open source tools."
+    },
+    {
+     "t": 2748.2,
+     "text": "I'm a bit of a, you know, I have SNTS, shiny new tool syndrome."
+    },
+    {
+     "t": 2752.2,
+     "text": "So I like to see new tools."
+    },
+    {
+     "t": 2754.2,
+     "text": "And I love when companies are open sourcing and releasing tools."
+    },
+    {
+     "t": 2757.6,
+     "text": "So thanks for doing that."
+    },
+    {
+     "t": 2758.5,
+     "text": "And thanks for hosting today."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2760.1,
+   "end": 2760.4,
+   "lines": [
+    {
+     "t": 2760.1,
+     "text": "Always."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  }
+ ]
+}
