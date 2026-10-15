@@ -1,33 +1,31 @@
 // Filtering + sorting for /talks. Rows are server-rendered; this only hides,
-// shows and reorders them. Filter state lives in the URL so views are shareable.
+// shows, reorders and renumbers them. State lives in the URL so views are shareable.
 
-type SortKey = "date" | "title" | "format" | "event" | "category" | "duration";
+type SortKey = "date" | "title" | "format" | "event" | "duration";
 
-const form = document.querySelector<HTMLFormElement>("[data-filters]");
 const table = document.querySelector<HTMLTableElement>("[data-table]");
 
-if (form && table) {
+if (table) {
   const tbody = table.tBodies[0];
   const rows = Array.from(tbody.rows);
-  const chips = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-topic]"));
+  const chips = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-kind]"));
   const status = document.querySelector<HTMLElement>("[data-status]");
-  const selects = ["category", "format", "event", "year", "platform"] as const;
-  const field = (name: string) => form.elements.namedItem(name) as HTMLInputElement | HTMLSelectElement | null;
+  const sortToggle = document.querySelector<HTMLButtonElement>("[data-sort-toggle]");
+  const search = document.querySelector<HTMLInputElement>('input[name="q"]');
+  const selects = (["category", "topic", "event"] as const)
+    .map((name) => document.querySelector<HTMLSelectElement>(`select[name="${name}"]`))
+    .filter((el): el is HTMLSelectElement => !!el);
 
+  let kind = "";
   let sortKey: SortKey = "date";
   let sortDir: 1 | -1 = -1;
 
   function readUrl() {
-    const params = new URLSearchParams(location.search);
-    const q = field("q");
-    if (q) q.value = params.get("q") ?? "";
-    for (const name of selects) {
-      const el = field(name);
-      if (el) el.value = params.get(name) ?? "";
-    }
-    const wanted = new Set(params.getAll("topic"));
-    for (const chip of chips) chip.setAttribute("aria-pressed", String(wanted.has(chip.dataset.topic!)));
-    const sort = params.get("sort");
+    const p = new URLSearchParams(location.search);
+    kind = p.get("kind") ?? "";
+    if (search) search.value = p.get("q") ?? "";
+    for (const el of selects) el.value = p.get(el.name) ?? "";
+    const sort = p.get("sort");
     if (sort) {
       const [key, dir] = sort.split(":");
       sortKey = key as SortKey;
@@ -36,36 +34,28 @@ if (form && table) {
   }
 
   function writeUrl() {
-    const params = new URLSearchParams();
-    const q = field("q")?.value.trim();
-    if (q) params.set("q", q);
-    for (const name of selects) {
-      const v = field(name)?.value;
-      if (v) params.set(name, v);
-    }
-    for (const chip of chips) if (chip.getAttribute("aria-pressed") === "true") params.append("topic", chip.dataset.topic!);
-    if (sortKey !== "date" || sortDir !== -1) params.set("sort", `${sortKey}:${sortDir === 1 ? "asc" : "desc"}`);
-    const qs = params.toString();
+    const p = new URLSearchParams();
+    if (kind) p.set("kind", kind);
+    const q = search?.value.trim();
+    if (q) p.set("q", q);
+    for (const el of selects) if (el.value) p.set(el.name, el.value);
+    if (sortKey !== "date" || sortDir !== -1) p.set("sort", `${sortKey}:${sortDir === 1 ? "asc" : "desc"}`);
+    const qs = p.toString();
     history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
   }
 
-  function apply() {
-    const q = (field("q")?.value ?? "").trim().toLowerCase().split(/\s+/).filter(Boolean);
-    const want = Object.fromEntries(selects.map((n) => [n, field(n)?.value ?? ""]));
-    const topics = chips.filter((c) => c.getAttribute("aria-pressed") === "true").map((c) => c.dataset.topic!);
-
-    let shown = 0;
-    for (const row of rows) {
-      const d = row.dataset;
-      const rowTopics = (d.topics ?? "").split("|");
-      const ok =
-        selects.every((n) => !want[n] || d[n] === want[n]) &&
-        topics.every((t) => rowTopics.includes(t)) &&
-        q.every((term) => (d.search ?? "").includes(term));
-      row.hidden = !ok;
-      if (ok) shown++;
+  function matches(row: HTMLTableRowElement): boolean {
+    const d = row.dataset;
+    if (kind && d.format !== kind) return false;
+    for (const el of selects) {
+      if (!el.value) continue;
+      if (el.name === "topic" ? !(d.topics ?? "").split("|").includes(el.value) : d[el.name] !== el.value) return false;
     }
+    const terms = (search?.value ?? "").trim().toLowerCase().split(/\s+/).filter(Boolean);
+    return terms.every((t) => (d.search ?? "").includes(t));
+  }
 
+  function apply() {
     const sorted = [...rows].sort((a, b) => {
       const av = a.dataset[sortKey] ?? "";
       const bv = b.dataset[sortKey] ?? "";
@@ -74,20 +64,38 @@ if (form && table) {
     });
     tbody.append(...sorted);
 
+    let n = 0;
+    for (const row of sorted) {
+      const ok = matches(row);
+      row.hidden = !ok;
+      if (ok) row.querySelector<HTMLElement>("[data-n]")!.textContent = String(++n).padStart(3, "0");
+    }
+
+    for (const chip of chips) chip.setAttribute("aria-pressed", String((chip.dataset.kind ?? "") === kind));
     for (const th of table!.tHead!.querySelectorAll<HTMLElement>("th[data-sort]")) {
       th.setAttribute("aria-sort", th.dataset.sort === sortKey ? (sortDir === 1 ? "ascending" : "descending") : "none");
     }
-    if (status) status.textContent = shown === rows.length ? "" : `Showing ${shown} of ${rows.length}`;
+    if (sortToggle) {
+      sortToggle.textContent =
+        sortKey === "date" ? `sort: ${sortDir === -1 ? "newest" : "oldest"} first` : `sort: ${sortKey} ${sortDir === 1 ? "↑" : "↓"}`;
+    }
+    if (status) status.textContent = n === rows.length ? "" : `showing ${n} of ${rows.length}`;
     writeUrl();
   }
 
-  form.addEventListener("input", apply);
   for (const chip of chips) {
     chip.addEventListener("click", () => {
-      chip.setAttribute("aria-pressed", String(chip.getAttribute("aria-pressed") !== "true"));
+      kind = chip.dataset.kind ?? "";
       apply();
     });
   }
+  search?.addEventListener("input", apply);
+  for (const el of selects) el.addEventListener("change", apply);
+  sortToggle?.addEventListener("click", () => {
+    sortDir = sortKey === "date" ? ((-sortDir) as 1 | -1) : -1;
+    sortKey = "date";
+    apply();
+  });
   for (const th of table.tHead!.querySelectorAll<HTMLElement>("th[data-sort]")) {
     th.querySelector("button")!.addEventListener("click", () => {
       const key = th.dataset.sort as SortKey;
@@ -96,13 +104,6 @@ if (form && table) {
       apply();
     });
   }
-  document.querySelector("[data-reset]")?.addEventListener("click", () => {
-    form.reset();
-    for (const chip of chips) chip.setAttribute("aria-pressed", "false");
-    sortKey = "date";
-    sortDir = -1;
-    apply();
-  });
 
   readUrl();
   apply();
