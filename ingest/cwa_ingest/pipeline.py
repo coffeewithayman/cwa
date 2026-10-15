@@ -67,6 +67,9 @@ def add_url(url: str) -> str | None:
         info = fetch.probe(url)
     except Exception as exc:  # noqa: BLE001 - surface any yt-dlp failure in the file
         return md.append_entry(config.TALKS_MD, url, {"url": url, "status": f"⚠️ error: couldn't read link ({str(exc)[:120]})"})
+    if not fetch.is_video(info):
+        return md.append_entry(config.TALKS_MD, info.get("title") or url,
+                               {"url": url, "status": "⏭ skipped: audio only — the archive is videos only"})
     date = info.get("upload_date")
     fields = {
         "url": url,
@@ -259,8 +262,12 @@ def run_once(*, only: str | None = None, force: bool = False, reclean: bool = Fa
     process_inbox_files()
     apply_vocab()
     apply_speaker_reviews()
-    for entry in md.parse_talks(config.TALKS_MD):
-        if only and entry.slug != only:
+    for slug in [e.slug for e in md.parse_talks(config.TALKS_MD)]:
+        if only and slug != only:
+            continue
+        # re-read each time: Ayman (or the watcher) may have edited the file mid-run
+        entry = next((e for e in md.parse_talks(config.TALKS_MD) if e.slug == slug), None)
+        if entry is None:
             continue
         if reclean and State(entry.slug).path.exists():
             State(entry.slug).forget("clean", "publish")

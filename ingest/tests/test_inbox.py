@@ -47,3 +47,18 @@ def test_link_list(repo, monkeypatch):
     inbox.process_inbox_files()
     assert added == ["https://youtu.be/aaa", "https://youtu.be/bbb"]
     assert not (config.INBOX / "links.txt").exists()
+
+
+def test_audio_files_are_rejected(repo, monkeypatch):
+    monkeypatch.setattr(config, "STABLE_SECONDS", 0)
+    (config.INBOX / "podcast.mp3").write_bytes(b"audio")
+    inbox.process_inbox_files()
+    assert md.parse_talks(config.TALKS_MD) == []
+    assert (config.FAILED / "podcast.mp3.audio-only").exists()
+
+
+def test_is_video():
+    from cwa_ingest.fetch import is_video
+    assert is_video({"duration": 60, "formats": [{"vcodec": "none"}, {"vcodec": "avc1"}]})
+    assert not is_video({"duration": 1500, "formats": [{"vcodec": "none"}], "vcodec": "none"})   # podcast
+    assert not is_video({"duration": 0, "formats": [{"vcodec": "avc1"}]})                        # empty stub

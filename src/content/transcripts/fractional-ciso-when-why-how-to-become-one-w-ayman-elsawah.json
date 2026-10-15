@@ -1,0 +1,4201 @@
+{
+ "slug": "fractional-ciso-when-why-how-to-become-one-w-ayman-elsawah",
+ "scope": "all",
+ "format": "podcast-guest",
+ "turns": [
+  {
+   "start": 0.1,
+   "end": 77.1,
+   "lines": [
+    {
+     "t": 0.1,
+     "text": "Hello there."
+    },
+    {
+     "t": 1.1,
+     "text": "Welcome to the Imperial Security Bureau podcast."
+    },
+    {
+     "t": 4.0,
+     "text": "Today we have an outstanding guest."
+    },
+    {
+     "t": 7.2,
+     "text": "His name is Ayman Elsawah."
+    },
+    {
+     "t": 9.7,
+     "text": "He is a fractional CISO."
+    },
+    {
+     "t": 11.9,
+     "text": "He's awesome to talk to."
+    },
+    {
+     "t": 12.9,
+     "text": "We're going to cover many subjects here, but first let's visit his LinkedIn."
+    },
+    {
+     "t": 17.3,
+     "text": "And here he is, Ayman Elsawah."
+    },
+    {
+     "t": 20.1,
+     "text": "He is currently the fractional CISO for his company is called Cloud Security Labs."
+    },
+    {
+     "t": 27.1,
+     "text": "He consults with startups, mostly SaaS startups."
+    },
+    {
+     "t": 31.4,
+     "text": "He's also involved in a lot of other things."
+    },
+    {
+     "t": 32.8,
+     "text": "He's got a podcast, he's involved in the CISO society, and he also coaches people on how to become fractional CISOs as well."
+    },
+    {
+     "t": 41.1,
+     "text": "And we'll chat about that."
+    },
+    {
+     "t": 42.6,
+     "text": "But let's go into his background."
+    },
+    {
+     "t": 44.9,
+     "text": "He has a major in computer science."
+    },
+    {
+     "t": 47.6,
+     "text": "He started his career as a network engineer and then moved into cybersecurity."
+    },
+    {
+     "t": 52.8,
+     "text": "Typical move from engineer to architect to CISO to fractional."
+    },
+    {
+     "t": 59.3,
+     "text": "If you want to chat with him, he has a website, coffeewithayman.com."
+    },
+    {
+     "t": 64.4,
+     "text": "He uses calendar booking links, all of those, and he's on YouTube and he's got a lot of content out there."
+    },
+    {
+     "t": 71.3,
+     "text": "So check him out."
+    },
+    {
+     "t": 72.3,
+     "text": "But here we go."
+    },
+    {
+     "t": 73.3,
+     "text": "All right."
+    },
+    {
+     "t": 73.9,
+     "text": "Welcome to the podcast, Ayman."
+    },
+    {
+     "t": 76.4,
+     "text": "How are you, sir?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 77.6,
+   "end": 81.8,
+   "lines": [
+    {
+     "t": 77.6,
+     "text": "I'm doing great."
+    },
+    {
+     "t": 78.5,
+     "text": "I'm doing great."
+    },
+    {
+     "t": 79.2,
+     "text": "I got my espresso and I'm ready to go."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 82.1,
+   "end": 98.2,
+   "lines": [
+    {
+     "t": 82.1,
+     "text": "Expresso, I hear you, two o'clock in the afternoon."
+    },
+    {
+     "t": 85.0,
+     "text": "It's never too late, you know, never too late."
+    },
+    {
+     "t": 87.3,
+     "text": "If you need it, take it."
+    },
+    {
+     "t": 88.9,
+     "text": "I would not because it would ruin my sleep."
+    },
+    {
+     "t": 92.3,
+     "text": "But some people it doesn't impact, right?"
+    },
+    {
+     "t": 94.6,
+     "text": "There's no impact."
+    },
+    {
+     "t": 95.6,
+     "text": "And you're one of the lucky ones if you can still go to bed."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 98.8,
+   "end": 109.8,
+   "lines": [
+    {
+     "t": 98.8,
+     "text": "Well, it's still before 12 over here."
+    },
+    {
+     "t": 101.1,
+     "text": "So it's 11 a.m. over here."
+    },
+    {
+     "t": 103.3,
+     "text": "So that's right."
+    },
+    {
+     "t": 104.6,
+     "text": "It's my first one of the day."
+    },
+    {
+     "t": 105.8,
+     "text": "So did you know espresso has less caffeine than a regular drip coffee?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 110.5,
+   "end": 131.3,
+   "lines": [
+    {
+     "t": 110.5,
+     "text": "I would have thought the opposite."
+    },
+    {
+     "t": 111.9,
+     "text": "So yeah, just learned something."
+    },
+    {
+     "t": 114.2,
+     "text": "A couple of warm-up questions."
+    },
+    {
+     "t": 116.7,
+     "text": "I know you're a sci-fi nerd like me."
+    },
+    {
+     "t": 119.5,
+     "text": "I normally ask about your favorite Star Wars movie in case you didn't know I'm a Star Wars fan."
+    },
+    {
+     "t": 123.7,
+     "text": "Not Acolyte, by the way, but what's your favorite movie?"
+    },
+    {
+     "t": 128.0,
+     "text": "And then what's your favorite band or musician?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 131.6,
+   "end": 138.2,
+   "lines": [
+    {
+     "t": 131.6,
+     "text": "I think favorite movie is Interstellar."
+    },
+    {
+     "t": 135.7,
+     "text": "I saw it in 70 millimeter in the movie theater."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 138.4,
+   "end": 139.4,
+   "lines": [
+    {
+     "t": 138.4,
+     "text": "Very cool."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 139.6,
+   "end": 164.9,
+   "lines": [
+    {
+     "t": 139.6,
+     "text": "So that was good."
+    },
+    {
+     "t": 140.5,
+     "text": "The soundtrack was amazing."
+    },
+    {
+     "t": 142.2,
+     "text": "The, you know, cutting back and forth, the whole idea, like just everything was just really amazing about it."
+    },
+    {
+     "t": 148.8,
+     "text": "As far as favorite band, there's no one particular."
+    },
+    {
+     "t": 151.0,
+     "text": "I like a lot of electronic music."
+    },
+    {
+     "t": 153.0,
+     "text": "So I listen, I think digitally imported, di.fm."
+    },
+    {
+     "t": 156.8,
+     "text": "I've been listening to that for like a long time."
+    },
+    {
+     "t": 160.2,
+     "text": "Or Soma, Soma FM."
+    },
+    {
+     "t": 161.4,
+     "text": "They even have, Soma FM has a DEF CON channel as well."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 165.2,
+   "end": 169.9,
+   "lines": [
+    {
+     "t": 165.2,
+     "text": "Interesting."
+    },
+    {
+     "t": 165.7,
+     "text": "I have to look that up."
+    },
+    {
+     "t": 166.7,
+     "text": "Have you ever heard of FONK?"
+    },
+    {
+     "t": 168.8,
+     "text": "P-H-O-N-K?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 169.9,
+   "end": 171.9,
+   "lines": [
+    {
+     "t": 169.9,
+     "text": "No, no."
+    },
+    {
+     "t": 171.2,
+     "text": "Yeah, that's interesting."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 176.1,
+   "end": 200.2,
+   "lines": [
+    {
+     "t": 176.1,
+     "text": "It's like hip hop but they're they basically take 90s Memphis rap okay and they kind of tone down the voice so that it kind of is like mumbling in the background and then they just add on like techno beats on top of it's pretty cool i like working to that sometimes yeah funk"
+    },
+    {
+     "t": 198.5,
+     "text": "There's a couple YouTube stations."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 200.4,
+   "end": 203.0,
+   "lines": [
+    {
+     "t": 200.4,
+     "text": "Check that out."
+    },
+    {
+     "t": 201.1,
+     "text": "What's your favorite sci-fi movie?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 203.1,
+   "end": 214.5,
+   "lines": [
+    {
+     "t": 203.1,
+     "text": "The show that's fresh on my mind is I've just re-watched The Terminal List on Amazon."
+    },
+    {
+     "t": 208.4,
+     "text": "Oh man, that show is so good."
+    },
+    {
+     "t": 211.0,
+     "text": "It's the third time I've been through it."
+    },
+    {
+     "t": 213.1,
+     "text": "I don't know if you've seen that show."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 214.6,
+   "end": 215.9,
+   "lines": [
+    {
+     "t": 214.6,
+     "text": "I don't think I have, yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 216.0,
+   "end": 229.2,
+   "lines": [
+    {
+     "t": 216.0,
+     "text": "So good, yeah."
+    },
+    {
+     "t": 217.3,
+     "text": "The Terminal List, Chris Pratt, based on, I think it's Jack Carr."
+    },
+    {
+     "t": 221.6,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 229.2,
+   "end": 238.1,
+   "lines": [
+    {
+     "t": 229.2,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 244.5,
+   "end": 278.8,
+   "lines": [
+    {
+     "t": 244.5,
+     "text": "The last time we saw her was in the movie Solo."
+    },
+    {
+     "t": 248.8,
+     "text": "She hops in Ivan Dross's yacht ship."
+    },
+    {
+     "t": 252.9,
+     "text": "She abandons Solo and she's off to see Darth Maul."
+    },
+    {
+     "t": 258.8,
+     "text": "Where's that story going to go?"
+    },
+    {
+     "t": 260.8,
+     "text": "So, yeah, but I mean, my favorite character is always going to be Darth Vader."
+    },
+    {
+     "t": 264.4,
+     "text": "You know, he's misunderstood."
+    },
+    {
+     "t": 266.8,
+     "text": "He engineered the rebellion from behind the scenes."
+    },
+    {
+     "t": 269.7,
+     "text": "He knew what was going on the whole time."
+    },
+    {
+     "t": 271.6,
+     "text": "He's playing both sides."
+    },
+    {
+     "t": 273.2,
+     "text": "He's actually a good guy."
+    },
+    {
+     "t": 275.8,
+     "text": "I know you're a coffee guy here."
+    },
+    {
+     "t": 277.2,
+     "text": "What is your favorite coffee and why?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 279.2,
+   "end": 304.3,
+   "lines": [
+    {
+     "t": 279.2,
+     "text": "Well, I like to use a light roast coffee."
+    },
+    {
+     "t": 281.2,
+     "text": "That way I'm tasting the bean and not the roast."
+    },
+    {
+     "t": 284.1,
+     "text": "I've actually a list of a few roasters that I put on my personal website."
+    },
+    {
+     "t": 288.2,
+     "text": "Because people ask me this all the time, like what's a good coffee roasting place?"
+    },
+    {
+     "t": 291.5,
+     "text": "One of the things I love to do is just go around the country and find really interesting roasters that have good coffee."
+    },
+    {
+     "t": 297.5,
+     "text": "Because it's kind of like a treasure hunt to find that right coffee."
+    },
+    {
+     "t": 300.9,
+     "text": "I like African coffees."
+    },
+    {
+     "t": 302.0,
+     "text": "Ethiopias are really good."
+    },
+    {
+     "t": 303.0,
+     "text": "Kenya is my favorite."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 304.6,
+   "end": 309.0,
+   "lines": [
+    {
+     "t": 304.6,
+     "text": "What should people be concerned about when it comes to buying coffee?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 309.3,
+   "end": 341.6,
+   "lines": [
+    {
+     "t": 309.3,
+     "text": "Oh, I'm actually doing a whole course on this for free."
+    },
+    {
+     "t": 311.4,
+     "text": "I'm going to post the whole course on this."
+    },
+    {
+     "t": 313.3,
+     "text": "I think the one thing you can do to improve your coffee is grind your beans fresh."
+    },
+    {
+     "t": 318.8,
+     "text": "That's it."
+    },
+    {
+     "t": 319.4,
+     "text": "If there's one thing you wanted to do that would give you like the 80-20 rule as far as coffee is grinding it fresh."
+    },
+    {
+     "t": 324.6,
+     "text": "So getting whole beans because the bean oxidizes right when it's ground and it starts getting dull, like old, right?"
+    },
+    {
+     "t": 332.0,
+     "text": "So you want it to be nice and fresh."
+    },
+    {
+     "t": 333.8,
+     "text": "I think whatever way you're brewing coffee, machine, whatever it may be, I'm not going to be judgmental."
+    },
+    {
+     "t": 338.4,
+     "text": "If you just grind it fresh, you will dramatically improve it."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 342.2,
+   "end": 393.2,
+   "lines": [
+    {
+     "t": 342.2,
+     "text": "I have a love-hate relationship with coffee."
+    },
+    {
+     "t": 345.2,
+     "text": "I can't quit coffee."
+    },
+    {
+     "t": 346.6,
+     "text": "I've tried."
+    },
+    {
+     "t": 347.4,
+     "text": "I've tried to do like a 30-day quick coffee challenge and I made it 10 days and caved."
+    },
+    {
+     "t": 353.1,
+     "text": "I can go a little while."
+    },
+    {
+     "t": 354.6,
+     "text": "I tried to."
+    },
+    {
+     "t": 355.7,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec,"
+    },
+    {
+     "t": 379.6,
+     "text": "You know, 10 hours later, you still got half the caffeine running through your bloodstream."
+    },
+    {
+     "t": 382.9,
+     "text": "So after over consuming coffee or maybe drinking it till lunch or more, you know, more than just that cup, cup and a half, I'm not able to sleep."
+    },
+    {
+     "t": 392.1,
+     "text": "I'm wired."
+    },
+    {
+     "t": 392.8,
+     "text": "Yeah."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 393.4,
+   "end": 470.5,
+   "lines": [
+    {
+     "t": 393.4,
+     "text": "I mean, it's the most widely distributed psychoactive drug in the world."
+    },
+    {
+     "t": 397.2,
+     "text": "I mean, it's a drug."
+    },
+    {
+     "t": 398.4,
+     "text": "It's a drug, right?"
+    },
+    {
+     "t": 399.4,
+     "text": "So you just said, you know, addicted to coffee."
+    },
+    {
+     "t": 401.8,
+     "text": "So it's a drug and you have to use it wisely, like any tool in your tool set."
+    },
+    {
+     "t": 406.9,
+     "text": "I think I quit coffee once for 30 days."
+    },
+    {
+     "t": 409.1,
+     "text": "And I actually respect people that don't drink any sort of caffeine."
+    },
+    {
+     "t": 412.7,
+     "text": "I meet them every once in a while."
+    },
+    {
+     "t": 414.3,
+     "text": "I'm like, oh, are you real?"
+    },
+    {
+     "t": 415.2,
+     "text": "Like, how do you stay alive?"
+    },
+    {
+     "t": 417.2,
+     "text": "And, you know, so no tea, no coffee."
+    },
+    {
+     "t": 419.9,
+     "text": "They just don't have the caffeine."
+    },
+    {
+     "t": 421.6,
+     "text": "I think there's something to it."
+    },
+    {
+     "t": 422.8,
+     "text": "But, you know, so as long as you use it to your advantage, as far as like getting into focus mode."
+    },
+    {
+     "t": 426.6,
+     "text": "For me, I love the taste, the flavor."
+    },
+    {
+     "t": 428.9,
+     "text": "In fact, the first espresso I brewed today, I did it wrong."
+    },
+    {
+     "t": 431.6,
+     "text": "I over extracted it and it tasted horrible."
+    },
+    {
+     "t": 433.4,
+     "text": "So I had to redo it."
+    },
+    {
+     "t": 434.5,
+     "text": "A little bit of a nerd in that sense."
+    },
+    {
+     "t": 436.3,
+     "text": "But I like the taste."
+    },
+    {
+     "t": 437.3,
+     "text": "I couldn't just sit there."
+    },
+    {
+     "t": 438.4,
+     "text": "You know, some people are looking for the caffeine, just the injection, right?"
+    },
+    {
+     "t": 441.2,
+     "text": "For me, it's like an experience."
+    },
+    {
+     "t": 442.6,
+     "text": "I like to sit down, read a book in the morning, whatever with my coffee."
+    },
+    {
+     "t": 446.0,
+     "text": "As the caffeine hits my brain, I'm like, okay, time to write or time to, you know, do some creative stuff."
+    },
+    {
+     "t": 450.1,
+     "text": "You nailed it that's exactly how i feel about it what's in your background there what are all those lanyards yeah security conferences and coffee so the two things i like the most so these are all different conferences i've been to you can see the defcon badge right here i think it was last year they had the piano and then some coffee paraphernalia and you know my book over here you ever come to north carolina for"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 471.3,
+   "end": 473.8,
+   "lines": [
+    {
+     "t": 471.3,
+     "text": "Either Cackalackycon or B-Sides."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 474.2,
+   "end": 485.3,
+   "lines": [
+    {
+     "t": 474.2,
+     "text": "I am not, but I'd love, I've been to North Carolina, I've been to RTP."
+    },
+    {
+     "t": 477.0,
+     "text": "I love it."
+    },
+    {
+     "t": 477.6,
+     "text": "It's a beautiful place."
+    },
+    {
+     "t": 479.2,
+     "text": "I love how you have the beaches on one, I mean, beaches on one side and mountains on the other side."
+    },
+    {
+     "t": 482.7,
+     "text": "It's kind of like the Bay Area."
+    },
+    {
+     "t": 484.2,
+     "text": "So I'd love to come out there, yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 485.5,
+   "end": 491.5,
+   "lines": [
+    {
+     "t": 485.5,
+     "text": "Yeah, let me know."
+    },
+    {
+     "t": 486.3,
+     "text": "We'll have to meet up."
+    },
+    {
+     "t": 488.0,
+     "text": "And I noticed you have a book there."
+    },
+    {
+     "t": 489.7,
+     "text": "You want to tell us about your book?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 491.5,
+   "end": 540.3,
+   "lines": [
+    {
+     "t": 491.5,
+     "text": "Sure."
+    },
+    {
+     "t": 492.4,
+     "text": "Some time ago, I read a book that said you should write a book."
+    },
+    {
+     "t": 495.9,
+     "text": "I'm like, well, what would I write a book about?"
+    },
+    {
+     "t": 497.6,
+     "text": "And I'm like, do I write about cats or kids?"
+    },
+    {
+     "t": 499.8,
+     "text": "I'm like, I don't know."
+    },
+    {
+     "t": 501.1,
+     "text": "And then I realized that everyone's asking me at the time, people were asking how to get into security."
+    },
+    {
+     "t": 505.5,
+     "text": "I'm like, oh, let me write a book about security."
+    },
+    {
+     "t": 508.4,
+     "text": "And so I just kind of sat down and just got all this."
+    },
+    {
+     "t": 511.5,
+     "text": "It's just a brain dump."
+    },
+    {
+     "t": 512.2,
+     "text": "It's like we sat down for coffee."
+    },
+    {
+     "t": 514.1,
+     "text": "This is exactly what I would say."
+    },
+    {
+     "t": 515.3,
+     "text": "And it's a quick read."
+    },
+    {
+     "t": 516.1,
+     "text": "Alongside of that, I decided to, well, I'm like, well, there's many ways to get into security, not just my way, right?"
+    },
+    {
+     "t": 522.3,
+     "text": "Or not just..."
+    },
+    {
+     "t": 523.0,
+     "text": "So let me start a podcast as well."
+    },
+    {
+     "t": 525.4,
+     "text": "And so as I was done finishing up the book, I started a podcast to interview folks and how they got in security because there's no one way."
+    },
+    {
+     "t": 533.2,
+     "text": "So I started a podcast and then kind of been turtles all the way down from there."
+    },
+    {
+     "t": 537.1,
+     "text": "It was a fun experience, learned a lot, met a lot of really interesting folks."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 540.7,
+   "end": 561.2,
+   "lines": [
+    {
+     "t": 540.7,
+     "text": "Yeah, podcast rookie here."
+    },
+    {
+     "t": 542.7,
+     "text": "This is episode 10 for me, right?"
+    },
+    {
+     "t": 544.7,
+     "text": "So Imperial Security Bureau is still early in its life, right?"
+    },
+    {
+     "t": 549.5,
+     "text": "A lot of people are thinking about starting a podcast or already have."
+    },
+    {
+     "t": 553.5,
+     "text": "What have you learned so far just running a podcast and like I said, Getting Into Infosec podcast?"
+    },
+    {
+     "t": 560.2,
+     "text": "What have you learned from that?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 561.5,
+   "end": 616.8,
+   "lines": [
+    {
+     "t": 561.5,
+     "text": "Yeah, well, kudos to you for getting 10 episodes out."
+    },
+    {
+     "t": 565.7,
+     "text": "Many people don't get past episode two or three."
+    },
+    {
+     "t": 568.5,
+     "text": "So kudos to you."
+    },
+    {
+     "t": 569.7,
+     "text": "There's so many podcasts out there that never made it past three or four episodes."
+    },
+    {
+     "t": 574.7,
+     "text": "What I've learned, silence is gold."
+    },
+    {
+     "t": 577.3,
+     "text": "So my podcast was audio."
+    },
+    {
+     "t": 579.8,
+     "text": "And I learned this trick, I think it was from Malcolm Gladwell, like in his masterclass course."
+    },
+    {
+     "t": 584.5,
+     "text": "That just to sit there and allow silence to do the talking in today's world we're we have these uncomfortable silences but when you're there especially in an audio podcast when you're interviewing someone and you allow you ask a question and you just sit there a little bit as after they've answered it and just let that silence like just sit there you'll find that they just start spilling more information"
+    },
+    {
+     "t": 609.5,
+     "text": "Right."
+    },
+    {
+     "t": 609.7,
+     "text": "They open up a little more."
+    },
+    {
+     "t": 610.8,
+     "text": "It's fascinating."
+    },
+    {
+     "t": 611.8,
+     "text": "It's fascinating."
+    },
+    {
+     "t": 612.3,
+     "text": "So that was one thing I really learned."
+    },
+    {
+     "t": 613.9,
+     "text": "I learned how to be a better listener."
+    },
+    {
+     "t": 615.7,
+     "text": "It's been a great experience."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 617.2,
+   "end": 643.6,
+   "lines": [
+    {
+     "t": 617.2,
+     "text": "What's funny about that is I normally cut out all the"
+    },
+    {
+     "t": 621.2,
+     "text": "All the delays, the ums and ahs, the gaps, I guess."
+    },
+    {
+     "t": 624.5,
+     "text": "So it's good whenever you're filming because the silence would entice the guest to speak more or elaborate or whatnot."
+    },
+    {
+     "t": 634.0,
+     "text": "But then I'm worried that whenever the listeners are there, if there's too much dead air, I try to cut all that out."
+    },
+    {
+     "t": 641.2,
+     "text": "So maybe I'm wrong about that."
+    },
+    {
+     "t": 643.3,
+     "text": "I don't know."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 644.3,
+   "end": 685.2,
+   "lines": [
+    {
+     "t": 644.3,
+     "text": "Yeah you know sometimes we underestimate our listeners i have to tell you like an episode sometimes it ran long it's like too long i'm like oh this is nobody's gonna listen to an hour and change and then you find that people just binge all these episodes and they have no problem with these long episodes i'm like fascinated"
+    },
+    {
+     "t": 662.8,
+     "text": "So don't underestimate your listeners, your viewers."
+    },
+    {
+     "t": 666.2,
+     "text": "It's the content."
+    },
+    {
+     "t": 667.2,
+     "text": "In fact, a lot of times, it doesn't matter about the background."
+    },
+    {
+     "t": 670.3,
+     "text": "It doesn't matter about whatever."
+    },
+    {
+     "t": 671.5,
+     "text": "It's the words that they want to hear."
+    },
+    {
+     "t": 673.9,
+     "text": "They want to feel the emotion or the conversation or the information, whatever they're looking for, right?"
+    },
+    {
+     "t": 680.6,
+     "text": "Some people are looking for entertainment."
+    },
+    {
+     "t": 682.3,
+     "text": "Some people are looking for knowledge."
+    },
+    {
+     "t": 684.5,
+     "text": "A mix of both."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 685.5,
+   "end": 687.5,
+   "lines": [
+    {
+     "t": 685.5,
+     "text": "Good mix."
+    },
+    {
+     "t": 686.2,
+     "text": "Yeah, we try to mix it up here."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 688.0,
+   "end": 688.2,
+   "lines": [
+    {
+     "t": 688.0,
+     "text": "Yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 688.3,
+   "end": 710.0,
+   "lines": [
+    {
+     "t": 688.3,
+     "text": "Your podcast was about getting into cybersecurity."
+    },
+    {
+     "t": 690.8,
+     "text": "That's a topic that we talk about a lot."
+    },
+    {
+     "t": 693.1,
+     "text": "How to break in job seekers."
+    },
+    {
+     "t": 695.4,
+     "text": "You know, I'm a recruiter, right?"
+    },
+    {
+     "t": 696.7,
+     "text": "Yeah."
+    },
+    {
+     "t": 697.6,
+     "text": "I am trying to help people when it comes to finding jobs, help employers find great candidates."
+    },
+    {
+     "t": 703.1,
+     "text": "So do you have like a top five if you can wrap it all into like a top five ways to get into cybersecurity?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 710.7,
+   "end": 790.8,
+   "lines": [
+    {
+     "t": 710.7,
+     "text": "Oh, top five."
+    },
+    {
+     "t": 711.9,
+     "text": "Okay."
+    },
+    {
+     "t": 712.9,
+     "text": "I think getting into any new field one is to learn the language so understand the language so that means you're going to have to consume a lot of media news podcasts video movies just understand the language you need to know the terminology"
+    },
+    {
+     "t": 728.4,
+     "text": "And that is going to lead to the next step is getting into the mindset, the mindset of a security person, right?"
+    },
+    {
+     "t": 733.7,
+     "text": "Do security in your own home, right?"
+    },
+    {
+     "t": 735.3,
+     "text": "Think securely."
+    },
+    {
+     "t": 736.4,
+     "text": "I mean, do you have 2FA set up on your accounts?"
+    },
+    {
+     "t": 738.8,
+     "text": "Are you living and breathing security, right?"
+    },
+    {
+     "t": 741.5,
+     "text": "So it's kind of like method acting, like start getting into it."
+    },
+    {
+     "t": 743.8,
+     "text": "And then take an inventory of your skills."
+    },
+    {
+     "t": 746.1,
+     "text": "The third thing would probably take an inventory of your skills."
+    },
+    {
+     "t": 748.5,
+     "text": "Understand yourself."
+    },
+    {
+     "t": 749.3,
+     "text": "I think this is good for any job seeker."
+    },
+    {
+     "t": 751.4,
+     "text": "Know yourself."
+    },
+    {
+     "t": 752.5,
+     "text": "Don't underestimate all the experience that you've had throughout life, whether you're an Uber driver,"
+    },
+    {
+     "t": 757.3,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 782.8,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 807.1,
+   "end": 816.9,
+   "lines": [
+    {
+     "t": 807.1,
+     "text": "You've had an incredible career going from engineer to architect to CISO, fractional CISO."
+    },
+    {
+     "t": 813.7,
+     "text": "Tell us your story."
+    },
+    {
+     "t": 814.6,
+     "text": "How did you land in cybersecurity?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 817.7,
+   "end": 953.3,
+   "lines": [
+    {
+     "t": 817.7,
+     "text": "Oh, okay."
+    },
+    {
+     "t": 818.8,
+     "text": "Well, once upon a time ago, I was a network engineer and I wanted to be, you know, I was on the CCNA, CCNP path and I wanted to be a CCIE."
+    },
+    {
+     "t": 829.3,
+     "text": "Ccie is like this uber certification in network land cisco land that like you know was this coveted back then still is i guess coveted certification if you're ccie you're like top of the food chain so i'm on this path and you know of course in networking security is still a component right firewalls and network security and everything is still a component so that was always part of my job anyway"
+    },
+    {
+     "t": 852.7,
+     "text": "I met a CCIE and I told him of my career plans and he goes like this he goes why would you want to be a CCIE I'm like because it's amazing he's like well it's boring like what and so he goes it's boring once you create the network and everything like that then you're done and that's it I'm like huh really and for me I always I had an itch of just like always being challenged learning I don't want to"
+    },
+    {
+     "t": 879.3,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah,"
+    },
+    {
+     "t": 895.7,
+     "text": "And sure enough, it's been true."
+    },
+    {
+     "t": 896.9,
+     "text": "And so I switched."
+    },
+    {
+     "t": 899.5,
+     "text": "I started studying cybersecurity."
+    },
+    {
+     "t": 901.6,
+     "text": "I started looking for a job."
+    },
+    {
+     "t": 902.8,
+     "text": "I found the security analyst job."
+    },
+    {
+     "t": 904.5,
+     "text": "I had to take a pay cut, right?"
+    },
+    {
+     "t": 906.0,
+     "text": "Because, you know, I was like a senior network engineer."
+    },
+    {
+     "t": 908.3,
+     "text": "And now I'm like a lowly security analyst."
+    },
+    {
+     "t": 911.3,
+     "text": "But it was worth it, right?"
+    },
+    {
+     "t": 912.8,
+     "text": "I had to find something and work my way up from there."
+    },
+    {
+     "t": 916.4,
+     "text": "Security analyst, security engineer, senior engineer, architect."
+    },
+    {
+     "t": 920.6,
+     "text": "And then as a consultant, I was helping companies on the side with their security programs from compliance, PCI, security awareness, everything like that."
+    },
+    {
+     "t": 929.7,
+     "text": "And I saw a need out there that there was a need for startups to have security people, but they couldn't afford security people from a full-time basis."
+    },
+    {
+     "t": 939.5,
+     "text": "So I'm like, well, there's this fractional COO model, fractional CMO, fractional CFO."
+    },
+    {
+     "t": 945.4,
+     "text": "There's got to be a fractional CISO model."
+    },
+    {
+     "t": 948.0,
+     "text": "And it was still early."
+    },
+    {
+     "t": 949.1,
+     "text": "It was still the early days and just started pursuing that."
+    },
+    {
+     "t": 952.8,
+     "text": "And here we are."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 953.9,
+   "end": 956.9,
+   "lines": [
+    {
+     "t": 953.9,
+     "text": "Tell us about your company, Cloud Security Labs."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 957.9,
+   "end": 1060.9,
+   "lines": [
+    {
+     "t": 957.9,
+     "text": "Yeah, so, you know, several years ago in my security journey, I discovered AWS and the cloud."
+    },
+    {
+     "t": 966.6,
+     "text": "And I was like, wow, this is amazing."
+    },
+    {
+     "t": 968.2,
+     "text": "And so I decided not to look back"
+    },
+    {
+     "t": 972.4,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Ayman Elsawah, Adrian Sanabria A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 992.9,
+     "text": "And so I created Cloud Security Labs, a place for me to work with companies that are in the cloud and kind of generate ideas."
+    },
+    {
+     "t": 999.9,
+     "text": "Now, fast forward, it's now expanded to a fractional CISO model."
+    },
+    {
+     "t": 1004.1,
+     "text": "Where I work with companies as a fractional CISO."
+    },
+    {
+     "t": 1006.9,
+     "text": "And a CISO, Chief Information Security Officer, right, is a person that's responsible for security at a company."
+    },
+    {
+     "t": 1012.1,
+     "text": "But I do it on a fractional basis."
+    },
+    {
+     "t": 1014.0,
+     "text": "So what do I do?"
+    },
+    {
+     "t": 1014.8,
+     "text": "Do I cut myself in half and, you know, distribute myself to different companies?"
+    },
+    {
+     "t": 1018.0,
+     "text": "No, what it means is that smaller companies, so it could be a SaaS startup, maybe 50 people, maybe 250 people, whatever it may be, they need a CISO, but they don't need everything from a CISO all at the same time."
+    },
+    {
+     "t": 1033.0,
+     "text": "Some days they may need security awareness training, other days they may need compliance, other times they may need sales enablement, working with customers to get security checks across the finish line, things like that."
+    },
+    {
+     "t": 1043.1,
+     "text": "And so here we go."
+    },
+    {
+     "t": 1044.8,
+     "text": "And so I've been doing that full-time now."
+    },
+    {
+     "t": 1047.7,
+     "text": "I've been doing the fractional thing full-time, kind of weird, right, for five years, and worked with big companies and small companies, and now I'm even training folks on how to be fractional CISOs, because there's a lot of CISOs out there"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1061.9,
+   "end": 1123.5,
+   "lines": [
+    {
+     "t": 1061.9,
+     "text": "That they've kind of burned out they don't want to do the whole CISO thing anymore and they want to do it on a fractional basis and they're coming to me like hey how do i do this i'm like okay so i put together a course and here we are yeah it may be relevant to being a fractional talent acquisition partner as well at least how you structure it how you spend your time how you have to do some business development to get clients you know i'm open to situations like that as well you know fractional recruiting"
+    },
+    {
+     "t": 1089.1,
+     "text": "And kind of makes sense."
+    },
+    {
+     "t": 1090.7,
+     "text": "I guess it's just a fancy word for part time."
+    },
+    {
+     "t": 1093.3,
+     "text": "But I guess when you use the term fractional, you can assume that means being retained for a monthly fee versus getting paid hourly where you trade your time for dollars."
+    },
+    {
+     "t": 1107.9,
+     "text": "The client pays to retain you on a monthly basis as needed, not to say that you're going to be devoted to them eight to five Monday through Friday."
+    },
+    {
+     "t": 1118.2,
+     "text": "You're there when they need you."
+    },
+    {
+     "t": 1120.3,
+     "text": "And then doing something else when they don't need you kind of thing."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1123.7,
+   "end": 1187.0,
+   "lines": [
+    {
+     "t": 1123.7,
+     "text": "Yeah, I don't do hourly."
+    },
+    {
+     "t": 1125.6,
+     "text": "And I encourage other folks not to do hourly as well."
+    },
+    {
+     "t": 1129.1,
+     "text": "Because doing hourly, you might as well go work full time, right?"
+    },
+    {
+     "t": 1132.5,
+     "text": "Right."
+    },
+    {
+     "t": 1133.1,
+     "text": "And you at least you get like equity and things like that."
+    },
+    {
+     "t": 1136.4,
+     "text": "But instead, you know, doing more value based pricing."
+    },
+    {
+     "t": 1139.4,
+     "text": "And so that's a core component, in my opinion, of being a fractional CISO."
+    },
+    {
+     "t": 1145.0,
+     "text": "Some companies, a lot of companies actually, will just take hourly, multiply it and say, okay, here's the monthly retainer, here's the number of hours you get, and then use it or lose it model."
+    },
+    {
+     "t": 1154.8,
+     "text": "But at that point, you're kind of like a lawyer."
+    },
+    {
+     "t": 1156.6,
+     "text": "For me, there's a whole thing about being, about not doing hourly, right?"
+    },
+    {
+     "t": 1161.0,
+     "text": "When you're not doing hourly, one, the client knows what they're getting."
+    },
+    {
+     "t": 1165.3,
+     "text": "Right?"
+    },
+    {
+     "t": 1165.5,
+     "text": "It's just a fixed cost."
+    },
+    {
+     "t": 1166.8,
+     "text": "They're not going to get surprised how many hours it's going to take you to do this or that."
+    },
+    {
+     "t": 1170.8,
+     "text": "You tell them, this is it, this is what you get, et cetera, et cetera."
+    },
+    {
+     "t": 1174.0,
+     "text": "And you can do that for, say, a particular project, like an internal audit."
+    },
+    {
+     "t": 1178.1,
+     "text": "If you need an ISO internal audit, it's a flat price."
+    },
+    {
+     "t": 1182.7,
+     "text": "So it's up to you to be efficient and as fast as possible to get it done."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1187.2,
+   "end": 1203.2,
+   "lines": [
+    {
+     "t": 1187.2,
+     "text": "Well, you train people how to become a fractional CISO and also coach them and determine whether or not that's really what they want to do, right?"
+    },
+    {
+     "t": 1196.6,
+     "text": "So what are some of the factors in play there?"
+    },
+    {
+     "t": 1199.3,
+     "text": "How do you help people determine whether or not it's a good idea for them or not?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1203.7,
+   "end": 1247.3,
+   "lines": [
+    {
+     "t": 1203.7,
+     "text": "Yeah, yeah, that's a good one."
+    },
+    {
+     "t": 1205.0,
+     "text": "So first of all, they need to have had some sort of experience managing, I guess, anywhere from 50, 60, 70% of a security program at one company or several companies."
+    },
+    {
+     "t": 1216.6,
+     "text": "If they don't, then, well, there's another course for that, for like getting security management, right?"
+    },
+    {
+     "t": 1221.4,
+     "text": "So that's one thing."
+    },
+    {
+     "t": 1222.9,
+     "text": "Two, is this a temporary thing or is this a lifelong thing?"
+    },
+    {
+     "t": 1227.7,
+     "text": "Lifelong meaning like the next three years, right?"
+    },
+    {
+     "t": 1229.8,
+     "text": "And do you want to just be a solopreneur, just a one-person shop?"
+    },
+    {
+     "t": 1233.2,
+     "text": "Or are you trying to grow like a big business and hire people and do that whole kind of agency model?"
+    },
+    {
+     "t": 1239.6,
+     "text": "So those are the few things that I ask prospective students as far as like what you're looking for from a fractional CISO."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1247.7,
+   "end": 1260.6,
+   "lines": [
+    {
+     "t": 1247.7,
+     "text": "You had some stats that were interesting too."
+    },
+    {
+     "t": 1250.2,
+     "text": "We were chatting it yesterday just preparing for this and it was around like burnout and the average tenure for CISOs."
+    },
+    {
+     "t": 1258.6,
+     "text": "Can you walk us through some of those?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1260.8,
+   "end": 1370.8,
+   "lines": [
+    {
+     "t": 1260.8,
+     "text": "Yeah, so I have a hypothesis that CISOs have a limited lifetime rate, right?"
+    },
+    {
+     "t": 1266.1,
+     "text": "So from what I've observed, and of course there's all exceptions to the rule, but a CISO will typically have"
+    },
+    {
+     "t": 1273.0,
+     "text": "About three tenures of two to four years each of CISO leadership."
+    },
+    {
+     "t": 1280.5,
+     "text": "And after that, they kind of burn out."
+    },
+    {
+     "t": 1282.8,
+     "text": "After that, like, you know, I want to do something else."
+    },
+    {
+     "t": 1284.7,
+     "text": "I want to sit on the beach."
+    },
+    {
+     "t": 1286.1,
+     "text": "I want to be an advisor, whatever it may be, open a coffee shop."
+    },
+    {
+     "t": 1289.9,
+     "text": "I don't know."
+    },
+    {
+     "t": 1290.9,
+     "text": "And so that's what I've noticed."
+    },
+    {
+     "t": 1293.0,
+     "text": "And not only that, now the CISO job is getting harder and harder with the SEC suing people and personal liability and everything like that."
+    },
+    {
+     "t": 1299.6,
+     "text": "A lot of people are scared of being CISOs."
+    },
+    {
+     "t": 1301.6,
+     "text": "So they're coming to me or I'm finding out that they want to be fractional."
+    },
+    {
+     "t": 1305.0,
+     "text": "They want to do the fractional CISO because the fractional CISO, you get to do the work for a company."
+    },
+    {
+     "t": 1310.2,
+     "text": "You get to change clients or you have multiple clients."
+    },
+    {
+     "t": 1313.0,
+     "text": "You get that new nuance, right?"
+    },
+    {
+     "t": 1314.8,
+     "text": "You get that dopamine with the novelty of having a new client every so often."
+    },
+    {
+     "t": 1318.7,
+     "text": "And then not much of the responsibility because you're working with an executive or a founder on that side, on the client side."
+    },
+    {
+     "t": 1325.2,
+     "text": "And so you don't have a giant responsibility."
+    },
+    {
+     "t": 1327.3,
+     "text": "Sometimes you do."
+    },
+    {
+     "t": 1328.1,
+     "text": "There's something called like you could be the named CISO, which is also fun to do on a particular basis."
+    },
+    {
+     "t": 1333.3,
+     "text": "So that's my hypothesis."
+    },
+    {
+     "t": 1335.3,
+     "text": "I have met CISOs that have disproved that hypothesis."
+    },
+    {
+     "t": 1340.0,
+     "text": "And it's really interesting."
+    },
+    {
+     "t": 1341.2,
+     "text": "They have a really good outlook on life or on security."
+    },
+    {
+     "t": 1345.5,
+     "text": "They get it."
+    },
+    {
+     "t": 1346.4,
+     "text": "They get it that the CISO, and this is core of any CISO,"
+    },
+    {
+     "t": 1350.7,
+     "text": "Knowledge is that they found the balance maybe they found that right company maybe they found the executive team to work with because there's a lot of things that contribute to CISO burnout CISO burnout is real i don't want to downplay it there's a lot of reasons for that a bad mix of culture toxic environment weird expectations from a security perspective"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1371.2,
+   "end": 1402.9,
+   "lines": [
+    {
+     "t": 1371.2,
+     "text": "I have heard it depends a little bit too on the industry that you choose, because if it's highly regulated, financial services, healthcare, a breach in that industry is a lot more dangerous and impactful than if you run, if you're the CISO for a clothing store or something like that, or an apparel company, it has an impact on your stress level."
+    },
+    {
+     "t": 1395.8,
+     "text": "Yeah."
+    },
+    {
+     "t": 1396.1,
+     "text": "For sure."
+    },
+    {
+     "t": 1396.9,
+     "text": "But I mean, it's the most stressful job."
+    },
+    {
+     "t": 1399.2,
+     "text": "I mean, I don't know."
+    },
+    {
+     "t": 1399.9,
+     "text": "Every job is kind of stressful."
+    },
+    {
+     "t": 1401.3,
+     "text": "Sales is stressful, right?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1403.1,
+   "end": 1403.3,
+   "lines": [
+    {
+     "t": 1403.1,
+     "text": "Yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1404.1,
+   "end": 1407.7,
+   "lines": [
+    {
+     "t": 1404.1,
+     "text": "Recruiting is stressful."
+    },
+    {
+     "t": 1405.5,
+     "text": "What's the funnest part of being a fractional CISO?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1408.1,
+   "end": 1500.2,
+   "lines": [
+    {
+     "t": 1408.1,
+     "text": "The funnest part about being a fractional CISO, you're working with people that like want to do security."
+    },
+    {
+     "t": 1416.3,
+     "text": "They want to implement security and they're just coming to you with like open arms and you're walking in as an expert, giving them all the guidance and they appreciate your guidance."
+    },
+    {
+     "t": 1426.8,
+     "text": "They love your guidance and they take it and they run with it and they implement it like, okay, what's next?"
+    },
+    {
+     "t": 1430.8,
+     "text": "I love that part."
+    },
+    {
+     "t": 1431.5,
+     "text": "It's very satisfying."
+    },
+    {
+     "t": 1432.7,
+     "text": "I love working in startups."
+    },
+    {
+     "t": 1434.0,
+     "text": "My focus area is B2B startups."
+    },
+    {
+     "t": 1436.2,
+     "text": "Working with startups, they just have their own culture."
+    },
+    {
+     "t": 1438.8,
+     "text": "I know startup culture and they appreciate that because sometimes you have a bad fit."
+    },
+    {
+     "t": 1442.5,
+     "text": "You'll have like an enterprise CISO that tries to do the fractional thing with a startup and it's just a bad culture fit."
+    },
+    {
+     "t": 1449.9,
+     "text": "So I just, I love working with startups and people that have this like can-do attitude and there's always a new challenge and"
+    },
+    {
+     "t": 1455.9,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 1470.6,
+     "text": "And so I had a new appreciation for how to be a good student."
+    },
+    {
+     "t": 1475.6,
+     "text": "I think the best reward a teacher can have, and I think every security person, a good security person is a good teacher."
+    },
+    {
+     "t": 1481.8,
+     "text": "Every teacher wants to have a good student."
+    },
+    {
+     "t": 1483.8,
+     "text": "And to be a good student, you're attentive, you're listening, you're taking the advice coming back, right?"
+    },
+    {
+     "t": 1490.6,
+     "text": "I mean, even like if you're a coaching client, if you're a coach for whatever business or sports, and the person's not listening to your advice, right?"
+    },
+    {
+     "t": 1498.0,
+     "text": "VCISO, vCISO, vCISO, vCISO, vCISO, vCISO, vCISO, vCISO, vCISO,"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1524.8,
+   "end": 1571.7,
+   "lines": [
+    {
+     "t": 1524.8,
+     "text": "They're on fractional business using their skill set."
+    },
+    {
+     "t": 1529.1,
+     "text": "They want good customers."
+    },
+    {
+     "t": 1530.3,
+     "text": "They want to be good to them and they want to be respected."
+    },
+    {
+     "t": 1533.5,
+     "text": "They want their time valued, their advice to be valued."
+    },
+    {
+     "t": 1537.6,
+     "text": "Nobody just wants to get into these terrible, toxic situations anymore."
+    },
+    {
+     "t": 1542.2,
+     "text": "I'll be looking for some good situations myself, right?"
+    },
+    {
+     "t": 1545.8,
+     "text": "As I go down this journey of doing my own recruiting agency."
+    },
+    {
+     "t": 1550.2,
+     "text": "I'm not going to really need that many clients, I don't think."
+    },
+    {
+     "t": 1553.1,
+     "text": "Honestly, I just want to find a selective few customers that, you know, people buy from you if they like you and they trust you and you're capable."
+    },
+    {
+     "t": 1561.9,
+     "text": "They know you're capable."
+    },
+    {
+     "t": 1563.0,
+     "text": "I don't really need that many people to support."
+    },
+    {
+     "t": 1566.2,
+     "text": "I just want to work with people who value me and like me and I'll work my tail off for them."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1572.4,
+   "end": 1600.9,
+   "lines": [
+    {
+     "t": 1572.4,
+     "text": "How does it work?"
+    },
+    {
+     "t": 1573.0,
+     "text": "Like, you know, because I looked into the recruiting business for a little bit when there was a period of time where I was trying to expand my company and I hired a person that had a lot of recruiting experience."
+    },
+    {
+     "t": 1583.7,
+     "text": "The industry is kind of cutthroat."
+    },
+    {
+     "t": 1585.1,
+     "text": "I think the business model for it to work, you have to be exclusive to the company or they have to hire you exclusively."
+    },
+    {
+     "t": 1590.4,
+     "text": "So I'm curious what the business model would be."
+    },
+    {
+     "t": 1592.2,
+     "text": "You know, when you go to client X,"
+    },
+    {
+     "t": 1594.4,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1601.0,
+   "end": 1675.2,
+   "lines": [
+    {
+     "t": 1601.0,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 1619.4,
+     "text": "Then that creates a situation where that company doesn't even need to hustle anymore because who are they competing against, right?"
+    },
+    {
+     "t": 1626.8,
+     "text": "There's not even any friendly competition there."
+    },
+    {
+     "t": 1629.5,
+     "text": "They can't lose."
+    },
+    {
+     "t": 1630.5,
+     "text": "So I would at least have two agencies that can kind of compete against one another and keep each other on their toes, right?"
+    },
+    {
+     "t": 1637.1,
+     "text": "Oh man, we got to work hard right now because so-and-so, if we don't, if we don't get on this right now, so-and-so might feel it and then we'll lose it, right?"
+    },
+    {
+     "t": 1644.7,
+     "text": "So nobody wants to lose."
+    },
+    {
+     "t": 1646.2,
+     "text": "Oftentimes it's competing."
+    },
+    {
+     "t": 1647.7,
+     "text": "I would love for every customer to sign up as a retained search customer, meaning it is exclusive and they're going to pay me up front to retain the services, pay a retainer part of the fee up front."
+    },
+    {
+     "t": 1661.6,
+     "text": "You can do it however you want, right?"
+    },
+    {
+     "t": 1663.2,
+     "text": "However you feel comfortable."
+    },
+    {
+     "t": 1665.2,
+     "text": "But you're paying something up front to start the search and then final bill is due whenever the person starts work."
+    },
+    {
+     "t": 1671.2,
+     "text": "Because it's a lot of work to do a search."
+    },
+    {
+     "t": 1673.2,
+     "text": "It's a lot of work."
+    },
+    {
+     "t": 1674.3,
+     "text": "It is."
+    },
+    {
+     "t": 1674.9,
+     "text": "Oh, yeah."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1675.5,
+   "end": 1714.9,
+   "lines": [
+    {
+     "t": 1675.5,
+     "text": "So if you if a client hires two agencies for recruiting, what often happens is the same candidates get reached out to at the same time."
+    },
+    {
+     "t": 1685.7,
+     "text": "And it's just like it's kind of like a race to get to the candidate first."
+    },
+    {
+     "t": 1690.0,
+     "text": "So there's got to be"
+    },
+    {
+     "t": 1692.0,
+     "text": "A better way like okay you go from the east coast you go west coast like something like that or maybe get two agencies one that have specializations on the business side if i was a recruiting business which i would find it quite stressful launch all the search capacity only to not get the deal it seems like a lot of work to not get"
+    },
+    {
+     "t": 1713.7,
+     "text": "A deal at the end of the day."
+    },
+    {
+     "t": 1714.5,
+     "text": "I don't know."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1714.9,
+   "end": 1767.0,
+   "lines": [
+    {
+     "t": 1714.9,
+     "text": "Yeah, you would want, if you ever went into recruiting, you would want to sign up for retained searches."
+    },
+    {
+     "t": 1719.5,
+     "text": "I've always had competition."
+    },
+    {
+     "t": 1720.9,
+     "text": "It's not a big deal."
+    },
+    {
+     "t": 1721.8,
+     "text": "I actually like competition."
+    },
+    {
+     "t": 1723.2,
+     "text": "Keeps me on my toes."
+    },
+    {
+     "t": 1725.2,
+     "text": "And there should be enough competition."
+    },
+    {
+     "t": 1727.7,
+     "text": "To go around right you're not going to win every search right you're not going to win them all and it's okay there should be enough business out there for everybody to be busy and thriving but it's just not the case lately that's not that's not what's happening right now a lot of the jobs that are available right now that when a company has gotten to that point where they're willing to pay a fee for a headhunter it's normally because there's something wrong with the job"
+    },
+    {
+     "t": 1754.9,
+     "text": "Right."
+    },
+    {
+     "t": 1755.8,
+     "text": "Oh, their requirements are a little bit too ridiculous or the pay is low or it's five days a week on site and it's in a not in a popular location."
+    },
+    {
+     "t": 1765.4,
+     "text": "There's something going on."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1767.8,
+   "end": 1774.9,
+   "lines": [
+    {
+     "t": 1767.8,
+     "text": "Oh, yeah."
+    },
+    {
+     "t": 1768.7,
+     "text": "Yeah."
+    },
+    {
+     "t": 1769.0,
+     "text": "There's a lot of five days on site kind of stuff."
+    },
+    {
+     "t": 1770.8,
+     "text": "I'm like, yeah, I don't know."
+    },
+    {
+     "t": 1774.0,
+     "text": "Mind boggling to me."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1775.2,
+   "end": 1785.8,
+   "lines": [
+    {
+     "t": 1775.2,
+     "text": "Me too."
+    },
+    {
+     "t": 1776.2,
+     "text": "Me too."
+    },
+    {
+     "t": 1777.3,
+     "text": "But who knows, Matt, maybe fast forward six to nine months from now, I might have a five day a week onsite job because I ain't been nothing else."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1785.9,
+   "end": 1834.2,
+   "lines": [
+    {
+     "t": 1785.9,
+     "text": "You know, honestly, in security, you kind of need to be onsite at least two, three days a week."
+    },
+    {
+     "t": 1790.3,
+     "text": "Right."
+    },
+    {
+     "t": 1790.7,
+     "text": "All the startups right now are like going back to five days."
+    },
+    {
+     "t": 1793.3,
+     "text": "So I'm seeing a lot of five-day, which is fine."
+    },
+    {
+     "t": 1795.7,
+     "text": "I think four days would be better because traffic here is crazy."
+    },
+    {
+     "t": 1797.9,
+     "text": "But as a security professional, you need to be in the office because there's a lot of drive-by requests, right?"
+    },
+    {
+     "t": 1804.0,
+     "text": "And there's a lot of drive-by."
+    },
+    {
+     "t": 1804.9,
+     "text": "And so when you're a security person trying to improve or establish or improve the security culture, being there is a big thing."
+    },
+    {
+     "t": 1812.8,
+     "text": "There's a whole playbook I have about just being there, being available, because a good security professional, you want to be approachable."
+    },
+    {
+     "t": 1821.0,
+     "text": "The successful security people are approachable."
+    },
+    {
+     "t": 1823.5,
+     "text": "The ones that are not successful are the curmudgeons and the ones that like people are afraid to talk to and everything's a no and you have to make people jump through a million hoops to do something"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1835.1,
+   "end": 2010.4,
+   "lines": [
+    {
+     "t": 1835.1,
+     "text": "Where you know you want to be like yes but i can see that yeah i know a lot of the curmudgeons i may have been considered a curmudgeon in the old recruiting office too but we all have our moments i guess but everybody's kind of going through that re-evaluation right now just in their life in general"
+    },
+    {
+     "t": 1857.6,
+     "text": "And that's what makes this idea of going fractional, becoming a fractional, whatever it is that you are appealing."
+    },
+    {
+     "t": 1866.2,
+     "text": "It's because like early this year, it was like late January, early February."
+    },
+    {
+     "t": 1871.2,
+     "text": "I was like really stressed out and the job market's been terrible and I was stressed out."
+    },
+    {
+     "t": 1877.0,
+     "text": "I was worried about my job and I was getting up super early for work, like 5 a.m."
+    },
+    {
+     "t": 1883.4,
+     "text": "You know, trying to get after it, trying to work more hours, right?"
+    },
+    {
+     "t": 1886.2,
+     "text": "Work 530 to 530 and, you know, 60 hours a week or more, trying to get more done."
+    },
+    {
+     "t": 1893.1,
+     "text": "One morning, my daughter caught me."
+    },
+    {
+     "t": 1896.4,
+     "text": "She was standing in the doorway of my bedroom, 5 a.m., tying my shoes."
+    },
+    {
+     "t": 1901.0,
+     "text": "And she's just like, Daddy, why are you up so early?"
+    },
+    {
+     "t": 1904.7,
+     "text": "And I was like, well, I got to go to work, baby."
+    },
+    {
+     "t": 1908.4,
+     "text": "And she's like, but it's super dark outside."
+    },
+    {
+     "t": 1911.4,
+     "text": "What are you doing?"
+    },
+    {
+     "t": 1912.5,
+     "text": "And I was like,"
+    },
+    {
+     "t": 1914.1,
+     "text": "Well, you know, some daddies want to get up earlier so they can win more money."
+    },
+    {
+     "t": 1921.0,
+     "text": "And she's like, it's not a race, daddy."
+    },
+    {
+     "t": 1924.2,
+     "text": "My teacher tells me that it is not a race."
+    },
+    {
+     "t": 1926.9,
+     "text": "Wow."
+    },
+    {
+     "t": 1927.7,
+     "text": "And I was like,"
+    },
+    {
+     "t": 1928.6,
+     "text": "I was like, when did she tell you that?"
+    },
+    {
+     "t": 1931.5,
+     "text": "And she told me at school, if I win, if I beat someone in a race, you know, and I start saying, I won, I'm the winner, I beat you."
+    },
+    {
+     "t": 1941.7,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec,"
+    },
+    {
+     "t": 1963.9,
+     "text": "Because I didn't have the heart to tell her no."
+    },
+    {
+     "t": 1967.9,
+     "text": "Like, actually, I'm just getting up so I can spend more time."
+    },
+    {
+     "t": 1970.3,
+     "text": "I'm not going to finish early."
+    },
+    {
+     "t": 1971.4,
+     "text": "I need to..."
+    },
+    {
+     "t": 1972.7,
+     "text": "I'm starting early so I can keep, you know, have more hours here."
+    },
+    {
+     "t": 1975.9,
+     "text": "So it just got me thinking, man."
+    },
+    {
+     "t": 1978.4,
+     "text": "I think everybody's kind of going through that."
+    },
+    {
+     "t": 1980.3,
+     "text": "I, now that I'm a free agent, I do want to find a pace of work that is sustainable well into my 60s and 70s."
+    },
+    {
+     "t": 1989.5,
+     "text": "Who knows what's going to happen to social security and inflation's crazy."
+    },
+    {
+     "t": 1993.9,
+     "text": "I may not ever be able to stop working, but I do want to find a pace that I can maintain for a really long time."
+    },
+    {
+     "t": 2001.2,
+     "text": "I'm not trying to work my ass off until I'm 50 and then go vacation, sit on a beach."
+    },
+    {
+     "t": 2006.6,
+     "text": "I want to continue to work, but at a medium pace, you know, so."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2010.5,
+   "end": 2149.0,
+   "lines": [
+    {
+     "t": 2010.5,
+     "text": "Yes."
+    },
+    {
+     "t": 2011.2,
+     "text": "Are you feeling that as well?"
+    },
+    {
+     "t": 2012.9,
+     "text": "Oh, man, 100%, 100%, especially as a single dad."
+    },
+    {
+     "t": 2017.3,
+     "text": "There's a lot of pressure."
+    },
+    {
+     "t": 2018.3,
+     "text": "So, you know, sometimes we throw ourselves into our work and there's a lot."
+    },
+    {
+     "t": 2023.3,
+     "text": "There's a lot you mentioned there."
+    },
+    {
+     "t": 2024.3,
+     "text": "So one, my thing I'm trying to do this year is do more with less."
+    },
+    {
+     "t": 2028.3,
+     "text": "There becomes this diminishing return where like you work 8, 12 something hours, you don't get that much return for all the hours you put in, right?"
+    },
+    {
+     "t": 2037.6,
+     "text": "And you hear all the different mantras, work smarter, not harder, this, that, blah, blah, blah, blah, blah."
+    },
+    {
+     "t": 2042.1,
+     "text": "And all of us are trying to escape this rat race"
+    },
+    {
+     "t": 2045.7,
+     "text": "Like i don't know how what happened here but now we're like how did we get caught in this rat race as a business owner i talk with my business owner friends because entrepreneurship is a lonely journey by default it's a given and so it's good to have the support structure talk with other folks and sometimes you talk to other folks"
+    },
+    {
+     "t": 2065.4,
+     "text": "And a lot of times other especially agency owners bring up this notion like why are we doing this like what's going on and it always seems like the grass is green on the other side so the full-timers look at the entrepreneurs and say oh look at what they're doing and then entrepreneurs that look at the full-timers oh they got it easy and everybody has like a side hustle right and then their side hustles have side hustles so what is it like it's like this itch to like do more like so one"
+    },
+    {
+     "t": 2093.8,
+     "text": "And maybe we're getting a little philosophical here, but we could bring it back to security."
+    },
+    {
+     "t": 2097.4,
+     "text": "Like we're trying to secure the soul, right?"
+    },
+    {
+     "t": 2099.1,
+     "text": "Secure the person."
+    },
+    {
+     "t": 2100.9,
+     "text": "We have this thing about being productive."
+    },
+    {
+     "t": 2103.2,
+     "text": "Like you just have to be productive."
+    },
+    {
+     "t": 2104.8,
+     "text": "And if you're not productive, then you're a loser."
+    },
+    {
+     "t": 2107.6,
+     "text": "Right?"
+    },
+    {
+     "t": 2108.4,
+     "text": "And we need to undo that learning."
+    },
+    {
+     "t": 2111.3,
+     "text": "Sometimes it's okay to just sit down and be present with your kids and just be there and whatnot."
+    },
+    {
+     "t": 2116.8,
+     "text": "So we're kind of addicted to productivity."
+    },
+    {
+     "t": 2119.1,
+     "text": "But at the same time, we want to have a comfortable living."
+    },
+    {
+     "t": 2123.5,
+     "text": "We want to make money."
+    },
+    {
+     "t": 2124.8,
+     "text": "We want to have stability."
+    },
+    {
+     "t": 2126.3,
+     "text": "We want to have our vacations and whatnot."
+    },
+    {
+     "t": 2129.0,
+     "text": "So how do we break free?"
+    },
+    {
+     "t": 2130.4,
+     "text": "I think one of the good things is to do some planning."
+    },
+    {
+     "t": 2134.1,
+     "text": "One of the things that just helped me recently, I planned out my three, five, 10, 15, 20 year goals."
+    },
+    {
+     "t": 2140.2,
+     "text": "And not goals like you break it up into three things."
+    },
+    {
+     "t": 2142.5,
+     "text": "Who do you want to be?"
+    },
+    {
+     "t": 2143.2,
+     "text": "What do you want to be doing?"
+    },
+    {
+     "t": 2144.5,
+     "text": "And what do you want to be like?"
+    },
+    {
+     "t": 2145.3,
+     "text": "What do you want to have?"
+    },
+    {
+     "t": 2146.9,
+     "text": "Sometimes the grind is like really crazy."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2149.2,
+   "end": 2230.1,
+   "lines": [
+    {
+     "t": 2149.2,
+     "text": "It is a grind."
+    },
+    {
+     "t": 2150.4,
+     "text": "And it makes me think of the 80-20 rule, right?"
+    },
+    {
+     "t": 2153.7,
+     "text": "80% of your results comes from 20% of the activities that you're doing."
+    },
+    {
+     "t": 2159.5,
+     "text": "But the problem is, is that it's hard to pinpoint what 20% is getting you the 80%."
+    },
+    {
+     "t": 2165.6,
+     "text": "And especially now, especially over the past year, whenever maybe the activities that were getting you all your results in 2021 and 22 are not getting you any results in 2023 and 24."
+    },
+    {
+     "t": 2182.4,
+     "text": "So it makes you wonder, like it's hard to even figure out"
+    },
+    {
+     "t": 2187.2,
+     "text": "What to do right now?"
+    },
+    {
+     "t": 2188.6,
+     "text": "Everybody's in this transition period, I think, where they're just reevaluating everything."
+    },
+    {
+     "t": 2195.5,
+     "text": "And I don't, it's hard to even tell your kids what to do anymore."
+    },
+    {
+     "t": 2199.7,
+     "text": "It's hard to tell what high schoolers to do, you know, what degree should you get in college?"
+    },
+    {
+     "t": 2206.1,
+     "text": "Because, I mean, it was just the CEO of NVIDIA basically just said, like, we're not going to need programmers."
+    },
+    {
+     "t": 2213.2,
+     "text": "Like, you don't need to learn to code anymore."
+    },
+    {
+     "t": 2214.9,
+     "text": "And I'm like, yeah."
+    },
+    {
+     "t": 2215.6,
+     "text": "That was my number one thing I would tell kids."
+    },
+    {
+     "t": 2217.9,
+     "text": "It's like, no, no, no."
+    },
+    {
+     "t": 2219.2,
+     "text": "You need to become a computer scientist, learn to code, learn Python, React."
+    },
+    {
+     "t": 2224.1,
+     "text": "And now all that's kind of out the window."
+    },
+    {
+     "t": 2226.0,
+     "text": "So what do we tell kids to do now?"
+    },
+    {
+     "t": 2228.3,
+     "text": "I don't know exactly."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2230.9,
+   "end": 2416.9,
+   "lines": [
+    {
+     "t": 2230.9,
+     "text": "Yeah, you know, I was telling my kids that learning how to drive is going to be like an unknown skill, like actually knowing how to drive."
+    },
+    {
+     "t": 2238.6,
+     "text": "Like in the future, when all the cars are driving,"
+    },
+    {
+     "t": 2242.0,
+     "text": "And then someone's like oh you actually know how to like physically drive like a car you know that's going to be a skill the same thing is communicating knowing how to speak and talk to people is going to be a skill that many people are not going to have a lot of kids don't have that right now because they're on social media so much i restrict you know my kids are not on social media and i really restrict their screen time and everything like that i tell them like listen you're going to have these abilities you're going to be able to speak to people"
+    },
+    {
+     "t": 2268.4,
+     "text": "A lot of folks can't even have a conversation."
+    },
+    {
+     "t": 2270.3,
+     "text": "A lot of people your age can't have a conversation with someone else, let alone an adult."
+    },
+    {
+     "t": 2275.1,
+     "text": "That's going to be the differentiating factor."
+    },
+    {
+     "t": 2276.9,
+     "text": "Back to what you said about what works and what doesn't work."
+    },
+    {
+     "t": 2279.6,
+     "text": "I learned a lot in the past year or two."
+    },
+    {
+     "t": 2283.0,
+     "text": "Sometimes we do things, but we don't step back to see if these things are working out or if they're helping us."
+    },
+    {
+     "t": 2290.6,
+     "text": "For i think in 2023 or 2022 i put out a lot of videos on linkedin and there was a lot of videos and getting impressions and whatever but that was the wrong metric and so that's where i learned late last year about the funnel like there's top of funnel middle funnel bottom of funnel and so i was doing a lot and just like a marketing basic and so i was doing a lot of top of funnel stuff but not middle funnel or bottom of funnel"
+    },
+    {
+     "t": 2314.1,
+     "text": "Definitely not bottom."
+    },
+    {
+     "t": 2315.0,
+     "text": "I wasn't closing."
+    },
+    {
+     "t": 2316.5,
+     "text": "So there was all this effort I was doing, but I was looking at the wrong metrics and kind of like insecurity."
+    },
+    {
+     "t": 2322.2,
+     "text": "If you're in security, you're running a security program, you want to find the metrics that are valuable to you."
+    },
+    {
+     "t": 2327.1,
+     "text": "And I always tell folks, there's this one metric that's beautiful, that's kind of hard to measure, but it's a beautiful metric."
+    },
+    {
+     "t": 2332.5,
+     "text": "Are people coming to you with security concerns?"
+    },
+    {
+     "t": 2336.2,
+     "text": "That's how you know, because what's that metric measuring is security culture."
+    },
+    {
+     "t": 2340.3,
+     "text": "A company with good security culture is going to, by default, inculcate security internally, right?"
+    },
+    {
+     "t": 2345.4,
+     "text": "And when you internalize security, like you internalize any goal, you're going to be working towards it."
+    },
+    {
+     "t": 2350.7,
+     "text": "So you want that engineer to bake security in on their own and not because you push them to, right?"
+    },
+    {
+     "t": 2357.3,
+     "text": "So anyway, getting back to like business, another thing that I think this recession is teaching folks, and this was the mantra I was going by 2023 is smooth seas don't make a sailor."
+    },
+    {
+     "t": 2370.2,
+     "text": "Somebody told me that quote before and I'm like, wow, that's fascinating."
+    },
+    {
+     "t": 2374.7,
+     "text": "Because a lot of times in 2021, 22, we had it easy."
+    },
+    {
+     "t": 2379.3,
+     "text": "We had it easy."
+    },
+    {
+     "t": 2380.4,
+     "text": "Jobs were plentiful and everything like that."
+    },
+    {
+     "t": 2382.3,
+     "text": "But now you have folks that are struggling and really working hard."
+    },
+    {
+     "t": 2387.0,
+     "text": "But what that's going to do, these challenges are going to force you to kind of be more creative."
+    },
+    {
+     "t": 2392.1,
+     "text": "You're either going to fail, you're going to keep doing the same thing and just hit your head on the wall, or you're going to be creative, pivot, maybe learn some new skills, whatever it may be, to move forward."
+    },
+    {
+     "t": 2402.9,
+     "text": "As a result, I had to learn more sales, right?"
+    },
+    {
+     "t": 2405.2,
+     "text": "Like better sales tuning, better marketing, just like tuning my engine."
+    },
+    {
+     "t": 2409.7,
+     "text": "For every challenge, if you embrace that challenge, you can pass it and it'll actually help you in the long"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2417.2,
+   "end": 2490.1,
+   "lines": [
+    {
+     "t": 2417.2,
+     "text": "That's the question I'm having."
+    },
+    {
+     "t": 2418.3,
+     "text": "What is working?"
+    },
+    {
+     "t": 2419.9,
+     "text": "Obviously it wasn't working for me, right?"
+    },
+    {
+     "t": 2422.3,
+     "text": "I like the content game and I even took a social selling class and kudos to Darren McGee."
+    },
+    {
+     "t": 2427.9,
+     "text": "I don't know if you follow him."
+    },
+    {
+     "t": 2429.6,
+     "text": "He's great on LinkedIn."
+    },
+    {
+     "t": 2431.2,
+     "text": "A lot of followers."
+    },
+    {
+     "t": 2432.3,
+     "text": "He does a cohort and,"
+    },
+    {
+     "t": 2434.4,
+     "text": "You learn a lot about how to operate on LinkedIn."
+    },
+    {
+     "t": 2437.4,
+     "text": "And I wouldn't be able to operate at his pace and be consistent about every single day posting and every single day these messages, every single day the comments, because it becomes its own job."
+    },
+    {
+     "t": 2451.2,
+     "text": "I don't want to be on LinkedIn as my job."
+    },
+    {
+     "t": 2455.1,
+     "text": "I want it to be like 30 minutes."
+    },
+    {
+     "t": 2458.8,
+     "text": "But the way that you can grade your"
+    },
+    {
+     "t": 2461.9,
+     "text": "What you're doing on LinkedIn is you're right."
+    },
+    {
+     "t": 2464.2,
+     "text": "Are people coming to you as clients?"
+    },
+    {
+     "t": 2466.5,
+     "text": "Is it generating customers?"
+    },
+    {
+     "t": 2468.6,
+     "text": "And that's what I was hoping that content was going to do for me, but it hasn't."
+    },
+    {
+     "t": 2474.8,
+     "text": "I'm not flooded with job orders because I put videos on LinkedIn."
+    },
+    {
+     "t": 2478.4,
+     "text": "So it's going to fall back into the fundamentals, cold calls, MPCs, and things that always generate a business for recruiters."
+    },
+    {
+     "t": 2486.3,
+     "text": "It's not going to be, content isn't the magic bullet that's going to..."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2490.7,
+   "end": 2556.8,
+   "lines": [
+    {
+     "t": 2490.7,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 2508.4,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 2531.6,
+     "text": "And sometimes it could feel like a hamster wheel trying to create content, create content."
+    },
+    {
+     "t": 2536.6,
+     "text": "And so you have to step back and say, what is this content doing for me?"
+    },
+    {
+     "t": 2540.8,
+     "text": "And how can I be more purposeful for it or with it?"
+    },
+    {
+     "t": 2543.9,
+     "text": "Just like everything you do in your business."
+    },
+    {
+     "t": 2546.2,
+     "text": "Why do you, why do you have it?"
+    },
+    {
+     "t": 2547.0,
+     "text": "Why do you even have a business, right?"
+    },
+    {
+     "t": 2548.6,
+     "text": "Sometimes you need to step back, say, why am I starting a business?"
+    },
+    {
+     "t": 2551.6,
+     "text": "Am I just doing it so I could check a box and say, I'm an entrepreneur now?"
+    },
+    {
+     "t": 2555.2,
+     "text": "Like what's, what's the point, right?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2557.2,
+   "end": 2572.5,
+   "lines": [
+    {
+     "t": 2557.2,
+     "text": "Exactly."
+    },
+    {
+     "t": 2557.8,
+     "text": "Yeah."
+    },
+    {
+     "t": 2558.2,
+     "text": "And I feel like everything I've done up to now has just been experimenting and it'll continue just to be a lengthy experiment."
+    },
+    {
+     "t": 2566.7,
+     "text": "Every post is a little tiny mini experiment."
+    },
+    {
+     "t": 2570.9,
+     "text": "Life is one big experiment."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2572.7,
+   "end": 2573.8,
+   "lines": [
+    {
+     "t": 2572.7,
+     "text": "Life is one big experiment."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2574.8,
+   "end": 2593.1,
+   "lines": [
+    {
+     "t": 2574.8,
+     "text": "Right."
+    },
+    {
+     "t": 2575.1,
+     "text": "Yeah."
+    },
+    {
+     "t": 2575.4,
+     "text": "So be fearless and just keep testing and find what works."
+    },
+    {
+     "t": 2578.3,
+     "text": "We'll strike gold eventually, right?"
+    },
+    {
+     "t": 2580.1,
+     "text": "But what are some of the BD strategies when it comes to generating leads for fractional gigs, right?"
+    },
+    {
+     "t": 2588.3,
+     "text": "As a solo fractional CISO, are there any strategies that have worked very well for you?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2593.3,
+   "end": 2696.0,
+   "lines": [
+    {
+     "t": 2593.3,
+     "text": "To be honest like most of my business has been referral based okay so i think the best thing is to just do good work and be very personable and keep your relationships warm and nice reward people that refer clients to you right with extra work and whatever it may be give like so people in general so i think starting off with your business"
+    },
+    {
+     "t": 2616.8,
+     "text": "If people get more from you than they're paying you, that's a good thing, right?"
+    },
+    {
+     "t": 2621.4,
+     "text": "So that's a start."
+    },
+    {
+     "t": 2622.4,
+     "text": "Letting people know that, hey, I'd love to get a referral."
+    },
+    {
+     "t": 2625.8,
+     "text": "I'd be happy to give you free services or an assessment."
+    },
+    {
+     "t": 2628.4,
+     "text": "And then just some regular tactics."
+    },
+    {
+     "t": 2631.0,
+     "text": "I think responding to emails and sales things really quickly is helpful."
+    },
+    {
+     "t": 2635.3,
+     "text": "If you're on a sales call, just being forthcoming and just generous with helping them on their journey, on their security journey."
+    },
+    {
+     "t": 2642.2,
+     "text": "Some other BD tactics, just emailing old contacts, emailing old clients, letting them know that you're open."
+    },
+    {
+     "t": 2650.7,
+     "text": "I think this applies to anyone either looking for a job or looking for clients."
+    },
+    {
+     "t": 2656.6,
+     "text": "Post a useful article on LinkedIn once a day, comment three times on three different articles with something"
+    },
+    {
+     "t": 2664.1,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe,"
+    },
+    {
+     "t": 2685.2,
+     "text": "Send the signal out there because what's going to happen is when people know that you do something and they see that you're helpful, when someone else asks, hey, I'm looking for this, they'll think of you right away."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2696.2,
+   "end": 2733.7,
+   "lines": [
+    {
+     "t": 2696.2,
+     "text": "Good advice."
+    },
+    {
+     "t": 2697.3,
+     "text": "Ask for referrals."
+    },
+    {
+     "t": 2698.5,
+     "text": "Get referrals."
+    },
+    {
+     "t": 2700.4,
+     "text": "Reward your clients."
+    },
+    {
+     "t": 2701.6,
+     "text": "Be generous."
+    },
+    {
+     "t": 2702.3,
+     "text": "Give more than you get."
+    },
+    {
+     "t": 2703.5,
+     "text": "Be responsive."
+    },
+    {
+     "t": 2704.4,
+     "text": "Be authentic."
+    },
+    {
+     "t": 2705.4,
+     "text": "Be humble and forthcoming with your information."
+    },
+    {
+     "t": 2708.9,
+     "text": "Follow up."
+    },
+    {
+     "t": 2709.4,
+     "text": "Be in constant contact."
+    },
+    {
+     "t": 2711.7,
+     "text": "Not too much, but monthly is okay."
+    },
+    {
+     "t": 2715.6,
+     "text": "And yeah, LinkedIn is a tool."
+    },
+    {
+     "t": 2717.4,
+     "text": "Be strategic about the content you're putting out there."
+    },
+    {
+     "t": 2719.7,
+     "text": "Don't just put anything out there."
+    },
+    {
+     "t": 2721.3,
+     "text": "Have a purpose behind it."
+    },
+    {
+     "t": 2722.6,
+     "text": "So yeah, I like it."
+    },
+    {
+     "t": 2724.1,
+     "text": "Great advice, man."
+    },
+    {
+     "t": 2725.1,
+     "text": "What is going on in the cybersecurity market right now?"
+    },
+    {
+     "t": 2728.2,
+     "text": "What do you think's at the forefront of everybody's minds?"
+    },
+    {
+     "t": 2731.2,
+     "text": "You can't say AI."
+    },
+    {
+     "t": 2732.2,
+     "text": "It's got to be something else."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2733.8,
+   "end": 2812.4,
+   "lines": [
+    {
+     "t": 2733.8,
+     "text": "From a CISO perspective, I think they're still banged up about the SEC, all the things that happened."
+    },
+    {
+     "t": 2739.6,
+     "text": "These breaches are getting worse and worse."
+    },
+    {
+     "t": 2742.3,
+     "text": "The supply chain attacks."
+    },
+    {
+     "t": 2743.6,
+     "text": "We have, you know, CDK."
+    },
+    {
+     "t": 2744.6,
+     "text": "I just talked about CDK and Change Healthcare."
+    },
+    {
+     "t": 2746.8,
+     "text": "They're being subpoenaed."
+    },
+    {
+     "t": 2748.5,
+     "text": "They're stressed out."
+    },
+    {
+     "t": 2749.6,
+     "text": "I think the societal pressures."
+    },
+    {
+     "t": 2751.5,
+     "text": "Right now, a lot of folks are just staying put right now."
+    },
+    {
+     "t": 2754.1,
+     "text": "Before CISOs and just security leaders in general used to be able to just click a button on LinkedIn and find the job within a few weeks."
+    },
+    {
+     "t": 2762.1,
+     "text": "But now it's getting harder and harder."
+    },
+    {
+     "t": 2763.9,
+     "text": "It's a lot more competitive."
+    },
+    {
+     "t": 2765.4,
+     "text": "CISOs are getting laid off."
+    },
+    {
+     "t": 2766.8,
+     "text": "So for the past nine months to a year, at least, companies that were planning to go public and hired CISOs and built a security function have let them go."
+    },
+    {
+     "t": 2776.0,
+     "text": "Or companies that are public already, they have this like mature security function, maybe like five, 10 people."
+    },
+    {
+     "t": 2782.7,
+     "text": "And they realize that there's this top person that in their mind, you know, is getting paid a lot."
+    },
+    {
+     "t": 2788.5,
+     "text": "And the biggest cost of company is..."
+    },
+    {
+     "t": 2791.1,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah,"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2814.7,
+   "end": 2837.7,
+   "lines": [
+    {
+     "t": 2814.7,
+     "text": "To a decent maturity level and they're like well let's let's chop off the CISO and now the CISO is on the market like i've talked to a few CISOs in this situation me too a lot actually so and that's part of the problem right it makes you wonder the issues that the cyber security industry is facing right now can they be solved by just hiring more people"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2839.7,
+   "end": 2933.1,
+   "lines": [
+    {
+     "t": 2839.7,
+     "text": "Right now, the whole tech industry has a contraction."
+    },
+    {
+     "t": 2843.9,
+     "text": "Right now, people are very strategic in how they're hiring."
+    },
+    {
+     "t": 2847.8,
+     "text": "You have people that are now doing the jobs of two, three other people, maybe four even."
+    },
+    {
+     "t": 2852.5,
+     "text": "I've talked to people, not necessarily in cybersecurity, just in tech in general."
+    },
+    {
+     "t": 2856.1,
+     "text": "They are keeping"
+    },
+    {
+     "t": 2857.9,
+     "text": "A large amount of direct reports and they want to have like one guy has 14 people reporting to him and he wants to keep that because it's going to keep him valuable if he had two managers two direct reports and then that rest of the team is reporting to those two he then becomes less valuable and they could just like chop him off and so the whole tech industry right now has gone through a contraction it's kind of like back to 2000s"
+    },
+    {
+     "t": 2882.2,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah,"
+    },
+    {
+     "t": 2899.6,
+     "text": "All these things."
+    },
+    {
+     "t": 2900.3,
+     "text": "So like I'm seeing job roles out there, like a security engineer that has to do security engineering, infrastructure engineering, also compliance and a few other things."
+    },
+    {
+     "t": 2907.9,
+     "text": "Well, that's actually a security engineer and a head of security, right?"
+    },
+    {
+     "t": 2911.9,
+     "text": "So that's the jobs of two people."
+    },
+    {
+     "t": 2913.6,
+     "text": "I don't know any security engineer that wants to do compliance stuff and update policies and whatnot."
+    },
+    {
+     "t": 2919.1,
+     "text": "But they're throwing these things onto folks."
+    },
+    {
+     "t": 2921.8,
+     "text": "But then also it's opening opportunity for fractional CISO folks because a lot of fractional CISOs can function from a security architect all the way to GRC head and compliance manager."
+    },
+    {
+     "t": 2931.9,
+     "text": "Right."
+    },
+    {
+     "t": 2932.1,
+     "text": "They have that flexibility."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2933.2,
+   "end": 2963.7,
+   "lines": [
+    {
+     "t": 2933.2,
+     "text": "Good point."
+    },
+    {
+     "t": 2933.9,
+     "text": "It has been tough."
+    },
+    {
+     "t": 2934.9,
+     "text": "I've not seen near the volume of job orders at all."
+    },
+    {
+     "t": 2940.5,
+     "text": "And even at a customer that I've done business with that would absolutely love to work with me, they're not hiring in the States."
+    },
+    {
+     "t": 2947.1,
+     "text": "They're going to hire in Latin America or India, somewhere else, not the US."
+    },
+    {
+     "t": 2952.1,
+     "text": "Yeah, it's kind of."
+    },
+    {
+     "t": 2954.1,
+     "text": "It's kind of crazy."
+    },
+    {
+     "t": 2955.5,
+     "text": "Where do you think the opportunities will be for the American workers just in the next year or two?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2964.3,
+   "end": 3023.5,
+   "lines": [
+    {
+     "t": 2964.3,
+     "text": "I don't know."
+    },
+    {
+     "t": 2964.9,
+     "text": "That's a good question."
+    },
+    {
+     "t": 2965.6,
+     "text": "But, you know, back to your point, it's kind of become like a super storm."
+    },
+    {
+     "t": 2969.1,
+     "text": "We had the pandemic, right, that made everybody used to getting remote only."
+    },
+    {
+     "t": 2972.5,
+     "text": "Now we have the high interest rates where money is now not cheap anymore."
+    },
+    {
+     "t": 2977.7,
+     "text": "And all these things that have kind of flattened the tech field and all these things are coming together."
+    },
+    {
+     "t": 2982.9,
+     "text": "Where can the American worker find jobs like the tech worker?"
+    },
+    {
+     "t": 2986.2,
+     "text": "Well, you know, according to that CEO of Nvidia, he says to be specialized, to have some specializations of skills."
+    },
+    {
+     "t": 2994.2,
+     "text": "So before, you know, you could just have, you could be a computer science person with some generic coding experience, but now you need domain experience or domain expertise on top of that to make you valuable."
+    },
+    {
+     "t": 3005.4,
+     "text": "So I think that's going to be the key."
+    },
+    {
+     "t": 3007.1,
+     "text": "I did want to ask you a question."
+    },
+    {
+     "t": 3009.8,
+     "text": "Sure."
+    },
+    {
+     "t": 3010.5,
+     "text": "There is something that I saw in this article about like the job market these days."
+    },
+    {
+     "t": 3015.5,
+     "text": "Can you explain ghost jobs?"
+    },
+    {
+     "t": 3017.1,
+     "text": "What are the motivations for companies to put ghost jobs out there?"
+    },
+    {
+     "t": 3019.8,
+     "text": "And what's going on with that?"
+    },
+    {
+     "t": 3022.0,
+     "text": "I love your inside perspective on things."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3023.6,
+   "end": 3042.2,
+   "lines": [
+    {
+     "t": 3023.6,
+     "text": "Yeah, two reasons, pipelining for future jobs, trying to collect resumes for future hires, just fresh candidates in their database."
+    },
+    {
+     "t": 3032.7,
+     "text": "And the only other reason I can think of is that they're just trying to look good to the market for shareholders that they are healthy and hiring."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 3042.8,
+   "end": 3043.0,
+   "lines": [
+    {
+     "t": 3042.8,
+     "text": "Yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3043.6,
+   "end": 3105.8,
+   "lines": [
+    {
+     "t": 3043.6,
+     "text": "And it's just the optics of having postings out there because I'm not going to name the company, but I approached"
+    },
+    {
+     "t": 3052.5,
+     "text": "A prior client about a role they had posted and I had a candidate of course and I was going to tell this hiring manager about the candidate that I had for the job they had posted and it's among 1500 other jobs that they have posted a lot of jobs right wow big fortune 500 company ton of jobs and the guy responding he's like hey man I'd love to"
+    },
+    {
+     "t": 3077.9,
+     "text": "Hell, but we've been on a hiring freeze for the past two weeks."
+    },
+    {
+     "t": 3082.0,
+     "text": "And that's been two months ago now."
+    },
+    {
+     "t": 3085.7,
+     "text": "They're still on a freeze because I followed up and I had another candidate and a different hiring manager in a different group."
+    },
+    {
+     "t": 3092.0,
+     "text": "Same story."
+    },
+    {
+     "t": 3092.8,
+     "text": "They're still on a hiring freeze."
+    },
+    {
+     "t": 3094.7,
+     "text": "They go to their website and hundreds of job postings."
+    },
+    {
+     "t": 3099.2,
+     "text": "I'm like, this should be, I feel like it should be illegal to post fake jobs."
+    },
+    {
+     "t": 3104.6,
+     "text": "Maybe I can pull it up."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 3106.5,
+   "end": 3122.4,
+   "lines": [
+    {
+     "t": 3106.5,
+     "text": "Yeah, it seems like they want to make themselves look better."
+    },
+    {
+     "t": 3109.2,
+     "text": "I can't imagine searching for a job, applying to a job."
+    },
+    {
+     "t": 3112.2,
+     "text": "I mean, it's bad enough the work that you're supposed to go through to try to apply to one job."
+    },
+    {
+     "t": 3116.6,
+     "text": "People are applying to hundreds of jobs right now, but there's thousands of candidates that are out there in the market."
+    },
+    {
+     "t": 3121.4,
+     "text": "It's just so bad."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3122.8,
+   "end": 3156.0,
+   "lines": [
+    {
+     "t": 3122.8,
+     "text": "There's also a lot of pressure for hiring diversity, DEI initiatives."
+    },
+    {
+     "t": 3129.1,
+     "text": "You know, I even applied for a ton of corporate recruiting gigs and I haven't gotten any, I haven't gotten a single interview."
+    },
+    {
+     "t": 3135.1,
+     "text": "I mean, it's probably three dozen corporate recruiting jobs at companies."
+    },
+    {
+     "t": 3139.4,
+     "text": "I was, oh, it looks like a neat company."
+    },
+    {
+     "t": 3141.0,
+     "text": "I'd consider being a corporate recruiter there."
+    },
+    {
+     "t": 3143.6,
+     "text": "I'm just straight up rejected."
+    },
+    {
+     "t": 3145.4,
+     "text": "I just can't believe that I can't even get an interview and I wonder if maybe"
+    },
+    {
+     "t": 3149.9,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 3171.1,
+   "end": 3174.5,
+   "lines": [
+    {
+     "t": 3171.1,
+     "text": "I don't know."
+    },
+    {
+     "t": 3171.5,
+     "text": "I feel like it's going to introduce bias."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3174.9,
+   "end": 3187.6,
+   "lines": [
+    {
+     "t": 3174.9,
+     "text": "Why else would they be asking if they weren't trying to discriminate based upon the answers?"
+    },
+    {
+     "t": 3179.5,
+     "text": "If you want a true DEI situation, true colorblind recruiting, leave all those questions out of the conversation entirely."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 3187.8,
+   "end": 3200.3,
+   "lines": [
+    {
+     "t": 3187.8,
+     "text": "For me, I've never been on the HR side."
+    },
+    {
+     "t": 3190.9,
+     "text": "Well, I've never been on the pure HR side."
+    },
+    {
+     "t": 3193.1,
+     "text": "I've been in the hiring management part."
+    },
+    {
+     "t": 3194.9,
+     "text": "I want to know where the HR person sees the answer to that."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3201.3,
+   "end": 3240.5,
+   "lines": [
+    {
+     "t": 3201.3,
+     "text": "There is a podcast that you should follow and they do a pretty good job of hitting some of these touchy subjects it's called yeah it's called the open to work podcast okay and James Hudson is one of the hosts along with Matthew Parker I know James is a senior like VP of HR director of HR in the corporate world and kind of"
+    },
+    {
+     "t": 3227.0,
+     "text": "He knows this stuff."
+    },
+    {
+     "t": 3227.8,
+     "text": "So we would need to ask him, like, what are you guys doing with the answers to all these questions here that you're asking on the application form?"
+    },
+    {
+     "t": 3236.2,
+     "text": "Because it's awfully strange that you would need to know this stuff."
+    },
+    {
+     "t": 3239.6,
+     "text": "Like what's going on?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 3240.7,
+   "end": 3267.6,
+   "lines": [
+    {
+     "t": 3240.7,
+     "text": "It's a requirement."
+    },
+    {
+     "t": 3241.6,
+     "text": "I don't know."
+    },
+    {
+     "t": 3242.5,
+     "text": "It's a requirement by law."
+    },
+    {
+     "t": 3243.6,
+     "text": "They actually have to fill that information."
+    },
+    {
+     "t": 3245.2,
+     "text": "From what I understand, they actually have to collect it because they have, especially government, any company taking government funds, they have to prove the job opening"
+    },
+    {
+     "t": 3253.9,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 3260.3,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3267.6,
+   "end": 3274.5,
+   "lines": [
+    {
+     "t": 3267.6,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 3279.1,
+   "end": 3286.9,
+   "lines": [
+    {
+     "t": 3279.1,
+     "text": "I like rock climbing, indoor rock climbing, so that's been fun."
+    },
+    {
+     "t": 3282.5,
+     "text": "I need to do some camping this summer."
+    },
+    {
+     "t": 3283.9,
+     "text": "So what about you?"
+    },
+    {
+     "t": 3284.6,
+     "text": "What do you like to, what hobbies do you like to do?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3287.2,
+   "end": 3306.4,
+   "lines": [
+    {
+     "t": 3287.2,
+     "text": "You know, I got three kids."
+    },
+    {
+     "t": 3288.4,
+     "text": "They're six and four, twin boys that are four."
+    },
+    {
+     "t": 3291.1,
+     "text": "So I hang out with them, keep the house clean, pick up after them."
+    },
+    {
+     "t": 3295.1,
+     "text": "But we go to the pool a lot."
+    },
+    {
+     "t": 3297.0,
+     "text": "There's two pools in our neighborhood."
+    },
+    {
+     "t": 3299.4,
+     "text": "We have a golf cart."
+    },
+    {
+     "t": 3300.4,
+     "text": "We love to ride the golf cart."
+    },
+    {
+     "t": 3301.9,
+     "text": "I can never drive the golf cart anymore because my kids always have to drive."
+    },
+    {
+     "t": 3305.3,
+     "text": "They sit in my lap and drive."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 3307.1,
+   "end": 3307.7,
+   "lines": [
+    {
+     "t": 3307.1,
+     "text": "That's funny."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3308.4,
+   "end": 3319.5,
+   "lines": [
+    {
+     "t": 3308.4,
+     "text": "Yeah, I got a I got a motorcycle."
+    },
+    {
+     "t": 3310.3,
+     "text": "I got a 2009 Harley."
+    },
+    {
+     "t": 3312.4,
+     "text": "Oh, nice."
+    },
+    {
+     "t": 3313.7,
+     "text": "Soft tail custom."
+    },
+    {
+     "t": 3315.4,
+     "text": "Tinker around on that thing."
+    },
+    {
+     "t": 3316.5,
+     "text": "Go for short rides."
+    },
+    {
+     "t": 3318.0,
+     "text": "I never venture out."
+    },
+    {
+     "t": 3318.8,
+     "text": "I'm not a long."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 3319.8,
+   "end": 3332.7,
+   "lines": [
+    {
+     "t": 3319.8,
+     "text": "Do you go by yourself?"
+    },
+    {
+     "t": 3320.7,
+     "text": "Because I have a motorcycle license."
+    },
+    {
+     "t": 3322.7,
+     "text": "I've had it for my whole life."
+    },
+    {
+     "t": 3323.6,
+     "text": "And so every once in a while, I'll rent a bike."
+    },
+    {
+     "t": 3326.0,
+     "text": "I kind of find riding by yourself kind of boring a little bit."
+    },
+    {
+     "t": 3328.7,
+     "text": "You just go by yourself."
+    },
+    {
+     "t": 3330.4,
+     "text": "Is it the road that does it for you?"
+    },
+    {
+     "t": 3331.9,
+     "text": "Like what does it for you?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3332.9,
+   "end": 3360.2,
+   "lines": [
+    {
+     "t": 3332.9,
+     "text": "Back roads and nothing that's too fast i hate highways i hate interstates i just want to go to the back curvy roads and you know i'm kind of a let's take the motorcycle to lunch and back type person yeah i don't want i don't want to go on these long trips they're awful i mean anybody that says that's fun is lying to you especially on the highway if you're on the interstate running 80 yeah and you got to do that for"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 3361.3,
+   "end": 3385.9,
+   "lines": [
+    {
+     "t": 3361.3,
+     "text": "A long period of time it's brutal more like torture than yeah it's brutal yeah when i rented the bike for a couple days i'm going on a bridge and the bridge is freezing i'm like this isn't fun but i imagine like optimal weather having someone else riding with you either with you on the bike or another bike a friend alongside with you i think makes it more fun i don't know i'm curious what your feedback would be"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3386.8,
+   "end": 3441.6,
+   "lines": [
+    {
+     "t": 3386.8,
+     "text": "Yeah, I like right."
+    },
+    {
+     "t": 3388.1,
+     "text": "I just have very few friends that have bikes and there's only one locally that I ride with."
+    },
+    {
+     "t": 3394.4,
+     "text": "And every time he's free, I'm busy every time."
+    },
+    {
+     "t": 3399.0,
+     "text": "I'm free, he's busy, and we can rarely align the schedules."
+    },
+    {
+     "t": 3403.5,
+     "text": "Lately, all I've been doing is just riding my kids around the neighborhood, honestly."
+    },
+    {
+     "t": 3408.5,
+     "text": "So we go for three evening rides, and it's probably been once a week."
+    },
+    {
+     "t": 3414.4,
+     "text": "We'll have a night after dinner where I'll just have to go for three laps, one kid at a time, helmets, and we just go to the top of the neighborhood and back."
+    },
+    {
+     "t": 3425.6,
+     "text": "I don't even get out of third gear."
+    },
+    {
+     "t": 3427.1,
+     "text": "I mean, we're going 30."
+    },
+    {
+     "t": 3429.2,
+     "text": "I mean, by the time I'm done doing that, let's say I've got three 15 minute rides."
+    },
+    {
+     "t": 3436.6,
+     "text": "I've had a 45 minute ride and that's perfect."
+    },
+    {
+     "t": 3440.3,
+     "text": "I would highly recommend that."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 3442.2,
+   "end": 3479.4,
+   "lines": [
+    {
+     "t": 3442.2,
+     "text": "Yeah."
+    },
+    {
+     "t": 3443.2,
+     "text": "My friend, I asked him one time, I'm like, you know, I have a quandary."
+    },
+    {
+     "t": 3446.3,
+     "text": "I'm like, I want the fun of a motorcycle, but the convenience is like, you know, you can't listen to anything really or whatever it may be."
+    },
+    {
+     "t": 3455.0,
+     "text": "He's like, get a convertible."
+    },
+    {
+     "t": 3456.9,
+     "text": "That's smart."
+    },
+    {
+     "t": 3457.7,
+     "text": "And so, yeah, I got a stick shift convertible."
+    },
+    {
+     "t": 3460.8,
+     "text": "And so it's like the best of both worlds."
+    },
+    {
+     "t": 3463.8,
+     "text": "You know, in California, it works out really good."
+    },
+    {
+     "t": 3465.8,
+     "text": "Last night I was coming, I was sticking to bridge."
+    },
+    {
+     "t": 3467.9,
+     "text": "It was kind of late."
+    },
+    {
+     "t": 3469.1,
+     "text": "And I had the whole bridge to myself, the top down, the weather was beautiful."
+    },
+    {
+     "t": 3473.0,
+     "text": "And I'm like, I just turned off like all the sound and I'm like, just kind of took it all in."
+    },
+    {
+     "t": 3476.8,
+     "text": "It was, it was really fun."
+    },
+    {
+     "t": 3477.9,
+     "text": "It was really fun."
+    },
+    {
+     "t": 3478.5,
+     "text": "So I kind of enjoyed it."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3479.6,
+   "end": 3481.8,
+   "lines": [
+    {
+     "t": 3479.6,
+     "text": "It sounds like the golf cart lifestyle."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 3481.8,
+   "end": 3482.8,
+   "lines": [
+    {
+     "t": 3481.8,
+     "text": "There you go."
+    },
+    {
+     "t": 3482.6,
+     "text": "Yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3482.9,
+   "end": 3511.3,
+   "lines": [
+    {
+     "t": 3482.9,
+     "text": "For a little golf cart ride."
+    },
+    {
+     "t": 3484.4,
+     "text": "It's a good stress reliever."
+    },
+    {
+     "t": 3486.4,
+     "text": "Ayman, it's been fun chatting with you, man."
+    },
+    {
+     "t": 3489.0,
+     "text": "I've really enjoyed it."
+    },
+    {
+     "t": 3490.4,
+     "text": "And I think we've got some good nuggets here."
+    },
+    {
+     "t": 3492.9,
+     "text": "If you want to reach out to Ayman, he has a website, coffeewithayman.com."
+    },
+    {
+     "t": 3500.3,
+     "text": "Tons of content there and you can even book time to chat with him."
+    },
+    {
+     "t": 3504.1,
+     "text": "He's got a calendar link."
+    },
+    {
+     "t": 3505.3,
+     "text": "I love the calendar links."
+    },
+    {
+     "t": 3506.7,
+     "text": "Thank you."
+    },
+    {
+     "t": 3507.0,
+     "text": "So it's been awesome and I hope we can do this again here in a few months."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 3511.6,
+   "end": 3512.3,
+   "lines": [
+    {
+     "t": 3511.6,
+     "text": "Yeah, I would love to."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3512.4,
+   "end": 3516.6,
+   "lines": [
+    {
+     "t": 3512.4,
+     "text": "Yeah, let's get back to your day, Ayman."
+    },
+    {
+     "t": 3514.6,
+     "text": "Awesome."
+    },
+    {
+     "t": 3515.5,
+     "text": "Good to hang out with you, man."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 3517.0,
+   "end": 3517.6,
+   "lines": [
+    {
+     "t": 3517.0,
+     "text": "Yeah, same here."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

@@ -28,6 +28,12 @@ def probe(url: str) -> dict:
     return ydl.sanitize_info(info)
 
 
+def is_video(info: dict) -> bool:
+    """False for audio-only sources (podcast feeds, Apple Podcasts, audio uploads)."""
+    vcodecs = [f.get("vcodec") for f in info.get("formats") or []] + [info.get("vcodec")]
+    return any(v and v != "none" for v in vcodecs) and (info.get("duration") or 0) > 0
+
+
 def _ffmpeg_to_wav(src: Path, dest: Path, clip: tuple[float, float] | None) -> None:
     cmd = ["ffmpeg", "-nostdin", "-y", "-loglevel", "error"]
     if clip:

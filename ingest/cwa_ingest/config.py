@@ -41,7 +41,9 @@ def _load_dotenv() -> None:
 
 _load_dotenv()
 
-MEDIA_EXTS = {".mp4", ".mov", ".mkv", ".webm", ".m4a", ".mp3", ".wav", ".flac"}
+# Videos only (Ayman's rule): audio-only podcasts aren't part of the archive.
+MEDIA_EXTS = {".mp4", ".mov", ".mkv", ".webm", ".m4v", ".avi"}
+AUDIO_EXTS = {".m4a", ".mp3", ".wav", ".flac", ".aac", ".ogg", ".opus"}
 LIST_EXTS = {".txt", ".md"}
 STABLE_SECONDS = 30                        # a dropped file must stop growing this long
 

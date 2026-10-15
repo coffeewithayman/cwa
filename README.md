@@ -159,10 +159,18 @@ with transcripts. The website only reads generated files
 driven from plain Markdown in [`intake/`](intake/) and processed locally on
 the GPU by [`ingest/`](ingest/) (Python, managed with `uv`).
 
+### What goes in
+
+**Videos only**: talks, panels, interviews, webinars, filmed podcast
+appearances and the @coffeewithayman channel. Audio-only podcasts are out
+(links are skipped automatically; audio files dropped into the inbox are moved
+to `media/inbox/_failed/`). Getting Into Infosec is deliberately not included.
+Recordings where the voiceprint finds no trace of Ayman are skipped.
+
 ### Adding talks
 
 - **A link:** paste it under `## Inbox` in [`intake/talks.md`](intake/talks.md) and save.
-- **A recording:** drop it into `media/inbox/` (`.mp4 .mov .mkv .webm .m4a .mp3 .wav .flac`).
+- **A video:** drop it into `media/inbox/` (`.mp4 .mov .mkv .webm .m4v .avi`).
   Optional: a same-named `.md` next to it with `# Title`, `- format:`, `- event:`, `- date:`,
   `- topics:` lines and a `### Notes` section.
 - **A batch of links:** drop a `.txt` file of URLs into `media/inbox/`.

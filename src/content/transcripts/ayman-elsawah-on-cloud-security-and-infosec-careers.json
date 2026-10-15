@@ -1,0 +1,3227 @@
+{
+ "slug": "ayman-elsawah-on-cloud-security-and-infosec-careers",
+ "scope": "ayman",
+ "format": "interview",
+ "turns": [
+  {
+   "start": 1.1,
+   "end": 2.5,
+   "lines": [
+    {
+     "t": 1.1,
+     "text": "All right."
+    },
+    {
+     "t": 1.8,
+     "text": "I think it's working."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2.8,
+   "end": 8.1,
+   "lines": [
+    {
+     "t": 2.8,
+     "text": "All right."
+    },
+    {
+     "t": 3.1,
+     "text": "Good."
+    },
+    {
+     "t": 5.1,
+     "text": "Sound check."
+    },
+    {
+     "t": 5.7,
+     "text": "All right."
+    },
+    {
+     "t": 6.2,
+     "text": "I'll try not to move around too much."
+    },
+    {
+     "t": 7.8,
+     "text": "Yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 8.3,
+   "end": 10.3,
+   "lines": [
+    {
+     "t": 8.3,
+     "text": "This is a pretty good microphone."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 10.5,
+   "end": 43.9,
+   "lines": [
+    {
+     "t": 10.5,
+     "text": "All right."
+    },
+    {
+     "t": 10.9,
+     "text": "Hi, everybody."
+    },
+    {
+     "t": 12.8,
+     "text": "My name is Ayman Elsawah."
+    },
+    {
+     "t": 16.0,
+     "text": "I came in."
+    },
+    {
+     "t": 16.9,
+     "text": "I was invited here by Sam."
+    },
+    {
+     "t": 17.9,
+     "text": "Thanks a lot for having me."
+    },
+    {
+     "t": 19.2,
+     "text": "And Steve, thanks again."
+    },
+    {
+     "t": 21.9,
+     "text": "So today's talk is going to be covering a few things."
+    },
+    {
+     "t": 25.2,
+     "text": "I'm going to cover cloud security."
+    },
+    {
+     "t": 27.8,
+     "text": "From my perspective."
+    },
+    {
+     "t": 29.1,
+     "text": "And diversity, and then a little about Getting Into Infosec."
+    },
+    {
+     "t": 31.9,
+     "text": "So a little about me."
+    },
+    {
+     "t": 34.5,
+     "text": "I like Hawaiian shirts."
+    },
+    {
+     "t": 35.8,
+     "text": "So on Fridays, I wear Hawaiian shirts."
+    },
+    {
+     "t": 37.5,
+     "text": "Today's not Friday."
+    },
+    {
+     "t": 40.0,
+     "text": "Is this not, is this what people see online?"
+    },
+    {
+     "t": 42.7,
+     "text": "Yeah, should be, yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 44.4,
+   "end": 48.1,
+   "lines": [
+    {
+     "t": 44.4,
+     "text": "Okay, so I, oh, it takes a while, okay."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 49.0,
+   "end": 146.9,
+   "lines": [
+    {
+     "t": 49.0,
+     "text": "Great."
+    },
+    {
+     "t": 50.7,
+     "text": "So yeah, I like Hawaiian shirts."
+    },
+    {
+     "t": 52.6,
+     "text": "I'm really into coffee, so this is my actual coffee set at home."
+    },
+    {
+     "t": 57.0,
+     "text": "So if you want to talk about single origin and different pour methods and recipes, I'm happy to talk about that."
+    },
+    {
+     "t": 63.6,
+     "text": "I work with AWS every day, so I try to help secure AWS in that environment."
+    },
+    {
+     "t": 70.1,
+     "text": "I also have a podcast."
+    },
+    {
+     "t": 71.3,
+     "text": "So you go to gettingintoinfosec.com, and it's stories of people and how they got into infosec."
+    },
+    {
+     "t": 79.0,
+     "text": "And just their transition because everybody has a different way of how they got into information security."
+    },
+    {
+     "t": 85.3,
+     "text": "And so I could record a thousand different stories and hear a thousand different ways."
+    },
+    {
+     "t": 90.3,
+     "text": "And the idea is to help encourage and inspire and educate those out there looking to get into the field."
+    },
+    {
+     "t": 95.4,
+     "text": "And then as a result, I also, before thinking about the podcast, I also wrote a book."
+    },
+    {
+     "t": 100.2,
+     "text": "It's my guide as to how, you know, you're starting from zero, how you want to get into the security field."
+    },
+    {
+     "t": 108.0,
+     "text": "Different positions and things like that so yeah there's a bit of a lag online so let's see how that goes wow that is quite a quite a bit of a lag should i switch to a different wi-fi yeah let me switch networks oh that's fine oh it's not"
+    },
+    {
+     "t": 134.5,
+     "text": "No, it's mirroring, it's just, it's a lag, I think because I'm on solar connection."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 168.6,
+   "end": 195.6,
+   "lines": [
+    {
+     "t": 168.6,
+     "text": "All right."
+    },
+    {
+     "t": 171.6,
+     "text": "Oh, that's good."
+    },
+    {
+     "t": 173.5,
+     "text": "Okay."
+    },
+    {
+     "t": 175.3,
+     "text": "So now you've switched networks, so of course it lost connection with you briefly."
+    },
+    {
+     "t": 178.4,
+     "text": "Yeah, I stopped sharing."
+    },
+    {
+     "t": 179.3,
+     "text": "I'm going to share in a second."
+    },
+    {
+     "t": 180.2,
+     "text": "Okay, good."
+    },
+    {
+     "t": 180.8,
+     "text": "Aha."
+    },
+    {
+     "t": 193.1,
+     "text": "Okay, good."
+    },
+    {
+     "t": 195.1,
+     "text": "That works right."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 196.8,
+   "end": 502.6,
+   "lines": [
+    {
+     "t": 196.8,
+     "text": "There we go."
+    },
+    {
+     "t": 198.2,
+     "text": "Still lagged, but all right, let's try this again."
+    },
+    {
+     "t": 200.4,
+     "text": "So let's talk about cloud security."
+    },
+    {
+     "t": 202.8,
+     "text": "So let's take a little survey."
+    },
+    {
+     "t": 204.5,
+     "text": "Who here has used either one of these three platforms, AWS, Azure, or Google Cloud Platform?"
+    },
+    {
+     "t": 213.8,
+     "text": "Okay, great, great, great."
+    },
+    {
+     "t": 215.4,
+     "text": "That's really good."
+    },
+    {
+     "t": 216.2,
+     "text": "That's really good."
+    },
+    {
+     "t": 218.3,
+     "text": "So I'm going to talk about AWS in particular."
+    },
+    {
+     "t": 222.2,
+     "text": "So for those that don't know, AWS has tons and tons of services."
+    },
+    {
+     "t": 227.6,
+     "text": "This is just page one from their console."
+    },
+    {
+     "t": 230.1,
+     "text": "So if you log into the console, you can see all these services."
+    },
+    {
+     "t": 232.3,
+     "text": "And they practically come up with a new service almost every week, if not every day."
+    },
+    {
+     "t": 237.2,
+     "text": "And if I go to the next page, there's more services here."
+    },
+    {
+     "t": 240.8,
+     "text": "Oh, there's a really big lab."
+    },
+    {
+     "t": 243.1,
+     "text": "So a lot of services, right?"
+    },
+    {
+     "t": 244.9,
+     "text": "And the idea is that you wanna start a company, you wanna start a product, they take care of the underlying technology and then you just work on the product itself."
+    },
+    {
+     "t": 256.4,
+     "text": "And they're all over the world many different regions all over the world coming up and so the idea is that and here's an example of different instances for example so I mean look at this one it has you know 12 terabytes of memory you know you're trying to do some heavy-duty horsepower this is you know obviously you pay a couple dollars an hour for this there's also you know you want a GPU you want to start a cracking machine you can totally do this in the cloud with just a click of a button"
+    },
+    {
+     "t": 286.8,
+     "text": "So what does this mean?"
+    },
+    {
+     "t": 292.8,
+     "text": "Well, this is what this means for most people, right?"
+    },
+    {
+     "t": 295.9,
+     "text": "They have an awesome car."
+    },
+    {
+     "t": 297.4,
+     "text": "They could like really, really do some good stuff."
+    },
+    {
+     "t": 299.6,
+     "text": "Yes, I'm going to the cloud."
+    },
+    {
+     "t": 300.8,
+     "text": "Yes, cloud is awesome."
+    },
+    {
+     "t": 303.2,
+     "text": "But in reality, this is really what happens."
+    },
+    {
+     "t": 306.5,
+     "text": "Okay, because, you know, you're giving so much power to people just at their fingertips with like little to no background at all."
+    },
+    {
+     "t": 315.9,
+     "text": "So this is often the case, this is why I'm still employed."
+    },
+    {
+     "t": 320.4,
+     "text": "And so what does this mean?"
+    },
+    {
+     "t": 321.5,
+     "text": "Well, AWS has the shared security model, okay?"
+    },
+    {
+     "t": 325.7,
+     "text": "Where they take care of this stuff here on the bottom, and you have to take care of the stuff at the top, okay?"
+    },
+    {
+     "t": 332.4,
+     "text": "So you don't have to worry about the power, the air conditioning, all that stuff from the data center."
+    },
+    {
+     "t": 337.8,
+     "text": "They take care of all that, right?"
+    },
+    {
+     "t": 339.1,
+     "text": "They make sure that everything is running."
+    },
+    {
+     "t": 341.4,
+     "text": "But if you do spin up an instance, you have to make sure that it's secured from the internet, okay?"
+    },
+    {
+     "t": 345.9,
+     "text": "You have to make sure that there's good authentication."
+    },
+    {
+     "t": 347.8,
+     "text": "You have to make sure"
+    },
+    {
+     "t": 349.7,
+     "text": "That's up to you."
+    },
+    {
+     "t": 352.3,
+     "text": "That's your responsibility."
+    },
+    {
+     "t": 353.2,
+     "text": "It's a big responsibility."
+    },
+    {
+     "t": 354.5,
+     "text": "But a lot of people, companies, governments, everybody don't understand this."
+    },
+    {
+     "t": 360.9,
+     "text": "OK. And so a lot of times, you have companies that are natively built in the cloud, especially here in the Bay Area."
+    },
+    {
+     "t": 368.1,
+     "text": "You have companies that are natively built, and they kind of can speak cloud language from the beginning."
+    },
+    {
+     "t": 372.9,
+     "text": "But there's also lift and shift, where companies are coming from the data center model, and they're going to the cloud because it's the next new shiny thing, really."
+    },
+    {
+     "t": 382.9,
+     "text": "Watch in a few years, we'll go back to data centers, right?"
+    },
+    {
+     "t": 385.4,
+     "text": "Private cloud."
+    },
+    {
+     "t": 386.6,
+     "text": "Private cloud, private cloud, yes, yes, yes, quote unquote."
+    },
+    {
+     "t": 391.3,
+     "text": "And so these are the ways that companies hop into the cloud."
+    },
+    {
+     "t": 394.9,
+     "text": "And so what are some issues that happen?"
+    },
+    {
+     "t": 397.0,
+     "text": "Well, I'm going to highlight two of those categories, and it's misconfigurations and poor access control."
+    },
+    {
+     "t": 404.6,
+     "text": "And you could argue that it's the same thing, but let's, for the sake of argument, let's talk about misconfigurations and poor access control, OK?"
+    },
+    {
+     "t": 415.0,
+     "text": "So let's talk about, I had another GIF, but it was in a different document."
+    },
+    {
+     "t": 422.2,
+     "text": "This is a list of all the S3 bucket leaks."
+    },
+    {
+     "t": 425.3,
+     "text": "What's S3?"
+    },
+    {
+     "t": 426.0,
+     "text": "S3 is a container of where you're supposed to store your data."
+    },
+    {
+     "t": 429.7,
+     "text": "By default, it's closed."
+    },
+    {
+     "t": 431.5,
+     "text": "But oftentimes, you're looking to share your data with either a third party or another developer or whatever it is, and you hit public."
+    },
+    {
+     "t": 439.8,
+     "text": "And lo and behold, your data is now public to the world without people knowing."
+    },
+    {
+     "t": 445.4,
+     "text": "And so this is somebody actually, there are so many, there have been so many S3 data leaks."
+    },
+    {
+     "t": 450.8,
+     "text": "That someone started a wiki page or GitHub listing all the different breaches."
+    },
+    {
+     "t": 455.2,
+     "text": "Okay, so it's quite a list of items."
+    },
+    {
+     "t": 458.7,
+     "text": "And, you know, here are a couple examples to highlight, you know, some, I mean, there was even a story about a AWS sales employee leaking a bucket as well."
+    },
+    {
+     "t": 469.6,
+     "text": "So that was quite hilarious."
+    },
+    {
+     "t": 471.2,
+     "text": "And if you look at all the companies listed here, you have a total of 9 billion records that have been leaked."
+    },
+    {
+     "t": 477.7,
+     "text": "And this is at the time, you know, it's increasing all the time."
+    },
+    {
+     "t": 482.4,
+     "text": "So what about poor access control?"
+    },
+    {
+     "t": 485.4,
+     "text": "Well, IAM is the new perimeter."
+    },
+    {
+     "t": 488.9,
+     "text": "What is IAM?"
+    },
+    {
+     "t": 489.6,
+     "text": "Identity and Access Management."
+    },
+    {
+     "t": 491.6,
+     "text": "So before, everybody was focused on the network and making sure that your servers are secured and the network access is limited and et cetera, et cetera, and even whitelisting."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 503.3,
+   "end": 506.2,
+   "lines": [
+    {
+     "t": 503.3,
+     "text": "No, IAM is the new parameter."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 506.3,
+   "end": 752.1,
+   "lines": [
+    {
+     "t": 506.3,
+     "text": "If you don't have your credentials secured, it's a disaster."
+    },
+    {
+     "t": 512.1,
+     "text": "And we're talking about having a piece of credential that looks like this that's sitting in your code or sitting anywhere in the world."
+    },
+    {
+     "t": 522.3,
+     "text": "With this piece of information,"
+    },
+    {
+     "t": 525.5,
+     "text": "I can from a CLI with one line of command."
+    },
+    {
+     "t": 529.2,
+     "text": "I'm not even say code."
+    },
+    {
+     "t": 530.5,
+     "text": "One command, I could launch 1,000 instances of the ones you saw earlier all over the world if I want."
+    },
+    {
+     "t": 538.2,
+     "text": "And so oftentimes, it still happens today, you have companies that leave this"
+    },
+    {
+     "t": 544.6,
+     "text": "Information in github in code everywhere and it's really it's really a disaster so we really want to limit this and then have this not happen so yeah and so yes"
+    },
+    {
+     "t": 567.7,
+     "text": "That's right."
+    },
+    {
+     "t": 568.2,
+     "text": "So ideally, we would not want to use, these are keys, so access keys."
+    },
+    {
+     "t": 573.9,
+     "text": "There's another way of doing things where you could have, for example, an instance, you can give a machine a role-based access and say, hey, you're allowed to do this, this, and this."
+    },
+    {
+     "t": 587.1,
+     "text": "And then keys are generated dynamically from the back end, where keys are short-lived only five minutes, one minutes, but you don't even see that communication."
+    },
+    {
+     "t": 597.5,
+     "text": "So doing it this way is kind of the manual way, which is fine for certain instances."
+    },
+    {
+     "t": 602.6,
+     "text": "But for an application, you don't want it to use hard-coded keys because they have no expiration at all."
+    },
+    {
+     "t": 608.7,
+     "text": "And so if an employee leaves and grabs this key, depending on the permissions attached to this, they can do a certain amount of damage."
+    },
+    {
+     "t": 617.8,
+     "text": "So there's certain permissions that are attached to these credentials."
+    },
+    {
+     "t": 621.7,
+     "text": "And so that goes to my next slide here, where you want to attach particular permissions to these credentials."
+    },
+    {
+     "t": 629.6,
+     "text": "And so here's an example of what not to do."
+    },
+    {
+     "t": 632.3,
+     "text": "Again, let me walk you through this."
+    },
+    {
+     "t": 634.4,
+     "text": "So this means S3."
+    },
+    {
+     "t": 635.9,
+     "text": "Let's see."
+    },
+    {
+     "t": 637.2,
+     "text": "I guess I can't play."
+    },
+    {
+     "t": 639.0,
+     "text": "This means S3 right here."
+    },
+    {
+     "t": 643.7,
+     "text": "S3, oh, sorry."
+    },
+    {
+     "t": 646.8,
+     "text": "Let me not try to get technical."
+    },
+    {
+     "t": 649.0,
+     "text": "S3 is, again, we're talking about buckets."
+    },
+    {
+     "t": 652.2,
+     "text": "And what this is doing is giving whatever access credential you're allowing everything to do in S3."
+    },
+    {
+     "t": 657.3,
+     "text": "You can delete buckets, create buckets, put objects, delete objects, all this stuff."
+    },
+    {
+     "t": 662.1,
+     "text": "You don't want to do that."
+    },
+    {
+     "t": 663.0,
+     "text": "This is from a real environment before."
+    },
+    {
+     "t": 666.6,
+     "text": "EC2 is where all your compute instances are."
+    },
+    {
+     "t": 671.8,
+     "text": "What is this?"
+    },
+    {
+     "t": 672.2,
+     "text": "This is all laziness."
+    },
+    {
+     "t": 673.4,
+     "text": "This is just being lazy, right?"
+    },
+    {
+     "t": 674.8,
+     "text": "Because you really want to employ least privilege."
+    },
+    {
+     "t": 677.5,
+     "text": "Least privilege is where you're saying, I don't need everything."
+    },
+    {
+     "t": 682.2,
+     "text": "I just need to describe instances."
+    },
+    {
+     "t": 684.2,
+     "text": "Just give me a list of all instances out there so that I could take an inventory, say it's an inventory machine or whatever it is."
+    },
+    {
+     "t": 689.7,
+     "text": "But instead, they're doing EC2 a lot."
+    },
+    {
+     "t": 690.8,
+     "text": "That means it could create hundreds or thousands of instances."
+    },
+    {
+     "t": 693.8,
+     "text": "If this machine, so this was a role-based access, which is a good way of doing it, to answer your question before, instead of having a key."
+    },
+    {
+     "t": 700.6,
+     "text": "However, these permissions were attached to it."
+    },
+    {
+     "t": 703.1,
+     "text": "So if that box got popped, then the attacker could do all this stuff."
+    },
+    {
+     "t": 708.0,
+     "text": "Route 53 is a DNS service."
+    },
+    {
+     "t": 710.3,
+     "text": "It could just..."
+    },
+    {
+     "t": 711.5,
+     "text": "Change all your hosted zones it's just amazing so you know don't do this right should be more fine-grained listing exactly the permissions you need okay any questions so far okay so has anyone heard of a company called code spaces let me share my video in case people want to see me"
+    },
+    {
+     "t": 735.7,
+     "text": "There we go."
+    },
+    {
+     "t": 737.0,
+     "text": "So I try to be a little more like, so, code spaces is, there we go."
+    },
+    {
+     "t": 748.2,
+     "text": "Yeah, I think it should go away."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 752.4,
+   "end": 752.8,
+   "lines": [
+    {
+     "t": 752.4,
+     "text": "Okay."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 753.2,
+   "end": 754.4,
+   "lines": [
+    {
+     "t": 753.2,
+     "text": "Or maybe not."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 754.8,
+   "end": 756.0,
+   "lines": [
+    {
+     "t": 754.8,
+     "text": "Last time I had to do something."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 756.5,
+   "end": 756.9,
+   "lines": [
+    {
+     "t": 756.5,
+     "text": "Oh, okay."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 760.8,
+   "end": 779.8,
+   "lines": [
+    {
+     "t": 760.8,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR,"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 780.4,
+   "end": 796.4,
+   "lines": [
+    {
+     "t": 780.4,
+     "text": "All right, so Codespaces looks like this, okay?"
+    },
+    {
+     "t": 787.1,
+     "text": "They're a company that offers rock solid, secure, affordable Git hosting, okay?"
+    },
+    {
+     "t": 794.0,
+     "text": "Of course, they say it's secure, so it has to be secure, right?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 797.6,
+   "end": 799.1,
+   "lines": [
+    {
+     "t": 797.6,
+     "text": "Why don't people just use GitHub?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 800.3,
+   "end": 1030.9,
+   "lines": [
+    {
+     "t": 800.3,
+     "text": "I don't know."
+    },
+    {
+     "t": 800.7,
+     "text": "I don't know."
+    },
+    {
+     "t": 801.3,
+     "text": "I guess this was an alternative to GitHub to use in a private, maybe a cheaper option."
+    },
+    {
+     "t": 805.1,
+     "text": "I have no idea."
+    },
+    {
+     "t": 807.5,
+     "text": "So this was their website on this particular day."
+    },
+    {
+     "t": 812.7,
+     "text": "This is the website on one particular day."
+    },
+    {
+     "t": 814.8,
+     "text": "The next day, this is what the website looked like."
+    },
+    {
+     "t": 820.0,
+     "text": "All this was because an attacker found their keys that had root credentials and wiped out 7,000 instances or a number of instances, their whole environment, including their backups and snapshots."
+    },
+    {
+     "t": 831.7,
+     "text": "Everything."
+    },
+    {
+     "t": 832.9,
+     "text": "Out of business overnight."
+    },
+    {
+     "t": 836.2,
+     "text": "Okay, this is like, when you're in the cloud, this is like the target, right, of, you know, the target story of Amazon, right?"
+    },
+    {
+     "t": 844.6,
+     "text": "You know, I don't believe in FUD, but, you know, we need to learn our lessons, right?"
+    },
+    {
+     "t": 848.2,
+     "text": "So, this is, you know, a really good example of that."
+    },
+    {
+     "t": 851.9,
+     "text": "And so, this is from archive.org."
+    },
+    {
+     "t": 853.4,
+     "text": "If anybody knows that, you can just hop on there and see their website."
+    },
+    {
+     "t": 858.1,
+     "text": "So what are our lessons learned?"
+    },
+    {
+     "t": 859.8,
+     "text": "Least privilege and access control."
+    },
+    {
+     "t": 862.2,
+     "text": "So if you're giving access to something, give the minimal amount of privilege."
+    },
+    {
+     "t": 866.6,
+     "text": "Take the extra step to give the minimum amount of privilege required."
+    },
+    {
+     "t": 872.4,
+     "text": "Configuration management, do some training, have some awareness."
+    },
+    {
+     "t": 875.7,
+     "text": "The cloud is a big responsibility."
+    },
+    {
+     "t": 880.7,
+     "text": "With the click of a finger, you have the ability to launch infinite amount of resources globally."
+    },
+    {
+     "t": 887.4,
+     "text": "So that's not cheap either, right?"
+    },
+    {
+     "t": 889.9,
+     "text": "So a lot of times companies end up having, when they're attacked, they have thousands and thousands of dollars of bills."
+    },
+    {
+     "t": 902.4,
+     "text": "Amazon does sometimes wipe it, but still, you don't want to be in that position."
+    },
+    {
+     "t": 909.5,
+     "text": "Also, some other things going on right now, Kubernetes and containerization."
+    },
+    {
+     "t": 912.9,
+     "text": "So especially in the Bay Area, that's the big thing right now."
+    },
+    {
+     "t": 919.6,
+     "text": "So definitely take the step to learn that."
+    },
+    {
+     "t": 922.5,
+     "text": "It's really a good thing to learn."
+    },
+    {
+     "t": 925.0,
+     "text": "It's a trend."
+    },
+    {
+     "t": 926.8,
+     "text": "But also look at serverless, too."
+    },
+    {
+     "t": 928.5,
+     "text": "Forget servers."
+    },
+    {
+     "t": 930.5,
+     "text": "You don't even need servers anymore."
+    },
+    {
+     "t": 932.7,
+     "text": "You just have a function."
+    },
+    {
+     "t": 935.3,
+     "text": "So you create your code and have it run using compute time."
+    },
+    {
+     "t": 938.1,
+     "text": "And all you're paying is for the compute time and not for an instance to be up for several hours at a time, if that makes sense."
+    },
+    {
+     "t": 945.3,
+     "text": "Yeah, all of them, Alfred."
+    },
+    {
+     "t": 946.1,
+     "text": "Yeah, yeah, yeah."
+    },
+    {
+     "t": 946.9,
+     "text": "Azure, all of them have that service."
+    },
+    {
+     "t": 949.7,
+     "text": "So you can have an example of a serverless website."
+    },
+    {
+     "t": 954.7,
+     "text": "There are a lot of examples."
+    },
+    {
+     "t": 955.9,
+     "text": "So instead of spinning up a server in Nginx and then PHP and whatever else, you just write your code and it will execute."
+    },
+    {
+     "t": 963.5,
+     "text": "Every time someone goes to the website, it will just run it for that time that it got executed."
+    },
+    {
+     "t": 967.5,
+     "text": "It's really amazing."
+    },
+    {
+     "t": 969.7,
+     "text": "All right, the next topic that's near and dear to me is diversity."
+    },
+    {
+     "t": 974.9,
+     "text": "Yes."
+    },
+    {
+     "t": 982.5,
+     "text": "I can't give an accurate number, but there are whole conferences now on the topic, serverless conf."
+    },
+    {
+     "t": 989.8,
+     "text": "So for some reason, a lot of folks are attracted to containerization, but really, I think a lot of the visionary folks are going is serverless."
+    },
+    {
+     "t": 1000.3,
+     "text": "Because serverless, you're just paying for compute time."
+    },
+    {
+     "t": 1002.6,
+     "text": "It just makes it super easy."
+    },
+    {
+     "t": 1004.3,
+     "text": "So as far as the percentage, I don't know, especially those in production."
+    },
+    {
+     "t": 1009.0,
+     "text": "But it's definitely being utilized for a lot of components of a whole application, where what you used to have in EC2 or a whole instance, virtual instance of doing something, now they just have Lambda scripts and serverless functions doing that."
+    },
+    {
+     "t": 1023.6,
+     "text": "So that is definitely becoming a huge, bigger component."
+    },
+    {
+     "t": 1027.5,
+     "text": "Any questions so far on cloud and cloud security?"
+    },
+    {
+     "t": 1029.6,
+     "text": "I'm happy to take any questions."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1031.1,
+   "end": 1039.5,
+   "lines": [
+    {
+     "t": 1031.1,
+     "text": "I don't know if there's any questions online."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 1039.9,
+   "end": 1051.3,
+   "lines": [
+    {
+     "t": 1039.9,
+     "text": "Coding."
+    },
+    {
+     "t": 1040.9,
+     "text": "Yeah."
+    },
+    {
+     "t": 1041.8,
+     "text": "Yeah."
+    },
+    {
+     "t": 1042.4,
+     "text": "Coding and then knowing that particular environment."
+    },
+    {
+     "t": 1044.4,
+     "text": "But yeah, coding."
+    },
+    {
+     "t": 1045.2,
+     "text": "So Python Go, all the latest coding languages."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1052.3,
+   "end": 1059.7,
+   "lines": [
+    {
+     "t": 1052.3,
+     "text": "I don't think there's any online."
+    },
+    {
+     "t": 1053.3,
+     "text": "They would pop up."
+    },
+    {
+     "t": 1054.5,
+     "text": "If you guys want to ask a question online, just send a chat message and it will pop up."
+    },
+    {
+     "t": 1058.6,
+     "text": "But none of them are doing it now."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1060.1,
+   "end": 1300.9,
+   "lines": [
+    {
+     "t": 1060.1,
+     "text": "OK. OK. Maybe I could."
+    },
+    {
+     "t": 1063.6,
+     "text": "There is a way to have questions."
+    },
+    {
+     "t": 1071.7,
+     "text": "OK. That's fine."
+    },
+    {
+     "t": 1074.6,
+     "text": "Great."
+    },
+    {
+     "t": 1075.1,
+     "text": "So the next topic is diversity."
+    },
+    {
+     "t": 1076.9,
+     "text": "So diversity."
+    },
+    {
+     "t": 1084.2,
+     "text": "There are a lot of programs happening these days to encourage more and more diversity."
+    },
+    {
+     "t": 1089.2,
+     "text": "So we have Day of Security, which I've attended a lot of their talks."
+    },
+    {
+     "t": 1093.8,
+     "text": "Really great conference."
+    },
+    {
+     "t": 1095.7,
+     "text": "Women in Security and Privacy."
+    },
+    {
+     "t": 1098.0,
+     "text": "Women's Cybersecurity Jiu-Jitsu."
+    },
+    {
+     "t": 1101.3,
+     "text": "SANS has a Women's Immersion Academy."
+    },
+    {
+     "t": 1104.1,
+     "text": "One of my guests on the show, Christina Hansen, had a really good time."
+    },
+    {
+     "t": 1109.4,
+     "text": "She talked about a lot of these programs and how she was a success story, basically, from a lot of these groups."
+    },
+    {
+     "t": 1118.0,
+     "text": "There are a lot, and more and more groups are growing, so it's really..."
+    },
+    {
+     "t": 1124.3,
+     "text": "It's definitely a good thing."
+    },
+    {
+     "t": 1125.5,
+     "text": "Now, does that mean the job is done?"
+    },
+    {
+     "t": 1129.2,
+     "text": "Well, no, there's still a lot more work to be done."
+    },
+    {
+     "t": 1134.2,
+     "text": "This is something that happened not too long ago that really kind of hit home for me."
+    },
+    {
+     "t": 1140.3,
+     "text": "I was kind of like,"
+    },
+    {
+     "t": 1142.3,
+     "text": "I was bothered."
+    },
+    {
+     "t": 1143.4,
+     "text": "I was bothered when I saw this."
+    },
+    {
+     "t": 1145.8,
+     "text": "This whole underground that was happening that was, well, you know, look it up, but basically just bashing, bashing people, women out there."
+    },
+    {
+     "t": 1157.7,
+     "text": "You know, there's still issues that are happening."
+    },
+    {
+     "t": 1160.0,
+     "text": "Female speakers and hackers are still facing issues."
+    },
+    {
+     "t": 1164.9,
+     "text": "Georgia weidman you know really well known awesome person she's published books on hacking came out and just talked about some things that you know that she faced another person you know talk you know these are quotes from other people so what i'm saying is there is still work to be done in this area and it's really important that we just have awareness because frankly"
+    },
+    {
+     "t": 1191.8,
+     "text": "Part of it is just awareness."
+    },
+    {
+     "t": 1192.8,
+     "text": "A lot of people don't know the gravity of what people have had to face before out there."
+    },
+    {
+     "t": 1202.6,
+     "text": "And diversity includes all sorts of people."
+    },
+    {
+     "t": 1204.8,
+     "text": "People of color, non-binaries, women, everyone."
+    },
+    {
+     "t": 1208.1,
+     "text": "Anyone that's in a disenfranchised situation."
+    },
+    {
+     "t": 1215.4,
+     "text": "This was from someone I met recently, actually."
+    },
+    {
+     "t": 1219.2,
+     "text": "She sent me this quote."
+    },
+    {
+     "t": 1221.2,
+     "text": "I mean, this was something she said after meeting me and giving me her story."
+    },
+    {
+     "t": 1228.0,
+     "text": "So she said, as a woman Getting Into Infosec, I feel as though I have been alone my entire life, learning and self-teaching with no real guidance or mentorship."
+    },
+    {
+     "t": 1236.4,
+     "text": "So that also really touched me."
+    },
+    {
+     "t": 1239.8,
+     "text": "I just got this last night."
+    },
+    {
+     "t": 1241.2,
+     "text": "So that was really interesting."
+    },
+    {
+     "t": 1244.7,
+     "text": "So that's something I just wanted to share with everyone about diversity, kind of just bringing awareness."
+    },
+    {
+     "t": 1249.3,
+     "text": "Now I'm going to talk about Getting Into Infosec."
+    },
+    {
+     "t": 1252.2,
+     "text": "And this past, I just finished my 20th episode."
+    },
+    {
+     "t": 1257.3,
+     "text": "It's been really an eye-opening experience where"
+    },
+    {
+     "t": 1261.8,
+     "text": "Meeting all these people and getting to understand their backgrounds, I'm learning a lot from everyone I've met."
+    },
+    {
+     "t": 1268.2,
+     "text": "I'm getting to learn, I'm getting to understand how, you know, how different backgrounds."
+    },
+    {
+     "t": 1274.3,
+     "text": "So I'm meeting journalists, librarians, social scientists, programmers, IT admins, and they've all transitioned to the jobs like security analysts, security engineers, security architects, compliance, CISOs, all over."
+    },
+    {
+     "t": 1286.5,
+     "text": "It's just been amazing."
+    },
+    {
+     "t": 1289.0,
+     "text": "And I think we really take for granted"
+    },
+    {
+     "t": 1291.5,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1322.0,
+   "end": 1326.2,
+   "lines": [
+    {
+     "t": 1322.0,
+     "text": "People assume that you have to have a math degree to really be a hacker or programmer."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1326.3,
+   "end": 1364.6,
+   "lines": [
+    {
+     "t": 1326.3,
+     "text": "That's right."
+    },
+    {
+     "t": 1326.9,
+     "text": "That's right."
+    },
+    {
+     "t": 1327.4,
+     "text": "It's a huge assumption."
+    },
+    {
+     "t": 1328.7,
+     "text": "I just heard it today."
+    },
+    {
+     "t": 1330.1,
+     "text": "Oh, I was interested in computers."
+    },
+    {
+     "t": 1332.3,
+     "text": "It's nice, but I'm not good at math."
+    },
+    {
+     "t": 1334.0,
+     "text": "I'm not good at math either."
+    },
+    {
+     "t": 1336.6,
+     "text": "So you have to find, first of all, it's good to know yourself."
+    },
+    {
+     "t": 1341.8,
+     "text": "I think in anything, not even security, anything, you need to know more about yourself."
+    },
+    {
+     "t": 1347.1,
+     "text": "So again, what are your strengths?"
+    },
+    {
+     "t": 1349.5,
+     "text": "A lot of times, we're really focused on strengthening our weaknesses when we really should be strengthening our strengths."
+    },
+    {
+     "t": 1358.4,
+     "text": "We're wasting a lot of time strengthening our weaknesses."
+    },
+    {
+     "t": 1361.9,
+     "text": "But we need to know what our strengths are."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1364.9,
+   "end": 1374.1,
+   "lines": [
+    {
+     "t": 1364.9,
+     "text": "Actually, there's a problem, too."
+    },
+    {
+     "t": 1366.8,
+     "text": "Everybody assumes that you take the quiz,"
+    },
+    {
+     "t": 1370.1,
+     "text": "That means you'll do badly on the job."
+    },
+    {
+     "t": 1372.3,
+     "text": "You may have more software or you know,"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1380.6,
+   "end": 1567.2,
+   "lines": [
+    {
+     "t": 1380.6,
+     "text": "That's right, that's right."
+    },
+    {
+     "t": 1381.4,
+     "text": "So the question was, or the comment was that a lot of people feel that if you don't do good on the quiz, then you're not suited for the job."
+    },
+    {
+     "t": 1389.7,
+     "text": "And if you fail this particular thing, well, you know what?"
+    },
+    {
+     "t": 1392.0,
+     "text": "The responsibility is also on hiring managers and hiring folks out there, okay?"
+    },
+    {
+     "t": 1396.5,
+     "text": "They have to be able to detect and see if this person is a good fit for their team or can, I'm sorry, can do the job, okay?"
+    },
+    {
+     "t": 1403.8,
+     "text": "A lot of times we have, a lot of times, we have folks that,"
+    },
+    {
+     "t": 1409.2,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 1424.4,
+     "text": "On he had brought someone into his organization and there was a lot of naysaying about bringing this person in but she did an amazing job she was very successful in moving forward to the security line a lot of people were criticizing him for hiring or bringing her in internally he's he's on you know he mentioned this on the show and"
+    },
+    {
+     "t": 1448.0,
+     "text": "You know she was a success story so he was able to pinpoint another person I saw a day of security identified someone that excuse me that didn't think they could do the job but knew that person could do the job and brought them in and they were just a gem a gem so a lot of things that you know what's everyone facing a lot everyone's facing lack of experience they have this catch-22 issue where"
+    },
+    {
+     "t": 1475.7,
+     "text": "I can't get a job because I need security experience, but I can't get security experience because I don't have a job."
+    },
+    {
+     "t": 1480.7,
+     "text": "So the fact of the matter is you kind of have to be creative, be curious, and entrepreneurial in the whole thing to try to solve this Catch-22 problem."
+    },
+    {
+     "t": 1494.9,
+     "text": "I added a couple new slides because I really want to focus on creativity."
+    },
+    {
+     "t": 1499.4,
+     "text": "I really think creativity is at the crux of a lot of this."
+    },
+    {
+     "t": 1502.3,
+     "text": "A lot of my guests I found are, you know,"
+    },
+    {
+     "t": 1505.8,
+     "text": "Coders, app creators, musicians, artists, bakers, writers."
+    },
+    {
+     "t": 1510.7,
+     "text": "If you're a coder, if you're creating an application, that is a creative talent."
+    },
+    {
+     "t": 1513.9,
+     "text": "You're producing something."
+    },
+    {
+     "t": 1515.4,
+     "text": "You have this satisfaction."
+    },
+    {
+     "t": 1517.1,
+     "text": "The dopamine comes in."
+    },
+    {
+     "t": 1518.5,
+     "text": "When you produce something, you make it work."
+    },
+    {
+     "t": 1519.8,
+     "text": "It's really amazing."
+    },
+    {
+     "t": 1523.3,
+     "text": "So there is this creativity bone in a lot of security professionals that is underestimated."
+    },
+    {
+     "t": 1531.0,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 1558.8,
+     "text": "So to be more creative, we need to try something new, get off the path of least resistance, and push boundaries."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1567.2,
+   "end": 1569.2,
+   "lines": [
+    {
+     "t": 1567.2,
+     "text": "Set a new standard."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1569.5,
+   "end": 1627.3,
+   "lines": [
+    {
+     "t": 1569.5,
+     "text": "Set it for yourself."
+    },
+    {
+     "t": 1570.5,
+     "text": "That's right."
+    },
+    {
+     "t": 1571.0,
+     "text": "That's right."
+    },
+    {
+     "t": 1571.7,
+     "text": "And not be afraid to fail."
+    },
+    {
+     "t": 1573.7,
+     "text": "Okay?"
+    },
+    {
+     "t": 1574.7,
+     "text": "There's this excellent documentary called The Creative Brain."
+    },
+    {
+     "t": 1576.9,
+     "text": "It's on Netflix."
+    },
+    {
+     "t": 1577.7,
+     "text": "I highly recommend it."
+    },
+    {
+     "t": 1578.8,
+     "text": "It'll inspire you."
+    },
+    {
+     "t": 1579.4,
+     "text": "If you ever feel bummed out, watch it."
+    },
+    {
+     "t": 1582.4,
+     "text": "It's really eye-opening."
+    },
+    {
+     "t": 1584.3,
+     "text": "And definitely, this whole neuroscience is just an amazing area to be explored."
+    },
+    {
+     "t": 1590.6,
+     "text": "There's a lot of exploration to be done there."
+    },
+    {
+     "t": 1591.9,
+     "text": "So the creative brain, yes."
+    },
+    {
+     "t": 1596.1,
+     "text": "So let's talk about trying something new."
+    },
+    {
+     "t": 1598.8,
+     "text": "So a lot of people, how many here are career changers coming from a different background?"
+    },
+    {
+     "t": 1605.2,
+     "text": "OK, can I get an example of what career?"
+    },
+    {
+     "t": 1609.1,
+     "text": "Let's start from the right, my right."
+    },
+    {
+     "t": 1612.3,
+     "text": "Legal."
+    },
+    {
+     "t": 1613.2,
+     "text": "Okay."
+    },
+    {
+     "t": 1613.6,
+     "text": "One of my guests was a paralegal and then now she's an awesome malware researcher."
+    },
+    {
+     "t": 1617.9,
+     "text": "Egyptology."
+    },
+    {
+     "t": 1619.9,
+     "text": "Egyptology."
+    },
+    {
+     "t": 1620.7,
+     "text": "That's awesome."
+    },
+    {
+     "t": 1623.2,
+     "text": "Okay."
+    },
+    {
+     "t": 1624.6,
+     "text": "That's a lot of research."
+    },
+    {
+     "t": 1626.3,
+     "text": "That's a lot."
+    },
+    {
+     "t": 1627.0,
+     "text": "Yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1627.4,
+   "end": 1639.3,
+   "lines": [
+    {
+     "t": 1627.4,
+     "text": "Travis, where are you coming from?"
+    },
+    {
+     "t": 1634.3,
+     "text": "Well, there we are."
+    },
+    {
+     "t": 1636.3,
+     "text": "Skateboard."
+    },
+    {
+     "t": 1636.9,
+     "text": "Skateboard industry."
+    },
+    {
+     "t": 1638.1,
+     "text": "All right."
+    },
+    {
+     "t": 1638.8,
+     "text": "Awesome."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1639.6,
+   "end": 1779.4,
+   "lines": [
+    {
+     "t": 1639.6,
+     "text": "Awesome."
+    },
+    {
+     "t": 1640.4,
+     "text": "Awesome."
+    },
+    {
+     "t": 1641.4,
+     "text": "And you?"
+    },
+    {
+     "t": 1643.7,
+     "text": "Wine-smelling okay very similar to coffee so that's that's pretty cool so everyone that just mentioned right now there's a there's a trait that can apply to information security believe it or not right paralegal like being able to sift through information and go through things skateboarder right just being able to like I'm sorry"
+    },
+    {
+     "t": 1669.3,
+     "text": "Independent music okay travel yeah so people person that is probably a people person that person right there so you know skateboarding that dopamine that you know that rush egyptology just you know cryptography goes right along there right so almost the same wine same thing so there's always some so everyone here or those that are switching are trying something new this person right here he"
+    },
+    {
+     "t": 1695.9,
+     "text": "This person has excelled in physics, cooking, all these different things."
+    },
+    {
+     "t": 1701.8,
+     "text": "He has patents."
+    },
+    {
+     "t": 1703.9,
+     "text": "It's insane."
+    },
+    {
+     "t": 1704.6,
+     "text": "I mean, you're just blown away."
+    },
+    {
+     "t": 1706.0,
+     "text": "So this is the anti-specialist."
+    },
+    {
+     "t": 1709.0,
+     "text": "Where he's always trying to get something new."
+    },
+    {
+     "t": 1713.5,
+     "text": "But look at this, he says, part of that learning is that you have to be confused."
+    },
+    {
+     "t": 1716.5,
+     "text": "So I'm often very frustrated and confused and think of myself as being really stupid because I'm not getting it."
+    },
+    {
+     "t": 1723.5,
+     "text": "How many here have felt in that situation?"
+    },
+    {
+     "t": 1727.1,
+     "text": "Right?"
+    },
+    {
+     "t": 1727.8,
+     "text": "Right?"
+    },
+    {
+     "t": 1729.1,
+     "text": "And so I see this and I'm like, wow, that's awesome."
+    },
+    {
+     "t": 1732.2,
+     "text": "And I'm like, I'm not the only one."
+    },
+    {
+     "t": 1733.6,
+     "text": "This is great."
+    },
+    {
+     "t": 1735.0,
+     "text": "So just something to keep in mind."
+    },
+    {
+     "t": 1737.5,
+     "text": "So what else, if we want to foster creativity, what else is there?"
+    },
+    {
+     "t": 1740.8,
+     "text": "Well, we have to get off the path of least resistance."
+    },
+    {
+     "t": 1744.4,
+     "text": "I don't think I, oh yeah."
+    },
+    {
+     "t": 1747.9,
+     "text": "So the brain only weighs three pounds, but uses 20% of our body's energy."
+    },
+    {
+     "t": 1753.4,
+     "text": "Go figure okay and so it's always going to want to do the thing that's easiest the path of least resistance because it just it wants to save quote-unquote battery as the host david says"
+    },
+    {
+     "t": 1764.4,
+     "text": "So, you know, it's always going to choose the most obvious answer."
+    },
+    {
+     "t": 1767.6,
+     "text": "And, of course, how many people just after having a long day just want to go home and veg and just do nothing, right?"
+    },
+    {
+     "t": 1773.7,
+     "text": "And recharge, right?"
+    },
+    {
+     "t": 1775.5,
+     "text": "But is that a misnomer?"
+    },
+    {
+     "t": 1776.8,
+     "text": "I don't know."
+    },
+    {
+     "t": 1777.1,
+     "text": "This is not going to be a motivational talk right now."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1779.5,
+   "end": 1782.6,
+   "lines": [
+    {
+     "t": 1779.5,
+     "text": "But, like, you know, it's something to think about, right?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 1782.6,
+   "end": 1800.3,
+   "lines": [
+    {
+     "t": 1782.6,
+     "text": "Yes, we do need self-care."
+    },
+    {
+     "t": 1784.0,
+     "text": "I think self-care is important."
+    },
+    {
+     "t": 1785.4,
+     "text": "That's often overlooked, as we talked earlier, in the tech industry and in many industries, right?"
+    },
+    {
+     "t": 1793.8,
+     "text": "Again, it's getting that motivation to do something different."
+    },
+    {
+     "t": 1797.5,
+     "text": "And this is the host, David Eagleman."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1812.6,
+   "end": 1815.5,
+   "lines": [
+    {
+     "t": 1812.6,
+     "text": "That's the problem with Zoom."
+    },
+    {
+     "t": 1813.7,
+     "text": "You have some extra windows that are kind of in the way."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1815.5,
+   "end": 1823.3,
+   "lines": [
+    {
+     "t": 1815.5,
+     "text": "Yeah, that's weird."
+    },
+    {
+     "t": 1816.1,
+     "text": "I've never seen it before."
+    },
+    {
+     "t": 1817.7,
+     "text": "OK."
+    },
+    {
+     "t": 1821.7,
+     "text": "Okay, so next thing, don't be afraid to fail."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1823.3,
+   "end": 1827.0,
+   "lines": [
+    {
+     "t": 1823.3,
+     "text": "How many people have heard this before, right?"
+    },
+    {
+     "t": 1826.3,
+     "text": "Fail often, fail, yeah."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1829.5,
+   "end": 1877.0,
+   "lines": [
+    {
+     "t": 1829.5,
+     "text": "Well, you know, failure, it's easy to say, but you know, I mean,"
+    },
+    {
+     "t": 1850.7,
+     "text": "Until you experience it, you know, it's really, it's really hard."
+    },
+    {
+     "t": 1853.6,
+     "text": "I mean, I myself had some really personal failures, you know, a couple years ago, and it took a while to get over."
+    },
+    {
+     "t": 1859.2,
+     "text": "I'm not going to lie, right?"
+    },
+    {
+     "t": 1861.8,
+     "text": "But there's the other side where perfection is a twin of procrastination, right?"
+    },
+    {
+     "t": 1868.0,
+     "text": "And that's me."
+    },
+    {
+     "t": 1869.1,
+     "text": "I just like, you know, and, you know, keep editing the episode and keep adding more slides and it's never done."
+    },
+    {
+     "t": 1875.1,
+     "text": "It's like, no, just stop."
+    },
+    {
+     "t": 1876.3,
+     "text": "Just get it done."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1877.5,
+   "end": 1879.0,
+   "lines": [
+    {
+     "t": 1877.5,
+     "text": "So that's something to think about."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 1883.6,
+   "end": 2020.0,
+   "lines": [
+    {
+     "t": 1883.6,
+     "text": "And so if you really think about it, success comes out of failure."
+    },
+    {
+     "t": 1889.2,
+     "text": "Okay, success comes out of failure."
+    },
+    {
+     "t": 1892.2,
+     "text": "So allow yourself to fail."
+    },
+    {
+     "t": 1894.3,
+     "text": "Don't be so hard on yourself."
+    },
+    {
+     "t": 1896.6,
+     "text": "Okay, allow yourself to fail."
+    },
+    {
+     "t": 1898.4,
+     "text": "It's okay."
+    },
+    {
+     "t": 1899.4,
+     "text": "It's really fine."
+    },
+    {
+     "t": 1902.1,
+     "text": "This is another quote."
+    },
+    {
+     "t": 1906.2,
+     "text": "And if you believe it or not, this quote was"
+    },
+    {
+     "t": 1910.8,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 1934.2,
+     "text": "What did everybody have to do, right?"
+    },
+    {
+     "t": 1935.7,
+     "text": "They were all creative."
+    },
+    {
+     "t": 1936.8,
+     "text": "They were all curious."
+    },
+    {
+     "t": 1938.4,
+     "text": "And they had some grit and entrepreneurial spirit where they just kind of had to move on."
+    },
+    {
+     "t": 1942.3,
+     "text": "If you think about it, all this is related."
+    },
+    {
+     "t": 1944.6,
+     "text": "All this is tied to helping you get into infosec."
+    },
+    {
+     "t": 1950.3,
+     "text": "Because in the information security field, I think that's about it."
+    },
+    {
+     "t": 1954.1,
+     "text": "In the information security field,"
+    },
+    {
+     "t": 1957.3,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 1986.1,
+     "text": "You say you're a security analyst, you're starting off, and you're looking at logs, and you're trying to figure out what is going on."
+    },
+    {
+     "t": 1991.4,
+     "text": "You need to persist."
+    },
+    {
+     "t": 1993.4,
+     "text": "One of my guests, Jared, not to give a spoiler, but because of persistence, he was able to find"
+    },
+    {
+     "t": 2002.2,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 2010.4,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2056.7,
+   "end": 2086.1,
+   "lines": [
+    {
+     "t": 2056.7,
+     "text": "So unless you make it something really important, say this is your fourth child and you're just abandoning"
+    },
+    {
+     "t": 2062.4,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec,"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2097.4,
+   "end": 2177.0,
+   "lines": [
+    {
+     "t": 2097.4,
+     "text": "Well you know I think things are changing where you know we're a lot of we're focusing on computer science and security is kind of coming again you know"
+    },
+    {
+     "t": 2109.2,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 2117.8,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 2143.3,
+     "text": "That's right."
+    },
+    {
+     "t": 2144.0,
+     "text": "That's right."
+    },
+    {
+     "t": 2144.6,
+     "text": "And I think that's, you know, one of my guests had a comment on aptitude where, you know, I was like, what do you think about aptitude?"
+    },
+    {
+     "t": 2152.3,
+     "text": "And people think that you have to have this aptitude, but there is this notion out there that aptitude can be cultivated and can be grown, right?"
+    },
+    {
+     "t": 2160.5,
+     "text": "So that is something to consider."
+    },
+    {
+     "t": 2162.2,
+     "text": "You know, again, I think there's a two-part responsibility."
+    },
+    {
+     "t": 2166.0,
+     "text": "So it's us to get out there and kind of like learn, you know, or get immerse ourselves and just get out of our seats and have that harness that creativity."
+    },
+    {
+     "t": 2174.4,
+     "text": "But also the industry is definitely to blame, you know."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2177.8,
+   "end": 2179.9,
+   "lines": [
+    {
+     "t": 2177.8,
+     "text": "Tell us what's in this book."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2180.9,
+   "end": 2306.2,
+   "lines": [
+    {
+     "t": 2180.9,
+     "text": "Yeah."
+    },
+    {
+     "t": 2181.2,
+     "text": "So in the book I talk about, you know, understand the culture."
+    },
+    {
+     "t": 2186.4,
+     "text": "I think there's a really strong cultural component to information security."
+    },
+    {
+     "t": 2191.6,
+     "text": "That, you know, I think is often missed."
+    },
+    {
+     "t": 2193.8,
+     "text": "I talk about different positions that are out there because everyone wants to be a hacker."
+    },
+    {
+     "t": 2197.4,
+     "text": "That's great."
+    },
+    {
+     "t": 2198.4,
+     "text": "I think that's really good, but companies are not hiring only hackers."
+    },
+    {
+     "t": 2202.7,
+     "text": "Okay."
+    },
+    {
+     "t": 2204.5,
+     "text": "If you really talk to, in reality,"
+    },
+    {
+     "t": 2207.5,
+     "text": "I'm a big company."
+    },
+    {
+     "t": 2208.8,
+     "text": "I outsource the hacking."
+    },
+    {
+     "t": 2210.8,
+     "text": "I hire another company that brings in hackers."
+    },
+    {
+     "t": 2213.5,
+     "text": "I hire directly service security analysts, security architects, security engineers, so they can make myself secure."
+    },
+    {
+     "t": 2219.8,
+     "text": "Builders."
+    },
+    {
+     "t": 2220.6,
+     "text": "Okay?"
+    },
+    {
+     "t": 2221.5,
+     "text": "And I get it."
+    },
+    {
+     "t": 2223.2,
+     "text": "There is that dopamine, but there is also the dopamine of building something awesome."
+    },
+    {
+     "t": 2227.3,
+     "text": "Okay?"
+    },
+    {
+     "t": 2227.8,
+     "text": "I'll share something about me."
+    },
+    {
+     "t": 2230.5,
+     "text": "I wanted to be a hacker break girl so long, and I spent a lot of time trying to do it."
+    },
+    {
+     "t": 2237.2,
+     "text": "Finally got a job to do it."
+    },
+    {
+     "t": 2238.3,
+     "text": "And I realized I'm not really, I'm more of a builder."
+    },
+    {
+     "t": 2241.3,
+     "text": "I've been a builder my whole life."
+    },
+    {
+     "t": 2242.4,
+     "text": "You know, even before it was security, it was Linux admin, Cisco security, network admin, all that stuff."
+    },
+    {
+     "t": 2247.4,
+     "text": "I love building things."
+    },
+    {
+     "t": 2248.4,
+     "text": "Love it."
+    },
+    {
+     "t": 2248.7,
+     "text": "I could do it all day."
+    },
+    {
+     "t": 2250.8,
+     "text": "And so I had to come and realize that was a failure, right?"
+    },
+    {
+     "t": 2253.8,
+     "text": "But I learned from that."
+    },
+    {
+     "t": 2254.9,
+     "text": "I learned from that."
+    },
+    {
+     "t": 2256.0,
+     "text": "I got exposed to a really good environment."
+    },
+    {
+     "t": 2257.7,
+     "text": "It was a nice, awesome team."
+    },
+    {
+     "t": 2261.6,
+     "text": "And I took that and incorporated it back into the building, right?"
+    },
+    {
+     "t": 2264.6,
+     "text": "But I learned, you know, I could have spent a long time trying to, you know, make it work."
+    },
+    {
+     "t": 2270.3,
+     "text": "But like, again, fail fast and fail often, right?"
+    },
+    {
+     "t": 2272.8,
+     "text": "So kind of learning from your fail."
+    },
+    {
+     "t": 2274.9,
+     "text": "And then also my story is in the book too."
+    },
+    {
+     "t": 2277.3,
+     "text": "So it's kind of like, you know, and some funny stories."
+    },
+    {
+     "t": 2279.6,
+     "text": "I made up a story."
+    },
+    {
+     "t": 2281.3,
+     "text": "You know, I kind of took some fictional creativity there and, put some things in there, you know, and it's always, it's always updated."
+    },
+    {
+     "t": 2288.4,
+     "text": "So, the cool thing is, it's on Kindle."
+    },
+    {
+     "t": 2291.6,
+     "text": "If you, it's always updated."
+    },
+    {
+     "t": 2292.7,
+     "text": "And then when you order it, it's really weird, but like, Amazon prints it dynamically."
+    },
+    {
+     "t": 2297.8,
+     "text": "So it's like every copy is printed like for you."
+    },
+    {
+     "t": 2301.1,
+     "text": "So if I update it tomorrow, you'll get that copy anyway."
+    },
+    {
+     "t": 2304.8,
+     "text": "Yeah, yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2357.5,
+   "end": 2382.2,
+   "lines": [
+    {
+     "t": 2357.5,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 2369.5,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 2387.7,
+   "end": 2440.9,
+   "lines": [
+    {
+     "t": 2387.7,
+     "text": "That's right, that's right."
+    },
+    {
+     "t": 2388.5,
+     "text": "So the comment was, for everyone online and whatever, the comment was that a lot of people are taking courses, several courses in fact, but not dipping their feet or their hands into security and kind of getting that hands-on experience getting out."
+    },
+    {
+     "t": 2406.8,
+     "text": "So I think that's super important."
+    },
+    {
+     "t": 2409.2,
+     "text": "That's super important to kind of just get off and go ahead and do it."
+    },
+    {
+     "t": 2415.0,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 2422.5,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 2430.4,
+     "text": "My brother tells it to me sometimes."
+    },
+    {
+     "t": 2434.9,
+     "text": "Just get up and do it."
+    },
+    {
+     "t": 2436.5,
+     "text": "Start small."
+    },
+    {
+     "t": 2437.4,
+     "text": "You don't have to build an awesome lab and spend tons of money."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2441.3,
+   "end": 2445.4,
+   "lines": [
+    {
+     "t": 2441.3,
+     "text": "Use what you have at home."
+    },
+    {
+     "t": 2442.5,
+     "text": "Install Wireshark on your computer."
+    },
+    {
+     "t": 2444.1,
+     "text": "Take a look at some network packets."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 2446.7,
+   "end": 2510.4,
+   "lines": [
+    {
+     "t": 2446.7,
+     "text": "You know, if you can afford it, buy a router that will let you see all the packets and see, you know, Untangle."
+    },
+    {
+     "t": 2453.6,
+     "text": "I have an example."
+    },
+    {
+     "t": 2454.9,
+     "text": "There's Untangle."
+    },
+    {
+     "t": 2456.0,
+     "text": "It'll let you make an $80 router into a $400 router, right?"
+    },
+    {
+     "t": 2461.7,
+     "text": "You know, with minimal cost."
+    },
+    {
+     "t": 2463.4,
+     "text": "You use PFSense."
+    },
+    {
+     "t": 2464.7,
+     "text": "There's a lot of different open source stuff that you can do to..."
+    },
+    {
+     "t": 2469.0,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, HIPAA,"
+    },
+    {
+     "t": 2493.1,
+     "text": "That's true."
+    },
+    {
+     "t": 2493.8,
+     "text": "That's true."
+    },
+    {
+     "t": 2495.6,
+     "text": "I do have someone did mention that they live with roommates."
+    },
+    {
+     "t": 2498.5,
+     "text": "And so, you know, they can't be like sniffing."
+    },
+    {
+     "t": 2500.4,
+     "text": "I'm like, okay, well, then just like, break off of the router, create your own router."
+    },
+    {
+     "t": 2505.8,
+     "text": "And then just, you know, sniff that traffic, right?"
+    },
+    {
+     "t": 2507.8,
+     "text": "Or just stick with that."
+    },
+    {
+     "t": 2508.7,
+     "text": "I don't know."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2511.4,
+   "end": 2513.2,
+   "lines": [
+    {
+     "t": 2511.4,
+     "text": "There's learning even by making that mistake."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2514.1,
+   "end": 2635.8,
+   "lines": [
+    {
+     "t": 2514.1,
+     "text": "So they're burning even when they do that yes make mistakes like just get in it you know one thing to do is go on youtube and check out some how to like walk through videos i think engineer man has some amazing videos of he just writes python and like he wrote one python script to combat a spammer or something like that"
+    },
+    {
+     "t": 2537.4,
+     "text": "It was hilarious."
+    },
+    {
+     "t": 2538.3,
+     "text": "And you just hit pause and just dedicate some time."
+    },
+    {
+     "t": 2542.2,
+     "text": "Build a habit."
+    },
+    {
+     "t": 2543.5,
+     "text": "I think inertia, if we think about our physics, inertia is the hardest part."
+    },
+    {
+     "t": 2548.9,
+     "text": "But once we're moving, we're in motion."
+    },
+    {
+     "t": 2552.9,
+     "text": "So it's easier to keep it up."
+    },
+    {
+     "t": 2556.0,
+     "text": "So just getting that first step."
+    },
+    {
+     "t": 2560.0,
+     "text": "You know, listen to the podcast."
+    },
+    {
+     "t": 2561.3,
+     "text": "I think that's why I created the podcast is to help inspire you."
+    },
+    {
+     "t": 2565.6,
+     "text": "I think one person, you know, I think we have to kind of take some accountability ourselves too, where I think one of my guests was talking about how someone came to them for mentorship and was like, Hey, listen, I just have an hour."
+    },
+    {
+     "t": 2580.5,
+     "text": "Can you just tell me what, you know, you're coming to this person who is an expert in their field and you want them to, you know,"
+    },
+    {
+     "t": 2588.7,
+     "text": "Share this time with you and you're putting them on so again a little bit of respect a little bit of you know humbleness and kind of just but just start yeah I think that I hope that answers your question you know this whole ecosystem that I've created here is to help to help do that so to help inspire folks actually you can have a triple gateway with Comcast you can you're a partner as well and you can set up a childhood castle you can log into Xfinity through the wi-fi"
+    },
+    {
+     "t": 2625.5,
+     "text": "There you go."
+    },
+    {
+     "t": 2627.2,
+     "text": "Or get a second IP."
+    },
+    {
+     "t": 2628.2,
+     "text": "I think Comcast might let you have a second IP."
+    },
+    {
+     "t": 2632.2,
+     "text": "Any other comments or questions from online or here?"
+    },
+    {
+     "t": 2635.3,
+     "text": "These are great."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2649.1,
+   "end": 2676.3,
+   "lines": [
+    {
+     "t": 2649.1,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec,"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2678.6,
+   "end": 2687.3,
+   "lines": [
+    {
+     "t": 2678.6,
+     "text": "Who here is graduating like really soon and actively looking for work now?"
+    },
+    {
+     "t": 2684.5,
+     "text": "Oh, okay, okay."
+    },
+    {
+     "t": 2686.2,
+     "text": "And how has that experience been?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2687.4,
+   "end": 2692.4,
+   "lines": [
+    {
+     "t": 2687.4,
+     "text": "It's been good so far."
+    },
+    {
+     "t": 2689.9,
+     "text": "I mean, I haven't had any problems."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 2692.4,
+   "end": 2699.9,
+   "lines": [
+    {
+     "t": 2692.4,
+     "text": "Mostly referrals, a lot of Twitter postings, people responding, doing a lot of job interviews right now."
+    },
+    {
+     "t": 2699.7,
+     "text": "Okay."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2700.1,
+   "end": 2700.8,
+   "lines": [
+    {
+     "t": 2700.1,
+     "text": "It's been crazy."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 2701.1,
+   "end": 2702.5,
+   "lines": [
+    {
+     "t": 2701.1,
+     "text": "Okay, okay."
+    },
+    {
+     "t": 2702.1,
+     "text": "And yourself?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2709.1,
+   "end": 2710.3,
+   "lines": [
+    {
+     "t": 2709.1,
+     "text": "Okay, okay, okay."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 2710.7,
+   "end": 2773.3,
+   "lines": [
+    {
+     "t": 2710.7,
+     "text": "Yeah, I mean, I think one thing also to do is document your learnings."
+    },
+    {
+     "t": 2716.7,
+     "text": "I think creating a blog or creating a GitHub account and participating, you know, again, a lot of my, some of my guests talked about this."
+    },
+    {
+     "t": 2726.5,
+     "text": "Create a GitHub account and find the project that you might be interested in and contribute to that."
+    },
+    {
+     "t": 2731.6,
+     "text": "Say there's a bug or an issue, they listen, people need help."
+    },
+    {
+     "t": 2734.9,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 2745.5,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 2763.4,
+     "text": "But also the employers will see this, that you've taken some initiative, they know what you know more, like kind of helps build a bigger picture."
+    },
+    {
+     "t": 2771.7,
+     "text": "Yeah, I think Steve had a question."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2774.4,
+   "end": 2800.5,
+   "lines": [
+    {
+     "t": 2774.4,
+     "text": "One of the things, again, from a perspective, I've noticed is that there's people walking around who are pretty good at what they're doing, according to the instructors, and they just don't think they're ready for a job."
+    },
+    {
+     "t": 2789.2,
+     "text": "Right."
+    },
+    {
+     "t": 2789.7,
+     "text": "And I've had some people"
+    },
+    {
+     "t": 2791.7,
+     "text": "That I've, you know, sent to employers and it turns out they are a lot more well prepared for a job than they ever could possibly have."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 2800.9,
+   "end": 2801.2,
+   "lines": [
+    {
+     "t": 2800.9,
+     "text": "Yep, yep."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2801.5,
+   "end": 2812.3,
+   "lines": [
+    {
+     "t": 2801.5,
+     "text": "And I've noticed an instance of that today."
+    },
+    {
+     "t": 2804.4,
+     "text": "I had somebody get, you know, a fairly big opportunity and he, you know, was a week ago, do you think I could possibly do that?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 2812.6,
+   "end": 2812.8,
+   "lines": [
+    {
+     "t": 2812.6,
+     "text": "Yep."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2812.8,
+   "end": 2813.9,
+   "lines": [
+    {
+     "t": 2812.8,
+     "text": "That was their perspective."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 3"
+  },
+  {
+   "start": 2814.3,
+   "end": 2915.2,
+   "lines": [
+    {
+     "t": 2814.3,
+     "text": "Yeah, the comment was that there are a lot of folks that are very well prepared to be employed, but they themselves don't think so."
+    },
+    {
+     "t": 2826.4,
+     "text": "And this is super common."
+    },
+    {
+     "t": 2828.0,
+     "text": "It's called imposter syndrome."
+    },
+    {
+     "t": 2830.4,
+     "text": "Imposter syndrome, it's a huge thing."
+    },
+    {
+     "t": 2833.7,
+     "text": "Everyone faces it."
+    },
+    {
+     "t": 2835.1,
+     "text": "I face it."
+    },
+    {
+     "t": 2836.6,
+     "text": "A lot of people out there face it."
+    },
+    {
+     "t": 2841.6,
+     "text": "Sometimes it's compounded by social media."
+    },
+    {
+     "t": 2844.8,
+     "text": "Oftentimes it's compounded by social media because you're seeing all these people, but you're only seeing one side of them."
+    },
+    {
+     "t": 2850.4,
+     "text": "And I think, again, it's about the first step is to admit that we have something."
+    },
+    {
+     "t": 2857.5,
+     "text": "And so if we understand that imposter syndrome is real,"
+    },
+    {
+     "t": 2861.8,
+     "text": "I mean, there's even a Twitter account called imposter syndrome, imposter syndrome cat or something like that."
+    },
+    {
+     "t": 2866.1,
+     "text": "So, you know, more and more people are talking about it now."
+    },
+    {
+     "t": 2870.0,
+     "text": "And so it's out there."
+    },
+    {
+     "t": 2871.1,
+     "text": "And so I think that self-care, that social, the psychology component is also very important in the job hiring process."
+    },
+    {
+     "t": 2878.9,
+     "text": "Do you know that women, for example, or men,"
+    },
+    {
+     "t": 2884.0,
+     "text": "So, when they see job posting, they only feel like they need to meet 60% of the job posting to apply."
+    },
+    {
+     "t": 2890.7,
+     "text": "But women feel like they must meet 100% of it before they actually apply."
+    },
+    {
+     "t": 2895.7,
+     "text": "And so, there's this bias."
+    },
+    {
+     "t": 2899.1,
+     "text": "Again, the industry, some people put everything in the kitchen sink in the job description."
+    },
+    {
+     "t": 2905.3,
+     "text": "They're looking for this, and they want the person to do this, and they put this."
+    },
+    {
+     "t": 2910.1,
+     "text": "It's just insane."
+    },
+    {
+     "t": 2911.0,
+     "text": "I used to talk about it in the book."
+    },
+    {
+     "t": 2912.0,
+     "text": "I'm like, here are some examples of bad job descriptions, and here are some good ones."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2915.3,
+   "end": 2918.4,
+   "lines": [
+    {
+     "t": 2915.3,
+     "text": "How to steer up your employee."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2918.6,
+   "end": 2962.8,
+   "lines": [
+    {
+     "t": 2918.6,
+     "text": "Again, it's a problem."
+    },
+    {
+     "t": 2921.1,
+     "text": "I think there's two components."
+    },
+    {
+     "t": 2922.3,
+     "text": "The industry can do better about identifying people that can do the job."
+    },
+    {
+     "t": 2927.4,
+     "text": "Okay, but also we even institutions like this, like this one, need to maybe have training for folks about imposter syndrome."
+    },
+    {
+     "t": 2936.8,
+     "text": "And that psychology component, that's really super important."
+    },
+    {
+     "t": 2940.3,
+     "text": "And I mean, it's nerve wracking."
+    },
+    {
+     "t": 2942.1,
+     "text": "I gotta tell you, I mean, you know, you know, trying to switch a career, you know, by itself is a nerve wracking and then trying to go into like one that especially in the Bay Area."
+    },
+    {
+     "t": 2953.9,
+     "text": "You know, it's not easy."
+    },
+    {
+     "t": 2956.4,
+     "text": "I don't know, it is not easy, but with more information, with more knowledge, we can do a better job."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2964.8,
+   "end": 2979.0,
+   "lines": [
+    {
+     "t": 2964.8,
+     "text": "Well, the other factor is you've got the military, and in the military, it's still considered, you know, cyber is part of the military, and it's not part of a nerd's job, so they expect you still to shoot a gun and not, you know, fight a cyber war."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2979.3,
+   "end": 3003.8,
+   "lines": [
+    {
+     "t": 2979.3,
+     "text": "Well, a couple of my guests have actually former Marines and Navy veterans."
+    },
+    {
+     "t": 2984.2,
+     "text": "And so they had some interesting experiences."
+    },
+    {
+     "t": 2986.6,
+     "text": "I would check out a bonus episode by infosec John."
+    },
+    {
+     "t": 2989.3,
+     "text": "After you listen to the whole thing, he talks about how he almost got crushed in a two or three story cylinder in a Navy ship because they turned on the engine while he was in the cylinder."
+    },
+    {
+     "t": 3001.3,
+     "text": "So we're thankful that he's with us today."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3003.8,
+   "end": 3011.8,
+   "lines": [
+    {
+     "t": 3003.8,
+     "text": "Yeah."
+    },
+    {
+     "t": 3008.7,
+     "text": "All security starting in the military."
+    },
+    {
+     "t": 3010.6,
+     "text": "Right."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 3012.0,
+   "end": 3015.3,
+   "lines": [
+    {
+     "t": 3012.0,
+     "text": "Red team, blue team, where did it come from, right?"
+    },
+    {
+     "t": 3014.1,
+     "text": "You know, the whole terminology."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3015.8,
+   "end": 3021.4,
+   "lines": [
+    {
+     "t": 3015.8,
+     "text": "So there's nothing for you to change in that."
+    },
+    {
+     "t": 3018.0,
+     "text": "It's not like they're the one nerds in Texas because they still expect you to follow them."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 3021.4,
+   "end": 3025.3,
+   "lines": [
+    {
+     "t": 3021.4,
+     "text": "No, they're actually absolutely one nerds."
+    },
+    {
+     "t": 3023.4,
+     "text": "Yeah."
+    },
+    {
+     "t": 3024.0,
+     "text": "Yeah."
+    },
+    {
+     "t": 3024.3,
+     "text": "They're absolutely in demand."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3027.8,
+   "end": 3033.0,
+   "lines": [
+    {
+     "t": 3027.8,
+     "text": "But I think sometimes you have to sign in like you're signing up for the military, not like you're a military colonel."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 3038.7,
+   "end": 3044.2,
+   "lines": [
+    {
+     "t": 3038.7,
+     "text": "So any other questions, comments?"
+    },
+    {
+     "t": 3041.3,
+     "text": "All right guys, thank you so much."
+    },
+    {
+     "t": 3043.1,
+     "text": "Thank you."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

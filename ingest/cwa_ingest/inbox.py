@@ -1,5 +1,6 @@
 """media/inbox/: drop a recording (or a list of links) in and it gets ingested.
 
+Videos only: audio files are moved to _failed/ untouched.
 A recording becomes a talks.md entry and moves to media/library/<slug>.<ext>.
 An optional Markdown file with the same name carries its details, e.g.
 
@@ -135,6 +136,11 @@ def process_inbox_files(wait_for_stable: bool = True) -> bool:
     stems_with_media = {p.stem for p in files if p.suffix.lower() in config.MEDIA_EXTS}
     for path in files:
         ext = path.suffix.lower()
+        if ext in config.AUDIO_EXTS and is_stable(path):
+            log.warning("inbox: %s is audio only — the archive is videos only; moved to _failed", path.name)
+            config.FAILED.mkdir(parents=True, exist_ok=True)
+            shutil.move(path, config.FAILED / f"{path.name}.audio-only")
+            continue
         if ext not in config.MEDIA_EXTS and ext not in config.LIST_EXTS:
             continue
         if ext in config.LIST_EXTS and path.stem in stems_with_media:

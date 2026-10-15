@@ -1,0 +1,1448 @@
+{
+ "slug": "bsidessf-2026-google-drive-hunter-building-the-tool-google",
+ "scope": "all",
+ "format": "talk",
+ "turns": [
+  {
+   "start": 0.1,
+   "end": 34.8,
+   "lines": [
+    {
+     "t": 0.1,
+     "text": "Okay, let's go ahead and get started, everybody."
+    },
+    {
+     "t": 2.4,
+     "text": "Thank you for joining us in our next session."
+    },
+    {
+     "t": 4.5,
+     "text": "We have Ayman Elsawah joining us today, and he's going to be talking about Sleuther, building a tool that Google should have built."
+    },
+    {
+     "t": 15.5,
+     "text": "FKA, colon, Google Drive, Hunter."
+    },
+    {
+     "t": 18.9,
+     "text": "So please, if you have Q&A, again, go to Slido."
+    },
+    {
+     "t": 21.7,
+     "text": "If you didn't get that QR code in the beginning before we took it off, please go to bsidesf.org slash Q&A."
+    },
+    {
+     "t": 31.3,
+     "text": "Quebec, November, Alpha, not Ampersand."
+    },
+    {
+     "t": 33.1,
+     "text": "All right, thank you, and take it away, sir."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 35.5,
+   "end": 909.1,
+   "lines": [
+    {
+     "t": 35.5,
+     "text": "All right."
+    },
+    {
+     "t": 36.1,
+     "text": "Thank you."
+    },
+    {
+     "t": 36.4,
+     "text": "Hi, everyone."
+    },
+    {
+     "t": 37.1,
+     "text": "How's it going?"
+    },
+    {
+     "t": 37.9,
+     "text": "I cannot see you."
+    },
+    {
+     "t": 39.1,
+     "text": "I'm blinded by this light."
+    },
+    {
+     "t": 41.5,
+     "text": "But I see some faces."
+    },
+    {
+     "t": 42.4,
+     "text": "So thanks for having me."
+    },
+    {
+     "t": 44.7,
+     "text": "So thanks for coming to my talk."
+    },
+    {
+     "t": 45.9,
+     "text": "Today, I'm talking about Sleuther."
+    },
+    {
+     "t": 47.5,
+     "text": "So it was called Google Drive Hunter, but I decided to change the name just to avoid any license issues."
+    },
+    {
+     "t": 55.7,
+     "text": "And it's kind of in line with this web app I've been playing with as well."
+    },
+    {
+     "t": 60.1,
+     "text": "And it's a cool name."
+    },
+    {
+     "t": 60.9,
+     "text": "So there you go."
+    },
+    {
+     "t": 63.0,
+     "text": "So today we're going to talk a little about, I'll introduce myself, and then we'll also talk about the problem of shared drive files, and what kind of inspired me to build this tool."
+    },
+    {
+     "t": 75.0,
+     "text": "And it was a really fun summer with Cloud Code, just to give you a little preview."
+    },
+    {
+     "t": 80.1,
+     "text": "And then an interesting story that came up during the time that I was building the tool and just playing around."
+    },
+    {
+     "t": 86.4,
+     "text": "And then what's in store in the future, and then happy to take some questions at the end."
+    },
+    {
+     "t": 92.7,
+     "text": "This is the only white slide."
+    },
+    {
+     "t": 95.0,
+     "text": "So my name is Ayman Elsawah."
+    },
+    {
+     "t": 96.5,
+     "text": "I'm the head of security currently at Ambience Healthcare."
+    },
+    {
+     "t": 99.2,
+     "text": "And we are hiring."
+    },
+    {
+     "t": 100.2,
+     "text": "We're looking for staff security engineers and a really super duper technical IT automation person."
+    },
+    {
+     "t": 107.5,
+     "text": "So if you fit the bill, then please get in touch."
+    },
+    {
+     "t": 111.4,
+     "text": "A little about myself, too."
+    },
+    {
+     "t": 112.6,
+     "text": "I also started a podcast previously called Getting Into Infosec."
+    },
+    {
+     "t": 116.7,
+     "text": "And what I would do is I'd interview people how they got into security because there is no one direct path into security."
+    },
+    {
+     "t": 122.6,
+     "text": "So the idea was to help inspire and encourage other folks out there trying to get into the field."
+    },
+    {
+     "t": 128.8,
+     "text": "So that's that."
+    },
+    {
+     "t": 130.8,
+     "text": "And then I also wrote a book where if we sat down for coffee, which I'm a bit of a coffee nerd, you'll see in a second, this is what I would say."
+    },
+    {
+     "t": 138.6,
+     "text": "It's filled with homework and a little bit of a guide of, you know, if we had a chat for about an hour, this is what we'd go over."
+    },
+    {
+     "t": 145.5,
+     "text": "And like I said, I'm a little bit of a coffee nerd."
+    },
+    {
+     "t": 147.8,
+     "text": "This was my set on the left here previously."
+    },
+    {
+     "t": 151.1,
+     "text": "This is from this morning."
+    },
+    {
+     "t": 152.9,
+     "text": "So it's, you know, it's getting a little out of control."
+    },
+    {
+     "t": 156.4,
+     "text": "I've stopped the bar at roasting."
+    },
+    {
+     "t": 158.4,
+     "text": "I have not started roasting yet."
+    },
+    {
+     "t": 161.1,
+     "text": "But if you ever want to have a conversation about single origin or Gujis or even a Geisha, I'm definitely happy to have that conversation."
+    },
+    {
+     "t": 168.2,
+     "text": "I also have a sub stack where I talk about security leadership."
+    },
+    {
+     "t": 172.0,
+     "text": "And I go over some guides."
+    },
+    {
+     "t": 173.5,
+     "text": "I have some essays, rants, whatever you may call it."
+    },
+    {
+     "t": 176.8,
+     "text": "And, you know, it's over 120 articles on there."
+    },
+    {
+     "t": 180.3,
+     "text": "Feel free to check that out."
+    },
+    {
+     "t": 182.8,
+     "text": "And you can find me at Coffee with Ayman everywhere."
+    },
+    {
+     "t": 185.8,
+     "text": "And that's a little Turkish coffee I had this morning."
+    },
+    {
+     "t": 188.2,
+     "text": "Just a little note, I might be over-caffeinated and lack of sleep."
+    },
+    {
+     "t": 192.9,
+     "text": "So forgive me if I'm all over the place today."
+    },
+    {
+     "t": 197.8,
+     "text": "And this is a musical."
+    },
+    {
+     "t": 199.7,
+     "text": "You know, I was going to sing, but I decided not to, just to spare you from anything."
+    },
+    {
+     "t": 205.1,
+     "text": "Besides NSF, you know, besides SF has a really warm place in my heart."
+    },
+    {
+     "t": 210.9,
+     "text": "You know, over the years, I've been coming here for so long."
+    },
+    {
+     "t": 212.8,
+     "text": "I made some really good friends over the years."
+    },
+    {
+     "t": 215.5,
+     "text": "And I just love the community and I want to encourage you to volunteer if you can."
+    },
+    {
+     "t": 219.1,
+     "text": "I've done my share of volunteering."
+    },
+    {
+     "t": 220.9,
+     "text": "It's really fun."
+    },
+    {
+     "t": 222.9,
+     "text": "If you volunteer for safety, you get a cool orange shirt."
+    },
+    {
+     "t": 225.4,
+     "text": "I don't know if you still have the orange shirt these days, but it's really good."
+    },
+    {
+     "t": 228.7,
+     "text": "And it's just, you know, kind of want to give a little hand to the B-Sides community and the volunteers for making this possible."
+    },
+    {
+     "t": 235.1,
+     "text": "So thank you."
+    },
+    {
+     "t": 237.9,
+     "text": "All right, so let's talk about the problem of shared drive files."
+    },
+    {
+     "t": 243.3,
+     "text": "You're here because you might have experienced this problem yourself in the future, in the past."
+    },
+    {
+     "t": 248.4,
+     "text": "So let's talk about it."
+    },
+    {
+     "t": 250.9,
+     "text": "This little icon right here is the bane of my existence, and it's probably yours as well."
+    },
+    {
+     "t": 256.5,
+     "text": "This little small little global internet friendly icon is just there, but you know, you see that on a document that might be quite sensitive, you kind of just alarm bells start ringing."
+    },
+    {
+     "t": 268.0,
+     "text": "And so this is how this was born."
+    },
+    {
+     "t": 270.9,
+     "text": "You know, shared drive files are everywhere."
+    },
+    {
+     "t": 272.9,
+     "text": "They're everywhere."
+    },
+    {
+     "t": 274.1,
+     "text": "They're a bit of a nuisance."
+    },
+    {
+     "t": 275.9,
+     "text": "Listen, they have their purpose, okay?"
+    },
+    {
+     "t": 277.4,
+     "text": "They have their purpose, but"
+    },
+    {
+     "t": 279.5,
+     "text": "You know, there's an extent to that."
+    },
+    {
+     "t": 282.4,
+     "text": "And what's interesting is Google and Slack will conveniently share them publicly, you know, when you drop a message into Slack."
+    },
+    {
+     "t": 290.4,
+     "text": "So how many people have seen this before, right?"
+    },
+    {
+     "t": 293.4,
+     "text": "Oh, would you like to share this with the world?"
+    },
+    {
+     "t": 295.6,
+     "text": "You know, it's like, okay, no, please don't."
+    },
+    {
+     "t": 299.0,
+     "text": "But honestly, that's how like half these things happen."
+    },
+    {
+     "t": 301.6,
+     "text": "When you talk to people, I've talked to them and they're like, I didn't know it was shared."
+    },
+    {
+     "t": 305.5,
+     "text": "How did that happen?"
+    },
+    {
+     "t": 306.4,
+     "text": "And well, this is how it happens."
+    },
+    {
+     "t": 308.6,
+     "text": "Either directly or you've given someone else editor access that can also change permissions and they shared it."
+    },
+    {
+     "t": 316.2,
+     "text": "So it's kind of like a bit of a rabbit hole."
+    },
+    {
+     "t": 321.6,
+     "text": "So there are tons of examples."
+    },
+    {
+     "t": 325.3,
+     "text": "I've seen them all."
+    },
+    {
+     "t": 326.7,
+     "text": "I've seen invoices and contracts shared publicly with the world."
+    },
+    {
+     "t": 330.5,
+     "text": "Sales quotes, okay."
+    },
+    {
+     "t": 332.9,
+     "text": "Pricing calculators, I mean, that's like competitive advantage."
+    },
+    {
+     "t": 337.1,
+     "text": "Offer letters with equity and compensation information board meeting minutes right that should be confidential even worse bank account numbers driver's license photos passports and more things i haven't you know i don't want to talk about it here but you know i've seen i've seen everything and they've all been shared publicly on the internet so it's a it's a big problem now"
+    },
+    {
+     "t": 364.4,
+     "text": "A little bit of a PSA, I'd be amiss by not telling you how to prevent this."
+    },
+    {
+     "t": 370.1,
+     "text": "You may or may not know how to prevent this, but it's relatively easy to prevent."
+    },
+    {
+     "t": 375.2,
+     "text": "You can restrict it by OU and Google Workspace."
+    },
+    {
+     "t": 378.1,
+     "text": "You could also restrict it by a Google Group."
+    },
+    {
+     "t": 380.8,
+     "text": "You create a Google Group as a security group."
+    },
+    {
+     "t": 384.1,
+     "text": "So if it's so easy, then why isn't it done?"
+    },
+    {
+     "t": 388.0,
+     "text": "Well, for most cases, people don't know that this exists."
+    },
+    {
+     "t": 392.9,
+     "text": "Two, you may not have a full-time IT person there to help guide you."
+    },
+    {
+     "t": 399.0,
+     "text": "Or three, it's kind of a scary thing to limit people from sharing things publicly, and so you might get fired if you enable this."
+    },
+    {
+     "t": 406.3,
+     "text": "And so that's I think the three reasons for most part people why they haven't done this."
+    },
+    {
+     "t": 413.0,
+     "text": "Now, sales and marketing are generally the biggest offenders."
+    },
+    {
+     "t": 416.6,
+     "text": "And so but they need that ability to do that."
+    },
+    {
+     "t": 419.7,
+     "text": "That's fine."
+    },
+    {
+     "t": 420.7,
+     "text": "I think some groups that don't need that ability or maybe finance or, you know, they have they handle some really sensitive information."
+    },
+    {
+     "t": 429.1,
+     "text": "So I think coupling it"
+    },
+    {
+     "t": 431.3,
+     "text": "Both with technical controls and some education can go a long way."
+    },
+    {
+     "t": 435.2,
+     "text": "And it's really important."
+    },
+    {
+     "t": 437.1,
+     "text": "I'm not going to talk about all the things you could do, but definitely we should try to not only put technical controls, but also educate folks on how to do it."
+    },
+    {
+     "t": 447.9,
+     "text": "But in the case that you can't, well, we have a tool to help do that."
+    },
+    {
+     "t": 452.5,
+     "text": "So how did this journey start, right?"
+    },
+    {
+     "t": 455.4,
+     "text": "So we were kind of thinking, we're like, okay, we want to, you know, we found a publicly shared file."
+    },
+    {
+     "t": 460.7,
+     "text": "We're like, oh, how many others are out there that meet this criteria?"
+    },
+    {
+     "t": 465.0,
+     "text": "And so we're like, okay, let's find all the publicly shared files in our Google workspace."
+    },
+    {
+     "t": 470.6,
+     "text": "And so I started off with in Google admin, but if you've ever spent time in Google admin, it's,"
+    },
+    {
+     "t": 478.9,
+     "text": "How do I say it?"
+    },
+    {
+     "t": 479.4,
+     "text": "Ugly."
+    },
+    {
+     "t": 479.8,
+     "text": "It's just not, you know, really friendly."
+    },
+    {
+     "t": 482.6,
+     "text": "So, yeah, I see a lot of people nodding their heads."
+    },
+    {
+     "t": 485.4,
+     "text": "So, it's just not friendly."
+    },
+    {
+     "t": 488.4,
+     "text": "You know, God bless their hearts."
+    },
+    {
+     "t": 490.5,
+     "text": "You know, they try to do their best."
+    },
+    {
+     "t": 493.2,
+     "text": "But, you know, it doesn't fit the bill."
+    },
+    {
+     "t": 495.6,
+     "text": "So yes, you know, so anyway, this is what it looks like, right?"
+    },
+    {
+     "t": 500.1,
+     "text": "You try to run a search, you try to look for files, you get this, you get the resource ID, you know, that's a unique ID of the document, but what are you going to do with that?"
+    },
+    {
+     "t": 511.5,
+     "text": "There's no like clickable link that you could open to see the information in the file."
+    },
+    {
+     "t": 518.4,
+     "text": "So"
+    },
+    {
+     "t": 519.5,
+     "text": "Yeah, so that's that."
+    },
+    {
+     "t": 520.5,
+     "text": "And we all know that in Google Workspace, the real power is behind the API."
+    },
+    {
+     "t": 524.4,
+     "text": "Many of you have used GAM before."
+    },
+    {
+     "t": 526.1,
+     "text": "GAM is great."
+    },
+    {
+     "t": 527.2,
+     "text": "And now they just released Google Workspace CLI, which is like finally, I don't know how many years later."
+    },
+    {
+     "t": 533.3,
+     "text": "So that's a thing now."
+    },
+    {
+     "t": 536.0,
+     "text": "But still, this was, you know, we're just trying to solve this problem and Google Workspace was not cutting it."
+    },
+    {
+     "t": 542.9,
+     "text": "Again, this is how it would look like."
+    },
+    {
+     "t": 544.9,
+     "text": "You know, it's just not really super clean."
+    },
+    {
+     "t": 548.3,
+     "text": "Yes, you can export to Sheets, but then what do you do with this information?"
+    },
+    {
+     "t": 552.0,
+     "text": "Am I literally going to copy and paste the document ID so that I could, you know, find out what the file is?"
+    },
+    {
+     "t": 557.2,
+     "text": "No, no thank you."
+    },
+    {
+     "t": 558.2,
+     "text": "I'm not going to do that."
+    },
+    {
+     "t": 560.6,
+     "text": "So last summer I caught the vibe coding bug, and I'm looking for something to build."
+    },
+    {
+     "t": 568.5,
+     "text": "And so here we go."
+    },
+    {
+     "t": 569.2,
+     "text": "I'm like, oh, let's build something."
+    },
+    {
+     "t": 571.1,
+     "text": "And so I was like, OK, there has to be a better way."
+    },
+    {
+     "t": 574.8,
+     "text": "So let's put the requirements together."
+    },
+    {
+     "t": 575.9,
+     "text": "What do we want to do?"
+    },
+    {
+     "t": 576.6,
+     "text": "We want something that's simple."
+    },
+    {
+     "t": 578.4,
+     "text": "We want something that's powerful, something like GAM, but gives me visibility into types of files, easy to run, like some command line tool that I could just run and automate, and obviously gives me the information I need, right?"
+    },
+    {
+     "t": 591.4,
+     "text": "So I could discern and figure out, hey, do I need to pull this off the internet or not?"
+    },
+    {
+     "t": 599.1,
+     "text": "So let's talk about the journey of building this tool."
+    },
+    {
+     "t": 602.5,
+     "text": "So the pains of OAuth."
+    },
+    {
+     "t": 606.2,
+     "text": "So there is several APIs you have to enable in Google Workspace to get this to work."
+    },
+    {
+     "t": 612.8,
+     "text": "But as I was having conversations with Claude to build this, it wanted all permissions."
+    },
+    {
+     "t": 619.0,
+     "text": "I'm like, no, no, don't do that."
+    },
+    {
+     "t": 621.9,
+     "text": "Let's try to do something least privileged."
+    },
+    {
+     "t": 624.2,
+     "text": "And so, you know, I had to take a look at the OAuth scopes that are out there and how do we reduce the scopes to, you know, only what we need to do."
+    },
+    {
+     "t": 635.5,
+     "text": "And then I'm like, okay, well, do I want to actually revoke permissions?"
+    },
+    {
+     "t": 638.3,
+     "text": "And, you know, do I trust a vibe coding tool to do this?"
+    },
+    {
+     "t": 641.3,
+     "text": "And it was kind of scary."
+    },
+    {
+     "t": 642.4,
+     "text": "So, you know, you have to do some manual review and make sure you're not, you know, destroying all your Google Drive workspace files."
+    },
+    {
+     "t": 648.8,
+     "text": "And how do you back up all your workspace files?"
+    },
+    {
+     "t": 651.4,
+     "text": "You know, that's not really a thing."
+    },
+    {
+     "t": 654.1,
+     "text": "Yes, you can do that, but I didn't do that for my workspace."
+    },
+    {
+     "t": 660.0,
+     "text": "It was interesting."
+    },
+    {
+     "t": 661.5,
+     "text": "How do we do this in a safe way?"
+    },
+    {
+     "t": 665.4,
+     "text": "So, you know, ran into these, you know, okay, let's go over what we need."
+    },
+    {
+     "t": 670.5,
+     "text": "We need to go through all users in the directory."
+    },
+    {
+     "t": 672.7,
+     "text": "So we need admin directory user and read only."
+    },
+    {
+     "t": 676.7,
+     "text": "We need drive read details, right?"
+    },
+    {
+     "t": 678.7,
+     "text": "So that'll put people the metadata of a file to let you know if it's shared or not."
+    },
+    {
+     "t": 684.2,
+     "text": "I want to create a drive for creating the sheets report."
+    },
+    {
+     "t": 686.7,
+     "text": "So yeah, that's good."
+    },
+    {
+     "t": 688.7,
+     "text": "The most risky one is like drive."
+    },
+    {
+     "t": 690.5,
+     "text": "It's just like drive means like full drive access to all files in your workspace."
+    },
+    {
+     "t": 695.1,
+     "text": "That is a really, really, really risky thing to ask for."
+    },
+    {
+     "t": 700.3,
+     "text": "But unnecessary evil that you have to do to remove permissions."
+    },
+    {
+     "t": 705.4,
+     "text": "And then the sheets API to create and edit sheets."
+    },
+    {
+     "t": 711.6,
+     "text": "So I ran into quite a few challenges building this tool."
+    },
+    {
+     "t": 716.9,
+     "text": "The fact that you have to enable an API in a project was not super clear to me when I was doing it."
+    },
+    {
+     "t": 722.3,
+     "text": "So I spent a lot of time troubleshooting and dealing with errors."
+    },
+    {
+     "t": 727.3,
+     "text": "But once I figure it out, I'm like, okay, I don't want anyone else to go through this problem again."
+    },
+    {
+     "t": 730.5,
+     "text": "And, you know, I don't want to tell them RTFM and whatever it may be."
+    },
+    {
+     "t": 733.6,
+     "text": "So let's add some error corrections in there and kind of make it so that it's easy to use."
+    },
+    {
+     "t": 738.4,
+     "text": "Again, what's the North Star here?"
+    },
+    {
+     "t": 740.1,
+     "text": "We want to make it easy to use and doable, right?"
+    },
+    {
+     "t": 743.5,
+     "text": "So I added some error correction."
+    },
+    {
+     "t": 746.6,
+     "text": "When you run the tool the first time, it's going to give you an error that's intended."
+    },
+    {
+     "t": 751.3,
+     "text": "And it's going to give you a link to..."
+    },
+    {
+     "t": 753.5,
+     "text": "Hop straight into your project and enable three apis once you do that everything's going to be nice and clear so yeah so i just wanted to build that make it kind of really user friendly"
+    },
+    {
+     "t": 769.8,
+     "text": "Yeah, again, what else we want to make it?"
+    },
+    {
+     "t": 772.3,
+     "text": "We want to audit all users."
+    },
+    {
+     "t": 773.6,
+     "text": "So we want to go over all users in the workspace."
+    },
+    {
+     "t": 777.1,
+     "text": "I did add a dry run mode for lockdown because, hey, what's actually going to happen?"
+    },
+    {
+     "t": 783.5,
+     "text": "I think I need to do some updates."
+    },
+    {
+     "t": 785.5,
+     "text": "We'll talk about some future updates, but I want to tune lockdown a little more."
+    },
+    {
+     "t": 790.0,
+     "text": "You could do it by how many days a file has been out there."
+    },
+    {
+     "t": 793.3,
+     "text": "And that's actually a good..."
+    },
+    {
+     "t": 795.1,
+     "text": "A thing to consider like how many files are out there that have been out there for more than six months that you really need that people are still using not many from what i've noticed so sometimes it's safe to just say hey any file over 90 days just blow it away right so that's that's kind of like what i found in my in my research and then even when people leave at a startup a lot of people come and go so sometimes the file is not owned by anybody anymore"
+    },
+    {
+     "t": 823.2,
+     "text": "In the sheet, I want to have a tab for each user so that I could go by user and see what files are there."
+    },
+    {
+     "t": 829.0,
+     "text": "And obviously, I want a direct link to files."
+    },
+    {
+     "t": 831.8,
+     "text": "So I want to be able to see the file and see what the issue is."
+    },
+    {
+     "t": 836.6,
+     "text": "A little more on"
+    },
+    {
+     "t": 839.2,
+     "text": "On a security person actually being able to access this file, it's kind of like an interesting conundrum."
+    },
+    {
+     "t": 844.6,
+     "text": "You're trying to find publicly shared files and they're available on the internet, but you really don't want to be seeing all these files, right?"
+    },
+    {
+     "t": 851.5,
+     "text": "Should I be seeing this file?"
+    },
+    {
+     "t": 852.8,
+     "text": "So it's interesting."
+    },
+    {
+     "t": 854.7,
+     "text": "And that's where AI came in later to help with that."
+    },
+    {
+     "t": 859.0,
+     "text": "All right, so let's hop into the demo."
+    },
+    {
+     "t": 861.5,
+     "text": "And we're in a theater, so I decided to put theater music."
+    },
+    {
+     "t": 907.5,
+     "text": "And these are all the shared files that are out there."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 909.4,
+   "end": 917.0,
+   "lines": [
+    {
+     "t": 909.4,
+     "text": "So this was a fake presentation that, you know, just AI generated as a placeholder."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 917.2,
+   "end": 1249.6,
+   "lines": [
+    {
+     "t": 917.2,
+     "text": "And that's it."
+    },
+    {
+     "t": 918.2,
+     "text": "That's Sleuther in action."
+    },
+    {
+     "t": 926.2,
+     "text": "All right, so I did a lot of talking, but there's some more."
+    },
+    {
+     "t": 930.4,
+     "text": "So as I was building, I was building a web app version of this."
+    },
+    {
+     "t": 935.5,
+     "text": "And I was going through a bunch of different iterations and bugs."
+    },
+    {
+     "t": 941.1,
+     "text": "I'd find files shared with me or files maybe I didn't own or then shared drive files."
+    },
+    {
+     "t": 948.4,
+     "text": "By the way, I had a Jiffy created of data"
+    },
+    {
+     "t": 952.4,
+     "text": "So when I was running a search, I saw this and I was like, what is this?"
+    },
+    {
+     "t": 956.3,
+     "text": "What is this file?"
+    },
+    {
+     "t": 957.3,
+     "text": "Letter to academic institution."
+    },
+    {
+     "t": 959.3,
+     "text": "And you see on the left there is the owner."
+    },
+    {
+     "t": 963.0,
+     "text": "And it was not me."
+    },
+    {
+     "t": 976.7,
+     "text": "It was not me as the owner."
+    },
+    {
+     "t": 978.3,
+     "text": "I'm like, what is this file that was created in September?"
+    },
+    {
+     "t": 982.0,
+     "text": "I have no idea what this file was."
+    },
+    {
+     "t": 985.6,
+     "text": "And I opened the file, and inside the file... Let's see here."
+    },
+    {
+     "t": 991.4,
+     "text": "Inside the file..."
+    },
+    {
+     "t": 994.5,
+     "text": "Was it was it was written by someone I knew so it was like an executive coach but it had a lot of detailed information about someone else it was like a letter of recommendation and I'm like what is this file why do I have this file here so"
+    },
+    {
+     "t": 1011.3,
+     "text": "I was concerned, but I was really confused as to how I ended up with this file."
+    },
+    {
+     "t": 1015.9,
+     "text": "It had the person's name and occupation, had the letter to university, how long they were working together, all this kind of stuff."
+    },
+    {
+     "t": 1022.4,
+     "text": "It was kind of crazy."
+    },
+    {
+     "t": 1024.3,
+     "text": "So what ended up happening was this file was used as kind of like, it was a public file that was shared when I was onboarding with her."
+    },
+    {
+     "t": 1033.5,
+     "text": "And like, here's an onboarding document and how we could work together and all this kind of stuff."
+    },
+    {
+     "t": 1039.8,
+     "text": "What ended up happening is she ended up reusing that same file."
+    },
+    {
+     "t": 1043.6,
+     "text": "She just control, you just copied everything, deleted it, and just started writing into this file the letter of recommendation that she was doing."
+    },
+    {
+     "t": 1052.0,
+     "text": "And I'm like, oh my God, are you serious?"
+    },
+    {
+     "t": 1053.7,
+     "text": "So yeah, I mean, that's like taking recycling and reuse to like another level."
+    },
+    {
+     "t": 1059.8,
+     "text": "I mean, just create a new file."
+    },
+    {
+     "t": 1062.0,
+     "text": "So it was interesting."
+    },
+    {
+     "t": 1063.5,
+     "text": "And I just kept like, luckily there was a virgin history because I had editor access as well."
+    },
+    {
+     "t": 1068.2,
+     "text": "So."
+    },
+    {
+     "t": 1070.4,
+     "text": "So, you know, convenient."
+    },
+    {
+     "t": 1073.6,
+     "text": "And that's how I came to this."
+    },
+    {
+     "t": 1075.6,
+     "text": "I'm like, okay, well, I need to tell her this."
+    },
+    {
+     "t": 1077.6,
+     "text": "I need to responsibly disclose this."
+    },
+    {
+     "t": 1079.3,
+     "text": "So I wrote this letter."
+    },
+    {
+     "t": 1081.6,
+     "text": "It took a while, but I was like, you know, first of all, you see this, you're like, you know, you're kind of shaking."
+    },
+    {
+     "t": 1085.0,
+     "text": "I was nervous."
+    },
+    {
+     "t": 1085.5,
+     "text": "I'm like, why do I have this?"
+    },
+    {
+     "t": 1087.5,
+     "text": "I'm like, okay, so I just hop into like, you know, security mode and write this letter."
+    },
+    {
+     "t": 1093.4,
+     "text": "And I was pretty proud of it."
+    },
+    {
+     "t": 1094.4,
+     "text": "I kind of wrote this whole letter."
+    },
+    {
+     "t": 1095.9,
+     "text": "I'm like, hey, by the way, just not to be alarmed, but I have this file and I don't think I should have it."
+    },
+    {
+     "t": 1102.3,
+     "text": "And, you know, I tried to take, you know, try to let her down easy."
+    },
+    {
+     "t": 1105.3,
+     "text": "And I said, yeah, I know this may be disconcerting for you, but it could have been worse."
+    },
+    {
+     "t": 1110.3,
+     "text": "So, you know, I tried to let her down easily."
+    },
+    {
+     "t": 1114.1,
+     "text": "And I got this message back."
+    },
+    {
+     "t": 1115.6,
+     "text": "She's like, oh."
+    },
+    {
+     "t": 1117.1,
+     "text": "And she was happy that at least it came from me, like a former, former, former client."
+    },
+    {
+     "t": 1120.7,
+     "text": "So, you know, she removed access and it was done."
+    },
+    {
+     "t": 1125.1,
+     "text": "It was, it was interesting learning lesson."
+    },
+    {
+     "t": 1127.7,
+     "text": "But, you know, she felt pretty horrible receiving it."
+    },
+    {
+     "t": 1130.5,
+     "text": "But at least the security person found it, right?"
+    },
+    {
+     "t": 1133.0,
+     "text": "So, yeah."
+    },
+    {
+     "t": 1135.7,
+     "text": "And that's, that's it."
+    },
+    {
+     "t": 1136.8,
+     "text": "That's, that's the story."
+    },
+    {
+     "t": 1139.1,
+     "text": "A little in the future."
+    },
+    {
+     "t": 1141.4,
+     "text": "I want to put AI classification of files."
+    },
+    {
+     "t": 1145.2,
+     "text": "Why?"
+    },
+    {
+     "t": 1146.1,
+     "text": "Well, the idea is that I don't want to see these files."
+    },
+    {
+     "t": 1149.1,
+     "text": "I don't want to go and look into your offer letters, look into your board minutes, look at passport photos."
+    },
+    {
+     "t": 1159.3,
+     "text": "I don't want that."
+    },
+    {
+     "t": 1159.8,
+     "text": "I don't want to see all that information."
+    },
+    {
+     "t": 1161.6,
+     "text": "And if it's a security analyst running, I don't want them to see it necessarily."
+    },
+    {
+     "t": 1165.8,
+     "text": "So why don't we have AI classification, just go and kind of try to classify it."
+    },
+    {
+     "t": 1171.3,
+     "text": "It's not as easy as it sounds, and I'm playing with that right now."
+    },
+    {
+     "t": 1175.0,
+     "text": "I have a branch that's playing with that right now."
+    },
+    {
+     "t": 1177.7,
+     "text": "I'm trying to put either a local model option as well, or just send it to using an API."
+    },
+    {
+     "t": 1184.6,
+     "text": "I want to email users on my behalf, so just get an email saying, hey, by the way, this file was found."
+    },
+    {
+     "t": 1192.9,
+     "text": "That way people can just self-remediate."
+    },
+    {
+     "t": 1194.4,
+     "text": "I think that's always the easiest thing to do."
+    },
+    {
+     "t": 1197.7,
+     "text": "I also want to like, you know, the whole experience with OAuth tokens."
+    },
+    {
+     "t": 1201.2,
+     "text": "I'm like, hey, what other OAuth tokens are out there in my workspace?"
+    },
+    {
+     "t": 1204.4,
+     "text": "And can I blow them away?"
+    },
+    {
+     "t": 1205.9,
+     "text": "So really would like to just run a OAuth token search and just blow away dangerous OAuth scopes that have been granted."
+    },
+    {
+     "t": 1213.8,
+     "text": "So that'd be nice."
+    },
+    {
+     "t": 1215.9,
+     "text": "And users with public calendars, that's a thing."
+    },
+    {
+     "t": 1220.2,
+     "text": "Sometimes people's calendars are actually publicly available out there, and you could see, obviously, a lot of sensitive information there."
+    },
+    {
+     "t": 1228.7,
+     "text": "Also, people sometimes have email forwarding enabled, so basically an all-purpose tool to help secure Google Workspace in a way, but in a simplistic fashion where possible."
+    },
+    {
+     "t": 1242.9,
+     "text": "So that's pretty much it."
+    },
+    {
+     "t": 1244.7,
+     "text": "And this is where you can find Souther and where you can find me online."
+    },
+    {
+     "t": 1249.0,
+     "text": "And thank you."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1253.4,
+   "end": 1274.5,
+   "lines": [
+    {
+     "t": 1253.4,
+     "text": "Awesome."
+    },
+    {
+     "t": 1253.7,
+     "text": "Thank you very much."
+    },
+    {
+     "t": 1255.0,
+     "text": "Again, go to our Slido website to ask any other questions, but we got one right here for you."
+    },
+    {
+     "t": 1262.2,
+     "text": "Kind of segued in with the AI."
+    },
+    {
+     "t": 1264.2,
+     "text": "So how does Gemini's integration with Drive influence the security controls we deploy?"
+    },
+    {
+     "t": 1268.9,
+     "text": "For example, domain-wide sharing opens risks of sensitive data exfiltration via Gemini."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1276.1,
+   "end": 1282.1,
+   "lines": [
+    {
+     "t": 1276.1,
+     "text": "So I don't know if you mean like Gemini actually sharing or Gemini finding the files."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1282.7,
+   "end": 1288.1,
+   "lines": [
+    {
+     "t": 1282.7,
+     "text": "Can you read the question again?"
+    },
+    {
+     "t": 1283.6,
+     "text": "Yeah, how does Gemini's integration with Drive influence security controls we deploy?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1288.8,
+   "end": 1311.7,
+   "lines": [
+    {
+     "t": 1288.8,
+     "text": "That's a good question."
+    },
+    {
+     "t": 1290.7,
+     "text": "Well, Gemini is not included with all Google Workspace accounts, but if I could have Gemini find the files, that could be good, but I'm not sure if Gemini has that capability at the super admin level."
+    },
+    {
+     "t": 1304.8,
+     "text": "I think it's only more for your own files, so I wouldn't know how to answer that question, but come see me afterwards and we could have a discussion."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1314.0,
+   "end": 1325.4,
+   "lines": [
+    {
+     "t": 1314.0,
+     "text": "All right, we got another."
+    },
+    {
+     "t": 1315.9,
+     "text": "If we aren't automating remediation and trying to recreate Sleuther locally, can we scope the permissions better for a read-only report while testing this?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1325.8,
+   "end": 1344.5,
+   "lines": [
+    {
+     "t": 1325.8,
+     "text": "Yeah, yeah."
+    },
+    {
+     "t": 1326.6,
+     "text": "So it's default read-only."
+    },
+    {
+     "t": 1329.3,
+     "text": "So the lockdown or revoke permissions is not enabled by default."
+    },
+    {
+     "t": 1334.0,
+     "text": "So when you run the, as you saw in the demo, it's read-only by default."
+    },
+    {
+     "t": 1338.3,
+     "text": "So it'll go through all the users in your workspace and find the files, and then you could decide what to do after that."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1347.4,
+   "end": 1359.0,
+   "lines": [
+    {
+     "t": 1347.4,
+     "text": "All right."
+    },
+    {
+     "t": 1348.2,
+     "text": "Oh, just popped in."
+    },
+    {
+     "t": 1350.2,
+     "text": "All right."
+    },
+    {
+     "t": 1351.3,
+     "text": "Even if BigCo, as they call them, Google, offered a similar function, would you think others would write their own?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1361.0,
+   "end": 1394.7,
+   "lines": [
+    {
+     "t": 1361.0,
+     "text": "Yeah, I mean, I encourage everyone to write their own if you don't find the functionality in the software you're looking for."
+    },
+    {
+     "t": 1368.3,
+     "text": "So, you know, I think the big hero of this talk was cloud code, really, and just vibe coding in general."
+    },
+    {
+     "t": 1374.8,
+     "text": "The fact that I could write a tool like this as a busy professional is a lot."
+    },
+    {
+     "t": 1382.3,
+     "text": "So I encourage it, if anything, just to learn."
+    },
+    {
+     "t": 1387.0,
+     "text": "Just to learn more about what works under the hood and how to get things to work at scale."
+    },
+    {
+     "t": 1393.5,
+     "text": "So yeah, totally."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1396.2,
+   "end": 1405.2,
+   "lines": [
+    {
+     "t": 1396.2,
+     "text": "Well, awesome."
+    },
+    {
+     "t": 1396.7,
+     "text": "Thank you, Ayman."
+    },
+    {
+     "t": 1398.2,
+     "text": "We got a little gift for you and appreciate your time and your knowledge."
+    },
+    {
+     "t": 1402.3,
+     "text": "And again, a round of applause, please."
+    },
+    {
+     "t": 1404.9,
+     "text": "Thank you."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  }
+ ]
+}
