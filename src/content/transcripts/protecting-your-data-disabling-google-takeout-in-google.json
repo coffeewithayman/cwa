@@ -1,0 +1,272 @@
+{
+ "slug": "protecting-your-data-disabling-google-takeout-in-google",
+ "scope": "all",
+ "format": "talk",
+ "turns": [
+  {
+   "start": 0.1,
+   "end": 339.6,
+   "lines": [
+    {
+     "t": 0.1,
+     "text": "Hello friends welcome to another episode of the Security Cafe and today we're going to be securing your google workspace now it's not going to be a comprehensive video it's just one thing that i think is often overlooked by security and i.t administrators alike in your google workspace and that is google takeout so"
+    },
+    {
+     "t": 22.7,
+     "text": "Google Takeout is a service where you can pull out any information that belongs to you."
+    },
+    {
+     "t": 28.4,
+     "text": "Everything from your Chrome history and your browser history, YouTube, everything like that."
+    },
+    {
+     "t": 34.0,
+     "text": "But there's two things that are important to a company when..."
+    },
+    {
+     "t": 39.9,
+     "text": "Hey, welcome folks to another episode of the Security Cafe."
+    },
+    {
+     "t": 55.2,
+     "text": "I am Ayman Elsawah and I'm here with my espresso ready to go."
+    },
+    {
+     "t": 58.7,
+     "text": "So today I want to talk about people walking out with services from the company."
+    },
+    {
+     "t": 64.6,
+     "text": "Now we want to protect the data in our Google workspace, for example."
+    },
+    {
+     "t": 69.7,
+     "text": "But how do we prevent people from walking out with it?"
+    },
+    {
+     "t": 71.9,
+     "text": "Well, there's a lot of things you can do, but there's one"
+    },
+    {
+     "t": 74.7,
+     "text": "Easy and overlooked service that is often on by default that users can with one click or two clicks download a lot of company data and that service is called google takeout now we all love takeout"
+    },
+    {
+     "t": 89.8,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe,"
+    },
+    {
+     "t": 107.2,
+     "text": "Download different folders and different docs and there's you know other measures you can do to detect that so you could run reports and you could also do things as a preventative measure but also good education i think making people responsible for the company's data will help inculcate some sense of responsibility but that i digress anyway google takeout is a feature where you can go and"
+    },
+    {
+     "t": 134.3,
+     "text": "Pull all your data and let me show you what it looks like so here we have google takeout and you simply go to takeout.google.com"
+    },
+    {
+     "t": 142.0,
+     "text": "And it will give you the ability to take out all this."
+    },
+    {
+     "t": 145.8,
+     "text": "Now, if you look, not much, but you have calendars, okay?"
+    },
+    {
+     "t": 148.8,
+     "text": "Your Chrome history, which, you know, whatever, depends on the data that they've done."
+    },
+    {
+     "t": 155.1,
+     "text": "Your contacts."
+    },
+    {
+     "t": 156.5,
+     "text": "So do you want them to hold their contacts?"
+    },
+    {
+     "t": 159.7,
+     "text": "I don't know."
+    },
+    {
+     "t": 160.4,
+     "text": "I wouldn't, but that could be something."
+    },
+    {
+     "t": 162.5,
+     "text": "Drive."
+    },
+    {
+     "t": 163.1,
+     "text": "Now drive data, that's really important."
+    },
+    {
+     "t": 164.8,
+     "text": "So the two things I care about most are drive and email."
+    },
+    {
+     "t": 169.2,
+     "text": "So in here you have."
+    },
+    {
+     "t": 171.7,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 180.2,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 189.4,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 200.8,
+     "text": "All right."
+    },
+    {
+     "t": 201.5,
+     "text": "So anyway, so this is all the things that someone could do."
+    },
+    {
+     "t": 205.9,
+     "text": "So all they have to do is just go to takeout, they hit next, and then where do they want to download it?"
+    },
+    {
+     "t": 211.6,
+     "text": "And there we go."
+    },
+    {
+     "t": 213.0,
+     "text": "And it's nice and conveniently wrapped up there."
+    },
+    {
+     "t": 216.6,
+     "text": "So how do we prevent this?"
+    },
+    {
+     "t": 218.7,
+     "text": "Well, you just simply go to your Google Admin Console."
+    },
+    {
+     "t": 221.4,
+     "text": "All right, so let me show you how to take it out."
+    },
+    {
+     "t": 224.7,
+     "text": "You have in the screen over here, you have Google Takeout."
+    },
+    {
+     "t": 228.5,
+     "text": "And so don't get confused."
+    },
+    {
+     "t": 230.8,
+     "text": "There could be multiple ways."
+    },
+    {
+     "t": 233.3,
+     "text": "So you see these, these are particular settings for any particular Google service."
+    },
+    {
+     "t": 238.2,
+     "text": "But what I'm trying to do is disable it for the organization altogether."
+    },
+    {
+     "t": 242.1,
+     "text": "So you go over here to this one here, and we're going to see how users want to take out."
+    },
+    {
+     "t": 247.8,
+     "text": "Now you can pick for each service, right?"
+    },
+    {
+     "t": 250.9,
+     "text": "Or you could just disable it altogether."
+    },
+    {
+     "t": 253.4,
+     "text": "And so you see here, it's enabled here."
+    },
+    {
+     "t": 255.4,
+     "text": "And so I'm going to not allow it for everyone in my organization."
+    },
+    {
+     "t": 260.4,
+     "text": "And there we go and we're just going to save it now what if someone really does need to do it for maybe superhuman or whatever other third-party service where you need to take some of your information and put into an app well you could always have an exception group so you could put the user in an exception group and then take out can be enabled in that particular group temporarily"
+    },
+    {
+     "t": 282.7,
+     "text": "Let them take out whatever they need to do and then disable and then move them back to the regular group so you can do that's pretty straightforward and so that's so that's pretty straightforward and there you go so"
+    },
+    {
+     "t": 295.8,
+     "text": "There you have it."
+    },
+    {
+     "t": 296.9,
+     "text": "You have that one setting that can help protect you just even for a little bit."
+    },
+    {
+     "t": 302.1,
+     "text": "Every little thing counts."
+    },
+    {
+     "t": 304.1,
+     "text": "So Google Workspace has a whole, a lot of knobs and switches."
+    },
+    {
+     "t": 307.5,
+     "text": "A lot of things are enabled by default."
+    },
+    {
+     "t": 309.3,
+     "text": "I encourage you to go through different things and ensure your users are protected."
+    },
+    {
+     "t": 313.4,
+     "text": "One day I'll put a comprehensive Google workspace security video."
+    },
+    {
+     "t": 317.7,
+     "text": "If that's something you really love, please put in the comment below."
+    },
+    {
+     "t": 320.9,
+     "text": "That would motivate me to kind of prioritize that kind of thing."
+    },
+    {
+     "t": 324.7,
+     "text": "I've done, I've tried to do that before and it's just really all encompassing."
+    },
+    {
+     "t": 328.5,
+     "text": "And then Google changes things all the time."
+    },
+    {
+     "t": 330.5,
+     "text": "But I would love to do that so that you can help secure your Google workspace."
+    },
+    {
+     "t": 335.2,
+     "text": "And that's it."
+    },
+    {
+     "t": 335.8,
+     "text": "My name is Ayman Elsawah and thanks for watching."
+    },
+    {
+     "t": 338.7,
+     "text": "Talk to you later."
+    },
+    {
+     "t": 339.4,
+     "text": "Bye-bye."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

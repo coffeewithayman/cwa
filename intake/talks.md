@@ -8,6 +8,8 @@ Every talk, interview and episode on coffeewithayman.com/talks.
   (links are skipped automatically, audio files dropped in `media/inbox/` are
   moved to `_failed/`).
 - **Not included:** Getting Into Infosec (Ayman's own podcast).
+- **Enterprise Security Weekly episodes don't go here** — they live in
+  [`esw.md`](esw.md) and will link to Ayman's segment of each episode.
 - Recordings where Ayman doesn't actually speak are skipped automatically by
   the voiceprint check.
 
@@ -28,19 +30,6 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 ## Inbox
 <!-- Paste URLs here, one per line. -->
 
-
-## Can employees safely use AI agents? AI pentesting agent liabilities, and the news - ESW #473
-- id: can-employees-safely-use-ai-agents-ai-pentesting-agent <!-- managed -->
-- url: https://youtu.be/o-Edp9puMEo?si=71SjUt1akYGDx4vH
-- format: panel <!-- guessed from 5 voice(s); fix if wrong -->
-- date: 2026-08-24
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- summary: Ayman discusses the use of AI in pentesting, emphasizing the importance of human oversight and the value of custom harnesses to ensure accurate and novel testing. He also highlights the potential of AI in both offensive and defensive security operations, while noting the challenges of keeping up with the volume of threats and the need for open-source models and tools.
-- status: ✅ ingested 2026-10-15 · 199 lines · speaker auto (voiceprint 0.85 + name mentioned) · 174 flagged <!-- managed -->
-
-### Notes
 
 ## Ayman Elsawah - Why We Break Things... The Neuroscience of Hackers!
 - id: ayman-elsawah-why-we-break-things-the-neuroscience-of <!-- managed -->
@@ -154,7 +143,8 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - event: Cyft
 - category:
 - topics:
-- status: 🎧 transcribing on GPU <!-- managed -->
+- summary: Ayman explains that cybersecurity can be simplified by focusing on practical steps like enabling device encryption, implementing strong access controls, and prioritizing security culture. He emphasizes that for startups, security should be tailored to their specific needs and stage of growth, with a focus on foundational measures such as proper onboarding and offboarding processes, and using built-in security features rather than overcomplicating with expensive tools. He also highlights the importance of distinguishing between compliance and true security, noting that compliance alone does not ensure protection against real-world threats.
+- status: ✅ ingested 2026-10-15 · 582 lines · speaker auto (voiceprint 0.81 + name mentioned) · 100 flagged <!-- managed -->
 
 ### Notes
 
@@ -166,7 +156,8 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - event: Paul Brodie
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman explains that using Quora to answer questions in his field helps build connections with an audience, and he recommends writing detailed, helpful answers that reflect his expertise. He also mentions using targeted ad campaigns, participating in online forums, and giving informative answers without being overly salesy.
+- status: ✅ ingested 2026-10-15 · 202 lines · speaker auto (voiceprint 0.84 + name mentioned) · 35 flagged <!-- managed -->
 
 ### Notes
 
@@ -185,48 +176,52 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 ## How Internet Safety Experts Protect Their Kids Online | Ep2
 - id: how-internet-safety-experts-protect-their-kids-online-ep2 <!-- managed -->
 - url: https://www.youtube.com/watch?v=QLAE3mUEnmY
-- format:
+- format: interview <!-- guessed from 2 voice(s); fix if wrong -->
 - date: 2023-08-23
 - event: CyberFareedah
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman explains the importance of using device-level parental controls, such as Google Family Link or Microsoft Family, rather than relying solely on router-based filters, which can be bypassed. He also discusses the risks of Internet-connected devices, such as smart toys and cameras, and advises parents to avoid sharing photos of their children online. Additionally, he recommends delaying smartphone use until children are mature enough and suggests engaging with kids through shared activities like gaming or watching shows to build trust and understanding.
+- status: ✅ ingested 2026-10-15 · 555 lines · speaker auto (voiceprint 0.88 + name mentioned) · 124 flagged <!-- managed -->
 
 ### Notes
 
 ## What is Phishing Simulation and should you phish your own employees?
 - id: what-is-phishing-simulation-and-should-you-phish-your-own <!-- managed -->
 - url: https://www.youtube.com/watch?v=5NHwEtJlsmo
-- format:
+- format: panel <!-- guessed from 6 voice(s); fix if wrong -->
 - date: 2021-01-14
 - event: Wizer - Security Awareness Training
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman explains that phishing simulations should focus on education and preparedness rather than tricking employees, emphasizing the importance of empathy and emotional intelligence in designing these campaigns. He advises avoiding topics that could hurt employees' feelings, such as fake bonus emails, and recommends ensuring employees know how to report phishing attempts properly. Ayman also highlights the need to understand an organization's culture before implementing any security program and suggests using phishing campaigns sparingly, only after sufficient education has been provided.
+- status: ✅ ingested 2026-10-15 · 151 lines · speaker auto (voiceprint 0.80 + name mentioned) · 108 flagged <!-- managed -->
 
 ### Notes
 
 ## What You Need To Know About Restoring From A Backup
 - id: what-you-need-to-know-about-restoring-from-a-backup <!-- managed -->
 - url: https://www.youtube.com/watch?v=ZK7PLiqXjdg
-- format:
+- format: panel <!-- guessed from 3 voice(s); fix if wrong -->
 - date: 2022-02-11
 - event: Wizer - Security Awareness Training
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman explains that businesses should identify critical data by considering what would cause the most disruption if lost, and emphasizes backing up system configurations using infrastructure as code and cloud services. He recommends storing backups in multiple locations at least 50 miles apart, encrypting sensitive data, and testing backups regularly to ensure they can be restored effectively.
+- status: ✅ ingested 2026-10-15 · 239 lines · speaker auto (voiceprint 0.74 + name mentioned) · 87 flagged <!-- managed -->
 
 ### Notes
 
 ## How to Ace SOC2 in SaaS Scale Ups
 - id: how-to-ace-soc2-in-saas-scale-ups <!-- managed -->
 - url: https://www.youtube.com/watch?v=HieEWiTy2zQ
-- format:
+- format: talk <!-- guessed from 2 voice(s); fix if wrong -->
 - date: 2023-11-06
 - event: Sprinto
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman explains that SOC 2 is not a certification but a report on controls, emphasizing the importance of organizational maturity, especially in people operations and IT. He highlights the need for automation in onboarding, access reviews, and training, and advises SaaS companies to identify critical vendors and ensure proper incident notification channels. He also discusses the importance of single sign-on and multi-factor authentication in improving security and streamlining access management.
+- status: ✅ ingested 2026-10-15 · 382 lines · speaker auto (voiceprint 0.82 + name mentioned) · 59 flagged <!-- managed -->
 
 ### Notes
 
@@ -238,7 +233,8 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - event: Coffee With Ayman - Security Cafe
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman explains that the CrowdStrike outage was caused by a software bug in an anti-malware update that crashed Windows systems worldwide, leading to widespread disruptions in critical infrastructure. He emphasizes that this was not a cybersecurity incident but a flaw in the update process, and highlights the challenges of recovering affected systems, including the need to manually access encryption keys or restore from backups. Ayman advises organizations to make their systems more resilient and to reconsider automatic updates for critical production environments.
+- status: ✅ ingested 2026-10-15 · 136 lines · speaker auto (voiceprint 0.89 + name mentioned) · 28 flagged <!-- managed -->
 
 ### Notes
 
@@ -250,7 +246,8 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - event: Coffee With Ayman - Security Cafe
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman explains how to disable Google Takeout in Google Workspace to prevent users from downloading sensitive company data such as emails and Drive files. He demonstrates disabling the feature through the Google Admin Console and suggests creating exception groups for users who may need temporary access. Ayman also emphasizes the importance of reviewing and adjusting default settings to enhance overall security in Google Workspace.
+- status: ✅ ingested 2026-10-15 · 64 lines · speaker auto (voiceprint 0.89 + name mentioned) · 12 flagged <!-- managed -->
 
 ### Notes
 
@@ -262,7 +259,8 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - event: Coffee With Ayman - Security Cafe
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman explains his motivation for creating a book, podcast, and YouTube channel to make cybersecurity more accessible to beginners and startups. He discusses his work as a fractional CISO, helping small companies gain security expertise without hiring a full-time chief information security officer. He also mentions upcoming courses and a community to support people interested in learning about cybersecurity.
+- status: ✅ ingested 2026-10-15 · 28 lines · speaker auto (voiceprint 0.86 + name mentioned) · 1 flagged <!-- managed -->
 
 ### Notes
 
@@ -274,7 +272,8 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - event: Coffee With Ayman - Security Cafe
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman explains the mindset shift required when transitioning from a full-time CISO to a fractional or virtual CISO, emphasizing the additional responsibilities such as accounting, scheduling, and client management. He discusses the different types of vCISOs, the challenges in the market, and the importance of customer success in running a vCISO business.
+- status: ✅ ingested 2026-10-15 · 15 lines · speaker auto (voiceprint 0.83 + solo recording) · 1 flagged <!-- managed -->
 
 ### Notes
 
@@ -286,7 +285,8 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - event: Coffee With Ayman - Security Cafe
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman explains the importance of a technical risk assessment in identifying security risks that may not be covered by compliance programs like SOC 2. He emphasizes that assessments should be tailored to an organization's specific environment and prioritize risks based on the company's unique needs. He recommends conducting on-site interviews and creating a one-year roadmap to address identified risks.
+- status: ✅ ingested 2026-10-15 · 17 lines · speaker auto (voiceprint 0.85 + solo recording) · 0 flagged <!-- managed -->
 
 ### Notes
 
@@ -298,7 +298,8 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - event: Coffee With Ayman - Security Cafe
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman shares his excitement for DEFCON, highlighting the event's atmosphere of innovation and hacking. He mentions the variety of activities, including car hacking and IoT challenges, and the mix of participants from different backgrounds. He emphasizes the thrill of exchanging exploits and competing in skill-based challenges.
+- status: ✅ ingested 2026-10-15 · 10 lines · speaker auto (voiceprint 0.69 + solo recording) · 2 flagged <!-- managed -->
 
 ### Notes
 
@@ -310,7 +311,8 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - event: Coffee With Ayman - Security Cafe
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman illustrates the challenges of being perceived as the "security person" by demonstrating a scenario where he asks someone to install a security agent, despite being seen as an outsider. He highlights the difficulty of gaining cooperation and trust in security efforts, and emphasizes the importance of clear communication and policy enforcement in ensuring compliance.
+- status: ✅ ingested 2026-10-15 · 25 lines · speaker auto (voiceprint 0.83 + solo recording) · 0 flagged <!-- managed -->
 
 ### Notes
 
@@ -322,7 +324,8 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - event: Coffee With Ayman - Security Cafe
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman explains that startups often struggle with knowing what security measures to prioritize. He advises focusing on protecting customer data and enabling business growth by identifying immediate security needs. He emphasizes creating a clear timeline for security actions, starting from day zero.
+- status: ✅ ingested 2026-10-15 · 11 lines · speaker auto (voiceprint 0.79 + solo recording) · 0 flagged <!-- managed -->
 
 ### Notes
 
@@ -334,7 +337,8 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - event: Coffee With Ayman - Security Cafe
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman explains that SOC 2 focuses on data security with five criteria, including availability, integrity, privacy, confidentiality, and security, and is primarily aimed at service providers, especially in the U.S. He notes that ISO is more policy-oriented, recognized internationally, and involves a longer three-year journey, but may be more suitable for companies with international customers. Ayman advises startups to choose based on their customers' requirements, highlighting that there is significant overlap between the two standards but they differ in scope and approach.
+- status: ✅ ingested 2026-10-15 · 18 lines · speaker auto (voiceprint 0.79 + solo recording) · 0 flagged <!-- managed -->
 
 ### Notes
 
@@ -346,7 +350,8 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - event: Coffee With Ayman - Security Cafe
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman explains the importance of security logging for SaaS and B2B companies, emphasizing the need for situational awareness through logging user activities and system events. He recommends starting by enabling logging features such as AWS CloudTrail and sending logs to tools like Sumo, Splunk, or Datadog for analysis and searchability.
+- status: ✅ ingested 2026-10-15 · 12 lines · speaker auto (voiceprint 0.83 + name mentioned) · 6 flagged <!-- managed -->
 
 ### Notes
 
@@ -358,7 +363,8 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - event: Coffee With Ayman - Security Cafe
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman explains the importance of eliminating shared credentials in an organization to improve security and enable proper attribution during security events. He emphasizes that each person should have unique credentials and highlights the value of strengthening password requirements as a key step in enhancing authentication practices.
+- status: ✅ ingested 2026-10-15 · 11 lines · speaker auto (voiceprint 0.82 + solo recording) · 0 flagged <!-- managed -->
 
 ### Notes
 
@@ -370,510 +376,70 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - event: Coffee With Ayman - Security Cafe
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman explains that startups should begin with authentication and logging to improve security. He recommends implementing SSO to centralize access control and ensure former employees lose access automatically. He also highlights the value of context-aware authentication, which can detect suspicious login activity based on location and timing.
+- status: ✅ ingested 2026-10-15 · 9 lines · speaker auto (voiceprint 0.78 + solo recording) · 3 flagged <!-- managed -->
 
 ### Notes
 
 ## BSides SF 2025 Vlog - Interview with Ayman ElSawah + Meeting Jason Haddix & Tanya Janca!
 - id: bsides-sf-2025-vlog-interview-with-ayman-elsawah-meeting <!-- managed -->
 - url: https://www.youtube.com/watch?v=7x_VJLEIuQA
-- format:
+- format: interview <!-- guessed from 2 voice(s); fix if wrong -->
 - date: 2025-05-07
 - event: Three Headed Beast Security
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman advises first-time conference attendees to engage in a variety of activities, such as attending talks, visiting villages, and networking with people in line or during breaks. He emphasizes the importance of adaptability and a broad understanding of the security field for those starting in cybersecurity, and he highlights the impact of AI on the industry, noting that it will automate many routine tasks but also increase the need for skilled professionals who can work alongside AI tools.
+- status: ✅ ingested 2026-10-15 · 131 lines · speaker auto (voiceprint 0.74 + name mentioned) · 13 flagged <!-- managed -->
 
 ### Notes
 
 ## Balancing Life and the Addiction to Productivity w/ Ayman Elsawah
 - id: balancing-life-and-the-addiction-to-productivity-w-ayman <!-- managed -->
 - url: https://www.youtube.com/watch?v=uQOCK0y_PD4
-- format:
+- format: interview <!-- guessed from 2 voice(s); fix if wrong -->
 - date: 2024-07-12
 - event: BlakeWilliamsHQ
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman discusses the pressure of overworking and the need to find a sustainable work pace, especially for single parents. He emphasizes the importance of unplugging from the constant drive for productivity and suggests planning long-term goals to achieve balance. He also highlights the value of community and support structures in managing work-life balance.
+- status: ✅ ingested 2026-10-15 · 61 lines · speaker auto (voiceprint 0.81 + name mentioned) · 6 flagged <!-- managed -->
 
 ### Notes
 
 ## How to become a Cybersecurity professional  | Ayman Elsawah
 - id: how-to-become-a-cybersecurity-professional-ayman-elsawah <!-- managed -->
 - url: https://www.youtube.com/watch?v=iDv0-AY7J84
-- format:
+- format: talk <!-- guessed from 1 voice(s); fix if wrong -->
 - date: 2021-12-06
 - event: Haythem Hammour
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- summary: Ayman explains that becoming a cybersecurity professional can start from various backgrounds and that the field includes many roles beyond hacking or penetration testing. He suggests leveraging existing skills, such as those from web development or linguistics, and recommends using the NICE framework to explore different cybersecurity positions and find a good fit.
+- status: ✅ ingested 2026-10-15 · 10 lines · speaker auto (voiceprint 0.78 + solo recording) · 2 flagged <!-- managed -->
 
 ### Notes
 
 ## How Do You Protect Data on Endpoints | Cybersecurity on the Street | Interviews
 - id: how-do-you-protect-data-on-endpoints-cybersecurity-on-the <!-- managed -->
 - url: https://www.youtube.com/watch?v=q4syDUQxLJg
-- format:
+- format: panel <!-- guessed from 7 voice(s); fix if wrong -->
 - date: 2020-04-29
 - event: Absolute Security
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
+- status: 👤 needs speaker review — see intake/speakers.md <!-- managed -->
 
 ### Notes
 
 ## How do you protect your remote employees? | Cybersecurity on the Street | Interviews
 - id: how-do-you-protect-your-remote-employees-cybersecurity-on <!-- managed -->
 - url: https://www.youtube.com/watch?v=zocUc7bzQAc
-- format:
+- format: interview <!-- guessed from 2 voice(s); fix if wrong -->
 - date: 2020-03-27
 - event: Absolute Security
 - category:
 - topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Cyber Resilience with Cohesity, When to use AI for Writing, and the News - Rob Sadowski - ESW #477
-- id: cyber-resilience-with-cohesity-when-to-use-ai-for-writing <!-- managed -->
-- url: https://www.youtube.com/watch?v=6sZm4oA-iaU
-- format: cohost
-- date: 2026-09-21
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## The State of Cybersecurity Hiring, 2026 content plans, and the weekly news - ESW #441
-- id: the-state-of-cybersecurity-hiring-2026-content-plans-and-the <!-- managed -->
-- url: https://www.youtube.com/watch?v=cTkQz2DGJRg
-- format: cohost
-- date: 2026-01-12
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## ESW at BlackHat and the weekly enterprise security news - ESW #419
-- id: esw-at-blackhat-and-the-weekly-enterprise-security-news-esw <!-- managed -->
-- url: https://www.youtube.com/watch?v=Dq8_NlDm-A0
-- format: cohost
-- date: 2025-08-11
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## The Cyber Canon, ditching the SOC 2, and the weekly enterprise news - Helen Patton - ESW #416
-- id: the-cyber-canon-ditching-the-soc-2-and-the-weekly-enterprise <!-- managed -->
-- url: https://www.youtube.com/watch?v=ddA0I3fGRHA
-- format: cohost
-- date: 2025-07-21
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Data Security in the AI Era, Don't Let AI Ruin your Presentation, and the Weekly News - ESW #480
-- id: data-security-in-the-ai-era-don-t-let-ai-ruin-your <!-- managed -->
-- url: https://www.youtube.com/watch?v=6a2-W3WDGhg
-- format: cohost
-- date: 2026-10-12
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Shadow AI Epidemic: Uncovering Agents on the Endpoint, British Library Breach, & News ... - ESW #475
-- id: shadow-ai-epidemic-uncovering-agents-on-the-endpoint-british <!-- managed -->
-- url: https://www.youtube.com/watch?v=FnO0T_1Fj-M
-- format: cohost
-- date: 2026-09-07
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Exploring AI Network Protocols; Vulnerability Truths and Guarantees; and the News - ESW #469
-- id: exploring-ai-network-protocols-vulnerability-truths-and <!-- managed -->
-- url: https://www.youtube.com/watch?v=Em3FoAU4AE8
-- format: cohost
-- date: 2026-07-27
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## AI Security at Scale, CMMC phase II paused, and the Weekly Enterprise News - ESW #468
-- id: ai-security-at-scale-cmmc-phase-ii-paused-and-the-weekly <!-- managed -->
-- url: https://www.youtube.com/watch?v=b4jFqynkXgo
-- format: cohost
-- date: 2026-07-28
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Fixing pentesting, Meta is destroying its engineering org, the weekly news  - ESW #465
-- id: fixing-pentesting-meta-is-destroying-its-engineering-org-the <!-- managed -->
-- url: https://www.youtube.com/watch?v=DRg-qoTIvJE
-- format: cohost
-- date: 2026-06-29
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Safe AI at scale, what happens after initial access, and the weekly enterprise news  - ESW #463
-- id: safe-ai-at-scale-what-happens-after-initial-access-and-the <!-- managed -->
-- url: https://www.youtube.com/watch?v=FDWowt7UOhU
-- format: cohost
-- date: 2026-06-15
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Helping defense's use of AI catch up with offense, cost of the vulnpocalypse, news - ESW #461
-- id: helping-defense-s-use-of-ai-catch-up-with-offense-cost-of <!-- managed -->
-- url: https://www.youtube.com/watch?v=pUEYXOX8hOY
-- format: cohost
-- date: 2026-06-01
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## We catch up on the news, including AI vuln hunting; also more RSAC interviews! - ESW #454
-- id: we-catch-up-on-the-news-including-ai-vuln-hunting-also-more <!-- managed -->
-- url: https://www.youtube.com/watch?v=ul7Cj6BuA48
-- format: cohost
-- date: 2026-04-13
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Can AI help critical infrastructure, the state of the cyber market, and weekly news - ESW #451
-- id: can-ai-help-critical-infrastructure-the-state-of-the-cyber <!-- managed -->
-- url: https://www.youtube.com/watch?v=S74rml3jr2A
-- format: cohost
-- date: 2026-03-23
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## AI Governance, new book (Code War) from Allie Mellen, and the weekly news! - ESW #450
-- id: ai-governance-new-book-code-war-from-allie-mellen-and-the <!-- managed -->
-- url: https://www.youtube.com/watch?v=J8_MeasiN0Q
-- format: cohost
-- date: 2026-03-16
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Bringing intelligence to assets, new White House cybersecurity strategy, and the news - ESW #447
-- id: bringing-intelligence-to-assets-new-white-house <!-- managed -->
-- url: https://www.youtube.com/watch?v=xKjbiRY7RSw
-- format: cohost
-- date: 2026-02-23
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Hardware-level zero trust, don't trust AI with your employees, and the news - ESW #446
-- id: hardware-level-zero-trust-don-t-trust-ai-with-your-employees <!-- managed -->
-- url: https://www.youtube.com/watch?v=tKa7EsJA8Xg
-- format: cohost
-- date: 2026-02-16
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Making vulnerability management and incident response actually work. Also, the News! - ESW #442
-- id: making-vulnerability-management-and-incident-response <!-- managed -->
-- url: https://www.youtube.com/watch?v=nsfAZtwp1Yc
-- format: cohost
-- date: 2026-01-19
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Illuminating Data Blind Spots, Topic, Enterprise News - Tony Kelly - ESW #437
-- id: illuminating-data-blind-spots-topic-enterprise-news-tony <!-- managed -->
-- url: https://www.youtube.com/watch?v=UxOnCMw_yPc
-- format: cohost
-- date: 2025-12-15
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Internal threats are the hole in Cybersecurity’s donut - Frank Vukovits - ESW #438
-- id: internal-threats-are-the-hole-in-cybersecurity-s-donut-frank <!-- managed -->
-- url: https://www.youtube.com/watch?v=CJbqpcN_lz0
-- format: cohost
-- date: 2025-12-22
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Transforming Frontline Workflows with Passwordless Access, AI costs, and the News - ESW #431
-- id: transforming-frontline-workflows-with-passwordless-access-ai <!-- managed -->
-- url: https://www.youtube.com/watch?v=KkM82krp3UU
-- format: cohost
-- date: 2025-11-03
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Mitigating attacks against AI-enabled Apps, Replacing the CIA triad, Enterprise News - ESW #429
-- id: mitigating-attacks-against-ai-enabled-apps-replacing-the-cia <!-- managed -->
-- url: https://www.youtube.com/watch?v=Q0FJzZPgwwU
-- format: cohost
-- date: 2025-10-20
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Disruption is Coming for the Vulnerability Management Market - Tod Beardsley - ESW #425
-- id: disruption-is-coming-for-the-vulnerability-management-market <!-- managed -->
-- url: https://www.youtube.com/watch?v=CBoEIl2CcY0
-- format: cohost
-- date: 2025-09-22
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Dave Lewis talks M&A due diligence, TBD topic, the weekly news - Dave Lewis - ESW #422
-- id: dave-lewis-talks-m-a-due-diligence-tbd-topic-the-weekly-news <!-- managed -->
-- url: https://www.youtube.com/watch?v=SsDGk99LT9c
-- format: cohost
-- date: 2025-09-01
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Oktane Preview with Harish Peri, Invisible Prompt Attacks, and the weekly news! - Hari... - ESW #421
-- id: oktane-preview-with-harish-peri-invisible-prompt-attacks-and <!-- managed -->
-- url: https://www.youtube.com/watch?v=WHSw4wn3iIo
-- format: cohost
-- date: 2025-08-25
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Rethinking risk based vulnerability management, Black Hat expo insights, and the news  - ESW #420
-- id: rethinking-risk-based-vulnerability-management-black-hat <!-- managed -->
-- url: https://www.youtube.com/watch?v=GILIKiSsIGo
-- format: cohost
-- date: 2025-08-18
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Weekly Enterprise Security News and Tips on Building Security From Day 1 - Guillaume Ross - ESW #418
-- id: weekly-enterprise-security-news-and-tips-on-building <!-- managed -->
-- url: https://www.youtube.com/watch?v=JKmz11ew9-s
-- format: cohost
-- date: 2025-08-04
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## The enterprise security news, more secure by removing credentials, & RSAC interviews -... - ESW #410
-- id: the-enterprise-security-news-more-secure-by-removing <!-- managed -->
-- url: https://www.youtube.com/watch?v=Xg6ylqF0-qc
-- format: cohost
-- date: 2025-06-09
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Tailscale rakes it in, CVE dead to us, cool Chrome extensions, dog saves toddler - ESW #403
-- id: tailscale-rakes-it-in-cve-dead-to-us-cool-chrome-extensions <!-- managed -->
-- url: https://www.youtube.com/watch?v=-egy0Z62VOA
-- format: cohost
-- date: 2025-04-21
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Best of Cyber April Fools, Tons of Free Tools, runZero positioned to disrupt? - ESW #401
-- id: best-of-cyber-april-fools-tons-of-free-tools-runzero <!-- managed -->
-- url: https://www.youtube.com/watch?v=-JJw212ph8Q
-- format: cohost
-- date: 2025-04-07
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## The toughest decisions CISOs have to make, MCP servers, Napster's comeback - ESW #400
-- id: the-toughest-decisions-cisos-have-to-make-mcp-servers <!-- managed -->
-- url: https://www.youtube.com/watch?v=3LRiRy-6-cU
-- format: cohost
-- date: 2025-03-31
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Security doesn't trust AI, but startups are using it to write 95% of their code - ESW #398
-- id: security-doesn-t-trust-ai-but-startups-are-using-it-to-write <!-- managed -->
-- url: https://www.youtube.com/watch?v=dkKqBjMRgIA
-- format: cohost
-- date: 2025-03-17
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Ransomware is down, Mac malware is up, AI disappoints - ESW #396
-- id: ransomware-is-down-mac-malware-is-up-ai-disappoints-esw-396 <!-- managed -->
-- url: https://www.youtube.com/watch?v=wmlCgBpNCNo
-- format: cohost
-- date: 2025-03-03
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## The dark side of security leadership, will agentic be a thing, OWASP AI resources - ESW #394
-- id: the-dark-side-of-security-leadership-will-agentic-be-a-thing <!-- managed -->
-- url: https://www.youtube.com/watch?v=iezO2Muq7VU
-- format: cohost
-- date: 2025-02-17
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Semgrep non-drama, Facebook hates Linux - Vulns in Cars, Cell Towers, M365, and more - ESW #392
-- id: semgrep-non-drama-facebook-hates-linux-vulns-in-cars-cell <!-- managed -->
-- url: https://www.youtube.com/watch?v=YS7CpWENEiA
-- format: cohost
-- date: 2025-02-03
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Celebrity investors, creator metrics, and Chrome extension compromise - ESW #389
-- id: celebrity-investors-creator-metrics-and-chrome-extension <!-- managed -->
-- url: https://www.youtube.com/watch?v=WynViAuMtFQ
-- format: cohost
-- date: 2025-01-13
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## AI messes with scammers, autonomous endpoint security, malware targets Excel - ESW #385
-- id: ai-messes-with-scammers-autonomous-endpoint-security-malware <!-- managed -->
-- url: https://www.youtube.com/watch?v=EMnkgH2re-Y
-- format: cohost
-- date: 2024-11-22
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
-
-### Notes
-
-## Funding, AI controls your PC, Cyberstarts stops Sunrise, public cyber goes private - ESW #382
-- id: funding-ai-controls-your-pc-cyberstarts-stops-sunrise-public <!-- managed -->
-- url: https://www.youtube.com/watch?v=hmrrhMrJPYM
-- format: cohost
-- date: 2024-11-04
-- event: Security Weekly - A CRA Resource
-- category:
-- topics:
-- status: ⏳ queued <!-- managed -->
+- status: 👤 needs speaker review — see intake/speakers.md <!-- managed -->
 
 ### Notes

@@ -1,0 +1,1166 @@
+{
+ "slug": "ayman-elsawah-using-quora-to-connect-with-your-audience",
+ "scope": "all",
+ "format": "podcast-guest",
+ "turns": [
+  {
+   "start": 3.8,
+   "end": 63.9,
+   "lines": [
+    {
+     "t": 3.8,
+     "text": "Welcome to the Get Published Podcast, sponsored by Brody Consulting Group."
+    },
+    {
+     "t": 8.7,
+     "text": "To get more information about our coaching, publishing, executive ghostwriting, and podcast production services, go to getpublishedpodcast.com."
+    },
+    {
+     "t": 22.2,
+     "text": "Hello, I am Paul Brody, and thank you for joining us for another episode of the Get Published podcast, where we help authors get published with a proven system that works."
+    },
+    {
+     "t": 32.2,
+     "text": "Today, we're being joined by Ayman Elsawah, author of Breaking In, a step-by-step guide to starting a career in information security."
+    },
+    {
+     "t": 41.2,
+     "text": "Ayman, welcome to the show."
+    },
+    {
+     "t": 43.2,
+     "text": "Hi, Paul."
+    },
+    {
+     "t": 43.5,
+     "text": "Thanks for having me."
+    },
+    {
+     "t": 44.4,
+     "text": "How did I do on the pronunciations?"
+    },
+    {
+     "t": 46.4,
+     "text": "You did great."
+    },
+    {
+     "t": 47.0,
+     "text": "You did great."
+    },
+    {
+     "t": 47.5,
+     "text": "Thanks so much."
+    },
+    {
+     "t": 48.3,
+     "text": "All right."
+    },
+    {
+     "t": 49.1,
+     "text": "Yeah."
+    },
+    {
+     "t": 50.3,
+     "text": "Excellent."
+    },
+    {
+     "t": 50.8,
+     "text": "Are you ready to get started?"
+    },
+    {
+     "t": 52.9,
+     "text": "I am."
+    },
+    {
+     "t": 53.5,
+     "text": "I am."
+    },
+    {
+     "t": 53.7,
+     "text": "Let's do this."
+    },
+    {
+     "t": 54.4,
+     "text": "All right."
+    },
+    {
+     "t": 54.9,
+     "text": "Question number one."
+    },
+    {
+     "t": 57.0,
+     "text": "What is the one piece of advice that you would give to a first-time author who is currently writing their book?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 65.5,
+   "end": 163.6,
+   "lines": [
+    {
+     "t": 65.5,
+     "text": "So, first-time author, the one thing I would say is, and as you're currently writing, so you've decided to write it, you're going forward, I would say the number one advice"
+    },
+    {
+     "t": 75.1,
+     "text": "So put yourself, you know, put some sort of date."
+    },
+    {
+     "t": 101.2,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 129.8,
+     "text": "You know, you feel like you're never done."
+    },
+    {
+     "t": 131.8,
+     "text": "It's good to have a trusted editor, someone that can review your work from, you know, with your voice, because you have a certain voice that you're trying to narrate with."
+    },
+    {
+     "t": 142.5,
+     "text": "And so having a good editor that is on board and can understand your language and your audience is really good."
+    },
+    {
+     "t": 149.5,
+     "text": "And because, you know, with the tools these days, we could just keep editing and editing and changing things."
+    },
+    {
+     "t": 157.3,
+     "text": "But again, we feel like we're never done."
+    },
+    {
+     "t": 159.3,
+     "text": "So"
+    },
+    {
+     "t": 160.1,
+     "text": "Having a good editor to kind of help you along is really good."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 164.2,
+   "end": 210.7,
+   "lines": [
+    {
+     "t": 164.2,
+     "text": "Yeah, I couldn't agree more."
+    },
+    {
+     "t": 165.3,
+     "text": "I always tell people the easiest part is getting the book written, getting it spoken out, getting it out there."
+    },
+    {
+     "t": 171.3,
+     "text": "The biggest challenge though is the editing and of course the proofreading."
+    },
+    {
+     "t": 176.8,
+     "text": "I think those are by far the two most difficult parts when it comes to actually getting that book out there because you're right."
+    },
+    {
+     "t": 181.9,
+     "text": "Nothing's ever going to be perfect so the main thing you have to realize is one done is better than perfect get it out there and then when you're potentially making updates or when you're creating a second edition then you can go in there and make those tweaks because it's never going to be perfect and you've got to accept that's right that's right and it's something as a first-time author as well i learned that first of all editing is different than proofreading so that was an interesting lesson there but also you know with everything i mean you know with"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 211.2,
+   "end": 233.8,
+   "lines": [
+    {
+     "t": 211.2,
+     "text": "With dynamic publishing, a lot of times books are printed at the time of order."
+    },
+    {
+     "t": 216.6,
+     "text": "So you can have confidence."
+    },
+    {
+     "t": 218.9,
+     "text": "And with digital copies and everything, you can make updates later."
+    },
+    {
+     "t": 222.6,
+     "text": "And that's your choice."
+    },
+    {
+     "t": 223.6,
+     "text": "You can do that."
+    },
+    {
+     "t": 224.7,
+     "text": "And it actually makes the book more alive and the audience will appreciate that."
+    },
+    {
+     "t": 229.7,
+     "text": "And so, yeah, understanding that process is really paramount."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 235.2,
+   "end": 241.7,
+   "lines": [
+    {
+     "t": 235.2,
+     "text": "Well, let's talk about marketing."
+    },
+    {
+     "t": 236.4,
+     "text": "So please share a marketing strategy that you have used in your book launch that has worked well."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 243.3,
+   "end": 292.0,
+   "lines": [
+    {
+     "t": 243.3,
+     "text": "So I've used social media."
+    },
+    {
+     "t": 245.6,
+     "text": "I have a podcast as well."
+    },
+    {
+     "t": 247.8,
+     "text": "I've put on the podcast or I mentioned it on the podcast."
+    },
+    {
+     "t": 250.9,
+     "text": "I think for me what's worked well as of late because my audience sometimes is not on social media yet or have not heard the podcast."
+    },
+    {
+     "t": 262.9,
+     "text": "Doing some in-person talks, going to schools and going to career fairs, things like that."
+    },
+    {
+     "t": 268.8,
+     "text": "Talking with other professors and those that are out there that are helping those trying to get into the field and get into security has been beneficial."
+    },
+    {
+     "t": 278.9,
+     "text": "So that's some of the best feedback I've gotten have been from meeting people in person."
+    },
+    {
+     "t": 285.6,
+     "text": "But online is the way to go."
+    },
+    {
+     "t": 288.3,
+     "text": "So that's something."
+    },
+    {
+     "t": 290.7,
+     "text": "That I'm working with as well."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 292.9,
+   "end": 295.8,
+   "lines": [
+    {
+     "t": 292.9,
+     "text": "And what are some online strategies have you implemented with your launch?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 298.0,
+   "end": 340.8,
+   "lines": [
+    {
+     "t": 298.0,
+     "text": "Well, targeted ad campaigns are good too."
+    },
+    {
+     "t": 304.0,
+     "text": "Twitter, hopping, just being part of the conversation."
+    },
+    {
+     "t": 307.1,
+     "text": "I think going in places where people are asking these questions and just helping them out has been good."
+    },
+    {
+     "t": 315.5,
+     "text": "I try not to be so direct necessarily."
+    },
+    {
+     "t": 317.9,
+     "text": "My approach is"
+    },
+    {
+     "t": 320.9,
+     "text": "Generally has been just help people and you know they will find you or they'll find the resources like your book and the podcast accordingly so you know hopping onto quora discuss forums reddit has been useful too so there's a lot of a lot of different angles to go"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 341.8,
+   "end": 361.2,
+   "lines": [
+    {
+     "t": 341.8,
+     "text": "Well, let's talk a little bit about Quora because you're actually, believe it or not, 321 episodes in, you are the first person to mention that specific strategy, which is really surprising."
+    },
+    {
+     "t": 351.8,
+     "text": "But with all these episodes, you're the first one that's really talked about that."
+    },
+    {
+     "t": 355.8,
+     "text": "So could you tell us a little bit more about that process and some strategies that you're using to build those connections?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 362.6,
+   "end": 420.6,
+   "lines": [
+    {
+     "t": 362.6,
+     "text": "Well, I mean, I'm not a good example because I haven't done too much yet, but it's a factor of time."
+    },
+    {
+     "t": 367.5,
+     "text": "But yeah, basically hopping on there and taking a look at the questions"
+    },
+    {
+     "t": 373.6,
+     "text": "Targeting or going on core and figuring out having it learn what your profile is so that when there's questions related to your field it'll come to you being available for questions and then taking the time to write good answers to some of these questions so you should see something some of these answers are like full-blown articles and so and that's been my"
+    },
+    {
+     "t": 396.5,
+     "text": "My other approach is I like to write articles."
+    },
+    {
+     "t": 398.9,
+     "text": "So before I started writing the book, I started writing articles and it was getting myself in that mindset of storytelling."
+    },
+    {
+     "t": 407.7,
+     "text": "And so, yeah, so going on these forums and answering the questions and helping people out, trying not to be too salesy because, you know, hopefully they'll click on your profile and see that you wrote a book and, you know, go down that rabbit hole."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 421.3,
+   "end": 499.8,
+   "lines": [
+    {
+     "t": 421.3,
+     "text": "Well, and one thing that they have changed in the past few months too is they are not letting you really do any more calls to action because I used to be pretty active on there as well over the past few years."
+    },
+    {
+     "t": 431.8,
+     "text": "And one of the things I would always do is I would answer questions."
+    },
+    {
+     "t": 434.6,
+     "text": "I had to get a lot of publishing questions, marketing questions."
+    },
+    {
+     "t": 437.4,
+     "text": "And I was always very transparent about our advice like, hey, this is what we've done."
+    },
+    {
+     "t": 440.1,
+     "text": "This is how it's worked."
+    },
+    {
+     "t": 441.4,
+     "text": "And if you'd like to get some more information, you can grab a free copy of my book or you can reach out to me via email."
+    },
+    {
+     "t": 447.1,
+     "text": "And what they did was I actually received a notice a few months ago going, hey,"
+    },
+    {
+     "t": 451.3,
+     "text": "We need you to make these changes."
+    },
+    {
+     "t": 452.8,
+     "text": "We have changed our privacy policy and we're no longer going to let you guys do calls to action at the end, which kind of sucked because we were given quality information and that's just a great way for lead generation to build those connections because people do want"
+    },
+    {
+     "t": 468.7,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 477.5,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 495.0,
+     "text": "I think it may have also to do with GDPR and some of the other security things that have come up in the past year."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 501.2,
+   "end": 506.8,
+   "lines": [
+    {
+     "t": 501.2,
+     "text": "Yeah, that's interesting."
+    },
+    {
+     "t": 502.6,
+     "text": "I wonder if one could write an article on their own website and then link to that."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 508.0,
+   "end": 536.3,
+   "lines": [
+    {
+     "t": 508.0,
+     "text": "I think any calls to action, you're probably going to get pinched, but I think if you took that, did a cut and paste, then I don't think it'd be an issue because when you're answering those questions, you do have information on top going, you have Paul Brody, book publisher at Brody Consulting, and you can actually put book publisher at BrodyConsulting.com or different things like that so they can connect to it that way, but you just can no longer put that direct call to action in, which I think is a shame, but I think what happens is people are just abusing it like I mentioned."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 537.0,
+   "end": 539.3,
+   "lines": [
+    {
+     "t": 537.0,
+     "text": "Yeah, yeah, probably so, probably so."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 539.3,
+   "end": 582.2,
+   "lines": [
+    {
+     "t": 539.3,
+     "text": "Well, and it's interesting too, I've noticed that they're even offering advertising now with it."
+    },
+    {
+     "t": 544.3,
+     "text": "So you can actually make money depending on how many people actually read your answer."
+    },
+    {
+     "t": 550.5,
+     "text": "And they've also got a daily digest, which I'm sure you get too, which they answer some of those popular questions."
+    },
+    {
+     "t": 555.9,
+     "text": "And I'm a little bit of a, I wouldn't say a comic book nerd, but I'm one of these guys, you know, enjoys the Marvel movies and the DC movies."
+    },
+    {
+     "t": 561.6,
+     "text": "So I get a lot of responses about Tony Stark and"
+    },
+    {
+     "t": 565.2,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 574.2,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 592.5,
+   "end": 626.6,
+   "lines": [
+    {
+     "t": 592.5,
+     "text": "Even though I wasn't really, I mean, I thought about it, but, you know, I didn't dwell too much as maybe my sister did."
+    },
+    {
+     "t": 597.8,
+     "text": "And it was interesting to find the answer to that question."
+    },
+    {
+     "t": 601.9,
+     "text": "So that was quite interesting."
+    },
+    {
+     "t": 605.1,
+     "text": "But yeah, you know, answering, you know, when it comes to output and kind of answering questions, you know, we have Medium, we have Quora, we have all these places."
+    },
+    {
+     "t": 612.9,
+     "text": "And sometimes it just gets overwhelming, frankly, to go."
+    },
+    {
+     "t": 617.4,
+     "text": "So, I mean, I'm still figuring out my"
+    },
+    {
+     "t": 620.6,
+     "text": "Yeah, and the nice thing about this is there's so many places to put that information out there."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 645.2,
+   "end": 667.1,
+   "lines": [
+    {
+     "t": 645.2,
+     "text": "And a nice thing, again, to Quora is the fact that you get ideas where they ask you about publishing, they ask you about format, and they ask you, you know, what's better, free launch or 99 cent launch, these different type of questions."
+    },
+    {
+     "t": 656.4,
+     "text": "It really gets you thinking, and it gives you ideas for books, it gives you ideas for blogs, for all sorts of different content."
+    },
+    {
+     "t": 663.1,
+     "text": "So to me, it's almost like an extra wheel I can add to that communication rhythm."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 668.1,
+   "end": 672.0,
+   "lines": [
+    {
+     "t": 668.1,
+     "text": "Yeah, yeah, it's kind of hanging out of the water cooler and getting ideas."
+    },
+    {
+     "t": 671.4,
+     "text": "Absolutely."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 672.0,
+   "end": 677.5,
+   "lines": [
+    {
+     "t": 672.0,
+     "text": "Well, let's talk about your favorite book."
+    },
+    {
+     "t": 673.6,
+     "text": "So what is your favorite book?"
+    },
+    {
+     "t": 675.4,
+     "text": "And what was the number one thing that you learned from it?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 679.2,
+   "end": 725.1,
+   "lines": [
+    {
+     "t": 679.2,
+     "text": "Well, there was a book I read a long time ago called Harnessing Complexity."
+    },
+    {
+     "t": 683.6,
+     "text": "And it was a gift from my brother, actually."
+    },
+    {
+     "t": 685.5,
+     "text": "And it was really cool."
+    },
+    {
+     "t": 686.4,
+     "text": "I remember reading it."
+    },
+    {
+     "t": 687.8,
+     "text": "And it kind of helps you understand complex systems."
+    },
+    {
+     "t": 691.9,
+     "text": "And if you look at the world and everything, from every interaction to nature to from start to finish,"
+    },
+    {
+     "t": 701.4,
+     "text": "Everything is a complex system."
+    },
+    {
+     "t": 702.5,
+     "text": "And so understanding that complexity and how that system works is what I got out of it and kind of helped me with my mindset and thinking and how to approach problems and how to understand problems."
+    },
+    {
+     "t": 715.5,
+     "text": "And that, you know, sometimes a solution is not very straightforward as we as we tend to think it is."
+    },
+    {
+     "t": 720.7,
+     "text": "So it was a really interesting book."
+    },
+    {
+     "t": 724.1,
+     "text": "I remember it to this day."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 726.0,
+   "end": 728.6,
+   "lines": [
+    {
+     "t": 726.0,
+     "text": "And for a final question, what is your favorite quote and why?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 730.2,
+   "end": 792.9,
+   "lines": [
+    {
+     "t": 730.2,
+     "text": "Well, for me, it would be pay it forward."
+    },
+    {
+     "t": 733.4,
+     "text": "I like that quote."
+    },
+    {
+     "t": 734.2,
+     "text": "And the reason is that the more we give, the more we'll receive."
+    },
+    {
+     "t": 739.7,
+     "text": "Someone, a wise friend, said that to me once."
+    },
+    {
+     "t": 742.2,
+     "text": "And basically, paying it forward inherently adds some sort of emotional intelligence to the equation."
+    },
+    {
+     "t": 747.7,
+     "text": "And emotional intelligence is something we drastically need in the world today."
+    },
+    {
+     "t": 753.3,
+     "text": "So for those that don't know, emotional intelligence is basically your ability to communicate"
+    },
+    {
+     "t": 759.4,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 766.2,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 789.4,
+     "text": "That's how I, you know, try to live, you know, moving forward, I guess."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 793.7,
+   "end": 850.9,
+   "lines": [
+    {
+     "t": 793.7,
+     "text": "I have the same exact philosophy."
+    },
+    {
+     "t": 795.1,
+     "text": "I'm a huge believer."
+    },
+    {
+     "t": 795.9,
+     "text": "It goes around, comes around."
+    },
+    {
+     "t": 797.2,
+     "text": "You do well, you help other people."
+    },
+    {
+     "t": 799.1,
+     "text": "It's going to come back in a beautiful way."
+    },
+    {
+     "t": 800.4,
+     "text": "And we don't do it for that intention."
+    },
+    {
+     "t": 802.0,
+     "text": "We do the intention of giving back and helping."
+    },
+    {
+     "t": 804.2,
+     "text": "From what i've seen it always tends to come back i was in maui last month and one of the guys i was talking to over there he owns probably one of my favorite restaurants on the island called now lose and he was talking about their company slogan which is to eat live pono and pono is very much like karma it's just going out there and it's given to the world it's helping it's about making everything a better place because i mean that's the real way to have balance is to go out there and give back and help and it does come back in a beautiful way"
+    },
+    {
+     "t": 833.9,
+     "text": "And I think also the opposite is true."
+    },
+    {
+     "t": 835.9,
+     "text": "When you're out for yourself, when you're not helping other people, and you're just out for whatever you can get, I think that comes back in a really bad way."
+    },
+    {
+     "t": 843.8,
+     "text": "So that's one thing I always tell people."
+    },
+    {
+     "t": 845.2,
+     "text": "It's like, hey, go out there, live a good life, help people, because it really does come back in an amazing way."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 851.9,
+   "end": 901.8,
+   "lines": [
+    {
+     "t": 851.9,
+     "text": "Yeah, yeah."
+    },
+    {
+     "t": 853.0,
+     "text": "My mentor, Jonathan Stark, he mentioned something where I was trying to understand, I was trying"
+    },
+    {
+     "t": 861.4,
+     "text": "Thank you for watching."
+    },
+    {
+     "t": 890.6,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec,"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 913.4,
+   "end": 947.2,
+   "lines": [
+    {
+     "t": 913.4,
+     "text": "I mean, that's why I do what I do with publishing."
+    },
+    {
+     "t": 915.7,
+     "text": "You know, we're out there to help."
+    },
+    {
+     "t": 917.4,
+     "text": "And as you and I were talking before the call, you're potentially talking about some marketing down the line."
+    },
+    {
+     "t": 922.4,
+     "text": "Just set up a call with Devin."
+    },
+    {
+     "t": 923.9,
+     "text": "You know, it's non-pitch."
+    },
+    {
+     "t": 925.1,
+     "text": "All we want to do is know if we can help."
+    },
+    {
+     "t": 927.5,
+     "text": "And if there's a fit there, we can explore it."
+    },
+    {
+     "t": 929.3,
+     "text": "And if not, you know what?"
+    },
+    {
+     "t": 930.5,
+     "text": "We just had a great conversation."
+    },
+    {
+     "t": 932.0,
+     "text": "And that's literally all we do."
+    },
+    {
+     "t": 934.5,
+     "text": "And our business has exploded due to it because we're not salesy."
+    },
+    {
+     "t": 937.5,
+     "text": "We're not gimmicky."
+    },
+    {
+     "t": 938.3,
+     "text": "We don't write any checks that our butts can't cash."
+    },
+    {
+     "t": 940.7,
+     "text": "We're very realistic and very open."
+    },
+    {
+     "t": 943.6,
+     "text": "And I think it just makes such a huge difference when you align your business that way."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 948.6,
+   "end": 981.3,
+   "lines": [
+    {
+     "t": 948.6,
+     "text": "Yeah, yeah."
+    },
+    {
+     "t": 949.4,
+     "text": "There's a book written..."
+    },
+    {
+     "t": 952.3,
+     "text": "Many years ago, I think it was called How to Sell Anything or something like that."
+    },
+    {
+     "t": 955.4,
+     "text": "And, you know, I was curious and, you know, again, I was hesitant about being, oh, sorry, The Secret of Selling Anything by Harry Brown."
+    },
+    {
+     "t": 965.9,
+     "text": "And in that book, you know, again, I was curious."
+    },
+    {
+     "t": 970.3,
+     "text": "But he just talks about, like, helping people solve their problems, just all you have to focus on."
+    },
+    {
+     "t": 976.5,
+     "text": "And some of the best salespeople I know are actually very close friends because they're not salesy at all."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 981.5,
+   "end": 981.6,
+   "lines": [
+    {
+     "t": 981.5,
+     "text": "Yeah."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 982.1,
+   "end": 987.3,
+   "lines": [
+    {
+     "t": 982.1,
+     "text": "And it's really interesting."
+    },
+    {
+     "t": 984.5,
+     "text": "I wish more people could learn good sales."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 988.2,
+   "end": 1009.1,
+   "lines": [
+    {
+     "t": 988.2,
+     "text": "Well, and also doing what you say you're going to do."
+    },
+    {
+     "t": 990.1,
+     "text": "I think that's the biggest thing is the fact that you do what you say you're going to do and that's it."
+    },
+    {
+     "t": 995.5,
+     "text": "I mean, it really is the secret of sales is just building relationships and building trust and doing what you say you're going to do and not promising people the moon and the stars, being very realistic, being very clear with no messing about."
+    },
+    {
+     "t": 1008.2,
+     "text": "That's how you build a business."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1009.8,
+   "end": 1012.3,
+   "lines": [
+    {
+     "t": 1009.8,
+     "text": "That's right."
+    },
+    {
+     "t": 1010.5,
+     "text": "That's right."
+    },
+    {
+     "t": 1011.0,
+     "text": "Absolutely."
+    },
+    {
+     "t": 1011.9,
+     "text": "Absolutely."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1012.9,
+   "end": 1018.6,
+   "lines": [
+    {
+     "t": 1012.9,
+     "text": "Well, Ayman, I want to thank you."
+    },
+    {
+     "t": 1015.4,
+     "text": "One thing I did want to ask too, you talked about your favorite quote, right?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1019.5,
+   "end": 1020.5,
+   "lines": [
+    {
+     "t": 1019.5,
+     "text": "Yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1020.5,
+   "end": 1034.1,
+   "lines": [
+    {
+     "t": 1020.5,
+     "text": "And one thing I wanted to share with you is my favorite quote."
+    },
+    {
+     "t": 1022.7,
+     "text": "And that is what the mind of man can conceive and believe it will achieve."
+    },
+    {
+     "t": 1026.9,
+     "text": "W. Clement Stone."
+    },
+    {
+     "t": 1027.8,
+     "text": "I've always believed in that."
+    },
+    {
+     "t": 1029.9,
+     "text": "And I've seen it."
+    },
+    {
+     "t": 1030.9,
+     "text": "You know, you set your mind to something."
+    },
+    {
+     "t": 1032.5,
+     "text": "It's amazing what you can accomplish."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1035.4,
+   "end": 1037.2,
+   "lines": [
+    {
+     "t": 1035.4,
+     "text": "Nice."
+    },
+    {
+     "t": 1035.8,
+     "text": "That's very true."
+    },
+    {
+     "t": 1036.6,
+     "text": "That is very true."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1038.0,
+   "end": 1044.5,
+   "lines": [
+    {
+     "t": 1038.0,
+     "text": "Well, Ayman, I want to thank you for being a guest on the show."
+    },
+    {
+     "t": 1040.9,
+     "text": "Once again, what is the best way for people to find you online?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1045.7,
+   "end": 1056.4,
+   "lines": [
+    {
+     "t": 1045.7,
+     "text": "Yeah, so I'm on Twitter, at Coffee with Ayman, also on Instagram, and I'm on LinkedIn as well."
+    },
+    {
+     "t": 1051.8,
+     "text": "So you search for my name, or you could email me at Ayman at Getting Into Infosec.com."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1057.0,
+   "end": 1061.4,
+   "lines": [
+    {
+     "t": 1057.0,
+     "text": "Ayman, thank you once again for being on the show, and I wish you all the best in your off the journey ahead."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1062.5,
+   "end": 1063.6,
+   "lines": [
+    {
+     "t": 1062.5,
+     "text": "Thank you so much."
+    },
+    {
+     "t": 1063.1,
+     "text": "Thanks for having me."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1066.5,
+   "end": 1070.6,
+   "lines": [
+    {
+     "t": 1066.5,
+     "text": "Thanks again for joining us today."
+    },
+    {
+     "t": 1068.4,
+     "text": "To learn more about how you can be featured"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "slug": "soc2-vs-iso-for-startups-key-differences-explained",
+ "scope": "all",
+ "format": "talk",
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 58.6,
+   "lines": [
+    {
+     "t": 0.0,
+     "text": "A lot of companies are trying to decide between doing SOC 2 or ISO."
+    },
+    {
+     "t": 3.5,
+     "text": "What's the difference exactly?"
+    },
+    {
+     "t": 4.7,
+     "text": "In a nutshell, SOC 2 is geared around data security."
+    },
+    {
+     "t": 8.7,
+     "text": "There's five different criteria."
+    },
+    {
+     "t": 10.2,
+     "text": "There's availability, integrity, privacy, confidentiality, and of course, data security."
+    },
+    {
+     "t": 15.6,
+     "text": "Data security is the minimum required from a SOC 2 perspective."
+    },
+    {
+     "t": 18.9,
+     "text": "ISO is recognized by international companies."
+    },
+    {
+     "t": 22.0,
+     "text": "And ISO is very policy-oriented."
+    },
+    {
+     "t": 24.5,
+     "text": "It's a three-year journey, actually."
+    },
+    {
+     "t": 26.5,
+     "text": "SOC 2 is geared for service providers."
+    },
+    {
+     "t": 29.2,
+     "text": "It's recognized by the U.S. or a lot of U.S. companies."
+    },
+    {
+     "t": 32.6,
+     "text": "But when you're trying to decide whether to do SOC 2 or ISO, really it should come down to what your customer is asking for."
+    },
+    {
+     "t": 38.3,
+     "text": "There's a lot of overlap."
+    },
+    {
+     "t": 39.4,
+     "text": "There's maybe 60 to 80% overlap, but they're a different type of work."
+    },
+    {
+     "t": 43.3,
+     "text": "ISO, I believe, is a little harder to do because there's a lot of policy and governance and whatnot, but it can be straightforward for the right company."
+    },
+    {
+     "t": 51.6,
+     "text": "If you have international customers, ISO is going to be much more recognized."
+    },
+    {
+     "t": 55.0,
+     "text": "Having both is really good."
+    },
+    {
+     "t": 56.7,
+     "text": "It's not going to hurt you to do both."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

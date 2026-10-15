@@ -1,0 +1,809 @@
+{
+ "slug": "what-is-phishing-simulation-and-should-you-phish-your-own",
+ "scope": "ayman",
+ "format": "panel",
+ "turns": [
+  {
+   "start": 102.7,
+   "end": 130.6,
+   "lines": [
+    {
+     "t": 102.7,
+     "text": "I'm Doug Meyer, Director of Information Security and Data Governance at Gordon and Reese LLP."
+    },
+    {
+     "t": 108.2,
+     "text": "We're a nationwide law firm in the United States."
+    },
+    {
+     "t": 111.4,
+     "text": "I manage the information security program in its many aspects, including our phishing awareness program."
+    },
+    {
+     "t": 119.3,
+     "text": "And that's part of what we do."
+    },
+    {
+     "t": 123.0,
+     "text": "Did we let a lawyer in?"
+    },
+    {
+     "t": 126.3,
+     "text": "I'm not a lawyer."
+    },
+    {
+     "t": 127.2,
+     "text": "I don't play on TV."
+    },
+    {
+     "t": 129.9,
+     "text": "Awesome."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 6"
+  },
+  {
+   "start": 131.9,
+   "end": 146.9,
+   "lines": [
+    {
+     "t": 131.9,
+     "text": "Ayman, you're up, sir."
+    },
+    {
+     "t": 133.8,
+     "text": "Hi, I'm Ayman Elsawah, founder and chief vCISO at Cloud Security Labs."
+    },
+    {
+     "t": 138.5,
+     "text": "I help startups get their security programs leveled up and in place, and so happy to be here."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 238.1,
+   "end": 255.2,
+   "lines": [
+    {
+     "t": 238.1,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 267.1,
+   "end": 359.1,
+   "lines": [
+    {
+     "t": 267.1,
+     "text": "You know, my approach is, you know, if you're going to do a phishing campaign, don't set your employees up for failure, right?"
+    },
+    {
+     "t": 275.0,
+     "text": "So we all know that, you know, the big justification that people say why they should do it is like, oh, well, the attackers do it."
+    },
+    {
+     "t": 281.6,
+     "text": "Well, yeah, that's true."
+    },
+    {
+     "t": 282.6,
+     "text": "The attackers do it."
+    },
+    {
+     "t": 284.6,
+     "text": "And so are you preparing them if an attacker does do a phishing campaign?"
+    },
+    {
+     "t": 290.2,
+     "text": "You know, do you have them..."
+    },
+    {
+     "t": 293.6,
+     "text": "Do they know what buttons to press to report a phish?"
+    },
+    {
+     "t": 295.8,
+     "text": "Do they know where to send, you know, is there a security ad or is there a phishing ad email for them to notify people of a phishing, you know, campaign, things like that."
+    },
+    {
+     "t": 307.4,
+     "text": "So if you're going to send a phishing campaign, you know, they need to be prepared on what to do."
+    },
+    {
+     "t": 312.3,
+     "text": "And then of course, definitely stay away from like certain topics."
+    },
+    {
+     "t": 315.8,
+     "text": "I've seen some failures myself firsthand of people sending bonus emails,"
+    },
+    {
+     "t": 322.4,
+     "text": "During, you know, end of year and people got, people's feelings are hurt."
+    },
+    {
+     "t": 326.1,
+     "text": "And, and I would recommend using a lot of empathy and emotional intelligence in your, you know, because sometimes, I mean, you got to put yourself in their feet, right?"
+    },
+    {
+     "t": 339.3,
+     "text": "And I'll defer to the psychologist for, for, for that."
+    },
+    {
+     "t": 342.1,
+     "text": "But, you know, like using a good amount of emotional intelligence and empathy and, you"
+    },
+    {
+     "t": 349.1,
+     "text": "Just compassion for them."
+    },
+    {
+     "t": 351.4,
+     "text": "You know, at the end of the day, you're trying to educate them and have them do better."
+    },
+    {
+     "t": 355.0,
+     "text": "And you're not trying to like get them and bait them out there."
+    },
+    {
+     "t": 358.0,
+     "text": "And my one minute is over."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 544.5,
+   "end": 571.9,
+   "lines": [
+    {
+     "t": 544.5,
+     "text": "Cybersecurity teams are thinking about and self-awareness which is really the operative human function psychological function or mechanism that's at play in terms of what people are doing and what they're aware of or not aware of doing and the phishing test itself does almost nothing to assess or address self-awareness and that's a missing link here in the whole system"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 574.8,
+   "end": 575.1,
+   "lines": [
+    {
+     "t": 574.8,
+     "text": "Got it."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 667.6,
+   "end": 685.1,
+   "lines": [
+    {
+     "t": 667.6,
+     "text": "Yeah, well, first response is we have to do a lot of education when we're rolling out or continuing a phishing program to be respectful to our employees."
+    },
+    {
+     "t": 679.0,
+     "text": "I think part of what I'm hearing so far is based on an assumption, at least somewhat,"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 6"
+  },
+  {
+   "start": 685.5,
+   "end": 687.6,
+   "lines": [
+    {
+     "t": 685.5,
+     "text": "That phishing programs are 100% effective."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1161.3,
+   "end": 1190.2,
+   "lines": [
+    {
+     "t": 1161.3,
+     "text": "Don't send shit."
+    },
+    {
+     "t": 1162.2,
+     "text": "Here's three examples."
+    },
+    {
+     "t": 1163.5,
+     "text": "You'll remember it for a few days until craziness happens again."
+    },
+    {
+     "t": 1167.0,
+     "text": "And then we're screwed."
+    },
+    {
+     "t": 1168.8,
+     "text": "And then it's useless."
+    },
+    {
+     "t": 1169.8,
+     "text": "You've got the tick in the audit box and the compliance box."
+    },
+    {
+     "t": 1172.1,
+     "text": "Congratulations."
+    },
+    {
+     "t": 1172.9,
+     "text": "You can feel good about yourself."
+    },
+    {
+     "t": 1174.9,
+     "text": "But that's it."
+    },
+    {
+     "t": 1175.6,
+     "text": "It's worse than useless."
+    },
+    {
+     "t": 1178.3,
+     "text": "It's that false sense of security."
+    },
+    {
+     "t": 1180.4,
+     "text": "And this is, you know, again, this is why I love hanging out with Gabrielle and the team."
+    },
+    {
+     "t": 1183.6,
+     "text": "It's the whole continual shenanigans of like, okay, let's continue to educate and help people."
+    },
+    {
+     "t": 1188.3,
+     "text": "All right, Ayman, you were going to hit on something on this one."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1190.9,
+   "end": 1302.6,
+   "lines": [
+    {
+     "t": 1190.9,
+     "text": "Yeah, I mean, you know, there's a couple of things."
+    },
+    {
+     "t": 1193.8,
+     "text": "So one, sometimes your boss expects you to do it."
+    },
+    {
+     "t": 1198.2,
+     "text": "So, you know, say you're the new CISO and your boss might be the CEO or CFO, whoever it may be, and they expect you to do it."
+    },
+    {
+     "t": 1209.5,
+     "text": "Like, hey, why haven't you done any phishing campaigns?"
+    },
+    {
+     "t": 1211.2,
+     "text": "And you're going to tell them, well, we shouldn't be doing it."
+    },
+    {
+     "t": 1214.0,
+     "text": "So that's one."
+    },
+    {
+     "t": 1214.7,
+     "text": "But two, I think"
+    },
+    {
+     "t": 1216.4,
+     "text": "You know, there's a big lack of data metrics that we have in security overall, in general."
+    },
+    {
+     "t": 1222.7,
+     "text": "We struggle with like measuring things."
+    },
+    {
+     "t": 1225.7,
+     "text": "And so doing a phishing campaign helps us measure something."
+    },
+    {
+     "t": 1230.7,
+     "text": "It might not be the right thing."
+    },
+    {
+     "t": 1232.6,
+     "text": "It might not be the, you know, the thing, but like we are, there's a drought of data in our just day-to-day stuff."
+    },
+    {
+     "t": 1241.5,
+     "text": "So, you know,"
+    },
+    {
+     "t": 1245.3,
+     "text": "It's tough."
+    },
+    {
+     "t": 1245.9,
+     "text": "It's tough."
+    },
+    {
+     "t": 1246.3,
+     "text": "So I think that's why to touch upon why we do things, you know, we're just grasping for things."
+    },
+    {
+     "t": 1251.5,
+     "text": "Now, if we were a little more wiser, we understand that the main goal is to educate people."
+    },
+    {
+     "t": 1258.3,
+     "text": "So hopefully you've done the education before you've done the phishing campaign."
+    },
+    {
+     "t": 1262.2,
+     "text": "And heck, you know, if you've done a good job, maybe you'll warn them, hey, then in this quarter, we're going to do a phishing campaign."
+    },
+    {
+     "t": 1267.3,
+     "text": "And you don't need to phish them every quarter."
+    },
+    {
+     "t": 1268.8,
+     "text": "I think, I think that's like just kind of, that's wild."
+    },
+    {
+     "t": 1272.6,
+     "text": "Like,"
+    },
+    {
+     "t": 1273.4,
+     "text": "Once a year maybe depending on the culture again it comes back to culture i wrote a whole article about this and one of the things was understand the culture of your organization are you a bank or are you like scrappy startup or you know or someone in the middle so you know just understanding your culture will help a lot doug what you got on this one sir i'd say understanding your culture is very key for any security program in any organization so"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1703.2,
+   "end": 1703.8,
+   "lines": [
+    {
+     "t": 1703.2,
+     "text": "Interesting."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 1704.2,
+   "end": 1711.8,
+   "lines": [
+    {
+     "t": 1704.2,
+     "text": "How many people does that team have that they're doing security phishing?"
+    },
+    {
+     "t": 1708.2,
+     "text": "I mean, do they have everything else in place?"
+    },
+    {
+     "t": 1711.0,
+     "text": "MFA and..."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1969.6,
+   "end": 1997.1,
+   "lines": [
+    {
+     "t": 1969.6,
+     "text": "So if something legitimate is happening, let's say the CEO asks the CFO to transfer funds, a legit transaction, not like a bogus one."
+    },
+    {
+     "t": 1980.0,
+     "text": "Can we somehow check that the actual CFO follow the process and call to verify with the CEO?"
+    },
+    {
+     "t": 1985.3,
+     "text": "For example, like, can we verify that the processes that we have are working?"
+    },
+    {
+     "t": 1990.4,
+     "text": "With, and that, I don't know how to do that, but that's something that I think, you know, we need to just make sure that the processes are working."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1998.9,
+   "end": 2138.3,
+   "lines": [
+    {
+     "t": 1998.9,
+     "text": "So I think that's a good one."
+    },
+    {
+     "t": 2001.2,
+     "text": "So basically my perspective, let's talk about the operational part, right?"
+    },
+    {
+     "t": 2006.3,
+     "text": "You mentioned perimeter, but there's also the concept of zero trust."
+    },
+    {
+     "t": 2009.6,
+     "text": "So, and, and culture."
+    },
+    {
+     "t": 2011.9,
+     "text": "So all of this can tie together."
+    },
+    {
+     "t": 2013.3,
+     "text": "So for example, first of all, a lot of people are getting phished all the time anyway."
+    },
+    {
+     "t": 2018.6,
+     "text": "Okay."
+    },
+    {
+     "t": 2019.4,
+     "text": "So there's enough phishing emails coming in, actual phishing emails."
+    },
+    {
+     "t": 2023.8,
+     "text": "So one, are they reporting it properly?"
+    },
+    {
+     "t": 2026.5,
+     "text": "So do they know which button to press?"
+    },
+    {
+     "t": 2030.6,
+     "text": "There's actually a button in G Suite or workspaces and 365 where you can report a phish."
+    },
+    {
+     "t": 2036.3,
+     "text": "And that's going to help the providers to prevent more of these emails, right?"
+    },
+    {
+     "t": 2043.6,
+     "text": "Do you have DKIM and SPF set up properly, right?"
+    },
+    {
+     "t": 2046.6,
+     "text": "365 has..."
+    },
+    {
+     "t": 2049.4,
+     "text": "A spear phishing category where you can put executives in this category and they'll have extra protection are you doing that like do all these things first right and set up the infrastructure and so that we can reduce the number of phishing attacks to begin with and you know i saw one organization set up a slack bot said if someone reports a phish it was just like there's a bot that would actually walk them through a process that's awesome right"
+    },
+    {
+     "t": 2077.5,
+     "text": "You know, you could also search, if someone does report it, then you can search all these other inboxes and remove these things, right?"
+    },
+    {
+     "t": 2084.9,
+     "text": "So, do you have all these processes in place to remove nasty emails from people's inboxes?"
+    },
+    {
+     "t": 2091.4,
+     "text": "But then, on the other side, if your organization is like, hey, give everybody admin and whatever, and you are struggling to reduce your attack surface, you're like, well,"
+    },
+    {
+     "t": 2105.1,
+     "text": "You know, I'm going to have to do some phishing."
+    },
+    {
+     "t": 2107.3,
+     "text": "And so see, you know, and prove, I'm just kind of being devil's advocate here, and prove that one phish email I can get, and this is a red team part, you know, Chris, I'm appealing to you, you know, and you're trying to make the case, we need to have less admins, we need to have less admins on their laptop, all that kind of stuff, and you're getting pushback, well, you need to prove somehow that, you know, you can do it."
+    },
+    {
+     "t": 2130.1,
+     "text": "And maybe even just do a full, you know, do a red team."
+    },
+    {
+     "t": 2132.3,
+     "text": "Say, I'm going to do a red team."
+    },
+    {
+     "t": 2133.8,
+     "text": "I need to get..."
+    },
+    {
+     "t": 2134.8,
+     "text": "Green light for this and prove to you, you know, so."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2366.9,
+   "end": 2394.9,
+   "lines": [
+    {
+     "t": 2366.9,
+     "text": "You cannot get risk to zero."
+    },
+    {
+     "t": 2369.4,
+     "text": "And so the system needs to accommodate the reality of who people are and how they behave and how they think."
+    },
+    {
+     "t": 2376.9,
+     "text": "And that has to include tremendous variability."
+    },
+    {
+     "t": 2380.1,
+     "text": "It cannot be homogenous."
+    },
+    {
+     "t": 2382.3,
+     "text": "And that means that whatever is happening that's causing four people out of 100 to click"
+    },
+    {
+     "t": 2389.5,
+     "text": "You need to start by understanding what's going on for those four people and then extrapolate that back out to the hundred."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 5"
+  },
+  {
+   "start": 2397.6,
+   "end": 2466.4,
+   "lines": [
+    {
+     "t": 2397.6,
+     "text": "Yeah, I would say, yeah, I would say more on the why, just like Dr. Stein said, you know, put your product manager hat on, Gabriel, you might appreciate this, you know, put your, you know, be problem oriented, not so solution oriented."
+    },
+    {
+     "t": 2413.3,
+     "text": "Find out what the problem is."
+    },
+    {
+     "t": 2415.5,
+     "text": "Schedule a Zoom call with that person."
+    },
+    {
+     "t": 2417.9,
+     "text": "Why not?"
+    },
+    {
+     "t": 2418.4,
+     "text": "Like,"
+    },
+    {
+     "t": 2418.9,
+     "text": "Get on and take that extra mile like you know a lot of times security folks sit behind their email sit behind their you know we want to avoid the ivory tower you know whatever it is like you know if you if your employees think the security team live in ivory tower then you have an issue you have a cultural issue and you need to even not think about phishing campaigns you need to you need to step back and get you know talk to the people so you know"
+    },
+    {
+     "t": 2446.8,
+     "text": "Go the extra mile be have those better bedside manners right like just be that better person kick up that empathy and find out why i mean maybe they're having a bad day i don't know i don't know why you know and if you have to then we could talk about controls but let you know find out more about the problem before you go to the solution"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2968.5,
+   "end": 2995.8,
+   "lines": [
+    {
+     "t": 2968.5,
+     "text": "Let's just go up against the human."
+    },
+    {
+     "t": 2969.7,
+     "text": "It's more fun."
+    },
+    {
+     "t": 2971.5,
+     "text": "Is that because it first started out as a tool basically of abuse?"
+    },
+    {
+     "t": 2977.3,
+     "text": "And it was born out of the fact that it was used to abuse people."
+    },
+    {
+     "t": 2980.7,
+     "text": "And unfortunately, that mentality is carried on."
+    },
+    {
+     "t": 2983.1,
+     "text": "No, people don't see it as a tool for education or for help."
+    },
+    {
+     "t": 2986.5,
+     "text": "They see it because they remember from 20 years ago,"
+    },
+    {
+     "t": 2989.2,
+     "text": "When they did get their ass in because the big hairy thing decided to basically walk in through their computer."
+    },
+    {
+     "t": 2994.1,
+     "text": "I wonder if that's a big part of it as well."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 2997.2,
+   "end": 3015.2,
+   "lines": [
+    {
+     "t": 2997.2,
+     "text": "I mean, the fact is that 90%, up to 90%, according to some vendors out there, of attacks are from phishing."
+    },
+    {
+     "t": 3005.9,
+     "text": "So it's just happening now, right?"
+    },
+    {
+     "t": 3008.8,
+     "text": "So you can be conservative and say 60% or 70% or 80%, but that's my two cents on that."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3378.5,
+   "end": 3401.9,
+   "lines": [
+    {
+     "t": 3378.5,
+     "text": "This isn't an infosec problem."
+    },
+    {
+     "t": 3381.3,
+     "text": "These questions, these comments, these thoughts have been asked over the centuries."
+    },
+    {
+     "t": 3384.9,
+     "text": "We've had to look after ourselves as humans."
+    },
+    {
+     "t": 3387.3,
+     "text": "All we're now doing is translating that into a digital world."
+    },
+    {
+     "t": 3390.2,
+     "text": "So it shouldn't just be an infosec."
+    },
+    {
+     "t": 3392.1,
+     "text": "Somebody said, hey, HR should own it."
+    },
+    {
+     "t": 3393.7,
+     "text": "And I'm like, actually, no, we should collaborate with HR and legal and compliance."
+    },
+    {
+     "t": 3399.1,
+     "text": "This isn't ours."
+    },
+    {
+     "t": 3399.9,
+     "text": "This is everybody's."
+    },
+    {
+     "t": 3401.4,
+     "text": "Go for it, Ayman."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 3402.9,
+   "end": 3477.8,
+   "lines": [
+    {
+     "t": 3402.9,
+     "text": "Yeah, so, you know, some of the things I've come to discover by myself, like, so I've come to like educational psychology lately."
+    },
+    {
+     "t": 3412.7,
+     "text": "And in some of the work that I do, helping others like get into security in the podcast that I do,"
+    },
+    {
+     "t": 3420.1,
+     "text": "I've come to learn about neuroscience educational psychology and i've and even in the work what i do with my clients i've come to learn that as a security practitioner you are an education professional whether you like it or not your job is oftentimes to educate people because you know i'll get pushback on like say why should i do DevSecOps or devops or why should i automate things i'm like okay so let's you know let's let's walk through that so"
+    },
+    {
+     "t": 3447.5,
+     "text": "It's amazing what Gabriel and Dr. Stein said, you know, let's, I mean, I would, I would say, let's take that education approach that we would take to a kid and use it on our people, employees as well, right?"
+    },
+    {
+     "t": 3461.4,
+     "text": "Create a safe space for them to ask that question."
+    },
+    {
+     "t": 3466.0,
+     "text": "You know, create a safe space for them to ask that question, handhold them, but really focus on the education and, you know, you're going to win, you know, at the end of the day."
+    },
+    {
+     "t": 3477.0,
+     "text": "If you take that approach."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3634.0,
+   "end": 3635.5,
+   "lines": [
+    {
+     "t": 3634.0,
+     "text": "Hey man, you're up sir."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 4"
+  },
+  {
+   "start": 3636.3,
+   "end": 3643.3,
+   "lines": [
+    {
+     "t": 3636.3,
+     "text": "I think we said enough."
+    },
+    {
+     "t": 3637.3,
+     "text": "We said a lot."
+    },
+    {
+     "t": 3637.9,
+     "text": "So my only two cents would be watch this webinar again before you do a phishing campaign."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "slug": "the-problem-with-being-that-security-person",
+ "scope": "all",
+ "format": "talk",
+ "turns": [
+  {
+   "start": 3.6,
+   "end": 59.3,
+   "lines": [
+    {
+     "t": 3.6,
+     "text": "Hi."
+    },
+    {
+     "t": 4.1,
+     "text": "How you doing?"
+    },
+    {
+     "t": 7.0,
+     "text": "Hi."
+    },
+    {
+     "t": 7.0,
+     "text": "I'm going to have to ask you to install this agent on your computer."
+    },
+    {
+     "t": 14.3,
+     "text": "Uh-huh."
+    },
+    {
+     "t": 15.5,
+     "text": "Yeah."
+    },
+    {
+     "t": 18.9,
+     "text": "But I'm the janitor."
+    },
+    {
+     "t": 20.1,
+     "text": "It doesn't matter."
+    },
+    {
+     "t": 21.2,
+     "text": "That's what our policy says."
+    },
+    {
+     "t": 22.4,
+     "text": "It says here that you have to do that."
+    },
+    {
+     "t": 24.7,
+     "text": "So can you do that, please?"
+    },
+    {
+     "t": 26.9,
+     "text": "Are you sure?"
+    },
+    {
+     "t": 28.6,
+     "text": "But I'm just the janitor."
+    },
+    {
+     "t": 30.1,
+     "text": "Yeah."
+    },
+    {
+     "t": 30.9,
+     "text": "It doesn't matter."
+    },
+    {
+     "t": 36.1,
+     "text": "I didn't work for the company."
+    },
+    {
+     "t": 37.2,
+     "text": "I work for another company."
+    },
+    {
+     "t": 40.7,
+     "text": "Yeah, so I need you to install this agent on your computer because I have to make sure that we're secure."
+    },
+    {
+     "t": 46.5,
+     "text": "And it says here that if everyone installs the agent on their computer, then we're secure."
+    },
+    {
+     "t": 51.4,
+     "text": "So can you do that, please?"
+    },
+    {
+     "t": 54.5,
+     "text": "Okay."
+    },
+    {
+     "t": 55.7,
+     "text": "Okay."
+    },
+    {
+     "t": 56.5,
+     "text": "Thanks."
+    },
+    {
+     "t": 57.0,
+     "text": "I'll check back and see how you did."
+    },
+    {
+     "t": 59.1,
+     "text": "Thanks."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

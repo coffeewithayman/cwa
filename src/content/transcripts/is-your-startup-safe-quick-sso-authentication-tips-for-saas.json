@@ -1,0 +1,52 @@
+{
+ "slug": "is-your-startup-safe-quick-sso-authentication-tips-for-saas",
+ "scope": "all",
+ "format": "talk",
+ "turns": [
+  {
+   "start": 0.1,
+   "end": 57.6,
+   "lines": [
+    {
+     "t": 0.1,
+     "text": "A question that I get often is, where do I start with security in my organization?"
+    },
+    {
+     "t": 4.7,
+     "text": "The two places that I recommend starting are authentication and logging."
+    },
+    {
+     "t": 10.1,
+     "text": "When you're doing onboarding and offboarding, you want to make sure that people that have left the company do not have access to your resources anymore."
+    },
+    {
+     "t": 18.1,
+     "text": "A good way to take care of that is by rolling out SSO."
+    },
+    {
+     "t": 22.2,
+     "text": "It makes sure all your applications go through a central directory so that if there is not a user in that directory, then they cannot authenticate anymore."
+    },
+    {
+     "t": 31.6,
+     "text": "It also allows you to strengthen the authentication in one place."
+    },
+    {
+     "t": 36.3,
+     "text": "Some of the advanced features are context awareness."
+    },
+    {
+     "t": 39.0,
+     "text": "If a credential got stolen for whatever reason, and there was an authentication event done, say, on the East Coast, then all of a sudden someone tried to log in from South America."
+    },
+    {
+     "t": 49.7,
+     "text": "When it's enabled and configured properly, we'll know there's no way that this person could have went from here to here in that short of a period of time."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

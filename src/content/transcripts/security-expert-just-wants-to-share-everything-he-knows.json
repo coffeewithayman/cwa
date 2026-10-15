@@ -1,0 +1,128 @@
+{
+ "slug": "security-expert-just-wants-to-share-everything-he-knows",
+ "scope": "all",
+ "format": "talk",
+ "turns": [
+  {
+   "start": 0.2,
+   "end": 154.0,
+   "lines": [
+    {
+     "t": 0.2,
+     "text": "Hey there, my name is Ayman Elsawah, and I've been in security for quite a long time."
+    },
+    {
+     "t": 5.5,
+     "text": "And I'm here to help make everything I've learned accessible to you."
+    },
+    {
+     "t": 9.5,
+     "text": "I noticed a lot of people early on asking me how to get into the field."
+    },
+    {
+     "t": 12.6,
+     "text": "And so, you know, being a lazy engineer, I didn't want to keep repeating myself."
+    },
+    {
+     "t": 17.3,
+     "text": "So I wrote a book."
+    },
+    {
+     "t": 18.6,
+     "text": "Basically, it's just a guide."
+    },
+    {
+     "t": 20.0,
+     "text": "If we sat down over coffee, which by the way, I do like coffee."
+    },
+    {
+     "t": 23.6,
+     "text": "Talk about all the different things and culture and whatnot just if you're starting from zero but then i noticed that there's so many ways that you could get into the field so no need to take my word for it so i started a podcast called Getting Into Infosec where i documented people's journeys into the field so that you can be motivated and learn to get into the field"
+    },
+    {
+     "t": 46.9,
+     "text": "There have been hairdressers car mechanics librarians even had a couple notable people come on as well so go ahead and check that out fast forward a little bit and being the entrepreneur that i am i started doing this stuff at like 16. i wanted to make cyber security accessible to like startups because startups couldn't afford a full-time security person for whatever reason we're not going to blame them you know it's totally fine but sometimes they don't need to have a full-time security person it could be a cost issue or just"
+    },
+    {
+     "t": 75.8,
+     "text": "Prioritization."
+    },
+    {
+     "t": 76.9,
+     "text": "Sometimes just you don't need to."
+    },
+    {
+     "t": 78.5,
+     "text": "So I started doing fractional CISO and a CISO is a chief information security officer, the main big honcho that's in charge of security."
+    },
+    {
+     "t": 87.9,
+     "text": "I don't know if honcho is gender neutral."
+    },
+    {
+     "t": 90.0,
+     "text": "The big person in charge of security."
+    },
+    {
+     "t": 91.8,
+     "text": "I don't know."
+    },
+    {
+     "t": 92.3,
+     "text": "So I started doing that for startups because startups don't need CISOs."
+    },
+    {
+     "t": 95.6,
+     "text": "Some do, but little tiny startups don't need to have a CISO, right?"
+    },
+    {
+     "t": 98.8,
+     "text": "They just need someone that could give that person like some security expertise and knowledge."
+    },
+    {
+     "t": 103.6,
+     "text": "And so I started doing that."
+    },
+    {
+     "t": 105.0,
+     "text": "And then i did that for several years and it's been great i got to work with some really cool companies and cool people and everything like that and now i still want to make security accessible to more people and organizations there are some new things coming online like a community and some courses and whatnot so that people out there can really get access to cyber security expertise and people security is not easy"
+    },
+    {
+     "t": 127.3,
+     "text": "Security is not an easy job."
+    },
+    {
+     "t": 128.6,
+     "text": "And so sometimes it's good to have someone to talk to that you could riff with and just kind of like get some security things off your chest or figure out what to do and relate to, right?"
+    },
+    {
+     "t": 138.0,
+     "text": "And so here I am starting this YouTube channel so that more of this knowledge and information can get out there for people to learn and consume."
+    },
+    {
+     "t": 147.5,
+     "text": "So thanks for joining me on this journey."
+    },
+    {
+     "t": 149.4,
+     "text": "There's gonna be a lot more security stuff on this channel."
+    },
+    {
+     "t": 152.1,
+     "text": "Have a great evening."
+    },
+    {
+     "t": 153.2,
+     "text": "Thanks."
+    },
+    {
+     "t": 153.7,
+     "text": "Bye-bye."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

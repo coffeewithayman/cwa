@@ -1,0 +1,64 @@
+{
+ "slug": "mastering-security-logging-essential-tips-for-saas-b2b",
+ "scope": "all",
+ "format": "talk",
+ "turns": [
+  {
+   "start": 0.1,
+   "end": 48.2,
+   "lines": [
+    {
+     "t": 0.1,
+     "text": "Logging is important because you want to have some sort of situational awareness of what's going on in your company."
+    },
+    {
+     "t": 5.6,
+     "text": "Are people logging in as root?"
+    },
+    {
+     "t": 7.4,
+     "text": "Do you have multiple people logging with the same identity, for example?"
+    },
+    {
+     "t": 10.8,
+     "text": "You need to have some sort of situational awareness."
+    },
+    {
+     "t": 12.8,
+     "text": "If you're asking yourself, where should I start with security?"
+    },
+    {
+     "t": 15.6,
+     "text": "You probably don't have that situational awareness."
+    },
+    {
+     "t": 18.0,
+     "text": "Can't fix something that you don't know is broken."
+    },
+    {
+     "t": 19.8,
+     "text": "Having some sort of logging, like first enabling the logging all over in your particular applications."
+    },
+    {
+     "t": 25.5,
+     "text": "In AWS, it would be enabling CloudTrail."
+    },
+    {
+     "t": 28.0,
+     "text": "In your SaaS applications, it would be sending those logs to your logging tool."
+    },
+    {
+     "t": 33.3,
+     "text": "Could be a Sumo, could be a Splunk, could be Datadog, Papertrail, whatever it may be, you need to have your logs somewhere that you can search."
+    },
+    {
+     "t": 41.5,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

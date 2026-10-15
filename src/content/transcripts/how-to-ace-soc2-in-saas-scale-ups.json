@@ -1,0 +1,1661 @@
+{
+ "slug": "how-to-ace-soc2-in-saas-scale-ups",
+ "scope": "all",
+ "format": "talk",
+ "turns": [
+  {
+   "start": 0.6,
+   "end": 1075.4,
+   "lines": [
+    {
+     "t": 0.6,
+     "text": "So thank you, everyone."
+    },
+    {
+     "t": 2.0,
+     "text": "Today, I'm going to be talking about how to ace SOC 2 for SaaS scale-ups."
+    },
+    {
+     "t": 7.1,
+     "text": "Now, SaaS scale-ups are a different beast than, say, maybe your traditional on-prem company or even a smaller startup."
+    },
+    {
+     "t": 19.2,
+     "text": "So these are typical companies that are growing fast."
+    },
+    {
+     "t": 22.9,
+     "text": "I've worked with a variety of companies at different stages in SaaS."
+    },
+    {
+     "t": 27.8,
+     "text": "And I've seen the different growing pains that they've all went through."
+    },
+    {
+     "t": 30.3,
+     "text": "So I'm here to help guide you to do SOC 2."
+    },
+    {
+     "t": 36.4,
+     "text": "And we're not going to go into everything."
+    },
+    {
+     "t": 38.5,
+     "text": "It's only a 30 minute conversation here."
+    },
+    {
+     "t": 41.6,
+     "text": "And I'm going to go into some highlights and leave some time for question and answer."
+    },
+    {
+     "t": 46.2,
+     "text": "So questions and answers are my favorite part."
+    },
+    {
+     "t": 50.4,
+     "text": "So please leave some questions in there and I'll check them about 10 minutes before we end."
+    },
+    {
+     "t": 56.6,
+     "text": "All right, great."
+    },
+    {
+     "t": 57.5,
+     "text": "So let's hop into it."
+    },
+    {
+     "t": 61.2,
+     "text": "So today we're going to, you know, just do a quick overview of SOC 2, understand some basics, some maxims."
+    },
+    {
+     "t": 67.4,
+     "text": "I like to have some maxims just for people can understand, you know, the philosophy of a particular thing."
+    },
+    {
+     "t": 76.1,
+     "text": "In security, we have a lot of maxims, so that's just how it is."
+    },
+    {
+     "t": 80.6,
+     "text": "And then go over the meat of the conversation, you know, SOC 2 for SaaS and talk about some particulars."
+    },
+    {
+     "t": 87.4,
+     "text": "And then we'll leave some Q&A."
+    },
+    {
+     "t": 89.6,
+     "text": "All right, here we go."
+    },
+    {
+     "t": 90.8,
+     "text": "And it's 8am over here in California."
+    },
+    {
+     "t": 93.8,
+     "text": "So I'm still working my way through my coffee."
+    },
+    {
+     "t": 98.9,
+     "text": "And so bear with me."
+    },
+    {
+     "t": 101.8,
+     "text": "All right."
+    },
+    {
+     "t": 102.6,
+     "text": "So a little about me."
+    },
+    {
+     "t": 103.7,
+     "text": "I've been doing cloud only since 2015."
+    },
+    {
+     "t": 106.3,
+     "text": "When I first discovered AWS, I was working on an incident actually."
+    },
+    {
+     "t": 110.8,
+     "text": "And it was just amazing."
+    },
+    {
+     "t": 114.2,
+     "text": "I was like, wow, this stuff is really cool."
+    },
+    {
+     "t": 115.6,
+     "text": "So I've been full on cloud since 2015."
+    },
+    {
+     "t": 119.1,
+     "text": "I've never looked back and not worked with any on-prem companies pretty much since then."
+    },
+    {
+     "t": 126.6,
+     "text": "I have a podcast."
+    },
+    {
+     "t": 127.4,
+     "text": "It's called Getting Into Infosec."
+    },
+    {
+     "t": 128.9,
+     "text": "So it's kind of my way to contribute back to the community where I help catalog, sorry, catalog people's journeys into security so other people can be inspired and learn and motivated to get into the field because we need a lot of people in security."
+    },
+    {
+     "t": 143.8,
+     "text": "So come on through."
+    },
+    {
+     "t": 145.9,
+     "text": "I also wrote a book called Breaking In where if we sat down"
+    },
+    {
+     "t": 149.1,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 157.5,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 175.8,
+     "text": "So always good, always happy to talk about, you know, single origin coffee and things like that."
+    },
+    {
+     "t": 182.4,
+     "text": "And then the latest thing I'm working on is my newsletter."
+    },
+    {
+     "t": 185.1,
+     "text": "So I have a newsletter called Last Week is vCISO."
+    },
+    {
+     "t": 187.2,
+     "text": "So I function as a fractional CISO for startups."
+    },
+    {
+     "t": 190.4,
+     "text": "And so I share my lessons that I learned working with them, some reflections."
+    },
+    {
+     "t": 195.7,
+     "text": "It's a newsletter that's geared for people that don't have security in their title, but all walks of security are welcome."
+    },
+    {
+     "t": 205.4,
+     "text": "And I break down complex security topics in an easy to understand way."
+    },
+    {
+     "t": 210.7,
+     "text": "So feel free to check all that out."
+    },
+    {
+     "t": 213.8,
+     "text": "These are companies I've worked with in the past."
+    },
+    {
+     "t": 215.7,
+     "text": "So, you know, both small companies and large companies."
+    },
+    {
+     "t": 220.0,
+     "text": "So I'm sure your company will fit somewhere in here as well."
+    },
+    {
+     "t": 225.7,
+     "text": "All right, so let's go into the basics of SOC 2."
+    },
+    {
+     "t": 229.2,
+     "text": "So SOC 2 has five trust criteria, okay?"
+    },
+    {
+     "t": 234.2,
+     "text": "And they are, you know, security, confidentiality, availability, processing, integrity, and privacy."
+    },
+    {
+     "t": 240.7,
+     "text": "So what does that mean?"
+    },
+    {
+     "t": 243.2,
+     "text": "Well, the only required thing you need to do is security."
+    },
+    {
+     "t": 246.8,
+     "text": "The other four are optional."
+    },
+    {
+     "t": 249.1,
+     "text": "So really depends on what you're trying to do, what your customers and partners are asking of you from a requirements perspective."
+    },
+    {
+     "t": 258.5,
+     "text": "Sometimes it's easy to just tack on availability, for example, because you're already working and you're a SaaS company."
+    },
+    {
+     "t": 265.7,
+     "text": "So why not just set up a DR site and test that out?"
+    },
+    {
+     "t": 269.3,
+     "text": "I mean, it's actually good practice anyway."
+    },
+    {
+     "t": 273.8,
+     "text": "But these are the those are the five trust criterias."
+    },
+    {
+     "t": 276.6,
+     "text": "And then from there, you have two subtypes."
+    },
+    {
+     "t": 278.8,
+     "text": "So you have type one."
+    },
+    {
+     "t": 280.6,
+     "text": "So SOC 2 type one."
+    },
+    {
+     "t": 281.9,
+     "text": "Yeah, it's pretty confusing."
+    },
+    {
+     "t": 283.7,
+     "text": "But SOC 2 type one, which is a point in time review of your controls."
+    },
+    {
+     "t": 289.4,
+     "text": "OK, so, you know, it's basically, OK, do we have these controls in place now?"
+    },
+    {
+     "t": 295.4,
+     "text": "OK, and that's when the auditor comes in, you know, they'll do their work and they see if you have these things in place."
+    },
+    {
+     "t": 301.7,
+     "text": "Type two means that you've had at least three months or more of those controls in place so have you had those have you had logging in place have you done you know your exercises your tabletop exercises or your backups or whatever it may be has everyone that's been onboarded through in those three months received training and done what they needed to do"
+    },
+    {
+     "t": 323.2,
+     "text": "So type two is a little more thorough."
+    },
+    {
+     "t": 326.8,
+     "text": "And some companies will do type one and type two."
+    },
+    {
+     "t": 330.2,
+     "text": "Other companies will just jump straight into type two."
+    },
+    {
+     "t": 333.4,
+     "text": "So it's, you know, it's really, there's so many ways to go about it."
+    },
+    {
+     "t": 337.3,
+     "text": "And that's actually one of the big things I'm going to talk about here is that SOC 2 is not so rigid, but we'll get that."
+    },
+    {
+     "t": 346.5,
+     "text": "And then, you know, it's not to be confused with SOC 1 and SOC 3."
+    },
+    {
+     "t": 349.1,
+     "text": "SOC 1 is like more of a financial thing."
+    },
+    {
+     "t": 351.6,
+     "text": "SOC 3 is actually like an extension of SOC 2 type 2."
+    },
+    {
+     "t": 358.6,
+     "text": "It's like an abbreviated report that's, I guess, designed for like public review."
+    },
+    {
+     "t": 365.8,
+     "text": "And not to overwhelm you about like, you know, if I, you know, take three, I took three of the trust criterias in Sprinto and there's 84 controls."
+    },
+    {
+     "t": 375.1,
+     "text": "So, you know, these are 84 different things that are required for you to meet in order for you to meet, you know, those three criteria."
+    },
+    {
+     "t": 385.4,
+     "text": "So, you know, not everyone is like a small job, right?"
+    },
+    {
+     "t": 389.8,
+     "text": "They're all, you know, they have some, you know, it's a combination of policies."
+    },
+    {
+     "t": 394.5,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 408.6,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 421.5,
+     "text": "So, you know, that can be very overwhelming."
+    },
+    {
+     "t": 426.8,
+     "text": "And before companies like Sprinto came around, basically you'd bring an auditor, they would sit down with you and they would design the controls with you for your environment."
+    },
+    {
+     "t": 437.6,
+     "text": "But now companies like Sprinto have"
+    },
+    {
+     "t": 440.0,
+     "text": "All you know, they've they've had the experience of different companies and have the designs, the controls already designed out of the box."
+    },
+    {
+     "t": 448.4,
+     "text": "So, yeah, you are welcome to use your spreadsheet, of course, but I think that would defeat the purpose of this talk."
+    },
+    {
+     "t": 454.6,
+     "text": "So and so it's a combination of controls and processes."
+    },
+    {
+     "t": 458.7,
+     "text": "So, you know, do users have encryption on their laptops set up?"
+    },
+    {
+     "t": 464.9,
+     "text": "Do they have screen timeouts?"
+    },
+    {
+     "t": 466.9,
+     "text": "Do they have"
+    },
+    {
+     "t": 470.9,
+     "text": "Are they receiving training?"
+    },
+    {
+     "t": 471.9,
+     "text": "Things like that."
+    },
+    {
+     "t": 472.4,
+     "text": "And then processes where like, are you doing access user reviews?"
+    },
+    {
+     "t": 476.2,
+     "text": "So, you know, is there a way to get approval when someone has new access and things like that?"
+    },
+    {
+     "t": 483.7,
+     "text": "And so the big takeaway that I'd like you to have is that it's not black and white."
+    },
+    {
+     "t": 488.5,
+     "text": "It's pretty much 50 shades of gray."
+    },
+    {
+     "t": 490.5,
+     "text": "So SOC 2 has a lot of malleability."
+    },
+    {
+     "t": 495.6,
+     "text": "Even when you have a lot of the tools that are out there to help you manage SOC 2, there's still a lot of questions."
+    },
+    {
+     "t": 502.5,
+     "text": "Working with COOs and CTOs, they often have a lot of other specific questions like, do I need to have letterhead in my policy?"
+    },
+    {
+     "t": 511.6,
+     "text": "Or you know what, like..."
+    },
+    {
+     "t": 512.9,
+     "text": "No, you don't."
+    },
+    {
+     "t": 513.5,
+     "text": "But that's why I'm here."
+    },
+    {
+     "t": 515.9,
+     "text": "I'm here to help, you know, guide you through."
+    },
+    {
+     "t": 517.9,
+     "text": "And the folks at Sprint are really supportive in that as well."
+    },
+    {
+     "t": 522.5,
+     "text": "And then SOC 2 is not necessarily a certification."
+    },
+    {
+     "t": 524.5,
+     "text": "It's a report on your controls."
+    },
+    {
+     "t": 526.1,
+     "text": "So there's a lot of, you know, misnomer, like I'm getting my SOC 2 certificate."
+    },
+    {
+     "t": 531.4,
+     "text": "It's not a certificate."
+    },
+    {
+     "t": 532.8,
+     "text": "It's a report."
+    },
+    {
+     "t": 533.7,
+     "text": "So at the end of the day, you get a report from an auditor that has reviewed your controls and that's the report."
+    },
+    {
+     "t": 539.1,
+     "text": "You could share, you know, the whole report or parts of the report with your customers and things like that."
+    },
+    {
+     "t": 544.0,
+     "text": "I obviously recommend that you only share with NDA and, you know, don't share necessarily the whole report right from the get-go."
+    },
+    {
+     "t": 553.9,
+     "text": "So, and also another misnomer is that just because you have AWS or Azure or GCP means that you're already compliant."
+    },
+    {
+     "t": 562.0,
+     "text": "That is such a misnomer."
+    },
+    {
+     "t": 563.7,
+     "text": "I still hear this now."
+    },
+    {
+     "t": 567.1,
+     "text": "That's not the case."
+    },
+    {
+     "t": 568.1,
+     "text": "These companies give you the infrastructure."
+    },
+    {
+     "t": 571.9,
+     "text": "They've taken care of the base set of infrastructure."
+    },
+    {
+     "t": 576.3,
+     "text": "It's up to you to put those controls in place."
+    },
+    {
+     "t": 580.0,
+     "text": "It's like someone saying, oh, this car is safe."
+    },
+    {
+     "t": 583.5,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 604.9,
+     "text": "And then, you know, there's also some things, you know, compliance is not necessarily security."
+    },
+    {
+     "t": 608.6,
+     "text": "So just because you've met a SOC 2 standard doesn't mean you should rest easy."
+    },
+    {
+     "t": 615.3,
+     "text": "There are some things you can do to improve your security."
+    },
+    {
+     "t": 619.5,
+     "text": "I recommend, you know, always staying aware."
+    },
+    {
+     "t": 621.4,
+     "text": "I think one of the..."
+    },
+    {
+     "t": 623.0,
+     "text": "The biggest downfalls in the security sphere is when a security leader gets complacent in their security."
+    },
+    {
+     "t": 630.9,
+     "text": "So you want to really always be on top of your security and improve."
+    },
+    {
+     "t": 636.6,
+     "text": "I know you're a startup and you're trying to grow and things like that, but let's not forget about our security."
+    },
+    {
+     "t": 646.5,
+     "text": "And even still, like even with SOC 2, if you do SOC 2 type 2, sometimes a lot of people, they just rest after doing that."
+    },
+    {
+     "t": 653.2,
+     "text": "It's like, no, you have to keep in maintaining it."
+    },
+    {
+     "t": 655.0,
+     "text": "So it's a journey."
+    },
+    {
+     "t": 656.9,
+     "text": "It's a long marathon that you have to maintain, even at the minimum of SOC 2 controls."
+    },
+    {
+     "t": 663.8,
+     "text": "All right, so that's been a lot of talking."
+    },
+    {
+     "t": 665.7,
+     "text": "So I'm going to hop into organizational maturity."
+    },
+    {
+     "t": 668.6,
+     "text": "So one of the things that's really interesting when you're doing SOC 2 is depending on where your organization is in organizational maturity, it's going to impact that a lot."
+    },
+    {
+     "t": 682.1,
+     "text": "So let's talk about that."
+    },
+    {
+     "t": 683.0,
+     "text": "So for example, I've seen scale-ups that, so, you know, your people ops, right?"
+    },
+    {
+     "t": 691.0,
+     "text": "Your people ops is gonna be a big one that's gonna be affected, right?"
+    },
+    {
+     "t": 695.2,
+     "text": "How are they doing onboarding and offboarding?"
+    },
+    {
+     "t": 697.5,
+     "text": "As you're a growing company, a growing scale-up company, one of the things I see often is the PeopleOps team are still doing things the old way."
+    },
+    {
+     "t": 709.1,
+     "text": "They're using spreadsheets."
+    },
+    {
+     "t": 711.1,
+     "text": "They're just sending out manual emails for onboarding, offboarding, and checking for the I-9s and all the particular documents, receiving driver's license and passports via email or saving it on a Google Drive."
+    },
+    {
+     "t": 723.9,
+     "text": "Talk on information security covering CISO, vCISO, fractional CISO, zero trust, non-repudiation, infosec, AppSec, DevSecOps, SOC 2, ISO 27001, NIST, FedRAMP, GDPR, HIPAA, PCI DSS, MFA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware,"
+    },
+    {
+     "t": 746.7,
+     "text": "So, you know, sometimes I see a Google form, you know, for a manager being filled out, you know, oh, do you have a new employee coming on?"
+    },
+    {
+     "t": 755.7,
+     "text": "They'll fill out this Google form."
+    },
+    {
+     "t": 756.9,
+     "text": "Like what?"
+    },
+    {
+     "t": 757.8,
+     "text": "So,"
+    },
+    {
+     "t": 760.7,
+     "text": "You're going to have to improve your onboarding, offboarding."
+    },
+    {
+     "t": 763.6,
+     "text": "You want to have some sort of automation."
+    },
+    {
+     "t": 766.3,
+     "text": "Training is going to be a thing."
+    },
+    {
+     "t": 767.4,
+     "text": "So if you as a people ops manager were thinking about getting an LMS, then work with your security team on incorporating some security content in there."
+    },
+    {
+     "t": 778.4,
+     "text": "So some companies have an LMS."
+    },
+    {
+     "t": 780.8,
+     "text": "Learning management system is what an LMS is."
+    },
+    {
+     "t": 783.2,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 791.1,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 798.2,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 804.5,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 811.8,
+     "text": "How is that being tracked?"
+    },
+    {
+     "t": 812.8,
+     "text": "Are they getting extra access?"
+    },
+    {
+     "t": 814.5,
+     "text": "How is the access privilege being managed?"
+    },
+    {
+     "t": 818.0,
+     "text": "So when someone changes jobs, how's that going to be?"
+    },
+    {
+     "t": 821.5,
+     "text": "I'm going to talk about IT a little later, but that's something important to understand."
+    },
+    {
+     "t": 828.3,
+     "text": "All right, we're doing good on time."
+    },
+    {
+     "t": 829.8,
+     "text": "So the next thing to talk about, and again, remember, if you have any questions, please drop the questions in whatever channel you're in."
+    },
+    {
+     "t": 839.9,
+     "text": "So awesome."
+    },
+    {
+     "t": 841.4,
+     "text": "Thanks so much."
+    },
+    {
+     "t": 846.5,
+     "text": "So supply chain risks."
+    },
+    {
+     "t": 850.2,
+     "text": "This is a big one."
+    },
+    {
+     "t": 851.2,
+     "text": "So you're a SaaS scale up."
+    },
+    {
+     "t": 853.6,
+     "text": "You're using a million tools to run your company."
+    },
+    {
+     "t": 859.4,
+     "text": "And I remember in 2021, I think every single one of my clients had like an incident every month."
+    },
+    {
+     "t": 867.8,
+     "text": "So every month I was working on an incident because some, you know, DevSecOps vendor or whatever got a breach and we had to like, you know,"
+    },
+    {
+     "t": 876.7,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 889.2,
+     "text": "So what's important is, yeah, thank you."
+    },
+    {
+     "t": 894.5,
+     "text": "So find out what your critical vendors are, right?"
+    },
+    {
+     "t": 897.2,
+     "text": "So it's really important to understand who your critical vendors are."
+    },
+    {
+     "t": 901.1,
+     "text": "If this vendor went down, let's just talk availability for now, for a second."
+    },
+    {
+     "t": 906.7,
+     "text": "If they're not available, are you gonna be able to function, right?"
+    },
+    {
+     "t": 909.3,
+     "text": "Do you have a backup?"
+    },
+    {
+     "t": 910.6,
+     "text": "What's their SLA?"
+    },
+    {
+     "t": 911.7,
+     "text": "All those kinds of things."
+    },
+    {
+     "t": 912.7,
+     "text": "These are things to think about."
+    },
+    {
+     "t": 915.0,
+     "text": "If they have an incident, are they prepared to run an incident?"
+    },
+    {
+     "t": 918.7,
+     "text": "Do they have a security person in charge?"
+    },
+    {
+     "t": 921.2,
+     "text": "Even a fractional security person, it's better than no one."
+    },
+    {
+     "t": 925.0,
+     "text": "A lot of times, no one is in charge of security."
+    },
+    {
+     "t": 929.4,
+     "text": "Security falls onto the VP of engineering or something like that."
+    },
+    {
+     "t": 946.8,
+     "text": "Yeah, so, you know, it's really like, you know, your mileage may vary."
+    },
+    {
+     "t": 951.8,
+     "text": "Review their contractual obligations."
+    },
+    {
+     "t": 954.7,
+     "text": "So involve your legal team, find out what their contractual obligations are from a security perspective."
+    },
+    {
+     "t": 961.2,
+     "text": "All the things that your partners and your customers are requiring you to do and your cybersecurity insurance is requiring you to do,"
+    },
+    {
+     "t": 969.2,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 978.4,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 995.5,
+     "text": "Find out what their incident response program is do they have the right email to notify you if there's an incident right a lot of times a lot of times a notification goes to the email on record of like the admin who signed up for the service so if i go sign up for a service"
+    },
+    {
+     "t": 1015.0,
+     "text": "And now the whole company is using the service, but like I signed up for a long time ago."
+    },
+    {
+     "t": 1019.5,
+     "text": "A lot of times the founder signed up for it and it's going to their email."
+    },
+    {
+     "t": 1023.5,
+     "text": "I swear this happens all the time."
+    },
+    {
+     "t": 1026.2,
+     "text": "The founder's email is the email on record and the founder's busy."
+    },
+    {
+     "t": 1031.2,
+     "text": "They're not going to see it, you know, whatever."
+    },
+    {
+     "t": 1033.4,
+     "text": "And then the incident notification goes to their email."
+    },
+    {
+     "t": 1035.8,
+     "text": "Oh, by the way, there's an incident."
+    },
+    {
+     "t": 1037.0,
+     "text": "You need to, you know, do something immediately, da, da, da, da, da."
+    },
+    {
+     "t": 1040.8,
+     "text": "And that email does not get seen."
+    },
+    {
+     "t": 1042.2,
+     "text": "So make sure the notification for any incidents is the right person."
+    },
+    {
+     "t": 1047.0,
+     "text": "Create a Google group if you have to for the main email for notifications."
+    },
+    {
+     "t": 1053.6,
+     "text": "If the vendor is a more mature vendor, they'll have a separate email for billing, a separate email for incidents and security and technical and things like that."
+    },
+    {
+     "t": 1064.9,
+     "text": "But a lot of times you'll find the software that the founder used and now this company with 300, 500 employees is using this critical software."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1076.1,
+   "end": 1077.6,
+   "lines": [
+    {
+     "t": 1076.1,
+     "text": "And anyway, I digress."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1078.4,
+   "end": 1465.9,
+   "lines": [
+    {
+     "t": 1078.4,
+     "text": "So yeah, I think I covered most of the topics there."
+    },
+    {
+     "t": 1085.8,
+     "text": "So I think that's something to understand."
+    },
+    {
+     "t": 1090.0,
+     "text": "Supply chain is just something, you know, it's really important."
+    },
+    {
+     "t": 1095.1,
+     "text": "All right."
+    },
+    {
+     "t": 1097.2,
+     "text": "Optimizing SOC 2 for SaaS."
+    },
+    {
+     "t": 1098.6,
+     "text": "Let's talk about IT maturity."
+    },
+    {
+     "t": 1100.1,
+     "text": "IT is the biggest hurdle."
+    },
+    {
+     "t": 1102.5,
+     "text": "One of the biggest hurdles after policies and processes."
+    },
+    {
+     "t": 1108.8,
+     "text": "I've seen IT..."
+    },
+    {
+     "t": 1111.1,
+     "text": "Sorry, I've seen IT..."
+    },
+    {
+     "t": 1115.5,
+     "text": "So long story short, basically, no one wants to handle IT."
+    },
+    {
+     "t": 1118.5,
+     "text": "IT is that like group that just keeps getting shuffled off to different orgs."
+    },
+    {
+     "t": 1125.6,
+     "text": "The COO might have it one day, then he or she passes it on to the CFO, people ops."
+    },
+    {
+     "t": 1132.7,
+     "text": "It's gone everywhere."
+    },
+    {
+     "t": 1133.9,
+     "text": "So in my opinion, I welcome IT."
+    },
+    {
+     "t": 1138.2,
+     "text": "So I think IT has a good alignment with security."
+    },
+    {
+     "t": 1142.4,
+     "text": "So, you know, I'll take the IT folks."
+    },
+    {
+     "t": 1146.1,
+     "text": "You guys can come with me."
+    },
+    {
+     "t": 1150.1,
+     "text": "Because IT is like the forefront of security."
+    },
+    {
+     "t": 1152.3,
+     "text": "They're the front lines."
+    },
+    {
+     "t": 1153.3,
+     "text": "So I think this is the last topic."
+    },
+    {
+     "t": 1156.8,
+     "text": "So, you know, IT is the biggest impact to users, right?"
+    },
+    {
+     "t": 1161.6,
+     "text": "Getting them to change their behavior or like, you know, install something on their machine, it's a big deal."
+    },
+    {
+     "t": 1167.7,
+     "text": "So, you know, I've seen this done wrong a lot of times and then it makes users upset."
+    },
+    {
+     "t": 1173.6,
+     "text": "It makes them, oh, why do we have to do this?"
+    },
+    {
+     "t": 1175.7,
+     "text": "And for security, and then they get upset at security."
+    },
+    {
+     "t": 1178.2,
+     "text": "And then eventually the company hires a real security person and they're like,"
+    },
+    {
+     "t": 1183.5,
+     "text": "You know, and they're like, why did you do that?"
+    },
+    {
+     "t": 1185.2,
+     "text": "Like, I don't know."
+    },
+    {
+     "t": 1186.2,
+     "text": "And so then the security person has to undo all that stuff."
+    },
+    {
+     "t": 1189.3,
+     "text": "It's just a mess."
+    },
+    {
+     "t": 1190.5,
+     "text": "So, you know, do you have a dedicated IT staff?"
+    },
+    {
+     "t": 1193.9,
+     "text": "I've seen companies with hundreds of employees with no dedicated IT person at all."
+    },
+    {
+     "t": 1199.6,
+     "text": "You know, IT is run by like some program manager or project manager somewhere."
+    },
+    {
+     "t": 1203.2,
+     "text": "It's like, I'm like, really?"
+    },
+    {
+     "t": 1206.1,
+     "text": "So make sure you have IT staff."
+    },
+    {
+     "t": 1207.5,
+     "text": "If you have outsource IT, which is very popular, and it's good that you have some sort of IT, keep in mind,"
+    },
+    {
+     "t": 1214.5,
+     "text": "That is going to cost you extra."
+    },
+    {
+     "t": 1216.4,
+     "text": "To get them to do SOC 2, it might cost you extra."
+    },
+    {
+     "t": 1220.0,
+     "text": "So just take a look at your contract, find out, hey, we're trying to do SOC 2."
+    },
+    {
+     "t": 1225.5,
+     "text": "Is this supported in our contract in SLA?"
+    },
+    {
+     "t": 1228.5,
+     "text": "Is this going to cost extra?"
+    },
+    {
+     "t": 1230.0,
+     "text": "Like, here are all the things we need to do."
+    },
+    {
+     "t": 1231.4,
+     "text": "We need to roll out this software too."
+    },
+    {
+     "t": 1233.5,
+     "text": "To all the devices, we need to make sure that these basic controls are set up like hard disk encryption and things like that."
+    },
+    {
+     "t": 1241.6,
+     "text": "Are you going to be able to do that or not?"
+    },
+    {
+     "t": 1244.1,
+     "text": "Even user access reviews, things like that."
+    },
+    {
+     "t": 1245.8,
+     "text": "So make sure to take a close look and account for that if you're going to endeavor down the SOC 2 path and you don't have your own IT person."
+    },
+    {
+     "t": 1259.6,
+     "text": "Yeah, that's pretty much it."
+    },
+    {
+     "t": 1260.6,
+     "text": "I think communicating is really important."
+    },
+    {
+     "t": 1264.3,
+     "text": "So another thing is single sign-on."
+    },
+    {
+     "t": 1270.4,
+     "text": "So I am a fan of single sign-on because it just makes my life easier."
+    },
+    {
+     "t": 1275.3,
+     "text": "It's going to make your user's life easier."
+    },
+    {
+     "t": 1276.7,
+     "text": "It's going to make your admin's life easier."
+    },
+    {
+     "t": 1278.6,
+     "text": "It's going to make gathering evidence super easy."
+    },
+    {
+     "t": 1281.9,
+     "text": "It's going to make access reviews really straightforward."
+    },
+    {
+     "t": 1285.3,
+     "text": "It'll give you just general better security."
+    },
+    {
+     "t": 1288.0,
+     "text": "One thing on access reviews though, you know, a lot of tools like Sprinto will have access review functionality built in."
+    },
+    {
+     "t": 1295.7,
+     "text": "So you could leverage that as well."
+    },
+    {
+     "t": 1299.2,
+     "text": "But it's not going to give you the depth as like single sign-on would, right?"
+    },
+    {
+     "t": 1304.8,
+     "text": "Single sign-on means that the user logs in one place and they have access to all these different apps."
+    },
+    {
+     "t": 1311.1,
+     "text": "When they're off-boarded, you just disable their access in one place and then they lose access to all the other apps."
+    },
+    {
+     "t": 1318.0,
+     "text": "The downside, the really, really, really big downside is it's going to be costly."
+    },
+    {
+     "t": 1322.8,
+     "text": "It costs more."
+    },
+    {
+     "t": 1323.8,
+     "text": "So that's just a fact of life."
+    },
+    {
+     "t": 1327.0,
+     "text": "In fact, there's a website called SSO.tax that someone I know created."
+    },
+    {
+     "t": 1332.3,
+     "text": "It tracks all the companies that charge extra for using SSO license."
+    },
+    {
+     "t": 1336.7,
+     "text": "So not only you have to pay for the SSO software yourself, but when you use an app that supports SSO, sometimes you have to upgrade to their higher version."
+    },
+    {
+     "t": 1345.3,
+     "text": "So, you know, just an example."
+    },
+    {
+     "t": 1348.1,
+     "text": "This is just, I mean, there's so many controls tied to access control in doing SOC 2."
+    },
+    {
+     "t": 1354.4,
+     "text": "This is just like three of them right here."
+    },
+    {
+     "t": 1357.2,
+     "text": "But there's, you know, at least like eight categories."
+    },
+    {
+     "t": 1361.6,
+     "text": "Don't quote me on that."
+    },
+    {
+     "t": 1363.3,
+     "text": "It was kind of late when I put this together."
+    },
+    {
+     "t": 1365.9,
+     "text": "But there are several areas where access control is a thing."
+    },
+    {
+     "t": 1371.0,
+     "text": "It's really huge."
+    },
+    {
+     "t": 1372.2,
+     "text": "And, you know, if you're a SaaS company, identity is the new perimeter now."
+    },
+    {
+     "t": 1375.6,
+     "text": "You know, it's been like that."
+    },
+    {
+     "t": 1377.0,
+     "text": "I've been saying that for five years now."
+    },
+    {
+     "t": 1378.7,
+     "text": "So identity is really crucial."
+    },
+    {
+     "t": 1381.3,
+     "text": "All right, let's wrap it up."
+    },
+    {
+     "t": 1383.3,
+     "text": "Oh, one last thing, DevSecOps, just a quick note."
+    },
+    {
+     "t": 1386.6,
+     "text": "You know, if you're a SaaS, you know, you have to have some good DevSecOps."
+    },
+    {
+     "t": 1389.6,
+     "text": "Here's just some really quick recommendations."
+    },
+    {
+     "t": 1393.2,
+     "text": "Obviously, you have to have pull requests that require approval."
+    },
+    {
+     "t": 1395.8,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 1403.1,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 1420.8,
+     "text": "If you just document what that mechanism is, the author will be totally fine with it."
+    },
+    {
+     "t": 1431.1,
+     "text": "It's totally fine."
+    },
+    {
+     "t": 1431.8,
+     "text": "Again, SOC 2 is very flexible."
+    },
+    {
+     "t": 1436.6,
+     "text": "It's not super black and white."
+    },
+    {
+     "t": 1438.8,
+     "text": "As long as you have documentation, a process for it, and you're following it, that's great."
+    },
+    {
+     "t": 1443.8,
+     "text": "That's awesome."
+    },
+    {
+     "t": 1444.5,
+     "text": "So just a thing on that."
+    },
+    {
+     "t": 1446.8,
+     "text": "So a really quick summary."
+    },
+    {
+     "t": 1448.8,
+     "text": "SOC 2 is not black and white."
+    },
+    {
+     "t": 1450.1,
+     "text": "It's 50 shades of gray."
+    },
+    {
+     "t": 1451.9,
+     "text": "It's going to force some organizational maturity in non-technical departments like people ops, legal and operations."
+    },
+    {
+     "t": 1457.0,
+     "text": "And IT hygiene is really going to be like a big hurdle after, you know, your policies and your basics."
+    },
+    {
+     "t": 1462.5,
+     "text": "So thank you so much."
+    },
+    {
+     "t": 1464.7,
+     "text": "I'd love to open it to Q&A."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1467.7,
+   "end": 1489.5,
+   "lines": [
+    {
+     "t": 1467.7,
+     "text": "Awesome."
+    },
+    {
+     "t": 1468.1,
+     "text": "This is like my favorite section of the webinar."
+    },
+    {
+     "t": 1472.4,
+     "text": "We have so many interesting questions coming in from YouTube, LinkedIn."
+    },
+    {
+     "t": 1476.2,
+     "text": "Let's drive right into it."
+    },
+    {
+     "t": 1478.0,
+     "text": "There's one in the chat specifically to what we were talking earlier."
+    },
+    {
+     "t": 1481.8,
+     "text": "Honey mentions another downside of SSO is that in case one account is infiltrated, then all relevant access is compromised, right?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1492.1,
+   "end": 1492.8,
+   "lines": [
+    {
+     "t": 1492.1,
+     "text": "Can you repeat that again?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1494.1,
+   "end": 1503.5,
+   "lines": [
+    {
+     "t": 1494.1,
+     "text": "He mentions a downside of SSO in that case is if one account is infiltrated, then all other relevant accounts is compromised."
+    },
+    {
+     "t": 1502.7,
+     "text": "Is that true?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1504.1,
+   "end": 1573.2,
+   "lines": [
+    {
+     "t": 1504.1,
+     "text": "Oh, yeah, you could say that."
+    },
+    {
+     "t": 1505.4,
+     "text": "But, you know, as part of doing proper SSO, you have to have, I mean, I have a whole SSO guide."
+    },
+    {
+     "t": 1512.0,
+     "text": "You have to have really good MFA."
+    },
+    {
+     "t": 1513.8,
+     "text": "You're not using SMS for MFA."
+    },
+    {
+     "t": 1517.3,
+     "text": "You have contextual awareness."
+    },
+    {
+     "t": 1519.4,
+     "text": "So one big benefit of SSO is that you have context awareness."
+    },
+    {
+     "t": 1523.9,
+     "text": "So you're logging in from, let's say, New Jersey, and then all of a sudden your credentials are used 5,000 miles away in like Iceland."
+    },
+    {
+     "t": 1533.2,
+     "text": "Let's just say Iceland."
+    },
+    {
+     "t": 1534.6,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, red team, threat modeling, Enterprise Security Weekly, Security Cafe,"
+    },
+    {
+     "t": 1559.0,
+     "text": "The not having SSO, what really usually happens is you have people that are no longer with the company that have access to your software."
+    },
+    {
+     "t": 1568.0,
+     "text": "So I guess you have to weigh the risk, but SSO can be locked down really well, so."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1575.6,
+   "end": 1587.2,
+   "lines": [
+    {
+     "t": 1575.6,
+     "text": "Got it."
+    },
+    {
+     "t": 1577.1,
+     "text": "There's a question from LinkedIn, which I'm gonna push right into this main screen."
+    },
+    {
+     "t": 1582.8,
+     "text": "Can you provide examples of specific controls or processes that can be changed through automation?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1588.5,
+   "end": 1653.7,
+   "lines": [
+    {
+     "t": 1588.5,
+     "text": "Oh yeah, there's a whole bunch."
+    },
+    {
+     "t": 1590.2,
+     "text": "So background checks, if you're using a background check software, that'll plug right into Sprinto."
+    },
+    {
+     "t": 1597.1,
+     "text": "And every time you do a background check on an employee, they pass the background check, that is automatically sent to Sprinto."
+    },
+    {
+     "t": 1604.8,
+     "text": "Training is another one."
+    },
+    {
+     "t": 1608.4,
+     "text": "Let's see, through automation."
+    },
+    {
+     "t": 1610.2,
+     "text": "Yeah, pull requests."
+    },
+    {
+     "t": 1611.9,
+     "text": "So making sure that every pull request is approved."
+    },
+    {
+     "t": 1615.5,
+     "text": "Talk on information security covering CISO, vCISO, fractional CISO, zero trust, non-repudiation, infosec, AppSec, DevSecOps, SOC 2, ISO 27001, NIST, FedRAMP, GDPR, HIPAA, PCI DSS, MFA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, HIPAA, PCI DSS, MFA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, HIPAA, PCI DSS, MFA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, HIPAA, PCI DSS, MFA, SSO, IAM, OAuth, phishing, ransomware, pentest,"
+    },
+    {
+     "t": 1640.6,
+     "text": "Oh, gap is an accounting term."
+    },
+    {
+     "t": 1642.2,
+     "text": "So I happen to know accounting stuff because I run a business."
+    },
+    {
+     "t": 1648.9,
+     "text": "The gap thing is completely separate of SOC 2."
+    },
+    {
+     "t": 1652.9,
+     "text": "That's an accounting thing."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1656.3,
+   "end": 1665.5,
+   "lines": [
+    {
+     "t": 1656.3,
+     "text": "Very interesting questions coming in."
+    },
+    {
+     "t": 1658.7,
+     "text": "This is really good."
+    },
+    {
+     "t": 1659.7,
+     "text": "This is from LinkedIn."
+    },
+    {
+     "t": 1661.6,
+     "text": "Haha, IT and security, the frenemies."
+    },
+    {
+     "t": 1664.1,
+     "text": "How do you ensure the buy-in there?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1668.8,
+   "end": 1757.6,
+   "lines": [
+    {
+     "t": 1668.8,
+     "text": "Yes, yes, exactly."
+    },
+    {
+     "t": 1670.9,
+     "text": "I love how that's stated."
+    },
+    {
+     "t": 1676.9,
+     "text": "If you're going down the SOC 2 journey, there's basically 80-20 rule that I've seen from a security perspective lately, especially lately with budgets being cut."
+    },
+    {
+     "t": 1687.9,
+     "text": "80% of the folks are doing security because they're being forced to do it by their clients and their partners saying, are you SOC 2?"
+    },
+    {
+     "t": 1696.2,
+     "text": "It's like, if you don't do SOC 2, then we're not going to do the business."
+    },
+    {
+     "t": 1699.0,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah,"
+    },
+    {
+     "t": 1705.1,
+     "text": "No one wants to spend time on security, but at the end of the day, if you're going to lose business because you're not SOC 2 compliant, that's really why it's being done."
+    },
+    {
+     "t": 1714.8,
+     "text": "So that's typically what it is these days."
+    },
+    {
+     "t": 1719.2,
+     "text": "It's good to be proactive."
+    },
+    {
+     "t": 1721.1,
+     "text": "And I think from my perspective as a security leader, I need to communicate what the risk is of not doing security now and trying to do it later."
+    },
+    {
+     "t": 1733.2,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 1749.4,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1770.6,
+   "end": 1783.5,
+   "lines": [
+    {
+     "t": 1770.6,
+     "text": "I think we can skip one more question."
+    },
+    {
+     "t": 1774.0,
+     "text": "Sure."
+    },
+    {
+     "t": 1775.1,
+     "text": "This is from YouTube."
+    },
+    {
+     "t": 1776.6,
+     "text": "How can companies effectively scope the systems and processes to be included in a software assessment?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  },
+  {
+   "start": 1783.6,
+   "end": 1871.2,
+   "lines": [
+    {
+     "t": 1783.6,
+     "text": "Scoping is really important."
+    },
+    {
+     "t": 1785.5,
+     "text": "Yes, scoping is a great thing."
+    },
+    {
+     "t": 1788.0,
+     "text": "I wanted to have a whole section on scoping."
+    },
+    {
+     "t": 1791.2,
+     "text": "You know basically you know if you're doing it for the first time you want to scope is going to determine everything so if you have three different products and but only one product is sold for enterprises right and then the enterprises are the one asking for SOC 2 like if that's what it is then just do SOC 2 for that one product you want to scope as"
+    },
+    {
+     "t": 1819.3,
+     "text": "I don't want to say as low as possible, but you want to scope appropriately to meet your needs, especially if this is still new to you, right?"
+    },
+    {
+     "t": 1828.3,
+     "text": "So if there's only one product that's being requested or that's being sold to enterprises, and enterprises are the only ones that are asking for SOC 2, then there you go."
+    },
+    {
+     "t": 1837.6,
+     "text": "That's your answer."
+    },
+    {
+     "t": 1838.7,
+     "text": "Only deal with that one product."
+    },
+    {
+     "t": 1840.4,
+     "text": "And that helps in segmenting out your environment."
+    },
+    {
+     "t": 1845.4,
+     "text": "Hopefully you have your product not..."
+    },
+    {
+     "t": 1849.2,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware,"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1880.9,
+   "end": 1886.6,
+   "lines": [
+    {
+     "t": 1880.9,
+     "text": "Thank you, Ivan."
+    },
+    {
+     "t": 1881.8,
+     "text": "It's been brilliant to have you for the first time."
+    },
+    {
+     "t": 1885.0,
+     "text": "Looking forward to doing more sessions with you."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Audience"
+  }
+ ]
+}

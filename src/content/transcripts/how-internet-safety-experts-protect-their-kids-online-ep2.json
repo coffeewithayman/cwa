@@ -1,0 +1,3253 @@
+{
+ "slug": "how-internet-safety-experts-protect-their-kids-online-ep2",
+ "scope": "ayman",
+ "format": "interview",
+ "turns": [
+  {
+   "start": 1.3,
+   "end": 11.4,
+   "lines": [
+    {
+     "t": 1.3,
+     "text": "Let's talk about how internet safety experts protect their kids online."
+    },
+    {
+     "t": 5.5,
+     "text": "Ayman, can you introduce yourself and your three kids?"
+    },
+    {
+     "t": 9.5,
+     "text": "Without telling them the names, you know, privacy issues."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 11.9,
+   "end": 112.2,
+   "lines": [
+    {
+     "t": 11.9,
+     "text": "Yeah."
+    },
+    {
+     "t": 12.3,
+     "text": "Hi, my name is Ayman Elsawah."
+    },
+    {
+     "t": 14.1,
+     "text": "Coffee with Ayman everywhere."
+    },
+    {
+     "t": 17.0,
+     "text": "And I'm a fractional CISO for startups."
+    },
+    {
+     "t": 20.1,
+     "text": "So I help companies with their security."
+    },
+    {
+     "t": 23.0,
+     "text": "Talk on information security covering CISO, vCISO, zero trust, non-repudiation, infosec, AppSec, DevSecOps, SOC 2, ISO 27001, NIST, FedRAMP, GDPR, HIPAA, PCI DSS, MFA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, CISO, zero trust, non-repudiation, infosec, AppSec, DevSecOps, SOC 2, ISO 27001, NIST, FedRAMP, GDPR, HIPAA, PCI DSS, MFA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, CISO, zero trust, non-repudiation, infosec, AppSec, DevSecOps, zero"
+    },
+    {
+     "t": 46.3,
+     "text": "Internet has been locked down for a while especially since the pandemic and you know i do have bug bounties for them so you know if they too if yeah if they okay can you explain what a bug bite bounty is yeah so a bug bounty is you know in a in a company a corporation where"
+    },
+    {
+     "t": 63.5,
+     "text": "A you have like an app a web app or a software or something a you hire security researchers aka hackers but good hackers right because hackers can be good or bad and you hire them to help you find bugs or security issues in your applications"
+    },
+    {
+     "t": 81.9,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah,"
+    },
+    {
+     "t": 96.9,
+     "text": "Yeah, yeah, yeah."
+    },
+    {
+     "t": 97.8,
+     "text": "So my kids, you know, they've done, I can share a whole bunch."
+    },
+    {
+     "t": 101.6,
+     "text": "It's been fun."
+    },
+    {
+     "t": 103.2,
+     "text": "They found a lot of loopholes."
+    },
+    {
+     "t": 104.6,
+     "text": "And when they do, I say, can you tell me how you did?"
+    },
+    {
+     "t": 108.1,
+     "text": "And they're reluctant."
+    },
+    {
+     "t": 109.0,
+     "text": "I'm like, just please tell me."
+    },
+    {
+     "t": 110.3,
+     "text": "And they tell me and I give them a high five, you know."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 133.5,
+   "end": 161.7,
+   "lines": [
+    {
+     "t": 133.5,
+     "text": "I'm known as an award-winning Forbes 30 under 30 internet safety expert."
+    },
+    {
+     "t": 137.7,
+     "text": "And I've been in some places on the internet and beyond that you may recognize."
+    },
+    {
+     "t": 141.8,
+     "text": "So without further ado, let's talk."
+    },
+    {
+     "t": 144.2,
+     "text": "Three, two, one."
+    },
+    {
+     "t": 147.8,
+     "text": "Okay, so let's go back to like the bug bounty thing."
+    },
+    {
+     "t": 151.8,
+     "text": "Is there anything that your kids have, you've put in place for their security and their safety, but then you found out that they went around it?"
+    },
+    {
+     "t": 160.4,
+     "text": "Like, how did you handle that?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 162.4,
+   "end": 198.2,
+   "lines": [
+    {
+     "t": 162.4,
+     "text": "Oh yeah there's been a bunch so you know during the pandemic you know they had to do online schooling and so i had filters on the router right and even yes i had filters on the router and so one time i found my son going to a gaming website i'm like how did how did they do that how did he how did he do that and"
+    },
+    {
+     "t": 191.4,
+     "text": "Turned out that he joined a hotspot, an open hotspot."
+    },
+    {
+     "t": 194.2,
+     "text": "Someone else was broadcasting a Comcast hotspot."
+    },
+    {
+     "t": 196.7,
+     "text": "So he was like sitting in the corner of the room."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 198.2,
+   "end": 201.9,
+   "lines": [
+    {
+     "t": 198.2,
+     "text": "Wait, like your neighbor's Wi-Fi?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 202.0,
+   "end": 218.9,
+   "lines": [
+    {
+     "t": 202.0,
+     "text": "Yeah, yeah."
+    },
+    {
+     "t": 202.4,
+     "text": "Some neighbor, somebody had like an open Wi-Fi and he just hopped on."
+    },
+    {
+     "t": 206.2,
+     "text": "So then I had to, you know, do device controls, right?"
+    },
+    {
+     "t": 211.0,
+     "text": "So that on the device themselves, they cannot go no matter what internet service provider they're using."
+    },
+    {
+     "t": 217.7,
+     "text": "That was one example."
+    },
+    {
+     "t": 218.8,
+     "text": "And"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 219.6,
+   "end": 225.7,
+   "lines": [
+    {
+     "t": 219.6,
+     "text": "Can you give like what's the difference between device parental controls and then router parental controls?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 226.1,
+   "end": 283.6,
+   "lines": [
+    {
+     "t": 226.1,
+     "text": "Yeah, yeah, great question."
+    },
+    {
+     "t": 227.7,
+     "text": "So when a lot of routers have parental controls where you can limit access to certain websites, but that does not, you know, if the device itself is able to, there's a lot of ways you could circumvent that."
+    },
+    {
+     "t": 242.8,
+     "text": "You could use different DNS providers, VPN, hotspot on your phone to bypass the router altogether."
+    },
+    {
+     "t": 250.6,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 259.4,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 268.5,
+     "text": "So if you have device level protection, such as like Family Link or Microsoft Family software, which is built, you know, which is free, then on the device itself, you can control a lot more granular controls on the device."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 284.8,
+   "end": 300.5,
+   "lines": [
+    {
+     "t": 284.8,
+     "text": "And is there any particular router that you like better for like parental controls?"
+    },
+    {
+     "t": 290.7,
+     "text": "Or do you feel like whatever one you have, just contact your service provider, be like, hey, is there any options?"
+    },
+    {
+     "t": 298.4,
+     "text": "Can you set this up for me?"
+    },
+    {
+     "t": 299.6,
+     "text": "Like that type of thing."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 300.8,
+   "end": 371.3,
+   "lines": [
+    {
+     "t": 300.8,
+     "text": "Yeah there is i you know every day there's a different device router whatnot so i can't i don't you know it's hard for me to recommend a specific provider what i would say is find whatever is easiest for you to use smart so there's a lot of newer routers now that are like all app based and you can do everything from your device there's there's a big brand that does that right now"
+    },
+    {
+     "t": 324.9,
+     "text": "And it's pretty cool."
+    },
+    {
+     "t": 325.4,
+     "text": "You can shut off all internet with just the press of a button."
+    },
+    {
+     "t": 328.1,
+     "text": "So everybody in the whole house is like, hey, mindfulness time."
+    },
+    {
+     "t": 331.8,
+     "text": "Let's practice some mindfulness and no more screens, including the adults."
+    },
+    {
+     "t": 337.0,
+     "text": "You can just shut off internet for everybody and whip out some board games."
+    },
+    {
+     "t": 341.1,
+     "text": "So there's that."
+    },
+    {
+     "t": 343.4,
+     "text": "But then there's also like, I do recommend if you don't have a router that has that, you can use Cloudflare's free service."
+    },
+    {
+     "t": 351.4,
+     "text": "So Cloudflare, if you go to 1.1.1.1, you could spell it out or use the numbers."
+    },
+    {
+     "t": 357.4,
+     "text": "And then you plug it into your device, the settings, and it will do some level of filtering automatically."
+    },
+    {
+     "t": 365.4,
+     "text": "Not a whole lot, but you can filter content that you might not want younger kids to see."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 372.7,
+   "end": 376.1,
+   "lines": [
+    {
+     "t": 372.7,
+     "text": "Okay."
+    },
+    {
+     "t": 373.3,
+     "text": "All right."
+    },
+    {
+     "t": 373.7,
+     "text": "And you said that's free?"
+    },
+    {
+     "t": 374.6,
+     "text": "Cloudflare offers that for free?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 376.4,
+   "end": 379.3,
+   "lines": [
+    {
+     "t": 376.4,
+     "text": "Yeah, it's free."
+    },
+    {
+     "t": 377.2,
+     "text": "They even have their own VPN service."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 379.4,
+   "end": 382.9,
+   "lines": [
+    {
+     "t": 379.4,
+     "text": "Do you think it's easy for people who are not tech savvy to set something like that up?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 383.5,
+   "end": 407.5,
+   "lines": [
+    {
+     "t": 383.5,
+     "text": "I don't know."
+    },
+    {
+     "t": 384.1,
+     "text": "I don't think so, to be honest."
+    },
+    {
+     "t": 386.2,
+     "text": "I mean, you'd have to know how to change your DNS settings."
+    },
+    {
+     "t": 389.5,
+     "text": "So I don't know."
+    },
+    {
+     "t": 391.4,
+     "text": "I think they might, you know, I don't know if there's additional software now, but I guess, you know, I should come up."
+    },
+    {
+     "t": 399.8,
+     "text": "We should have like an updated page of like, here's the easiest software to use and people just rate it on ease of use, you know, and functionality."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 408.0,
+   "end": 429.4,
+   "lines": [
+    {
+     "t": 408.0,
+     "text": "That is true."
+    },
+    {
+     "t": 408.6,
+     "text": "I mean, the easiest thing that you mentioned was like contacting your service provider because usually they have things for you to manage internet and devices, especially if you have the same service provider for everything."
+    },
+    {
+     "t": 421.0,
+     "text": "It makes everything easier."
+    },
+    {
+     "t": 422.4,
+     "text": "So they can be like, okay, here are options to protect this."
+    },
+    {
+     "t": 425.0,
+     "text": "Like all of the major service providers"
+    },
+    {
+     "t": 427.9,
+     "text": "Yeah, yeah."
+    },
+    {
+     "t": 428.3,
+     "text": "So yeah, to that."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 452.5,
+   "end": 468.6,
+   "lines": [
+    {
+     "t": 452.5,
+     "text": "Yeah, so I mean, you can do it from the service level."
+    },
+    {
+     "t": 454.5,
+     "text": "But now, like with I think with device, with everyone with their own devices, and especially as kids get, you know, their mobile, mobile, then you want to have device level controls."
+    },
+    {
+     "t": 466.9,
+     "text": "So that's where Family Link would come in."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 468.6,
+   "end": 473.3,
+   "lines": [
+    {
+     "t": 468.6,
+     "text": "You said you like Family Link a little bit better than family sharing?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 473.7,
+   "end": 474.2,
+   "lines": [
+    {
+     "t": 473.7,
+     "text": "Yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 474.3,
+   "end": 475.1,
+   "lines": [
+    {
+     "t": 474.3,
+     "text": "Do you want to talk about that?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 475.6,
+   "end": 509.3,
+   "lines": [
+    {
+     "t": 475.6,
+     "text": "Yeah so i use family link at home google family link it's built in it's free you just form like a family group you could even you know you just add their email you even get your own calendar it's really interesting and you know funny story there was a kid i was going to somebody's house my kid's cousin actually and they're like you know they're"
+    },
+    {
+     "t": 499.9,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 521.0,
+   "end": 523.1,
+   "lines": [
+    {
+     "t": 521.0,
+     "text": "He had Apple family sharing."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 523.2,
+   "end": 638.2,
+   "lines": [
+    {
+     "t": 523.2,
+     "text": "So I found that a testament."
+    },
+    {
+     "t": 527.1,
+     "text": "So in any case, Google family in particular, you could lock it down."
+    },
+    {
+     "t": 535.1,
+     "text": "It's so granular that each app, you could limit time on each app."
+    },
+    {
+     "t": 540.2,
+     "text": "You could allow apps to work even when the phone's locked."
+    },
+    {
+     "t": 543.2,
+     "text": "You could just ban apps altogether."
+    },
+    {
+     "t": 545.9,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 555.0,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 576.5,
+     "text": "And, you know, you could also remotely lock it, unlock it, you could play a sound, ping it."
+    },
+    {
+     "t": 582.1,
+     "text": "You know, of course, there's a lot of other things outside of the technical controls like that I do, like no screens in bedrooms, right?"
+    },
+    {
+     "t": 590.1,
+     "text": "That's like no screens in bedrooms."
+    },
+    {
+     "t": 591.8,
+     "text": "That's the number one rule because it's amazing or no screens in like small, you know, private rooms."
+    },
+    {
+     "t": 599.4,
+     "text": "I mean it's not in the bathroom not in the bedroom not in you know like yes you know so it's a huge it's a really good rule that rules out a lot yeah it makes it very simple you know hey it's not like i don't trust you just you know let's just be transparent and open things like that you know some other parents do like no headphones like you know only one ear instead of both ears"
+    },
+    {
+     "t": 626.9,
+     "text": "So there's there's different levels, you know, it depends on your comfort level."
+    },
+    {
+     "t": 633.8,
+     "text": "And, you know, we could always we could talk about games."
+    },
+    {
+     "t": 637.1,
+     "text": "Another story."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 654.0,
+   "end": 673.8,
+   "lines": [
+    {
+     "t": 654.0,
+     "text": "Like smart devices, smartphones, smartwatches."
+    },
+    {
+     "t": 657.9,
+     "text": "There's a big conversation on my page in particular about Ring and Amazon devices, Blink, Alexa, Google Nest, so on and so forth."
+    },
+    {
+     "t": 669.1,
+     "text": "Is there any, or even like child tech toys, like a doll that talks?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 674.8,
+   "end": 675.8,
+   "lines": [
+    {
+     "t": 674.8,
+     "text": "Oh, yeah, yeah, yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 676.0,
+   "end": 680.9,
+   "lines": [
+    {
+     "t": 676.0,
+     "text": "Like, is there certain devices that you're like, absolutely not based off of the work that I do?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 682.5,
+   "end": 746.8,
+   "lines": [
+    {
+     "t": 682.5,
+     "text": "Oh, I see what you're saying."
+    },
+    {
+     "t": 683.9,
+     "text": "Well, there's a really good Darknet Diaries episode of a, check it out, darknetdiaries.com, and of an episode of devices that would record the sound and do something with the kid's sound."
+    },
+    {
+     "t": 701.1,
+     "text": "But it ended up, the devices ended up doing is sending the sound to the provider."
+    },
+    {
+     "t": 707.0,
+     "text": "And"
+    },
+    {
+     "t": 710.4,
+     "text": "A researcher found those files and like found a lot of like child, you know, camera, audio sounds, everything."
+    },
+    {
+     "t": 721.5,
+     "text": "So, you know, in malicious hands, that could be really bad."
+    },
+    {
+     "t": 724.8,
+     "text": "What I would say from the simplest thing is if it's on the internet, it's not yours."
+    },
+    {
+     "t": 730.2,
+     "text": "So don't assume it's yours."
+    },
+    {
+     "t": 732.7,
+     "text": "Someone else will have it."
+    },
+    {
+     "t": 735.4,
+     "text": "And then, you know, I mean, my little guy loves Alexa."
+    },
+    {
+     "t": 739.4,
+     "text": "Like, I'm impressed with Alexa."
+    },
+    {
+     "t": 743.3,
+     "text": "I avoided Alexa for a long time."
+    },
+    {
+     "t": 745.7,
+     "text": "I have since embraced it."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 747.7,
+   "end": 748.7,
+   "lines": [
+    {
+     "t": 747.7,
+     "text": "What made you change your mind?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 749.7,
+   "end": 783.2,
+   "lines": [
+    {
+     "t": 749.7,
+     "text": "Well, as a single dad, I kind of just like, you know, just some entertainment, you know."
+    },
+    {
+     "t": 754.3,
+     "text": "Yeah, I mean, I just, you know, in fact, I use it sometimes."
+    },
+    {
+     "t": 757.6,
+     "text": "I like, hey, Alexa, tell me something interesting."
+    },
+    {
+     "t": 759.9,
+     "text": "And it would just tell me the most interesting things."
+    },
+    {
+     "t": 761.9,
+     "text": "I'm like, that's cool."
+    },
+    {
+     "t": 762.7,
+     "text": "And as a lifelong learner, I like learning weird things, you know, or nice things."
+    },
+    {
+     "t": 767.2,
+     "text": "I don't know."
+    },
+    {
+     "t": 771.7,
+     "text": "And I don't know if my son came up with this or me."
+    },
+    {
+     "t": 775.0,
+     "text": "So it's embarrassing."
+    },
+    {
+     "t": 777.0,
+     "text": "I admit it."
+    },
+    {
+     "t": 777.5,
+     "text": "But I might be at fault here."
+    },
+    {
+     "t": 780.9,
+     "text": "But, you know, I said, Alexa, make some fart noises."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 783.8,
+   "end": 786.7,
+   "lines": [
+    {
+     "t": 783.8,
+     "text": "Oh, my God."
+    },
+    {
+     "t": 784.4,
+     "text": "You're absolutely at fault."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 788.5,
+   "end": 810.2,
+   "lines": [
+    {
+     "t": 788.5,
+     "text": "I might have done that I don't know I was prepared to be like oh no it's not your fault it's okay no that's absolutely your fault why would you say that and wow does Alexa have a library of parts like I was I was blown away in fact so now you have to listen to that so your kids are like playing that on repeat yeah and then he'll kill like yeah I think he I think he had to make a fart song and I was like wow and like"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 844.3,
+   "end": 861.4,
+   "lines": [
+    {
+     "t": 844.3,
+     "text": "The voice notes that alexa is storing or how long do they store it or when is it deleted so like how do you how did you make that decision like when you hear those headlines when you hear those things how do you process it as someone who understands more than the average person about what's going on"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 862.1,
+   "end": 863.7,
+   "lines": [
+    {
+     "t": 862.1,
+     "text": "How did I process it?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 864.3,
+   "end": 874.6,
+   "lines": [
+    {
+     "t": 864.3,
+     "text": "Yeah."
+    },
+    {
+     "t": 866.3,
+     "text": "Do you just go, oh, yeah, I'll just put it on a different network or I'll unplug it or you know what?"
+    },
+    {
+     "t": 871.5,
+     "text": "The risk factor here isn't as great for me."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 875.1,
+   "end": 1006.3,
+   "lines": [
+    {
+     "t": 875.1,
+     "text": "Yeah."
+    },
+    {
+     "t": 875.3,
+     "text": "Well, the longest reason that I did not do that was because of that."
+    },
+    {
+     "t": 878.8,
+     "text": "I did not want devices."
+    },
+    {
+     "t": 880.1,
+     "text": "I don't like having devices on my network."
+    },
+    {
+     "t": 883.2,
+     "text": "You don't know what they're doing."
+    },
+    {
+     "t": 885.7,
+     "text": "So what I would say is if you do have devices, there's a lot of cheap knockoffs."
+    },
+    {
+     "t": 892.1,
+     "text": "And so as a security expert, there are a lot of cheap knockoffs."
+    },
+    {
+     "t": 896.5,
+     "text": "And without naming any particular source countries of these knockoffs, but it changes every so often."
+    },
+    {
+     "t": 905.2,
+     "text": "And the thing is with these knockoffs, it could be just me."
+    },
+    {
+     "t": 911.7,
+     "text": "Somebody could just decide to sell this knockoff camera and then have some software in that camera that goes and snoops on your network and does some other things."
+    },
+    {
+     "t": 922.3,
+     "text": "So that's something to consider when you're getting a knockoff of something."
+    },
+    {
+     "t": 926.5,
+     "text": "You might be saving money, but at the very least, I would try to put on a separate network or something like that."
+    },
+    {
+     "t": 934.2,
+     "text": "But for the average person, that's really complicated."
+    },
+    {
+     "t": 938.3,
+     "text": "If you create a guest network, then yeah."
+    },
+    {
+     "t": 940.5,
+     "text": "So what I would say is..."
+    },
+    {
+     "t": 944.9,
+     "text": "Even when you buy a reputable device, like say Ring or whatnot, yes, what I would say is these companies all make mistakes."
+    },
+    {
+     "t": 954.0,
+     "text": "They, you know, they have, they're just big startups in a way sometimes."
+    },
+    {
+     "t": 961.2,
+     "text": "And they'll have they make mistakes but they correct them and they fix them and so what i would say it's kind of tough it's kind of tough again going back to if it's in the cloud then you know it's not yours it's it's there forever even if they say they delete it you know i don't know where do you draw the line i mean there was one provider where people said where the provider said that they will not they did not send the stuff to the cloud"
+    },
+    {
+     "t": 990.7,
+     "text": "It was a camera provider."
+    },
+    {
+     "t": 991.7,
+     "text": "And then it turned out they did send it to the cloud."
+    },
+    {
+     "t": 994.6,
+     "text": "So it's just it's hard to trust devices."
+    },
+    {
+     "t": 999.6,
+     "text": "You know, that's that's what I would say."
+    },
+    {
+     "t": 1002.2,
+     "text": "I think, you know, privacy is dead."
+    },
+    {
+     "t": 1005.2,
+     "text": "It's been dead a long time ago."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1006.7,
+   "end": 1010.0,
+   "lines": [
+    {
+     "t": 1006.7,
+     "text": "So you do believe it's actually 100% dead, like there's nothing."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1010.2,
+   "end": 1075.1,
+   "lines": [
+    {
+     "t": 1010.2,
+     "text": "It's been that."
+    },
+    {
+     "t": 1010.7,
+     "text": "I mean, you could try to have it like real privacy."
+    },
+    {
+     "t": 1013.4,
+     "text": "I saw a talk 20 years ago about privacy being dead before the internet proliferation of things."
+    },
+    {
+     "t": 1021.5,
+     "text": "And, you know, now people have Samsung smart fridges or sorry, sorry."
+    },
+    {
+     "t": 1028.0,
+     "text": "There's a lot of different smart fridges, right?"
+    },
+    {
+     "t": 1029.4,
+     "text": "Not just Samsung, but people have smart fridges with cameras inside them."
+    },
+    {
+     "t": 1035.3,
+     "text": "And to, you know,"
+    },
+    {
+     "t": 1038.1,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 1053.5,
+     "text": "You know, go ahead and look at my fridge stuff."
+    },
+    {
+     "t": 1058.3,
+     "text": "Okay, well, you know, you might say it's innocuous, but what if you have like a can of soda and it mistakes as a can of beer?"
+    },
+    {
+     "t": 1068.7,
+     "text": "And then, you know, that's used in a disclosure somewhere else."
+    },
+    {
+     "t": 1072.5,
+     "text": "Like, oh, so-and-so had beer or whatever it is."
+    },
+    {
+     "t": 1074.7,
+     "text": "I don't know."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1076.1,
+   "end": 1077.5,
+   "lines": [
+    {
+     "t": 1076.1,
+     "text": "I mean, it can pull up in court cases too."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1077.9,
+   "end": 1133.7,
+   "lines": [
+    {
+     "t": 1077.9,
+     "text": "Exactly all this stuff can be subpoenaed so it's it's a slippery slope you know it's slippery slope i don't know what to tell you there's some things you can do but it's like here's the thing it's the more you're paranoid about something"
+    },
+    {
+     "t": 1097.0,
+     "text": "If you're paranoid by something, then just don't use it."
+    },
+    {
+     "t": 1099.2,
+     "text": "Simple, right?"
+    },
+    {
+     "t": 1100.5,
+     "text": "Just, you know."
+    },
+    {
+     "t": 1102.2,
+     "text": "And then back to your original question."
+    },
+    {
+     "t": 1103.8,
+     "text": "The less screens, the better."
+    },
+    {
+     "t": 1105.4,
+     "text": "That's my general philosophy."
+    },
+    {
+     "t": 1107.9,
+     "text": "Even me, I don't have an Apple."
+    },
+    {
+     "t": 1109.0,
+     "text": "I don't have a watch."
+    },
+    {
+     "t": 1110.2,
+     "text": "I don't have a smartwatch, right?"
+    },
+    {
+     "t": 1111.4,
+     "text": "Because I don't want the dings and whatnot."
+    },
+    {
+     "t": 1116.2,
+     "text": "I think..."
+    },
+    {
+     "t": 1118.0,
+     "text": "Yeah, I think with all these devices and everything, we're too connected."
+    },
+    {
+     "t": 1122.9,
+     "text": "We're not practicing just like, like, how many people do you know, put their phone on do not disturb and are not affected by their phone all day, all day long?"
+    },
+    {
+     "t": 1132.3,
+     "text": "You know, not many."
+    },
+    {
+     "t": 1133.5,
+     "text": "So"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1134.5,
+   "end": 1150.2,
+   "lines": [
+    {
+     "t": 1134.5,
+     "text": "I mean, I know I only do it because I would go mental if my phone was on."
+    },
+    {
+     "t": 1138.5,
+     "text": "I don't like hearing dings all the time."
+    },
+    {
+     "t": 1140.2,
+     "text": "It pisses me off."
+    },
+    {
+     "t": 1141.5,
+     "text": "So I like quiet."
+    },
+    {
+     "t": 1144.2,
+     "text": "So my phone is always on do not disturb."
+    },
+    {
+     "t": 1146.7,
+     "text": "That does not mean that I am not disturbing my phone."
+    },
+    {
+     "t": 1149.0,
+     "text": "My phone is just not disturbing me."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1151.0,
+   "end": 1157.4,
+   "lines": [
+    {
+     "t": 1151.0,
+     "text": "Right, right."
+    },
+    {
+     "t": 1151.6,
+     "text": "The phone, I always tell people, the phone is there to serve me, not everybody else."
+    },
+    {
+     "t": 1155.7,
+     "text": "So, you know, I'll use it on my own time."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1159.0,
+   "end": 1172.7,
+   "lines": [
+    {
+     "t": 1159.0,
+     "text": "So for sharing your kids online, I don't remember ever seeing pictures of your kids."
+    },
+    {
+     "t": 1164.5,
+     "text": "And maybe it's because I don't have like my notifications on for your posts or something."
+    },
+    {
+     "t": 1169.5,
+     "text": "But am I right to note to say that you don't share your kids online?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1173.1,
+   "end": 1173.8,
+   "lines": [
+    {
+     "t": 1173.1,
+     "text": "Absolutely not."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1174.1,
+   "end": 1177.6,
+   "lines": [
+    {
+     "t": 1174.1,
+     "text": "Okay, so why do you draw the line in that?"
+    },
+    {
+     "t": 1176.0,
+     "text": "What was the thought process behind that?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1178.2,
+   "end": 1271.3,
+   "lines": [
+    {
+     "t": 1178.2,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 1187.9,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 1202.5,
+     "text": "Only one else needs to be on the internet right now you know and then i think from just to you know they're people too they're people and i want to respect their privacy and"
+    },
+    {
+     "t": 1220.1,
+     "text": "You know, it's just, you know, it's just, it's just, you know, I think my kids are not for the world, right?"
+    },
+    {
+     "t": 1228.0,
+     "text": "They're only for my family and their relatives."
+    },
+    {
+     "t": 1230.5,
+     "text": "So that's, that's probably my two cents."
+    },
+    {
+     "t": 1234.0,
+     "text": "It's not everybody's take on it."
+    },
+    {
+     "t": 1237.1,
+     "text": "But also, there's also a lot of..."
+    },
+    {
+     "t": 1240.7,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec,"
+    },
+    {
+     "t": 1264.0,
+     "text": "And so no need, you know, I just found that unnecessary."
+    },
+    {
+     "t": 1268.1,
+     "text": "There was no good reason for me to have them on."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1273.0,
+   "end": 1286.8,
+   "lines": [
+    {
+     "t": 1273.0,
+     "text": "You said you had two teens."
+    },
+    {
+     "t": 1274.4,
+     "text": "So did one of your teens ever want to start creating content?"
+    },
+    {
+     "t": 1279.0,
+     "text": "They see you online with your podcast, Coffee with Ayman."
+    },
+    {
+     "t": 1282.4,
+     "text": "Did they ever want to start a YouTube channel or TikTok or Vine or whatever?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1287.2,
+   "end": 1396.1,
+   "lines": [
+    {
+     "t": 1287.2,
+     "text": "Sometimes, yeah."
+    },
+    {
+     "t": 1288.5,
+     "text": "I encourage them to do different things, but they're not ready."
+    },
+    {
+     "t": 1294.8,
+     "text": "But yeah, I think once upon a time ago, we started a podcast for the school."
+    },
+    {
+     "t": 1299.8,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 1319.4,
+     "text": "So it was like a little thing like at the end of the day just you know what was it what was the school's news this week this today you know like a daily like on unauthorized school news channel but at home we do a lot of improv so you know they'll do improv and stuff like that but we don't post it online so again i think"
+    },
+    {
+     "t": 1341.1,
+     "text": "You know the whole online thing it's it's tough for adults i think a younger young for younger folks it's easier but you know there's when you put yourself online you're going to be subject to you know cyber bullying and stuff like that and comments and"
+    },
+    {
+     "t": 1358.2,
+     "text": "You know the ilk of the internet so you know i think if people are going to have their kids or help their kids create an online persona i think there's a lot of good things in like what we're doing it teaches you communication skills people skills things like that especially if you're both in the same room and having a conversation that's being recorded that's kind of cool"
+    },
+    {
+     "t": 1382.6,
+     "text": "But you know, just, just, you know, don't take it for granted and understand that there's a lot of, you know, you might want to disable comments, things like that for, for some of your kids, videos."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1439.3,
+   "end": 1443.4,
+   "lines": [
+    {
+     "t": 1439.3,
+     "text": "I know I'm being like very, not vague, but just there's a lot of different possibilities."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1443.4,
+   "end": 1536.2,
+   "lines": [
+    {
+     "t": 1443.4,
+     "text": "Yeah, there's a lot of different ways."
+    },
+    {
+     "t": 1447.1,
+     "text": "Well, I mean, yeah, I mean, from, again, so the whole internet router thing was a great example."
+    },
+    {
+     "t": 1454.2,
+     "text": "So, you know, in the corporate world, we have something called MDM, where it's mobile device management, where we control the activity that's happening on a laptop."
+    },
+    {
+     "t": 1466.8,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 1475.2,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 1493.0,
+     "text": "Also volunteering at my kid's school was very helpful too."
+    },
+    {
+     "t": 1495.5,
+     "text": "I learned a lot about Chrome and Chromebook management."
+    },
+    {
+     "t": 1498.3,
+     "text": "So I helped and I encourage everybody to help their school get to, you know, like help them with their IT departments."
+    },
+    {
+     "t": 1506.8,
+     "text": "Sometimes they're just not like they're understaffed and whatnot."
+    },
+    {
+     "t": 1511.4,
+     "text": "But you can you can there's a lot of really cool controls in google like on chromebooks and things like that so i learned a lot doing that and i took that over to you know some of the family device management stuff i mean besides going to chrome i guess you can go to chrome and see what like management they have there if you decide to have a chromebook for your family it's a little different than organizational settings but yeah"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1536.9,
+   "end": 1548.3,
+   "lines": [
+    {
+     "t": 1536.9,
+     "text": "You can still see what you can do, because I know that there's certain controls that you can't do as a parent by yourself."
+    },
+    {
+     "t": 1542.2,
+     "text": "But there are certain things, like you said, you can go to the website and look at it."
+    },
+    {
+     "t": 1546.7,
+     "text": "So you said that your kids are gaming."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1548.3,
+   "end": 1550.3,
+   "lines": [
+    {
+     "t": 1548.3,
+     "text": "Yes, yes."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1550.7,
+   "end": 1555.4,
+   "lines": [
+    {
+     "t": 1550.7,
+     "text": "Because they're like a particular game that they love."
+    },
+    {
+     "t": 1553.5,
+     "text": "And how do you protect them on online games?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1557.0,
+   "end": 1603.0,
+   "lines": [
+    {
+     "t": 1557.0,
+     "text": "Is there a particular game that they love?"
+    },
+    {
+     "t": 1559.4,
+     "text": "Well..."
+    },
+    {
+     "t": 1564.5,
+     "text": "I mean my son's playing spider-man right now that's pretty popular and my daughter she plays a lot of like the casual games there's this one with where the sun is going down I can't remember and you have to go and you're flying a ship lifestyle not lifestyle but like it's like really quiet and scenic and like very music but scene friendly where it like looks really nice and you do quests basically"
+    },
+    {
+     "t": 1590.1,
+     "text": "No, no, this is very intense."
+    },
+    {
+     "t": 1591.3,
+     "text": "So it's a it's a like a runner kind of game where you have a ship and you have to go down before the sun goes down and you're a solar powered ship and you have to like navigate the thing."
+    },
+    {
+     "t": 1601.1,
+     "text": "It's really cool."
+    },
+    {
+     "t": 1601.8,
+     "text": "I could I could find in a second."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1603.3,
+   "end": 1604.4,
+   "lines": [
+    {
+     "t": 1603.3,
+     "text": "Oh, that's really cool."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1605.2,
+   "end": 1643.0,
+   "lines": [
+    {
+     "t": 1605.2,
+     "text": "Yeah."
+    },
+    {
+     "t": 1605.4,
+     "text": "So I have Steam Family Link."
+    },
+    {
+     "t": 1607.1,
+     "text": "I have Steam Family View."
+    },
+    {
+     "t": 1608.7,
+     "text": "So I have a whole library of Steam games."
+    },
+    {
+     "t": 1610.7,
+     "text": "I use Steam as a platform marketplace where I use games."
+    },
+    {
+     "t": 1614.8,
+     "text": "And there's some games that, you know, like fighting games, Mortal Kombat, whatever that I bought before that at the time my kids were too young to play."
+    },
+    {
+     "t": 1625.5,
+     "text": "So I had limited, Steam has a really cool feature where you can allow only certain games for family view settings."
+    },
+    {
+     "t": 1634.2,
+     "text": "So it's really cool."
+    },
+    {
+     "t": 1635.6,
+     "text": "So only certain games like casual games and whatnot that I approved were allowed in the family group settings."
+    },
+    {
+     "t": 1641.9,
+     "text": "And then my kids found the code."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1669.5,
+   "end": 1686.9,
+   "lines": [
+    {
+     "t": 1669.5,
+     "text": "So how do you how do you manage that you're like you're because you're we're in the cyber security field and there is like an encouragement to hack into things right but also you're trying to parent them but you want to pair them in a way that you're saying hey this is a good skill because you can use it for life but also don't do that"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1687.4,
+   "end": 1716.5,
+   "lines": [
+    {
+     "t": 1687.4,
+     "text": "Yeah, yeah, yeah, yeah."
+    },
+    {
+     "t": 1689.3,
+     "text": "Well, so when they found out the code, I'm like, okay, don't enter the code unless I say okay."
+    },
+    {
+     "t": 1694.6,
+     "text": "Of course, I could just change the code at any time, but I was just being lazy at the time, but I could just change the code and then we're good."
+    },
+    {
+     "t": 1702.9,
+     "text": "So yeah, that's the simplest thing."
+    },
+    {
+     "t": 1703.9,
+     "text": "I could change the code."
+    },
+    {
+     "t": 1705.9,
+     "text": "Even on like Amazon, right?"
+    },
+    {
+     "t": 1707.1,
+     "text": "Or like on Roku and you go to view an R-rated movie, I have a code entered on so that I have to enter a pin."
+    },
+    {
+     "t": 1714.5,
+     "text": "I always forget the pin, but..."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1717.3,
+   "end": 1723.7,
+   "lines": [
+    {
+     "t": 1717.3,
+     "text": "I'm pretty sure they know the pins."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1724.5,
+   "end": 1726.8,
+   "lines": [
+    {
+     "t": 1724.5,
+     "text": "No, they don't know the pin because if I don't know the pin, they don't know the pin."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1727.9,
+   "end": 1729.5,
+   "lines": [
+    {
+     "t": 1727.9,
+     "text": "Maybe you started somewhere you don't know."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1730.3,
+   "end": 1745.2,
+   "lines": [
+    {
+     "t": 1730.3,
+     "text": "Yeah, like, hey, kids, what's the thing, right?"
+    },
+    {
+     "t": 1736.0,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1745.2,
+   "end": 1753.0,
+   "lines": [
+    {
+     "t": 1745.2,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1765.3,
+   "end": 1805.3,
+   "lines": [
+    {
+     "t": 1765.3,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 1792.5,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1837.4,
+   "end": 1865.5,
+   "lines": [
+    {
+     "t": 1837.4,
+     "text": "This is a 42 year old."
+    },
+    {
+     "t": 1838.7,
+     "text": "This is not a 14 year old."
+    },
+    {
+     "t": 1840.4,
+     "text": "So it gives you access to 18 plus things."
+    },
+    {
+     "t": 1842.9,
+     "text": "And they're like running around frantically or they're texting me like, Frida, what is going on?"
+    },
+    {
+     "t": 1846.3,
+     "text": "Oh my God, my child has access to this."
+    },
+    {
+     "t": 1848.4,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 1871.0,
+   "end": 1899.1,
+   "lines": [
+    {
+     "t": 1871.0,
+     "text": "I think with all the parental questions out there, I think there needs to be better ones, more easier to use."
+    },
+    {
+     "t": 1891.8,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1987.8,
+   "end": 2011.8,
+   "lines": [
+    {
+     "t": 1987.8,
+     "text": "So maybe they're cursing, maybe there's gore, maybe there's whatever that's not suitable for kids of a certain maturity or a certain age."
+    },
+    {
+     "t": 1995.6,
+     "text": "And so just because, you know, everyone's playing Call of Duty in middle school doesn't necessarily mean that your child is going to be fine with Call of Duty at middle school."
+    },
+    {
+     "t": 2005.4,
+     "text": "I mean, Call of Duty is 18 plus, and it's very much so for a reason."
+    },
+    {
+     "t": 2009.9,
+     "text": "So that's one thing that I come across a lot."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2012.6,
+   "end": 2033.0,
+   "lines": [
+    {
+     "t": 2012.6,
+     "text": "Yeah, I mean, 100%, I think, I mean, and then, you know, games are written by adults."
+    },
+    {
+     "t": 2019.1,
+     "text": "So adults are writing these games, so they have their own imaginations."
+    },
+    {
+     "t": 2023.2,
+     "text": "So, you know, I think, so another, another misnomer, I heard a parent say this once, oh, because it's animated, I thought it was okay."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2033.8,
+   "end": 2034.9,
+   "lines": [
+    {
+     "t": 2033.8,
+     "text": "Yes, that's true."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2035.0,
+   "end": 2063.5,
+   "lines": [
+    {
+     "t": 2035.0,
+     "text": "Yeah, I'm like, are you kidding?"
+    },
+    {
+     "t": 2036.8,
+     "text": "There was one movie that came out several years ago."
+    },
+    {
+     "t": 2038.7,
+     "text": "It was so raunchy."
+    },
+    {
+     "t": 2040.2,
+     "text": "It was so bad."
+    },
+    {
+     "t": 2040.6,
+     "text": "I can't remember."
+    },
+    {
+     "t": 2041.0,
+     "text": "It was an animated movie."
+    },
+    {
+     "t": 2042.8,
+     "text": "And the parent had their kid watch it."
+    },
+    {
+     "t": 2044.7,
+     "text": "I'm like,"
+    },
+    {
+     "t": 2046.2,
+     "text": "Wow."
+    },
+    {
+     "t": 2047.3,
+     "text": "And I don't know."
+    },
+    {
+     "t": 2048.9,
+     "text": "I felt like I had to inform."
+    },
+    {
+     "t": 2050.2,
+     "text": "Like, I usually don't do this, but... Or somebody... Actually, I just asked."
+    },
+    {
+     "t": 2056.3,
+     "text": "And anyway, the word got to the parent and they were like, oh, I had no idea."
+    },
+    {
+     "t": 2059.9,
+     "text": "And they literally said, I thought because it was animated, it was fine."
+    },
+    {
+     "t": 2063.2,
+     "text": "I'm like..."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2113.6,
+   "end": 2139.9,
+   "lines": [
+    {
+     "t": 2113.6,
+     "text": "So I would say, like, figure out what you can watch with your kid and watch that beforehand and like figure out shows that you can watch together."
+    },
+    {
+     "t": 2121.9,
+     "text": "So maybe there can be like an anime that you watch together."
+    },
+    {
+     "t": 2124.2,
+     "text": "Maybe there's like a game that you can game together."
+    },
+    {
+     "t": 2126.6,
+     "text": "Just so that you can understand the world a little bit more."
+    },
+    {
+     "t": 2129.3,
+     "text": "One of the parents I was working with, she actually goes to anime conventions with her kid and cosplays with them, even though she's like, I have no idea what I'm doing."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2139.9,
+   "end": 2140.8,
+   "lines": [
+    {
+     "t": 2139.9,
+     "text": "Wow, that's cool."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2141.3,
+   "end": 2166.4,
+   "lines": [
+    {
+     "t": 2141.3,
+     "text": "But like you engaging in that way can be really cool you don't have to understand it but so long as you're there and you're like I don't understand it's totally fine if you don't get it because American culture especially there's this idea and I'm pretty sure it's in other cultures too where like if it's animated then it's for kids yeah if it's a game then it's for kids and there's this idea of like okay leave them alone like it's a Disney movie type thing you're like I don't know you know"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2167.8,
+   "end": 2284.0,
+   "lines": [
+    {
+     "t": 2167.8,
+     "text": "Yeah let's unpack a couple things there i think i think you hit a couple things on the head there one is understanding more and you could only develop empathy and understanding if you've if you participate so there was a good wired article right around the pandemic about a dad who decided to play fortnite with their kid"
+    },
+    {
+     "t": 2188.0,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 2205.2,
+     "text": "So and so because you know you're it's it's it's almost equivalent i mean especially with certain ages and certain genders it's it's the way they bond right it's the way they're bonding and you know i like i let him play games with his cousins and they're they're playing and they're just chatting and stuff so it's like they're in action especially with like they're all over the us right or something like that or global even"
+    },
+    {
+     "t": 2230.3,
+     "text": "Another thing is, which I really encourage parents to do, is spend time with their kids in some of these activities, right?"
+    },
+    {
+     "t": 2239.2,
+     "text": "And what's going to happen is your brain's going to release a neurotransmitter called oxytocin, which is the bonding chemical, right?"
+    },
+    {
+     "t": 2248.1,
+     "text": "And it's going to create a bond with your kid."
+    },
+    {
+     "t": 2250.7,
+     "text": "Like shared experiences are bonding experiences."
+    },
+    {
+     "t": 2255.0,
+     "text": "So if you watch a movie together, watch a show together, laugh together, play a video game together, you're going to actually get closer to your kid."
+    },
+    {
+     "t": 2263.5,
+     "text": "And they're going to get closer to you."
+    },
+    {
+     "t": 2265.5,
+     "text": "So I encourage parents to take advantage of this time when the kid is thirsty for their company."
+    },
+    {
+     "t": 2278.1,
+     "text": "Because at some point, as we all know, they're going to be teenagers and not want to have anything to do with us."
+    },
+    {
+     "t": 2283.2,
+     "text": "So..."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2285.4,
+   "end": 2286.5,
+   "lines": [
+    {
+     "t": 2285.4,
+     "text": "Some of them will leave you alone."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2287.0,
+   "end": 2345.8,
+   "lines": [
+    {
+     "t": 2287.0,
+     "text": "Some, I guess."
+    },
+    {
+     "t": 2288.0,
+     "text": "Okay."
+    },
+    {
+     "t": 2289.2,
+     "text": "You know, we don't know what's going to happen."
+    },
+    {
+     "t": 2290.9,
+     "text": "But, you know, so we just want to, you know, I think, you know, and back to the whole game."
+    },
+    {
+     "t": 2298.4,
+     "text": "I mean, you also..."
+    },
+    {
+     "t": 2300.8,
+     "text": "The whole thing about gaming is only for kids."
+    },
+    {
+     "t": 2302.6,
+     "text": "I mean, also the neuroplasticity and the mental, not mental health effects, but some of the brain acuity that can be developed from gaming"
+    },
+    {
+     "t": 2315.3,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 2338.8,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2357.5,
+   "end": 2372.2,
+   "lines": [
+    {
+     "t": 2357.5,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2381.3,
+   "end": 2386.2,
+   "lines": [
+    {
+     "t": 2381.3,
+     "text": "Yeah, I don't."
+    },
+    {
+     "t": 2383.4,
+     "text": "Yeah."
+    },
+    {
+     "t": 2384.3,
+     "text": "Got to find your friends, I guess."
+    },
+    {
+     "t": 2385.4,
+     "text": "But anyway."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2386.2,
+   "end": 2398.6,
+   "lines": [
+    {
+     "t": 2386.2,
+     "text": "Yeah, exactly."
+    },
+    {
+     "t": 2386.7,
+     "text": "You have to find your friends."
+    },
+    {
+     "t": 2387.4,
+     "text": "So is there like something that you wanted to tell parents that you see often in your life, in your community, that you wish more parents knew about security and safety for kids?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2399.3,
+   "end": 2508.9,
+   "lines": [
+    {
+     "t": 2399.3,
+     "text": "Yes."
+    },
+    {
+     "t": 2399.9,
+     "text": "Yeah."
+    },
+    {
+     "t": 2400.4,
+     "text": "There's this misnomer, for example, that having a flip phone is more secure than having a smartphone."
+    },
+    {
+     "t": 2408.4,
+     "text": "And I find that..."
+    },
+    {
+     "t": 2412.2,
+     "text": "Let's see, how do I say it nicely?"
+    },
+    {
+     "t": 2413.4,
+     "text": "Like, it's interesting, but I don't think it's true."
+    },
+    {
+     "t": 2416.5,
+     "text": "And I'd love to be proven wrong."
+    },
+    {
+     "t": 2419.1,
+     "text": "But, you know, I saw a kid with the smartphone and they're just texting all day."
+    },
+    {
+     "t": 2423.1,
+     "text": "It just takes longer."
+    },
+    {
+     "t": 2424.2,
+     "text": "Sorry, with the flip phone."
+    },
+    {
+     "t": 2430.1,
+     "text": "But the flip phone had WhatsApp on there."
+    },
+    {
+     "t": 2432.4,
+     "text": "Okay, I was surprised that these phones had."
+    },
+    {
+     "t": 2434.6,
+     "text": "But think about it."
+    },
+    {
+     "t": 2435.9,
+     "text": "These flip phones don't have any parental controls at all."
+    },
+    {
+     "t": 2439.7,
+     "text": "How do you parental control a flip phone?"
+    },
+    {
+     "t": 2442.6,
+     "text": "I gave my kid an Android device and it has all the controls I need and more."
+    },
+    {
+     "t": 2450.0,
+     "text": "I can lock it remotely, everything."
+    },
+    {
+     "t": 2452.2,
+     "text": "It's amazing."
+    },
+    {
+     "t": 2453.7,
+     "text": "I track his location, everything."
+    },
+    {
+     "t": 2456.8,
+     "text": "So I think that's one misnomer that flip phones are more secure than smartphones."
+    },
+    {
+     "t": 2466.3,
+     "text": "I would also say that just try to delay phone use as much as possible."
+    },
+    {
+     "t": 2474.6,
+     "text": "It's okay if your kid doesn't have a smartphone and other kids do."
+    },
+    {
+     "t": 2481.4,
+     "text": "Do it in a sense where it's good for your family at that right time."
+    },
+    {
+     "t": 2487.5,
+     "text": "I would say that and because and whenever you get whenever you as a parent get discouraged look up the jonathan john something built children's bill of rights and it's one of them is like children have the right to hear no multiple times a day"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2514.3,
+   "end": 2519.6,
+   "lines": [
+    {
+     "t": 2514.3,
+     "text": "Because if you're saying no, I mean, if you're hearing no as an adult, that means you're asking for things more."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2522.1,
+   "end": 2531.6,
+   "lines": [
+    {
+     "t": 2522.1,
+     "text": "Maybe."
+    },
+    {
+     "t": 2522.6,
+     "text": "Yeah."
+    },
+    {
+     "t": 2523.5,
+     "text": "Yeah."
+    },
+    {
+     "t": 2524.4,
+     "text": "Yeah."
+    },
+    {
+     "t": 2525.4,
+     "text": "So, yeah, the only thing that says no is, you know, your credit card being denied, I guess, you know."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2533.8,
+   "end": 2543.8,
+   "lines": [
+    {
+     "t": 2533.8,
+     "text": "That means you did ask for more."
+    },
+    {
+     "t": 2539.7,
+     "text": "That's the asking problem."
+    },
+    {
+     "t": 2541.4,
+     "text": "That's like, ask for more."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2545.4,
+   "end": 2546.6,
+   "lines": [
+    {
+     "t": 2545.4,
+     "text": "Yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2546.8,
+   "end": 2559.9,
+   "lines": [
+    {
+     "t": 2546.8,
+     "text": "So flip phones not really as secure as we think it is."
+    },
+    {
+     "t": 2551.7,
+     "text": "No."
+    },
+    {
+     "t": 2552.8,
+     "text": "And no to smartphones until they're mature."
+    },
+    {
+     "t": 2555.6,
+     "text": "Is there a particular age or do you like, what are your thoughts on that?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2560.6,
+   "end": 2608.6,
+   "lines": [
+    {
+     "t": 2560.6,
+     "text": "It depends."
+    },
+    {
+     "t": 2561.4,
+     "text": "I mean,"
+    },
+    {
+     "t": 2564.9,
+     "text": "I mean definitely by high school it seems like high school like ninth grade you can't avoid it anymore but in other yeah I mean seventh eighth grade and it depends you could say like just for the summer like I originally started to just help in the summer just to help communication like if he wants to bike somewhere I'm like go ahead bike but it'd be nice for him to call if something happens like did you ever think of smartphones as an alternative not smartphones smart watches"
+    },
+    {
+     "t": 2591.9,
+     "text": "Oh, so I did."
+    },
+    {
+     "t": 2592.7,
+     "text": "Actually, initially, I actually gave them these devices, which unfortunately, they don't make them anymore."
+    },
+    {
+     "t": 2599.5,
+     "text": "The relay."
+    },
+    {
+     "t": 2600.3,
+     "text": "Do you remember the relay?"
+    },
+    {
+     "t": 2602.2,
+     "text": "The relay was this really cool device."
+    },
+    {
+     "t": 2605.5,
+     "text": "All it is was a speaker and a button."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2608.7,
+   "end": 2610.1,
+   "lines": [
+    {
+     "t": 2608.7,
+     "text": "It's like a walkie-talkie, basically."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2610.6,
+   "end": 2640.2,
+   "lines": [
+    {
+     "t": 2610.6,
+     "text": "Yeah, yeah."
+    },
+    {
+     "t": 2612.5,
+     "text": "And you pay $10 a month for it."
+    },
+    {
+     "t": 2615.5,
+     "text": "And it was cool."
+    },
+    {
+     "t": 2617.2,
+     "text": "You could have it tell you jokes and stuff like that."
+    },
+    {
+     "t": 2620.3,
+     "text": "And you could install the mobile app and even your relatives can install the mobile app and communicate with your kid."
+    },
+    {
+     "t": 2626.0,
+     "text": "And you could create groups and stuff like that."
+    },
+    {
+     "t": 2627.7,
+     "text": "It was amazing."
+    },
+    {
+     "t": 2629.6,
+     "text": "But unfortunately, I guess the business model didn't work for them and they no longer sell it."
+    },
+    {
+     "t": 2634.6,
+     "text": "But it was $10 a month."
+    },
+    {
+     "t": 2635.6,
+     "text": "It was cellular, so it could work anywhere."
+    },
+    {
+     "t": 2638.1,
+     "text": "You know, had a SIM card and everything."
+    },
+    {
+     "t": 2639.8,
+     "text": "It was cool."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2641.2,
+   "end": 2663.1,
+   "lines": [
+    {
+     "t": 2641.2,
+     "text": "I know there's other companies that do something similar, but like you said, you have to research the company because there have been other companies that have been investigated by the FTC and banned by European governments."
+    },
+    {
+     "t": 2650.8,
+     "text": "So you have to be careful."
+    },
+    {
+     "t": 2652.3,
+     "text": "But I would like, I believe there are companies that do that, but I'm reluctant to say anybody because I, you know."
+    },
+    {
+     "t": 2660.4,
+     "text": "Yeah, you got to research them."
+    },
+    {
+     "t": 2661.5,
+     "text": "You got to understand who they are."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2663.5,
+   "end": 2676.9,
+   "lines": [
+    {
+     "t": 2663.5,
+     "text": "It changes."
+    },
+    {
+     "t": 2664.1,
+     "text": "I think the best thing is to teach."
+    },
+    {
+     "t": 2666.0,
+     "text": "A lot of people are looking for easy answers."
+    },
+    {
+     "t": 2667.7,
+     "text": "But I think the thing is we have to research."
+    },
+    {
+     "t": 2670.0,
+     "text": "We have to spend the time."
+    },
+    {
+     "t": 2671.8,
+     "text": "But we can teach people how to find the answers."
+    },
+    {
+     "t": 2675.1,
+     "text": "So read the privacy policies, for example."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2736.1,
+   "end": 2749.4,
+   "lines": [
+    {
+     "t": 2736.1,
+     "text": "What happened?"
+    },
+    {
+     "t": 2736.9,
+     "text": "But how are they dealing with what happened?"
+    },
+    {
+     "t": 2738.8,
+     "text": "And how many times has happened before they had to deal with it?"
+    },
+    {
+     "t": 2741.3,
+     "text": "And what are their responses?"
+    },
+    {
+     "t": 2743.2,
+     "text": "Is it quick?"
+    },
+    {
+     "t": 2743.9,
+     "text": "Is it, you know, are they covering their bases?"
+    },
+    {
+     "t": 2746.4,
+     "text": "Like, that's what matters more than just something happened."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2750.6,
+   "end": 2798.6,
+   "lines": [
+    {
+     "t": 2750.6,
+     "text": "Yeah, you know, one thing that being a cybersecurity professional has taught me is that nothing surprises me anymore."
+    },
+    {
+     "t": 2759.8,
+     "text": "Like, you know, a lot of people think that these companies are taking care of security and have their privacy interests in mind."
+    },
+    {
+     "t": 2765.8,
+     "text": "I'm like, no."
+    },
+    {
+     "t": 2767.8,
+     "text": "No, they're just trying to get products out and, you know, they're trying to survive."
+    },
+    {
+     "t": 2773.0,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah,"
+    },
+    {
+     "t": 2795.9,
+     "text": "A little bit of a jaded part, you know, being a security professional."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2799.0,
+   "end": 2807.7,
+   "lines": [
+    {
+     "t": 2799.0,
+     "text": "I mean, even with Twitter, like Twitter, apparently, I don't know if they're actually doing this."
+    },
+    {
+     "t": 2804.4,
+     "text": "Has it already, like, does the block button already gone?"
+    },
+    {
+     "t": 2806.8,
+     "text": "I didn't check."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2808.2,
+   "end": 2810.3,
+   "lines": [
+    {
+     "t": 2808.2,
+     "text": "The block?"
+    },
+    {
+     "t": 2808.8,
+     "text": "Oh, I don't know."
+    },
+    {
+     "t": 2809.4,
+     "text": "I can't keep up with their..."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2877.4,
+   "end": 2888.8,
+   "lines": [
+    {
+     "t": 2877.4,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2889.3,
+   "end": 2921.7,
+   "lines": [
+    {
+     "t": 2889.3,
+     "text": "So there's cybersecurity and there's privacy."
+    },
+    {
+     "t": 2891.7,
+     "text": "A lot of people like to count them as the same."
+    },
+    {
+     "t": 2894.4,
+     "text": "I like to make them a little separate."
+    },
+    {
+     "t": 2897.3,
+     "text": "There's no wrong or right."
+    },
+    {
+     "t": 2899.4,
+     "text": "I think, again, it goes back to what your level of convenience and risk tolerance or privacy tolerance in this case is."
+    },
+    {
+     "t": 2908.3,
+     "text": "So if you're able to get a Synology device and get a regular camera and have it go to your Synology at home and set that up, then"
+    },
+    {
+     "t": 2919.7,
+     "text": "Go for it."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2921.7,
+   "end": 2922.6,
+   "lines": [
+    {
+     "t": 2921.7,
+     "text": "That's more technical."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 2923.1,
+   "end": 2939.3,
+   "lines": [
+    {
+     "t": 2923.1,
+     "text": "It's more technical."
+    },
+    {
+     "t": 2924.1,
+     "text": "It's more work, right?"
+    },
+    {
+     "t": 2925.3,
+     "text": "So again, you know, you know,"
+    },
+    {
+     "t": 2930.6,
+     "text": "Or you can get, you can try to maybe do a happy medium."
+    },
+    {
+     "t": 2933.3,
+     "text": "Maybe you get a non-cloud device, right?"
+    },
+    {
+     "t": 2937.0,
+     "text": "That, I mean, it's, it's, it's almost impossible."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2957.9,
+   "end": 2987.9,
+   "lines": [
+    {
+     "t": 2957.9,
+     "text": "And that's why I did the privacy not included because Mozilla's privacy not included guide does get into like all of the cameras and what they do and their past, their present, and hopefully not their future."
+    },
+    {
+     "t": 2969.9,
+     "text": "But like, what can you actually do?"
+    },
+    {
+     "t": 2971.3,
+     "text": "Like you said, a lot of these companies are big startups."
+    },
+    {
+     "t": 2974.5,
+     "text": "And the only thing, and this is what I always say with all this tech is like, you can put your eggs more in one basket."
+    },
+    {
+     "t": 2980.3,
+     "text": "So like Samsung, Apple,"
+    },
+    {
+     "t": 2982.8,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 3002.4,
+   "end": 3019.2,
+   "lines": [
+    {
+     "t": 3002.4,
+     "text": "Yeah, I mean, hands down, I trust Apple, you know, from a privacy perspective."
+    },
+    {
+     "t": 3008.2,
+     "text": "Hands down, Apple probably goes above and beyond from a privacy perspective compared to other companies."
+    },
+    {
+     "t": 3015.3,
+     "text": "But, you know, they don't make any camera doorbells or anything like that."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3020.8,
+   "end": 3027.4,
+   "lines": [
+    {
+     "t": 3020.8,
+     "text": "You know, if they did, they'll be they'll be more impactful than whatever VR headset, the creepy thing that they release."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 3027.9,
+   "end": 3080.0,
+   "lines": [
+    {
+     "t": 3027.9,
+     "text": "Yeah, yeah, yeah."
+    },
+    {
+     "t": 3030.0,
+     "text": "And then, you know, and then keep in mind also that if something is in the cloud, at any point in time, it can be subpoenaed by the police."
+    },
+    {
+     "t": 3038.6,
+     "text": "So that's something to take into consideration."
+    },
+    {
+     "t": 3043.1,
+     "text": "If you want to have a private conversation in front of your door and don't want it to be recorded by your ring, then cover your ring or walk away or something like that."
+    },
+    {
+     "t": 3054.7,
+     "text": "Even though even though recording actually we're veering way off here but like recording in public is actually public domain so you're allowed to photograph anyone in the public street you don't have to ask for permission so that's but you know you don't want your own doorbell so anyway so there is that but i digress yeah i don't know i think it just read the policies and assess your own personal comfort level and go from there"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3080.8,
+   "end": 3089.6,
+   "lines": [
+    {
+     "t": 3080.8,
+     "text": "Anything else that you think parents need to know or that you've come across as someone in this field that has helped you or hindered you in protecting your kids online?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 3090.8,
+   "end": 3198.3,
+   "lines": [
+    {
+     "t": 3090.8,
+     "text": "Yeah, I mean, my kids are the ones."
+    },
+    {
+     "t": 3094.8,
+     "text": "They've been pretty helpful."
+    },
+    {
+     "t": 3095.8,
+     "text": "They tell me what's going on."
+    },
+    {
+     "t": 3098.0,
+     "text": "They tell me what kids are doing at school, things like that."
+    },
+    {
+     "t": 3105.8,
+     "text": "So they've been helpful in that regard."
+    },
+    {
+     "t": 3109.1,
+     "text": "The only one piece of advice I would say is just don't be naive."
+    },
+    {
+     "t": 3113.1,
+     "text": "Don't take it for granted that everything is hunky-dory."
+    },
+    {
+     "t": 3119.5,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 3134.8,
+     "text": "So just be careful."
+    },
+    {
+     "t": 3138.7,
+     "text": "Filter as much as possible."
+    },
+    {
+     "t": 3141.4,
+     "text": "Oh, come up with a..."
+    },
+    {
+     "t": 3143.3,
+     "text": "I did this recently."
+    },
+    {
+     "t": 3144.1,
+     "text": "I came up with a device policy at home."
+    },
+    {
+     "t": 3146.6,
+     "text": "I haven't made the kids sign it yet."
+    },
+    {
+     "t": 3147.6,
+     "text": "It's still in draft."
+    },
+    {
+     "t": 3148.9,
+     "text": "But it's going to be like, your parents have the right to inspect your devices at any point in time."
+    },
+    {
+     "t": 3156.0,
+     "text": "There's no expectation of privacy."
+    },
+    {
+     "t": 3157.4,
+     "text": "Right?"
+    },
+    {
+     "t": 3159.5,
+     "text": "Okay, I like it."
+    },
+    {
+     "t": 3160.8,
+     "text": "That's really good."
+    },
+    {
+     "t": 3161.5,
+     "text": "Is there anything that happened that you were like, Oh, this must be like, this has to be inside of or did you find like some template online that you liked?"
+    },
+    {
+     "t": 3184.4,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe,"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3205.3,
+   "end": 3230.3,
+   "lines": [
+    {
+     "t": 3205.3,
+     "text": "Some security issues."
+    },
+    {
+     "t": 3206.4,
+     "text": "So I don't know."
+    },
+    {
+     "t": 3207.3,
+     "text": "Hopefully they fix it."
+    },
+    {
+     "t": 3208.6,
+     "text": "I don't know if they fixed it."
+    },
+    {
+     "t": 3210.5,
+     "text": "That's the thing with security."
+    },
+    {
+     "t": 3211.5,
+     "text": "I don't know if you know about the Life360 situation, but that's the thing about security is like you don't really know if a company fixed it until you get reputable people who are outside of the company that can verify that it's been fixed because a company can say everything's hunky-dory, but then you find out that it's actually not."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 3231.0,
+   "end": 3286.2,
+   "lines": [
+    {
+     "t": 3231.0,
+     "text": "Yeah it's unfortunate the way companies respond to security research can be hit or miss where you know somebody will report something and then you know we have something that you know you're supposed to fix something within 90 days of reporting it and sometimes that doesn't happen and so a security researcher might disclose the issue and force them by public disclosure"
+    },
+    {
+     "t": 3257.4,
+     "text": "To fix something you know and sometimes they think they fixed it but they there was another way that it wasn't fixed so it's you know just like in life i it'd be nice if companies were just more transparent and upfront instead of like hiding from things so i don't have any comments on this particular issue but just a general good practice when there is a security incident is to just be upfront with your with your users if it's going to affect their data"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3287.2,
+   "end": 3289.5,
+   "lines": [
+    {
+     "t": 3287.2,
+     "text": "Yeah, especially that."
+    },
+    {
+     "t": 3288.5,
+     "text": "Any parting words?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 3291.1,
+   "end": 3336.0,
+   "lines": [
+    {
+     "t": 3291.1,
+     "text": "No, no."
+    },
+    {
+     "t": 3292.6,
+     "text": "You know, just for parents to stay strong, you know."
+    },
+    {
+     "t": 3298.1,
+     "text": "I think the hardest thing is to stay strong and, you know, understand that you are doing the right thing."
+    },
+    {
+     "t": 3306.9,
+     "text": "You know, your kids are not going to like it all the time, but it's in their benefit."
+    },
+    {
+     "t": 3312.3,
+     "text": "So just, you know, just tell yourself, give yourself some affirmations, give yourself some forgiveness that you're doing the right thing."
+    },
+    {
+     "t": 3320.9,
+     "text": "But keep trying and don't be naive."
+    },
+    {
+     "t": 3323.5,
+     "text": "Ask people, ask, you know, find the security experts in your area."
+    },
+    {
+     "t": 3327.4,
+     "text": "Find, you know, you know, gobble up all of Cyber Frida's information because she has all the guides."
+    },
+    {
+     "t": 3332.9,
+     "text": "So, yeah."
+    },
+    {
+     "t": 3334.0,
+     "text": "I'm trying."
+    },
+    {
+     "t": 3335.8,
+     "text": "Yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3336.7,
+   "end": 3338.8,
+   "lines": [
+    {
+     "t": 3336.7,
+     "text": "So many guys you have to make."
+    },
+    {
+     "t": 3337.9,
+     "text": "You're like, oh, shoot."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 3338.9,
+   "end": 3353.9,
+   "lines": [
+    {
+     "t": 3338.9,
+     "text": "Yeah, yeah, yeah, yeah, yeah."
+    },
+    {
+     "t": 3341.6,
+     "text": "But, you know, just play, you know, whenever you get a device or whatever, just look, press the gear button and look at the parental controls."
+    },
+    {
+     "t": 3349.0,
+     "text": "It's got to be there."
+    },
+    {
+     "t": 3350.4,
+     "text": "Yeah, be curious and find out where the parental controls are."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3378.1,
+   "end": 3406.8,
+   "lines": [
+    {
+     "t": 3378.1,
+     "text": "I want them to give their insights because I don't see that happening online."
+    },
+    {
+     "t": 3382.2,
+     "text": "But other than that, I mean, if you want like a regular Roblox guide on like click this, do that, do that."
+    },
+    {
+     "t": 3387.3,
+     "text": "There are some phenomenal step by step things online with phenomenal organizations."
+    },
+    {
+     "t": 3392.1,
+     "text": "And I can mention some of them like Connect Safely."
+    },
+    {
+     "t": 3395.7,
+     "text": "There's Protect Young Eyes has things."
+    },
+    {
+     "t": 3398.1,
+     "text": "Common Sense Media has things."
+    },
+    {
+     "t": 3399.5,
+     "text": "Fousey Family Online Safety Institute has things."
+    },
+    {
+     "t": 3402.7,
+     "text": "There's like there's a plethora of resources online that can help step by step."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 3407.9,
+   "end": 3413.9,
+   "lines": [
+    {
+     "t": 3407.9,
+     "text": "Nice."
+    },
+    {
+     "t": 3408.6,
+     "text": "That's awesome."
+    },
+    {
+     "t": 3409.0,
+     "text": "Yeah."
+    },
+    {
+     "t": 3409.3,
+     "text": "Just, you know, every app, just go to the settings and explore, you know, be curious."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3414.7,
+   "end": 3426.1,
+   "lines": [
+    {
+     "t": 3414.7,
+     "text": "Yep."
+    },
+    {
+     "t": 3415.1,
+     "text": "So some time aside on the calendar, like 30 minutes, it's going to take you five hours, but it's okay."
+    },
+    {
+     "t": 3423.7,
+     "text": "Well, thank you."
+    },
+    {
+     "t": 3424.6,
+     "text": "Where can people find more about you?"
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 3427.4,
+   "end": 3437.2,
+   "lines": [
+    {
+     "t": 3427.4,
+     "text": "Yeah."
+    },
+    {
+     "t": 3428.4,
+     "text": "Yeah."
+    },
+    {
+     "t": 3428.7,
+     "text": "Coffee with Ayman everywhere."
+    },
+    {
+     "t": 3429.7,
+     "text": "So LinkedIn, Twitter, Instagram, all the places."
+    },
+    {
+     "t": 3432.9,
+     "text": "So just Google my name or Ayman Elsawah anywhere."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3438.7,
+   "end": 3442.0,
+   "lines": [
+    {
+     "t": 3438.7,
+     "text": "Thank you so much."
+    },
+    {
+     "t": 3440.6,
+     "text": "Bye everyone."
+    },
+    {
+     "t": 3441.3,
+     "text": "Have an amazing day."
+    }
+   ],
+   "citable": false,
+   "context": true,
+   "speaker": "Speaker 2"
+  },
+  {
+   "start": 3442.0,
+   "end": 3443.4,
+   "lines": [
+    {
+     "t": 3442.0,
+     "text": "All right."
+    },
+    {
+     "t": 3442.5,
+     "text": "Thank you."
+    },
+    {
+     "t": 3442.9,
+     "text": "It was a pleasure."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  }
+ ]
+}

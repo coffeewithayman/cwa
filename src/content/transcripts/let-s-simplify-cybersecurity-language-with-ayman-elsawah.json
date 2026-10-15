@@ -1,0 +1,2884 @@
+{
+ "slug": "let-s-simplify-cybersecurity-language-with-ayman-elsawah",
+ "scope": "all",
+ "format": "podcast-guest",
+ "turns": [
+  {
+   "start": 0.1,
+   "end": 50.5,
+   "lines": [
+    {
+     "t": 0.1,
+     "text": "Hey, really quick before we get into the podcast, we aim to bring you the most practical, impartial advice in cybersecurity."
+    },
+    {
+     "t": 6.9,
+     "text": "So if you like what we do and you want to help us out, please follow us on whatever platform you're listening to us on right now."
+    },
+    {
+     "t": 14.2,
+     "text": "Thank you."
+    },
+    {
+     "t": 15.1,
+     "text": "And let's get into the episode."
+    },
+    {
+     "t": 17.3,
+     "text": "If you're the smartest person in the room, you're in the wrong room."
+    },
+    {
+     "t": 20.8,
+     "text": "This podcast is my attempt to document lessons from cybersecurity experts who can go deeper than most on critical topics."
+    },
+    {
+     "t": 29.5,
+     "text": "My hope is that you use these insights to fortify your business and grow your career and maybe one day partner with SIFT to select your next cybersecurity vendor."
+    },
+    {
+     "t": 39.3,
+     "text": "I hope you share and enjoy."
+    },
+    {
+     "t": 41.3,
+     "text": "Welcome to No BS Cybersecurity."
+    },
+    {
+     "t": 44.0,
+     "text": "I'm so excited to have you on here."
+    },
+    {
+     "t": 45.9,
+     "text": "And for the people who don't know who you are and what you do, give us a little introduction."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 51.1,
+   "end": 116.8,
+   "lines": [
+    {
+     "t": 51.1,
+     "text": "Yeah, thanks for having me."
+    },
+    {
+     "t": 52.1,
+     "text": "So I was born in... No, I'm just kidding."
+    },
+    {
+     "t": 55.3,
+     "text": "We won't start that early."
+    },
+    {
+     "t": 56.8,
+     "text": "So yeah, I am a fractional CISO."
+    },
+    {
+     "t": 60.2,
+     "text": "So I help startups with their security."
+    },
+    {
+     "t": 62.8,
+     "text": "And I do a few other things too."
+    },
+    {
+     "t": 65.5,
+     "text": "I have a podcast called Getting Into Infosec where I catalog people's journey into security so that other people can be inspired and learn."
+    },
+    {
+     "t": 75.3,
+     "text": "I wrote a book because I don't like repeating myself."
+    },
+    {
+     "t": 78.9,
+     "text": "So if we sat down for coffee, this is exactly what I would say on how to get into the field."
+    },
+    {
+     "t": 84.9,
+     "text": "And then I have also a newsletter."
+    },
+    {
+     "t": 87.0,
+     "text": "I guess it all came together because I like to distill complex topics in security and make it easy for other people to understand."
+    },
+    {
+     "t": 95.1,
+     "text": "So, you know, I found myself repeating myself with my clients."
+    },
+    {
+     "t": 98.0,
+     "text": "And so I started last week as a VC."
+    },
+    {
+     "t": 99.6,
+     "text": "So where I distill hard security topics in an easy to understand format, hopefully, so that, you know, people that don't have security in their title can understand security."
+    },
+    {
+     "t": 110.4,
+     "text": "So it's I guess it's been a common theme."
+    },
+    {
+     "t": 112.9,
+     "text": "So I don't know."
+    },
+    {
+     "t": 114.4,
+     "text": "It's fun."
+    },
+    {
+     "t": 115.0,
+     "text": "And yeah, that's what I do."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 117.4,
+   "end": 159.1,
+   "lines": [
+    {
+     "t": 117.4,
+     "text": "It's so needed to, right?"
+    },
+    {
+     "t": 119.2,
+     "text": "Like cybersecurity has gotten so complex."
+    },
+    {
+     "t": 122.2,
+     "text": "It was already complicated and complex from a technical standpoint."
+    },
+    {
+     "t": 126.7,
+     "text": "And then you add in Richard Steenen coined the term, at least it coined it for me, of marketecture."
+    },
+    {
+     "t": 134.3,
+     "text": "These marketing teams get involved."
+    },
+    {
+     "t": 136.2,
+     "text": "They start creating acronyms for things mdr plus idr you know drp gartner and all these analyst firms they've added to the complexity and so you are a hero in my world for simplifying it man like what are some of the things that are common that you've been able to distill down and make them easy to understand"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 159.4,
+   "end": 216.7,
+   "lines": [
+    {
+     "t": 159.4,
+     "text": "You know, I find myself, it's hard for me to even stay up with the terms, you know, like, you know, you have, you know, CNAP and this and that, SIM."
+    },
+    {
+     "t": 168.1,
+     "text": "I mean, you know, before it was simple, it was like, how do you pronounce SIM?"
+    },
+    {
+     "t": 170.9,
+     "text": "Is it SEAM or is it SIM, right?"
+    },
+    {
+     "t": 172.6,
+     "text": "But now it's just so much more complex."
+    },
+    {
+     "t": 175.0,
+     "text": "What are some examples well let's see i mean i took i took a whale watching trip and correlated it to fingerprinting so when you know i went whale watching and i realized they said that every whale fin is unique as a unique fingerprint so i took that and correlated it to like okay"
+    },
+    {
+     "t": 195.8,
+     "text": "Here's how we fingerprint in security."
+    },
+    {
+     "t": 198.3,
+     "text": "Like here's some heuristics to look for when someone's trying to attack your website or you're trying to investigate something, you know, using a user agent and a few other kind of things to figure out like device fingerprint, web fingerprint, things like that."
+    },
+    {
+     "t": 213.8,
+     "text": "So just trying to make it different, you know, so."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 217.1,
+   "end": 262.6,
+   "lines": [
+    {
+     "t": 217.1,
+     "text": "Yeah absolutely and like i said it is much needed man i talked to smbs and startup founders and they're like i don't even know where to start yeah they've never even heard the acronym mssp or vc so and so as they're raising funds in the startup world saying hey you know we just closed a seven million dollar big seed round and we need to start thinking about cyber security they hop on google and it's overwhelming it's information overload"
+    },
+    {
+     "t": 245.5,
+     "text": "And they need people like you who can come in and say hey slow it down it's not that complicated here's what you need right and if that startup founder comes to you and says hey we just raised seven million bucks our vcs are telling us that we need to think about cyber security where do you start what do you tell them"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 262.8,
+   "end": 373.9,
+   "lines": [
+    {
+     "t": 262.8,
+     "text": "Yeah, yeah, that's a really good question."
+    },
+    {
+     "t": 264.5,
+     "text": "So, you know, I kind of like my job is to calm them down and to give them the warm and fuzzy and, you know, kind of like a security therapist in a way."
+    },
+    {
+     "t": 273.9,
+     "text": "So, you know, there's a couple of types of security people out there."
+    },
+    {
+     "t": 278.4,
+     "text": "There are those that want to boil the ocean and say you have to do this and do that."
+    },
+    {
+     "t": 281.6,
+     "text": "But with startup security, it's a little nuanced."
+    },
+    {
+     "t": 283.7,
+     "text": "It's very different."
+    },
+    {
+     "t": 284.8,
+     "text": "And so the first thing I tell them is like, hey, listen, security is not black and white."
+    },
+    {
+     "t": 288.9,
+     "text": "It's 50 shades of gray."
+    },
+    {
+     "t": 290.3,
+     "text": "And that was an actual article I wrote to help kind of distill it down because for every company, it's different, right?"
+    },
+    {
+     "t": 296.9,
+     "text": "If you're a B2C company, your security footprint is a lot different than say a healthcare company or a company doing credit card transactions or FinTech, right?"
+    },
+    {
+     "t": 305.2,
+     "text": "Or crypto."
+    },
+    {
+     "t": 305.9,
+     "text": "So each one, you know, each different type of client that I've had to work with has had a different, let's say, threat model."
+    },
+    {
+     "t": 313.5,
+     "text": "But there are some baselines that like are common for everyone."
+    },
+    {
+     "t": 316.2,
+     "text": "And you know the number one question that i get from founders is like how am i doing they want to grade they want to know like how am i doing compared to someone else did i get an a b a c like it's it's kind of interesting and you know i guess from you know from the vc perspective they want to make sure that their investment is protected and so you know"
+    },
+    {
+     "t": 335.9,
+     "text": "But there is many ways to there's it's you know as we all know security is a bunch of layers and so that's what I try to do I try to say hey listen here's a bunch of layers let's you know my approach personally is to live off the land so let's see what we can do without buying any extra tools or anything like that there's a lot of things that can be done internally"
+    },
+    {
+     "t": 353.8,
+     "text": "You know, one of the main things to look at is offboarding and onboarding."
+    },
+    {
+     "t": 356.3,
+     "text": "So as you're a startup, you're growing."
+    },
+    {
+     "t": 358.7,
+     "text": "A lot of times your offboarding process is not that great."
+    },
+    {
+     "t": 361.8,
+     "text": "And so you'll find contractors and engineers or various people still with access to your systems."
+    },
+    {
+     "t": 368.2,
+     "text": "Oops."
+    },
+    {
+     "t": 368.8,
+     "text": "So that's that's something to be cognizant of."
+    },
+    {
+     "t": 372.2,
+     "text": "And, you know, I'm happy to talk more, but."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 374.4,
+   "end": 409.6,
+   "lines": [
+    {
+     "t": 374.4,
+     "text": "So what do you say to the security practitioner and this is probably of the old order someone that's been in the industry for 20 years who says you know what it is it is black and white it is that simple you need to look at your"
+    },
+    {
+     "t": 393.5,
+     "text": "Have a way to detect if someone's, you know, attacking your environment, and then have some IR and some cyber insurance and some backups."
+    },
+    {
+     "t": 403.3,
+     "text": "It's that simple."
+    },
+    {
+     "t": 404.4,
+     "text": "What do you say to that person who says these are the building blocks?"
+    },
+    {
+     "t": 407.2,
+     "text": "If you have these in place, you're pretty much good to go."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 410.0,
+   "end": 434.9,
+   "lines": [
+    {
+     "t": 410.0,
+     "text": "Well good to go is a very tricky term so you know that I think the other issue in security overall is complacency so thinking that you've you know checked all the boxes and you've you've done everything you need to do and then you're done that is like my number one enemy basically is like telling people hey it's never done you know a founder just the other day or a vp of engineering I was working with one of clients is like I'm like what's your goal for this session"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 436.4,
+   "end": 438.8,
+   "lines": [
+    {
+     "t": 436.4,
+     "text": "And it's a therapy session at the end of the day."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 438.8,
+   "end": 461.4,
+   "lines": [
+    {
+     "t": 438.8,
+     "text": "But I'm like, what's your goal for this session?"
+    },
+    {
+     "t": 441.1,
+     "text": "And he's like, well, I want to know that we've done what we needed to do from a security perspective."
+    },
+    {
+     "t": 446.0,
+     "text": "So I had to be careful and not to be too pedantic and say, well, just to let you know, security is a journey."
+    },
+    {
+     "t": 453.1,
+     "text": "It's not a point in time thing."
+    },
+    {
+     "t": 455.2,
+     "text": "So just keep that in mind."
+    },
+    {
+     "t": 458.1,
+     "text": "And as long as you keep that in mind, then you're good."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 461.9,
+   "end": 489.2,
+   "lines": [
+    {
+     "t": 461.9,
+     "text": "And afterwards, go ahead."
+    },
+    {
+     "t": 463.5,
+     "text": "No, no, go ahead."
+    },
+    {
+     "t": 464.9,
+     "text": "I was going to ask if there's a level, is there a way to correlate the stage of the company and the maturity of the business to the level of maturity they should have from a cybersecurity perspective?"
+    },
+    {
+     "t": 476.1,
+     "text": "And is that enough to say, hey, for your stage, you are where you should be."
+    },
+    {
+     "t": 481.2,
+     "text": "And as these things change and as you grow, here are the things that we're going to likely have to think about six months or a year down the road."
+    },
+    {
+     "t": 488.7,
+     "text": "100%."
+    },
+    {
+     "t": 488.9,
+     "text": "100%."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 489.5,
+   "end": 631.1,
+   "lines": [
+    {
+     "t": 489.5,
+     "text": "Actually, I have a couple different playbooks."
+    },
+    {
+     "t": 491.9,
+     "text": "So like I said, I have the baseline playbook."
+    },
+    {
+     "t": 494.9,
+     "text": "For a company that's like, say, under 50 employees or 25 employees, a lot of times they don't have an IT person, a full-time IT person or whatnot."
+    },
+    {
+     "t": 502.8,
+     "text": "And so I say, okay, as you're going to grow, like around 100, you know, I've seen companies with, you know, 200 employees and didn't have a full-time IT person."
+    },
+    {
+     "t": 512.4,
+     "text": "So I say, you know, like from my experience, you know, you're going to want like around 100 people, you're going to have an IT person, you're going to need an IT person, you're going to have to deal with like device management, things like that."
+    },
+    {
+     "t": 521.3,
+     "text": "A lot of times companies are just having people, contractors use their own devices and laptops."
+    },
+    {
+     "t": 526.6,
+     "text": "I'm like, well, how are you handling device encryption and things like that?"
+    },
+    {
+     "t": 530.5,
+     "text": "Are you allowing people to download things?"
+    },
+    {
+     "t": 532.3,
+     "text": "So yeah, every stage of company has"
+    },
+    {
+     "t": 535.4,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 554.6,
+     "text": "Just consumer email and name."
+    },
+    {
+     "t": 557.5,
+     "text": "So, you know, what's the spectrum we're trying, what are we trying to protect?"
+    },
+    {
+     "t": 560.0,
+     "text": "So size of the company, data that we're trying to protect, whether it's IEP or client information, and then, yeah, risks to the business in general, right?"
+    },
+    {
+     "t": 570.8,
+     "text": "So that takes care of the whole threat model."
+    },
+    {
+     "t": 574.3,
+     "text": "So to answer your question, you know, are there different things for different size companies?"
+    },
+    {
+     "t": 578.2,
+     "text": "Yes."
+    },
+    {
+     "t": 579.1,
+     "text": "You know, a 25 person startup is going to have different needs than I say 100 person startup."
+    },
+    {
+     "t": 584.4,
+     "text": "Also, are they B2B or B2C?"
+    },
+    {
+     "t": 586.3,
+     "text": "So when they're B2B, a lot of times they're facing enterprise clients, and the enterprise companies are the ones pushing down the requirements to them to have SOC 2 or answer these questionnaires, and nobody likes to answer questionnaires with a no."
+    },
+    {
+     "t": 602.0,
+     "text": "They're like, how can we, they come to me like, Ayman, how can we answer these questionnaires better?"
+    },
+    {
+     "t": 605.4,
+     "text": "I'm like, okay, let's take a look."
+    },
+    {
+     "t": 607.4,
+     "text": "Let's see what we could actually turn into a yes, like internally in your environment, because we don't want to lie, right?"
+    },
+    {
+     "t": 613.2,
+     "text": "And so, you know, what can we do here?"
+    },
+    {
+     "t": 615.6,
+     "text": "And then what's the story that you can tell the company, you know, that's factual, that how you can achieve, you know, the gap, how you can fill the gap for that questionnaire?"
+    },
+    {
+     "t": 624.9,
+     "text": "Because these questionnaires are like sometimes 100, minimum 100 questions to like 400 questions sometimes."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 631.5,
+   "end": 666.3,
+   "lines": [
+    {
+     "t": 631.5,
+     "text": "Yeah, and it's impossible for a startup founder if they don't have you in their corner to tackle that on their own."
+    },
+    {
+     "t": 638.0,
+     "text": "It's just too complicated."
+    },
+    {
+     "t": 639.7,
+     "text": "The tools are expensive."
+    },
+    {
+     "t": 640.8,
+     "text": "There's no easy way to evaluate them."
+    },
+    {
+     "t": 642.9,
+     "text": "I mean, it's so complicated that they need expertise from people like you to just help them conduct business, especially trying to work with the enterprise."
+    },
+    {
+     "t": 652.3,
+     "text": "And now when we think about those smaller companies, it sounds like you have a pretty good understanding of here's the base layer, right?"
+    },
+    {
+     "t": 659.5,
+     "text": "And I think you mentioned like that basic level."
+    },
+    {
+     "t": 661.8,
+     "text": "Let's dive into that."
+    },
+    {
+     "t": 663.2,
+     "text": "What goes into that basic level of security?"
+    },
+    {
+     "t": 665.8,
+     "text": "Break it down."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 666.7,
+   "end": 720.1,
+   "lines": [
+    {
+     "t": 666.7,
+     "text": "All right, cool."
+    },
+    {
+     "t": 668.1,
+     "text": "So first of all, your devices."
+    },
+    {
+     "t": 669.9,
+     "text": "So, you know, do you have device encryption enabled or not?"
+    },
+    {
+     "t": 673.6,
+     "text": "Whether it's FileVault or BitLocker."
+    },
+    {
+     "t": 675.8,
+     "text": "So when you're downloading files,"
+    },
+    {
+     "t": 677.1,
+     "text": "Why is that a good question?"
+    },
+    {
+     "t": 678.2,
+     "text": "So when you're downloading, if you're handling sensitive files, if you're downloading files with sensitive information, if your device gets lost or stolen, and it's not encrypted, then you're at risk."
+    },
+    {
+     "t": 690.8,
+     "text": "Basically, you have to assume that information is stolen or lost, right?"
+    },
+    {
+     "t": 694.9,
+     "text": "So if you download a spreadsheet with a whole bunch of social security numbers of like all the employees you onboarded, right?"
+    },
+    {
+     "t": 700.6,
+     "text": "Say the people person in your company or"
+    },
+    {
+     "t": 702.6,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 725.5,
+   "end": 774.8,
+   "lines": [
+    {
+     "t": 725.5,
+     "text": "I'm curious because this is the no BS cybersecurity podcast."
+    },
+    {
+     "t": 728.8,
+     "text": "So I want to make sure we get, you know, to brass tacks here."
+    },
+    {
+     "t": 731.6,
+     "text": "Dude, let's do it."
+    },
+    {
+     "t": 732.2,
+     "text": "Isn't it true that a small business, let's take a 50 person manufacturing plant in, you know, Iowa City, Iowa, right?"
+    },
+    {
+     "t": 741.4,
+     "text": "And if they lose, they lose a laptop."
+    },
+    {
+     "t": 744.1,
+     "text": "It likely has a password on it right let's call it a macbook it's got a password on it the person who finds that laptop are they really trying to crack the password and get into the files and all of that sort of thing and even though that's possible isn't that an acceptable level of risk like likely that person finds a laptop they're going to try to reset it and sell it on craigslist right and so is that overkill to be thinking about encrypting every device like it"
+    },
+    {
+     "t": 770.9,
+     "text": "Or is that, I mean, tell me your perspective on that."
+    },
+    {
+     "t": 774.1,
+     "text": "Is it overkill?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 775.1,
+   "end": 780.3,
+   "lines": [
+    {
+     "t": 775.1,
+     "text": "I love it."
+    },
+    {
+     "t": 777.3,
+     "text": "Okay, along those lines, what information would be on that device?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 780.7,
+   "end": 796.9,
+   "lines": [
+    {
+     "t": 780.7,
+     "text": "Let's say it's a bunch of customer information, accounting information."
+    },
+    {
+     "t": 785.2,
+     "text": "Let's even say it's the accountant or the person who handles accounting's laptop."
+    },
+    {
+     "t": 791.6,
+     "text": "So they have the ability to send invoices and get payments and things like that."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 797.2,
+   "end": 910.4,
+   "lines": [
+    {
+     "t": 797.2,
+     "text": "Okay so let's say let's say for example so i think there's a couple different angles to this one the likelihood of someone going into that device and removing that data is going to be you know less likely you know it they're actually going to just wipe it or actually they're probably not even going to wipe it they're just going to sell it on craigslist as is so depending on who receives it if they have any technical know-how or curiosity"
+    },
+    {
+     "t": 823.2,
+     "text": "I mean, you know, a lot of teenagers have curiosity and just see what's going on."
+    },
+    {
+     "t": 827.2,
+     "text": "So, but here's, here's how you have to approach it, right?"
+    },
+    {
+     "t": 830.3,
+     "text": "So, from a realistic perspective, if I have, let's just say I have spreadsheets or the person that lost the device said, Hey, I have a spreadsheet with all my, with, with every employee's social security number on there."
+    },
+    {
+     "t": 843.6,
+     "text": "Right."
+    },
+    {
+     "t": 844.4,
+     "text": "Or, or worse, patient information with all everybody's social security."
+    },
+    {
+     "t": 849.0,
+     "text": "So that information got lost."
+    },
+    {
+     "t": 850.2,
+     "text": "You have to assume that it got lost."
+    },
+    {
+     "t": 852.3,
+     "text": "As a cybersecurity person, that would result as an incident and you have to take the measures necessary to absolve that incident somehow, right?"
+    },
+    {
+     "t": 865.4,
+     "text": "So yes, is someone going to..."
+    },
+    {
+     "t": 868.6,
+     "text": "Or for example, let's just keep it simple."
+    },
+    {
+     "t": 870.8,
+     "text": "If API keys, say an engineer, it's happened before."
+    },
+    {
+     "t": 874.1,
+     "text": "An engineer had their device stolen and they had API keys to AWS on their device, okay?"
+    },
+    {
+     "t": 882.0,
+     "text": "And last we checked, that device was not encrypted."
+    },
+    {
+     "t": 884.9,
+     "text": "So is someone going to go in there and figure out what to do with the API keys and hop into AWS?"
+    },
+    {
+     "t": 892.8,
+     "text": "Probably not."
+    },
+    {
+     "t": 893.4,
+     "text": "However, we should rotate those AWS keys as soon as possible because we have to assume that they've been lost, right?"
+    },
+    {
+     "t": 901.6,
+     "text": "Or they're out there in the ether."
+    },
+    {
+     "t": 903.1,
+     "text": "So that's the idea is, you know, we take the likelihood."
+    },
+    {
+     "t": 907.5,
+     "text": "Does that answer your question or like, you know, does that make sense?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 910.4,
+   "end": 955.6,
+   "lines": [
+    {
+     "t": 910.4,
+     "text": "Because I love the pushback."
+    },
+    {
+     "t": 912.5,
+     "text": "Yeah it does but it still makes me think that the data encryption is overkill for most small businesses like if the device is lost and it has the api keys like hey we're going to rotate the api keys the likelihood that the person who found that laptop sitting at the mall took it home put it on craigslist and then someone hacked the password to get into the macbook and then"
+    },
+    {
+     "t": 934.8,
+     "text": "Even understands what they're looking for or what they have understands the api keys and then executes some action to you know attack the company i mean it seems so far-fetched and even though it's possible to me it feels like it's in the bucket of acceptable risk and instead of the encryption of every device it's hey let's rotate the api keys and we're probably good to go"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 955.9,
+   "end": 1007.0,
+   "lines": [
+    {
+     "t": 955.9,
+     "text": "Well, it really depends on what data is in there, right?"
+    },
+    {
+     "t": 959.8,
+     "text": "So, you know, as a business owner, it's up to the business at the end of the day to decide if it's an acceptable risk or not."
+    },
+    {
+     "t": 966.0,
+     "text": "So, you know, to install, you know, to just go through every device and say, hey, can you just check to make sure you have encryption enabled?"
+    },
+    {
+     "t": 973.5,
+     "text": "That exercise is that, would you rather go through that exercise or go through the concern of the device got stolen, figuring out or wondering what was on that device and if it would come back and haunt you later?"
+    },
+    {
+     "t": 985.7,
+     "text": "Right."
+    },
+    {
+     "t": 986.2,
+     "text": "So I think I think just balancing the two is and you have the right to figure, you know, you can pick either one."
+    },
+    {
+     "t": 993.3,
+     "text": "Right."
+    },
+    {
+     "t": 993.5,
+     "text": "You can choose to accept the risk."
+    },
+    {
+     "t": 995.1,
+     "text": "That's totally fine."
+    },
+    {
+     "t": 996.4,
+     "text": "My job as a security person is just to inform you what's what you should try to do to try to, you know, balance the risk."
+    },
+    {
+     "t": 1004.5,
+     "text": "But you're totally welcome to."
+    },
+    {
+     "t": 1005.9,
+     "text": "Of course."
+    },
+    {
+     "t": 1006.2,
+     "text": "Yeah, you could totally do that."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1007.3,
+   "end": 1052.2,
+   "lines": [
+    {
+     "t": 1007.3,
+     "text": "It seems like in the security realm we're doing so many different things to solve for one risk and if you let's say you have the ability to do remote containment and you can power down a device and wipe it remotely yeah right and you use that as okay if there's a stolen device we're just going to isolate it from our network and wipe the machine"
+    },
+    {
+     "t": 1031.5,
+     "text": "Doesn't that take care of the problem?"
+    },
+    {
+     "t": 1033.5,
+     "text": "Wouldn't all of the additional layers of security be overkill because in this scenario, we're just going to wipe the device anyways?"
+    },
+    {
+     "t": 1041.3,
+     "text": "Why have the encryption layer and all of those other features and tooling and defense strategies when we know the device was stolen, let's just isolate it and wipe it?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1052.5,
+   "end": 1093.9,
+   "lines": [
+    {
+     "t": 1052.5,
+     "text": "If you can actually reach it and wipe it, then yeah."
+    },
+    {
+     "t": 1055.0,
+     "text": "But a lot of times it's not online enough."
+    },
+    {
+     "t": 1057.0,
+     "text": "But if you can reach it and wipe it, sure."
+    },
+    {
+     "t": 1059.3,
+     "text": "Yeah, that's great."
+    },
+    {
+     "t": 1060.3,
+     "text": "I wouldn't necessarily use that as, you know, okay, we can wipe it, so let's not encrypt it, right?"
+    },
+    {
+     "t": 1067.5,
+     "text": "I would say, hey, if we are worried that all our devices are not encrypted and we don't have the bandwidth or whatever to go through and make sure everything's encrypted, do we have the capability to wipe everything in case it's lost or stolen?"
+    },
+    {
+     "t": 1084.2,
+     "text": "I mean, with today's technology, they're almost the same switch."
+    },
+    {
+     "t": 1088.7,
+     "text": "They're actually right next to each other."
+    },
+    {
+     "t": 1090.3,
+     "text": "So if you can wipe a device, you could turn on encryption as well remotely."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1094.6,
+   "end": 1135.2,
+   "lines": [
+    {
+     "t": 1094.6,
+     "text": "A talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware,"
+    },
+    {
+     "t": 1110.2,
+     "text": "It's as easy as a click of a button."
+    },
+    {
+     "t": 1112.0,
+     "text": "Yeah, why are that?"
+    },
+    {
+     "t": 1113.2,
+     "text": "I mean, they do, though, right?"
+    },
+    {
+     "t": 1114.5,
+     "text": "Like, they do have to have some expertise."
+    },
+    {
+     "t": 1116.8,
+     "text": "And a lot of times, they buy a tool that's so complicated that they have to hire an entire other organization to manage the tool for them."
+    },
+    {
+     "t": 1125.5,
+     "text": "Why is that?"
+    },
+    {
+     "t": 1126.3,
+     "text": "If it's as simple as a click of a button?"
+    },
+    {
+     "t": 1128.4,
+     "text": "Why is it so difficult for a startup founder or a small business owner to manage their own cybersecurity posture?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1135.9,
+   "end": 1226.6,
+   "lines": [
+    {
+     "t": 1135.9,
+     "text": "Well, why is it hard for them to manage the cybersecurity posture?"
+    },
+    {
+     "t": 1140.1,
+     "text": "I guess because cyber, you know, what I've experienced, the hard part about for a startup founder specifically is prioritization, right?"
+    },
+    {
+     "t": 1149.5,
+     "text": "So a lot of times they know what needs to be done, but they're not sure what needs to be done like right now."
+    },
+    {
+     "t": 1153.5,
+     "text": "So what needs to be done right now versus tomorrow?"
+    },
+    {
+     "t": 1155.6,
+     "text": "Because in startup land, prioritization is king, right?"
+    },
+    {
+     "t": 1158.7,
+     "text": "So, or is key."
+    },
+    {
+     "t": 1160.6,
+     "text": "So, you know, in prioritization, you know, there's always all these features that you have to do and requests and bugs and whatever."
+    },
+    {
+     "t": 1167.7,
+     "text": "So like figuring out what has to be done now, today versus tomorrow."
+    },
+    {
+     "t": 1171.4,
+     "text": "Same thing goes with security."
+    },
+    {
+     "t": 1172.7,
+     "text": "What do we need to do today to give us our base level comfort of security that we're protecting our company or data or client stuff, reputation, you know, it depends on the industry you're in."
+    },
+    {
+     "t": 1183.2,
+     "text": "So I think that's really at the crux of it."
+    },
+    {
+     "t": 1186.0,
+     "text": "And then, of course, the tooling from a technical perspective is a pain in the butt."
+    },
+    {
+     "t": 1189.6,
+     "text": "Like, you know, when you buy a bunch of Macs from Apple, there's no easy out of the box way to manage them."
+    },
+    {
+     "t": 1196.9,
+     "text": "You have to, you know, utilize a store, you finally figure out some sort of MDM solution."
+    },
+    {
+     "t": 1202.5,
+     "text": "It's not like out of the box."
+    },
+    {
+     "t": 1204.4,
+     "text": "With Windows, you could use Office 365 or like Google Workspace."
+    },
+    {
+     "t": 1209.1,
+     "text": "There's different things, but then there's extra cost."
+    },
+    {
+     "t": 1212.2,
+     "text": "So a lot of times the barrier to entry to use the fancy schmancy security tools that makes your life a little easier is like double the cost per user."
+    },
+    {
+     "t": 1223.7,
+     "text": "And so a lot of times it comes down to the cost too."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1226.7,
+   "end": 1240.0,
+   "lines": [
+    {
+     "t": 1226.7,
+     "text": "Yeah."
+    },
+    {
+     "t": 1227.4,
+     "text": "And then it becomes quadruple the cost because you go, I can't manage this shit on my own."
+    },
+    {
+     "t": 1232.5,
+     "text": "And let's just pay for the fully managed solution."
+    },
+    {
+     "t": 1236.8,
+     "text": "And so then I don't have to think about it as much."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1240.1,
+   "end": 1292.3,
+   "lines": [
+    {
+     "t": 1240.1,
+     "text": "I hate the fact that like, not only do you have to pay for the tools, but now you have to pay for a person to manage the tools."
+    },
+    {
+     "t": 1246.5,
+     "text": "So, you know, that's why sometimes my job is tough because depending on the company, I mean, for some folks, they'll be like, yeah, put in SSO."
+    },
+    {
+     "t": 1255.1,
+     "text": "But I'm like, do you know the cost of SSO?"
+    },
+    {
+     "t": 1257.9,
+     "text": "Like SSO is a big cost for a smaller company because not only do you have to pay the additional cost for SSO, but all the other applications to support SSO have an additional license fee, right?"
+    },
+    {
+     "t": 1269.0,
+     "text": "There's a great website called SSO.tax that goes through and lists all the companies and the"
+    },
+    {
+     "t": 1275.0,
+     "text": "Different price tiers that you have to pay for SSO functionality."
+    },
+    {
+     "t": 1278.1,
+     "text": "Now, don't get me wrong, I love SSO."
+    },
+    {
+     "t": 1280.6,
+     "text": "SSO is awesome."
+    },
+    {
+     "t": 1281.9,
+     "text": "If you can afford it, do it."
+    },
+    {
+     "t": 1283.6,
+     "text": "Once you reach like 100 to 250 employees, you probably really do need it."
+    },
+    {
+     "t": 1287.4,
+     "text": "It'll make your job a lot easier, your life easier, access reviews, onboarding, offboarding."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1292.5,
+   "end": 1312.4,
+   "lines": [
+    {
+     "t": 1292.5,
+     "text": "However, there's a cost, you know, time, money, and not everything else."
+    },
+    {
+     "t": 1297.9,
+     "text": "For someone listening, and this might be their first time hearing the acronym SSO, what does it mean?"
+    },
+    {
+     "t": 1303.7,
+     "text": "What does it do?"
+    },
+    {
+     "t": 1305.1,
+     "text": "And if it resonates, how much would something like that cost for a 50-person startup ballpark?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1312.9,
+   "end": 1410.2,
+   "lines": [
+    {
+     "t": 1312.9,
+     "text": "Oh boy."
+    },
+    {
+     "t": 1313.5,
+     "text": "Okay."
+    },
+    {
+     "t": 1313.9,
+     "text": "So single sign-on is where you log into one place and from there you get access to all your different apps."
+    },
+    {
+     "t": 1321.8,
+     "text": "Okay."
+    },
+    {
+     "t": 1322.4,
+     "text": "So you log into a portal and that portal manages, that's the only one password that you need to know."
+    },
+    {
+     "t": 1328.7,
+     "text": "Not to be associated with one password, but it's the only password that you need to know."
+    },
+    {
+     "t": 1332.5,
+     "text": "So SSO is single sign-on."
+    },
+    {
+     "t": 1334.1,
+     "text": "And so you log into a portal and you log in, you'll see a dashboard of apps, whether it's Google or Asana or Office 365, whatever."
+    },
+    {
+     "t": 1343.2,
+     "text": "You just click them and then you'll get access to those apps."
+    },
+    {
+     "t": 1345.9,
+     "text": "You don't need to log in again, okay?"
+    },
+    {
+     "t": 1348.1,
+     "text": "And then from an administrator perspective, when you're done with the company, I disable that one login, that one particular login, and I keep using acronyms of companies that are out there, it's so funny."
+    },
+    {
+     "t": 1361.9,
+     "text": "I don't mean to do that, but..."
+    },
+    {
+     "t": 1365.4,
+     "text": "And then you won't get access to apps anymore and it'll trickle down to all the other apps."
+    },
+    {
+     "t": 1370.4,
+     "text": "Anyway, so that's it."
+    },
+    {
+     "t": 1371.6,
+     "text": "From a cost perspective, you know, it could range from, there's different levels of SSO because there's like single sign-on plus MFA and they keep like adding a million different things and there's a really good feature of SSO where it will check the context of where you're logging in from."
+    },
+    {
+     "t": 1387.4,
+     "text": "So if you log in from New Jersey, but then somehow there's a login that comes in"
+    },
+    {
+     "t": 1393.0,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware, pentest, OSCP, NIST, FedRAMP, GDPR, HIPAA, SSO, IAM, OAuth, phishing, ransomware,"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1416.4,
+   "end": 1417.1,
+   "lines": [
+    {
+     "t": 1416.4,
+     "text": "Hey, it's James here."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1417.2,
+   "end": 1430.0,
+   "lines": [
+    {
+     "t": 1417.2,
+     "text": "Really quick."
+    },
+    {
+     "t": 1417.7,
+     "text": "Well done for making it to the midpoint of the episode."
+    },
+    {
+     "t": 1419.6,
+     "text": "If you're enjoying what you're hearing, remember to give us a follow."
+    },
+    {
+     "t": 1423.5,
+     "text": "And if you're really enjoying it, please drop us a review."
+    },
+    {
+     "t": 1426.5,
+     "text": "We'd really appreciate it."
+    },
+    {
+     "t": 1427.8,
+     "text": "Thank you."
+    },
+    {
+     "t": 1428.4,
+     "text": "Now let's get back to the episode."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1445.6,
+   "end": 1454.9,
+   "lines": [
+    {
+     "t": 1445.6,
+     "text": "Yeah, now if you're listening, go do your own research."
+    },
+    {
+     "t": 1449.9,
+     "text": "So how is SSO different from MFA and is one better than the other?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1455.7,
+   "end": 1511.6,
+   "lines": [
+    {
+     "t": 1455.7,
+     "text": "Oh, yeah, one is different."
+    },
+    {
+     "t": 1459.2,
+     "text": "So MFA is just a fundamental, MFA multi-factor authentication."
+    },
+    {
+     "t": 1463.4,
+     "text": "Which requires you to not only know your password but to have some other thing in addition to your password to log in so MFA is where i log in i log in sorry there's two fa there's MFA so where i log into my website using my password and it's going to ask me for a token or number that could be sent to me via sms which is not recommended anymore"
+    },
+    {
+     "t": 1488.9,
+     "text": "Or an app that's generating a new number every minute."
+    },
+    {
+     "t": 1492.4,
+     "text": "And so you enter that number because it's something you know, which is a password and something you have, which is that token."
+    },
+    {
+     "t": 1498.2,
+     "text": "And so that's what MFA."
+    },
+    {
+     "t": 1499.1,
+     "text": "So MFA is fundamental, like that's like super required."
+    },
+    {
+     "t": 1502.3,
+     "text": "SSO is like a nice to have in an environment that makes administrative access and management way easier to handle."
+    },
+    {
+     "t": 1510.5,
+     "text": "So what about Yubikeys?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1512.1,
+   "end": 1518.1,
+   "lines": [
+    {
+     "t": 1512.1,
+     "text": "I mean, are those better than MFA and single sign-on or are they just in a different bucket?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1518.7,
+   "end": 1531.6,
+   "lines": [
+    {
+     "t": 1518.7,
+     "text": "YubiKeys are a form of MFA, so they act as a factor."
+    },
+    {
+     "t": 1522.5,
+     "text": "So when you log in, you could log into your password and either you enter that token number, or if you have a YubiKey, you enter and use your YubiKey to log in."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1532.6,
+   "end": 1543.2,
+   "lines": [
+    {
+     "t": 1532.6,
+     "text": "And how much more secure, and I sound like a founder asking you for a letter grade here, but how much more secure is a business if they have nothing else besides MFA with YubiKeys?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1544.2,
+   "end": 1676.9,
+   "lines": [
+    {
+     "t": 1544.2,
+     "text": "I mean, that's a great step."
+    },
+    {
+     "t": 1545.7,
+     "text": "If they have MFA with YubiKeys on all their critical logins, especially admin logins, or even all their apps, they're so much more ahead than many other companies out there."
+    },
+    {
+     "t": 1557.2,
+     "text": "Why is that?"
+    },
+    {
+     "t": 1557.7,
+     "text": "Because most companies are just, they just username login, username password login, that's it."
+    },
+    {
+     "t": 1562.1,
+     "text": "So there's a couple of different classes of logins, right?"
+    },
+    {
+     "t": 1565.1,
+     "text": "So there's a regular login where you just log in and do your thing."
+    },
+    {
+     "t": 1568.7,
+     "text": "But if you have administrative privilege, right, then that's a coveted type of login and access, right?"
+    },
+    {
+     "t": 1576.5,
+     "text": "So if you are also the administrator for Gmail and your session, if you go to a malicious website or whatnot, and your session gets hijacked or stolen,"
+    },
+    {
+     "t": 1587.2,
+     "text": "Then that person now has administrative access to your Gmail workspace and create users and steal drives, data, and all that kind of stuff."
+    },
+    {
+     "t": 1597.4,
+     "text": "And then bank account logins, right?"
+    },
+    {
+     "t": 1598.8,
+     "text": "So I think a lot of banks now enforce 2FA, but before it wasn't."
+    },
+    {
+     "t": 1603.7,
+     "text": "But like your Stripe login, right?"
+    },
+    {
+     "t": 1605.1,
+     "text": "Do you have MFA on your Stripe login?"
+    },
+    {
+     "t": 1607.1,
+     "text": "Stripe is the place where most of the revenue for companies lives, or maybe PayPal or whatnot, or your AWS login."
+    },
+    {
+     "t": 1617.0,
+     "text": "So if you're logging into AWS and you have MFA and you're using YubiKeys, that's great, especially for admin logins."
+    },
+    {
+     "t": 1625.4,
+     "text": "So what YubiKey is, is you actually have to physically have the key."
+    },
+    {
+     "t": 1629.9,
+     "text": "So it's less susceptible to being stolen because you actually have to have the key."
+    },
+    {
+     "t": 1634.7,
+     "text": "There's a cryptographic signature on the key there and you press the button to indicate that you are there."
+    },
+    {
+     "t": 1642.2,
+     "text": "And it's different than mf you know there's something called MFA fatigue attack where basically people or attackers will prompt an MFA and you're just so tired you're hitting yes and stuff and you just hit yes by accident not realizing you just let an attacker in so yubikey helps slow that down and i think that's a fundamental thing to understand is all these things are not like one all v alls right they're just a step in helping slow down an attack"
+    },
+    {
+     "t": 1669.3,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 1687.3,
+   "end": 1761.3,
+   "lines": [
+    {
+     "t": 1687.3,
+     "text": "Yeah absolutely and i think it's important to bring up the types of attacks and what's actually happening for small businesses for startups right and in my perspective it feels like a lot of the market from the vendor side is selling on fud right fear uncertainty and doubt"
+    },
+    {
+     "t": 1709.3,
+     "text": "And they're saying hey you have your car parked in your driveway and you need a SWAT team watching that car 24 7 365 when in reality you likely just need to lock your doors roll your windows up and have a car alarm and then if something happens and there's a break-in the alarm goes off you call the police that's your incident response retainer right and if they steal something you hopefully have backups which you should have and then cyber insurance right just like your car insurance right and so it feels like"
+    },
+    {
+     "t": 1739.7,
+     "text": "90% of the market is overkill for these startups and these small businesses."
+    },
+    {
+     "t": 1744.0,
+     "text": "How does that resonate with you?"
+    },
+    {
+     "t": 1745.3,
+     "text": "Like if Yubikeys is one of the blocks, like, is it as simple as you have vulnerabilities, which is making sure your doors and windows are locked, and then have a way to detect and respond to things?"
+    },
+    {
+     "t": 1756.2,
+     "text": "Or do we need all of these other complicated ways to detect alerts and things like that?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 1761.6,
+   "end": 2004.8,
+   "lines": [
+    {
+     "t": 1761.6,
+     "text": "No, I'm with you 100%."
+    },
+    {
+     "t": 1762.8,
+     "text": "You remember LoJack?"
+    },
+    {
+     "t": 1763.9,
+     "text": "Remember LoJack?"
+    },
+    {
+     "t": 1764.6,
+     "text": "Yeah, yeah."
+    },
+    {
+     "t": 1765.1,
+     "text": "Like, you know, tracking your car and know where your car is."
+    },
+    {
+     "t": 1767.2,
+     "text": "I don't know if you've ever seen this video."
+    },
+    {
+     "t": 1769.6,
+     "text": "Maybe we could find it."
+    },
+    {
+     "t": 1770.4,
+     "text": "But like, I don't know if you've ever seen the video of someone trying to steal a car and then flames come out of the sides of the car."
+    },
+    {
+     "t": 1777.6,
+     "text": "Have you seen that?"
+    },
+    {
+     "t": 1778.4,
+     "text": "So that was in, I think, South Africa, where carjacking was a really big thing."
+    },
+    {
+     "t": 1785.5,
+     "text": "And so they showed this defense where like flames would come out of the sides of the car."
+    },
+    {
+     "t": 1793.4,
+     "text": "So it really depends on like the security that you're trying to do."
+    },
+    {
+     "t": 1798.9,
+     "text": "I don't believe in FUD."
+    },
+    {
+     "t": 1800.8,
+     "text": "I definitely don't believe in FUD."
+    },
+    {
+     "t": 1803.2,
+     "text": "And again, it comes down to threat modeling."
+    },
+    {
+     "t": 1805.2,
+     "text": "What are we trying to protect against, right?"
+    },
+    {
+     "t": 1807.5,
+     "text": "And so there's definitely overkill."
+    },
+    {
+     "t": 1809.9,
+     "text": "I mean, like asking a small company to buy a SIM, for example, oh, you need to track all your logs and everything like that."
+    },
+    {
+     "t": 1817.2,
+     "text": "Sorry, I don't know if my video got moved here."
+    },
+    {
+     "t": 1819.5,
+     "text": "Okay."
+    },
+    {
+     "t": 1820.3,
+     "text": "You know yeah you know asking a company to buy a sim and having them track all their logs when they're only like a 10 person or a 25 person startup no but you could tell them hey listen just turn on your logs right so before in aws cloud shell was not enabled by default so a simple thing is just enable cloud shell locks right"
+    },
+    {
+     "t": 1839.2,
+     "text": "Now, thankfully, finally, AWS, many years later, it's on by default, right?"
+    },
+    {
+     "t": 1844.2,
+     "text": "So, and I think the car, actually, I've been using the car analogy lately."
+    },
+    {
+     "t": 1850.9,
+     "text": "So, for example, WAF, you know, people are like, oh, should I have a WAF or not?"
+    },
+    {
+     "t": 1855.2,
+     "text": "Like, well, it depends on your application, how good your code is, how much traffic you're getting, right?"
+    },
+    {
+     "t": 1862.6,
+     "text": "If you're a really small company and you don't have much traffic, then WAF might not be an issue for you."
+    },
+    {
+     "t": 1868.9,
+     "text": "But make sure you have good code."
+    },
+    {
+     "t": 1870.8,
+     "text": "There's a lot of built-in protections like, you know, in Ruby and React that protect against CSRF and some of these basic things."
+    },
+    {
+     "t": 1877.9,
+     "text": "So, you know, but for example, if your code is like several versions out of date, right?"
+    },
+    {
+     "t": 1885.0,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    },
+    {
+     "t": 1899.9,
+     "text": "Listen, we all wear seatbelts, right?"
+    },
+    {
+     "t": 1902.5,
+     "text": "So you wear your seatbelt, you take a look at your tires, you make sure the tread is good, you make sure all the different things in your car are taken care of, right?"
+    },
+    {
+     "t": 1909.9,
+     "text": "But you still might get into an accident, right?"
+    },
+    {
+     "t": 1911.8,
+     "text": "It's possible."
+    },
+    {
+     "t": 1913.7,
+     "text": "But the thing is you did what you can, right?"
+    },
+    {
+     "t": 1917.0,
+     "text": "And even if you look at the SEC, you know, did companies do everything that they should have done, right?"
+    },
+    {
+     "t": 1923.7,
+     "text": "And that's the hard part in security."
+    },
+    {
+     "t": 1924.9,
+     "text": "It's hard to really determine what should have been done, especially when there's a lot of pushback from executive management to like, hey, we don't have time to do this."
+    },
+    {
+     "t": 1932.1,
+     "text": "So you're like Chicken Little trying to scream and sometimes you have to resort to FUD, which is unfortunate."
+    },
+    {
+     "t": 1937.6,
+     "text": "So, however, if you don't put your seatbelt on,"
+    },
+    {
+     "t": 1940.0,
+     "text": "And if you're the tread on your tires is really like, you know, bare skin, and you know, and then you get into an accident, then you know, what, what went wrong there, right?"
+    },
+    {
+     "t": 1949.0,
+     "text": "So I think that's the way to approach it."
+    },
+    {
+     "t": 1952.7,
+     "text": "Let's do all the things from my again, I try to live off the land."
+    },
+    {
+     "t": 1955.9,
+     "text": "So let's turn on all the knobs and switches we can from all the tools that we have already that we're paying for, right?"
+    },
+    {
+     "t": 1961.7,
+     "text": "Because a lot of times there's checkboxes are not just not turned on by default."
+    },
+    {
+     "t": 1965.2,
+     "text": "And i kind of i don't want to say blame but i mean right now like file vault is encrypted by default right so if you get a mac it's it's on it's on by default right sometimes people turn it off though you know so that's good there's a lot of things that are done by default i think the industry should do things in their software to turn on by default and that's where i advise startup founders in their product security like i like hey you should build bake in some basic security things like you know"
+    },
+    {
+     "t": 1992.2,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah,"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2013.9,
+   "end": 2043.9,
+   "lines": [
+    {
+     "t": 2013.9,
+     "text": "Defense by default right and they secure by default then the onus of cyber security and all those things would be a lot easier for the everyday consumer and the people in these businesses who are buying these tools if they are secure by default but i don't think people are buying tools because they're secure by default and so it becomes this you know chicken and the egg problem where like why build it if people aren't willing to buy more of what we have to sell because we're doing that"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2044.3,
+   "end": 2165.2,
+   "lines": [
+    {
+     "t": 2044.3,
+     "text": "So I've heard this so many times where, oh, it's going to increase friction for our users and things like that."
+    },
+    {
+     "t": 2051.4,
+     "text": "Well, there are some security tools, tooling in your product."
+    },
+    {
+     "t": 2054.9,
+     "text": "If we're talking about product security, right?"
+    },
+    {
+     "t": 2057.3,
+     "text": "If we're talking about product security, there are some things you can do to help reduce friction, like passwordless login."
+    },
+    {
+     "t": 2062.5,
+     "text": "Like that's amazing, right?"
+    },
+    {
+     "t": 2063.6,
+     "text": "Just like not having to remember a password, right?"
+    },
+    {
+     "t": 2067.8,
+     "text": "But there are other instances where businesses have decided to take the risk of poor user security."
+    },
+    {
+     "t": 2076.0,
+     "text": "So for example, where a user will create a login and reuse their password that's already been stolen."
+    },
+    {
+     "t": 2083.2,
+     "text": "So like one suggestion I usually have is,"
+    },
+    {
+     "t": 2086.1,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 2108.3,
+     "text": "Bots use recycled stolen passwords to try to get into an application so they're willing to take the downtime and the risk of a credential stuffing attack versus you know taking care of ahead of time i've seen that happen and that's a business decision however a lot of times not everyone is involved in that decision but you know that kind of then falls on engineering when they get hit with a credential stuffing attack they have to like you know tune their bot things and it takes away from engineering time"
+    },
+    {
+     "t": 2135.5,
+     "text": "So it's really like, you know, about deciding what's, and also there's an expectation of security in companies these days."
+    },
+    {
+     "t": 2143.0,
+     "text": "So what's the expectation of security that you're taking?"
+    },
+    {
+     "t": 2145.7,
+     "text": "Because, you know, a lot of people, I tell people, you know, there's a lot of public companies that don't have a CISO or main security person."
+    },
+    {
+     "t": 2153.3,
+     "text": "They're like, really?"
+    },
+    {
+     "t": 2153.8,
+     "text": "I'm like, yeah, there's a lot of companies that don't have someone in charge for security."
+    },
+    {
+     "t": 2158.7,
+     "text": "And so I guess, you know, what's the expectation of security from your users and from the community?"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2165.8,
+   "end": 2191.5,
+   "lines": [
+    {
+     "t": 2165.8,
+     "text": "To go back to your question i guess can you re-ask that quite or does that make sense from let's take b2b solutions and b2b companies do you see a demand for secure by default or is this wishful thinking from people that care about the space and want to see a brighter future but not actually tangible in reality where people maybe they aren't asking for it so people aren't building it"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2191.9,
+   "end": 2359.4,
+   "lines": [
+    {
+     "t": 2191.9,
+     "text": "No so my philosophy is that if we all take security seriously we're all better off right because think about it when i go log into a health portal i have an expectation that my records are going to be taken care of and there's some sort of security protection for my records to be stolen you know for example there was a healthcare psychology"
+    },
+    {
+     "t": 2213.9,
+     "text": "Like a similar like a better health like a better help but in europe that had patient psychology records transcripts of these records stolen and just out there and the and the thief conducted you know was threatening the people to the actual users themselves that they were going to release the data or the transcripts of their personal conversations with therapists like that's scary man"
+    },
+    {
+     "t": 2240.0,
+     "text": "So, you know, those kind of things."
+    },
+    {
+     "t": 2241.7,
+     "text": "So what's the expectations?"
+    },
+    {
+     "t": 2243.3,
+     "text": "So as you know, my personal belief is that if we all take security a little seriously, you know, we don't have to boil the ocean, just like, let's take it a little seriously, then we're all better off as a society."
+    },
+    {
+     "t": 2254.5,
+     "text": "Now, that's"
+    },
+    {
+     "t": 2254.9,
+     "text": "That's like a utopian kind of view."
+    },
+    {
+     "t": 2257.9,
+     "text": "But all the different roles, right?"
+    },
+    {
+     "t": 2259.6,
+     "text": "So if you're B2B, you can be guaranteed that your enterprise customer is going to have an expectation for you to do security, right?"
+    },
+    {
+     "t": 2268.9,
+     "text": "Why?"
+    },
+    {
+     "t": 2269.6,
+     "text": "So there's a few things."
+    },
+    {
+     "t": 2272.2,
+     "text": "They want to CYA themselves, right?"
+    },
+    {
+     "t": 2274.9,
+     "text": "Because in their policies, according to their cyber insurance thing, every contractor they deal with has to do these security things."
+    },
+    {
+     "t": 2283.0,
+     "text": "So it's all trickle-down effect from a CYA perspective."
+    },
+    {
+     "t": 2286.2,
+     "text": "So that's one view."
+    },
+    {
+     "t": 2288.1,
+     "text": "The other view is like, hey, if I'm actually going to use your product in my enterprise for my customers, I want to make sure you're doing the right thing because if you get breached, then I look bad because customers are not going to care where this really happened."
+    },
+    {
+     "t": 2302.4,
+     "text": "They're going to care that"
+    },
+    {
+     "t": 2303.4,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    },
+    {
+     "t": 2330.1,
+     "text": "I have heard different stories, but like you might have board members that just they want to know they've done the checkbox security."
+    },
+    {
+     "t": 2335.8,
+     "text": "They don't really understand like the security complexity."
+    },
+    {
+     "t": 2338.7,
+     "text": "And at the end of the day, they're going to decide to do business versus do security."
+    },
+    {
+     "t": 2343.1,
+     "text": "I've seen it."
+    },
+    {
+     "t": 2344.1,
+     "text": "I've seen them like, hey, we really need to do this."
+    },
+    {
+     "t": 2346.2,
+     "text": "I recommend we do this."
+    },
+    {
+     "t": 2347.3,
+     "text": "You know, they're like, we don't care."
+    },
+    {
+     "t": 2348.8,
+     "text": "We need to make money."
+    },
+    {
+     "t": 2351.1,
+     "text": "So, yeah."
+    },
+    {
+     "t": 2352.6,
+     "text": "So, you know, when the business is in survival mode and they need to like survive, everything else falls down on the way, including security."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2359.8,
+   "end": 2395.8,
+   "lines": [
+    {
+     "t": 2359.8,
+     "text": "Yeah."
+    },
+    {
+     "t": 2360.4,
+     "text": "And so I see that from in terms of shifting our conversation from kind of the demand for secure by default to the influence of VC in the space."
+    },
+    {
+     "t": 2374.2,
+     "text": "You work with startups every day and you're helping them with security."
+    },
+    {
+     "t": 2379.4,
+     "text": "How much of the VC dollars influences the cybersecurity market, the vendor side, the startups themselves?"
+    },
+    {
+     "t": 2388.2,
+     "text": "What role does VC play in cybersecurity?"
+    },
+    {
+     "t": 2390.8,
+     "text": "And can you lift the veil for people who maybe don't think VC has any role in cybersecurity?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2396.2,
+   "end": 2516.0,
+   "lines": [
+    {
+     "t": 2396.2,
+     "text": "I would love to."
+    },
+    {
+     "t": 2397.2,
+     "text": "I have to say I'm not an expert yet on VC."
+    },
+    {
+     "t": 2399.8,
+     "text": "I'm still kind of like learning about the field."
+    },
+    {
+     "t": 2403.2,
+     "text": "It's interesting."
+    },
+    {
+     "t": 2403.8,
+     "text": "The whole VC, VCs are interesting."
+    },
+    {
+     "t": 2407.1,
+     "text": "It's kind of like, you know, a small club in a way."
+    },
+    {
+     "t": 2410.9,
+     "text": "So generally, if they, if a VC is invested in a security company, they're going to recommend that company to be used at the other portfolio companies."
+    },
+    {
+     "t": 2420.4,
+     "text": "So that's the first tier, right?"
+    },
+    {
+     "t": 2422.2,
+     "text": "So a lot of times, and then the second tier is recommendations."
+    },
+    {
+     "t": 2427.0,
+     "text": "So if a VC has had a good experience with a security company, then they're going to recommend them."
+    },
+    {
+     "t": 2434.5,
+     "text": "But, you know, VCs are cost conscious, right?"
+    },
+    {
+     "t": 2438.8,
+     "text": "You know, they are, you know, even though they may seem like there's a lot of money rolling around,"
+    },
+    {
+     "t": 2444.9,
+     "text": "But at the end of the day, they're going to do a cost evaluation."
+    },
+    {
+     "t": 2449.3,
+     "text": "You know, like, are we getting what we're looking for, for the cost?"
+    },
+    {
+     "t": 2452.3,
+     "text": "And they're going to compare different ones."
+    },
+    {
+     "t": 2454.6,
+     "text": "So, you know, as far as protecting their portfolio, I think, I think,"
+    },
+    {
+     "t": 2461.8,
+     "text": "I think a lot of times the conversation is not necessarily driven by VCs to get cybersecurity."
+    },
+    {
+     "t": 2469.1,
+     "text": "It's 50-50."
+    },
+    {
+     "t": 2469.8,
+     "text": "I think sometimes the board might bring it up."
+    },
+    {
+     "t": 2476.3,
+     "text": "The founder may be concerned about it because there's a couple of different types of security."
+    },
+    {
+     "t": 2481.3,
+     "text": "There's one, can we just get the compliance checkbox done?"
+    },
+    {
+     "t": 2486.0,
+     "text": "And then the other one is,"
+    },
+    {
+     "t": 2487.9,
+     "text": "After a while after you've done the compliance now do we actually care about security and i love those i love the latter ones i've actually had the privilege to work with some of those folks where they've already done the compliance work and then now they're like hey we're actually worried about getting a breach because we all know that like compliance is not necessarily great security and so i love that and that's been told to me several times hey we're compliant we have SOC 2 we're HIPAA whatever but i just want to make sure we don't get hit with a breach"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2516.9,
+   "end": 2522.1,
+   "lines": [
+    {
+     "t": 2516.9,
+     "text": "Yeah, and it's like once they go down that rabbit hole, then they start to see the bigger picture."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2522.5,
+   "end": 2531.4,
+   "lines": [
+    {
+     "t": 2522.5,
+     "text": "Yeah, because security is multi-layer, you know?"
+    },
+    {
+     "t": 2526.2,
+     "text": "You're building a multi-tenant software, right?"
+    },
+    {
+     "t": 2528.3,
+     "text": "You want to make sure that one tenant doesn't get access to the other tenant."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2531.7,
+   "end": 2532.5,
+   "lines": [
+    {
+     "t": 2531.7,
+     "text": "How do you protect that?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2532.6,
+   "end": 2592.9,
+   "lines": [
+    {
+     "t": 2532.6,
+     "text": "Right."
+    },
+    {
+     "t": 2533.5,
+     "text": "You know, you, you could, you know, do you have bug bounty, right?"
+    },
+    {
+     "t": 2537.5,
+     "text": "Do you have a bug bounty program?"
+    },
+    {
+     "t": 2538.6,
+     "text": "This is now for like a more mature startup."
+    },
+    {
+     "t": 2540.3,
+     "text": "Now we're talking like you're a little more mature."
+    },
+    {
+     "t": 2542.5,
+     "text": "You have, you know, if you had businesses now you're expanding and whatnot."
+    },
+    {
+     "t": 2546.3,
+     "text": "And so, you know, do you have a bug bounty?"
+    },
+    {
+     "t": 2548.3,
+     "text": "Have you been doing, I mean, pen tests."
+    },
+    {
+     "t": 2550.6,
+     "text": "It's hit or miss, but I like bug bounties, right?"
+    },
+    {
+     "t": 2553.3,
+     "text": "Because bug bounties are continuous and they're in your product and things like that."
+    },
+    {
+     "t": 2557.1,
+     "text": "Are you updating your code?"
+    },
+    {
+     "t": 2559.4,
+     "text": "You might want to go another step level, another level up and have encryption enabled within column level encryption in your database that's tied to your customers so that only customer A can access customer A data and customer B can't see the data."
+    },
+    {
+     "t": 2573.8,
+     "text": "Say your S3 bucket gets leaked, right?"
+    },
+    {
+     "t": 2575.8,
+     "text": "If you have another layer of encryption set up,"
+    },
+    {
+     "t": 2579.1,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria"
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2605.9,
+   "end": 2633.5,
+   "lines": [
+    {
+     "t": 2605.9,
+     "text": "Yeah."
+    },
+    {
+     "t": 2606.5,
+     "text": "And so I know we want to get some shorts for LinkedIn and YouTube shorts and whatnot."
+    },
+    {
+     "t": 2613.8,
+     "text": "And I think this could be a really good one."
+    },
+    {
+     "t": 2615.4,
+     "text": "And so I'm going to ask you this question in mind that I think this would be a good clip to clip."
+    },
+    {
+     "t": 2621.7,
+     "text": "Can you explain to the startup founder who's thinking about cybersecurity why checking the boxes for compliance isn't the same thing as securing their organization and their data?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2633.9,
+   "end": 2733.8,
+   "lines": [
+    {
+     "t": 2633.9,
+     "text": "Yeah so checking the box is only going to get you so far checking the box you know is checking the box but it doesn't go deep especially depending on the compliance framework that you're going through believe it or not like compliance frameworks like SOC 2 are not a prescriptive framework you can decide what the scope is and what you need to secure so you know"
+    },
+    {
+     "t": 2660.7,
+     "text": "Believe it or not you can get away with a lot you could be compliant but not secure and so how does that work why i mean what does just checking the box look like versus being secure yeah so"
+    },
+    {
+     "t": 2673.6,
+     "text": "I mean, you know, it comes down to scope."
+    },
+    {
+     "t": 2676.0,
+     "text": "I mean, we could get deep into it, but basically, checking the box means that you've, you know, okay, do you have a policy?"
+    },
+    {
+     "t": 2683.5,
+     "text": "Yes, I have a policy."
+    },
+    {
+     "t": 2684.9,
+     "text": "Okay, what's in that policy?"
+    },
+    {
+     "t": 2686.8,
+     "text": "I don't, you know, do we go into details about what's in your policy?"
+    },
+    {
+     "t": 2690.2,
+     "text": "Have people understood the policy?"
+    },
+    {
+     "t": 2691.6,
+     "text": "Is the policy enforced?"
+    },
+    {
+     "t": 2693.3,
+     "text": "I mean, like, give me a break."
+    },
+    {
+     "t": 2694.5,
+     "text": "In the policy, it says, if you don't follow this policy, then you could be fired and, or your contract terminated."
+    },
+    {
+     "t": 2701.6,
+     "text": "How many people actually do that?"
+    },
+    {
+     "t": 2703.5,
+     "text": "How many people actually enforce their policies?"
+    },
+    {
+     "t": 2706.0,
+     "text": "Like, you know, give me a break."
+    },
+    {
+     "t": 2707.4,
+     "text": "How many, I mean, let alone read the policies, right?"
+    },
+    {
+     "t": 2710.0,
+     "text": "But how many people, so we want to have policies that one are actually in motion and they're actually doing, you know, being done, right?"
+    },
+    {
+     "t": 2718.5,
+     "text": "And however, we don't want to follow policy just blindly, right?"
+    },
+    {
+     "t": 2721.7,
+     "text": "So policies there as a,"
+    },
+    {
+     "t": 2725.4,
+     "text": "Talk on information security covering CISO, vCISO, red team, threat modeling, Enterprise Security Weekly, Security Cafe, Getting Into Infosec, Ayman Elsawah, Adrian Sanabria."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2745.7,
+   "end": 2799.1,
+   "lines": [
+    {
+     "t": 2745.7,
+     "text": "It's really interesting because, you know, I don't think a lot of people understand that checking a box for compliance isn't the same thing as being secure."
+    },
+    {
+     "t": 2754.7,
+     "text": "And to your point, it says, do you have a policy in place?"
+    },
+    {
+     "t": 2757.8,
+     "text": "It's like, yes."
+    },
+    {
+     "t": 2759.1,
+     "text": "But being secure means enforcing that policy and having systems and procedures and tools in place to detect people who are breaking the policy and having a playbook to take action on that."
+    },
+    {
+     "t": 2771.7,
+     "text": "And that's what being truly secure looks like."
+    },
+    {
+     "t": 2775.7,
+     "text": "It's something that I think needs to be talked about more often, especially for startups who, to your point, are just trying to check the box so they can do business with larger organizations, right?"
+    },
+    {
+     "t": 2786.6,
+     "text": "And so they don't get hit with fines."
+    },
+    {
+     "t": 2788.4,
+     "text": "But being secure is really where the focus needs to be."
+    },
+    {
+     "t": 2792.4,
+     "text": "How difficult is it for you and your conversations with founders if they come to you and say, we just need, you know, to be compliant?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2799.4,
+   "end": 2869.0,
+   "lines": [
+    {
+     "t": 2799.4,
+     "text": "Like do you push back on that and say hey you need to be thinking about being secure as well or do you say great here's how i can help yeah you know true security is about culture true security is about culture so i tell them yeah and i have a whole section of my course about just about culture"
+    },
+    {
+     "t": 2816.7,
+     "text": "Because culture is really where true security is going to come into play."
+    },
+    {
+     "t": 2820.6,
+     "text": "And we'll talk about that in a second."
+    },
+    {
+     "t": 2821.9,
+     "text": "Like, so, yeah, I can, you know, a lot of times someone comes to me and say, hey, I, you know, the one thing I love the most is like, I want to know my unknown unknowns."
+    },
+    {
+     "t": 2831.2,
+     "text": "Right."
+    },
+    {
+     "t": 2831.7,
+     "text": "You know, I can, we can do a deep dive and go through all the things and I'll give you a list of things to do, you know, to take care of your security."
+    },
+    {
+     "t": 2838.4,
+     "text": "Now, if I come back six months or a year later and find that you haven't done anything in that list, you know, what's the benefit of, what's the, you know, that hurts me inside, right?"
+    },
+    {
+     "t": 2847.2,
+     "text": "Like, us security people want to see people like following our advice."
+    },
+    {
+     "t": 2850.1,
+     "text": "And some of my best clients have graduated because they actually followed my advice and they, you know, I helped them hire full-time CISOs."
+    },
+    {
+     "t": 2857.5,
+     "text": "It was like, it was awesome."
+    },
+    {
+     "t": 2858.6,
+     "text": "So, but let's go back to security culture."
+    },
+    {
+     "t": 2861.2,
+     "text": "Let's go back to checkbox."
+    },
+    {
+     "t": 2862.6,
+     "text": "So, okay, let's go back to encryption, for example, right?"
+    },
+    {
+     "t": 2865.9,
+     "text": "So let's say we have the checkbox say device encryption is enabled."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2869.2,
+   "end": 2869.4,
+   "lines": [
+    {
+     "t": 2869.2,
+     "text": "Great."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2869.8,
+   "end": 2988.7,
+   "lines": [
+    {
+     "t": 2869.8,
+     "text": "Okay, cool."
+    },
+    {
+     "t": 2870.9,
+     "text": "Now, but, okay, so you have device encryption enabled, but what if your users are downloading CSVs of patient data and putting it on their USB disks?"
+    },
+    {
+     "t": 2879.3,
+     "text": "Right?"
+    },
+    {
+     "t": 2880.1,
+     "text": "Because now you have also a policy too, or not even, we didn't have to go that far, but say they're just downloading the data or, you know, emailing it and things like that."
+    },
+    {
+     "t": 2889.1,
+     "text": "Again, you can have that covered in your policy, right?"
+    },
+    {
+     "t": 2891.8,
+     "text": "Don't email this information, things like that."
+    },
+    {
+     "t": 2893.9,
+     "text": "But if we have a security culture, that's what I'm trying to get to."
+    },
+    {
+     "t": 2897.0,
+     "text": "If we have a security culture, people are going to think twice about handling sensitive data and throwing it all around."
+    },
+    {
+     "t": 2904.3,
+     "text": "If they see something being done incorrectly in a different part of the org, they're going to tell that person or tell the security or engineering or whoever it is that's in charge of security, hey, I think we're not doing this well, we should probably do it this way."
+    },
+    {
+     "t": 2916.1,
+     "text": "Because the people that know the most about a system are going to be the employees and the builders."
+    },
+    {
+     "t": 2922.0,
+     "text": "A lot of people want to do the right thing from security."
+    },
+    {
+     "t": 2924.2,
+     "text": "Sometimes they're not informed or enabled."
+    },
+    {
+     "t": 2927.7,
+     "text": "And so if there's not a path, take a look at the SolarWinds."
+    },
+    {
+     "t": 2931.1,
+     "text": "I didn't want to go down that path, but a lot of people inside knew that security wasn't being done correctly, right?"
+    },
+    {
+     "t": 2940.2,
+     "text": "And so you have engineers."
+    },
+    {
+     "t": 2941.7,
+     "text": "I've worked with engineers."
+    },
+    {
+     "t": 2942.8,
+     "text": "They're like, we really need to do this."
+    },
+    {
+     "t": 2944.6,
+     "text": "Can you help me, Ayman?"
+    },
+    {
+     "t": 2945.7,
+     "text": "Ayman, can you help convince manager this that we can do this?"
+    },
+    {
+     "t": 2949.2,
+     "text": "I'm like, okay, I'll give it a go."
+    },
+    {
+     "t": 2950.9,
+     "text": "Because these engineers know what good security looks like."
+    },
+    {
+     "t": 2954.6,
+     "text": "But a lot of times the pushback comes from the"
+    },
+    {
+     "t": 2957.7,
+     "text": "I'm like, do not put API keys in code."
+    },
+    {
+     "t": 2964.7,
+     "text": "Like, let's, you know, things like that."
+    },
+    {
+     "t": 2967.6,
+     "text": "So, you know, my long answer, my antidote to checkbox security is security culture."
+    },
+    {
+     "t": 2974.8,
+     "text": "I guess that would be it."
+    },
+    {
+     "t": 2975.8,
+     "text": "You know, having good security culture where it's culture is part of the company, just like in any startup, you have startup culture and the culture of the company, every company has a different culture, right, based on leadership."
+    },
+    {
+     "t": 2986.2,
+     "text": "Same thing with security."
+    },
+    {
+     "t": 2987.7,
+     "text": "It's the same thing."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 2988.9,
+   "end": 2995.1,
+   "lines": [
+    {
+     "t": 2988.9,
+     "text": "Yeah, absolutely."
+    },
+    {
+     "t": 2990.0,
+     "text": "And where can people read more about security culture?"
+    },
+    {
+     "t": 2992.8,
+     "text": "It sounds like you've put some things together."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 2995.3,
+   "end": 3017.8,
+   "lines": [
+    {
+     "t": 2995.3,
+     "text": "Yeah, I have a newsletter."
+    },
+    {
+     "t": 2996.4,
+     "text": "I have a bunch of things."
+    },
+    {
+     "t": 2999.1,
+     "text": "My newsletter is called Last Week as a vCISO."
+    },
+    {
+     "t": 3001.0,
+     "text": "But everything Ayman, I'm trying to consolidate it to coffeewithayman.com."
+    },
+    {
+     "t": 3006.8,
+     "text": "So from there, you could find my newsletter."
+    },
+    {
+     "t": 3008.9,
+     "text": "You could find my company, Cloud Security Labs."
+    },
+    {
+     "t": 3012.0,
+     "text": "So you can find me on Twitter or LinkedIn."
+    },
+    {
+     "t": 3014.5,
+     "text": "So coffeewithayman.com or coffeewithayman on Twitter."
+    },
+    {
+     "t": 3017.2,
+     "text": "And yeah."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3017.9,
+   "end": 3024.9,
+   "lines": [
+    {
+     "t": 3017.9,
+     "text": "Yeah."
+    },
+    {
+     "t": 3018.4,
+     "text": "And for the LinkedIn power users who are listening, Ayman, if they follow you, what sort of things are you going to talk about?"
+    },
+    {
+     "t": 3023.9,
+     "text": "What will they see in their feed?"
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 3025.3,
+   "end": 3060.1,
+   "lines": [
+    {
+     "t": 3025.3,
+     "text": "Oh, they're gonna see a bunch of videos."
+    },
+    {
+     "t": 3026.7,
+     "text": "So I have a bunch of videos just like this, where I just break down security into plain English terms."
+    },
+    {
+     "t": 3034.1,
+     "text": "So yeah, definitely follow me on LinkedIn."
+    },
+    {
+     "t": 3036.6,
+     "text": "And my feed is going to be littered with just security advice."
+    },
+    {
+     "t": 3041.2,
+     "text": "I just like"
+    },
+    {
+     "t": 3042.0,
+     "text": "Keep putting it out there."
+    },
+    {
+     "t": 3042.9,
+     "text": "Sometimes I get a little, you know, snarky, but not all the time."
+    },
+    {
+     "t": 3046.8,
+     "text": "But it's more like just chill security."
+    },
+    {
+     "t": 3049.8,
+     "text": "Like, here's how it is."
+    },
+    {
+     "t": 3052.0,
+     "text": "Not too complicated, not too curmudgeon."
+    },
+    {
+     "t": 3054.2,
+     "text": "Actually, not curmudgeon at all."
+    },
+    {
+     "t": 3055.5,
+     "text": "Actually, there's a lot of curmudgeon security out there."
+    },
+    {
+     "t": 3058.1,
+     "text": "I try to be the anti-curmudgeon."
+    },
+    {
+     "t": 3059.6,
+     "text": "I love it."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3060.2,
+   "end": 3081.1,
+   "lines": [
+    {
+     "t": 3060.2,
+     "text": "Chill security."
+    },
+    {
+     "t": 3061.2,
+     "text": "I mean, that's so cool."
+    },
+    {
+     "t": 3063.1,
+     "text": "Ayman, thank you so much."
+    },
+    {
+     "t": 3064.8,
+     "text": "This was awesome catching up."
+    },
+    {
+     "t": 3066.5,
+     "text": "I can't wait to go back and watch this episode and just gave so many insights to startup founders and small business owners and made it really easy for folks to understand."
+    },
+    {
+     "t": 3077.4,
+     "text": "I mean, Ayman's the guy that is really setting the bar."
+    },
+    {
+     "t": 3079.9,
+     "text": "So thanks for joining."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  },
+  {
+   "start": 3094.0,
+   "end": 3109.9,
+   "lines": [
+    {
+     "t": 3094.0,
+     "text": "I appreciate it."
+    },
+    {
+     "t": 3094.7,
+     "text": "Welcome to Security Cafe."
+    },
+    {
+     "t": 3097.4,
+     "text": "Join the community."
+    },
+    {
+     "t": 3099.3,
+     "text": "I got some courses in community coming up."
+    },
+    {
+     "t": 3101.7,
+     "text": "So I would love to have you."
+    },
+    {
+     "t": 3103.6,
+     "text": "It's called Security Cafe because I love coffee, as you can see."
+    },
+    {
+     "t": 3106.7,
+     "text": "So coffee and security are the two things I like the most."
+    },
+    {
+     "t": 3109.5,
+     "text": "Beautiful."
+    }
+   ],
+   "citable": true,
+   "context": false,
+   "speaker": "Ayman"
+  },
+  {
+   "start": 3110.3,
+   "end": 3127.9,
+   "lines": [
+    {
+     "t": 3110.3,
+     "text": "Ayman, thank you so much, man."
+    },
+    {
+     "t": 3112.5,
+     "text": "I'll talk to you soon."
+    },
+    {
+     "t": 3113.6,
+     "text": "All right."
+    },
+    {
+     "t": 3113.9,
+     "text": "Thanks a lot."
+    },
+    {
+     "t": 3114.3,
+     "text": "Take care."
+    },
+    {
+     "t": 3114.9,
+     "text": "All right."
+    },
+    {
+     "t": 3115.3,
+     "text": "See you."
+    },
+    {
+     "t": 3116.6,
+     "text": "No BS Cybersecurity is brought to you by SIFT.ai."
+    },
+    {
+     "t": 3121.0,
+     "text": "Remember to subscribe wherever you listen to your podcasts."
+    },
+    {
+     "t": 3124.9,
+     "text": "On behalf of the team here at SIFT, thank you for learning with me."
+    }
+   ],
+   "citable": false,
+   "context": false,
+   "speaker": "Host"
+  }
+ ]
+}
