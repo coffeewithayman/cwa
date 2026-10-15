@@ -36,7 +36,7 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - id: ayman-elsawah-why-we-break-things-the-neuroscience-of <!-- managed -->
 - url: https://www.youtube.com/watch?v=cTKkAfVoCSQ
 - format: talk
-- date: 2020-05-02
+- date: 2020-05-01 <!-- from the video description -->
 - event: BSides Knoxville
 - category:
 - topics: Careers
@@ -49,7 +49,7 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - id: ayman-elsawah-using-paretos-principle-for-securing-aws-with <!-- managed -->
 - url: https://www.youtube.com/watch?v=RiZxb98sGTk
 - format: talk
-- date: 2019-12-20
+- date: 2019-08-09 <!-- DEF CON 27 Cloud Village ran Aug 9-11, 2019; exact day unknown -->
 - event: DEFCONConference
 - category:
 - topics: Cloud Security
@@ -62,7 +62,7 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - id: day-1-03-applying-pareto-s-principle-to-securing-aws-with <!-- managed -->
 - url: https://www.youtube.com/watch?v=_Nxjfr2OqxQ
 - format: talk
-- date: 2019-12-14
+- date: 2019-11-08 <!-- Day 1 of Pacific Hackers Conference, Nov 8-10, 2019 -->
 - event: Pacific Hackers Association
 - category:
 - topics: Cloud Security
@@ -75,7 +75,7 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - id: bsidessf-2026-google-drive-hunter-building-the-tool-google <!-- managed -->
 - url: https://www.youtube.com/watch?v=sOv8R4TTOPg
 - format: talk <!-- guessed from 2 voice(s); fix if wrong -->
-- date: 2026-05-12
+- date: 2026-03-22 <!-- session date from the sched.com link -->
 - event: Security BSides San Francisco
 - category:
 - topics: Identity & Data Protection
@@ -88,7 +88,7 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - id: bsidessf-2015-federating-aws-cli-ayman-elsawah-paul-moreno <!-- managed -->
 - url: https://www.youtube.com/watch?v=iQ3ALCjxv4g
 - format: interview <!-- guessed from 2 voice(s); fix if wrong -->
-- date: 2015-04-20
+- date: 2015-04-20 <!-- session date from the sched.com link -->
 - event: Security BSides San Francisco
 - category:
 - topics: Cloud Security, Identity & Data Protection
@@ -101,7 +101,7 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - id: ayman-elsawah-on-cloud-security-and-infosec-careers <!-- managed -->
 - url: https://www.youtube.com/watch?v=KJvPHZGtGdM
 - format: interview
-- date: 2019-05-02
+- date: 2019-05-01 <!-- from the video description -->
 - event: Sam Bowne
 - category:
 - topics: Cloud Security, Careers
@@ -386,7 +386,7 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - id: bsides-sf-2025-vlog-interview-with-ayman-elsawah-meeting <!-- managed -->
 - url: https://www.youtube.com/watch?v=7x_VJLEIuQA
 - format: interview <!-- guessed from 2 voice(s); fix if wrong -->
-- date: 2025-05-07
+- date: 2025-04-26 <!-- BSidesSF 2025 ran Apr 26-27; exact day unknown -->
 - event: Three Headed Beast Security
 - category:
 - topics: Careers, AI Security
@@ -541,11 +541,11 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 ## Getting AI Pilled Without Getting Breached
 - id: getting-ai-pilled-without-getting-breached <!-- managed -->
 - url: https://youtu.be/gNhybzC33ek
-- format: interview <!-- guessed from 2 voice(s); fix if wrong -->
-- date: 2026-10-15
+- format: interview
+- date: 2026-07-29 <!-- per Ayman -->
 - event: Coffee With Ayman - Security Cafe
 - category:
-- topics:
+- topics: AI Security
 - summary: Ayman explains the importance of visibility into AI tool usage, segmenting users by risk profile, and implementing preventative controls such as limiting access to corporate-sanctioned tools. He emphasizes the need for education and collaboration with business teams to ensure secure AI adoption, while also highlighting the role of legal frameworks like BAA and ZDR in securing sensitive data.
 - status: ✅ ingested 2026-10-15 · 444 lines · speaker auto (voiceprint 0.86 + name mentioned) · 111 flagged <!-- managed -->
 

@@ -15,7 +15,7 @@ import traceback
 from pathlib import Path
 
 from . import clean as clean_mod
-from . import config, enrich, fetch, publish, speakers
+from . import config, dates, enrich, fetch, publish, speakers
 from . import intake_md as md
 
 log = logging.getLogger("cwa_ingest")
@@ -70,11 +70,11 @@ def add_url(url: str) -> str | None:
     if not fetch.is_video(info):
         return md.append_entry(config.TALKS_MD, info.get("title") or url,
                                {"url": url, "status": "⏭ skipped: audio only — the archive is videos only"})
-    date = info.get("upload_date")
+    date, note = dates.talk_date(info)
     fields = {
         "url": url,
         "format": "",
-        "date": f"{date[:4]}-{date[4:6]}-{date[6:]}" if date else "",
+        "date": f"{date} <!-- {note} -->" if note else date,
         "event": info.get("channel") or info.get("uploader") or "",
         "category": "",
         "topics": "",
@@ -211,6 +211,9 @@ def process(entry: md.Entry, *, force: bool = False) -> None:
     # 6. summary (local model) — only while the field is empty, so Ayman's edits stick
     if not entry.get("summary"):
         _summarize(entry, json.loads(out.read_text()))
+    # 7. topics — every talk gets at least one, picked from taxonomy.md while the field is empty
+    if not entry.topics:
+        _pick_topics(next(e for e in md.parse_talks(config.TALKS_MD) if e.slug == slug))
 
     if st.data == before and s.startswith("✅"):
         return   # nothing changed; leave the status line alone
@@ -233,6 +236,23 @@ def _summarize(entry: md.Entry, transcript: dict) -> None:
     if text:
         md.set_field(config.TALKS_MD, entry.slug, "summary", text)
         log.info("%s: summary written", entry.slug)
+
+
+def _pick_topics(entry: md.Entry) -> None:
+    choices = md.parse_taxonomy(config.TAXONOMY_MD)["topics"]
+    if not choices:
+        return
+    examples = [(e.title, e.topics) for e in md.parse_talks(config.TALKS_MD) if e.topics and e.slug != entry.slug]
+    try:
+        picked = enrich.pick_topics(entry.title, entry.get("event"), entry.get("summary"), choices, examples)
+    except Exception as exc:  # noqa: BLE001 - like the summary, never fail the talk over it
+        log.warning("%s: topic pick failed: %s", entry.slug, exc)
+        return
+    if picked:
+        md.set_field(config.TALKS_MD, entry.slug, "topics", ", ".join(picked))
+        log.info("%s: topics %s", entry.slug, picked)
+    else:
+        log.warning("%s: model picked no topic; will retry on the next pass", entry.slug)
 
 
 def _learn_voice(workdir: Path, slug: str, label: str) -> None:
