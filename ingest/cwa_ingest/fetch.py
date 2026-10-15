@@ -41,6 +41,7 @@ def fetch_url(url: str, workdir: Path, clip: tuple[float, float] | None) -> dict
     workdir.mkdir(parents=True, exist_ok=True)
     opts = {
         "quiet": True,
+        "noprogress": True,
         "noplaylist": True,
         "format": "bestaudio/best",
         "outtmpl": str(workdir / "source.%(ext)s"),

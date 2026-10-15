@@ -68,6 +68,8 @@ DIARIZATION_MODEL = "pyannote/speaker-diarization-community-1"
 # values; tune them on the first ~10 talks Ayman confirms by hand.
 VOICE_ACCEPT = 0.55
 VOICE_MARGIN = 0.15
+# Recordings from these YouTube channels are Ayman's own: strong "it's him" context.
+OWN_CHANNELS = ("@coffeewithayman",)
 SOLO_SHARE = 0.85          # one speaker holding this much talk time = solo talk
 MIN_SPEAKER_SHARE = 0.03   # ignore diarization crumbs below this share
 CONTEXT_SECONDS = 30       # question kept before each of Ayman's answers on panels

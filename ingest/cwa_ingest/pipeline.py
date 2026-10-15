@@ -145,7 +145,8 @@ def process(entry: md.Entry, *, force: bool = False) -> None:
     fp_spk = _fp(fp_tx, override, speakers.voiceprint_version())
     if not st.fresh("speakers", fp_spk, "speakers.json"):
         status(slug, "👂 identifying speakers")
-        decision = speakers.decide(st.dir, transcript, override)
+        info = json.loads((st.dir / "info.json").read_text()) if (st.dir / "info.json").exists() else {}
+        decision = speakers.decide(st.dir, transcript, override, info)
         speakers.save_decision(st.dir, decision)
         if decision.status == "override" and decision.ayman:
             _learn_voice(st.dir, slug, decision.ayman)
@@ -162,6 +163,9 @@ def process(entry: md.Entry, *, force: bool = False) -> None:
         status(slug, "⏭ skipped: Ayman isn't in this recording")
         publish.compile_catalog(md.parse_talks(config.TALKS_MD))
         return
+    if decision["status"] != "review" and s.startswith("👤"):
+        # resolved without Ayman (e.g. the voiceprint improved): close the open review item
+        md.close_speaker_review(config.SPEAKERS_MD, slug, f"resolved automatically ({decision['reason']})")
     if decision["status"] == "review":
         if not s.startswith("👤"):
             samples = speakers.write_samples(st.dir, transcript)

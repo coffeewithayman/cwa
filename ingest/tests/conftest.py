@@ -18,6 +18,8 @@ def repo(tmp_path, monkeypatch):
     (intake / "talks.md").write_text(talks + "## Inbox\n<!-- Paste URLs here, one per line. -->\n\n")
     speakers = (intake / "speakers.md").read_text().split("\n## ")[0]
     (intake / "speakers.md").write_text(speakers + "\n")
+    clips = (intake / "voiceprint.md").read_text().split("## Clips")[0]
+    (intake / "voiceprint.md").write_text(clips + "## Clips\n")
     paths = {
         "REPO": tmp_path, "INTAKE": intake,
         "TALKS_MD": intake / "talks.md", "VOCAB_MD": intake / "vocab.md",

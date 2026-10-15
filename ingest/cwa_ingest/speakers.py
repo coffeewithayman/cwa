@@ -95,7 +95,12 @@ def voiceprint_version() -> str:
 
 # --- decision ---------------------------------------------------------------------
 
-def decide(workdir: Path, transcript: dict, override: str | None) -> SpeakerDecision:
+def is_own_channel(info: dict) -> bool:
+    fields = " ".join(str(info.get(k) or "") for k in ("channel_url", "uploader_url", "uploader_id", "channel")).lower()
+    return any(c.lower().lstrip("@") in fields for c in config.OWN_CHANNELS)
+
+
+def decide(workdir: Path, transcript: dict, override: str | None, info: dict | None = None) -> SpeakerDecision:
     turns = speaker_turns(transcript.get("diarization", []))
     talk_time = {spk: sum(e - s for s, e in t) for spk, t in turns.items()}
     total = sum(talk_time.values()) or 1.0
@@ -117,15 +122,16 @@ def decide(workdir: Path, transcript: dict, override: str | None) -> SpeakerDeci
     named = any(h in text for h in NAME_HINTS)
     solo = max(shares.values(), default=0) >= config.SOLO_SHARE
     dominant = max(shares, key=shares.get) if shares else None
+    own = is_own_channel(info or {})
 
     if scores:
         ranked = sorted(scores.items(), key=lambda kv: kv[1], reverse=True)
         best, best_score = ranked[0]
         margin = best_score - (ranked[1][1] if len(ranked) > 1 else 0.0)
         voice_ok = best_score >= config.VOICE_ACCEPT and margin >= config.VOICE_MARGIN
-        context_ok = named or (solo and best == dominant)
+        context_ok = named or (solo and best == dominant) or (own and best == dominant)
         if voice_ok and context_ok:
-            why = "name mentioned" if named else "solo recording"
+            why = "name mentioned" if named else "own channel" if own else "solo recording"
             return SpeakerDecision(best, "auto", f"voiceprint {best_score:.2f} + {why}", scores, shares)
         if best_score < config.VOICE_ACCEPT * 0.6 and not named:
             reason = f"no speaker sounds like Ayman (best {best_score:.2f}) and his name isn't mentioned"
@@ -133,7 +139,9 @@ def decide(workdir: Path, transcript: dict, override: str | None) -> SpeakerDeci
             reason = f"voiceprint unsure ({', '.join(f'{s} {v:.2f}' for s, v in ranked)}); name mentioned: {'yes' if named else 'no'}"
         return SpeakerDecision(None, "review", reason, scores, shares)
 
-    # No voiceprint enrolled yet: only a clear solo recording is accepted.
+    # No voiceprint enrolled yet: only a clear solo recording (or his own channel) is accepted.
+    if own and dominant:
+        return SpeakerDecision(dominant, "solo", f"own channel, main voice ({shares[dominant]:.0%})", shares=shares)
     if solo and dominant:
         return SpeakerDecision(dominant, "solo", f"solo recording ({shares[dominant]:.0%} one voice), no voiceprint yet",
                                shares=shares)

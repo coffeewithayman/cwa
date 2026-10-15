@@ -5,7 +5,7 @@ with a 10-second sample of each speaker. Listen, tick the one that's Ayman
 (or "none"), save — the watcher picks it up, re-processes the talk and adds
 that voice to the voiceprint so it gets better over time.
 
-## Can employees safely use AI agents? AI pentesting agent liabilities, and the news - ESW #473
+## ~~Can employees safely use AI agents? AI pentesting agent liabilities, and the news - ESW #473~~ ✔ resolved automatically (voiceprint 0.85 + name mentioned) 2026-10-15
 <!-- id: can-employees-safely-use-ai-agents-ai-pentesting-agent -->
 no voiceprint enrolled yet and more than one voice
 - [ ] SPEAKER_00 — 7% of talk time — ingest/cache/can-employees-safely-use-ai-agents-ai-pentesting-agent/samples/SPEAKER_00.wav — "I've been on both sides of the fence of pentesting."

@@ -26,6 +26,6 @@ Notes: add bullets under any entry's `### Notes`. Open notes get handled with
 - event: Security Weekly - A CRA Resource
 - category:
 - topics:
-- status: 👤 needs speaker review — see intake/speakers.md <!-- managed -->
+- status: ✅ ingested 2026-10-15 · 199 lines · speaker auto (voiceprint 0.85 + name mentioned) · 174 flagged <!-- managed -->
 
 ### Notes

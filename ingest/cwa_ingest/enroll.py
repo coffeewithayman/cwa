@@ -19,16 +19,27 @@ def _embed_clip(wav_path: Path) -> "speakers.np.ndarray":
     window = 10 * 16000
     vecs = [speakers.embed(audio[i:i + window]) for i in range(0, max(len(audio) - window // 2, 1), window)
             if len(audio[i:i + window]) >= 3 * 16000]
-    v = np.mean(vecs, axis=0)
+    if not vecs:
+        raise ValueError("clip has no usable speech")
+    # Drop windows that don't sound like the rest (intro music, silence, a second voice).
+    vecs = np.array(vecs)
+    centre = vecs.mean(axis=0)
+    centre /= np.linalg.norm(centre)
+    sims = vecs @ centre
+    keep = vecs[sims >= max(0.5, float(np.median(sims)) - 0.15)]
+    log.info("  kept %d of %d windows", len(keep), len(vecs))
+    v = keep.mean(axis=0)
     return v / np.linalg.norm(v)
 
 
 def enroll() -> int:
     added = 0
-    for idx, src, start, end, enrolled in md.voiceprint_clips(config.VOICEPRINT_MD):
-        if enrolled:
-            continue
+    for idx, src, start, end, _marked in md.voiceprint_clips(config.VOICEPRINT_MD):
         name = "clip-" + hashlib.sha256(f"{src}|{start}|{end}".encode()).hexdigest()[:10]
+        # The ✅ travels with git but the embedding (ingest/voiceprint/) doesn't,
+        # so a fresh checkout re-enrols every clip.
+        if (config.VOICEPRINT_DIR / f"{name}.npy").exists():
+            continue
         try:
             with tempfile.TemporaryDirectory() as tmp:
                 work = Path(tmp)
