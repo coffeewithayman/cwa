@@ -1,14 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-    <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="7">
-        <path d="M44 22c-4 5-4 9 0 14M64 22c-4 5-4 9 0 14M84 22c-4 5-4 9 0 14" />
-        <path d="M30 50h62l-6 42a10 10 0 0 1-10 8H46a10 10 0 0 1-10-8L30 50Z" />
-        <path d="M92 58h6a13 13 0 0 1 0 26h-8" />
-        <path d="M20 106h88" />
-    </g>
-    <style>
-        path { stroke: #000; }
-        @media (prefers-color-scheme: dark) {
-            path { stroke: #FFF; }
-        }
-    </style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <text x="50" y="50" font-size="88" text-anchor="middle" dominant-baseline="central">☕</text>
 </svg>
