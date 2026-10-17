@@ -166,6 +166,14 @@ export const nodes: NodeConfig[] = [
     ringColor: "#e05a8a",
   },
   {
+    id: "press",
+    mainText: "Press &\nWriting",
+    secondaryText: "FEATURED IN",
+    tooltip: "Articles I've been quoted in and books I've contributed to",
+    href: "/press/",
+    ringColor: "#4ac6c6",
+  },
+  {
     id: "misc-projects",
     mainText: "Misc\nProjects",
     secondaryText: "GITHUB",
